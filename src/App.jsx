@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
-import { FiWine, FiShield, FiHome } from "react-icons/fi";
+import { FiShield, FiHome } from "react-icons/fi";
+import { GiWineBottle } from "react-icons/gi";
 import "./App.css";
 
 import dinnerData from "./data/dinner.json";
@@ -42,7 +43,7 @@ function App() {
             Drinks
           </NavLink>
           <NavLink to="/pairings" className="nav-link icon-link">
-            <FiWine /> Pairings
+            <GiWineBottle /> Pairings
           </NavLink>
           <NavLink to="/admin" className="nav-link icon-link">
             <FiShield /> Admin

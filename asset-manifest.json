@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Via-Menu-Guide/static/css/main.626986a5.css",
+    "main.js": "/Via-Menu-Guide/static/js/main.2489486c.js",
+    "index.html": "/Via-Menu-Guide/index.html",
+    "main.626986a5.css.map": "/Via-Menu-Guide/static/css/main.626986a5.css.map",
+    "main.2489486c.js.map": "/Via-Menu-Guide/static/js/main.2489486c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.626986a5.css",
+    "static/js/main.2489486c.js"
+  ]
+}

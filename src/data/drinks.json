@@ -1,10 +1,10 @@
 [
   {
-    "id": "peroni",
+    "id": "peroni-draught",
     "name": "Peroni Lager",
-    "description": "Italian pale lager.",
-    "price": 9.0,
-    "category": "Beer",
+    "description": "Italy, 5.1% ABV",
+    "price": 9,
+    "category": "Draught",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -18,6 +18,437 @@
     "allergens": [
       "gluten"
     ]
+  },
+  {
+    "id": "summer-ale-draught",
+    "name": "\"Summer Ale\" by Sam Adams",
+    "description": "5.3% ABV",
+    "price": 10,
+    "category": "Draught",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "pulp-daddy-ipa-draught",
+    "name": "\"Pulp Daddy\" Imperial IPA by Greater Good",
+    "description": "Worcester, MA, 13 oz., 8% ABV",
+    "price": 10,
+    "category": "Draught",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "lunch-car-ipa-draught",
+    "name": "\"Lunch Car\" by Double Down",
+    "description": "West Coast IPA, Worcester, MA, 6.5% ABV",
+    "price": 10,
+    "category": "Draught",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "allagash-white-bottle",
+    "name": "Allagash White Wheat Ale",
+    "description": "Portland ME, 16 oz., 5.2% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "wheat",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "carlson-oak-hill-cider",
+    "name": "Carlson \"Oak Hill\" Hard Cider",
+    "description": "Harvard, MA, 16 oz., 5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "apple"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "wachusett-ipa-bottle",
+    "name": "Wachusett IPA",
+    "description": "Westminster, MA, 12 oz., 6.5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "behoppy-wormtown-ipa",
+    "name": "\"Be'Hoppy\" by Wormtown IPA",
+    "description": "Worcester, MA, 16 oz. 6.5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "switchback-ale-bottle",
+    "name": "Switchback Ale",
+    "description": "Burlington, VT, 16 oz., 5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "bridlehead-ipa-bottle",
+    "name": "Bridlehead IPA",
+    "description": "Shelburne, VT, 16 oz., 6.2% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "high-noon-pineapple",
+    "name": "High Noon Pineapple Vodka Soda",
+    "description": "Modesto, CA, 12 oz. 4.5% ABV",
+    "price": 9,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "pineapple"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "high-noon-peach",
+    "name": "High Noon Peach Vodka Soda",
+    "description": "Modesto, CA, 12 oz. 4.5% ABV",
+    "price": 9,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "peach"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "high-noon-watermelon",
+    "name": "High Noon Watermelon Vodka Soda",
+    "description": "CA, 12 oz. 4.5% ABV",
+    "price": 9,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "watermelon"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "allagash-curieux",
+    "name": "Allagash, Curieux, Barrel Aged Tripel",
+    "description": "ME, 16 oz., 10.2% ABV",
+    "price": 13,
+    "category": "Bottles & Cans",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "peroni-na-bottle",
+    "name": "Peroni, Lager",
+    "description": "12 oz. Bottle",
+    "price": 6,
+    "category": "Non-Alcoholic Beer",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "heineken-zero-bottle",
+    "name": "Heineken \"0.0\" Lager",
+    "description": "12 oz. Bottle",
+    "price": 6,
+    "category": "Non-Alcoholic Beer",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "sam-adams-just-the-haze",
+    "name": "Sam Adams \"Just The Haze\"",
+    "description": "NEIPA, 12 oz. Can",
+    "price": 6,
+    "category": "Non-Alcoholic Beer",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "athletic-run-wild-ipa",
+    "name": "Athletic \"Run Wild\" IPA",
+    "description": "12 oz. Can",
+    "price": 7,
+    "category": "Non-Alcoholic Beer",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "ceretto-moscato-half",
+    "name": "Ceretto Vignaioli Moscato D'Asti",
+    "description": "DOCG, Piemonte, JS 90, 2023",
+    "price": 25,
+    "category": "Half Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-crema-chardonnay-half",
+    "name": "La Crema Chardonnay",
+    "description": "Sonoma Coast, 2023",
+    "price": 29,
+    "category": "Half Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "duckhorn-sauvignon-blanc-half",
+    "name": "Duckhorn Sauvignon Blanc",
+    "description": "North Coast, JS 91, 2023",
+    "price": 29,
+    "category": "Half Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "alphonse-mellot-sancerre-half",
+    "name": "Alphonse Mellot La Moussiere",
+    "description": "Sancerre, FR, 2023",
+    "price": 35,
+    "category": "Half Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "stags-leap-cabernet-half",
+    "name": "Stags' Leap, Cabernet",
+    "description": "Napa, 2022",
+    "price": 44,
+    "category": "Half Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "damiano-barolo-half",
+    "name": "Damiano Lecrivequevne Barolo",
+    "description": "DOCG, Piemonte, RP 93, 2020",
+    "price": 45,
+    "category": "Half Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "bv-tapestry-half",
+    "name": "BV \"Tapestry\"",
+    "description": "Napa, JS 94, 2021",
+    "price": 48,
+    "category": "Half Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "moillard-champagne-half",
+    "name": "Moillard Père & Fils Brut Granville Cuvée",
+    "description": "Champagne, FR, WE 90, N.V.",
+    "price": 48,
+    "category": "Half Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
   },
   {
     "id": "barrel-aged-sangria",
@@ -295,6 +726,502 @@
       "lime",
       "ginger",
       "passionfruit"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "rosina-barbera",
+    "name": "\"Rosina\" Barbera D'Asti Superiore",
+    "description": "DOCG, Piemonte, 2020",
+    "price": 13,
+    "category": "Italian Reds",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "san-felice-chianti",
+    "name": "San Felice Chianti Classico",
+    "description": "DOCG, Tuscany, 2022",
+    "price": 13,
+    "category": "Italian Reds",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "ascher-barolo",
+    "name": "Ascher Barolo",
+    "description": "DOCG, Piemonte, 2021",
+    "price": 15,
+    "category": "Italian Reds",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "bussola-valpolicella",
+    "name": "Bussola Valpolicella Ripasso",
+    "description": "DOCG, Veneto, 2019",
+    "price": 15,
+    "category": "Italian Reds",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "guatzo-brunello",
+    "name": "Guatzo Brunello Di Montalcino",
+    "description": "DOCG & 95, 2019",
+    "price": 18,
+    "category": "Italian Reds",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "olillo-super-tuscan",
+    "name": "\"O'Lillo\" by Baracchi",
+    "description": "IGT, Tuscany, 2023",
+    "price": 13,
+    "category": "Super Tuscan",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "felino-malbec",
+    "name": "Felino Malbec",
+    "description": "Mendoza, Argentina, JS 93, 2023",
+    "price": 13,
+    "category": "Merlot & Malbec",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "stags-leap-merlot",
+    "name": "Stags' Leap Merlot",
+    "description": "Napa, JS 95, 2022",
+    "price": 15,
+    "category": "Merlot & Malbec",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "siduri-pinot-noir",
+    "name": "Siduri",
+    "description": "Willamette Valley, 2023",
+    "price": 12,
+    "category": "Organic Pinot Noir",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cambria-julias-vineyard",
+    "name": "Cambria \"Julia's Vineyard\"",
+    "description": "Santa Maria, 2023",
+    "price": 13,
+    "category": "Organic Pinot Noir",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "the-federalist",
+    "name": "\"The Federalist\" by Terlato Wines",
+    "description": "2022",
+    "price": 12,
+    "category": "Cabernet & Blends",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "greenwing-cabernet",
+    "name": "Greenwing Cabernet by Duckhorn",
+    "description": "Columbia Valley, 2023",
+    "price": 13,
+    "category": "Cabernet & Blends",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "band-of-vintners",
+    "name": "Band of Vintners Cabernet",
+    "description": "Napa, RP 92, 2022",
+    "price": 15,
+    "category": "Cabernet & Blends",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cakebread-mullan-road",
+    "name": "Cakebread \"Mullan Road\"",
+    "description": "Washington, 2022",
+    "price": 15,
+    "category": "Cabernet & Blends",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "austin-hope-cabernet",
+    "name": "Austin Hope Cabernet",
+    "description": "Paso Robles, 2022",
+    "price": 17,
+    "category": "Cabernet & Blends",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "matua-sauvignon-blanc",
+    "name": "Matua",
+    "description": "Marlborough, NZ, 2024",
+    "price": 12,
+    "category": "Sauvignon Blanc",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "knights-bridge-sauvignon",
+    "name": "Knights Bridge \"Pont de Chevalier\"",
+    "description": "Knights Valley, 2023",
+    "price": 16,
+    "category": "Sauvignon Blanc",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-crema-chardonnay",
+    "name": "La Crema",
+    "description": "Monterey, 2023",
+    "price": 12,
+    "category": "Chardonnay",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "rombauer-chardonnay",
+    "name": "Rombauer",
+    "description": "Carneros, 2023",
+    "price": 17,
+    "category": "Chardonnay",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-eiera-pinot-grigio",
+    "name": "La Eiera Pinot Grigio",
+    "description": "2024",
+    "price": 12,
+    "category": "Interesting Whites",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loosen-riesling",
+    "name": "Loosen Riesling",
+    "description": "Germany, 2023",
+    "price": 12,
+    "category": "Interesting Whites",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gd-valle-realis-bello",
+    "name": "GD Valle Realis Bello",
+    "description": "Piedmont, 2024",
+    "price": 12,
+    "category": "Interesting Whites",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "guado-al-tasso-vermentino",
+    "name": "Guado Al Tasso, Vermentino",
+    "description": "Tuscany, 2024",
+    "price": 13,
+    "category": "Interesting Whites",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gianni-gagliardo-roero",
+    "name": "Gianni Gagliardo Roero Arneis",
+    "description": "DOCG, Piemonte, 2022",
+    "price": 14,
+    "category": "Interesting Whites",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "santa-margherita-pinot",
+    "name": "Santa Margherita Pinot Grigio",
+    "description": "Alto Adige, 2024",
+    "price": 14,
+    "category": "Interesting Whites",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "centorri-moscato",
+    "name": "Centorri Moscato di Pavia",
+    "description": "IGT Lombardy, 11, 2023",
+    "price": 11,
+    "category": "Sparkling",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "benvolio-prosecco",
+    "name": "Benvolio Prosecco",
+    "description": "DOC, Friuli, Italy, N.V.",
+    "price": 13,
+    "category": "Sparkling",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "mionetto-luxury-prosecco",
+    "name": "Mionetto Luxury Prosecco",
+    "description": "Veneto, Italy N.V.",
+    "price": 15,
+    "category": "Sparkling",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "nicolas-feuillatte-brut",
+    "name": "Nicolas Feuillatte Brut",
+    "description": "Champagne, France, WS 92, N.V.",
+    "price": 18,
+    "category": "Sparkling",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "nicolas-feuillatte-rose",
+    "name": "Nicolas Feuillatte Brut Rosé",
+    "description": "Champagne, France, WS 90, N.V.",
+    "price": 21,
+    "category": "Sparkling",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "world-wide-whites-flight",
+    "name": "World Wide Whites Flight",
+    "description": "Loosen Riesling, Germany, 2023 | \"Matua\" Marlborough, NZ, 2024 | La Crema Chardonnay, Monterey, 2023",
+    "price": 15,
+    "category": "Wine Flights",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "tuscany-vs-usa-flight",
+    "name": "Tuscany vs. USA Flight",
+    "description": "San Felice Chianti Classico, DOCG, Tuscany, 2022 | \"O'Lillo\" by Baracchi, IGT, Tuscany, 2024 | Greenwing Cabernet by Duckhorn, Columbia Valley, 2023",
+    "price": 15,
+    "category": "Wine Flights",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "world-renown-winemakers-flight",
+    "name": "World Renown Winemakers Flight",
+    "description": "Band of Vintners Cabernet, Napa, RP 92, 2022 | Cakebread \"Mullan Road\", Washington, 2022 | Rombauer Chardonnay, Carneros, 2023 | Cambria \"Julia's Vineyard\", Santa Maria, 2018",
+    "price": 18,
+    "category": "Wine Flights",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine",
+      "white-wine"
     ],
     "allergens": []
   }

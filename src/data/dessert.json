@@ -1,0 +1,24 @@
+[
+  {
+    "id": "tiramisu",
+    "name": "Tiramisu",
+    "description": "Espresso-soaked ladyfingers, mascarpone cream, cocoa.",
+    "price": 10.0,
+    "category": "Desserts",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "ladyfingers",
+      "espresso",
+      "mascarpone",
+      "cream"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "egg"
+    ]
+  }
+]

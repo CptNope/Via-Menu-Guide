@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fried-calamari",
+    "name": "Fried Calamari",
+    "description": "Cherry peppers, lemon, marinara sauce.",
+    "price": 16.99,
+    "category": "Appetizers",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "calamari",
+      "flour",
+      "cherry-peppers",
+      "lemon",
+      "marinara-sauce"
+    ],
+    "allergens": [
+      "shellfish",
+      "gluten"
+    ]
+  },
+  {
+    "id": "three-meatballs",
+    "name": "Three Meatballs",
+    "description": "Beef & pork meatballs, tomato sauce, ricotta, pecorino.",
+    "price": 14.5,
+    "category": "Appetizers",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "beef",
+      "pork",
+      "breadcrumbs",
+      "tomato-sauce",
+      "ricotta",
+      "pecorino"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
+  },
+  {
+    "id": "margherita-pizza",
+    "name": "Margherita Pizza",
+    "description": "Tomato, fresh mozzarella, basil.",
+    "price": 18.0,
+    "category": "Pizzas",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "pizza-dough",
+      "tomato-sauce",
+      "mozzarella",
+      "basil"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
+  }
+]

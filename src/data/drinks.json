@@ -1,0 +1,22 @@
+[
+  {
+    "id": "peroni",
+    "name": "Peroni Lager",
+    "description": "Italian pale lager.",
+    "price": 9.0,
+    "category": "Beer",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "water",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  }
+]

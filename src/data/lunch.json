@@ -1,0 +1,23 @@
+[
+  {
+    "id": "caprese-panini",
+    "name": "Caprese Panini",
+    "description": "Fresh mozzarella, tomato, basil, balsamic.",
+    "price": 14.0,
+    "category": "Panini",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "ciabatta",
+      "tomato-sauce",
+      "mozzarella",
+      "basil"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
+  }
+]

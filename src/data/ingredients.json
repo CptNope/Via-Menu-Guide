@@ -1,0 +1,149 @@
+[
+  {
+    "id": "calamari",
+    "name": "Calamari (squid)",
+    "allergens": [
+      "shellfish"
+    ]
+  },
+  {
+    "id": "flour",
+    "name": "Wheat Flour",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "cherry-peppers",
+    "name": "Cherry Peppers",
+    "allergens": []
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon",
+    "allergens": []
+  },
+  {
+    "id": "marinara-sauce",
+    "name": "Marinara Sauce",
+    "allergens": []
+  },
+  {
+    "id": "beef",
+    "name": "Beef",
+    "allergens": []
+  },
+  {
+    "id": "pork",
+    "name": "Pork",
+    "allergens": []
+  },
+  {
+    "id": "breadcrumbs",
+    "name": "Breadcrumbs",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "tomato-sauce",
+    "name": "Tomato Sauce",
+    "allergens": []
+  },
+  {
+    "id": "ricotta",
+    "name": "Ricotta",
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "pecorino",
+    "name": "Pecorino Romano",
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "pizza-dough",
+    "name": "Pizza Dough",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "mozzarella",
+    "name": "Fresh Mozzarella",
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "allergens": []
+  },
+  {
+    "id": "ciabatta",
+    "name": "Ciabatta Bread",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "ladyfingers",
+    "name": "Ladyfingers",
+    "allergens": [
+      "gluten",
+      "egg"
+    ]
+  },
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "allergens": []
+  },
+  {
+    "id": "mascarpone",
+    "name": "Mascarpone Cheese",
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "cream",
+    "name": "Cream",
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "spaghetti",
+    "name": "Spaghetti",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "barley",
+    "name": "Barley Malt",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "allergens": []
+  },
+  {
+    "id": "hops",
+    "name": "Hops",
+    "allergens": []
+  },
+  {
+    "id": "yeast",
+    "name": "Yeast",
+    "allergens": []
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "kids-spaghetti-meatball",
+    "name": "Kids Spaghetti & Meatball",
+    "description": "Spaghetti with tomato sauce and one meatball.",
+    "price": 9.5,
+    "category": "Kids",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "spaghetti",
+      "tomato-sauce",
+      "beef",
+      "breadcrumbs"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  }
+]

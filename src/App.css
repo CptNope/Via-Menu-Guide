@@ -1,0 +1,275 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background: #2b1c18;
+  color: #f5e9da;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.08em;
+}
+
+.brand-main {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.brand-sub {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.nav-link.active {
+  border-color: #f5e9da;
+  background: #5a2a27;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.app-main {
+  flex: 1;
+  padding: 1rem;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app-footer {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  background: #e6d7c8;
+  font-size: 0.8rem;
+}
+
+.page {
+  padding: 0.5rem;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.menu-title {
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5a2a27;
+  padding-bottom: 0.25rem;
+}
+
+.menu-subtitle {
+  font-size: 0.9rem;
+  color: #6b4a3b;
+}
+
+.menu-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.menu-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid #b08a65;
+  font-size: 0.8rem;
+  background: #f7efe4;
+  cursor: pointer;
+}
+
+.filter-pill input {
+  cursor: pointer;
+}
+
+.menu-category {
+  margin-top: 0.75rem;
+}
+
+.menu-category-title {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid #c6aa8b;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.menu-item-card {
+  padding: 0.4rem 0.25rem;
+  border-bottom: 1px dashed #d0bca3;
+}
+
+.menu-item-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.menu-item-name {
+  font-weight: 600;
+}
+
+.menu-item-price {
+  font-weight: 500;
+}
+
+.menu-item-description {
+  font-size: 0.9rem;
+  color: #5b4637;
+}
+
+.menu-item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.15rem;
+}
+
+.tag-pill {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 999px;
+  background: #eaddcf;
+}
+
+.tag-pill.danger {
+  background: #f7c0b8;
+}
+
+.admin-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-section {
+  border: 1px solid #c6aa8b;
+  border-radius: 8px;
+  padding: 0.75rem;
+  background: #fffaf4;
+}
+
+.admin-list {
+  max-height: 320px;
+  overflow: auto;
+  border-top: 1px solid #e0ccb1;
+  margin-top: 0.5rem;
+}
+
+.admin-item-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px dashed #e0ccb1;
+  font-size: 0.9rem;
+}
+
+.button {
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #5a2a27;
+  background: #5a2a27;
+  color: #f5e9da;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.button.secondary {
+  background: transparent;
+  color: #5a2a27;
+}
+
+.button.small {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.form-grid {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.form-grid label {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grid input,
+.form-grid textarea,
+.form-grid select {
+  padding: 0.25rem 0.35rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  border: 1px solid #c6aa8b;
+}
+
+.login-card {
+  max-width: 320px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fffaf4;
+  border: 1px solid #c6aa8b;
+}
+
+.login-card h1 {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+@media (max-width: 640px) {
+  .app-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

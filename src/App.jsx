@@ -1,0 +1,149 @@
+import React, { useState } from "react";
+import { Routes, Route, NavLink } from "react-router-dom";
+import { FiWine, FiShield, FiHome } from "react-icons/fi";
+import "./App.css";
+
+import dinnerData from "./data/dinner.json";
+import lunchData from "./data/lunch.json";
+import dessertData from "./data/dessert.json";
+import kidsData from "./data/kids.json";
+import drinksData from "./data/drinks.json";
+import winesData from "./data/wines.json";
+
+import MenuPage from "./components/MenuPage";
+import PairingsPage from "./components/PairingsPage";
+import AdminLogin from "./components/AdminLogin";
+import AdminPanel from "./components/AdminPanel";
+
+function App() {
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  return (
+    <div className="app">
+      <header className="app-header">
+        <div className="brand">
+          <span className="brand-main">VIA</span>
+          <span className="brand-sub">Italian Table</span>
+        </div>
+        <nav className="nav">
+          <NavLink to="/dinner" className="nav-link">
+            Dinner
+          </NavLink>
+          <NavLink to="/lunch" className="nav-link">
+            Lunch
+          </NavLink>
+          <NavLink to="/dessert" className="nav-link">
+            Dessert
+          </NavLink>
+          <NavLink to="/kids" className="nav-link">
+            Kids
+          </NavLink>
+          <NavLink to="/drinks" className="nav-link">
+            Drinks
+          </NavLink>
+          <NavLink to="/pairings" className="nav-link icon-link">
+            <FiWine /> Pairings
+          </NavLink>
+          <NavLink to="/admin" className="nav-link icon-link">
+            <FiShield /> Admin
+          </NavLink>
+        </nav>
+      </header>
+
+      <main className="app-main">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <MenuPage
+                title="Dinner"
+                data={dinnerData}
+                showKidsFilter={false}
+              />
+            }
+          />
+          <Route
+            path="/dinner"
+            element={
+              <MenuPage
+                title="Dinner"
+                data={dinnerData}
+                showKidsFilter={false}
+              />
+            }
+          />
+          <Route
+            path="/lunch"
+            element={
+              <MenuPage
+                title="Lunch"
+                data={lunchData}
+                showKidsFilter={false}
+              />
+            }
+          />
+          <Route
+            path="/dessert"
+            element={
+              <MenuPage
+                title="Dessert"
+                data={dessertData}
+                showKidsFilter={false}
+              />
+            }
+          />
+          <Route
+            path="/kids"
+            element={
+              <MenuPage title="Kids" data={kidsData} showKidsFilter={false} />
+            }
+          />
+          <Route
+            path="/drinks"
+            element={
+              <MenuPage
+                title="Drinks"
+                data={drinksData}
+                showKidsFilter={false}
+              />
+            }
+          />
+          <Route
+            path="/pairings"
+            element={<PairingsPage wines={winesData} menus={{ dinnerData, lunchData, dessertData, kidsData }} />}
+          />
+          <Route
+            path="/admin"
+            element={
+              isAdmin ? (
+                <AdminPanel
+                  onLogout={() => setIsAdmin(false)}
+                  menus={{ dinnerData, lunchData, dessertData, kidsData, drinksData }}
+                />
+              ) : (
+                <AdminLogin onLogin={() => setIsAdmin(true)} />
+              )
+            }
+          />
+          <Route
+            path="*"
+            element={
+              <div className="page">
+                <h1>
+                  <FiHome /> VIA Italian Table Menu
+                </h1>
+                <p>Select a menu from the navigation above.</p>
+              </div>
+            }
+          />
+        </Routes>
+      </main>
+
+      <footer className="app-footer">
+        <small>VIA Italian Table · Interactive Menu PWA · Demo starter</small>
+      </footer>
+    </div>
+  );
+}
+
+export default App;

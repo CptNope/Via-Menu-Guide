@@ -1629,5 +1629,350 @@
       "red-wine"
     ],
     "allergens": []
+  },
+  {
+    "id": "olillo-super-tuscan-bottle",
+    "name": "\"O'Lillo\" by Baracchi",
+    "description": "IGT, Tuscany, 2024",
+    "price": 52,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "vardiola-igt-bottle",
+    "name": "Vardiola, IGT",
+    "description": "Tuscany, JS 93, 2019",
+    "price": 79,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "tenuta-san-guido-bottle",
+    "name": "Tenuta San Guido \"Le Difese\"",
+    "description": "IGT, Tuscany, D 92, 2022",
+    "price": 85,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gaja-ca-marcanda-bottle",
+    "name": "Gaja Ca' Marcanda \"Promis\"",
+    "description": "IGT, Tuscany, 2022",
+    "price": 110,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "antinori-tignanello-bottle",
+    "name": "Antinori Tignanello",
+    "description": "IGT, Tuscany, 2021",
+    "price": 200,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gaja-ca-marcanda-camarcanda-bottle",
+    "name": "Gaja Ca'Marcanda \"Camarcanda\"",
+    "description": "IGT, Tuscany, RP 95, 2020",
+    "price": 260,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "ornellaia-bolgheri-bottle",
+    "name": "Ornellaia, Bolgheri",
+    "description": "DOC, Tuscany, JS 99, 2021",
+    "price": 275,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "sassicaia-bolgheri-bottle",
+    "name": "Sassicaia",
+    "description": "DOC, Tuscany, RP 98, 2019",
+    "price": 300,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "antinori-solaia-bottle",
+    "name": "Antinori Solaia",
+    "description": "IGT, Tuscany, JS 98, 2019",
+    "price": 400,
+    "category": "Super Tuscan Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "domaine-bousquet-malbec-bottle",
+    "name": "\"Domaine Bousquet Malbec\"",
+    "description": "Mendoza, 2023",
+    "price": 39,
+    "category": "Merlot & Malbec Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "felino-malbec-bottle",
+    "name": "Felino Malbec",
+    "description": "Mendoza, Argentina, JS 93, 2023",
+    "price": 52,
+    "category": "Merlot & Malbec Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "stags-leap-merlot-bottle",
+    "name": "Stags' Leap Merlot",
+    "description": "Napa, 2022",
+    "price": 60,
+    "category": "Merlot & Malbec Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "red-schooner-malbec-bottle",
+    "name": "Red Schooner Malbec by Caymus",
+    "description": "Voyage 12, Argentina/Napa, N.V.",
+    "price": 56,
+    "category": "Merlot & Malbec Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "ehrgott-merlot-bottle",
+    "name": "Ehrgott Merlot",
+    "description": "Napa, 2018",
+    "price": 65,
+    "category": "Merlot & Malbec Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "duckhorn-merlot-bottle",
+    "name": "Duckhorn Merlot",
+    "description": "Napa, WE 90, 2022",
+    "price": 75,
+    "category": "Merlot & Malbec Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-crema-pinot-noir-bottle",
+    "name": "La Crema Pinot Noir",
+    "description": "Sonoma Coast, 2023",
+    "price": 45,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "benessere-zinfandel-bottle",
+    "name": "Benessere Zinfandel",
+    "description": "Sonoma, 2023",
+    "price": 45,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "siduri-pinot-noir-bottle",
+    "name": "Siduri",
+    "description": "Willamette Valley, 2023",
+    "price": 48,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cambria-julias-vineyard-bottle",
+    "name": "Cambria \"Julia's Vineyard\"",
+    "description": "Pinot Noir, Santa Maria, 2023",
+    "price": 52,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "rombauer-zinfandel-bottle",
+    "name": "Rombauer Zinfandel",
+    "description": "California, 2021",
+    "price": 59,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "machete-petite-syrah-bottle",
+    "name": "\"Machete\" by Orin Swift",
+    "description": "California, 2022",
+    "price": 85,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "domaine-drouhin-pinot-noir-bottle",
+    "name": "Domaine Drouhin Pinot Noir",
+    "description": "Willamette Valley, Oregon, WE 93, 2021",
+    "price": 80,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "wayfarer-pinot-noir-bottle",
+    "name": "Wayfarer, Pinot Noir",
+    "description": "Fort Ross Seaview, California, 2021",
+    "price": 105,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
   }
 ]

@@ -4,6 +4,7 @@ import { FiShield, FiHome } from "react-icons/fi";
 import { GiWineBottle } from "react-icons/gi";
 import "./App.css";
 
+import appetizersData from "./data/appetizers.json";
 import dinnerData from "./data/dinner.json";
 import lunchData from "./data/lunch.json";
 import dessertData from "./data/dessert.json";
@@ -18,6 +19,10 @@ import AdminPanel from "./components/AdminPanel";
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
+
+  // Combine appetizers with dinner and lunch menus
+  const fullDinnerData = [...appetizersData, ...dinnerData];
+  const fullLunchData = [...appetizersData, ...lunchData];
 
   return (
     <div className="app">
@@ -58,7 +63,7 @@ function App() {
             element={
               <MenuPage
                 title="Dinner"
-                data={dinnerData}
+                data={fullDinnerData}
                 showKidsFilter={false}
               />
             }
@@ -68,7 +73,7 @@ function App() {
             element={
               <MenuPage
                 title="Dinner"
-                data={dinnerData}
+                data={fullDinnerData}
                 showKidsFilter={false}
               />
             }
@@ -78,7 +83,7 @@ function App() {
             element={
               <MenuPage
                 title="Lunch"
-                data={lunchData}
+                data={fullLunchData}
                 showKidsFilter={false}
               />
             }
@@ -111,7 +116,7 @@ function App() {
           />
           <Route
             path="/pairings"
-            element={<PairingsPage wines={winesData} menus={{ dinnerData, lunchData, dessertData, kidsData }} />}
+            element={<PairingsPage wines={winesData} menus={{ dinnerData: fullDinnerData, lunchData: fullLunchData, dessertData, kidsData }} />}
           />
           <Route
             path="/admin"
@@ -119,7 +124,7 @@ function App() {
               isAdmin ? (
                 <AdminPanel
                   onLogout={() => setIsAdmin(false)}
-                  menus={{ dinnerData, lunchData, dessertData, kidsData, drinksData }}
+                  menus={{ dinnerData: fullDinnerData, lunchData: fullLunchData, dessertData, kidsData, drinksData }}
                 />
               ) : (
                 <AdminLogin onLogin={() => setIsAdmin(true)} />

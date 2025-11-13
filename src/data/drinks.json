@@ -18,5 +18,284 @@
     "allergens": [
       "gluten"
     ]
+  },
+  {
+    "id": "barrel-aged-sangria",
+    "name": "Barrel Aged Sangria",
+    "description": "Enjoy Red or White 1/2 Carafe...19, Full Carafe...38",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "wine",
+      "fruit"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "bonsoleil",
+    "name": "Bonsoleil",
+    "description": "Fresh Pineapple & Lime, Green Chartreuse, Hildegard Von Bingen Gin",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "pineapple",
+      "lime",
+      "chartreuse",
+      "gin"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "carnivale",
+    "name": "Carnivale",
+    "description": "Dummshambo Brazilian Pineapple Gin, Yuzu, Lime, Cane Sugar, Bruleed lime",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "gin",
+      "pineapple",
+      "yuzu",
+      "lime",
+      "sugar"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "blueberry-bombshell",
+    "name": "Blueberry Bombshell",
+    "description": "Cold River Blueberry Vodka, Lemon Sorbet, Pineapple, Prosecco Float",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "blueberry",
+      "lemon",
+      "pineapple",
+      "prosecco"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "mango-inferno",
+    "name": "Mango Inferno",
+    "description": "Ghost Tequila, Mango, Jalapeño, Pineapple, Lime",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "tequila",
+      "mango",
+      "jalapeno",
+      "pineapple",
+      "lime"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "espresso-martini",
+    "name": "Espresso Martini",
+    "description": "Absolut Vanilla Vodka, Begi Tossofim Espresso Liqueur, House-Brewed Espresso, Splash of Cream",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "espresso",
+      "cream"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "mi-casa-su-casa",
+    "name": "Mi Casa, Su Casa",
+    "description": "Erbbon Reposado, Fresh Lime Juice, Agave Nectar, Shiraz Float, Bruleed Lime",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "tequila",
+      "lime",
+      "agave",
+      "wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "mind-over-matter",
+    "name": "Mind Over Matter",
+    "description": "House Vodka by Tree House, Plantation Pineapple Rum, Aperol, Blood Orange Sorbet, Lemon, Lime",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "rum",
+      "aperol",
+      "orange",
+      "lemon",
+      "lime"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "via-mai-tai",
+    "name": "The Via Mai Tai",
+    "description": "Erbbon Reposado & Bacb & Son Amaretto, Domaine De Canton Syrup, Fresh Lime, Pineapple Juice and Amerena Cherry *ALLERGY: This drink recipe contains Almonds*",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": false,
+    "kids": false,
+    "ingredients": [
+      "tequila",
+      "amaretto",
+      "lime",
+      "pineapple",
+      "cherry"
+    ],
+    "allergens": [
+      "tree nuts"
+    ]
+  },
+  {
+    "id": "il-gentiluomo",
+    "name": "Il Gentiluomo (The Gentleman)",
+    "description": "Bow London Dry Gin, Elderflower Liqueur, Prosecco, Lemon",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "gin",
+      "elderflower",
+      "prosecco",
+      "lemon"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "plane-crash",
+    "name": "Plane Crash",
+    "description": "Jefferson's Small Batch Bourbon Infused with Smoked Honey, Aperol, Amaro dell'Etna and Fresh Lemon",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon",
+      "honey",
+      "aperol",
+      "amaro",
+      "lemon"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "raspberry-mojito",
+    "name": "Raspberry Mojito",
+    "description": "Our Classic made with Privateer Rum from Ipswich, MA *Also available with Pineapple Rum*",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rum",
+      "raspberry",
+      "mint",
+      "lime"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "pear-blossom",
+    "name": "Pear Blossom",
+    "description": "Pear Purée, Lemon Juice, Fever-Tree Elderflower Tonic & Vanilla Bean",
+    "price": 10,
+    "category": "Mocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "pear",
+      "lemon",
+      "elderflower",
+      "vanilla"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "toothless-mule",
+    "name": "Toothless Mule",
+    "description": "Apple Cider, Passionfruit Purée, Rosemary, Fever-Tree Ginger Beer",
+    "price": 10,
+    "category": "Mocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "apple",
+      "passionfruit",
+      "rosemary",
+      "ginger"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "free-spritz",
+    "name": "Free Spritz",
+    "description": "Blood Orange Juice, Cranberry Purée, Lime Juice, Ginger Beer, Passionfruit Purée, Fever-Tree Chilled Aperitif Non-Alcoholic Syrup",
+    "price": 10,
+    "category": "Mocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "orange",
+      "cranberry",
+      "lime",
+      "ginger",
+      "passionfruit"
+    ],
+    "allergens": []
   }
 ]

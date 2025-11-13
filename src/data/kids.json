@@ -18,5 +18,242 @@
     "allergens": [
       "gluten"
     ]
+  },
+  {
+    "id": "kids-salad",
+    "name": "Kid's Salad",
+    "description": "Iceberg lettuce, tomato, cucumber, vinaigrette dressing",
+    "price": 4.99,
+    "category": "Kids",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "lettuce",
+      "tomato",
+      "cucumber"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "steak-frites",
+    "name": "Steak Frites",
+    "description": "Sirloin steak and plain frites",
+    "price": 12.99,
+    "category": "Kids",
+    "vegetarian": false,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "beef",
+      "potatoes"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "mac-and-cheese",
+    "name": "Mac & Cheese",
+    "description": "Classic macaroni and cheese",
+    "price": 5.99,
+    "category": "Kids",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "pasta",
+      "cheese"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ]
+  },
+  {
+    "id": "cheese-pizzette",
+    "name": "Cheese Pizzette",
+    "description": "Small cheese pizza",
+    "price": 6.99,
+    "category": "Kids",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "pizza-dough",
+      "cheese",
+      "tomato-sauce"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ]
+  },
+  {
+    "id": "shrimp-scampi",
+    "name": "Shrimp Scampi",
+    "description": "Pan seared shrimp in a garlic butter sauce served over mezzi rigatoni",
+    "price": 8.99,
+    "category": "Kids",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "shrimp",
+      "garlic",
+      "butter",
+      "pasta"
+    ],
+    "allergens": [
+      "shellfish",
+      "gluten",
+      "dairy"
+    ]
+  },
+  {
+    "id": "chicken-tenders",
+    "name": "Chicken Tenders",
+    "description": "Served with frites",
+    "price": 8.99,
+    "category": "Kids",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "chicken",
+      "breadcrumbs",
+      "potatoes"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "chicken-parmesan",
+    "name": "Chicken Parmesan",
+    "description": "Lightly breaded, sautéed chicken breast on spaghetti with marinara and melted cheese",
+    "price": 8.99,
+    "category": "Kids",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "chicken",
+      "breadcrumbs",
+      "spaghetti",
+      "tomato-sauce",
+      "cheese"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ]
+  },
+  {
+    "id": "three-mini-meatballs-spaghetti",
+    "name": "Three Mini Meatballs & Spaghetti",
+    "description": "Topped with parmesan cheese",
+    "price": 6.99,
+    "category": "Kids",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "spaghetti",
+      "tomato-sauce",
+      "beef",
+      "breadcrumbs",
+      "cheese"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ]
+  },
+  {
+    "id": "plain-pasta-choice",
+    "name": "Plain Pasta of Your Choice",
+    "description": "Pasta: Mezzi Rigatoni • Cheese Tortellini • Pappardelle • Fiore • Spaghetti • Cheese Ravioli • Orecchiette • Gluten-Free Penne with your choice of marinara sauce, butter, alfredo or pesto",
+    "price": 5.99,
+    "category": "Kids",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": false,
+    "kids": true,
+    "ingredients": [
+      "pasta"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ]
+  },
+  {
+    "id": "milk-chocolate-milk",
+    "name": "Milk or Chocolate Milk",
+    "description": "Regular or chocolate milk",
+    "price": 3.25,
+    "category": "Kids Beverages",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "milk"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "soft-drinks",
+    "name": "Soft Drinks",
+    "description": "Pepsi, Diet Pepsi, 7-UP, Ginger Ale, Root Beer, Pink Lemonade, Apple Juice",
+    "price": 3.25,
+    "category": "Kids Beverages",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [],
+    "allergens": []
+  },
+  {
+    "id": "frozen-strawberry-slush",
+    "name": "Frozen Strawberry Slush",
+    "description": "Frozen strawberry beverage",
+    "price": 3.25,
+    "category": "Kids Beverages",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "strawberry"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "frozen-kids-colada",
+    "name": "Frozen Kid's Colada",
+    "description": "Frozen non-alcoholic colada",
+    "price": 3.25,
+    "category": "Kids Beverages",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": false,
+    "kids": true,
+    "ingredients": [
+      "coconut"
+    ],
+    "allergens": [
+      "tree nuts"
+    ]
   }
 ]

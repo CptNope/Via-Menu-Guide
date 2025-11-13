@@ -1224,5 +1224,410 @@
       "white-wine"
     ],
     "allergens": []
+  },
+  {
+    "id": "gd-vajra-nebbiolo-bottle",
+    "name": "G.D. Vajra Nebbiolo Clare J.C.",
+    "description": "DOC, Piemonte, 2023",
+    "price": 38,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "valentina-montepulciano-bottle",
+    "name": "Valentina Montepulciano d'Abruzzo",
+    "description": "DOC, 2022",
+    "price": 39,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "aschen-langhe-barbera-bottle",
+    "name": "Aschen Langhe Barbera",
+    "description": "DOC, Piemonte, 2023",
+    "price": 40,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gd-vajra-dolcetto-bottle",
+    "name": "G.D. Vajra Dolcetto D'Alba",
+    "description": "DOC, Piemonte, 2023",
+    "price": 42,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "castella-banfi-rosso-bottle",
+    "name": "Castella Banfi Rosso di Montalcino",
+    "description": "DOC, Tuscany, 2023",
+    "price": 50,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "rosina-barbera-bottle",
+    "name": "\"Rosina\" Barbera D'Asti by Garretto",
+    "description": "DOCG, Piemonte, 2020",
+    "price": 52,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "san-felice-chianti-bottle",
+    "name": "San Felice Chianti Classico",
+    "description": "DOCG, Tuscany, 2022",
+    "price": 52,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "ca-del-baio-barbaresco-bottle",
+    "name": "Ca' Del Baio Barbaresco Autinbej",
+    "description": "DOCG, Piemonte, 2020",
+    "price": 55,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "benanti-etna-rosso-bottle",
+    "name": "Benanti Etna Rosso",
+    "description": "DOC, Sicily, 2022",
+    "price": 56,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "ascheri-barolo-bottle",
+    "name": "Ascheri Barolo",
+    "description": "DOCG, Piemonte, 2021",
+    "price": 60,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "bussola-valpolicella-bottle",
+    "name": "Bussola Valpolicella Ripasso",
+    "description": "DOCG, Veneto, 2019",
+    "price": 60,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "antinori-chianti-riserva-bottle",
+    "name": "Antinori Chianti Classico Riserva",
+    "description": "DOCG, Tuscany, 2022",
+    "price": 60,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "carpineto-vino-nobile-bottle",
+    "name": "Carpineto Vino Nobile di Montepulciano Riserva",
+    "description": "DOCG, Tuscany, WS 91, 2019",
+    "price": 65,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "caparzo-brunello-bottle",
+    "name": "Caparzo Brunello di Montalcino",
+    "description": "DOCG, Tuscany, JS 95, 2019",
+    "price": 72,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gd-vajra-barolo-albe-bottle",
+    "name": "G.D. Vajra Barolo Albe",
+    "description": "DOCG, Piemonte, 2021",
+    "price": 75,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "altesino-brunello-bottle",
+    "name": "Altesino Brunello di Montalcino",
+    "description": "DOCG, Tuscany, 2020",
+    "price": 90,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "castiglion-barolo-bottle",
+    "name": "Castiglion Barolo",
+    "description": "DOCG, Piemonte, 2019",
+    "price": 100,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "livio-sassetti-brunello-bottle",
+    "name": "Livio Sassetti Brunello di Montalcino",
+    "description": "DOCG, Tuscany, JS 96, 2018",
+    "price": 110,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "tommasi-amarone-bottle",
+    "name": "Tommasi Amarone",
+    "description": "DOC, Veneto, 2019",
+    "price": 115,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gaja-pieve-brunello-bottle",
+    "name": "Gaja Pieve Santa Restituta Brunello di Montalcino",
+    "description": "DOCG, Tuscany, WS 94, N.V.",
+    "price": 124,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "petrolo-boggina-bottle",
+    "name": "Petrolo \"Boggina C\" Riserva",
+    "description": "DOC, Tuscany, WA 95, 2021",
+    "price": 135,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "petrolo-galatrona-bottle",
+    "name": "Petrolo Galatrona",
+    "description": "DOC, Tuscany, JS 98, 2021",
+    "price": 150,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gagliardo-fossati-barolo-bottle",
+    "name": "Gagliardo \"Fossati\" Barolo",
+    "description": "DOCG, Piemonte, JS 93, 2020",
+    "price": 175,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "bertani-amarone-classico-bottle",
+    "name": "Bertani Amarone Classico",
+    "description": "DOCG, 2019",
+    "price": 225,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "giodo-brunello-bottle",
+    "name": "Giodo, Brunello di Montalcino",
+    "description": "DOCG, Tuscany, JS 99, 2019",
+    "price": 225,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gaja-sargaille-brunello-bottle",
+    "name": "Gaja \"Sargaille\" Pieve Santa Restituta Brunello di Montalcino",
+    "description": "DOCG, Tuscany, JS 96, 2018",
+    "price": 250,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gaja-sperss-barolo-bottle",
+    "name": "Gaja Sperss Barolo",
+    "description": "DOCG, Piemonte, V 97, 2018",
+    "price": 475,
+    "category": "By the Bottle",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
   }
 ]

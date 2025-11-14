@@ -159,6 +159,23 @@
   color: #5b4637;
 }
 
+.server-notes {
+  font-size: 0.85rem;
+  color: #4a3828;
+  background: #f9f3ec;
+  padding: 0.5rem;
+  margin-top: 0.4rem;
+  border-left: 3px solid #8b0000;
+  border-radius: 4px;
+  font-style: italic;
+}
+
+.server-notes strong {
+  color: #8b0000;
+  font-style: normal;
+  font-weight: 600;
+}
+
 .menu-item-tags {
   display: flex;
   flex-wrap: wrap;

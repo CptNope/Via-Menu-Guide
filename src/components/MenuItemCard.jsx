@@ -27,6 +27,12 @@ function MenuItemCard({ item }) {
         <p className="menu-item-description">{item.description}</p>
       )}
 
+      {item.serverNotes && (
+        <div className="server-notes">
+          <strong>Server Notes:</strong> {item.serverNotes}
+        </div>
+      )}
+
       <div className="menu-item-tags">
         {tags.map((tag) => (
           <span key={tag} className="tag-pill">

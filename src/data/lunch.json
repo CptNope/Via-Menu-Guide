@@ -82,8 +82,8 @@
   {
     "id": "chicken-pesto-sandwich",
     "name": "Chicken Pesto Sandwich",
-    "description": "Grilled chicken breast, crisp prosciutto, pepperonata, arugula, provolone, and pesto aioli. Served on toasted Italian bread with truffled frites.",
-    "price": 18.99,
+    "description": "Grilled chicken breast, crisp prosciutto, pepperonata, arugula, provolone, pesto aioli.",
+    "price": 17.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": false,
     "glutenFree": false,
@@ -93,10 +93,10 @@
     "allergens": ["dairy", "gluten", "nuts"]
   },
   {
-    "id": "meatball-sub",
-    "name": "Meatball Sub",
-    "description": "Two sliced colossal VIA meatballs with provolone, mozzarella, and marinara sauce. Served on toasted Italian bread with truffled frites.",
-    "price": 17.99,
+    "id": "via-meatball-sandwich",
+    "name": "VIA Meatball Sandwich",
+    "description": "Two sliced colossal meatballs, provolone, mozzarella, marinara sauce.",
+    "price": 16.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": false,
     "glutenFree": false,
@@ -106,9 +106,9 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "eggplant-parm-sandwich",
-    "name": "Eggplant Parm Sandwich",
-    "description": "Crispy fried eggplant with mozzarella, provolone, and marinara. Served on toasted Italian bread with truffled frites.",
+    "id": "fried-eggplant-parmesan-sandwich",
+    "name": "Fried Eggplant Parmesan Sandwich",
+    "description": "Fried eggplant, mozzarella, provolone, marinara.",
     "price": 16.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": true,
@@ -119,9 +119,9 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "blt-sandwich",
-    "name": "BLT Sandwich",
-    "description": "Thick cut applewood smoked bacon, fresh mozzarella, vine ripe tomatoes, arugula, sundried tomato aioli, and aged balsamic. Served on toasted Italian bread with truffled frites.",
+    "id": "caprese-blt",
+    "name": "Caprese BLT",
+    "description": "Thick cut applewood bacon, fresh mozzarella, vine ripe tomatoes, arugula, sundried tomato aioli, aged balsamic.",
     "price": 16.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": false,
@@ -132,10 +132,10 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "grilled-caesar-lunch",
-    "name": "Grilled Caesar",
-    "description": "Seasoned Tuscan bread croutons.",
-    "price": 12.99,
+    "id": "grilled-caesar-salad-lunch",
+    "name": "Grilled Caesar Salad",
+    "description": "Tuscan bread croutons.",
+    "price": 11.99,
     "category": "Salads",
     "vegetarian": false,
     "glutenFree": false,
@@ -147,8 +147,8 @@
   {
     "id": "burrata-caprese-salad-lunch",
     "name": "Burrata Caprese Salad",
-    "description": "Fresh burrata mozzarella, heirloom tomato, basil, herb oil, and balsamic reduction.",
-    "price": 15.99,
+    "description": "Fresh burrata mozzarella, heirloom tomato, basil, herb oil, balsamic reduction.",
+    "price": 14.99,
     "category": "Salads",
     "vegetarian": true,
     "glutenFree": true,
@@ -158,10 +158,10 @@
     "allergens": ["dairy"]
   },
   {
-    "id": "salmon-arugula-salad",
-    "name": "Salmon Arugula Salad",
-    "description": "Grilled North Atlantic salmon over baby arugula, cubed mozzarella, grape tomatoes, pesto vinaigrette, balsamic reduction.",
-    "price": 19.99,
+    "id": "grilled-salmon-salad-lunch",
+    "name": "Grilled Salmon Salad",
+    "description": "Grilled North Atlantic salmon, baby arugula, mozzarella, grape tomatoes, pesto vinaigrette, balsamic reduction.",
+    "price": 21.99,
     "category": "Salads",
     "vegetarian": false,
     "glutenFree": true,
@@ -171,10 +171,10 @@
     "allergens": ["fish", "dairy", "nuts"]
   },
   {
-    "id": "shrimp-arugula-salad",
-    "name": "Shrimp Arugula Salad",
-    "description": "Sautéed shrimp, arugula topped with cannellini beans, served warm with lemon vinaigrette.",
-    "price": 18.99,
+    "id": "shrimp-bean-salad-lunch",
+    "name": "Shrimp & Bean Salad",
+    "description": "Sautéed shrimp, arugula, cannellini beans, served warm, lemon vinaigrette.",
+    "price": 17.99,
     "category": "Salads",
     "vegetarian": false,
     "glutenFree": true,
@@ -184,9 +184,9 @@
     "allergens": ["shellfish"]
   },
   {
-    "id": "chicken-apple-salad",
-    "name": "Chicken Apple Salad",
-    "description": "Grilled chicken breast with buttery croutons tossed with mixed greens, radicchio, shaved Brussels sprouts, apples, and pickled red onions with grilled lemon vinaigrette.",
+    "id": "chicken-panzanella-lunch",
+    "name": "Chicken Panzanella",
+    "description": "Grilled chicken breast, buttery croutons, mixed greens, radicchio, shaved Brussels sprouts, apples, pickled red onions, grilled lemon vinaigrette.",
     "price": 17.99,
     "category": "Salads",
     "vegetarian": false,
@@ -197,10 +197,10 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "steak-salad",
+    "id": "steak-salad-lunch",
     "name": "Steak Salad",
-    "description": "Grilled New York sirloin sliced and served on mixed greens, radicchio, shaved Brussels sprouts, toasted spicy pecans, blue cheese crumbles, and beets, with balsamic vinaigrette.",
-    "price": 22.99,
+    "description": "Grilled New York sirloin, mixed greens, radicchio, shaved Brussels sprouts, toasted baguette, grilled red onion, blue cheese crumbles, beets, balsamic vinaigrette.",
+    "price": 23.99,
     "category": "Salads",
     "vegetarian": false,
     "glutenFree": true,
@@ -210,10 +210,10 @@
     "allergens": ["dairy", "nuts"]
   },
   {
-    "id": "antipasto-salad",
-    "name": "Antipasto Salad",
-    "description": "Diced salami, ham, chicken, provolone, feta, celery, black olives, capers, tomato, red onion with Dijon vinaigrette.",
-    "price": 16.99,
+    "id": "via-chopped-antipasto-salad-lunch",
+    "name": "VIA Chopped Antipasto Salad",
+    "description": "Diced salami, ham, chicken, provolone, feta, red peppers, black olives, celery, capers, tomato, red onion, Dijon vinaigrette.",
+    "price": 18.99,
     "category": "Salads",
     "vegetarian": false,
     "glutenFree": true,
@@ -223,10 +223,10 @@
     "allergens": ["dairy"]
   },
   {
-    "id": "bolognese-ravioli",
-    "name": "Bolognese on Cheese Ravioli",
-    "description": "A rich meat sauce of beef, pork, sausage, a touch of tomato paste and cream served on cheese ravioli.",
-    "price": 19.99,
+    "id": "braised-short-rib-ragu-lunch",
+    "name": "Braised Short Rib Ragu",
+    "description": "Cheese ravioli.",
+    "price": 23.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
@@ -236,10 +236,10 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "chicken-saltimbocca-lunch",
-    "name": "Chicken Saltimbocca",
-    "description": "Sautéed chicken breast, prosciutto, mushrooms, and peas with orecchiette pasta and feta cheese.",
-    "price": 21.99,
+    "id": "chicken-marsala-lunch",
+    "name": "Chicken Marsala",
+    "description": "Sautéed chicken breast, prosciutto, mushrooms, peas, orecchiette pasta, feta cheese.",
+    "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
@@ -251,8 +251,8 @@
   {
     "id": "eggplant-parmesan-lunch",
     "name": "Eggplant Parmesan",
-    "description": "Crisp hand-breaded Italian eggplant with mozzarella, provolone, and Parmesan, served with spaghetti marinara.",
-    "price": 19.99,
+    "description": "Crispy Italian eggplant, mozzarella, provolone, Parmesan, spaghetti marinara.",
+    "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": true,
     "glutenFree": false,
@@ -264,8 +264,8 @@
   {
     "id": "shrimp-scampi-lunch",
     "name": "Shrimp Scampi",
-    "description": "Pan seared shrimp tossed with grape tomatoes, parsley, and a lemon white wine butter sauce served over spaghetti.",
-    "price": 22.99,
+    "description": "Pan seared shrimp, grape tomatoes, parsley, lemon white wine butter sauce, spaghetti.",
+    "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
@@ -275,10 +275,10 @@
     "allergens": ["shellfish", "dairy", "gluten"]
   },
   {
-    "id": "shrimp-risotto",
+    "id": "shrimp-risotto-lunch",
     "name": "Shrimp Risotto",
-    "description": "Pan seared shrimp with spinach, red onion, diced tomatoes, and cannellini beans, served over a tomato and basil risotto topped with crispy prosciutto.",
-    "price": 23.99,
+    "description": "Pan seared shrimp, spinach, red onion, diced tomatoes, cannellini beans, tomato basil risotto, crispy prosciutto.",
+    "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": true,
@@ -288,10 +288,10 @@
     "allergens": ["shellfish", "dairy"]
   },
   {
-    "id": "bolognese-lunch",
-    "name": "Bolognese",
-    "description": "A rich meat sauce of beef, pork, sausage, a touch of tomato paste and cream.",
-    "price": 18.99,
+    "id": "pappardelle-bolognese-lunch",
+    "name": "Pappardelle Bolognese",
+    "description": "Meat sauce of beef, pork, sausage, tomato paste, cream.",
+    "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
@@ -301,10 +301,10 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "salmon-polenta",
-    "name": "Salmon with Herbed Polenta",
-    "description": "Pan roasted North Atlantic salmon with stewed tomatoes, red onion, kalamata olives, and capers served over herbed Romano polenta and arugula.",
-    "price": 24.99,
+    "id": "salmon-livornese-lunch",
+    "name": "Salmon Livornese",
+    "description": "Pan seared North Atlantic salmon, stewed tomatoes, red onion, kalamata olives, capers, herbed romano polenta, arugula.",
+    "price": 18.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": true,
@@ -314,10 +314,10 @@
     "allergens": ["fish", "dairy"]
   },
   {
-    "id": "baked-haddock-lunch",
-    "name": "Baked Haddock",
-    "description": "Baked, served with roasted potatoes and asparagus.",
-    "price": 22.99,
+    "id": "tuscan-herb-crumb-crusted-haddock-lunch",
+    "name": "Tuscan Herb & Crumb Crusted Haddock",
+    "description": "Baked, roasted potatoes, asparagus.",
+    "price": 21.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": true,
@@ -325,5 +325,19 @@
     "kids": false,
     "ingredients": ["haddock", "potatoes", "asparagus"],
     "allergens": ["fish"]
+  },
+  {
+    "id": "lunch-pasta-sauce",
+    "name": "Lunch Pasta & Sauce",
+    "description": "Choice of Pasta: Mezzi Rigatoni, Pappardelle, Fiori, Spaghetti, Cheese Ravioli, Orecchiette, Gluten-Free Penne. Choice of Sauce: Alfredo, Marinara, Pesto, Vodka.",
+    "price": 15.99,
+    "category": "VIA Lunch Classics",
+    "vegetarian": true,
+    "glutenFree": false,
+    "glutenFreeAvailable": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": ["pasta"],
+    "allergens": ["dairy", "gluten"]
   }
 ]

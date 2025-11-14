@@ -758,6 +758,7 @@
   {
     "id": "rosina-barbera",
     "name": "\"Rosina\" Barbera D'Asti Superiore",
+    "pronunciation": "roh-ZEE-nah bar-BEAR-ah DAHS-tee soo-pair-ee-OR-ay",
     "description": "DOCG, Piemonte, 2020",
     "price": 13,
     "category": "Italian Reds",
@@ -774,6 +775,7 @@
   {
     "id": "san-felice-chianti",
     "name": "San Felice Chianti Classico",
+    "pronunciation": "san feh-LEE-chay kee-AHN-tee CLAH-see-koh",
     "description": "DOCG, Tuscany, 2022",
     "price": 13,
     "category": "Italian Reds",
@@ -790,6 +792,7 @@
   {
     "id": "ascher-barolo",
     "name": "Ascher Barolo",
+    "pronunciation": "AH-sher bah-ROH-loh",
     "description": "DOCG, Piemonte, 2021",
     "price": 15,
     "category": "Italian Reds",
@@ -806,6 +809,7 @@
   {
     "id": "bussola-valpolicella",
     "name": "Bussola Valpolicella Ripasso",
+    "pronunciation": "boo-SOH-lah val-poh-lee-CHEL-lah ree-PAH-soh",
     "description": "DOCG, Veneto, 2019",
     "price": 15,
     "category": "Italian Reds",
@@ -822,6 +826,7 @@
   {
     "id": "caprizzo-brunello",
     "name": "Caprizzo Brunello di Montalcino",
+    "pronunciation": "cah-PREET-soh broo-NELL-oh dee mon-tahl-CHEE-noh",
     "description": "DOCG, JS 95, 2019",
     "price": 18,
     "category": "Italian Reds",
@@ -838,6 +843,7 @@
   {
     "id": "rubio-super-tuscan",
     "name": "Rubio by San Polo",
+    "pronunciation": "ROO-bee-oh / san POH-loh",
     "description": "IGT, Montalcino, JS 91, 2022",
     "price": 14,
     "category": "Super Tuscan",
@@ -854,6 +860,7 @@
   {
     "id": "olillo-super-tuscan",
     "name": "\"O'Lillo\" by Baracchi",
+    "pronunciation": "oh-LEE-loh / bah-RAH-kee",
     "description": "IGT, Tuscany, 2023",
     "price": 15,
     "category": "Super Tuscan",
@@ -870,6 +877,7 @@
   {
     "id": "felino-malbec",
     "name": "Felino Malbec",
+    "pronunciation": "feh-LEE-noh mahl-BECK",
     "description": "Mendoza, Argentina, JS 93, 2023",
     "price": 13,
     "category": "Merlot & Malbec",
@@ -902,6 +910,7 @@
   {
     "id": "siduri-pinot-noir",
     "name": "Siduri",
+    "pronunciation": "sih-DOO-ree",
     "description": "Willamette Valley, WA 93, 2022",
     "price": 12,
     "category": "Organic Pinot Noir",
@@ -934,6 +943,7 @@
   {
     "id": "the-pessimist",
     "name": "\"The Pessimist\" by Daou",
+    "pronunciation": "dow (rhymes with 'cow')",
     "description": "Paso Robles, JD 92, 2023",
     "price": 12,
     "category": "Cabernet & Blends",
@@ -1078,6 +1088,7 @@
   {
     "id": "la-fiera-pinot-grigio",
     "name": "La Fiera Pinot Grigio",
+    "pronunciation": "lah fee-AIR-ah pee-noh GREE-jee-oh",
     "description": "2024",
     "price": 11,
     "category": "Interesting Whites",
@@ -1110,6 +1121,7 @@
   {
     "id": "gd-valle-realis-bello",
     "name": "GD Valle Realis Bello",
+    "pronunciation": "VAH-lay ray-AH-lees BEL-loh",
     "description": "Piedmont, 2024",
     "price": 12,
     "category": "Interesting Whites",
@@ -1126,6 +1138,7 @@
   {
     "id": "guado-al-tasso-vermentino",
     "name": "Guado Al Tasso, Vermentino",
+    "pronunciation": "GWAH-doh ahl TAH-soh / vair-men-TEE-noh",
     "description": "Tuscany, 2024",
     "price": 13,
     "category": "Interesting Whites",
@@ -1142,6 +1155,7 @@
   {
     "id": "gianni-gagliardo-roero",
     "name": "Gianni Gagliardo Roero Arneis",
+    "pronunciation": "jee-AHN-nee gahl-yar-DOH roh-AIR-oh ar-NAYS",
     "description": "DOCG, Piemonte, 2022",
     "price": 14,
     "category": "Interesting Whites",
@@ -1158,6 +1172,7 @@
   {
     "id": "santa-margherita-pinot",
     "name": "Santa Margherita Pinot Grigio",
+    "pronunciation": "SAN-tah mar-gair-EE-tah pee-noh GREE-jee-oh",
     "description": "Alto Adige, 2024",
     "price": 14,
     "category": "Interesting Whites",
@@ -1319,6 +1334,7 @@
   {
     "id": "gd-vajra-nebbiolo-bottle",
     "name": "G.D. Vajra Nebbiolo Clare J.C.",
+    "pronunciation": "vah-YRAH neb-bee-OH-loh",
     "description": "DOC, Piemonte, 2023",
     "price": 38,
     "category": "Italian Reds Bottles",
@@ -1335,6 +1351,7 @@
   {
     "id": "valentina-montepulciano-bottle",
     "name": "Valentina Montepulciano d'Abruzzo",
+    "pronunciation": "mon-tay-pull-chee-AH-noh dah-BROOD-zoh",
     "description": "DOC, 2022",
     "price": 39,
     "category": "Italian Reds Bottles",
@@ -1351,6 +1368,7 @@
   {
     "id": "aschen-langhe-barbera-bottle",
     "name": "Aschen Langhe Barbera",
+    "pronunciation": "AH-shen LAHN-gay bar-BEAR-ah",
     "description": "DOC, Piemonte, 2023",
     "price": 40,
     "category": "Italian Reds Bottles",
@@ -1367,6 +1385,7 @@
   {
     "id": "gd-vajra-dolcetto-bottle",
     "name": "G.D. Vajra Dolcetto D'Alba",
+    "pronunciation": "vah-YRAH dol-CHET-toh DAHL-bah",
     "description": "DOC, Piemonte, 2023",
     "price": 42,
     "category": "Italian Reds Bottles",
@@ -1383,6 +1402,7 @@
   {
     "id": "castella-banfi-rosso-bottle",
     "name": "Castella Banfi Rosso di Montalcino",
+    "pronunciation": "cas-TEL-lah BAN-fee ROH-soh dee mon-tahl-CHEE-noh",
     "description": "DOC, Tuscany, 2023",
     "price": 50,
     "category": "Italian Reds Bottles",
@@ -1399,6 +1419,7 @@
   {
     "id": "rosina-barbera-bottle",
     "name": "\"Rosina\" Barbera D'Asti by Garretto",
+    "pronunciation": "roh-ZEE-nah bar-BEAR-ah DAHS-tee / gahr-RET-toh",
     "description": "DOCG, Piemonte, 2020",
     "price": 52,
     "category": "Italian Reds Bottles",
@@ -1415,6 +1436,7 @@
   {
     "id": "san-felice-chianti-bottle",
     "name": "San Felice Chianti Classico",
+    "pronunciation": "san feh-LEE-chay kee-AHN-tee CLAH-see-koh",
     "description": "DOCG, Tuscany, 2022",
     "price": 52,
     "category": "Italian Reds Bottles",
@@ -1431,6 +1453,7 @@
   {
     "id": "ca-del-baio-barbaresco-bottle",
     "name": "Ca' Del Baio Barbaresco Autinbej",
+    "pronunciation": "cah del BYE-oh bar-bar-ESS-koh ow-tin-BAY",
     "description": "DOCG, Piemonte, 2020",
     "price": 55,
     "category": "Italian Reds Bottles",
@@ -1447,6 +1470,7 @@
   {
     "id": "benanti-etna-rosso-bottle",
     "name": "Benanti Etna Rosso",
+    "pronunciation": "beh-NAHN-tee ETT-nah ROH-soh",
     "description": "DOC, Sicily, 2022",
     "price": 56,
     "category": "Italian Reds Bottles",
@@ -1463,6 +1487,7 @@
   {
     "id": "ascheri-barolo-bottle",
     "name": "Ascheri Barolo",
+    "pronunciation": "ah-SKER-ee bah-ROH-loh",
     "description": "DOCG, Piemonte, 2021",
     "price": 60,
     "category": "Italian Reds Bottles",
@@ -1479,6 +1504,7 @@
   {
     "id": "bussola-valpolicella-bottle",
     "name": "Bussola Valpolicella Ripasso",
+    "pronunciation": "boo-SOH-lah val-poh-lee-CHEL-lah ree-PAH-soh",
     "description": "DOCG, Veneto, 2019",
     "price": 60,
     "category": "Italian Reds Bottles",
@@ -1495,6 +1521,7 @@
   {
     "id": "antinori-chianti-riserva-bottle",
     "name": "Antinori Chianti Classico Riserva",
+    "pronunciation": "ahn-tee-NOH-ree kee-AHN-tee CLAH-see-koh ree-SEHR-vah",
     "description": "DOCG, Tuscany, 2022",
     "price": 60,
     "category": "Italian Reds Bottles",
@@ -1511,6 +1538,7 @@
   {
     "id": "carpineto-vino-nobile-bottle",
     "name": "Carpineto Vino Nobile di Montepulciano Riserva",
+    "pronunciation": "car-pee-NAY-toh VEE-noh NOH-bee-lay dee mon-tay-pull-chee-AH-noh ree-SEHR-vah",
     "description": "DOCG, Tuscany, WS 91, 2019",
     "price": 65,
     "category": "Italian Reds Bottles",
@@ -1527,6 +1555,7 @@
   {
     "id": "caparzo-brunello-bottle",
     "name": "Caparzo Brunello di Montalcino",
+    "pronunciation": "cah-PAR-zoh broo-NELL-oh dee mon-tahl-CHEE-noh",
     "description": "DOCG, Tuscany, JS 95, 2019",
     "price": 72,
     "category": "Italian Reds Bottles",
@@ -1543,6 +1572,7 @@
   {
     "id": "gd-vajra-barolo-albe-bottle",
     "name": "G.D. Vajra Barolo Albe",
+    "pronunciation": "vah-YRAH bah-ROH-loh AHL-bay",
     "description": "DOCG, Piemonte, 2021",
     "price": 75,
     "category": "Italian Reds Bottles",
@@ -1575,6 +1605,7 @@
   {
     "id": "castiglion-barolo-bottle",
     "name": "Castiglion Barolo",
+    "pronunciation": "cas-teel-YOHN bah-ROH-loh",
     "description": "DOCG, Piemonte, 2019",
     "price": 100,
     "category": "Italian Reds Bottles",
@@ -1607,6 +1638,7 @@
   {
     "id": "tommasi-amarone-bottle",
     "name": "Tommasi Amarone",
+    "pronunciation": "toh-MAH-see ah-mah-ROH-nay",
     "description": "DOC, Veneto, 2019",
     "price": 115,
     "category": "Italian Reds Bottles",
@@ -1623,6 +1655,7 @@
   {
     "id": "gaja-pieve-brunello-bottle",
     "name": "Gaja Pieve Santa Restituta Brunello di Montalcino",
+    "pronunciation": "GAH-yah pee-AY-vay SAN-tah res-tee-TOO-tah broo-NELL-oh",
     "description": "DOCG, Tuscany, WS 94, N.V.",
     "price": 124,
     "category": "Italian Reds Bottles",
@@ -1639,6 +1672,7 @@
   {
     "id": "petrolo-boggina-bottle",
     "name": "Petrolo \"Boggina C\" Riserva",
+    "pronunciation": "PEH-troh-loh boh-JEE-nah ree-SEHR-vah",
     "description": "DOC, Tuscany, WA 95, 2021",
     "price": 135,
     "category": "Italian Reds Bottles",
@@ -1655,6 +1689,7 @@
   {
     "id": "petrolo-galatrona-bottle",
     "name": "Petrolo Galatrona",
+    "pronunciation": "PEH-troh-loh gah-lah-TROH-nah",
     "description": "DOC, Tuscany, JS 98, 2021",
     "price": 150,
     "category": "Italian Reds Bottles",
@@ -1671,6 +1706,7 @@
   {
     "id": "gagliardo-fossati-barolo-bottle",
     "name": "Gagliardo \"Fossati\" Barolo",
+    "pronunciation": "gahl-yar-DOH foh-SAH-tee bah-ROH-loh",
     "description": "DOCG, Piemonte, JS 93, 2020",
     "price": 175,
     "category": "Italian Reds Bottles",
@@ -1687,6 +1723,7 @@
   {
     "id": "bertani-amarone-classico-bottle",
     "name": "Bertani Amarone Classico",
+    "pronunciation": "ber-TAH-nee ah-mah-ROH-nay CLAH-see-koh",
     "description": "DOCG, 2019",
     "price": 225,
     "category": "Italian Reds Bottles",
@@ -1703,6 +1740,7 @@
   {
     "id": "giodo-brunello-bottle",
     "name": "Giodo, Brunello di Montalcino",
+    "pronunciation": "jee-OH-doh broo-NELL-oh dee mon-tahl-CHEE-noh",
     "description": "DOCG, Tuscany, JS 99, 2019",
     "price": 225,
     "category": "Italian Reds Bottles",
@@ -1719,6 +1757,7 @@
   {
     "id": "gaja-sargaille-brunello-bottle",
     "name": "Gaja \"Sargaille\" Pieve Santa Restituta Brunello di Montalcino",
+    "pronunciation": "GAH-yah sar-GAH-yee pee-AY-vay SAN-tah res-tee-TOO-tah broo-NELL-oh",
     "description": "DOCG, Tuscany, JS 96, 2018",
     "price": 250,
     "category": "Italian Reds Bottles",
@@ -1735,6 +1774,7 @@
   {
     "id": "gaja-sperss-barolo-bottle",
     "name": "Gaja Sperss Barolo",
+    "pronunciation": "GAH-yah SPERSS bah-ROH-loh",
     "description": "DOCG, Piemonte, V 97, 2018",
     "price": 475,
     "category": "Italian Reds Bottles",
@@ -1751,6 +1791,7 @@
   {
     "id": "olillo-super-tuscan-bottle",
     "name": "\"O'Lillo\" by Baracchi",
+    "pronunciation": "oh-LEE-loh / bah-RAH-kee",
     "description": "IGT, Tuscany, 2024",
     "price": 52,
     "category": "Super Tuscan Bottles",
@@ -1767,6 +1808,7 @@
   {
     "id": "vardiola-igt-bottle",
     "name": "Vardiola, IGT",
+    "pronunciation": "var-dee-OH-lah",
     "description": "Tuscany, JS 93, 2019",
     "price": 79,
     "category": "Super Tuscan Bottles",
@@ -1783,6 +1825,7 @@
   {
     "id": "tenuta-san-guido-bottle",
     "name": "Tenuta San Guido \"Le Difese\"",
+    "pronunciation": "teh-NOO-tah san GWEE-doh lay dee-FAY-zay",
     "description": "IGT, Tuscany, D 92, 2022",
     "price": 85,
     "category": "Super Tuscan Bottles",
@@ -1799,6 +1842,7 @@
   {
     "id": "gaja-ca-marcanda-bottle",
     "name": "Gaja Ca' Marcanda \"Promis\"",
+    "pronunciation": "GAH-yah cah mar-CAHN-dah PROH-miss",
     "description": "IGT, Tuscany, 2022",
     "price": 110,
     "category": "Super Tuscan Bottles",
@@ -1815,6 +1859,7 @@
   {
     "id": "antinori-tignanello-bottle",
     "name": "Antinori Tignanello",
+    "pronunciation": "ahn-tee-NOH-ree tee-nyah-NELL-oh",
     "description": "IGT, Tuscany, 2021",
     "price": 200,
     "category": "Super Tuscan Bottles",
@@ -1831,6 +1876,7 @@
   {
     "id": "gaja-ca-marcanda-camarcanda-bottle",
     "name": "Gaja Ca'Marcanda \"Camarcanda\"",
+    "pronunciation": "GAH-yah cah-mar-CAHN-dah / cah-mar-CAHN-dah",
     "description": "IGT, Tuscany, RP 95, 2020",
     "price": 260,
     "category": "Super Tuscan Bottles",
@@ -1847,6 +1893,7 @@
   {
     "id": "ornellaia-bolgheri-bottle",
     "name": "Ornellaia, Bolgheri",
+    "pronunciation": "or-nel-LYE-ah / bohl-GAIR-ee",
     "description": "DOC, Tuscany, JS 99, 2021",
     "price": 275,
     "category": "Super Tuscan Bottles",
@@ -1863,6 +1910,7 @@
   {
     "id": "sassicaia-bolgheri-bottle",
     "name": "Sassicaia",
+    "pronunciation": "sah-see-KYE-ah",
     "description": "DOC, Tuscany, RP 98, 2019",
     "price": 300,
     "category": "Super Tuscan Bottles",
@@ -1879,6 +1927,7 @@
   {
     "id": "antinori-solaia-bottle",
     "name": "Antinori Solaia",
+    "pronunciation": "ahn-tee-NOH-ree so-LYE-ah",
     "description": "IGT, Tuscany, JS 98, 2019",
     "price": 400,
     "category": "Super Tuscan Bottles",
@@ -2663,6 +2712,7 @@
   {
     "id": "batasiolo-sunsi-bottle",
     "name": "Batasiolo \"Sunsi\"",
+    "pronunciation": "bah-tah-see-OH-loh SOON-see",
     "description": "DOC, Langhe",
     "price": 29,
     "category": "Interesting Whites Bottles",
@@ -2679,6 +2729,7 @@
   {
     "id": "sorbara-lambrusco-rose-bottle",
     "name": "Sorbara Lambrusco Rosé",
+    "pronunciation": "sor-BAR-ah lam-BROOS-koh roh-ZAY",
     "description": "DOC, Lambrusco, NV",
     "price": 39,
     "category": "Interesting Whites Bottles",
@@ -2695,6 +2746,7 @@
   {
     "id": "elena-walch-gewurztraminer-bottle",
     "name": "Elena Walch Gewürztraminer",
+    "pronunciation": "eh-LAY-nah VAHLK geh-VERTS-trah-mee-ner",
     "description": "DOC, Alto Adige, 2021",
     "price": 42,
     "category": "Interesting Whites Bottles",
@@ -2743,6 +2795,7 @@
   {
     "id": "trimbach-riesling-bottle",
     "name": "Trimbach Riesling",
+    "pronunciation": "TRIM-bahk REEZ-ling",
     "description": "Alsace, FR, JS 92, 2021",
     "price": 45,
     "category": "Interesting Whites Bottles",
@@ -2759,6 +2812,7 @@
   {
     "id": "benanti-etna-bianco-bottle",
     "name": "Benanti Etna Bianco",
+    "pronunciation": "beh-NAHN-tee ETT-nah bee-AHN-koh",
     "description": "DOC, Sicily, 2023",
     "price": 56,
     "category": "Interesting Whites Bottles",
@@ -2775,6 +2829,7 @@
   {
     "id": "gd-vajra-rosa-bella-bottle",
     "name": "G.D Vajra Rosa Bella",
+    "pronunciation": "vah-YRAH ROH-zah BEL-lah",
     "description": "Piedmont, 2024",
     "price": 56,
     "category": "Interesting Whites Bottles",
@@ -2791,6 +2846,7 @@
   {
     "id": "gianni-gagliardo-roero-arneis-bottle",
     "name": "Gianni Gagliardo Roero Arneis",
+    "pronunciation": "jee-AHN-nee gahl-yar-DOH roh-AIR-oh ar-NAYS",
     "description": "DOCG, Piemonte, 2022",
     "price": 56,
     "category": "Interesting Whites Bottles",
@@ -2839,6 +2895,7 @@
   {
     "id": "centorri-moscato-pavia-bottle",
     "name": "Centorri Moscato di Pavia",
+    "pronunciation": "chen-TOR-ee moh-SCAH-toh dee pah-VEE-ah",
     "description": "IGT Lombardy, IT, 2023",
     "price": 44,
     "category": "Sparkling Bottles",
@@ -2855,6 +2912,7 @@
   {
     "id": "pasqua-prosecco-rose-bottle",
     "name": "Pasqua Prosecco Brut Rosé",
+    "pronunciation": "PAH-skwah proh-SEH-koh brroot roh-ZAY",
     "description": "DOC, Veneto, 2024",
     "price": 46,
     "category": "Sparkling Bottles",
@@ -2871,6 +2929,7 @@
   {
     "id": "benvolio-prosecco-bottle",
     "name": "Benvolio Prosecco",
+    "pronunciation": "ben-VOH-lee-oh proh-SEH-koh",
     "description": "DOC, Friuli, Italy, N.V.",
     "price": 48,
     "category": "Sparkling Bottles",
@@ -2887,6 +2946,7 @@
   {
     "id": "taittinger-prestige-brut-bottle",
     "name": "Taittinger Prestige Brut",
+    "pronunciation": "TAY-tin-jur press-TEEJ brroot",
     "description": "Champagne, France, N.V.",
     "price": 65,
     "category": "Sparkling Bottles",
@@ -2903,6 +2963,7 @@
   {
     "id": "nicolas-feuillatte-brut-bottle",
     "name": "Nicolas Feuillatte Brut",
+    "pronunciation": "nee-koh-LAH fuh-YAHT brroot",
     "description": "Champagne, France, WS 92, N.V.",
     "price": 72,
     "category": "Sparkling Bottles",
@@ -2919,6 +2980,7 @@
   {
     "id": "nicolas-feuillatte-rose-bottle",
     "name": "Nicolas Feuillatte Brut Rosé",
+    "pronunciation": "nee-koh-LAH fuh-YAHT brroot roh-ZAY",
     "description": "Champagne, France, WS 90, N.V.",
     "price": 84,
     "category": "Sparkling Bottles",
@@ -2935,6 +2997,7 @@
   {
     "id": "veuve-clicquot-bottle",
     "name": "Veuve Clicquot Ponsardin, Brut (Yellow Label)",
+    "pronunciation": "vurv klee-KOH pon-sar-DAN brroot",
     "description": "France, WS 90, NV",
     "price": 96,
     "category": "Sparkling Bottles",
@@ -2951,6 +3014,7 @@
   {
     "id": "louis-roederer-blanc-de-blancs-bottle",
     "name": "Louis Roederer Blanc de Blancs",
+    "pronunciation": "loo-WEE roh-der-AIR blahn duh blahn",
     "description": "Champagne, FR, V 94, 2015",
     "price": 130,
     "category": "Sparkling Bottles",
@@ -2967,6 +3031,7 @@
   {
     "id": "dom-perignon-bottle",
     "name": "Dom Pérignon",
+    "pronunciation": "dome pair-ee-NYON",
     "description": "Champagne, FR, JS 98, 2013",
     "price": 340,
     "category": "Sparkling Bottles",

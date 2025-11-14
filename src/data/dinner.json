@@ -288,10 +288,10 @@
     "allergens": ["dairy"]
   },
   {
-    "id": "fiori-pasta",
-    "name": "Fiori Pasta",
+    "id": "mushroom-fiori",
+    "name": "Mushroom Fiori",
     "description": "Fiori pasta tossed in a herbed wild mushroom cream sauce, smoked honey, porcini mushroom powder and Parmesan cheese.",
-    "price": 26.99,
+    "price": 29.99,
     "category": "House Pastas",
     "vegetarian": true,
     "glutenFree": false,
@@ -301,10 +301,10 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "chicken-pesto-pasta",
-    "name": "Chicken Pesto Pasta",
+    "id": "mezzi-rigatoni-roasted-chicken",
+    "name": "Mezzi Rigatoni with Roasted Chicken",
     "description": "Pulled roasted chicken, wild mushrooms, peas, shallots, tomato, and crispy prosciutto in a pesto cream sauce.",
-    "price": 28.99,
+    "price": 34.99,
     "category": "House Pastas",
     "vegetarian": false,
     "glutenFree": false,
@@ -327,10 +327,10 @@
     "allergens": ["shellfish", "dairy", "gluten"]
   },
   {
-    "id": "frutti-di-mare",
-    "name": "Frutti di Mare",
+    "id": "seafood-fra-diavolo",
+    "name": "Seafood Fra Diavolo",
     "description": "Sautéed shrimp, scallops, and lobster tossed with orecchiette pasta in a spicy red sauce.",
-    "price": 36.99,
+    "price": 35.99,
     "category": "House Pastas",
     "vegetarian": false,
     "glutenFree": false,
@@ -340,16 +340,30 @@
     "allergens": ["shellfish", "gluten"]
   },
   {
-    "id": "bolognese",
-    "name": "Bolognese",
+    "id": "pappardelle-bolognese",
+    "name": "Pappardelle Bolognese",
     "description": "A rich meat sauce of beef, pork, sausage, and a touch of tomato and cream.",
-    "price": 24.99,
+    "price": 29.99,
     "category": "House Pastas",
     "vegetarian": false,
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["beef", "pork", "sausage", "tomato", "cream"],
+    "ingredients": ["pappardelle", "beef", "pork", "sausage", "tomato", "cream"],
+    "allergens": ["dairy", "gluten"]
+  },
+  {
+    "id": "pasta-and-sauce",
+    "name": "Pasta & Sauce",
+    "description": "Choice of Pasta: Mezzi Rigatoni, Pappardelle, Fiori, Spaghetti, Cheese Ravioli, Orecchiette, Gluten-Free Penne. Choice of Sauce: Alfredo, Marinara, Pesto, Vodka.",
+    "price": 24.99,
+    "category": "House Pastas",
+    "vegetarian": true,
+    "glutenFree": false,
+    "glutenFreeAvailable": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": ["pasta"],
     "allergens": ["dairy", "gluten"]
   },
   {

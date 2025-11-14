@@ -1974,5 +1974,935 @@
       "red-wine"
     ],
     "allergens": []
+  },
+  {
+    "id": "bonanza-cabernet-bottle",
+    "name": "Bonanza Cabernet by Caymus",
+    "description": "California, Lot 8",
+    "price": 45,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "the-pessimist-cabernet-bottle",
+    "name": "\"The Pessimist\" by Daou",
+    "description": "Paso Robles, 2023",
+    "price": 48,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "greenwing-cabernet-bottle",
+    "name": "Greenwing Cabernet by Duckhorn",
+    "description": "Columbia Valley, 2023",
+    "price": 52,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "band-of-vinters-cabernet-bottle",
+    "name": "Band of Vinters Cabernet",
+    "description": "Napa, RP 92, 2022",
+    "price": 60,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cakebread-mullan-road-bottle",
+    "name": "Cakebread \"Mullan Road\"",
+    "description": "Washington, 2022",
+    "price": 60,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-crema-cabernet-bottle",
+    "name": "La Crema Cabernet",
+    "description": "Sonoma, JS 92, 2022",
+    "price": 70,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "mount-peak-gravity-bottle",
+    "name": "Mount Peak \"Gravity\"",
+    "description": "Atlas Peak, 2020",
+    "price": 75,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "austin-hope-cabernet-bottle",
+    "name": "Austin Hope Cabernet, 1 Liter",
+    "description": "Paso Robles, 2022",
+    "price": 85,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "mount-peak-sentinel-bottle",
+    "name": "Mount Peak \"Sentinel\"",
+    "description": "Atlas Peak, 2016",
+    "price": 90,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "stonestreet-cabernet-bottle",
+    "name": "Stonestreet Cabernet",
+    "description": "Alexander Valley, California, RP 90, 2014",
+    "price": 90,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "duckhorn-cabernet-bottle",
+    "name": "Duckhorn Cabernet",
+    "description": "Napa, 2022",
+    "price": 95,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "stonestreet-estate-cabernet-bottle",
+    "name": "Stonestreet Estate Cabernet",
+    "description": "Alexander/Sonoma, 2018",
+    "price": 100,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "caymus-cabernet-bottle",
+    "name": "Caymus Cabernet",
+    "description": "Napa, 2022",
+    "price": 120,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "doubleback-cabernet-bottle",
+    "name": "Doubleback Cabernet",
+    "description": "Walla Walla, 2021",
+    "price": 165,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "knights-bridge-cabernet-bottle",
+    "name": "Knights Bridge Cabernet",
+    "description": "Knights Valley, JD 90, 2018",
+    "price": 165,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "revana-estate-cabernet-bottle",
+    "name": "Revana \"Estate\" Cabernet",
+    "description": "Napa, JD 95, 2019",
+    "price": 200,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "caymus-special-selection-bottle",
+    "name": "Caymus \"Special Selection\" Cabernet",
+    "description": "Napa, 2019",
+    "price": 235,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "quintessa-cabernet-bottle",
+    "name": "Quintessa",
+    "description": "Rutherford, Napa, WE 100, 2021",
+    "price": 250,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "chappellet-prichard-hill-bottle",
+    "name": "Chappellet Prichard Hill Estate Cabernet",
+    "description": "Napa, RP 99, 2019",
+    "price": 285,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "joseph-phelps-insignia-bottle",
+    "name": "Joseph Phelps Insignia",
+    "description": "Napa, JD 99, 2019",
+    "price": 295,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "shafer-hillside-select-bottle",
+    "name": "Shafer Hillside Select Cabernet",
+    "description": "Napa, JD 100, 2018",
+    "price": 345,
+    "category": "Cabernet & Blends Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "les-deux-tours-sauvignon-blanc-bottle",
+    "name": "\"Les Deux Tours\" by LaDoucette",
+    "description": "Loire, FR, 2023",
+    "price": 42,
+    "category": "Sauvignon Blanc Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "matua-sauvignon-blanc-bottle",
+    "name": "Matua",
+    "description": "Marlborough, NZ, 2024",
+    "price": 48,
+    "category": "Sauvignon Blanc Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cloudy-bay-sauvignon-blanc-bottle",
+    "name": "Cloudy Bay",
+    "description": "Marlborough, 2024",
+    "price": 57,
+    "category": "Sauvignon Blanc Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "hubert-brochard-sancerre-bottle",
+    "name": "Hubert Brochard",
+    "description": "Sancerre, FR, 2023",
+    "price": 62,
+    "category": "Sauvignon Blanc Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "knights-bridge-pont-de-chevalier-bottle",
+    "name": "Knights Bridge \"Pont de Chevalier\"",
+    "description": "Knights Valley, 2023",
+    "price": 64,
+    "category": "Sauvignon Blanc Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-crema-chardonnay-monterey-bottle",
+    "name": "La Crema",
+    "description": "Monterey, 2023",
+    "price": 48,
+    "category": "Chardonnay Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "knights-bridge-kb-chardonnay-bottle",
+    "name": "Knights Bridge \"KB\"",
+    "description": "Knights Valley, 2021",
+    "price": 50,
+    "category": "Chardonnay Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "grgich-chardonnay-bottle",
+    "name": "Grgich",
+    "description": "Napa, D 95, 2020",
+    "price": 65,
+    "category": "Chardonnay Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "rombauer-chardonnay-carneros-bottle",
+    "name": "Rombauer",
+    "description": "Carneros, 2023",
+    "price": 68,
+    "category": "Chardonnay Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "chappellet-grower-collection-bottle",
+    "name": "Chappellet Grower Collection",
+    "description": "Carneros, WE 93, 2018",
+    "price": 75,
+    "category": "Chardonnay Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "shafer-red-shoulder-ranch-bottle",
+    "name": "Shafer \"Red Shoulder Ranch\"",
+    "description": "Napa, 2022",
+    "price": 85,
+    "category": "Chardonnay Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "knights-bridge-west-block-bottle",
+    "name": "Knights Bridge West Block",
+    "description": "Knights Valley, 2021",
+    "price": 90,
+    "category": "Chardonnay Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "wayfarer-chardonnay-bottle",
+    "name": "Wayfarer",
+    "description": "Fort Ross - Seaview, California, JD 97, 2020",
+    "price": 95,
+    "category": "Chardonnay Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "batasiolo-sunsi-bottle",
+    "name": "Batasiolo \"Sunsi\"",
+    "description": "DOC, Langhe",
+    "price": 29,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "sorbara-lambrusco-rose-bottle",
+    "name": "Sorbara Lambrusco Rosé",
+    "description": "DOC, Lambrusco, NV",
+    "price": 39,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "elena-walch-gewurztraminer-bottle",
+    "name": "Elena Walch Gewürztraminer",
+    "description": "DOC, Alto Adige, 2021",
+    "price": 42,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-fiera-pinot-grigio-bottle",
+    "name": "La Fiera Pinot Grigio",
+    "description": "2024",
+    "price": 44,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loosen-riesling-bottle",
+    "name": "Loosen Riesling",
+    "description": "Germany, 2023",
+    "price": 44,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "trimbach-riesling-bottle",
+    "name": "Trimbach Riesling",
+    "description": "Alsace, FR, JS 92, 2021",
+    "price": 45,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "benanti-etna-bianco-bottle",
+    "name": "Benanti Etna Bianco",
+    "description": "DOC, Sicily, 2023",
+    "price": 56,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gd-vajra-rosa-bella-bottle",
+    "name": "G.D Vajra Rosa Bella",
+    "description": "Piedmont, 2024",
+    "price": 56,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "gianni-gagliardo-roero-arneis-bottle",
+    "name": "Gianni Gagliardo Roero Arneis",
+    "description": "DOCG, Piemonte, 2022",
+    "price": 56,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "guado-al-tasso-vermentino-bottle",
+    "name": "Guado Al Tasso, Vermentino",
+    "description": "Tuscany, 2024",
+    "price": 52,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "santa-margherita-pinot-grigio-bottle",
+    "name": "Santa Margherita Pinot Grigio",
+    "description": "DOC, Alto Adige, 2024",
+    "price": 56,
+    "category": "Interesting Whites Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "centorri-moscato-pavia-bottle",
+    "name": "Centorri Moscato di Pavia",
+    "description": "IGT Lombardy, IT, 2023",
+    "price": 44,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "pasqua-prosecco-rose-bottle",
+    "name": "Pasqua Prosecco Brut Rosé",
+    "description": "DOC, Veneto, 2024",
+    "price": 46,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "benvolio-prosecco-bottle",
+    "name": "Benvolio Prosecco",
+    "description": "DOC, Friuli, Italy, N.V.",
+    "price": 48,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "taittinger-prestige-brut-bottle",
+    "name": "Taittinger Prestige Brut",
+    "description": "Champagne, France, N.V.",
+    "price": 65,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "nicolas-feuillatte-brut-bottle",
+    "name": "Nicolas Feuillatte Brut",
+    "description": "Champagne, France, WS 92, N.V.",
+    "price": 72,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "nicolas-feuillatte-rose-bottle",
+    "name": "Nicolas Feuillatte Brut Rosé",
+    "description": "Champagne, France, WS 90, N.V.",
+    "price": 84,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "veuve-clicquot-bottle",
+    "name": "Veuve Clicquot Ponsardin, Brut (Yellow Label)",
+    "description": "France, WS 90, NV",
+    "price": 96,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "louis-roederer-blanc-de-blancs-bottle",
+    "name": "Louis Roederer Blanc de Blancs",
+    "description": "Champagne, FR, V 94, 2015",
+    "price": 130,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "dom-perignon-bottle",
+    "name": "Dom Pérignon",
+    "description": "Champagne, FR, JS 98, 2013",
+    "price": 340,
+    "category": "Sparkling Bottles",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "ceretto-vignaioli-moscato-half",
+    "name": "Ceretto Vignaioli Moscato D'Asti",
+    "description": "DOCG, Piemonte, JS 90, 2023",
+    "price": 25,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-crema-chardonnay-sonoma-half",
+    "name": "La Crema Chardonnay",
+    "description": "Sonoma Coast, 2023",
+    "price": 29,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "duckhorn-sauvignon-blanc-north-coast-half",
+    "name": "Duckhorn Sauvignon Blanc",
+    "description": "North Coast, JS 91, 2023",
+    "price": 29,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "alphonse-mellot-la-moussiere-half",
+    "name": "Alphonse Mellot La Moussiere",
+    "description": "Sancerre, FR, 2023",
+    "price": 35,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "stags-leap-cabernet-napa-half",
+    "name": "Stags Leap, Cabernet",
+    "description": "Napa, 2022",
+    "price": 44,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "damilano-lecrinquevigne-barolo-half",
+    "name": "Damilano Lecrinquevigne Barolo",
+    "description": "DOCG, Piemonte, RP 93, 2020",
+    "price": 45,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "bv-tapestry-napa-half",
+    "name": "BV \"Tapestry\"",
+    "description": "Napa, JS 94, 2021",
+    "price": 48,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "moutard-pere-fils-champagne-half",
+    "name": "Moutard Père & Fils Brut Grande Cuvée",
+    "description": "Champagne, FR, WE 90, N.V.",
+    "price": 48,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
   }
 ]

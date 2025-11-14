@@ -17,6 +17,11 @@ function MenuPage({ title, data }) {
     vegetarian: false,
     glutenFree: false,
     nutFree: false,
+    dairyFree: false,
+    shellfishFree: false,
+    fishFree: false,
+    soyFree: false,
+    eggFree: false,
     kids: false,
   });
 
@@ -25,6 +30,11 @@ function MenuPage({ title, data }) {
       if (filters.vegetarian && !item.vegetarian) return false;
       if (filters.glutenFree && !item.glutenFree) return false;
       if (filters.nutFree && !item.nutFree) return false;
+      if (filters.dairyFree && item.allergens?.includes("dairy")) return false;
+      if (filters.shellfishFree && item.allergens?.includes("shellfish")) return false;
+      if (filters.fishFree && item.allergens?.includes("fish")) return false;
+      if (filters.soyFree && item.allergens?.includes("soy")) return false;
+      if (filters.eggFree && item.allergens?.includes("eggs")) return false;
       if (filters.kids && !item.kids) return false;
       return true;
     });

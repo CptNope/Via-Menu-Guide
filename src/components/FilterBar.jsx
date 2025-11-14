@@ -34,6 +34,46 @@ function FilterBar({ filters, onChange }) {
       <button
         type="button"
         className="filter-pill"
+        onClick={() => handleToggle("dairyFree")}
+      >
+        <input type="checkbox" readOnly checked={filters.dairyFree} />
+        <span>Dairy-free</span>
+      </button>
+      <button
+        type="button"
+        className="filter-pill"
+        onClick={() => handleToggle("shellfishFree")}
+      >
+        <input type="checkbox" readOnly checked={filters.shellfishFree} />
+        <span>Shellfish-free</span>
+      </button>
+      <button
+        type="button"
+        className="filter-pill"
+        onClick={() => handleToggle("fishFree")}
+      >
+        <input type="checkbox" readOnly checked={filters.fishFree} />
+        <span>Fish-free</span>
+      </button>
+      <button
+        type="button"
+        className="filter-pill"
+        onClick={() => handleToggle("soyFree")}
+      >
+        <input type="checkbox" readOnly checked={filters.soyFree} />
+        <span>Soy-free</span>
+      </button>
+      <button
+        type="button"
+        className="filter-pill"
+        onClick={() => handleToggle("eggFree")}
+      >
+        <input type="checkbox" readOnly checked={filters.eggFree} />
+        <span>Egg-free</span>
+      </button>
+      <button
+        type="button"
+        className="filter-pill"
         onClick={() => handleToggle("kids")}
       >
         <input type="checkbox" readOnly checked={filters.kids} />

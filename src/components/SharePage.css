@@ -1,0 +1,148 @@
+.share-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.share-container {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.share-title {
+  color: #8b0000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.share-description {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.qr-code-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code {
+  display: block;
+  max-width: 300px;
+  height: auto;
+}
+
+.share-link-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.share-link-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: monospace;
+  background: #f9f9f9;
+}
+
+.copy-button {
+  padding: 0.75rem 1.5rem;
+  background: #8b0000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  white-space: nowrap;
+}
+
+.copy-button:hover {
+  background: #a00000;
+}
+
+.copy-button:active {
+  background: #700000;
+}
+
+.share-instructions {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.share-instructions h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.share-instructions ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.share-instructions li {
+  padding: 0.5rem 0;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .share-page {
+    padding: 1rem;
+  }
+
+  .share-container {
+    padding: 1.5rem;
+  }
+
+  .share-title {
+    font-size: 1.5rem;
+  }
+
+  .share-description {
+    font-size: 1rem;
+  }
+
+  .qr-code-container {
+    padding: 1rem;
+  }
+
+  .qr-code {
+    max-width: 250px;
+  }
+
+  .share-link-container {
+    flex-direction: column;
+  }
+
+  .copy-button {
+    width: 100%;
+  }
+}

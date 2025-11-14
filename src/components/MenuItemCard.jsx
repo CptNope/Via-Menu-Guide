@@ -18,7 +18,12 @@ function MenuItemCard({ item }) {
   return (
     <article className="menu-item-card">
       <div className="menu-item-header">
-        <div className="menu-item-name">{item.name}</div>
+        <div className="menu-item-name">
+          {item.name}
+          {item.pronunciation && (
+            <span className="pronunciation"> ({item.pronunciation})</span>
+          )}
+        </div>
         <div className="menu-item-price">
           {typeof item.price === "number" ? `$${item.price.toFixed(2)}` : item.price}
         </div>

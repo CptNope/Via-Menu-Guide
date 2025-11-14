@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import MenuItemCard from "./MenuItemCard";
 import FilterBar from "./FilterBar";
+import educationalGuide from "../data/drinksEducationalGuide.json";
 
 const groupByCategory = (items) => {
   const map = {};
@@ -14,6 +15,7 @@ const groupByCategory = (items) => {
 
 function MenuPage({ title, data }) {
   const isDrinksMenu = title === "Drinks";
+  const [expandedCategories, setExpandedCategories] = useState({});
   
   const [filters, setFilters] = useState({
     vegetarian: false,
@@ -31,6 +33,14 @@ function MenuPage({ title, data }) {
     bottles: false,
     cocktails: false,
     beers: false,
+    bourbon: false,
+    rye: false,
+    scotch: false,
+    grappa: false,
+    cognac: false,
+    port: false,
+    amaro: false,
+    coffeeCocktails: false,
   });
 
   const filtered = useMemo(() => {
@@ -50,7 +60,10 @@ function MenuPage({ title, data }) {
         const cocktailCategories = ["Via Signature Cocktails", "Mocktails"];
         const beerCategories = ["Draught Beers", "Bottles & Cans", "Non-Alcoholic Beer"];
         
-        const anyDrinkFilter = filters.winesByGlass || filters.halfBottles || filters.bottles || filters.cocktails || filters.beers;
+        const anyDrinkFilter = filters.winesByGlass || filters.halfBottles || filters.bottles || 
+                               filters.cocktails || filters.beers || filters.bourbon || filters.rye || 
+                               filters.scotch || filters.grappa || filters.cognac || filters.port || 
+                               filters.amaro || filters.coffeeCocktails;
         
         if (anyDrinkFilter) {
           let matchesDrinkFilter = false;
@@ -68,6 +81,30 @@ function MenuPage({ title, data }) {
             matchesDrinkFilter = true;
           }
           if (filters.beers && beerCategories.includes(item.category)) {
+            matchesDrinkFilter = true;
+          }
+          if (filters.bourbon && item.category === "Bourbon") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.rye && item.category === "Rye") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.scotch && item.category === "Scotch") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.grappa && item.category === "Grappa") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.cognac && item.category === "Cognac") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.port && item.category === "Port") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.amaro && item.category === "Amaro & Digestivo") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.coffeeCocktails && item.category === "Coffee Cocktails") {
             matchesDrinkFilter = true;
           }
           
@@ -91,6 +128,53 @@ function MenuPage({ title, data }) {
 
   const grouped = useMemo(() => groupByCategory(filtered), [filtered]);
 
+  const toggleCategory = (category) => {
+    setExpandedCategories((prev) => ({
+      ...prev,
+      [category]: !prev[category],
+    }));
+  };
+
+  const getEducationalInfo = (category) => {
+    // Map category names to educational guide keys
+    const categoryMap = {
+      "Bourbon": "Bourbon",
+      "Rye": "Rye",
+      "Scotch": "Scotch",
+      "Grappa": "Grappa",
+      "Cognac": "Cognac",
+      "Port": "Port",
+      "Amaro & Digestivo": "Amaro & Digestivo",
+      "Coffee Cocktails": "Coffee Cocktails",
+      "Italian Reds": "Italian Reds",
+      "Italian Reds Bottles": "Italian Reds",
+      "Super Tuscan": "Super Tuscan",
+      "Super Tuscan Bottles": "Super Tuscan",
+      "Sparkling": "Sparkling Bottles",
+      "Sparkling Bottles": "Sparkling Bottles",
+      "Merlot & Malbec": "Merlot & Malbec",
+      "Merlot & Malbec Bottles": "Merlot & Malbec",
+      "Organic Pinot Noir": "Organic Pinot Noir",
+      "Cabernet & Blends": "Cabernet & Blends",
+      "Cabernet & Blends Bottles": "Cabernet & Blends",
+      "Sauvignon Blanc": "Sauvignon Blanc",
+      "Sauvignon Blanc Bottles": "Sauvignon Blanc",
+      "Chardonnay": "Chardonnay",
+      "Chardonnay Bottles": "Chardonnay",
+      "Interesting Whites": "Interesting Whites",
+      "Interesting Whites Bottles": "Interesting Whites",
+      "Pinot Noir & Interesting Reds Bottles": "Pinot Noir & Interesting Reds",
+      "Via Signature Cocktails": "Via Signature Cocktails",
+      "Mocktails": "Mocktails",
+      "Draught Beers": "Draught Beers",
+      "Bottles & Cans": "Bottles & Cans",
+      "Non-Alcoholic Beer": "Non-Alcoholic Beer",
+    };
+    
+    const guideKey = categoryMap[category];
+    return guideKey ? educationalGuide.categories[guideKey] : null;
+  };
+
   return (
     <div className="page">
       <div className="menu-header">
@@ -103,14 +187,48 @@ function MenuPage({ title, data }) {
       <FilterBar filters={filters} onChange={setFilters} showDrinkFilters={isDrinksMenu} />
 
       <div className="menu-layout">
-        {Object.keys(grouped).map((cat) => (
-          <section key={cat} className="menu-category">
-            <h2 className="menu-category-title">{cat}</h2>
-            {grouped[cat].map((item) => (
-              <MenuItemCard key={item.id} item={item} />
-            ))}
-          </section>
-        ))}
+        {Object.keys(grouped).map((cat) => {
+          const eduInfo = isDrinksMenu ? getEducationalInfo(cat) : null;
+          const isExpanded = expandedCategories[cat];
+          
+          return (
+            <section key={cat} className="menu-category">
+              <div className="category-header">
+                <h2 className="menu-category-title">{cat}</h2>
+                {eduInfo && (
+                  <button
+                    className="edu-toggle-btn"
+                    onClick={() => toggleCategory(cat)}
+                    title={isExpanded ? "Hide educational info" : "Show educational info"}
+                  >
+                    {isExpanded ? "−" : "ℹ"}
+                  </button>
+                )}
+              </div>
+              
+              {eduInfo && isExpanded && (
+                <div className="educational-content">
+                  <div className="edu-section">
+                    <h4>📚 Origins & History</h4>
+                    <p>{eduInfo.origins}</p>
+                  </div>
+                  <div className="edu-section">
+                    <h4>📈 Current Trends</h4>
+                    <p>{eduInfo.trends}</p>
+                  </div>
+                  <div className="edu-section">
+                    <h4>💡 Expert Tips</h4>
+                    <p>{eduInfo.expertTips}</p>
+                  </div>
+                </div>
+              )}
+              
+              {grouped[cat].map((item) => (
+                <MenuItemCard key={item.id} item={item} />
+              ))}
+            </section>
+          );
+        })}
         {filtered.length === 0 && (
           <p>No items match the selected filters yet.</p>
         )}

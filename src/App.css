@@ -130,13 +130,72 @@
   margin-top: 0.75rem;
 }
 
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
 .menu-category-title {
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   border-bottom: 1px solid #c6aa8b;
   padding-bottom: 0.2rem;
-  margin-bottom: 0.3rem;
+  flex: 1;
+}
+
+.edu-toggle-btn {
+  background: #8b6f47;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.edu-toggle-btn:hover {
+  background: #6b4a3b;
+  transform: scale(1.1);
+}
+
+.educational-content {
+  background: #f9f5f0;
+  border: 2px solid #d4a373;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.edu-section {
+  margin-bottom: 1rem;
+}
+
+.edu-section:last-child {
+  margin-bottom: 0;
+}
+
+.edu-section h4 {
+  color: #6b4a3b;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.edu-section p {
+  color: #5b4637;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
 }
 
 .menu-item-card {
@@ -153,6 +212,13 @@
 
 .menu-item-name {
   font-weight: 600;
+}
+
+.pronunciation {
+  font-weight: 400;
+  font-style: italic;
+  color: #7a6857;
+  font-size: 0.9em;
 }
 
 .menu-item-price {

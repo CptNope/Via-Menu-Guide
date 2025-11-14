@@ -49,6 +49,70 @@ function FilterBar({ filters, onChange, showDrinkFilters = false }) {
             <input type="checkbox" readOnly checked={filters.beers} />
             <span>Beers</span>
           </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("bourbon")}
+          >
+            <input type="checkbox" readOnly checked={filters.bourbon} />
+            <span>Bourbon</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("rye")}
+          >
+            <input type="checkbox" readOnly checked={filters.rye} />
+            <span>Rye</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("scotch")}
+          >
+            <input type="checkbox" readOnly checked={filters.scotch} />
+            <span>Scotch</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("grappa")}
+          >
+            <input type="checkbox" readOnly checked={filters.grappa} />
+            <span>Grappa</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("cognac")}
+          >
+            <input type="checkbox" readOnly checked={filters.cognac} />
+            <span>Cognac</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("port")}
+          >
+            <input type="checkbox" readOnly checked={filters.port} />
+            <span>Port</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("amaro")}
+          >
+            <input type="checkbox" readOnly checked={filters.amaro} />
+            <span>Amaro & Digestivo</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("coffeeCocktails")}
+          >
+            <input type="checkbox" readOnly checked={filters.coffeeCocktails} />
+            <span>Coffee Cocktails</span>
+          </button>
         </>
       )}
       <button

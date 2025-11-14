@@ -1,9 +1,31 @@
 [
   {
-    "id": "shrimp-cocktail",
-    "name": "Shrimp Cocktail",
-    "description": "Served with house-made cocktail sauce.",
-    "price": 19.99,
+    "id": "chicken-orzo-soup",
+    "name": "Chicken Orzo Soup",
+    "description": "Cup or Bowl.",
+    "price": 5.99,
+    "category": "Appetizers",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "priceOptions": [
+      {"size": "Cup", "price": 5.99},
+      {"size": "Bowl", "price": 7.99}
+    ],
+    "ingredients": ["chicken", "orzo", "vegetables", "broth"],
+    "allergens": ["gluten"]
+  },
+  {
+    "id": "jumbo-shrimp-cocktail",
+    "name": "Jumbo Shrimp Cocktail (4)",
+    "description": "1/2 Dozen 19.99 • Dozen 28.99 - Served with house-made cocktail sauce.",
+    "price": 13.99,
+    "priceOptions": [
+      {"size": "4 pieces", "price": 13.99},
+      {"size": "1/2 Dozen", "price": 19.99},
+      {"size": "Dozen", "price": 28.99}
+    ],
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": true,
@@ -13,10 +35,10 @@
     "allergens": ["shellfish"]
   },
   {
-    "id": "burrata-caprese",
-    "name": "Burrata Caprese",
+    "id": "burrata-meatball-mozzarella",
+    "name": "Burrata Meatball & Mozzarella",
     "description": "Ricotta salata and micro basil.",
-    "price": 15.99,
+    "price": 8.99,
     "category": "Appetizers",
     "vegetarian": true,
     "glutenFree": true,
@@ -24,6 +46,19 @@
     "kids": false,
     "ingredients": ["burrata", "tomato", "basil", "ricotta-salata"],
     "allergens": ["dairy"]
+  },
+  {
+    "id": "clams-casino",
+    "name": "Clams Casino",
+    "description": "Baked clams with breadcrumb topping.",
+    "price": 16.99,
+    "category": "Appetizers",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": ["clams", "breadcrumbs", "bacon", "peppers"],
+    "allergens": ["shellfish", "gluten"]
   },
   {
     "id": "fried-calamari",
@@ -39,10 +74,10 @@
     "allergens": ["shellfish", "gluten"]
   },
   {
-    "id": "grilled-octopus",
-    "name": "Grilled Octopus",
+    "id": "pan-seared-octopus-sausage",
+    "name": "Pan Seared Octopus & Sausage",
     "description": "Marinated octopus prepared sous vide, served with polenta, Italian sausage, peppadew peppers, and arugula.",
-    "price": 24.99,
+    "price": 18.99,
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": true,
@@ -52,10 +87,23 @@
     "allergens": ["shellfish"]
   },
   {
+    "id": "roasted-pork-belly",
+    "name": "Roasted Pork Belly",
+    "description": "Calabrian chili, honey, butter, pickled onion, savory granola.",
+    "price": 15.99,
+    "category": "Appetizers",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": false,
+    "kids": false,
+    "ingredients": ["pork-belly", "chili", "honey", "butter", "onion", "granola"],
+    "allergens": ["dairy", "nuts"]
+  },
+  {
     "id": "crispy-pork-meatballs",
     "name": "Crispy Pork Meatballs",
     "description": "Agrodolce apricot glaze.",
-    "price": 14.99,
+    "price": 13.99,
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": false,
@@ -65,10 +113,10 @@
     "allergens": ["gluten"]
   },
   {
-    "id": "arancini",
-    "name": "Arancini",
+    "id": "bolognese-arancini",
+    "name": "Bolognese Arancini",
     "description": "Fried risotto balls with bolognese stuffing.",
-    "price": 14.99,
+    "price": 13.99,
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": false,
@@ -78,23 +126,23 @@
     "allergens": ["gluten", "dairy"]
   },
   {
-    "id": "pan-seared-scallops",
-    "name": "Pan Seared Scallops",
+    "id": "prosciutto-wrapped-mozzarella",
+    "name": "Prosciutto Wrapped Mozzarella",
     "description": "Pan seared, drizzled with balsamic reduction.",
-    "price": 21.99,
+    "price": 14.99,
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["scallops", "balsamic-reduction"],
-    "allergens": ["shellfish"]
+    "ingredients": ["prosciutto", "mozzarella", "balsamic-reduction"],
+    "allergens": ["dairy"]
   },
   {
-    "id": "prosciutto-tower",
-    "name": "Prosciutto Tower",
+    "id": "plt-mozzarella",
+    "name": "P.L.T & Mozzarella",
     "description": "A tower of fresh prosciutto, lobster meat, tomato, fresh mozzarella, basil and balsamic reduction.",
-    "price": 24.99,
+    "price": 19.99,
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": true,
@@ -107,7 +155,7 @@
     "id": "tuna-tartare",
     "name": "Tuna Tartare",
     "description": "Chopped Yellowfin tuna, caper, shallot, Calabrian chili, potato gaufrette, seasoned crumb.",
-    "price": 19.99,
+    "price": 16.99,
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": false,
@@ -117,10 +165,10 @@
     "allergens": ["fish", "gluten"]
   },
   {
-    "id": "whipped-ricotta",
-    "name": "Whipped Ricotta",
+    "id": "house-made-ricotta",
+    "name": "House Made Ricotta",
     "description": "Baked crostini and local honey.",
-    "price": 12.99,
+    "price": 14.99,
     "category": "Appetizers",
     "vegetarian": true,
     "glutenFree": false,
@@ -130,10 +178,10 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "mozzarella-sticks",
-    "name": "Mozzarella Sticks",
+    "id": "pan-fried-fresh-mozzarella",
+    "name": "Pan Fried Fresh Mozzarella",
     "description": "Served with marinara sauce.",
-    "price": 11.99,
+    "price": 14.99,
     "category": "Appetizers",
     "vegetarian": true,
     "glutenFree": false,
@@ -143,10 +191,10 @@
     "allergens": ["dairy", "gluten"]
   },
   {
-    "id": "brussels-sprouts",
-    "name": "Brussels Sprouts",
+    "id": "fried-brussels-sprouts",
+    "name": "Fried Brussels Sprouts",
     "description": "Deep fried until crispy, tossed with Parmesan cheese and crispy prosciutto, served with sundried tomato aioli.",
-    "price": 13.99,
+    "price": 15.99,
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": true,
@@ -156,10 +204,10 @@
     "allergens": ["dairy"]
   },
   {
-    "id": "truffle-fries",
-    "name": "Truffle Fries",
+    "id": "truffle-frites-parmigiano",
+    "name": "Truffle Frites with Parmigiano",
     "description": "Thin cut fries with fresh Parmesan and truffle oil.",
-    "price": 11.99,
+    "price": 12.99,
     "category": "Appetizers",
     "vegetarian": true,
     "glutenFree": true,
@@ -169,10 +217,10 @@
     "allergens": ["dairy"]
   },
   {
-    "id": "garlic-bread",
-    "name": "Garlic Bread",
+    "id": "garlic-cheese-bread",
+    "name": "Garlic Cheese Bread",
     "description": "Soft Italian bread with roasted garlic butter topped with a blend of mozzarella and provolone cheeses, served with marinara sauce.",
-    "price": 9.99,
+    "price": 14.99,
     "category": "Appetizers",
     "vegetarian": true,
     "glutenFree": false,
@@ -182,10 +230,10 @@
     "allergens": ["gluten", "dairy"]
   },
   {
-    "id": "charcuterie-board",
-    "name": "Charcuterie Board",
+    "id": "charcuterie",
+    "name": "Charcuterie",
     "description": "Prosciutto di Parma, salami, bresaola, gorgonzola dolce, pepperoncini cheese, truffle goat cheese, honeycomb, pickled onions, whole grain mustard sauce and grilled bread.",
-    "price": 28.99,
+    "price": 27.99,
     "category": "Appetizers",
     "vegetarian": false,
     "glutenFree": false,

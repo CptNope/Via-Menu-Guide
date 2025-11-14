@@ -1,12 +1,56 @@
 import React from "react";
 
-function FilterBar({ filters, onChange }) {
+function FilterBar({ filters, onChange, showDrinkFilters = false }) {
   const handleToggle = (key) => {
     onChange({ ...filters, [key]: !filters[key] });
   };
 
   return (
     <div className="menu-filters">
+      {showDrinkFilters && (
+        <>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("winesByGlass")}
+          >
+            <input type="checkbox" readOnly checked={filters.winesByGlass} />
+            <span>Wines by Glass</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("halfBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.halfBottles} />
+            <span>Half Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("bottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.bottles} />
+            <span>Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("cocktails")}
+          >
+            <input type="checkbox" readOnly checked={filters.cocktails} />
+            <span>Cocktails</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("beers")}
+          >
+            <input type="checkbox" readOnly checked={filters.beers} />
+            <span>Beers</span>
+          </button>
+        </>
+      )}
       <button
         type="button"
         className="filter-pill"

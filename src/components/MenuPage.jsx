@@ -13,6 +13,8 @@ const groupByCategory = (items) => {
 };
 
 function MenuPage({ title, data }) {
+  const isDrinksMenu = title === "Drinks";
+  
   const [filters, setFilters] = useState({
     vegetarian: false,
     glutenFree: false,
@@ -23,10 +25,57 @@ function MenuPage({ title, data }) {
     soyFree: false,
     eggFree: false,
     kids: false,
+    // Drink filters
+    winesByGlass: false,
+    halfBottles: false,
+    bottles: false,
+    cocktails: false,
+    beers: false,
   });
 
   const filtered = useMemo(() => {
     return data.filter((item) => {
+      // Drink category filters
+      if (isDrinksMenu) {
+        const wineByGlassCategories = [
+          "Italian Reds", "Super Tuscan", "Merlot & Malbec", "Organic Pinot Noir",
+          "Cabernet & Blends", "Sauvignon Blanc", "Chardonnay", "Interesting Whites", "Sparkling"
+        ];
+        const bottleCategories = [
+          "Italian Reds Bottles", "Super Tuscan Bottles", "Merlot & Malbec Bottles",
+          "Pinot Noir & Interesting Reds Bottles", "Cabernet & Blends Bottles",
+          "Sauvignon Blanc Bottles", "Chardonnay Bottles", "Interesting Whites Bottles",
+          "Sparkling Bottles", "Half Bottles - Wine"
+        ];
+        const cocktailCategories = ["Via Signature Cocktails", "Mocktails"];
+        const beerCategories = ["Draught Beers", "Bottles & Cans", "Non-Alcoholic Beer"];
+        
+        const anyDrinkFilter = filters.winesByGlass || filters.halfBottles || filters.bottles || filters.cocktails || filters.beers;
+        
+        if (anyDrinkFilter) {
+          let matchesDrinkFilter = false;
+          
+          if (filters.winesByGlass && wineByGlassCategories.includes(item.category)) {
+            matchesDrinkFilter = true;
+          }
+          if (filters.halfBottles && item.category === "Half Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.bottles && bottleCategories.includes(item.category)) {
+            matchesDrinkFilter = true;
+          }
+          if (filters.cocktails && cocktailCategories.includes(item.category)) {
+            matchesDrinkFilter = true;
+          }
+          if (filters.beers && beerCategories.includes(item.category)) {
+            matchesDrinkFilter = true;
+          }
+          
+          if (!matchesDrinkFilter) return false;
+        }
+      }
+      
+      // Dietary filters
       if (filters.vegetarian && !item.vegetarian) return false;
       if (filters.glutenFree && !item.glutenFree) return false;
       if (filters.nutFree && !item.nutFree) return false;
@@ -38,7 +87,7 @@ function MenuPage({ title, data }) {
       if (filters.kids && !item.kids) return false;
       return true;
     });
-  }, [data, filters]);
+  }, [data, filters, isDrinksMenu]);
 
   const grouped = useMemo(() => groupByCategory(filtered), [filtered]);
 
@@ -51,7 +100,7 @@ function MenuPage({ title, data }) {
         </p>
       </div>
 
-      <FilterBar filters={filters} onChange={setFilters} />
+      <FilterBar filters={filters} onChange={setFilters} showDrinkFilters={isDrinksMenu} />
 
       <div className="menu-layout">
         {Object.keys(grouped).map((cat) => (

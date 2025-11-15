@@ -1,8 +1,8 @@
 [
   {
     "id": "chicken-orzo-soup",
-    "name": "Chicken Orzo Soup",
-    "description": "Cup or Bowl.",
+    "name": "House-Made Chicken Orzo Soup",
+    "description": "Cup 5.99 • Bowl 7.99",
     "price": 5.99,
     "category": "Appetizers",
     "serverNotes": "Light, comforting Italian soup with tender chicken, orzo pasta, vegetables in savory broth. Perfect starter for any meal. Pairs well with crisp white wines like Pinot Grigio, Sauvignon Blanc, or Italian whites. Great with light beers.",
@@ -20,13 +20,13 @@
   {
     "id": "jumbo-shrimp-cocktail",
     "name": "Jumbo Shrimp Cocktail (4)",
-    "description": "1/2 Dozen 19.99 • Dozen 28.99 - Served with house-made cocktail sauce.",
+    "description": "Served with house-made cocktail sauce. 1/2 Dozen 19.99 • Dozen 38.99",
     "price": 13.99,
     "serverNotes": "Classic appetizer with jumbo shrimp, house-made cocktail sauce. Fresh, clean flavors. Pairs beautifully with Champagne, sparkling wine, Sauvignon Blanc, Chablis, or dry Riesling. Also great with crisp lagers or pilsners.",
     "priceOptions": [
       {"size": "4 pieces", "price": 13.99},
       {"size": "1/2 Dozen", "price": 19.99},
-      {"size": "Dozen", "price": 28.99}
+      {"size": "Dozen", "price": 38.99}
     ],
     "category": "Appetizers",
     "vegetarian": false,
@@ -38,9 +38,9 @@
   },
   {
     "id": "burrata-meatball-mozzarella",
-    "name": "Burrata Meatball & Mozzarella",
+    "name": "Single Meatball & Marinara",
     "description": "Ricotta salata and micro basil.",
-    "price": 8.99,
+    "price": 6.99,
     "category": "Appetizers",
     "serverNotes": "Creamy burrata with fresh mozzarella, tomato, ricotta salata, basil. Light, fresh Italian classic. Pairs perfectly with Italian whites like Vermentino, Pinot Grigio, Soave, or light Italian reds. Also great with Prosecco.",
     "vegetarian": true,
@@ -150,7 +150,7 @@
   },
   {
     "id": "plt-mozzarella",
-    "name": "P.L.T & Mozzarella",
+    "name": "P.L.T. & Mozzarella",
     "description": "A tower of fresh prosciutto, lobster meat, tomato, fresh mozzarella, basil and balsamic reduction.",
     "price": 19.99,
     "category": "Appetizers",
@@ -208,7 +208,7 @@
     "id": "fried-brussels-sprouts",
     "name": "Fried Brussels Sprouts",
     "description": "Deep fried until crispy, tossed with Parmesan cheese and crispy prosciutto, served with sundried tomato aioli.",
-    "price": 15.99,
+    "price": 13.99,
     "category": "Appetizers",
     "serverNotes": "Crispy fried Brussels sprouts with Parmesan, prosciutto, sundried tomato aioli. Savory, addictive. Pairs well with Italian whites (Pinot Grigio, Vermentino), light reds, or sparkling wines. IPAs and wheat beers complement nicely.",
     "vegetarian": false,
@@ -248,7 +248,7 @@
   },
   {
     "id": "charcuterie",
-    "name": "Charcuterie",
+    "name": "Italian Meat & Cheese Board",
     "description": "Prosciutto di Parma, salami, bresaola, gorgonzola dolce, pepperoncini cheese, truffle goat cheese, honeycomb, pickled onions, whole grain mustard sauce and grilled bread.",
     "price": 27.99,
     "category": "Appetizers",

@@ -22,18 +22,17 @@
   },
   {
     "id": "jacks-abby-copper-legend",
-    "name": "\"Summer Ale\" by Sam Adams",
-    "description": "5.3% ABV",
+    "name": "Jack's Abby Copper Legend, Oktoberfest Lager",
+    "description": "Framingham, MA, 5.7% ABV",
     "price": 10,
     "category": "Draught",
-    "serverNotes": "Crisp, seasonal American wheat ale from Sam Adams with bright citrus and subtle spice. Refreshing and easy-drinking; great with lighter fare and summer dishes.",
+    "serverNotes": "Traditional Oktoberfest-style lager with rich malt character, caramel, and toasted bread notes. Smooth, medium-bodied with subtle hop balance. Local Massachusetts craft brewery. Perfect with sausages, pork, hearty German-inspired dishes. Seasonal fall favorite.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
     "ingredients": [
       "barley",
-      "wheat",
       "hops",
       "yeast"
     ],

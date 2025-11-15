@@ -22,17 +22,18 @@
   },
   {
     "id": "jacks-abby-copper-legend",
-    "name": "Jack's Abby Copper Legend, Oktoberfest Lager",
-    "description": "Framingham, MA, 5.7% ABV",
+    "name": "\"Summer Ale\" by Sam Adams",
+    "description": "5.3% ABV",
     "price": 10,
     "category": "Draught",
-    "serverNotes": "Traditional Oktoberfest-style lager with rich malt character, caramel, and toasted bread notes. Smooth, medium-bodied with subtle hop balance. Local Massachusetts craft brewery. Perfect with sausages, pork, hearty German-inspired dishes. Seasonal fall favorite.",
+    "serverNotes": "Crisp, seasonal American wheat ale from Sam Adams with bright citrus and subtle spice. Refreshing and easy-drinking; great with lighter fare and summer dishes.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
     "ingredients": [
       "barley",
+      "wheat",
       "hops",
       "yeast"
     ],
@@ -119,11 +120,11 @@
   },
   {
     "id": "wachusett-ipa-bottle",
-    "name": "Wachusett IPA",
-    "description": "Westminster, MA, 12 oz., 6.5% ABV",
+    "name": "Wachusett Blueberry Ale",
+    "description": "Westminster, MA, 12 oz., 4.5% ABV",
     "price": 8,
     "category": "Bottles & Cans",
-    "serverNotes": "Balanced New England IPA with citrus and pine hop notes. Medium-bodied, moderately bitter. Local Massachusetts brewery. Versatile - pairs with burgers, pizza, spicy foods. Great for IPA fans who want something approachable.",
+    "serverNotes": "Blueberry ale from local Westminster brewery with subtle blueberry aroma and flavor over a light, crisp malt base. Refreshing and easy-drinking; great for guests who want a fruit-forward beer without heavy bitterness.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -131,7 +132,8 @@
     "ingredients": [
       "barley",
       "hops",
-      "yeast"
+      "yeast",
+      "blueberry"
     ],
     "allergens": [
       "gluten"
@@ -139,7 +141,7 @@
   },
   {
     "id": "behoppy-wormtown-ipa",
-    "name": "\"Be'Hoppy\" by Wormtown IPA",
+    "name": "\"Be Hoppy\" by Wormtown IPA",
     "description": "Worcester, MA, 16 oz. 6.5% ABV",
     "price": 8,
     "category": "Bottles & Cans",
@@ -156,6 +158,24 @@
     "allergens": [
       "gluten"
     ]
+  },
+  {
+    "id": "surfside-iced-tea-vodka",
+    "name": "Surfside Iced Tea & Vodka",
+    "description": "Phil., PA, 12 oz., 4.5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "serverNotes": "Hard iced tea made with vodka and real tea flavor. Lightly sweet, refreshing, and easy-drinking. Great alternative to beer for guests who prefer cocktails in a can or lighter options.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "tea",
+      "lemon"
+    ],
+    "allergens": []
   },
   {
     "id": "switchback-ale-bottle",
@@ -179,11 +199,11 @@
   },
   {
     "id": "bridlehead-ipa-bottle",
-    "name": "Bridlehead IPA",
+    "name": "Fiddlehead IPA",
     "description": "Shelburne, VT, 16 oz., 6.2% ABV",
-    "price": 8,
+    "price": 9,
     "category": "Bottles & Cans",
-    "serverNotes": "Bright, citrus-forward IPA from Vermont brewery. Grapefruit, orange peel, tropical notes. Clean finish, moderate bitterness. Great with seafood, salads, grilled chicken. East Coast IPA style - flavorful but balanced.",
+    "serverNotes": "Bright, citrus-forward IPA from Vermont's Fiddlehead brewery with grapefruit, orange peel, and tropical notes. Clean finish with moderate bitterness. Great with seafood, salads, and grilled chicken. East Coast IPA style - flavorful but balanced.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,

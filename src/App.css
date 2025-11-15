@@ -348,6 +348,118 @@
   font-weight: 600;
 }
 
+.pairing-item-detailed {
+  background: white;
+  border-radius: 6px;
+  border-left: 4px solid #8b7355;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.wine-info {
+  flex: 1;
+}
+
+.wine-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.4rem;
+  gap: 0.5rem;
+}
+
+.wine-description {
+  font-size: 0.8rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.pairing-explanation {
+  font-size: 0.8rem;
+  color: #2d5016;
+  background: #f3f9f3;
+  padding: 0.4rem;
+  border-radius: 4px;
+  line-height: 1.4;
+}
+
+.alternatives {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #ddd;
+}
+
+.alternatives label {
+  display: block;
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.alternatives-compact {
+  margin-top: 0.5rem;
+}
+
+.pairing-item-compact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  gap: 0.5rem;
+}
+
+.match-badge-small {
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.match-badge-small.excellent {
+  background: #d4edda;
+  color: #155724;
+}
+
+.match-badge-small.very-good {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.match-badge-small.good {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.bottle-tier {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: #fafafa;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+}
+
+.bottle-tier label {
+  display: block;
+  font-size: 0.8rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
 .menu-item-tags {
   display: flex;
   flex-wrap: wrap;

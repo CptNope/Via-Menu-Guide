@@ -15,7 +15,18 @@
       {"size": "Bowl", "price": 7.99}
     ],
     "ingredients": ["chicken", "orzo", "vegetables", "broth"],
-    "allergens": ["gluten"]
+    "allergens": ["gluten"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 4,
+      "umami": 5,
+      "bitterness": 0,
+      "flavorNotes": ["savory", "comforting", "light", "broth"]
+    }
   },
   {
     "id": "jumbo-shrimp-cocktail",
@@ -34,7 +45,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["shrimp", "cocktail-sauce"],
-    "allergens": ["shellfish"]
+    "allergens": ["shellfish"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "light",
+      "spiciness": 1,
+      "saltiness": 5,
+      "richness": 2,
+      "umami": 6,
+      "bitterness": 0,
+      "flavorNotes": ["fresh", "clean", "seafood", "bright"]
+    }
   },
   {
     "id": "burrata-meatball-mozzarella",
@@ -48,7 +70,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["burrata", "tomato", "basil", "ricotta-salata"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 7,
+      "umami": 6,
+      "bitterness": 0,
+      "flavorNotes": ["creamy", "fresh", "herbaceous", "cheese"]
+    }
   },
   {
     "id": "clams-casino",
@@ -62,7 +95,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["clams", "breadcrumbs", "bacon", "peppers"],
-    "allergens": ["shellfish", "gluten"]
+    "allergens": ["shellfish", "gluten"],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 7,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["savory", "smoky", "seafood", "crispy"]
+    }
   },
   {
     "id": "fried-calamari",
@@ -76,7 +120,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["calamari", "flour", "cherry-peppers", "lemon", "marinara-sauce"],
-    "allergens": ["shellfish", "gluten"]
+    "allergens": ["shellfish", "gluten"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 4,
+      "saltiness": 5,
+      "richness": 5,
+      "umami": 5,
+      "bitterness": 0,
+      "flavorNotes": ["crispy", "bright", "spicy", "fried"]
+    }
   },
   {
     "id": "pan-seared-octopus-sausage",
@@ -90,7 +145,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["octopus", "polenta", "sausage", "peppadew-peppers", "arugula"],
-    "allergens": ["shellfish"]
+    "allergens": ["shellfish"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 6,
+      "richness": 8,
+      "umami": 9,
+      "bitterness": 1,
+      "flavorNotes": ["bold", "sophisticated", "meaty", "creamy"]
+    }
   },
   {
     "id": "roasted-pork-belly",
@@ -104,7 +170,18 @@
     "nutFree": false,
     "kids": false,
     "ingredients": ["pork-belly", "chili", "honey", "butter", "onion", "granola"],
-    "allergens": ["dairy", "nuts"]
+    "allergens": ["dairy", "nuts"],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 6,
+      "saltiness": 6,
+      "richness": 9,
+      "umami": 7,
+      "bitterness": 0,
+      "flavorNotes": ["spicy", "sweet", "rich", "complex"]
+    }
   },
   {
     "id": "crispy-pork-meatballs",
@@ -118,7 +195,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pork", "breadcrumbs", "apricot-glaze"],
-    "allergens": ["gluten"]
+    "allergens": ["gluten"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 6,
+      "umami": 6,
+      "bitterness": 0,
+      "flavorNotes": ["sweet-sour", "savory", "comfort", "fruity"]
+    }
   },
   {
     "id": "bolognese-arancini",
@@ -132,7 +220,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rice", "bolognese", "breadcrumbs"],
-    "allergens": ["gluten", "dairy"]
+    "allergens": ["gluten", "dairy"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["savory", "crispy", "creamy", "meaty"]
+    }
   },
   {
     "id": "prosciutto-wrapped-mozzarella",
@@ -146,7 +245,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["prosciutto", "mozzarella", "balsamic-reduction"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 7,
+      "bitterness": 0,
+      "flavorNotes": ["savory", "creamy", "salty", "elegant"]
+    }
   },
   {
     "id": "plt-mozzarella",
@@ -160,7 +270,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["prosciutto", "lobster", "tomato", "mozzarella", "basil", "balsamic-reduction"],
-    "allergens": ["dairy", "shellfish"]
+    "allergens": ["dairy", "shellfish"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["luxurious", "fresh", "seafood", "elegant"]
+    }
   },
   {
     "id": "tuna-tartare",
@@ -174,7 +295,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["tuna", "capers", "shallot", "chili", "potato"],
-    "allergens": ["fish", "gluten"]
+    "allergens": ["fish", "gluten"],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 5,
+      "body": "light",
+      "spiciness": 3,
+      "saltiness": 5,
+      "richness": 4,
+      "umami": 7,
+      "bitterness": 0,
+      "flavorNotes": ["fresh", "bright", "spicy", "sophisticated"]
+    }
   },
   {
     "id": "house-made-ricotta",
@@ -188,7 +320,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["ricotta", "bread", "honey"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 3,
+      "richness": 6,
+      "umami": 2,
+      "bitterness": 0,
+      "flavorNotes": ["creamy", "sweet", "simple", "elegant"]
+    }
   },
   {
     "id": "pan-fried-fresh-mozzarella",
@@ -202,7 +345,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["mozzarella", "breadcrumbs", "marinara-sauce"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 0,
+      "flavorNotes": ["crispy", "cheesy", "comfort", "classic"]
+    }
   },
   {
     "id": "fried-brussels-sprouts",
@@ -216,7 +370,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["brussels-sprouts", "parmesan", "prosciutto"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 7,
+      "richness": 6,
+      "umami": 7,
+      "bitterness": 2,
+      "flavorNotes": ["savory", "crispy", "salty", "addictive"]
+    }
   },
   {
     "id": "truffle-frites-parmigiano",
@@ -230,7 +395,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["potatoes", "parmesan", "truffle-oil"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 1,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["earthy", "truffle", "rich", "luxurious"]
+    }
   },
   {
     "id": "garlic-cheese-bread",
@@ -244,7 +420,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bread", "garlic", "butter", "mozzarella", "provolone", "marinara-sauce"],
-    "allergens": ["gluten", "dairy"]
+    "allergens": ["gluten", "dairy"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 0,
+      "flavorNotes": ["garlicky", "cheesy", "comfort", "classic"]
+    }
   },
   {
     "id": "charcuterie",
@@ -258,6 +445,17 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["prosciutto", "salami", "bresaola", "gorgonzola", "goat-cheese", "bread"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 8,
+      "richness": 8,
+      "umami": 9,
+      "bitterness": 1,
+      "flavorNotes": ["complex", "savory", "salty", "variety"]
+    }
   }
 ]

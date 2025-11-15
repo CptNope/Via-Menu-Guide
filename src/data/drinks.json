@@ -789,7 +789,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 3,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "plum", "bright-fruit", "food-friendly"]
+    }
   },
   {
     "id": "san-felice-chianti",
@@ -806,7 +820,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 6,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "herbs", "leather", "earthy"]
+    }
   },
   {
     "id": "ascher-barolo",
@@ -823,7 +851,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 7,
+      "bitterness": 3,
+      "tannin": 9,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["rose", "tar", "dark-cherry", "truffle", "complex"]
+    }
   },
   {
     "id": "bussola-valpolicella",
@@ -840,7 +882,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "raisin", "spice", "velvety"]
+    }
   },
   {
     "id": "caprizzo-brunello",
@@ -857,7 +913,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 6,
+      "bitterness": 3,
+      "tannin": 8,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-cherry", "leather", "tobacco", "herbs", "elegant"]
+    }
   },
   {
     "id": "rubio-super-tuscan",
@@ -874,7 +944,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 3,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "spice", "oak", "structured"]
+    }
   },
   {
     "id": "olillo-super-tuscan",
@@ -891,7 +975,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["red-fruit", "approachable", "soft-tannins", "versatile"]
+    }
   },
   {
     "id": "felino-malbec",
@@ -908,7 +1006,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "plum", "cocoa", "velvety"]
+    }
   },
   {
     "id": "stags-leap-merlot",
@@ -924,7 +1036,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 5,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["black-cherry", "chocolate", "oak", "elegant"]
+    }
   },
   {
     "id": "siduri-pinot-noir",
@@ -941,7 +1067,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 3,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "raspberry", "earthy", "silky"]
+    }
   },
   {
     "id": "cambria-julias-vineyard",
@@ -957,7 +1097,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 3,
+      "bitterness": 1,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "strawberry", "vanilla", "spice"]
+    }
   },
   {
     "id": "the-pessimist",
@@ -974,7 +1128,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "chocolate", "spice", "bold"]
+    }
   },
   {
     "id": "greenwing-cabernet",
@@ -990,7 +1158,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-berry", "mocha", "spice", "supple"]
+    }
   },
   {
     "id": "band-of-vintners",
@@ -1006,7 +1188,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["blackberry", "cassis", "oak", "structured"]
+    }
   },
   {
     "id": "cakebread-mullan-road",
@@ -1022,7 +1218,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["black-fruit", "espresso", "spice", "velvety"]
+    }
   },
   {
     "id": "austin-hope-cabernet",
@@ -1038,7 +1248,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["jammy", "black-fruit", "vanilla", "chocolate", "opulent"]
+    }
   },
   {
     "id": "matua-sauvignon-blanc",
@@ -1054,7 +1278,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 9,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["grapefruit", "passion-fruit", "grass", "crisp"]
+    }
   },
   {
     "id": "knights-bridge-sauvignon",
@@ -1070,7 +1308,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["citrus", "melon", "oak", "rounded"]
+    }
   },
   {
     "id": "la-crema-chardonnay",
@@ -1086,7 +1338,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["apple", "pear", "vanilla", "butter"]
+    }
   },
   {
     "id": "rombauer-chardonnay",
@@ -1102,7 +1368,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["tropical-fruit", "butter", "toasty-oak", "creamy"]
+    }
   },
   {
     "id": "la-fiera-pinot-grigio",
@@ -1119,7 +1399,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["citrus", "green-apple", "mineral", "crisp"]
+    }
   },
   {
     "id": "loosen-riesling",
@@ -1135,7 +1429,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 1,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["peach", "apricot", "honey", "off-dry"]
+    }
   },
   {
     "id": "gd-valle-realis-bello",
@@ -1152,7 +1460,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["floral", "citrus", "stone-fruit", "crisp"]
+    }
   },
   {
     "id": "guado-al-tasso-vermentino",
@@ -1169,7 +1491,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 3,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["citrus", "white-peach", "herbal", "mineral"]
+    }
   },
   {
     "id": "gianni-gagliardo-roero",
@@ -1186,7 +1522,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["pear", "almond", "white-flowers", "rich"]
+    }
   },
   {
     "id": "santa-margherita-pinot",
@@ -1203,7 +1553,21 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["citrus", "white-peach", "mineral", "elegant"]
+    }
   },
   {
     "id": "centorri-moscato",
@@ -1219,7 +1583,21 @@
     "ingredients": [
       "sparkling-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 4,
+      "carbonation": 6,
+      "flavorNotes": ["peach", "orange-blossom", "honey", "sweet"]
+    }
   },
   {
     "id": "pasqua-prosecco",
@@ -1235,7 +1613,21 @@
     "ingredients": [
       "sparkling-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 8,
+      "flavorNotes": ["green-apple", "pear", "citrus", "crisp"]
+    }
   },
   {
     "id": "pasqua-prosecco-rose",
@@ -1251,7 +1643,21 @@
     "ingredients": [
       "sparkling-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 8,
+      "flavorNotes": ["strawberry", "cherry", "floral", "refreshing"]
+    }
   },
   {
     "id": "mionetto-prosecco",
@@ -1267,7 +1673,21 @@
     "ingredients": [
       "sparkling-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 1,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 9,
+      "flavorNotes": ["white-peach", "floral", "elegant", "creamy"]
+    }
   },
   {
     "id": "nicolas-feuillatte-brut",
@@ -1283,7 +1703,21 @@
     "ingredients": [
       "champagne"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 5,
+      "umami": 2,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 9,
+      "flavorNotes": ["brioche", "citrus", "toast", "complex"]
+    }
   },
   {
     "id": "nicolas-feuillatte-rose",
@@ -1299,7 +1733,21 @@
     "ingredients": [
       "champagne"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 5,
+      "umami": 2,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 9,
+      "flavorNotes": ["red-berry", "brioche", "citrus", "elegant"]
+    }
   },
   {
     "id": "world-wide-whites-flight",

@@ -2,7 +2,7 @@
   {
     "id": "pepperoni-pizza-lunch",
     "name": "Pepperoni",
-    "description": "Diavolo sauce, mozzarella, asiago, hot honey.",
+    "description": "Diavolo sauce, mozzarella, asiago, hot honey",
     "price": 17.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,
@@ -82,7 +82,7 @@
   {
     "id": "chicken-pesto-sandwich",
     "name": "Chicken Pesto Sandwich",
-    "description": "Grilled chicken breast, crisp prosciutto, pepperonata, arugula, provolone, pesto aioli.",
+    "description": "Grilled chicken breast, crisp prosciutto, pepperonata, arugula, provolone, and pesto aioli.",
     "price": 17.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": false,
@@ -95,7 +95,7 @@
   {
     "id": "via-meatball-sandwich",
     "name": "VIA Meatball Sandwich",
-    "description": "Two sliced colossal meatballs, provolone, mozzarella, marinara sauce.",
+    "description": "Two sliced colossal VIA meatballs with provolone, mozzarella, and marinara sauce.",
     "price": 16.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": false,
@@ -108,7 +108,7 @@
   {
     "id": "fried-eggplant-parmesan-sandwich",
     "name": "Fried Eggplant Parmesan Sandwich",
-    "description": "Fried eggplant, mozzarella, provolone, marinara.",
+    "description": "Crispy fried eggplant with mozzarella, provolone, and marinara.",
     "price": 16.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": true,
@@ -121,7 +121,7 @@
   {
     "id": "caprese-blt",
     "name": "Caprese BLT",
-    "description": "Thick cut applewood bacon, fresh mozzarella, vine ripe tomatoes, arugula, sundried tomato aioli, aged balsamic.",
+    "description": "Thick cut applewood smoked bacon, fresh mozzarella, vine ripe tomatoes, arugula, sundried tomato aioli, and aged balsamic.",
     "price": 16.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": false,

@@ -3106,7 +3106,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "strawberry", "smooth", "approachable"]
+    }
   },
   {
     "id": "benessere-zinfandel-bottle",
@@ -3122,7 +3136,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 3,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["blackberry", "raspberry-jam", "peppery", "bold"]
+    }
   },
   {
     "id": "siduri-pinot-noir-bottle",
@@ -3138,7 +3166,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 5,
+      "bitterness": 1,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["red-cherry", "raspberry", "earthy", "silky"]
+    }
   },
   {
     "id": "cambria-julias-vineyard-bottle",
@@ -3154,7 +3196,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "strawberry", "vanilla", "smooth"]
+    }
   },
   {
     "id": "rombauer-zinfandel-bottle",
@@ -3170,7 +3226,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 3,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["blackberry", "jammy", "opulent", "Rombauer"]
+    }
   },
   {
     "id": "machete-petite-syrah-bottle",
@@ -3186,7 +3256,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["blackberry", "pepper", "intense", "powerful"]
+    }
   },
   {
     "id": "domaine-drouhin-pinot-noir-bottle",
@@ -3202,7 +3286,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 6,
+      "bitterness": 1,
+      "tannin": 5,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["red-fruit", "earth", "elegant", "Burgundian"]
+    }
   },
   {
     "id": "wayfarer-pinot-noir-bottle",
@@ -3218,7 +3316,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 1,
+      "richness": 7,
+      "umami": 6,
+      "bitterness": 1,
+      "tannin": 5,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["red-fruit", "mineral", "complex", "coastal"]
+    }
   },
   {
     "id": "bonanza-cabernet-bottle",

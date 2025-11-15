@@ -1813,7 +1813,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["rose", "red-cherry", "herbal", "approachable"]
+    }
   },
   {
     "id": "valentina-montepulciano-bottle",
@@ -1830,7 +1844,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 5,
+      "bitterness": 1,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["dark-cherry", "plum", "soft", "versatile"]
+    }
   },
   {
     "id": "aschen-langhe-barbera-bottle",
@@ -1847,7 +1875,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["bright-cherry", "red-fruit", "food-friendly", "versatile"]
+    }
   },
   {
     "id": "gd-vajra-dolcetto-bottle",
@@ -1864,7 +1906,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 3,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["dark-cherry", "almond", "fruity", "easy-drinking"]
+    }
   },
   {
     "id": "castella-banfi-rosso-bottle",
@@ -1881,7 +1937,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "herbs", "soft", "approachable"]
+    }
   },
   {
     "id": "rosina-barbera-bottle",
@@ -1898,7 +1968,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["bright-cherry", "plum", "vibrant", "food-friendly"]
+    }
   },
   {
     "id": "san-felice-chianti-bottle",
@@ -1915,7 +1999,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 6,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["red-cherry", "herbs", "leather", "classic"]
+    }
   },
   {
     "id": "ca-del-baio-barbaresco-bottle",
@@ -1932,7 +2030,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 7,
+      "bitterness": 3,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["rose", "red-cherry", "tar", "elegant"]
+    }
   },
   {
     "id": "benanti-etna-rosso-bottle",
@@ -1949,7 +2061,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 9,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 4,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["red-cherry", "mineral", "smoke", "volcanic"]
+    }
   },
   {
     "id": "ascheri-barolo-bottle",
@@ -1966,7 +2092,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 7,
+      "bitterness": 3,
+      "tannin": 9,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["rose", "tar", "dark-cherry", "truffle", "complex"]
+    }
   },
   {
     "id": "bussola-valpolicella-bottle",
@@ -1983,7 +2123,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "raisin", "spice", "velvety"]
+    }
   },
   {
     "id": "antinori-chianti-riserva-bottle",
@@ -2000,7 +2154,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-cherry", "spice", "oak", "complex"]
+    }
   },
   {
     "id": "carpineto-vino-nobile-bottle",
@@ -2017,7 +2185,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["cherry", "plum", "leather", "spice"]
+    }
   },
   {
     "id": "caparzo-brunello-bottle",
@@ -2034,7 +2216,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 6,
+      "bitterness": 3,
+      "tannin": 8,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-cherry", "leather", "tobacco", "structured"]
+    }
   },
   {
     "id": "gd-vajra-barolo-albe-bottle",
@@ -2051,7 +2247,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 7,
+      "bitterness": 3,
+      "tannin": 9,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["rose", "tar", "red-fruit", "elegant"]
+    }
   },
   {
     "id": "altesino-brunello-bottle",
@@ -2067,7 +2277,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 3,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "spice", "earth", "powerful"]
+    }
   },
   {
     "id": "castiglion-barolo-bottle",
@@ -2084,7 +2308,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 7,
+      "bitterness": 3,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["rose", "tar", "dark-cherry", "licorice", "complex"]
+    }
   },
   {
     "id": "livio-sassetti-brunello-bottle",
@@ -2100,7 +2338,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 3,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["dark-cherry", "leather", "tobacco", "concentrated"]
+    }
   },
   {
     "id": "tommasi-amarone-bottle",
@@ -2117,7 +2369,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": ["raisin", "chocolate", "spice", "concentrated"]
+    }
   },
   {
     "id": "gaja-pieve-brunello-bottle",
@@ -2134,7 +2400,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 6,
+      "bitterness": 3,
+      "tannin": 8,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["red-fruit", "spice", "mineral", "elegant"]
+    }
   },
   {
     "id": "petrolo-boggina-bottle",
@@ -2151,7 +2431,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 3,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["concentrated-fruit", "oak", "structured", "powerful"]
+    }
   },
   {
     "id": "petrolo-galatrona-bottle",
@@ -2168,7 +2462,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["black-fruit", "chocolate", "velvety", "world-class"]
+    }
   },
   {
     "id": "gagliardo-fossati-barolo-bottle",
@@ -2185,7 +2493,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 8,
+      "bitterness": 3,
+      "tannin": 9,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["rose", "tar", "cherry", "truffle", "single-vineyard"]
+    }
   },
   {
     "id": "bertani-amarone-classico-bottle",
@@ -2202,7 +2524,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 10,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": ["raisin", "chocolate", "powerful", "legendary"]
+    }
   },
   {
     "id": "giodo-brunello-bottle",
@@ -2219,7 +2555,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 7,
+      "bitterness": 3,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["dark-cherry", "leather", "tobacco", "near-perfect"]
+    }
   },
   {
     "id": "gaja-sargaille-brunello-bottle",
@@ -2236,7 +2586,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 7,
+      "bitterness": 3,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["complex", "elegant", "single-vineyard", "legendary"]
+    }
   },
   {
     "id": "gaja-sperss-barolo-bottle",
@@ -2253,7 +2617,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 8,
+      "bitterness": 3,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["extraordinary", "complex", "masterpiece", "legendary"]
+    }
   },
   {
     "id": "olillo-super-tuscan-bottle",
@@ -2270,7 +2648,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["red-fruit", "soft", "modern", "approachable"]
+    }
   },
   {
     "id": "vardiola-igt-bottle",
@@ -2287,7 +2679,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "spice", "oak", "concentrated"]
+    }
   },
   {
     "id": "tenuta-san-guido-bottle",
@@ -2304,7 +2710,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "elegant", "structured", "prestigious"]
+    }
   },
   {
     "id": "gaja-ca-marcanda-bottle",
@@ -2321,7 +2741,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["red-fruit", "spice", "elegant", "Gaja"]
+    }
   },
   {
     "id": "antinori-tignanello-bottle",
@@ -2338,7 +2772,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "oak", "complex", "iconic"]
+    }
   },
   {
     "id": "gaja-ca-marcanda-camarcanda-bottle",
@@ -2355,7 +2803,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["powerful", "elegant", "complex", "flagship"]
+    }
   },
   {
     "id": "ornellaia-bolgheri-bottle",
@@ -2372,7 +2834,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["black-fruit", "extraordinary", "icon", "near-perfect"]
+    }
   },
   {
     "id": "sassicaia-bolgheri-bottle",
@@ -2389,7 +2865,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["elegant", "powerful", "legendary", "world-class"]
+    }
   },
   {
     "id": "antinori-solaia-bottle",
@@ -2406,7 +2896,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["extraordinary", "powerful", "masterpiece", "world-class"]
+    }
   },
   {
     "id": "domaine-bousquet-malbec-bottle",
@@ -2422,7 +2926,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["plum", "blackberry", "fruit-forward", "smooth"]
+    }
   },
   {
     "id": "felino-malbec-bottle",
@@ -2438,7 +2956,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "chocolate", "velvety", "concentrated"]
+    }
   },
   {
     "id": "stags-leap-merlot-bottle",
@@ -2454,7 +2986,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["plum", "black-cherry", "chocolate", "elegant"]
+    }
   },
   {
     "id": "red-schooner-malbec-bottle",
@@ -2470,7 +3016,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "bold", "smooth", "innovative"]
+    }
   },
   {
     "id": "ehrgott-merlot-bottle",
@@ -2486,7 +3046,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["plum", "leather", "earth", "aged"]
+    }
   },
   {
     "id": "duckhorn-merlot-bottle",
@@ -2502,7 +3076,21 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["plum", "chocolate", "velvety", "benchmark"]
+    }
   },
   {
     "id": "la-crema-pinot-noir-bottle",

@@ -5,13 +5,24 @@
     "description": "Mascarpone cheese and lady fingers soaked in rum and coffee topped with chocolate shavings.",
     "price": 11.99,
     "category": "Desserts",
-    "serverNotes": "Classic Italian dessert with mascarpone, coffee-soaked ladyfingers, rum, chocolate. Rich, creamy, coffee-forward. Pairs perfectly with espresso, cappuccino, Vin Santo, Moscato d'Asti, or dessert wines. Also great with grappa or amaretto. Iconic Italian finish.",
+    "serverNotes": "Classic Italian tiramisu with espresso-soaked ladyfingers, mascarpone. Rich, creamy, coffee-forward. Pairs beautifully with dessert wines (Vin Santo, Moscato d'Asti), Port, or espresso martinis. Also great with coffee or cappuccino.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["ladyfingers", "mascarpone", "rum", "coffee", "chocolate"],
-    "allergens": ["dairy", "gluten", "egg"]
+    "ingredients": ["ladyfingers", "espresso", "mascarpone", "cocoa"],
+    "allergens": ["dairy", "gluten", "eggs"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 4,
+      "flavorNotes": ["coffee", "creamy", "rich", "classic"]
+    }
   },
   {
     "id": "creme-brulee",
@@ -19,13 +30,24 @@
     "description": "Pistachio-infused custard, crisp caramelized sugar crust, and pistachio brittle",
     "price": 13.99,
     "category": "Desserts",
-    "serverNotes": "Elegant pistachio crème brûlée with caramelized sugar crust, pistachio brittle. Creamy, nutty, sophisticated. Pairs beautifully with Moscato d'Asti, Vin Santo, dessert wines, or espresso. Also great with amaretto or Frangelico. Contains nuts.",
+    "serverNotes": "Elegant pistachio crème brûlée with caramelized sugar crust. Nutty, creamy, sophisticated. Pairs wonderfully with dessert wines (late harvest Riesling, Sauternes), Port, or sweet sparkling wines. Premium dessert choice.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["custard", "pistachio", "sugar"],
-    "allergens": ["dairy", "egg", "nuts"]
+    "ingredients": ["cream", "pistachio", "sugar", "egg-yolks"],
+    "allergens": ["dairy", "eggs", "tree nuts"],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 1,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 0,
+      "flavorNotes": ["nutty", "creamy", "caramel", "sophisticated"]
+    }
   },
   {
     "id": "affogato",
@@ -39,7 +61,18 @@
     "nutFree": false,
     "kids": false,
     "ingredients": ["gelato", "espresso", "cookie", "biscotti", "hazelnut"],
-    "allergens": ["dairy", "gluten", "nuts"]
+    "allergens": ["dairy", "gluten", "nuts"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 5,
+      "flavorNotes": ["coffee", "vanilla", "simple", "elegant"]
+    }
   },
   {
     "id": "espresso-brownies",
@@ -47,13 +80,24 @@
     "description": "Two housemade brownies enriched with espresso powder, chocolate chips, and espresso frosting. Served with a scoop of gelato, chocolate sauce, and whipped cream.",
     "price": 11.99,
     "category": "Desserts",
-    "serverNotes": "Rich espresso brownies with gelato, chocolate sauce, whipped cream. Decadent, chocolaty, coffee-enhanced. Pairs perfectly with espresso, cappuccino, port, or dessert wines. Also great with Irish coffee or Baileys. Chocolate lover's delight.",
+    "serverNotes": "Decadent brownie sundae with espresso-infused brownie, gelato, whipped cream, chocolate. Rich, indulgent. Pairs with dessert wines (Port, Banyuls), coffee cocktails, or stout beers. Chocolate lover's dream.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["brownies", "espresso", "chocolate", "gelato", "whipped-cream"],
-    "allergens": ["dairy", "gluten", "egg"]
+    "ingredients": ["brownie", "espresso", "gelato", "whipped-cream", "chocolate-sauce"],
+    "allergens": ["dairy", "gluten", "eggs"],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 1,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 10,
+      "umami": 0,
+      "bitterness": 3,
+      "flavorNotes": ["chocolate", "coffee", "decadent", "indulgent"]
+    }
   },
   {
     "id": "crepe-cake",
@@ -61,13 +105,24 @@
     "description": "15 housemade crêpes layered with a cream cheese and mascarpone filling. Drizzled with a chocolate ganache and imported Amarena cherries.",
     "price": 13.99,
     "category": "Desserts",
-    "serverNotes": "Spectacular 15-layer crêpe cake with mascarpone-cream cheese filling, chocolate ganache, Amarena cherries. Show-stopping, elegant. Pairs beautifully with Champagne, Moscato d'Asti, dessert wines, or espresso. Also great with Chambord or cherry liqueur. Premium dessert.",
+    "serverNotes": "Delicate multi-layered crêpe cake with pastry cream, berries. Light, elegant, beautiful. Pairs with sparkling wines (Prosecco, Champagne), Moscato d'Asti, or dessert rosé. Sophisticated French-inspired dessert.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["crepes", "cream-cheese", "mascarpone", "chocolate-ganache", "cherries"],
-    "allergens": ["dairy", "gluten", "egg"]
+    "ingredients": ["crepes", "pastry-cream", "berries"],
+    "allergens": ["dairy", "gluten", "eggs"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 0,
+      "flavorNotes": ["delicate", "fruity", "light", "elegant"]
+    }
   },
   {
     "id": "mascarpone-cheesecake",
@@ -81,7 +136,18 @@
     "nutFree": false,
     "kids": false,
     "ingredients": ["mascarpone", "cream-cheese", "biscotti", "almonds", "berries", "lemon-curd"],
-    "allergens": ["dairy", "gluten", "egg", "nuts"]
+    "allergens": ["dairy", "gluten", "eggs", "nuts"],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 8,
+      "umami": 0,
+      "bitterness": 1,
+      "flavorNotes": ["creamy", "bright", "balanced", "nutty"]
+    }
   },
   {
     "id": "chocolate-torta",
@@ -89,13 +155,24 @@
     "description": "Flourless chocolate torta served with raspberry sauce and fresh raspberries.",
     "price": 11.99,
     "category": "Desserts",
-    "serverNotes": "Rich flourless chocolate torta with raspberry sauce, fresh raspberries. Gluten-free, intensely chocolaty, elegant. Pairs perfectly with port, red dessert wines, espresso, or Champagne. Also great with Chambord or raspberry liqueur. Sophisticated chocolate option.",
+    "serverNotes": "Flourless chocolate torte - intense, fudgy, rich. For serious chocolate lovers. Pairs excellently with Port, Banyuls, coffee cocktails, or stout beers. Gluten-free option.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["chocolate", "eggs", "raspberries"],
-    "allergens": ["dairy", "egg"]
+    "ingredients": ["chocolate", "butter", "sugar", "eggs"],
+    "allergens": ["dairy", "eggs"],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 1,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 10,
+      "umami": 0,
+      "bitterness": 4,
+      "flavorNotes": ["chocolate", "intense", "fudgy", "rich"]
+    }
   },
   {
     "id": "cannoli",
@@ -103,13 +180,24 @@
     "description": "Traditional vanilla cannoli garnished with chocolate chips and powdered sugar.",
     "price": 7.99,
     "category": "Desserts",
-    "serverNotes": "Classic Sicilian cannoli with sweet ricotta filling, chocolate chips, powdered sugar. Crispy shell, creamy filling. Traditional Italian dessert. Pairs wonderfully with espresso, cappuccino, Vin Santo, Moscato d'Asti, or dessert wines. Also great with sambuca or amaretto.",
+    "serverNotes": "Two Italian cannoli with sweet ricotta filling, chocolate chips, pistachios. Classic Sicilian dessert. Pairs with dessert wines (Marsala, Vin Santo), espresso, or sweet liqueurs. Traditional Italian favorite.",
     "vegetarian": true,
     "glutenFree": false,
-    "nutFree": true,
+    "nutFree": false,
     "kids": false,
-    "ingredients": ["cannoli-shell", "ricotta", "chocolate-chips", "sugar"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": ["cannoli-shells", "ricotta", "chocolate-chips", "pistachios"],
+    "allergens": ["dairy", "gluten", "eggs", "tree nuts"],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 1,
+      "flavorNotes": ["sweet", "creamy", "nutty", "traditional"]
+    }
   },
   {
     "id": "gelato-sorbetto-3-scoops",
@@ -117,13 +205,24 @@
     "description": "Gelato: Vanilla, Chocolate, Strawberry, Peach, Pistachio, Blackberry, Coconut, Salted Caramel, Peanut Butter Chocolate Chip. Sorbetto: Blood Orange, Limoncello.",
     "price": 10.99,
     "category": "Desserts",
-    "serverNotes": "House-made Italian gelato and sorbetto. Choose 3 scoops of any combination. Gelato is creamier and denser than ice cream. Sorbetto is dairy-free. Note: Chocolate and Pistachio gelato contain eggs, peanuts, and tree nuts. Peanut Butter Chocolate Chip contains peanuts and tree nuts. Pairs with espresso or dessert wines.",
+    "serverNotes": "House-made Italian gelato and sorbetto. Choose 3 scoops of any combination. Gelato is creamier and denser than ice cream. Sorbetto is dairy-free. Note: Chocolate and Pistachio gelato contain peanuts, tree nuts",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": false,
     "kids": true,
     "ingredients": ["gelato", "sorbetto"],
-    "allergens": ["dairy", "eggs", "peanuts", "tree nuts"]
+    "allergens": ["dairy", "eggs", "peanuts", "tree nuts"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 5,
+      "flavorNotes": ["creamy", "fruity", "nutty", "refreshing"]
+    }
   },
   {
     "id": "cone-sampler-5",

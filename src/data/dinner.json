@@ -14,7 +14,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pizza-dough", "mozzarella", "garlic-oil", "basil"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 5,
+      "umami": 5,
+      "bitterness": 0,
+      "flavorNotes": ["fresh", "simple", "herbaceous", "classic"]
+    }
   },
   {
     "id": "meatball-sausage-pizza",
@@ -31,7 +42,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pizza-dough", "meatball", "sausage", "peppadew-peppers", "tomatoes", "ricotta", "parmesan", "parsley-oil"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 7,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["meaty", "bold", "savory", "hearty"]
+    }
   },
   {
     "id": "chicken-caesar-salad-pizza",
@@ -48,7 +70,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pizza-dough", "chicken", "caesar-dressing", "tomato", "mozzarella", "provolone"],
-    "allergens": ["dairy", "gluten", "fish"]
+    "allergens": ["dairy", "gluten", "fish"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 6,
+      "bitterness": 1,
+      "flavorNotes": ["fresh", "tangy", "light", "unique"]
+    }
   },
   {
     "id": "fig-prosciutto-pizza",
@@ -65,7 +98,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pizza-dough", "fig", "prosciutto", "eggplant", "asiago", "arugula", "balsamic"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 6,
+      "bitterness": 1,
+      "flavorNotes": ["sweet-savory", "sophisticated", "elegant", "balanced"]
+    }
   },
   {
     "id": "pepperoni-pizza",
@@ -82,7 +126,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pizza-dough", "pepperoni", "diavolo-sauce", "mozzarella", "asiago", "hot-honey"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 5,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 6,
+      "bitterness": 0,
+      "flavorNotes": ["spicy", "sweet", "classic", "crowd-pleaser"]
+    }
   },
   {
     "id": "insalata-mista",
@@ -96,7 +151,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["mixed-greens", "cucumber", "tomato", "vinaigrette"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 3,
+      "richness": 2,
+      "umami": 2,
+      "bitterness": 1,
+      "flavorNotes": ["fresh", "light", "crisp", "refreshing"]
+    }
   },
   {
     "id": "grilled-caesar",
@@ -110,7 +176,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["romaine", "caesar-dressing", "parmesan", "croutons"],
-    "allergens": ["dairy", "gluten", "fish"]
+    "allergens": ["dairy", "gluten", "fish"],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 6,
+      "bitterness": 1,
+      "flavorNotes": ["savory", "creamy", "tangy", "classic"]
+    }
   },
   {
     "id": "burrata-caprese-salad",
@@ -124,7 +201,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["burrata", "tomato", "basil", "herb-oil", "balsamic-reduction"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 4,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 0,
+      "flavorNotes": ["fresh", "creamy", "elegant", "herbaceous"]
+    }
   },
   {
     "id": "chicken-piccata",
@@ -138,7 +226,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["chicken", "capers", "lemon", "butter", "spaghetti", "tomatoes"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 6,
+      "bitterness": 0,
+      "flavorNotes": ["bright", "lemony", "savory", "elegant"]
+    }
   },
   {
     "id": "chicken-parmesan",
@@ -152,7 +251,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["chicken", "breadcrumbs", "spaghetti", "marinara-sauce", "mozzarella", "provolone", "parmesan"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 7,
+      "bitterness": 0,
+      "flavorNotes": ["savory", "cheesy", "comfort", "classic"]
+    }
   },
   {
     "id": "eggplant-parmesan",
@@ -166,7 +276,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["eggplant", "breadcrumbs", "mozzarella", "provolone", "parmesan", "spaghetti", "marinara-sauce"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 6,
+      "bitterness": 1,
+      "flavorNotes": ["savory", "cheesy", "comfort", "vegetarian"]
+    }
   },
   {
     "id": "ragu-italian-meats",
@@ -180,7 +301,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pork", "meatball", "beef", "chicken", "sausage", "marinara-sauce", "mezzi-rigatoni"],
-    "allergens": ["gluten"]
+    "allergens": ["gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 7,
+      "richness": 9,
+      "umami": 10,
+      "bitterness": 0,
+      "flavorNotes": ["meaty", "rich", "indulgent", "bold"]
+    }
   },
   {
     "id": "three-meatballs",
@@ -194,7 +326,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["beef", "pork", "spaghetti", "marinara-sauce", "ricotta-salata", "basil"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["savory", "meaty", "comfort", "traditional"]
+    }
   },
   {
     "id": "veal-marsala",
@@ -208,7 +351,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["veal", "prosciutto", "mushrooms", "peas", "spaghetti", "feta"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["earthy", "savory", "elegant", "refined"]
+    }
   },
   {
     "id": "filet-mignon",
@@ -222,7 +376,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["beef", "potatoes", "asparagus", "mushrooms", "blue-cheese"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 9,
+      "umami": 9,
+      "bitterness": 0,
+      "flavorNotes": ["tender", "elegant", "earthy", "rich"]
+    }
   },
   {
     "id": "surf-and-turf",
@@ -236,7 +401,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["beef", "shrimp", "potatoes", "brussels-sprouts"],
-    "allergens": ["dairy", "shellfish"]
+    "allergens": ["dairy", "shellfish"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 9,
+      "umami": 9,
+      "bitterness": 0,
+      "flavorNotes": ["bold", "rich", "surf-turf", "indulgent"]
+    }
   },
   {
     "id": "berkshire-pork-osso-buco",
@@ -250,7 +426,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pork", "polenta", "mushrooms", "taleggio"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 9,
+      "umami": 9,
+      "bitterness": 0,
+      "flavorNotes": ["tender", "earthy", "creamy", "sophisticated"]
+    }
   },
   {
     "id": "berkshire-pork-chop",
@@ -264,7 +451,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pork", "guanciale", "sweet-potato", "apple-butter"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 8,
+      "umami": 7,
+      "bitterness": 0,
+      "flavorNotes": ["sweet-savory", "fruity", "rich", "impressive"]
+    }
   },
   {
     "id": "grilled-veal-chop",
@@ -278,7 +476,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["veal", "risotto", "mushrooms", "gorgonzola"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 9,
+      "umami": 9,
+      "bitterness": 0,
+      "flavorNotes": ["earthy", "creamy", "elegant", "luxurious"]
+    }
   },
   {
     "id": "veal-chop-parmesan",
@@ -292,7 +501,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["veal", "breadcrumbs", "marinara-sauce", "mozzarella", "provolone", "parmesan", "broccoli-rabe"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 8,
+      "umami": 8,
+      "bitterness": 2,
+      "flavorNotes": ["savory", "cheesy", "crispy", "impressive"]
+    }
   },
   {
     "id": "short-rib",
@@ -306,7 +526,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["beef", "risotto", "mushrooms"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 10,
+      "umami": 10,
+      "bitterness": 0,
+      "flavorNotes": ["rich", "luxurious", "tender", "earthy"]
+    }
   },
   {
     "id": "mushroom-fiori",
@@ -320,7 +551,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["fiori-pasta", "mushrooms", "cream", "honey", "parmesan"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 8,
+      "umami": 9,
+      "bitterness": 0,
+      "flavorNotes": ["earthy", "mushroom", "creamy", "rich"]
+    }
   },
   {
     "id": "mezzi-rigatoni-roasted-chicken",
@@ -334,7 +576,18 @@
     "nutFree": false,
     "kids": false,
     "ingredients": ["chicken", "mushrooms", "peas", "tomato", "prosciutto", "pesto", "cream"],
-    "allergens": ["dairy", "gluten", "nuts"]
+    "allergens": ["dairy", "gluten", "nuts"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 8,
+      "umami": 7,
+      "bitterness": 0,
+      "flavorNotes": ["savory", "herbaceous", "creamy", "complex"]
+    }
   },
   {
     "id": "shrimp-scampi",
@@ -348,7 +601,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["shrimp", "tomatoes", "garlic", "lemon", "butter", "spaghetti"],
-    "allergens": ["shellfish", "dairy", "gluten"]
+    "allergens": ["shellfish", "dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 7,
+      "bitterness": 0,
+      "flavorNotes": ["garlicky", "bright", "seafood", "buttery"]
+    }
   },
   {
     "id": "seafood-fra-diavolo",
@@ -362,7 +626,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["shrimp", "scallops", "lobster", "orecchiette", "tomato-sauce"],
-    "allergens": ["shellfish", "gluten"]
+    "allergens": ["shellfish", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 1,
+      "flavorNotes": ["spicy", "seafood", "bold", "luxurious"]
+    }
   },
   {
     "id": "pappardelle-bolognese",
@@ -376,7 +651,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pappardelle", "beef", "pork", "sausage", "tomato", "cream"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 8,
+      "umami": 9,
+      "bitterness": 0,
+      "flavorNotes": ["meaty", "rich", "savory", "comfort"]
+    }
   },
   {
     "id": "pasta-and-sauce",
@@ -391,7 +677,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["pasta"],
-    "allergens": ["dairy", "gluten"]
+    "allergens": ["dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 6,
+      "umami": 4,
+      "bitterness": 0,
+      "flavorNotes": ["versatile", "classic", "simple", "customizable"]
+    }
   },
   {
     "id": "seared-scallops-entree",
@@ -405,7 +702,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scallops", "hot-honey", "corn", "onion", "bacon", "risotto", "mascarpone"],
-    "allergens": ["shellfish", "dairy"]
+    "allergens": ["shellfish", "dairy"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 6,
+      "richness": 8,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["sweet-savory", "seafood", "elegant", "rich"]
+    }
   },
   {
     "id": "north-atlantic-salmon",
@@ -419,7 +727,18 @@
     "nutFree": false,
     "kids": false,
     "ingredients": ["salmon", "squash", "farro", "mascarpone", "pumpkin-seeds"],
-    "allergens": ["fish", "dairy", "nuts"]
+    "allergens": ["fish", "dairy", "nuts"],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 4,
+      "richness": 7,
+      "umami": 6,
+      "bitterness": 0,
+      "flavorNotes": ["balanced", "seasonal", "nutty", "fresh"]
+    }
   },
   {
     "id": "lobster-risotto",
@@ -433,7 +752,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["lobster", "tomatoes", "bacon", "basil", "spinach", "risotto", "romano"],
-    "allergens": ["shellfish", "dairy"]
+    "allergens": ["shellfish", "dairy"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 9,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["luxurious", "creamy", "seafood", "indulgent"]
+    }
   },
   {
     "id": "tuscan-herb-crumb-crusted-haddock",
@@ -447,7 +777,18 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["haddock", "potatoes", "asparagus"],
-    "allergens": ["fish"]
+    "allergens": ["fish"],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 4,
+      "richness": 4,
+      "umami": 5,
+      "bitterness": 0,
+      "flavorNotes": ["herby", "light", "fresh", "flaky"]
+    }
   },
   {
     "id": "lobster-stuffed-shells",
@@ -461,6 +802,17 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["lobster", "crab", "shrimp", "ricotta", "mozzarella", "pasta-shells", "marinara-sauce"],
-    "allergens": ["shellfish", "dairy", "gluten"]
+    "allergens": ["shellfish", "dairy", "gluten"],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 8,
+      "umami": 8,
+      "bitterness": 0,
+      "flavorNotes": ["luxurious", "seafood", "creamy", "decadent"]
+    }
   }
 ]

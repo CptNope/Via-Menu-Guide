@@ -247,6 +247,21 @@
   font-weight: 600;
 }
 
+.pairings {
+  font-size: 0.85rem;
+  color: #4a3828;
+  background: #f3f9f3;
+  padding: 0.5rem;
+  margin-top: 0.4rem;
+  border-left: 3px solid #2d5016;
+  border-radius: 4px;
+}
+
+.pairings strong {
+  color: #2d5016;
+  font-weight: 600;
+}
+
 .menu-item-tags {
   display: flex;
   flex-wrap: wrap;

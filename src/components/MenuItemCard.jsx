@@ -38,6 +38,12 @@ function MenuItemCard({ item }) {
         </div>
       )}
 
+      {item.pairings && item.pairings.length > 0 && (
+        <div className="pairings">
+          <strong>Pairs with:</strong> {item.pairings.join(", ")}
+        </div>
+      )}
+
       <div className="menu-item-tags">
         {tags.map((tag) => (
           <span key={tag} className="tag-pill">

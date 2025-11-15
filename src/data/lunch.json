@@ -225,7 +225,7 @@
   {
     "id": "braised-short-rib-ragu-lunch",
     "name": "Braised Short Rib Ragu",
-    "description": "Cheese ravioli.",
+    "description": "On cheese ravioli.",
     "price": 23.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -238,7 +238,7 @@
   {
     "id": "chicken-marsala-lunch",
     "name": "Chicken Marsala",
-    "description": "Sautéed chicken breast, prosciutto, mushrooms, peas, orecchiette pasta, feta cheese.",
+    "description": "Sautéed chicken breast, prosciutto, mushrooms, and peas with orecchiette pasta and feta cheese.",
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -251,7 +251,7 @@
   {
     "id": "eggplant-parmesan-lunch",
     "name": "Eggplant Parmesan",
-    "description": "Crispy Italian eggplant, mozzarella, provolone, Parmesan, spaghetti marinara.",
+    "description": "Crisp hand-breaded Italian eggplant with mozzarella, provolone, and Parmesan, served with spaghetti marinara.",
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": true,
@@ -264,7 +264,7 @@
   {
     "id": "shrimp-scampi-lunch",
     "name": "Shrimp Scampi",
-    "description": "Pan seared shrimp, grape tomatoes, parsley, lemon white wine butter sauce, spaghetti.",
+    "description": "Pan seared shrimp tossed with grape tomatoes, parsley, and a lemon white wine butter sauce served over spaghetti.",
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -277,7 +277,7 @@
   {
     "id": "shrimp-risotto-lunch",
     "name": "Shrimp Risotto",
-    "description": "Pan seared shrimp, spinach, red onion, diced tomatoes, cannellini beans, tomato basil risotto, crispy prosciutto.",
+    "description": "Pan seared shrimp with spinach, red onion, diced tomatoes, and cannellini beans, served over a tomato and basil risotto topped with crispy prosciutto.",
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -290,7 +290,7 @@
   {
     "id": "pappardelle-bolognese-lunch",
     "name": "Pappardelle Bolognese",
-    "description": "Meat sauce of beef, pork, sausage, tomato paste, cream.",
+    "description": "A rich meat sauce of beef, pork, sausage, a touch of tomato paste and cream.",
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -303,7 +303,7 @@
   {
     "id": "salmon-livornese-lunch",
     "name": "Salmon Livornese",
-    "description": "Pan seared North Atlantic salmon, stewed tomatoes, red onion, kalamata olives, capers, herbed romano polenta, arugula.",
+    "description": "Pan roasted North Atlantic salmon with stewed tomatoes, red onion, kalamata olives, and capers served over herbed Romano polenta and arugula.",
     "price": 18.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -316,7 +316,7 @@
   {
     "id": "tuscan-herb-crumb-crusted-haddock-lunch",
     "name": "Tuscan Herb & Crumb Crusted Haddock",
-    "description": "Baked, roasted potatoes, asparagus.",
+    "description": "Baked, served with roasted potatoes and asparagus.",
     "price": 21.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,

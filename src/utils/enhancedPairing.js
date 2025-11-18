@@ -20,12 +20,22 @@ export function getFoodPairingRecommendations(foodItem, allDrinks) {
   }
 
   // Separate wines by the glass and bottles
+  // Wines by the glass are typically lower priced (under $20) and don't have "Bottles" in category
   const winesByGlass = allDrinks.filter(drink => 
-    drink.category?.includes('Glass') && drink.flavorProfile
+    drink.flavorProfile && 
+    drink.price < 20 &&
+    !drink.category?.includes('Bottles') &&
+    (drink.category?.includes('Red') || 
+     drink.category?.includes('White') || 
+     drink.category?.includes('Rosé') ||
+     drink.category?.includes('Rose') ||
+     drink.category?.includes('Sparkling'))
   );
   
+  // Bottles are marked with "Bottles" in category or have higher prices
   const bottles = allDrinks.filter(drink => 
-    drink.category?.includes('Bottles') && drink.flavorProfile
+    drink.flavorProfile &&
+    (drink.category?.includes('Bottles') || drink.price >= 30)
   );
 
   // Find best wine by the glass

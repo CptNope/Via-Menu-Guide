@@ -7534,6 +7534,15 @@
       "tannin": 0,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 1,
+      "minerality": 4,
+      "finish": 8,
+      "creaminess": 2,
+      "herbaceousness": 8,
+      "intensity": 7,
+      "complexity": 9,
+      "aromaticIntensity": 8,
       "flavorNotes": ["herbs", "grappa", "honey", "citrus", "refined", "elegant"]
     }
   },
@@ -7567,6 +7576,14 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 6,
+      "herbaceousness": 6,
+      "intensity": 7,
+      "complexity": 6,
+      "aromaticIntensity": 9,
       "flavorNotes": ["key-lime", "herbs", "citrus", "bright", "refreshing", "tropical"]
     }
   },

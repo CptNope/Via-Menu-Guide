@@ -1,6 +1,8 @@
 import React, { useMemo, useState } from "react";
 import MenuItemCard from "./MenuItemCard";
 import FilterBar from "./FilterBar";
+import PairingControls from "./PairingControls";
+import { getDefaultPreferences } from "../utils/pairingPreferences";
 import educationalGuide from "../data/drinksEducationalGuide.json";
 
 const groupByCategory = (items) => {
@@ -16,6 +18,7 @@ const groupByCategory = (items) => {
 function MenuPage({ title, data }) {
   const isDrinksMenu = title === "Drinks";
   const [expandedCategories, setExpandedCategories] = useState({});
+  const [pairingPreferences, setPairingPreferences] = useState(getDefaultPreferences());
   
   const [filters, setFilters] = useState({
     vegetarian: false,
@@ -185,6 +188,11 @@ function MenuPage({ title, data }) {
       </div>
 
       <FilterBar filters={filters} onChange={setFilters} showDrinkFilters={isDrinksMenu} />
+      
+      <PairingControls 
+        preferences={pairingPreferences}
+        onChange={setPairingPreferences}
+      />
 
       <div className="menu-layout">
         {Object.keys(grouped).map((cat) => {
@@ -224,7 +232,11 @@ function MenuPage({ title, data }) {
               )}
               
               {grouped[cat].map((item) => (
-                <MenuItemCard key={item.id} item={item} />
+                <MenuItemCard 
+                  key={item.id} 
+                  item={item} 
+                  pairingPreferences={pairingPreferences}
+                />
               ))}
             </section>
           );

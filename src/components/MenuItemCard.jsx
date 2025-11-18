@@ -11,7 +11,7 @@ import dinnerData from "../data/dinner.json";
 import dessertData from "../data/dessert.json";
 import gelatoData from "../data/gelato.json";
 
-function MenuItemCard({ item }) {
+function MenuItemCard({ item, pairingPreferences = null }) {
   const [showPairings, setShowPairings] = useState(false);
   const [showAfterDinnerPairings, setShowAfterDinnerPairings] = useState(false);
   const [showBeerPairings, setShowBeerPairings] = useState(false);
@@ -117,7 +117,7 @@ function MenuItemCard({ item }) {
   );
   
   const winePairings = isDrinkWithFoodPairing && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
-  const foodPairings = !isDrinkWithFoodPairing && item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
+  const foodPairings = !isDrinkWithFoodPairing && item.flavorProfile ? getFoodPairingRecommendations(item, drinks, pairingPreferences) : null;
   
   // For after-dinner drinks, use findPairings directly and structure results
   let afterDinnerPairings = null;

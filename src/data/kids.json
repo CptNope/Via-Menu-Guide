@@ -6,18 +6,16 @@
     "price": 9.5,
     "category": "Kids",
     "vegetarian": false,
-    "glutenFree": false,
+    "glutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
-      "spaghetti",
+      "GF-spaghetti",
       "tomato-sauce",
       "beef",
-      "breadcrumbs"
+      "GF-breadcrumbs"
     ],
-    "allergens": [
-      "gluten"
-    ]
+    "allergens": []
   },
   {
     "id": "kids-salad",
@@ -55,7 +53,7 @@
   {
     "id": "mac-and-cheese",
     "name": "Mac & Cheese",
-    "description": "Classic macaroni and cheese",
+    "description": "Classic macaroni and cheese. Can substitute GF pasta.",
     "price": 5.99,
     "category": "Kids",
     "vegetarian": true,
@@ -74,7 +72,7 @@
   {
     "id": "cheese-pizzette",
     "name": "Cheese Pizzette",
-    "description": "Small cheese pizza",
+    "description": "Small cheese pizza. Can be made GF with cauliflower-parm crust.",
     "price": 6.99,
     "category": "Kids",
     "vegetarian": true,
@@ -94,7 +92,7 @@
   {
     "id": "shrimp-scampi",
     "name": "Shrimp Scampi",
-    "description": "Pan seared shrimp in a garlic butter sauce served over mezzi rigatoni",
+    "description": "Pan seared shrimp in a garlic butter sauce served over mezzi rigatoni. Can substitute GF pasta.",
     "price": 8.99,
     "category": "Kids",
     "vegetarian": false,
@@ -158,18 +156,17 @@
     "price": 6.99,
     "category": "Kids",
     "vegetarian": false,
-    "glutenFree": false,
+    "glutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
-      "spaghetti",
+      "GF-spaghetti",
       "tomato-sauce",
       "beef",
-      "breadcrumbs",
+      "GF-breadcrumbs",
       "cheese"
     ],
     "allergens": [
-      "gluten",
       "dairy"
     ]
   },

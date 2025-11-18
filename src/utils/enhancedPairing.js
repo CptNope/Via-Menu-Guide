@@ -7,14 +7,16 @@
  */
 
 import { findPairings, findFoodPairings } from './pairingAlgorithm.js';
+import { applyPairingPreferences } from './pairingPreferences.js';
 
 /**
  * Get comprehensive pairing recommendations for a food item
  * @param {Object} foodItem - Food item with flavorProfile
  * @param {Array} allDrinks - All available drinks (glasses + bottles)
+ * @param {Object} preferences - User pairing preferences (optional)
  * @returns {Object} Categorized pairing recommendations
  */
-export function getFoodPairingRecommendations(foodItem, allDrinks) {
+export function getFoodPairingRecommendations(foodItem, allDrinks, preferences = null) {
   if (!foodItem?.flavorProfile || !Array.isArray(allDrinks)) {
     return null;
   }
@@ -42,7 +44,13 @@ export function getFoodPairingRecommendations(foodItem, allDrinks) {
   );
 
   // Find best wine by the glass
-  const glassPairings = findPairings(foodItem, winesByGlass, 5);
+  let glassPairings = findPairings(foodItem, winesByGlass, 20);
+  
+  // Apply user preferences to glass pairings
+  if (preferences) {
+    glassPairings = applyPairingPreferences(glassPairings, winesByGlass, preferences);
+  }
+  
   const bestGlass = glassPairings[0] || null;
 
   // Categorize bottles by price tier
@@ -51,9 +59,16 @@ export function getFoodPairingRecommendations(foodItem, allDrinks) {
   const highPriceBottles = bottles.filter(b => b.price >= 120);
 
   // Find best bottle in each tier
-  const lowPairings = findPairings(foodItem, lowPriceBottles, 3);
-  const midPairings = findPairings(foodItem, midPriceBottles, 3);
-  const highPairings = findPairings(foodItem, highPriceBottles, 3);
+  let lowPairings = findPairings(foodItem, lowPriceBottles, 10);
+  let midPairings = findPairings(foodItem, midPriceBottles, 10);
+  let highPairings = findPairings(foodItem, highPriceBottles, 10);
+  
+  // Apply user preferences to bottle pairings
+  if (preferences) {
+    lowPairings = applyPairingPreferences(lowPairings, lowPriceBottles, preferences);
+    midPairings = applyPairingPreferences(midPairings, midPriceBottles, preferences);
+    highPairings = applyPairingPreferences(highPairings, highPriceBottles, preferences);
+  }
 
   return {
     foodId: foodItem.id,

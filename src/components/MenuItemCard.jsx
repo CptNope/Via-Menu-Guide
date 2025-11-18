@@ -6,6 +6,7 @@ import { getFoodPairingRecommendations, getWinePairingRecommendations } from "..
 import drinks from "../data/drinks.json";
 import appetizers from "../data/appetizers.json";
 import dinner from "../data/dinner.json";
+import desserts from "../data/dessert.json";
 
 function MenuItemCard({ item }) {
   const [showPairings, setShowPairings] = useState(false);
@@ -49,7 +50,7 @@ function MenuItemCard({ item }) {
   );
 
   // Get dynamic pairings based on item type
-  const allFoodItems = [...appetizers, ...dinner];
+  const allFoodItems = [...appetizers, ...dinner, ...desserts];
   const winePairings = isDrinkWithFoodPairing && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
   const foodPairings = !isDrinkWithFoodPairing && item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
 

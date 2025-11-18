@@ -18,7 +18,7 @@ export function findPairings(foodItem, drinks, maxResults = 5) {
   }
 
   const pairings = drinks
-    .filter(drink => drink?.flavorProfile)
+    .filter(drink => drink?.flavorProfile && !drink.excludeFromPairings)
     .map(drink => {
       const score = calculatePairingScore(foodItem.flavorProfile, drink.flavorProfile);
       const explanation = generateExplanation(foodItem, drink, score);
@@ -431,7 +431,7 @@ export function findFoodPairings(drinkItem, foods, maxResults = 5) {
   }
 
   const pairings = foods
-    .filter(food => food?.flavorProfile)
+    .filter(food => food?.flavorProfile && !food.excludeFromPairings)
     .map(food => {
       const score = calculatePairingScore(food.flavorProfile, drinkItem.flavorProfile);
       const explanation = generateExplanation(food, drinkItem, score);

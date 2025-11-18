@@ -243,6 +243,7 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": true,
+    "excludeFromPairings": true,
     "ingredients": ["gelato", "sorbetto"],
     "allergens": ["dairy", "eggs", "peanuts", "tree nuts"],
     "flavorProfile": {
@@ -272,6 +273,7 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": true,
+    "excludeFromPairings": true,
     "ingredients": ["gelato", "sorbetto", "cone"],
     "allergens": ["dairy", "gluten", "nuts"],
     "flavorProfile": {
@@ -301,6 +303,7 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": true,
+    "excludeFromPairings": true,
     "ingredients": ["gelato", "sorbetto", "cone"],
     "allergens": ["dairy", "gluten", "nuts"],
     "flavorProfile": {

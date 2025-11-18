@@ -17,6 +17,7 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   const [showBeerPairings, setShowBeerPairings] = useState(false);
   const [showBourbonPairings, setShowBourbonPairings] = useState(false);
   const [showWhiskeyPairings, setShowWhiskeyPairings] = useState(false);
+  const [showDessertPairings, setShowDessertPairings] = useState(false);
   const tags = [];
   if (item.vegetarian) tags.push("Vegetarian");
   if (item.glutenFree) tags.push("Gluten-free");
@@ -79,6 +80,16 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   
   // Detect if this is a beer item (should show whiskey pairings)
   const isBeer = item.category === 'Draught' || item.category === 'Bottles & Cans' || item.category === 'Non-Alcoholic Beer' || item.category === 'Beer';
+  
+  // Detect if this is a drink that pairs with desserts (should show dessert pairings)
+  const isDessertDrink = item.category === 'Port' || 
+                         item.category === 'Cognac' || 
+                         item.category === 'Amaro & Digestivo' || 
+                         item.category === 'Coffee Cocktails' || 
+                         item.category === 'Grappa' || 
+                         item.category === 'Bourbon' || 
+                         item.category === 'Rye' || 
+                         item.category === 'Scotch';
   
   // Filter beers for appetizer/pizza pairings
   const beers = drinks.filter(drink => 
@@ -177,6 +188,19 @@ function MenuItemCard({ item, pairingPreferences = null }) {
       whiskeyPairings = {
         recommendations: {
           topMatches: topWhiskeyMatches
+        }
+      };
+    }
+  }
+
+  // For after-dinner drinks and whiskeys, get dessert pairings
+  let dessertPairings = null;
+  if (isDessertDrink && item.flavorProfile && allDesserts.length > 0) {
+    const topDessertMatches = findPairings(item, allDesserts, 6);
+    if (topDessertMatches && topDessertMatches.length > 0) {
+      dessertPairings = {
+        recommendations: {
+          topMatches: topDessertMatches
         }
       };
     }
@@ -701,6 +725,56 @@ function MenuItemCard({ item, pairingPreferences = null }) {
                           <FlavorProfileDisplay 
                             flavorProfile={pairing.flavorProfile}
                             title="Tasting Profile"
+                          />
+                        )}
+                      </div>
+                      <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
+                        {pairing.compatibility}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </>
+      )}
+
+      {/* Dessert Pairings for After-Dinner Drinks & Whiskeys */}
+      {dessertPairings && (
+        <>
+          <button 
+            className="pairing-toggle-btn"
+            onClick={() => setShowDessertPairings(!showDessertPairings)}
+          >
+            <span className="toggle-arrow">{showDessertPairings ? '▼' : '▶'}</span>
+            🍰 {showDessertPairings ? 'Hide' : 'View'} Dessert Pairings
+          </button>
+
+          {showDessertPairings && dessertPairings?.recommendations && (
+            <div className="pairing-panel">
+              {/* Top Dessert Matches */}
+              {dessertPairings.recommendations.topMatches?.length > 0 && (
+                <div className="pairing-section">
+                  <h4>🍰 Top Dessert Pairings</h4>
+                  
+                  {dessertPairings.recommendations.topMatches.slice(0, 6).map((pairing, idx) => (
+                    <div key={idx} className="pairing-item-detailed">
+                      <div className="wine-info">
+                        <div className="wine-header">
+                          <span className="wine-name">
+                            {pairing.foodName || pairing.drinkName}
+                          </span>
+                          <span className="food-category">{pairing.foodCategory}</span>
+                        </div>
+                        {pairing.foodDescription && (
+                          <div className="wine-description">{pairing.foodDescription}</div>
+                        )}
+                        <div className="pairing-explanation">{pairing.explanation}</div>
+                        {pairing.flavorProfile && (
+                          <FlavorProfileDisplay 
+                            flavorProfile={pairing.flavorProfile}
+                            title="Dessert Profile"
                           />
                         )}
                       </div>

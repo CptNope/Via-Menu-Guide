@@ -5970,7 +5970,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "light",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["apple", "pear", "vanilla", "honey", "smooth"]
+    }
   },
   {
     "id": "port-charlotte-scotch",
@@ -5989,7 +6003,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 7,
+      "richness": 8,
+      "umami": 2,
+      "bitterness": 6,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["smoke", "peat", "sea salt", "citrus", "intense"]
+    }
   },
   {
     "id": "glenfiddich-12-year-scotch",
@@ -6009,7 +6037,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "light",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["pear", "oak", "subtle smoke", "fresh", "classic"]
+    }
   },
   {
     "id": "balvenie-double-wood-scotch",
@@ -6029,7 +6071,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["honey", "vanilla", "dried fruit", "spice", "elegant"]
+    }
   },
   {
     "id": "johnnie-walker-black-scotch",
@@ -6048,7 +6104,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 1,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["smoke", "fruit", "vanilla", "spice", "complex"]
+    }
   },
   {
     "id": "lagavulin-16-year-scotch",
@@ -6068,7 +6138,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 8,
+      "richness": 9,
+      "umami": 3,
+      "bitterness": 7,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["smoke", "peat", "sea salt", "dried fruit", "powerful"]
+    }
   },
   {
     "id": "macallan-12-year-scotch",
@@ -6088,7 +6172,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["dried fruit", "chocolate", "spice", "oak", "luxurious"]
+    }
   },
   {
     "id": "oban-14-year-scotch",
@@ -6108,7 +6206,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 5,
+      "richness": 7,
+      "umami": 2,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["smoke", "fruit", "sea salt", "honey", "maritime"]
+    }
   },
   {
     "id": "johnnie-walker-blue-scotch",
@@ -6127,7 +6239,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 1,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["honey", "smoke", "fruit", "vanilla", "exceptional"]
+    }
   },
   {
     "id": "macallan-18-year-scotch",
@@ -6147,7 +6273,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["scotch"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 10,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["dried fruit", "chocolate", "spice", "fig", "extraordinary"]
+    }
   },
   {
     "id": "nonino-il-moscato-grappa",

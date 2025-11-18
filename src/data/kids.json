@@ -2,20 +2,22 @@
   {
     "id": "kids-spaghetti-meatball",
     "name": "Kids Spaghetti & Meatball",
-    "description": "Spaghetti with tomato sauce and one meatball.",
+    "description": "Spaghetti with tomato sauce and one meatball. Can be made GF with GF meatball and GF pasta.",
     "price": 9.5,
     "category": "Kids",
     "vegetarian": false,
-    "glutenFree": true,
+    "glutenFree": false,
     "nutFree": true,
     "kids": true,
     "ingredients": [
-      "GF-spaghetti",
+      "spaghetti",
       "tomato-sauce",
       "beef",
-      "GF-breadcrumbs"
+      "breadcrumbs"
     ],
-    "allergens": []
+    "allergens": [
+      "gluten"
+    ]
   },
   {
     "id": "kids-salad",
@@ -152,21 +154,22 @@
   {
     "id": "three-mini-meatballs-spaghetti",
     "name": "Three Mini Meatballs & Spaghetti",
-    "description": "Topped with parmesan cheese",
+    "description": "Topped with parmesan cheese. Can be made GF with GF meatballs and GF pasta.",
     "price": 6.99,
     "category": "Kids",
     "vegetarian": false,
-    "glutenFree": true,
+    "glutenFree": false,
     "nutFree": true,
     "kids": true,
     "ingredients": [
-      "GF-spaghetti",
+      "spaghetti",
       "tomato-sauce",
       "beef",
-      "GF-breadcrumbs",
+      "breadcrumbs",
       "cheese"
     ],
     "allergens": [
+      "gluten",
       "dairy"
     ]
   },

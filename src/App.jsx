@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import { FiShield, FiHome, FiShare2 } from "react-icons/fi";
-import { GiWineBottle } from "react-icons/gi";
 import "./App.css";
 
 import appetizersData from "./data/appetizers.json";
@@ -12,10 +11,8 @@ import gelatoData from "./data/gelato.json";
 import pastaData from "./data/pasta.json";
 import kidsData from "./data/kids.json";
 import drinksData from "./data/drinks.json";
-import winesData from "./data/wines.json";
 
 import MenuPage from "./components/MenuPage";
-import PairingsPage from "./components/PairingsPage";
 import SharePage from "./components/SharePage";
 import AdminLogin from "./components/AdminLogin";
 import AdminPanel from "./components/AdminPanel";
@@ -52,9 +49,6 @@ function App() {
           </NavLink>
           <NavLink to="/drinks" className="nav-link">
             Drinks
-          </NavLink>
-          <NavLink to="/pairings" className="nav-link icon-link">
-            <GiWineBottle /> Pairings
           </NavLink>
           <NavLink to="/share" className="nav-link icon-link">
             <FiShare2 /> Share
@@ -122,10 +116,6 @@ function App() {
                 showKidsFilter={false}
               />
             }
-          />
-          <Route
-            path="/pairings"
-            element={<PairingsPage wines={winesData} menus={{ dinnerData: fullDinnerData, lunchData: fullLunchData, dessertData: fullDessertData, kidsData }} />}
           />
           <Route
             path="/share"

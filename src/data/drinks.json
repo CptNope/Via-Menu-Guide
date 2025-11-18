@@ -771,7 +771,29 @@
       "wine",
       "fruit"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "House specialty barrel-aged sangria available in red or white. Aged in oak barrels for smooth, complex flavor. Wine-based with fresh fruit, citrus, and subtle oak notes. Perfect for sharing—order half carafe ($19) or full carafe ($38). Great for groups, celebrations, or warm weather drinking. Pairs beautifully with appetizers, charcuterie, pizza, and lighter Italian fare. Refreshing alternative to wine by the glass. House-made recipe that's become a Via signature. Popular choice for brunch, lunch, or dinner.",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 3,
+      "alcohol": 5,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 4,
+      "minerality": 3,
+      "finish": 6,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["wine", "fruit", "citrus", "oak", "refreshing"]
+    }
   },
   {
     "id": "bonsoleil",
@@ -789,7 +811,30 @@
       "chartreuse",
       "gin"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Sophisticated tropical cocktail with Hildegard Von Bingen gin, Green Chartreuse, fresh pineapple, and lime. Herbal, complex, and beautifully balanced. Green Chartreuse adds 130 herbs and botanical complexity. Bright, refreshing, and conversation-worthy. For guests who appreciate craft cocktails with herbal depth. Great as aperitif or with lighter dishes. The name means 'good sun' in French—perfect for sunny moods. Pairs excellently with seafood, salads, ceviche, and citrus dishes. Elegant choice for cocktail enthusiasts.",
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 4,
+      "finish": 7,
+      "herbaceousness": 8,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["pineapple", "lime", "herbal", "chartreuse", "bright"]
+    }
   },
   {
     "id": "carnivale",
@@ -808,7 +853,29 @@
       "lime",
       "sugar"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Vibrant Brazilian-inspired cocktail with Dummshambo pineapple gin, exotic yuzu citrus, fresh lime, and bruleed lime garnish. Tropical, citrus-forward, and festive. Yuzu adds unique Japanese citrus character—think lemon meets mandarin. The bruleed lime creates a stunning caramelized presentation. Perfect for adventurous guests who love tropical flavors with sophistication. Great celebration cocktail or warm weather choice. Pairs wonderfully with spicy dishes, ceviche, Thai food, and tropical desserts. The name captures the festive carnival spirit.",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 6,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["pineapple", "yuzu", "citrus", "tropical", "bright"]
+    }
   },
   {
     "id": "blueberry-bombshell",

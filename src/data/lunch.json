@@ -2,7 +2,7 @@
   {
     "id": "pepperoni-pizza-lunch",
     "name": "Pepperoni",
-    "description": "Diavolo sauce, mozzarella, asiago, hot honey",
+    "description": "Diavolo sauce, mozzarella, asiago, hot honey. Can be made GF with cauliflower-parm crust (+$4).",
     "price": 17.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,
@@ -18,7 +18,7 @@
   {
     "id": "heirloom-tomato-margherita-lunch",
     "name": "Heirloom Tomato Margherita",
-    "description": "Fresh mozzarella cheese, garlic oil, micro basil.",
+    "description": "Fresh mozzarella cheese, garlic oil, micro basil. Can be made GF with cauliflower-parm crust (+$4).",
     "price": 17.99,
     "category": "Grilled Pizzas",
     "vegetarian": true,
@@ -34,7 +34,7 @@
   {
     "id": "chicken-caesar-salad-pizza-lunch",
     "name": "Chicken Caesar Salad",
-    "description": "Tomato, mozzarella, provolone.",
+    "description": "Tomato, mozzarella, provolone. Can be made GF with cauliflower-parm crust (+$4).",
     "price": 17.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,
@@ -50,7 +50,7 @@
   {
     "id": "fig-prosciutto-pizza-lunch",
     "name": "Fig & Prosciutto",
-    "description": "Eggplant, asiago, arugula, aged balsamic.",
+    "description": "Eggplant, asiago, arugula, aged balsamic. Can be made GF with cauliflower-parm crust (+$4).",
     "price": 17.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,
@@ -66,7 +66,7 @@
   {
     "id": "meatball-sausage-pizza-lunch",
     "name": "Meatball & Sausage",
-    "description": "Peppadew peppers, marinated tomatoes, fresh ricotta, Parmesan cheese and parsley oil.",
+    "description": "Peppadew peppers, marinated tomatoes, fresh ricotta, Parmesan cheese and parsley oil. Can be made GF with cauliflower-parm crust (+$4).",
     "price": 17.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,

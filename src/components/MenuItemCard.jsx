@@ -20,20 +20,38 @@ function MenuItemCard({ item }) {
   if (item.allergens?.includes("nuts")) allergenIcons.push(<GiPeanut key="nuts" />);
   if (item.allergens?.includes("dairy")) allergenIcons.push(<GiCow key="dairy" />);
 
-  // Determine if this is a wine bottle (price >= 30 and has wine category)
-  const isWineBottle = item.flavorProfile && 
-    item.price >= 30 && 
-    (item.category?.includes('Bottles') || 
-     item.category?.includes('Red') || 
-     item.category?.includes('White') || 
-     item.category?.includes('Rosé') || 
-     item.category?.includes('Rose') ||
-     item.category?.includes('Sparkling'));
+  // Determine if this is a drink that should show food pairings
+  // Includes: wines by the glass, wine bottles, Port, Amaro, Coffee Cocktails, Grappa, Cognac
+  const isDrinkWithFoodPairing = item.flavorProfile && (
+    // Wine bottles
+    (item.price >= 30 && (
+      item.category?.includes('Bottles') || 
+      item.category?.includes('Red') || 
+      item.category?.includes('White') || 
+      item.category?.includes('Rosé') || 
+      item.category?.includes('Rose') ||
+      item.category?.includes('Sparkling')
+    )) ||
+    // Wines by the glass
+    (item.price < 20 && !item.category?.includes('Bottles') && (
+      item.category?.includes('Red') || 
+      item.category?.includes('White') || 
+      item.category?.includes('Rosé') || 
+      item.category?.includes('Rose') ||
+      item.category?.includes('Sparkling')
+    )) ||
+    // After-dinner drinks
+    item.category === 'Port' ||
+    item.category === 'Amaro & Digestivo' ||
+    item.category === 'Coffee Cocktails' ||
+    item.category === 'Grappa' ||
+    item.category === 'Cognac'
+  );
 
   // Get dynamic pairings based on item type
   const allFoodItems = [...appetizers, ...dinner];
-  const winePairings = isWineBottle && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
-  const foodPairings = !isWineBottle && item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
+  const winePairings = isDrinkWithFoodPairing && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
+  const foodPairings = !isDrinkWithFoodPairing && item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
 
   return (
     <article className="menu-item-card">
@@ -224,7 +242,7 @@ function MenuItemCard({ item }) {
         </>
       )}
 
-      {/* Food Pairings for Wine Bottles */}
+      {/* Food Pairings for Wines (by glass/bottle) and After-Dinner Drinks */}
       {winePairings && (
         <>
           <button 

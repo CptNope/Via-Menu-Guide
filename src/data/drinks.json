@@ -5636,7 +5636,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "vanilla", "butterscotch", "spice", "smooth"]
+    }
   },
   {
     "id": "sazerac-rye",
@@ -5655,7 +5669,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 8,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["spice", "clove", "pepper", "citrus", "bold"]
+    }
   },
   {
     "id": "high-west-rye",
@@ -5674,7 +5702,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["spice", "mint", "caramel", "pepper", "bold"]
+    }
   },
   {
     "id": "knob-creek-small-batch-rye",
@@ -5693,7 +5735,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 8,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": ["rye spice", "oak", "caramel", "char", "robust"]
+    }
   },
   {
     "id": "whistlepig-piggyback-rye",
@@ -5713,7 +5769,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["rye spice", "mint", "caramel", "pepper", "bold"]
+    }
   },
   {
     "id": "mad-river-revolution-rye",
@@ -5732,7 +5802,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["spice", "caramel", "vanilla", "pepper", "craft"]
+    }
   },
   {
     "id": "mad-river-silver-oak-rye",
@@ -5751,7 +5835,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["rye spice", "red fruit", "oak", "vanilla", "innovative"]
+    }
   },
   {
     "id": "short-path-concord-rye",
@@ -5770,7 +5868,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["spice", "caramel", "fruit", "pepper", "craft"]
+    }
   },
   {
     "id": "whistlepig-10-year-rye",
@@ -5790,7 +5902,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 8,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": ["rye spice", "caramel", "vanilla", "oak", "complex"]
+    }
   },
   {
     "id": "whistlepig-boss-hog-xi-rye",
@@ -5810,7 +5936,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 9,
+      "saltiness": 0,
+      "richness": 10,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 10,
+      "carbonation": 0,
+      "flavorNotes": ["rye spice", "caramel", "fruit", "oak", "extraordinary"]
+    }
   },
   {
     "id": "glenlivet-12-year-scotch",

@@ -3764,6 +3764,14 @@
       "tannin": 6,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 4,
+      "minerality": 3,
+      "finish": 6,
+      "earthiness": 4,
+      "intensity": 7,
+      "complexity": 6,
+      "aromaticIntensity": 7,
       "flavorNotes": ["plum", "blackberry", "fruit-forward", "smooth"]
     }
   },
@@ -3794,6 +3802,14 @@
       "tannin": 7,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 5,
+      "minerality": 3,
+      "finish": 8,
+      "earthiness": 4,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
       "flavorNotes": ["dark-fruit", "chocolate", "velvety", "concentrated"]
     }
   },
@@ -3824,6 +3840,14 @@
       "tannin": 6,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 5,
+      "minerality": 4,
+      "finish": 8,
+      "earthiness": 3,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
       "flavorNotes": ["plum", "black-cherry", "chocolate", "elegant"]
     }
   },
@@ -3854,6 +3878,14 @@
       "tannin": 6,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 6,
+      "minerality": 3,
+      "finish": 7,
+      "earthiness": 4,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 7,
       "flavorNotes": ["dark-fruit", "bold", "smooth", "innovative"]
     }
   },
@@ -3884,6 +3916,14 @@
       "tannin": 5,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 6,
+      "minerality": 4,
+      "finish": 8,
+      "earthiness": 7,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 7,
       "flavorNotes": ["plum", "leather", "earth", "aged"]
     }
   },
@@ -3914,6 +3954,14 @@
       "tannin": 6,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 6,
+      "minerality": 4,
+      "finish": 8,
+      "earthiness": 4,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
       "flavorNotes": ["plum", "chocolate", "velvety", "benchmark"]
     }
   },

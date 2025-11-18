@@ -643,7 +643,28 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 7,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 5,
+      "intensity": 5,
+      "complexity": 6,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["peach", "apricot", "floral", "sparkling", "sweet"]
+    }
   },
   {
     "id": "la-crema-chardonnay-half",
@@ -675,7 +696,29 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 1,
+      "minerality": 5,
+      "finish": 7,
+      "herbaceousness": 6,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["citrus", "melon", "herbal", "crisp"]
+    }
   },
   {
     "id": "alphonse-mellot-sancerre-half",
@@ -707,7 +750,29 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 7,
+      "minerality": 4,
+      "finish": 9,
+      "earthiness": 5,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["blackberry", "cassis", "oak", "elegant"]
+    }
   },
   {
     "id": "damiano-barolo-half",
@@ -739,7 +804,29 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 8,
+      "minerality": 4,
+      "finish": 9,
+      "earthiness": 5,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["dark-fruit", "chocolate", "spice", "rich", "powerful"]
+    }
   },
   {
     "id": "moillard-champagne-half",

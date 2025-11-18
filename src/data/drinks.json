@@ -5105,7 +5105,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "vanilla", "oak", "honey", "smooth"]
+    }
   },
   {
     "id": "four-roses-small-batch-bourbon",
@@ -5124,7 +5138,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["fruit", "spice", "caramel", "oak", "balanced"]
+    }
   },
   {
     "id": "jeffersons-small-batch-bourbon",
@@ -5143,7 +5171,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "vanilla", "spice", "citrus", "elegant"]
+    }
   },
   {
     "id": "makers-mark-bourbon",
@@ -5162,7 +5204,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 1,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "vanilla", "wheat", "sweet", "smooth"]
+    }
   },
   {
     "id": "buffalo-trace-bourbon",
@@ -5181,7 +5237,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["vanilla", "toffee", "spice", "oak", "balanced"]
+    }
   },
   {
     "id": "elijah-craig-bourbon",
@@ -5200,7 +5270,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "vanilla", "smoke", "spice", "rich"]
+    }
   },
   {
     "id": "high-west-bourbon",
@@ -5219,7 +5303,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 5,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "vanilla", "rye spice", "mint", "unique"]
+    }
   },
   {
     "id": "whistlepig-piggyback-bourbon",
@@ -5239,7 +5337,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["rye spice", "mint", "caramel", "pepper", "bold"]
+    }
   },
   {
     "id": "basil-haydens-bourbon",
@@ -5258,7 +5370,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 5,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["spice", "tea", "peppermint", "honey", "elegant"]
+    }
   },
   {
     "id": "knob-creek-bourbon",
@@ -5277,7 +5403,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": ["oak", "caramel", "vanilla", "nuts", "bold"]
+    }
   },
   {
     "id": "woodford-reserve-double-oaked-bourbon",
@@ -5296,7 +5436,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "dark fruit", "chocolate", "toasted oak", "complex"]
+    }
   },
   {
     "id": "uncle-nearest-1856-bourbon",
@@ -5315,7 +5469,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["tennessee-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "vanilla", "charcoal", "maple", "smooth"]
+    }
   },
   {
     "id": "blantons-bourbon",
@@ -5335,7 +5503,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "honey", "citrus", "leather", "complex"]
+    }
   },
   {
     "id": "angels-envy-bourbon",
@@ -5354,7 +5536,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["vanilla", "dried fruit", "maple", "berry", "smooth"]
+    }
   },
   {
     "id": "whistlepig-snout-to-tail-bourbon",
@@ -5374,7 +5570,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["rye-whiskey"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 8,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": ["rye spice", "caramel", "fruit", "oak", "complex"]
+    }
   },
   {
     "id": "angels-envy-triple-oak-bourbon",
@@ -5393,7 +5603,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["bourbon"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 10,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["vanilla", "caramel", "dried fruit", "toast", "luxurious"]
+    }
   },
   {
     "id": "pendleton-12-year-rye",

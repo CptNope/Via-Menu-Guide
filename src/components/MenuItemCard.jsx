@@ -25,7 +25,7 @@ function MenuItemCard({ item }) {
   if (item.allergens?.includes("dairy")) allergenIcons.push(<GiCow key="dairy" />);
 
   // Determine if this is a drink that should show food pairings
-  // Includes: wines by the glass, wine bottles, half bottles, Port, Amaro, Coffee Cocktails, Grappa, Cognac
+  // Includes: wines by the glass, wine bottles, half bottles, bourbon, Port, Amaro, Coffee Cocktails, Grappa, Cognac
   const isDrinkWithFoodPairing = item.flavorProfile && (
     // Wine bottles
     (item.price >= 30 && (
@@ -46,7 +46,8 @@ function MenuItemCard({ item }) {
     )) ||
     // Half bottles
     item.category?.includes('Half Bottle') ||
-    // After-dinner drinks
+    // Bourbon and after-dinner drinks
+    item.category === 'Bourbon' ||
     item.category === 'Port' ||
     item.category === 'Amaro & Digestivo' ||
     item.category === 'Coffee Cocktails' ||

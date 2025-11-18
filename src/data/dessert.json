@@ -236,7 +236,18 @@
     "nutFree": false,
     "kids": true,
     "ingredients": ["gelato", "sorbetto", "cone"],
-    "allergens": ["dairy", "gluten", "nuts"]
+    "allergens": ["dairy", "gluten", "nuts"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "flavorNotes": ["creamy", "fruity", "varied", "playful"]
+    }
   },
   {
     "id": "cone-sampler-10",
@@ -250,6 +261,17 @@
     "nutFree": false,
     "kids": true,
     "ingredients": ["gelato", "sorbetto", "cone"],
-    "allergens": ["dairy", "gluten", "nuts"]
+    "allergens": ["dairy", "gluten", "nuts"],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "flavorNotes": ["creamy", "fruity", "varied", "shareable"]
+    }
   }
 ]

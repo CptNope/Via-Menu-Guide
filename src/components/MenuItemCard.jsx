@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { GiWheat, GiPeanut, GiCow } from "react-icons/gi";
 import { FaChild } from "react-icons/fa";
 import { TbLeaf } from "react-icons/tb";
-import { getFoodPairingRecommendations } from "../utils/enhancedPairing.js";
+import { getFoodPairingRecommendations, getWinePairingRecommendations } from "../utils/enhancedPairing.js";
 import drinks from "../data/drinks.json";
+import appetizers from "../data/appetizers.json";
+import dinner from "../data/dinner.json";
 
 function MenuItemCard({ item }) {
   const [showPairings, setShowPairings] = useState(false);
@@ -18,8 +20,20 @@ function MenuItemCard({ item }) {
   if (item.allergens?.includes("nuts")) allergenIcons.push(<GiPeanut key="nuts" />);
   if (item.allergens?.includes("dairy")) allergenIcons.push(<GiCow key="dairy" />);
 
-  // Get dynamic pairings if item has flavor profile
-  const pairings = item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
+  // Determine if this is a wine bottle (price >= 30 and has wine category)
+  const isWineBottle = item.flavorProfile && 
+    item.price >= 30 && 
+    (item.category?.includes('Bottles') || 
+     item.category?.includes('Red') || 
+     item.category?.includes('White') || 
+     item.category?.includes('Rosé') || 
+     item.category?.includes('Rose') ||
+     item.category?.includes('Sparkling'));
+
+  // Get dynamic pairings based on item type
+  const allFoodItems = [...appetizers, ...dinner];
+  const winePairings = isWineBottle && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
+  const foodPairings = !isWineBottle && item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
 
   return (
     <article className="menu-item-card">
@@ -44,7 +58,8 @@ function MenuItemCard({ item }) {
         </div>
       )}
 
-      {pairings && (
+      {/* Wine Pairings for Food Items */}
+      {foodPairings && (
         <>
           <button 
             className="pairing-toggle-btn"
@@ -53,10 +68,10 @@ function MenuItemCard({ item }) {
             🍷 {showPairings ? 'Hide' : 'View'} Wine Pairings
           </button>
 
-          {showPairings && pairings?.recommendations && (
+          {showPairings && foodPairings?.recommendations && (
             <div className="pairing-panel">
               {/* By the Glass - Show top 3 */}
-              {pairings.recommendations.byTheGlass && (
+              {foodPairings.recommendations.byTheGlass && (
                 <div className="pairing-section">
                   <h4>🍷 By the Glass</h4>
                   
@@ -64,22 +79,22 @@ function MenuItemCard({ item }) {
                   <div className="pairing-item-detailed">
                     <div className="wine-info">
                       <div className="wine-header">
-                        <span className="wine-name">{pairings.recommendations.byTheGlass.drinkName}</span>
-                        <span className="wine-price">${pairings.recommendations.byTheGlass.drinkPrice}</span>
+                        <span className="wine-name">{foodPairings.recommendations.byTheGlass.drinkName}</span>
+                        <span className="wine-price">${foodPairings.recommendations.byTheGlass.drinkPrice}</span>
                       </div>
-                      <div className="wine-description">{pairings.recommendations.byTheGlass.drinkDescription}</div>
-                      <div className="pairing-explanation">{pairings.recommendations.byTheGlass.explanation}</div>
+                      <div className="wine-description">{foodPairings.recommendations.byTheGlass.drinkDescription}</div>
+                      <div className="pairing-explanation">{foodPairings.recommendations.byTheGlass.explanation}</div>
                     </div>
-                    <span className={`match-badge ${pairings.recommendations.byTheGlass.compatibility.toLowerCase().replace(' ', '-')}`}>
-                      {pairings.recommendations.byTheGlass.compatibility}
+                    <span className={`match-badge ${foodPairings.recommendations.byTheGlass.compatibility.toLowerCase().replace(' ', '-')}`}>
+                      {foodPairings.recommendations.byTheGlass.compatibility}
                     </span>
                   </div>
 
                   {/* Alternative glasses */}
-                  {pairings.recommendations.alternativeGlasses?.length > 0 && (
+                  {foodPairings.recommendations.alternativeGlasses?.length > 0 && (
                     <div className="alternatives">
                       <label>Also pairs well with:</label>
-                      {pairings.recommendations.alternativeGlasses.slice(0, 2).map((alt, idx) => (
+                      {foodPairings.recommendations.alternativeGlasses.slice(0, 2).map((alt, idx) => (
                         <div key={idx} className="pairing-item-compact">
                           <span className="wine-name">{alt.drinkName}</span>
                           <span className="wine-price">${alt.drinkPrice}</span>
@@ -98,7 +113,7 @@ function MenuItemCard({ item }) {
                 <h4>🍾 Bottle Recommendations</h4>
                 
                 {/* Budget Tier */}
-                {pairings.recommendations.bottles.lowTier.best && (
+                {foodPairings.recommendations.bottles.lowTier.best && (
                   <div className="bottle-tier">
                     <label>Budget-Friendly (Under $60)</label>
                     
@@ -106,21 +121,21 @@ function MenuItemCard({ item }) {
                     <div className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">
-                          <span className="wine-name">{pairings.recommendations.bottles.lowTier.best.drinkName}</span>
-                          <span className="wine-price">${pairings.recommendations.bottles.lowTier.best.drinkPrice}</span>
+                          <span className="wine-name">{foodPairings.recommendations.bottles.lowTier.best.drinkName}</span>
+                          <span className="wine-price">${foodPairings.recommendations.bottles.lowTier.best.drinkPrice}</span>
                         </div>
-                        <div className="wine-description">{pairings.recommendations.bottles.lowTier.best.drinkDescription}</div>
-                        <div className="pairing-explanation">{pairings.recommendations.bottles.lowTier.best.explanation}</div>
+                        <div className="wine-description">{foodPairings.recommendations.bottles.lowTier.best.drinkDescription}</div>
+                        <div className="pairing-explanation">{foodPairings.recommendations.bottles.lowTier.best.explanation}</div>
                       </div>
-                      <span className={`match-badge ${pairings.recommendations.bottles.lowTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
-                        {pairings.recommendations.bottles.lowTier.best.compatibility}
+                      <span className={`match-badge ${foodPairings.recommendations.bottles.lowTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
+                        {foodPairings.recommendations.bottles.lowTier.best.compatibility}
                       </span>
                     </div>
 
                     {/* Alternative bottles */}
-                    {pairings.recommendations.bottles.lowTier.alternatives?.length > 0 && (
+                    {foodPairings.recommendations.bottles.lowTier.alternatives?.length > 0 && (
                       <div className="alternatives-compact">
-                        {pairings.recommendations.bottles.lowTier.alternatives.slice(0, 2).map((alt, idx) => (
+                        {foodPairings.recommendations.bottles.lowTier.alternatives.slice(0, 2).map((alt, idx) => (
                           <div key={idx} className="pairing-item-compact">
                             <span className="wine-name">{alt.drinkName}</span>
                             <span className="wine-price">${alt.drinkPrice}</span>
@@ -135,27 +150,27 @@ function MenuItemCard({ item }) {
                 )}
 
                 {/* Premium Tier */}
-                {pairings.recommendations.bottles.midTier.best && (
+                {foodPairings.recommendations.bottles.midTier.best && (
                   <div className="bottle-tier">
                     <label>Premium ($60-$120)</label>
                     
                     <div className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">
-                          <span className="wine-name">{pairings.recommendations.bottles.midTier.best.drinkName}</span>
-                          <span className="wine-price">${pairings.recommendations.bottles.midTier.best.drinkPrice}</span>
+                          <span className="wine-name">{foodPairings.recommendations.bottles.midTier.best.drinkName}</span>
+                          <span className="wine-price">${foodPairings.recommendations.bottles.midTier.best.drinkPrice}</span>
                         </div>
-                        <div className="wine-description">{pairings.recommendations.bottles.midTier.best.drinkDescription}</div>
-                        <div className="pairing-explanation">{pairings.recommendations.bottles.midTier.best.explanation}</div>
+                        <div className="wine-description">{foodPairings.recommendations.bottles.midTier.best.drinkDescription}</div>
+                        <div className="pairing-explanation">{foodPairings.recommendations.bottles.midTier.best.explanation}</div>
                       </div>
-                      <span className={`match-badge ${pairings.recommendations.bottles.midTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
-                        {pairings.recommendations.bottles.midTier.best.compatibility}
+                      <span className={`match-badge ${foodPairings.recommendations.bottles.midTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
+                        {foodPairings.recommendations.bottles.midTier.best.compatibility}
                       </span>
                     </div>
 
-                    {pairings.recommendations.bottles.midTier.alternatives?.length > 0 && (
+                    {foodPairings.recommendations.bottles.midTier.alternatives?.length > 0 && (
                       <div className="alternatives-compact">
-                        {pairings.recommendations.bottles.midTier.alternatives.slice(0, 2).map((alt, idx) => (
+                        {foodPairings.recommendations.bottles.midTier.alternatives.slice(0, 2).map((alt, idx) => (
                           <div key={idx} className="pairing-item-compact">
                             <span className="wine-name">{alt.drinkName}</span>
                             <span className="wine-price">${alt.drinkPrice}</span>
@@ -170,27 +185,27 @@ function MenuItemCard({ item }) {
                 )}
 
                 {/* Luxury Tier */}
-                {pairings.recommendations.bottles.highTier.best && (
+                {foodPairings.recommendations.bottles.highTier.best && (
                   <div className="bottle-tier">
                     <label>Luxury ($120+)</label>
                     
                     <div className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">
-                          <span className="wine-name">{pairings.recommendations.bottles.highTier.best.drinkName}</span>
-                          <span className="wine-price">${pairings.recommendations.bottles.highTier.best.drinkPrice}</span>
+                          <span className="wine-name">{foodPairings.recommendations.bottles.highTier.best.drinkName}</span>
+                          <span className="wine-price">${foodPairings.recommendations.bottles.highTier.best.drinkPrice}</span>
                         </div>
-                        <div className="wine-description">{pairings.recommendations.bottles.highTier.best.drinkDescription}</div>
-                        <div className="pairing-explanation">{pairings.recommendations.bottles.highTier.best.explanation}</div>
+                        <div className="wine-description">{foodPairings.recommendations.bottles.highTier.best.drinkDescription}</div>
+                        <div className="pairing-explanation">{foodPairings.recommendations.bottles.highTier.best.explanation}</div>
                       </div>
-                      <span className={`match-badge ${pairings.recommendations.bottles.highTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
-                        {pairings.recommendations.bottles.highTier.best.compatibility}
+                      <span className={`match-badge ${foodPairings.recommendations.bottles.highTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
+                        {foodPairings.recommendations.bottles.highTier.best.compatibility}
                       </span>
                     </div>
 
-                    {pairings.recommendations.bottles.highTier.alternatives?.length > 0 && (
+                    {foodPairings.recommendations.bottles.highTier.alternatives?.length > 0 && (
                       <div className="alternatives-compact">
-                        {pairings.recommendations.bottles.highTier.alternatives.slice(0, 2).map((alt, idx) => (
+                        {foodPairings.recommendations.bottles.highTier.alternatives.slice(0, 2).map((alt, idx) => (
                           <div key={idx} className="pairing-item-compact">
                             <span className="wine-name">{alt.drinkName}</span>
                             <span className="wine-price">${alt.drinkPrice}</span>
@@ -204,6 +219,63 @@ function MenuItemCard({ item }) {
                   </div>
                 )}
               </div>
+            </div>
+          )}
+        </>
+      )}
+
+      {/* Food Pairings for Wine Bottles */}
+      {winePairings && (
+        <>
+          <button 
+            className="pairing-toggle-btn"
+            onClick={() => setShowPairings(!showPairings)}
+          >
+            🍽️ {showPairings ? 'Hide' : 'View'} Food Pairings
+          </button>
+
+          {showPairings && winePairings?.recommendations && (
+            <div className="pairing-panel">
+              {/* Top Food Matches */}
+              {winePairings.recommendations.topMatches?.length > 0 && (
+                <div className="pairing-section">
+                  <h4>🍽️ Top Food Pairings</h4>
+                  
+                  {winePairings.recommendations.topMatches.slice(0, 5).map((pairing, idx) => (
+                    <div key={idx} className="pairing-item-detailed">
+                      <div className="wine-info">
+                        <div className="wine-header">
+                          <span className="wine-name">{pairing.foodName}</span>
+                          <span className="food-category">{pairing.foodCategory}</span>
+                        </div>
+                        <div className="pairing-explanation">{pairing.explanation}</div>
+                      </div>
+                      <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
+                        {pairing.compatibility}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Best Match by Category */}
+              {winePairings.recommendations.bestByCategory && Object.keys(winePairings.recommendations.bestByCategory).length > 0 && (
+                <div className="pairing-section">
+                  <h4>📋 Best Match by Course</h4>
+                  
+                  {Object.entries(winePairings.recommendations.bestByCategory).map(([category, pairing]) => (
+                    <div key={category} className="category-pairing">
+                      <label>{category}</label>
+                      <div className="pairing-item-compact">
+                        <span className="wine-name">{pairing.foodName}</span>
+                        <span className={`match-badge-small ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
+                          {pairing.compatibility}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </>

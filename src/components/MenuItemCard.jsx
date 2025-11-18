@@ -37,14 +37,14 @@ function MenuItemCard({ item }) {
     'Italian Reds Bottles', 'Super Tuscan Bottles', 'Merlot & Malbec Bottles', 
     'Pinot Noir & Interesting Reds Bottles', 'Cabernet & Blends Bottles',
     'Sauvignon Blanc Bottles', 'Chardonnay Bottles', 'Interesting Whites Bottles',
-    'Sparkling Bottles'
+    'Sparkling Bottles',
+    // Half bottles
+    'Half Bottles', 'Half Bottles - Wine'
   ];
   
   const isDrinkWithFoodPairing = item.flavorProfile && (
-    // Wine bottles and glasses
+    // Wine bottles, glasses, and half bottles
     wineCategories.includes(item.category) ||
-    // Half bottles
-    item.category?.includes('Half Bottle') ||
     // Bourbon, rye, scotch, and after-dinner drinks
     item.category === 'Bourbon' ||
     item.category === 'Rye' ||

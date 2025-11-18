@@ -680,7 +680,29 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 5,
+      "minerality": 4,
+      "finish": 6,
+      "creaminess": 6,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 6,
+      "flavorNotes": ["apple", "pear", "vanilla", "balanced"]
+    }
   },
   {
     "id": "duckhorn-sauvignon-blanc-half",
@@ -734,7 +756,29 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 0,
+      "acidity": 9,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 2,
+      "richness": 4,
+      "umami": 3,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 1,
+      "minerality": 9,
+      "finish": 8,
+      "herbaceousness": 5,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["flinty", "mineral", "citrus", "green-apple", "Sancerre"]
+    }
   },
   {
     "id": "stags-leap-cabernet-half",
@@ -788,7 +832,29 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 9,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 6,
+      "finish": 10,
+      "earthiness": 8,
+      "intensity": 9,
+      "complexity": 10,
+      "aromaticIntensity": 10,
+      "flavorNotes": ["rose", "tar", "cherry", "truffle", "Barolo", "king-of-wines"]
+    }
   },
   {
     "id": "bv-tapestry-half",
@@ -842,7 +908,29 @@
     "ingredients": [
       "champagne"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 2,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 8,
+      "fruitiness": 6,
+      "oakiness": 3,
+      "minerality": 5,
+      "finish": 8,
+      "creaminess": 6,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["brioche", "apple", "toast", "elegant", "Champagne"]
+    }
   },
   {
     "id": "barrel-aged-sangria",

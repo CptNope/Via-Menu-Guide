@@ -42,12 +42,12 @@ export function getFoodPairingRecommendations(foodItem, allDrinks, preferences =
     !drink.category?.includes('Cocktails')
   );
   
-  // Bottles are marked with "Bottles" or "Half Bottle" in category or have higher prices
+  // Bottles are marked with "Bottles" or "Half Bottles" in category or have higher prices
   // Explicitly exclude beer categories
   const bottles = allDrinks.filter(drink => 
     drink.flavorProfile &&
     (drink.category?.includes('Bottles') || 
-     drink.category?.includes('Half Bottle') || 
+     drink.category?.includes('Half') || 
      drink.price >= 30) &&
     // Exclude beers, cocktails, and other non-wine drinks
     drink.category !== 'Bottles & Cans' &&

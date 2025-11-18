@@ -24,6 +24,12 @@
       "richness": 5,
       "umami": 5,
       "bitterness": 0,
+      "fattiness": 5,
+      "creaminess": 6,
+      "herbaceousness": 8,
+      "charLevel": 4,
+      "intensity": 5,
+      "complexity": 5,
       "flavorNotes": ["fresh", "simple", "herbaceous", "classic"]
     }
   },
@@ -52,6 +58,11 @@
       "richness": 7,
       "umami": 8,
       "bitterness": 0,
+      "fattiness": 8,
+      "creaminess": 5,
+      "charLevel": 5,
+      "intensity": 8,
+      "complexity": 7,
       "flavorNotes": ["meaty", "bold", "savory", "hearty"]
     }
   },
@@ -80,7 +91,12 @@
       "richness": 6,
       "umami": 6,
       "bitterness": 1,
-      "flavorNotes": ["fresh", "tangy", "light", "unique"]
+      "fattiness": 5,
+      "creaminess": 7,
+      "charLevel": 3,
+      "intensity": 6,
+      "complexity": 6,
+      "flavorNotes": ["fresh", "light", "savory", "unique"]
     }
   },
   {
@@ -108,7 +124,13 @@
       "richness": 6,
       "umami": 6,
       "bitterness": 1,
-      "flavorNotes": ["sweet-savory", "sophisticated", "elegant", "balanced"]
+      "fattiness": 6,
+      "creaminess": 4,
+      "smokiness": 2,
+      "charLevel": 4,
+      "intensity": 7,
+      "complexity": 8,
+      "flavorNotes": ["sweet", "savory", "sophisticated", "balanced"]
     }
   },
   {

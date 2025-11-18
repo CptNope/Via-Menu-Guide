@@ -5388,6 +5388,14 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 1,
+      "minerality": 8,
+      "finish": 6,
+      "herbaceousness": 7,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 7,
       "flavorNotes": ["citrus", "green-apple", "mineral", "crisp"]
     }
   },
@@ -5418,6 +5426,14 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 1,
+      "minerality": 5,
+      "finish": 7,
+      "herbaceousness": 6,
+      "intensity": 8,
+      "complexity": 6,
+      "aromaticIntensity": 9,
       "flavorNotes": ["grapefruit", "passionfruit", "tropical", "vibrant"]
     }
   },
@@ -5448,6 +5464,14 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 1,
+      "minerality": 6,
+      "finish": 8,
+      "herbaceousness": 7,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 9,
       "flavorNotes": ["grapefruit", "passionfruit", "iconic", "elegant"]
     }
   },
@@ -5478,6 +5502,14 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 1,
+      "minerality": 9,
+      "finish": 8,
+      "herbaceousness": 6,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
       "flavorNotes": ["citrus", "flint", "mineral", "Sancerre"]
     }
   },
@@ -5508,6 +5540,14 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 2,
+      "minerality": 5,
+      "finish": 7,
+      "herbaceousness": 6,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
       "flavorNotes": ["grapefruit", "melon", "fresh", "Bordeaux-style"]
     }
   },

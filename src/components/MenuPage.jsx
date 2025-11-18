@@ -187,12 +187,12 @@ function MenuPage({ title, data }) {
         </p>
       </div>
 
-      <FilterBar filters={filters} onChange={setFilters} showDrinkFilters={isDrinksMenu} />
-      
       <PairingControls 
         preferences={pairingPreferences}
         onChange={setPairingPreferences}
       />
+      
+      <FilterBar filters={filters} onChange={setFilters} showDrinkFilters={isDrinksMenu} />
 
       <div className="menu-layout">
         {Object.keys(grouped).map((cat) => {

@@ -57,8 +57,8 @@ function MenuPage({ title, data }) {
           "Sauvignon Blanc Bottles", "Chardonnay Bottles", "Interesting Whites Bottles",
           "Sparkling Bottles", "Half Bottles - Wine"
         ];
-        const cocktailCategories = ["Via Signature Cocktails", "Mocktails"];
-        const beerCategories = ["Draught Beers", "Bottles & Cans", "Non-Alcoholic Beer"];
+        const cocktailCategories = ["Signature Cocktails", "Mocktails"];
+        const beerCategories = ["Draught", "Bottles & Cans", "Non-Alcoholic Beer"];
         
         const anyDrinkFilter = filters.winesByGlass || filters.halfBottles || filters.bottles || 
                                filters.cocktails || filters.beers || filters.bourbon || filters.rye || 

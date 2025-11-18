@@ -4,6 +4,8 @@ import "./PairingControls.css";
 function PairingControls({ preferences, onChange }) {
   const [showPreferences, setShowPreferences] = useState(false);
   const [showExclusions, setShowExclusions] = useState(false);
+  const [showPriceRange, setShowPriceRange] = useState(false);
+  const [showMinScore, setShowMinScore] = useState(false);
 
   const handlePreferenceToggle = (key) => {
     const newPreferences = { ...preferences.prefer };
@@ -176,51 +178,87 @@ function PairingControls({ preferences, onChange }) {
 
       {/* Price Range Filter */}
       <div className="pairing-section">
-        <div className="price-range-controls">
-          <label className="price-range-label">
-            <span>💰 Price Range:</span>
-            <div className="price-inputs">
-              <input
-                type="number"
-                min="0"
-                max="1000"
-                value={preferences.priceRange?.min || 0}
-                onChange={(e) => handlePriceRangeChange('min', parseInt(e.target.value) || 0)}
-                className="price-input"
-                placeholder="Min"
-              />
-              <span className="price-separator">to</span>
-              <input
-                type="number"
-                min="0"
-                max="1000"
-                value={preferences.priceRange?.max || 1000}
-                onChange={(e) => handlePriceRangeChange('max', parseInt(e.target.value) || 1000)}
-                className="price-input"
-                placeholder="Max"
-              />
+        <button
+          className="pairing-section-toggle"
+          onClick={() => setShowPriceRange(!showPriceRange)}
+        >
+          <span className="toggle-icon">{showPriceRange ? "▼" : "▶"}</span>
+          <span>Price Range Filter</span>
+          {hasPriceFilter && (
+            <span className="active-count">${preferences.priceRange?.min || 0} - ${preferences.priceRange?.max || 1000}</span>
+          )}
+        </button>
+
+        {showPriceRange && (
+          <div className="pairing-options">
+            <p className="section-description">
+              Set the price range for wine recommendations:
+            </p>
+            <div className="price-range-controls">
+              <label className="price-range-label">
+                <span>💰 Price Range:</span>
+                <div className="price-inputs">
+                  <input
+                    type="number"
+                    min="0"
+                    max="1000"
+                    value={preferences.priceRange?.min || 0}
+                    onChange={(e) => handlePriceRangeChange('min', parseInt(e.target.value) || 0)}
+                    className="price-input"
+                    placeholder="Min"
+                  />
+                  <span className="price-separator">to</span>
+                  <input
+                    type="number"
+                    min="0"
+                    max="1000"
+                    value={preferences.priceRange?.max || 1000}
+                    onChange={(e) => handlePriceRangeChange('max', parseInt(e.target.value) || 1000)}
+                    className="price-input"
+                    placeholder="Max"
+                  />
+                </div>
+              </label>
             </div>
-          </label>
-        </div>
+          </div>
+        )}
       </div>
 
       {/* Minimum Score Filter */}
       <div className="pairing-section">
-        <div className="min-score-controls">
-          <label className="min-score-label">
-            <span>⭐ Minimum Match Score:</span>
-            <input
-              type="range"
-              min="0"
-              max="100"
-              step="5"
-              value={preferences.minScore || 0}
-              onChange={(e) => onChange({ ...preferences, minScore: parseInt(e.target.value) })}
-              className="score-slider"
-            />
-            <span className="score-value">{preferences.minScore || 0}</span>
-          </label>
-        </div>
+        <button
+          className="pairing-section-toggle"
+          onClick={() => setShowMinScore(!showMinScore)}
+        >
+          <span className="toggle-icon">{showMinScore ? "▼" : "▶"}</span>
+          <span>Minimum Match Score</span>
+          {hasMinScore && (
+            <span className="active-count">{preferences.minScore}</span>
+          )}
+        </button>
+
+        {showMinScore && (
+          <div className="pairing-options">
+            <p className="section-description">
+              Only show pairings above this quality threshold (0 = show all):
+            </p>
+            <div className="min-score-controls">
+              <label className="min-score-label">
+                <span>⭐ Minimum Match Score:</span>
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value={preferences.minScore || 0}
+                  onChange={(e) => onChange({ ...preferences, minScore: parseInt(e.target.value) })}
+                  className="score-slider"
+                />
+                <span className="score-value">{preferences.minScore || 0}</span>
+              </label>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

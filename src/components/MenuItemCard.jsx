@@ -17,7 +17,6 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   const [showBeerPairings, setShowBeerPairings] = useState(false);
   const [showBourbonPairings, setShowBourbonPairings] = useState(false);
   const [showWhiskeyPairings, setShowWhiskeyPairings] = useState(false);
-  const [showPortCognacPairings, setShowPortCognacPairings] = useState(false);
   const tags = [];
   if (item.vegetarian) tags.push("Vegetarian");
   if (item.glutenFree) tags.push("Gluten-free");
@@ -106,13 +105,6 @@ function MenuItemCard({ item, pairingPreferences = null }) {
     drink.category === 'Grappa' ||
     drink.category === 'Cognac'
   );
-  
-  // Filter Port and Cognac specifically for desserts
-  const portCognac = drinks.filter(drink => 
-    drink.flavorProfile &&
-    (drink.category === 'Port' ||
-     drink.category === 'Cognac')
-  );
 
   // Get dynamic pairings based on item type
   // Combine all food data including individual gelato/sorbetto
@@ -185,19 +177,6 @@ function MenuItemCard({ item, pairingPreferences = null }) {
       whiskeyPairings = {
         recommendations: {
           topMatches: topWhiskeyMatches
-        }
-      };
-    }
-  }
-
-  // For desserts, get Port & Cognac pairings
-  let portCognacPairings = null;
-  if (isDessert && item.flavorProfile && portCognac.length > 0) {
-    const topPortCognacMatches = findPairings(item, portCognac, 6);
-    if (topPortCognacMatches && topPortCognacMatches.length > 0) {
-      portCognacPairings = {
-        recommendations: {
-          topMatches: topPortCognacMatches
         }
       };
     }
@@ -702,60 +681,6 @@ function MenuItemCard({ item, pairingPreferences = null }) {
                   <h4>🥃 Top Whiskey Pairings</h4>
                   
                   {whiskeyPairings.recommendations.topMatches.slice(0, 6).map((pairing, idx) => (
-                    <div key={idx} className="pairing-item-detailed">
-                      <div className="wine-info">
-                        <div className="wine-header">
-                          <span className="wine-name">
-                            {pairing.drinkName}
-                            {pairing.drinkPronunciation && (
-                              <span className="pronunciation"> ({pairing.drinkPronunciation})</span>
-                            )}
-                          </span>
-                          <span className="wine-price">${pairing.drinkPrice}</span>
-                        </div>
-                        <div className="wine-category">{pairing.drinkCategory}</div>
-                        {pairing.drinkDescription && (
-                          <div className="wine-description">{pairing.drinkDescription}</div>
-                        )}
-                        <div className="pairing-explanation">{pairing.explanation}</div>
-                        {pairing.flavorProfile && (
-                          <FlavorProfileDisplay 
-                            flavorProfile={pairing.flavorProfile}
-                            title="Tasting Profile"
-                          />
-                        )}
-                      </div>
-                      <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
-                        {pairing.compatibility}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          )}
-        </>
-      )}
-
-      {/* Port & Cognac Pairings for Desserts */}
-      {portCognacPairings && (
-        <>
-          <button 
-            className="pairing-toggle-btn after-dinner-btn"
-            onClick={() => setShowPortCognacPairings(!showPortCognacPairings)}
-          >
-            <span className="toggle-arrow">{showPortCognacPairings ? '▼' : '▶'}</span>
-            🍷 {showPortCognacPairings ? 'Hide' : 'View'} Port & Cognac Pairings
-          </button>
-
-          {showPortCognacPairings && portCognacPairings?.recommendations && (
-            <div className="pairing-panel">
-              {/* Top Port & Cognac Matches */}
-              {portCognacPairings.recommendations.topMatches?.length > 0 && (
-                <div className="pairing-section">
-                  <h4>🍷 Top Port & Cognac Pairings</h4>
-                  
-                  {portCognacPairings.recommendations.topMatches.slice(0, 6).map((pairing, idx) => (
                     <div key={idx} className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">

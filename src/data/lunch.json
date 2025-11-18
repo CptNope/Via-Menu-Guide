@@ -255,11 +255,11 @@
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": true,
-    "glutenFree": false,
+    "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["eggplant", "mozzarella", "provolone", "parmesan", "spaghetti", "marinara-sauce"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": ["eggplant", "GF-breadcrumbs", "mozzarella", "provolone", "parmesan", "GF-spaghetti", "marinara-sauce"],
+    "allergens": ["dairy"]
   },
   {
     "id": "shrimp-scampi-lunch",

@@ -249,19 +249,47 @@
 
 .pairing-toggle-btn {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.75rem;
   margin-top: 0.5rem;
   background: #f8f4e6;
   border: 2px solid #8b7355;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
 }
 
 .pairing-toggle-btn:hover {
   background: #8b7355;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(139, 115, 85, 0.3);
+}
+
+.pairing-toggle-btn .toggle-arrow {
+  color: #6c757d;
+  font-size: 0.75em;
+  font-weight: bold;
+  min-width: 12px;
+  transition: transform 0.2s ease;
+}
+
+.pairing-toggle-btn:hover .toggle-arrow {
+  color: white;
+}
+
+.pairing-toggle-btn.beer-btn {
+  background: #fff3e0;
+  border-color: #ff9800;
+}
+
+.pairing-toggle-btn.beer-btn:hover {
+  background: #ff9800;
   color: white;
 }
 

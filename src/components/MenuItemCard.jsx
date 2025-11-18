@@ -166,6 +166,7 @@ function MenuItemCard({ item }) {
             className="pairing-toggle-btn"
             onClick={() => setShowPairings(!showPairings)}
           >
+            <span className="toggle-arrow">{showPairings ? '▼' : '▶'}</span>
             🍷 {showPairings ? 'Hide' : 'View'} Wine Pairings
           </button>
 
@@ -388,6 +389,7 @@ function MenuItemCard({ item }) {
             className="pairing-toggle-btn"
             onClick={() => setShowPairings(!showPairings)}
           >
+            <span className="toggle-arrow">{showPairings ? '▼' : '▶'}</span>
             🍽️ {showPairings ? 'Hide' : 'View'} Food Pairings
           </button>
 
@@ -459,6 +461,7 @@ function MenuItemCard({ item }) {
             className="pairing-toggle-btn beer-btn"
             onClick={() => setShowBeerPairings(!showBeerPairings)}
           >
+            <span className="toggle-arrow">{showBeerPairings ? '▼' : '▶'}</span>
             🍺 {showBeerPairings ? 'Hide' : 'View'} Beer Pairings
           </button>
 
@@ -506,6 +509,7 @@ function MenuItemCard({ item }) {
             className="pairing-toggle-btn after-dinner-btn"
             onClick={() => setShowAfterDinnerPairings(!showAfterDinnerPairings)}
           >
+            <span className="toggle-arrow">{showAfterDinnerPairings ? '▼' : '▶'}</span>
             ☕ {showAfterDinnerPairings ? 'Hide' : 'View'} After-Dinner Drink Pairings
           </button>
 

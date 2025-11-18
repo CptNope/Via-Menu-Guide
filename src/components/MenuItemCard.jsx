@@ -72,11 +72,14 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   const isAppetizerOrPizza = item.category === 'Appetizers' || item.category === 'Grilled Pizzas';
   
   // Detect if this is a main course item (should show beer and bourbon pairings)
+  // Excludes individual pasta types (category === 'Pasta')
   const isMainCourse = item.category === 'Salads' || 
                        item.category === 'VIA Italian Classics' || 
                        item.category === 'Beef, Pork & Veal' || 
                        item.category === 'House Pastas' || 
-                       item.category === 'Seafood';
+                       item.category === 'Seafood' ||
+                       item.category === 'VIA Signature Sandwiches' ||
+                       item.category === 'VIA Lunch Classics';
   
   // Detect if this is a beer item (should show whiskey pairings)
   const isBeer = item.category === 'Draught' || item.category === 'Bottles & Cans' || item.category === 'Non-Alcoholic Beer' || item.category === 'Beer';

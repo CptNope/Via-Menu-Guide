@@ -5803,7 +5803,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["grappa"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["floral", "grape", "honey", "aromatic", "elegant"]
+    }
   },
   {
     "id": "grand-marnier-100-cognac",
@@ -5823,7 +5837,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["cognac", "orange-liqueur"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["orange", "cognac", "vanilla", "spice", "bold"]
+    }
   },
   {
     "id": "courvoisier-cognac",
@@ -5843,7 +5871,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["cognac"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["fruit", "oak", "vanilla", "caramel", "smooth"]
+    }
   },
   {
     "id": "grand-marnier-cognac",
@@ -5863,7 +5905,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["cognac", "orange-liqueur"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["orange", "cognac", "vanilla", "spice", "luxurious"]
+    }
   },
   {
     "id": "hennessy-cognac",
@@ -5883,7 +5939,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["cognac"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["fruit", "oak", "vanilla", "spice", "bold", "iconic"]
+    }
   },
   {
     "id": "remy-vsop-cognac",
@@ -5903,7 +5973,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["cognac"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["fruit", "vanilla", "oak", "honey", "complex", "elegant"]
+    }
   },
   {
     "id": "croft-reserve-tawny-port",
@@ -6662,7 +6746,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["coffee", "orange-liqueur"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 1,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["orange", "citrus", "coffee", "aromatic", "elegant"]
+    }
   },
   {
     "id": "baileys-coffee",
@@ -6681,7 +6779,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["coffee", "baileys"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 4,
+      "carbonation": 0,
+      "flavorNotes": ["cream", "vanilla", "chocolate", "coffee", "smooth"]
+    }
   },
   {
     "id": "kahlua-coffee",
@@ -6700,7 +6812,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["coffee", "kahlua"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["coffee", "sweet", "rich", "bold"]
+    }
   },
   {
     "id": "via-coffee-fratello-creme-de-cocoa",
@@ -6719,6 +6845,20 @@
     "nutFree": false,
     "kids": false,
     "ingredients": ["coffee", "frangelico", "creme-de-cacao"],
-    "allergens": ["nuts"]
+    "allergens": ["nuts"],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["hazelnut", "chocolate", "coffee", "luxurious", "nutty"]
+    }
   }
 ]

@@ -27,24 +27,22 @@ function MenuItemCard({ item }) {
 
   // Determine if this is a drink that should show food pairings
   // Includes: wines by the glass, wine bottles, half bottles, bourbon, rye, scotch, Port, Amaro, Coffee Cocktails, Grappa, Cognac
+  
+  // Wine categories (by the glass and bottles)
+  const wineCategories = [
+    'Italian Reds', 'Super Tuscan', 'Merlot & Malbec', 'Pinot Noir & Interesting Reds', 
+    'Organic Pinot Noir', 'Cabernet & Blends', 'Sauvignon Blanc', 'Chardonnay', 
+    'Interesting Whites', 'Sparkling',
+    // Bottle categories
+    'Italian Reds Bottles', 'Super Tuscan Bottles', 'Merlot & Malbec Bottles', 
+    'Pinot Noir & Interesting Reds Bottles', 'Cabernet & Blends Bottles',
+    'Sauvignon Blanc Bottles', 'Chardonnay Bottles', 'Interesting Whites Bottles',
+    'Sparkling Bottles'
+  ];
+  
   const isDrinkWithFoodPairing = item.flavorProfile && (
-    // Wine bottles
-    (item.price >= 30 && (
-      item.category?.includes('Bottles') || 
-      item.category?.includes('Red') || 
-      item.category?.includes('White') || 
-      item.category?.includes('Rosé') || 
-      item.category?.includes('Rose') ||
-      item.category?.includes('Sparkling')
-    )) ||
-    // Wines by the glass
-    (item.price < 20 && !item.category?.includes('Bottles') && !item.category?.includes('Half') && (
-      item.category?.includes('Red') || 
-      item.category?.includes('White') || 
-      item.category?.includes('Rosé') || 
-      item.category?.includes('Rose') ||
-      item.category?.includes('Sparkling')
-    )) ||
+    // Wine bottles and glasses
+    wineCategories.includes(item.category) ||
     // Half bottles
     item.category?.includes('Half Bottle') ||
     // Bourbon, rye, scotch, and after-dinner drinks

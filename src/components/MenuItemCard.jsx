@@ -16,6 +16,7 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   const [showAfterDinnerPairings, setShowAfterDinnerPairings] = useState(false);
   const [showBeerPairings, setShowBeerPairings] = useState(false);
   const [showBourbonPairings, setShowBourbonPairings] = useState(false);
+  const [showWhiskeyPairings, setShowWhiskeyPairings] = useState(false);
   const tags = [];
   if (item.vegetarian) tags.push("Vegetarian");
   if (item.glutenFree) tags.push("Gluten-free");
@@ -68,6 +69,9 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   
   // Detect if this is an appetizer or pizza (should show beer pairings)
   const isAppetizerOrPizza = item.category === 'Appetizers' || item.category === 'Grilled Pizzas';
+  
+  // Detect if this is a beer item (should show whiskey pairings)
+  const isBeer = item.category === 'Draught' || item.category === 'Bottles & Cans' || item.category === 'Non-Alcoholic Beer' || item.category === 'Beer';
   
   // Filter beers for appetizer/pizza pairings
   const beers = drinks.filter(drink => 
@@ -153,6 +157,19 @@ function MenuItemCard({ item, pairingPreferences = null }) {
       bourbonPairings = {
         recommendations: {
           topMatches: topBourbonMatches
+        }
+      };
+    }
+  }
+
+  // For desserts and beers, get whiskey pairings
+  let whiskeyPairings = null;
+  if ((isDessert || isBeer) && item.flavorProfile && bourbons.length > 0) {
+    const topWhiskeyMatches = findPairings(item, bourbons, 6);
+    if (topWhiskeyMatches && topWhiskeyMatches.length > 0) {
+      whiskeyPairings = {
+        recommendations: {
+          topMatches: topWhiskeyMatches
         }
       };
     }
@@ -603,6 +620,60 @@ function MenuItemCard({ item, pairingPreferences = null }) {
                   <h4>☕ Top After-Dinner Drink Pairings</h4>
                   
                   {afterDinnerPairings.recommendations.topMatches.slice(0, 5).map((pairing, idx) => (
+                    <div key={idx} className="pairing-item-detailed">
+                      <div className="wine-info">
+                        <div className="wine-header">
+                          <span className="wine-name">
+                            {pairing.drinkName}
+                            {pairing.drinkPronunciation && (
+                              <span className="pronunciation"> ({pairing.drinkPronunciation})</span>
+                            )}
+                          </span>
+                          <span className="wine-price">${pairing.drinkPrice}</span>
+                        </div>
+                        <div className="wine-category">{pairing.drinkCategory}</div>
+                        {pairing.drinkDescription && (
+                          <div className="wine-description">{pairing.drinkDescription}</div>
+                        )}
+                        <div className="pairing-explanation">{pairing.explanation}</div>
+                        {pairing.flavorProfile && (
+                          <FlavorProfileDisplay 
+                            flavorProfile={pairing.flavorProfile}
+                            title="Tasting Profile"
+                          />
+                        )}
+                      </div>
+                      <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
+                        {pairing.compatibility}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </>
+      )}
+
+      {/* Whiskey Pairings for Desserts & Beers */}
+      {whiskeyPairings && (
+        <>
+          <button 
+            className="pairing-toggle-btn bourbon-btn"
+            onClick={() => setShowWhiskeyPairings(!showWhiskeyPairings)}
+          >
+            <span className="toggle-arrow">{showWhiskeyPairings ? '▼' : '▶'}</span>
+            🥃 {showWhiskeyPairings ? 'Hide' : 'View'} Whiskey Pairings
+          </button>
+
+          {showWhiskeyPairings && whiskeyPairings?.recommendations && (
+            <div className="pairing-panel">
+              {/* Top Whiskey Matches */}
+              {whiskeyPairings.recommendations.topMatches?.length > 0 && (
+                <div className="pairing-section">
+                  <h4>🥃 Top Whiskey Pairings</h4>
+                  
+                  {whiskeyPairings.recommendations.topMatches.slice(0, 6).map((pairing, idx) => (
                     <div key={idx} className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">

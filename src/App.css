@@ -293,6 +293,16 @@
   color: white;
 }
 
+.pairing-toggle-btn.bourbon-btn {
+  background: #fef5e7;
+  border-color: #d68910;
+}
+
+.pairing-toggle-btn.bourbon-btn:hover {
+  background: #d68910;
+  color: white;
+}
+
 .pairing-toggle-btn.after-dinner-btn {
   background: #f3f0eb;
   border-color: #6b5644;

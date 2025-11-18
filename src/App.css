@@ -199,35 +199,43 @@
 }
 
 .menu-item-card {
-  padding: 0.4rem 0.25rem;
+  padding: 0.75rem 0.5rem;
   border-bottom: 1px dashed #d0bca3;
 }
 
 .menu-item-header {
   display: flex;
   justify-content: space-between;
-  gap: 0.5rem;
+  gap: 0.75rem;
   align-items: baseline;
+  margin-bottom: 0.35rem;
 }
 
 .menu-item-name {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #3a2f25;
+  letter-spacing: 0.01em;
 }
 
 .pronunciation {
   font-weight: 400;
   font-style: italic;
-  color: #7a6857;
-  font-size: 0.9em;
+  color: #8b7355;
+  font-size: 0.85em;
 }
 
 .menu-item-price {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #6b4a3b;
 }
 
 .menu-item-description {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: #5b4637;
+  line-height: 1.5;
+  margin-bottom: 0.35rem;
 }
 
 .server-notes {
@@ -249,33 +257,35 @@
 
 .pairing-toggle-btn {
   width: 100%;
-  padding: 0.75rem;
-  margin-top: 0.5rem;
-  background: #f8f4e6;
-  border: 2px solid #8b7355;
-  border-radius: 8px;
+  padding: 0.5rem 0.65rem;
+  margin-top: 0.4rem;
+  background: #fafaf8;
+  border: 1px solid #d4c4b0;
+  border-radius: 6px;
   cursor: pointer;
-  font-weight: 600;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   text-align: left;
+  color: #5b4637;
 }
 
 .pairing-toggle-btn:hover {
   background: #8b7355;
   color: white;
+  border-color: #8b7355;
   transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(139, 115, 85, 0.3);
+  box-shadow: 0 2px 4px rgba(139, 115, 85, 0.2);
 }
 
 .pairing-toggle-btn .toggle-arrow {
-  color: #6c757d;
-  font-size: 0.75em;
+  color: #8b7355;
+  font-size: 0.7em;
   font-weight: bold;
-  min-width: 12px;
+  min-width: 10px;
   transition: transform 0.2s ease;
 }
 
@@ -284,8 +294,8 @@
 }
 
 .pairing-toggle-btn.beer-btn {
-  background: #fff3e0;
-  border-color: #ff9800;
+  background: #fffbf5;
+  border-color: #ffb74d;
 }
 
 .pairing-toggle-btn.beer-btn:hover {
@@ -294,8 +304,8 @@
 }
 
 .pairing-toggle-btn.bourbon-btn {
-  background: #fef5e7;
-  border-color: #d68910;
+  background: #fefaf3;
+  border-color: #e5a34f;
 }
 
 .pairing-toggle-btn.bourbon-btn:hover {
@@ -304,8 +314,8 @@
 }
 
 .pairing-toggle-btn.after-dinner-btn {
-  background: #f3f0eb;
-  border-color: #6b5644;
+  background: #f8f6f3;
+  border-color: #8b7766;
   margin-top: 0.25rem;
 }
 
@@ -315,20 +325,20 @@
 }
 
 .wine-category {
-  font-size: 0.75rem;
-  color: #8b7355;
+  font-size: 0.6875rem;
+  color: #9b8875;
   font-weight: 500;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.25rem;
   text-transform: uppercase;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
 }
 
 .pairing-panel {
-  margin-top: 0.5rem;
-  padding: 0.75rem;
-  background: #fafafa;
-  border-radius: 5px;
-  border: 1px solid #e0e0e0;
+  margin-top: 0.4rem;
+  padding: 0.65rem;
+  background: #fcfcfc;
+  border-radius: 6px;
+  border: 1px solid #e8e4dd;
 }
 
 .pairing-section {
@@ -341,9 +351,11 @@
 
 .pairing-section h4 {
   margin: 0 0 0.5rem 0;
-  color: #2d5016;
-  font-size: 0.9rem;
+  color: #5b4637;
+  font-size: 0.8125rem;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .pairing-item {
@@ -360,20 +372,26 @@
 
 .wine-name {
   font-weight: 600;
+  font-size: 0.8125rem;
+  color: #3a2f25;
   flex: 1;
+  line-height: 1.3;
 }
 
 .wine-price {
-  color: #666;
+  color: #7a6857;
+  font-size: 0.8125rem;
+  font-weight: 500;
   white-space: nowrap;
 }
 
 .match-badge {
-  padding: 0.15rem 0.5rem;
-  border-radius: 12px;
-  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.6875rem;
   font-weight: 600;
   white-space: nowrap;
+  align-self: flex-start;
 }
 
 .match-badge.excellent {
@@ -408,14 +426,14 @@
 
 .pairing-item-detailed {
   background: white;
-  border-radius: 6px;
-  border-left: 4px solid #8b7355;
-  padding: 0.75rem;
-  margin-bottom: 0.75rem;
+  border-radius: 5px;
+  border-left: 3px solid #c4b5a0;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 0.75rem;
+  gap: 0.6rem;
 }
 
 .wine-info {
@@ -426,15 +444,15 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.35rem;
   gap: 0.5rem;
 }
 
 .wine-description {
-  font-size: 0.8rem;
-  color: #666;
+  font-size: 0.75rem;
+  color: #7a7a7a;
   font-style: italic;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.35rem;
   line-height: 1.4;
 }
 
@@ -448,12 +466,12 @@
 }
 
 .pairing-explanation {
-  font-size: 0.8rem;
-  color: #2d5016;
-  background: #f3f9f3;
-  padding: 0.4rem;
+  font-size: 0.75rem;
+  color: #5b7049;
+  background: #f8faf6;
+  padding: 0.35rem 0.45rem;
   border-radius: 4px;
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
 .alternatives {

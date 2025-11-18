@@ -1,0 +1,136 @@
+.flavor-profile-display {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 0.9em;
+}
+
+.flavor-profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.flavor-profile-title {
+  font-weight: 600;
+  color: #495057;
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.body-badge {
+  background-color: #6c757d;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.flavor-stats {
+  display: grid;
+  gap: 8px;
+}
+
+.flavor-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.stat-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+}
+
+.stat-label {
+  color: #495057;
+  font-weight: 500;
+}
+
+.stat-value {
+  color: #6c757d;
+  font-weight: 600;
+  font-size: 0.9em;
+  min-width: 20px;
+  text-align: right;
+}
+
+.stat-bar-container {
+  height: 6px;
+  background-color: #e9ecef;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.stat-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+/* Color coding for different stats */
+.stat-bar-sweetness { background-color: #ff6b9d; }
+.stat-bar-acidity { background-color: #ffd93d; }
+.stat-bar-bitterness { background-color: #6c757d; }
+.stat-bar-richness { background-color: #8b4513; }
+.stat-bar-spiciness { background-color: #ff4500; }
+.stat-bar-umami { background-color: #9370db; }
+.stat-bar-tannin { background-color: #a0522d; }
+.stat-bar-alcohol { background-color: #dc3545; }
+.stat-bar-carbonation { background-color: #17a2b8; }
+.stat-bar-saltiness { background-color: #6c757d; }
+
+.flavor-notes {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #dee2e6;
+}
+
+.flavor-notes-label {
+  font-size: 0.8em;
+  color: #6c757d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.flavor-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.flavor-tag {
+  background-color: #e7f3ff;
+  color: #0056b3;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 500;
+  border: 1px solid #b3d7ff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .flavor-profile-display {
+    font-size: 0.85em;
+  }
+  
+  .flavor-profile-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+}

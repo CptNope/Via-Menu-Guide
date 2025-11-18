@@ -4,6 +4,7 @@ import { FaChild } from "react-icons/fa";
 import { TbLeaf } from "react-icons/tb";
 import { getFoodPairingRecommendations, getWinePairingRecommendations } from "../utils/enhancedPairing.js";
 import { findPairings } from "../utils/pairingAlgorithm.js";
+import FlavorProfileDisplay from "./FlavorProfileDisplay.jsx";
 import drinks from "../data/drinks.json";
 import appetizers from "../data/appetizers.json";
 import dinnerData from "../data/dinner.json";
@@ -163,6 +164,12 @@ function MenuItemCard({ item }) {
                       )}
                       <div className="wine-description">{foodPairings.recommendations.byTheGlass.drinkDescription}</div>
                       <div className="pairing-explanation">{foodPairings.recommendations.byTheGlass.explanation}</div>
+                      {foodPairings.recommendations.byTheGlass.flavorProfile && (
+                        <FlavorProfileDisplay 
+                          flavorProfile={foodPairings.recommendations.byTheGlass.flavorProfile}
+                          title="Tasting Profile"
+                        />
+                      )}
                     </div>
                     <span className={`match-badge ${foodPairings.recommendations.byTheGlass.compatibility.toLowerCase().replace(' ', '-')}`}>
                       {foodPairings.recommendations.byTheGlass.compatibility}
@@ -213,6 +220,12 @@ function MenuItemCard({ item }) {
                         )}
                         <div className="wine-description">{foodPairings.recommendations.bottles.lowTier.best.drinkDescription}</div>
                         <div className="pairing-explanation">{foodPairings.recommendations.bottles.lowTier.best.explanation}</div>
+                        {foodPairings.recommendations.bottles.lowTier.best.flavorProfile && (
+                          <FlavorProfileDisplay 
+                            flavorProfile={foodPairings.recommendations.bottles.lowTier.best.flavorProfile}
+                            title="Tasting Profile"
+                          />
+                        )}
                       </div>
                       <span className={`match-badge ${foodPairings.recommendations.bottles.lowTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
                         {foodPairings.recommendations.bottles.lowTier.best.compatibility}
@@ -257,6 +270,12 @@ function MenuItemCard({ item }) {
                         )}
                         <div className="wine-description">{foodPairings.recommendations.bottles.midTier.best.drinkDescription}</div>
                         <div className="pairing-explanation">{foodPairings.recommendations.bottles.midTier.best.explanation}</div>
+                        {foodPairings.recommendations.bottles.midTier.best.flavorProfile && (
+                          <FlavorProfileDisplay 
+                            flavorProfile={foodPairings.recommendations.bottles.midTier.best.flavorProfile}
+                            title="Tasting Profile"
+                          />
+                        )}
                       </div>
                       <span className={`match-badge ${foodPairings.recommendations.bottles.midTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
                         {foodPairings.recommendations.bottles.midTier.best.compatibility}
@@ -300,6 +319,12 @@ function MenuItemCard({ item }) {
                         )}
                         <div className="wine-description">{foodPairings.recommendations.bottles.highTier.best.drinkDescription}</div>
                         <div className="pairing-explanation">{foodPairings.recommendations.bottles.highTier.best.explanation}</div>
+                        {foodPairings.recommendations.bottles.highTier.best.flavorProfile && (
+                          <FlavorProfileDisplay 
+                            flavorProfile={foodPairings.recommendations.bottles.highTier.best.flavorProfile}
+                            title="Tasting Profile"
+                          />
+                        )}
                       </div>
                       <span className={`match-badge ${foodPairings.recommendations.bottles.highTier.best.compatibility.toLowerCase().replace(' ', '-')}`}>
                         {foodPairings.recommendations.bottles.highTier.best.compatibility}
@@ -360,6 +385,12 @@ function MenuItemCard({ item }) {
                           <div className="wine-description">{pairing.foodDescription}</div>
                         )}
                         <div className="pairing-explanation">{pairing.explanation}</div>
+                        {pairing.flavorProfile && (
+                          <FlavorProfileDisplay 
+                            flavorProfile={pairing.flavorProfile}
+                            title="Food Profile"
+                          />
+                        )}
                       </div>
                       <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
                         {pairing.compatibility}

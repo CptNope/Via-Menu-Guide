@@ -34,7 +34,8 @@ export function findPairings(foodItem, drinks, maxResults = 5) {
         score: score.total,
         scoreBreakdown: score,
         explanation,
-        compatibility: getCompatibilityLevel(score.total)
+        compatibility: getCompatibilityLevel(score.total),
+        flavorProfile: drink.flavorProfile
       };
     })
     .sort((a, b) => b.score - a.score)
@@ -351,7 +352,8 @@ export function findFoodPairings(drinkItem, foods, maxResults = 5) {
         score: score.total,
         scoreBreakdown: score,
         explanation,
-        compatibility: getCompatibilityLevel(score.total)
+        compatibility: getCompatibilityLevel(score.total),
+        flavorProfile: food.flavorProfile
       };
     })
     .sort((a, b) => b.score - a.score)

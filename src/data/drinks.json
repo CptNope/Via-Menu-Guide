@@ -1891,6 +1891,13 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 8,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 5,
+      "finish": 5,
+      "intensity": 5,
+      "complexity": 4,
+      "aromaticIntensity": 6,
       "flavorNotes": ["green-apple", "pear", "citrus", "crisp"]
     }
   },
@@ -1921,6 +1928,13 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 8,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 4,
+      "finish": 5,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 7,
       "flavorNotes": ["strawberry", "cherry", "floral", "refreshing"]
     }
   },
@@ -1951,6 +1965,14 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 9,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 6,
+      "finish": 7,
+      "creaminess": 5,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 8,
       "flavorNotes": ["white-peach", "floral", "elegant", "creamy"]
     }
   },
@@ -1981,7 +2003,15 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 9,
-      "flavorNotes": ["brioche", "citrus", "toast", "complex"]
+      "fruitiness": 5,
+      "oakiness": 4,
+      "minerality": 7,
+      "finish": 9,
+      "creaminess": 6,
+      "intensity": 7,
+      "complexity": 9,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["brioche", "citrus", "toast", "elegant"]
     }
   },
   {

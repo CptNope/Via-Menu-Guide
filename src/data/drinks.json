@@ -222,7 +222,28 @@
     "ingredients": [
       "apple"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 1,
+      "alcohol": 4,
+      "carbonation": 7,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 5,
+      "intensity": 5,
+      "complexity": 4,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["apple", "crisp", "dry", "refreshing", "cider"]
+    }
   },
   {
     "id": "wachusett-ipa-bottle",
@@ -323,7 +344,28 @@
       "tea",
       "lemon"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 3,
+      "carbonation": 5,
+      "fruitiness": 5,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 4,
+      "intensity": 4,
+      "complexity": 3,
+      "aromaticIntensity": 5,
+      "flavorNotes": ["tea", "lemon", "vodka", "refreshing", "lightly-sweet"]
+    }
   },
   {
     "id": "switchback-ale-bottle",
@@ -423,7 +465,28 @@
       "vodka",
       "pineapple"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 3,
+      "intensity": 5,
+      "complexity": 3,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["pineapple", "tropical", "light", "refreshing", "vodka-soda"]
+    }
   },
   {
     "id": "high-noon-peach",
@@ -440,7 +503,28 @@
       "vodka",
       "peach"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 3,
+      "intensity": 5,
+      "complexity": 3,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["peach", "sweet", "light", "refreshing", "vodka-soda"]
+    }
   },
   {
     "id": "high-noon-watermelon",
@@ -457,7 +541,28 @@
       "vodka",
       "watermelon"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 3,
+      "intensity": 5,
+      "complexity": 3,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["watermelon", "fresh", "light", "refreshing", "vodka-soda"]
+    }
   },
   {
     "id": "allagash-curieux",

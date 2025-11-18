@@ -45,6 +45,11 @@ function MenuItemCard({ item }) {
   const isDrinkWithFoodPairing = item.flavorProfile && (
     // Wine bottles, glasses, and half bottles
     wineCategories.includes(item.category) ||
+    // Beers
+    item.category === 'Draught' ||
+    item.category === 'Bottles & Cans' ||
+    item.category === 'Non-Alcoholic Beer' ||
+    item.category === 'Beer' ||
     // Bourbon, rye, scotch, and after-dinner drinks
     item.category === 'Bourbon' ||
     item.category === 'Rye' ||

@@ -31,6 +31,13 @@
       "tannin": 0,
       "alcohol": 3,
       "carbonation": 7,
+      "fruitiness": 2,
+      "oakiness": 0,
+      "minerality": 5,
+      "finish": 4,
+      "intensity": 3,
+      "complexity": 3,
+      "aromaticIntensity": 4,
       "flavorNotes": ["clean", "crisp", "light-malt", "corn", "refreshing"]
     }
   },
@@ -65,6 +72,13 @@
       "tannin": 0,
       "alcohol": 4,
       "carbonation": 5,
+      "fruitiness": 4,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 6,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 6,
       "flavorNotes": ["malt", "caramel", "toasted-bread", "biscuit", "smooth"]
     }
   },
@@ -99,6 +113,13 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 5,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 9,
+      "complexity": 7,
+      "aromaticIntensity": 10,
       "flavorNotes": ["citrus", "tropical-fruit", "mango", "pine", "intense-hops"]
     }
   },
@@ -133,6 +154,13 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 6,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 4,
+      "finish": 7,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 9,
       "flavorNotes": ["pine", "grapefruit", "citrus", "resinous", "clean"]
     }
   },
@@ -168,6 +196,15 @@
       "tannin": 0,
       "alcohol": 3,
       "carbonation": 7,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 5,
+      "creaminess": 4,
+      "intensity": 5,
+      "complexity": 6,
+      "aromaticIntensity": 8,
+      "herbaceousness": 5,
       "flavorNotes": ["citrus", "coriander", "wheat", "orange-peel", "refreshing"]
     }
   },
@@ -219,6 +256,13 @@
       "tannin": 0,
       "alcohol": 3,
       "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 4,
+      "intensity": 6,
+      "complexity": 4,
+      "aromaticIntensity": 8,
       "flavorNotes": ["blueberry", "fruit", "crisp", "light-malt", "easy-drinking"]
     }
   },
@@ -253,6 +297,13 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 6,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 8,
+      "complexity": 6,
+      "aromaticIntensity": 9,
       "flavorNotes": ["citrus", "tropical-fruit", "pine", "grapefruit", "hoppy"]
     }
   },
@@ -304,12 +355,20 @@
       "bitterness": 3,
       "tannin": 0,
       "alcohol": 3,
-      "carbonation": 5,
-      "flavorNotes": ["malt", "caramel", "toffee", "smooth", "balanced"]
+      "carbonation": 6,
+      "fruitiness": 4,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 5,
+      "creaminess": 3,
+      "intensity": 5,
+      "complexity": 5,
+      "aromaticIntensity": 5,
+      "flavorNotes": ["malty", "caramel", "toffee", "smooth", "balanced"]
     }
   },
   {
-    "id": "bridlehead-ipa-bottle",
+    "id": "fiddlehead-ipa-bottle",
     "name": "Fiddlehead IPA",
     "description": "Shelburne, VT, 16 oz., 6.2% ABV",
     "price": 9,
@@ -339,6 +398,13 @@
       "tannin": 0,
       "alcohol": 4,
       "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 9,
       "flavorNotes": ["grapefruit", "orange", "tropical", "citrus", "clean"]
     }
   },

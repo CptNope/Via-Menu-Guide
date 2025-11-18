@@ -3,6 +3,7 @@ import { GiWheat, GiPeanut, GiCow } from "react-icons/gi";
 import { FaChild } from "react-icons/fa";
 import { TbLeaf } from "react-icons/tb";
 import { getFoodPairingRecommendations, getWinePairingRecommendations } from "../utils/enhancedPairing.js";
+import { findPairings } from "../utils/pairingAlgorithm.js";
 import drinks from "../data/drinks.json";
 import appetizers from "../data/appetizers.json";
 import dinner from "../data/dinner.json";
@@ -66,7 +67,19 @@ function MenuItemCard({ item }) {
   const allFoodItems = [...appetizers, ...dinner, ...desserts];
   const winePairings = isDrinkWithFoodPairing && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
   const foodPairings = !isDrinkWithFoodPairing && item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
-  const afterDinnerPairings = isDessert && item.flavorProfile ? getFoodPairingRecommendations(item, afterDinnerDrinks) : null;
+  
+  // For after-dinner drinks, use findPairings directly and structure results
+  let afterDinnerPairings = null;
+  if (isDessert && item.flavorProfile && afterDinnerDrinks.length > 0) {
+    const topMatches = findPairings(item, afterDinnerDrinks, 10);
+    if (topMatches && topMatches.length > 0) {
+      afterDinnerPairings = {
+        recommendations: {
+          topMatches: topMatches
+        }
+      };
+    }
+  }
 
   return (
     <article className="menu-item-card">
@@ -366,49 +379,34 @@ function MenuItemCard({ item }) {
 
           {showAfterDinnerPairings && afterDinnerPairings?.recommendations && (
             <div className="pairing-panel">
-              {/* By the Glass - Best after-dinner drink */}
-              {afterDinnerPairings.recommendations.byTheGlass && (
+              {/* Top After-Dinner Drink Matches */}
+              {afterDinnerPairings.recommendations.topMatches?.length > 0 && (
                 <div className="pairing-section">
-                  <h4>☕ Top After-Dinner Drink</h4>
+                  <h4>☕ Top After-Dinner Drink Pairings</h4>
                   
-                  <div className="pairing-item-detailed">
-                    <div className="wine-info">
-                      <div className="wine-header">
-                        <span className="wine-name">
-                          {afterDinnerPairings.recommendations.byTheGlass.drinkName}
-                          {afterDinnerPairings.recommendations.byTheGlass.drinkPronunciation && (
-                            <span className="pronunciation"> ({afterDinnerPairings.recommendations.byTheGlass.drinkPronunciation})</span>
-                          )}
-                        </span>
-                        <span className="wine-price">${afterDinnerPairings.recommendations.byTheGlass.drinkPrice}</span>
-                      </div>
-                      <div className="wine-category">{afterDinnerPairings.recommendations.byTheGlass.drinkCategory}</div>
-                      {afterDinnerPairings.recommendations.byTheGlass.drinkDescription && (
-                        <div className="wine-description">{afterDinnerPairings.recommendations.byTheGlass.drinkDescription}</div>
-                      )}
-                      <div className="pairing-explanation">{afterDinnerPairings.recommendations.byTheGlass.explanation}</div>
-                    </div>
-                    <span className={`match-badge ${afterDinnerPairings.recommendations.byTheGlass.compatibility.toLowerCase().replace(' ', '-')}`}>
-                      {afterDinnerPairings.recommendations.byTheGlass.compatibility}
-                    </span>
-                  </div>
-
-                  {/* Alternative after-dinner drinks */}
-                  {afterDinnerPairings.recommendations.alternativeGlasses?.length > 0 && (
-                    <div className="alternatives">
-                      <label>Also pairs well with:</label>
-                      {afterDinnerPairings.recommendations.alternativeGlasses.slice(0, 4).map((alt, idx) => (
-                        <div key={idx} className="pairing-item-compact">
-                          <span className="wine-name">{alt.drinkName}</span>
-                          <span className="wine-category">{alt.drinkCategory}</span>
-                          <span className="wine-price">${alt.drinkPrice}</span>
-                          <span className={`match-badge ${alt.compatibility.toLowerCase().replace(' ', '-')}`}>
-                            {alt.compatibility}
+                  {afterDinnerPairings.recommendations.topMatches.slice(0, 5).map((pairing, idx) => (
+                    <div key={idx} className="pairing-item-detailed">
+                      <div className="wine-info">
+                        <div className="wine-header">
+                          <span className="wine-name">
+                            {pairing.drinkName}
+                            {pairing.drinkPronunciation && (
+                              <span className="pronunciation"> ({pairing.drinkPronunciation})</span>
+                            )}
                           </span>
+                          <span className="wine-price">${pairing.drinkPrice}</span>
                         </div>
-                      ))}
+                        <div className="wine-category">{pairing.drinkCategory}</div>
+                        {pairing.drinkDescription && (
+                          <div className="wine-description">{pairing.drinkDescription}</div>
+                        )}
+                        <div className="pairing-explanation">{pairing.explanation}</div>
+                      </div>
+                      <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
+                        {pairing.compatibility}
+                      </span>
                     </div>
-                  )}
+                  ))}
                 </div>
               )}
             </div>

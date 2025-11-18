@@ -71,6 +71,13 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   // Detect if this is an appetizer or pizza (should show beer pairings)
   const isAppetizerOrPizza = item.category === 'Appetizers' || item.category === 'Grilled Pizzas';
   
+  // Detect if this is a main course item (should show beer and bourbon pairings)
+  const isMainCourse = item.category === 'Salads' || 
+                       item.category === 'VIA Italian Classics' || 
+                       item.category === 'Beef, Pork & Veal' || 
+                       item.category === 'House Pastas' || 
+                       item.category === 'Seafood';
+  
   // Detect if this is a beer item (should show whiskey pairings)
   const isBeer = item.category === 'Draught' || item.category === 'Bottles & Cans' || item.category === 'Non-Alcoholic Beer' || item.category === 'Beer';
   
@@ -144,9 +151,9 @@ function MenuItemCard({ item, pairingPreferences = null }) {
     }
   }
 
-  // For appetizers and pizzas, get beer pairings
+  // For appetizers, pizzas, and main courses, get beer pairings
   let beerPairings = null;
-  if (isAppetizerOrPizza && item.flavorProfile && beers.length > 0) {
+  if ((isAppetizerOrPizza || isMainCourse) && item.flavorProfile && beers.length > 0) {
     const topBeerMatches = findPairings(item, beers, 6);
     if (topBeerMatches && topBeerMatches.length > 0) {
       beerPairings = {
@@ -157,9 +164,9 @@ function MenuItemCard({ item, pairingPreferences = null }) {
     }
   }
 
-  // For appetizers and pizzas, get bourbon/whiskey pairings
+  // For appetizers, pizzas, and main courses, get bourbon/whiskey pairings
   let bourbonPairings = null;
-  if (isAppetizerOrPizza && item.flavorProfile && bourbons.length > 0) {
+  if ((isAppetizerOrPizza || isMainCourse) && item.flavorProfile && bourbons.length > 0) {
     const topBourbonMatches = findPairings(item, bourbons, 6);
     if (topBourbonMatches && topBourbonMatches.length > 0) {
       bourbonPairings = {

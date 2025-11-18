@@ -8058,6 +8058,15 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 0,
+      "fruitiness": 1,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 6,
+      "creaminess": 2,
+      "herbaceousness": 8,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 9,
       "flavorNotes": ["anise", "licorice", "coffee", "sweet", "aromatic"]
     }
   },
@@ -8091,6 +8100,14 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 0,
+      "fruitiness": 2,
+      "oakiness": 4,
+      "minerality": 2,
+      "finish": 7,
+      "creaminess": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
       "flavorNotes": ["whiskey", "coffee", "cream", "warm", "comforting"]
     }
   },
@@ -8124,6 +8141,14 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 0,
+      "fruitiness": 3,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 7,
+      "creaminess": 9,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 9,
       "flavorNotes": ["hazelnut", "cream", "coffee", "sweet", "indulgent", "nutty"]
     }
   },
@@ -8157,6 +8182,14 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 2,
+      "minerality": 2,
+      "finish": 6,
+      "creaminess": 3,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 8,
       "flavorNotes": ["orange", "citrus", "coffee", "aromatic", "elegant"]
     }
   },
@@ -8190,6 +8223,14 @@
       "tannin": 0,
       "alcohol": 4,
       "carbonation": 0,
+      "fruitiness": 2,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 6,
+      "creaminess": 9,
+      "intensity": 7,
+      "complexity": 6,
+      "aromaticIntensity": 7,
       "flavorNotes": ["cream", "vanilla", "chocolate", "coffee", "smooth"]
     }
   },
@@ -8223,6 +8264,14 @@
       "tannin": 0,
       "alcohol": 5,
       "carbonation": 0,
+      "fruitiness": 1,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 6,
+      "creaminess": 4,
+      "intensity": 8,
+      "complexity": 6,
+      "aromaticIntensity": 8,
       "flavorNotes": ["coffee", "sweet", "rich", "bold"]
     }
   },
@@ -8254,9 +8303,17 @@
       "umami": 1,
       "bitterness": 3,
       "tannin": 0,
-      "alcohol": 5,
+      "alcohol": 6,
       "carbonation": 0,
-      "flavorNotes": ["hazelnut", "chocolate", "coffee", "luxurious", "nutty"]
+      "fruitiness": 2,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 8,
+      "creaminess": 8,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 10,
+      "flavorNotes": ["hazelnut", "chocolate", "coffee", "luxurious", "dessert"]
     }
   }
 ]

@@ -23,6 +23,7 @@ export function getFoodPairingRecommendations(foodItem, allDrinks, preferences =
 
   // Separate wines by the glass and bottles
   // Wines by the glass are typically lower priced (under $20) and don't have "Bottles" or "Half" in category
+  // Explicitly exclude beer and cocktail categories
   const winesByGlass = allDrinks.filter(drink => 
     drink.flavorProfile && 
     drink.price < 20 &&
@@ -32,15 +33,28 @@ export function getFoodPairingRecommendations(foodItem, allDrinks, preferences =
      drink.category?.includes('White') || 
      drink.category?.includes('Rosé') ||
      drink.category?.includes('Rose') ||
-     drink.category?.includes('Sparkling'))
+     drink.category?.includes('Sparkling')) &&
+    // Exclude beers and cocktails
+    drink.category !== 'Draught' &&
+    drink.category !== 'Bottles & Cans' &&
+    drink.category !== 'Non-Alcoholic Beer' &&
+    drink.category !== 'Beer' &&
+    !drink.category?.includes('Cocktails')
   );
   
   // Bottles are marked with "Bottles" or "Half Bottle" in category or have higher prices
+  // Explicitly exclude beer categories
   const bottles = allDrinks.filter(drink => 
     drink.flavorProfile &&
     (drink.category?.includes('Bottles') || 
      drink.category?.includes('Half Bottle') || 
-     drink.price >= 30)
+     drink.price >= 30) &&
+    // Exclude beers, cocktails, and other non-wine drinks
+    drink.category !== 'Bottles & Cans' &&
+    drink.category !== 'Draught' &&
+    drink.category !== 'Non-Alcoholic Beer' &&
+    drink.category !== 'Beer' &&
+    !drink.category?.includes('Cocktails')
   );
 
   // Find best wine by the glass

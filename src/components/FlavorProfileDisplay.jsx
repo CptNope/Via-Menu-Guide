@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './FlavorProfileDisplay.css';
 
 /**
@@ -6,7 +6,9 @@ import './FlavorProfileDisplay.css';
  * @param {Object} flavorProfile - The flavor profile object with stats
  * @param {string} title - Optional title for the section
  */
-const FlavorProfileDisplay = ({ flavorProfile, title = "Flavor Profile" }) => {
+const FlavorProfileDisplay = ({ flavorProfile, title = "Tasting Profile" }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  
   if (!flavorProfile) return null;
 
   // Define which stats to show - comprehensive list
@@ -51,37 +53,45 @@ const FlavorProfileDisplay = ({ flavorProfile, title = "Flavor Profile" }) => {
 
   return (
     <div className="flavor-profile-display">
-      <div className="flavor-profile-header">
+      <button 
+        className="flavor-profile-toggle"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
+        <span className="toggle-icon">{isExpanded ? '▼' : '▶'}</span>
         <span className="flavor-profile-title">{title}</span>
         {bodyLabel && <span className="body-badge">{bodyLabel}</span>}
-      </div>
+      </button>
       
-      <div className="flavor-stats">
-        {activeStats.map(stat => (
-          <div key={stat.key} className="flavor-stat">
-            <div className="stat-label-row">
-              <span className="stat-label">{stat.label}</span>
-              <span className="stat-value">{flavorProfile[stat.key]}</span>
-            </div>
-            <div className="stat-bar-container">
-              <div 
-                className={`stat-bar stat-bar-${stat.key}`}
-                style={{ width: `${(flavorProfile[stat.key] / stat.max) * 100}%` }}
-              />
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {flavorProfile.flavorNotes && flavorProfile.flavorNotes.length > 0 && (
-        <div className="flavor-notes">
-          <span className="flavor-notes-label">Notes:</span>
-          <div className="flavor-tags">
-            {flavorProfile.flavorNotes.map((note, idx) => (
-              <span key={idx} className="flavor-tag">{note}</span>
+      {isExpanded && (
+        <>
+          <div className="flavor-stats">
+            {activeStats.map(stat => (
+              <div key={stat.key} className="flavor-stat">
+                <div className="stat-label-row">
+                  <span className="stat-label">{stat.label}</span>
+                  <span className="stat-value">{flavorProfile[stat.key]}</span>
+                </div>
+                <div className="stat-bar-container">
+                  <div 
+                    className={`stat-bar stat-bar-${stat.key}`}
+                    style={{ width: `${(flavorProfile[stat.key] / stat.max) * 100}%` }}
+                  />
+                </div>
+              </div>
             ))}
           </div>
-        </div>
+
+          {flavorProfile.flavorNotes && flavorProfile.flavorNotes.length > 0 && (
+            <div className="flavor-notes">
+              <span className="flavor-notes-label">Notes:</span>
+              <div className="flavor-tags">
+                {flavorProfile.flavorNotes.map((note, idx) => (
+                  <span key={idx} className="flavor-tag">{note}</span>
+                ))}
+              </div>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

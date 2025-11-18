@@ -2,9 +2,43 @@
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   border-radius: 8px;
-  padding: 12px;
+  padding: 0;
   margin-top: 12px;
   font-size: 0.9em;
+}
+
+.flavor-profile-toggle {
+  width: 100%;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.flavor-profile-toggle:hover {
+  background: #f8f9fa;
+}
+
+.flavor-profile-toggle .toggle-icon {
+  color: #6c757d;
+  font-size: 0.8em;
+  font-weight: bold;
+  min-width: 12px;
+}
+
+.flavor-profile-title {
+  font-weight: 600;
+  color: #495057;
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex: 1;
 }
 
 .flavor-profile-header {
@@ -14,14 +48,6 @@
   margin-bottom: 12px;
   padding-bottom: 8px;
   border-bottom: 2px solid #dee2e6;
-}
-
-.flavor-profile-title {
-  font-weight: 600;
-  color: #495057;
-  font-size: 0.95em;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
 .body-badge {
@@ -37,6 +63,8 @@
 .flavor-stats {
   display: grid;
   gap: 8px;
+  padding: 12px;
+  padding-top: 8px;
 }
 
 .flavor-stat {
@@ -111,7 +139,7 @@
 .stat-bar-smokiness { background-color: #546e7a; }
 
 .flavor-notes {
-  margin-top: 12px;
+  margin: 0 12px 12px 12px;
   padding-top: 10px;
   border-top: 1px solid #dee2e6;
 }

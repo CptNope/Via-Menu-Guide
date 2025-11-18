@@ -108,7 +108,7 @@ export function getWinePairingRecommendations(wineBottle, allFoods) {
 
   // Get best match from each major category
   const categories = ['Appetizers', 'House Pastas', 'Seafood', 'VIA Italian Classics', 
-                      'Beef, Pork & Veal', 'Grilled Pizzas', 'Salads', 'Dessert'];
+                      'Beef, Pork & Veal', 'Grilled Pizzas', 'Salads', 'Desserts', 'Gelato', 'Sorbetto'];
   
   const bestByCategory = {};
   categories.forEach(cat => {

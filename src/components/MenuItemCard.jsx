@@ -6,8 +6,9 @@ import { getFoodPairingRecommendations, getWinePairingRecommendations } from "..
 import { findPairings } from "../utils/pairingAlgorithm.js";
 import drinks from "../data/drinks.json";
 import appetizers from "../data/appetizers.json";
-import dinner from "../data/dinner.json";
-import desserts from "../data/dessert.json";
+import dinnerData from "../data/dinner.json";
+import dessertData from "../data/dessert.json";
+import gelatoData from "../data/gelato.json";
 
 function MenuItemCard({ item }) {
   const [showPairings, setShowPairings] = useState(false);
@@ -64,7 +65,26 @@ function MenuItemCard({ item }) {
   );
 
   // Get dynamic pairings based on item type
-  const allFoodItems = [...appetizers, ...dinner, ...desserts];
+  // Combine all food data including individual gelato/sorbetto
+  const allDesserts = [...dessertData, ...gelatoData];
+  
+  // Filter out pasta types, multi-scoop items, samplers, and any drink categories from food pairing
+  const allFoodItems = [...appetizers, ...dinnerData, ...allDesserts].filter(food => 
+    food.category !== 'Pasta' && 
+    !food.id?.includes('scoops') && 
+    !food.id?.includes('sampler') &&
+    // Exclude any wine/drink categories that might have snuck in
+    !food.category?.includes('Red') &&
+    !food.category?.includes('White') &&
+    !food.category?.includes('Sparkling') &&
+    !food.category?.includes('Rosé') &&
+    !food.category?.includes('Port') &&
+    !food.category?.includes('Amaro') &&
+    !food.category?.includes('Cocktails') &&
+    !food.category?.includes('Beer') &&
+    !food.category?.includes('Bottles')
+  );
+  
   const winePairings = isDrinkWithFoodPairing && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
   const foodPairings = !isDrinkWithFoodPairing && item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
   

@@ -9,18 +9,38 @@ import './FlavorProfileDisplay.css';
 const FlavorProfileDisplay = ({ flavorProfile, title = "Flavor Profile" }) => {
   if (!flavorProfile) return null;
 
-  // Define which stats to show
+  // Define which stats to show - comprehensive list
   const stats = [
+    // Core attributes (all items)
     { key: 'sweetness', label: 'Sweetness', max: 10 },
     { key: 'acidity', label: 'Acidity', max: 10 },
     { key: 'bitterness', label: 'Bitterness', max: 10 },
     { key: 'richness', label: 'Richness', max: 10 },
     { key: 'spiciness', label: 'Spice', max: 10 },
     { key: 'umami', label: 'Umami', max: 10 },
+    { key: 'saltiness', label: 'Salt', max: 10 },
+    
+    // Drink-specific
     { key: 'tannin', label: 'Tannin', max: 10 },
     { key: 'alcohol', label: 'Alcohol', max: 10 },
     { key: 'carbonation', label: 'Carbonation', max: 10 },
-    { key: 'saltiness', label: 'Salt', max: 10 },
+    { key: 'fruitiness', label: 'Fruitiness', max: 10 },
+    { key: 'oakiness', label: 'Oak/Wood', max: 10 },
+    { key: 'minerality', label: 'Minerality', max: 10 },
+    { key: 'finish', label: 'Finish', max: 10 },
+    { key: 'aromaticIntensity', label: 'Aromatic', max: 10 },
+    
+    // Food-specific
+    { key: 'fattiness', label: 'Fattiness', max: 10 },
+    { key: 'creaminess', label: 'Creaminess', max: 10 },
+    { key: 'herbaceousness', label: 'Herbs', max: 10 },
+    { key: 'charLevel', label: 'Char/Caramel', max: 10 },
+    
+    // Both food and drink
+    { key: 'intensity', label: 'Intensity', max: 10 },
+    { key: 'complexity', label: 'Complexity', max: 10 },
+    { key: 'earthiness', label: 'Earthiness', max: 10 },
+    { key: 'smokiness', label: 'Smokiness', max: 10 },
   ];
 
   // Get the body descriptor

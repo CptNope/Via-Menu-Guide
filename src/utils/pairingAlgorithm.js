@@ -59,18 +59,29 @@ function calculatePairingScore(foodProfile, drinkProfile) {
     umamiPairing: scoreUmamiPairing(foodProfile, drinkProfile),
     sweetnessBalance: scoreSweetnessBalance(foodProfile, drinkProfile),
     flavorHarmony: scoreFlavorHarmony(foodProfile, drinkProfile),
+    // New advanced pairing factors
+    fatTanninBalance: scoreFatTanninBalance(foodProfile, drinkProfile),
+    intensityMatch: scoreIntensityMatch(foodProfile, drinkProfile),
+    oakSmokeHarmony: scoreOakSmokeHarmony(foodProfile, drinkProfile),
+    mineralitySeafood: scoreMineralitySeafood(foodProfile, drinkProfile),
+    complexityBalance: scoreComplexityBalance(foodProfile, drinkProfile),
     total: 0
   };
 
-  // Calculate weighted total (max 100)
+  // Calculate weighted total (max 100) - redistributed weights
   scores.total = Math.round(
-    scores.bodyMatch * 0.20 +           // 20% weight
-    scores.acidityBalance * 0.20 +      // 20% weight
-    scores.richnessBalance * 0.20 +     // 20% weight
-    scores.spiceHandling * 0.15 +       // 15% weight
-    scores.umamiPairing * 0.10 +        // 10% weight
+    scores.bodyMatch * 0.15 +           // 15% weight
+    scores.acidityBalance * 0.15 +      // 15% weight
+    scores.richnessBalance * 0.12 +     // 12% weight
+    scores.spiceHandling * 0.10 +       // 10% weight
+    scores.umamiPairing * 0.08 +        // 8% weight
     scores.sweetnessBalance * 0.05 +    // 5% weight
-    scores.flavorHarmony * 0.10         // 10% weight
+    scores.flavorHarmony * 0.10 +       // 10% weight
+    scores.fatTanninBalance * 0.10 +    // 10% weight (NEW - critical)
+    scores.intensityMatch * 0.08 +      // 8% weight (NEW)
+    scores.oakSmokeHarmony * 0.05 +     // 5% weight (NEW)
+    scores.mineralitySeafood * 0.02     // 2% weight (NEW - bonus)
+    // complexityBalance is informational, not weighted
   );
 
   return scores;
@@ -311,6 +322,89 @@ function generateExplanation(foodItem, drink, scoreBreakdown) {
   }
   
   return reasons.join('. ');
+}
+
+/**
+ * Score fat + tannin balance (fattiness cuts by tannin)
+ */
+function scoreFatTanninBalance(foodProfile, drinkProfile) {
+  const fattiness = foodProfile.fattiness || 0;
+  const tannin = drinkProfile.tannin || 0;
+  
+  if (fattiness === 0) return 50; // Neutral if no fat
+  
+  // High fat needs high tannin to cut through
+  if (fattiness >= 7 && tannin >= 6) return 100;
+  if (fattiness >= 5 && tannin >= 4) return 85;
+  if (fattiness >= 7 && tannin <= 2) return 30; // Fat without tannin = bad
+  
+  return 60;
+}
+
+/**
+ * Score intensity matching (bold with bold, delicate with delicate)
+ */
+function scoreIntensityMatch(foodProfile, drinkProfile) {
+  const foodIntensity = foodProfile.intensity || 5;
+  const drinkIntensity = drinkProfile.intensity || 5;
+  
+  const difference = Math.abs(foodIntensity - drinkIntensity);
+  
+  if (difference === 0) return 100;
+  if (difference === 1) return 90;
+  if (difference === 2) return 75;
+  if (difference === 3) return 60;
+  return 40; // Too mismatched
+}
+
+/**
+ * Score oak + smoke harmony
+ */
+function scoreOakSmokeHarmony(foodProfile, drinkProfile) {
+  const foodSmoke = foodProfile.smokiness || 0;
+  const foodChar = foodProfile.charLevel || 0;
+  const drinkOak = drinkProfile.oakiness || 0;
+  const drinkSmoke = drinkProfile.smokiness || 0;
+  
+  // Smoked/charred food pairs with oaky/smoky drinks
+  if ((foodSmoke + foodChar >= 6) && (drinkOak + drinkSmoke >= 6)) return 100;
+  if ((foodSmoke + foodChar >= 4) && (drinkOak + drinkSmoke >= 4)) return 80;
+  
+  return 50; // Neutral
+}
+
+/**
+ * Score minerality with seafood (bonus points)
+ */
+function scoreMineralitySeafood(foodProfile, drinkProfile) {
+  const minerality = drinkProfile.minerality || 0;
+  const foodNotes = foodProfile.flavorNotes || [];
+  
+  // Check if food is seafood-related
+  const isSeafood = foodNotes.some(note => 
+    ['seafood', 'fish', 'shellfish', 'oyster', 'ocean', 'briny'].includes(note.toLowerCase())
+  );
+  
+  if (isSeafood && minerality >= 7) return 100; // Perfect pairing
+  if (isSeafood && minerality >= 4) return 80;
+  
+  return 50; // Neutral
+}
+
+/**
+ * Score complexity balance
+ */
+function scoreComplexityBalance(foodProfile, drinkProfile) {
+  const foodComplexity = foodProfile.complexity || 5;
+  const drinkComplexity = drinkProfile.complexity || 5;
+  
+  // Simple food can be overwhelmed by complex wine, and vice versa
+  const difference = Math.abs(foodComplexity - drinkComplexity);
+  
+  if (difference === 0) return 100;
+  if (difference === 1) return 85;
+  if (difference === 2) return 70;
+  return 50;
 }
 
 /**

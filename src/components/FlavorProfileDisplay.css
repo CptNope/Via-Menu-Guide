@@ -79,16 +79,36 @@
 }
 
 /* Color coding for different stats */
+/* Core attributes */
 .stat-bar-sweetness { background-color: #ff6b9d; }
 .stat-bar-acidity { background-color: #ffd93d; }
 .stat-bar-bitterness { background-color: #6c757d; }
 .stat-bar-richness { background-color: #8b4513; }
 .stat-bar-spiciness { background-color: #ff4500; }
 .stat-bar-umami { background-color: #9370db; }
+.stat-bar-saltiness { background-color: #95a5a6; }
+
+/* Drink-specific */
 .stat-bar-tannin { background-color: #a0522d; }
 .stat-bar-alcohol { background-color: #dc3545; }
 .stat-bar-carbonation { background-color: #17a2b8; }
-.stat-bar-saltiness { background-color: #6c757d; }
+.stat-bar-fruitiness { background-color: #e74c3c; }
+.stat-bar-oakiness { background-color: #d2691e; }
+.stat-bar-minerality { background-color: #7f8c8d; }
+.stat-bar-finish { background-color: #3498db; }
+.stat-bar-aromaticIntensity { background-color: #9b59b6; }
+
+/* Food-specific */
+.stat-bar-fattiness { background-color: #f39c12; }
+.stat-bar-creaminess { background-color: #f1c40f; }
+.stat-bar-herbaceousness { background-color: #27ae60; }
+.stat-bar-charLevel { background-color: #34495e; }
+
+/* Both food and drink */
+.stat-bar-intensity { background-color: #e67e22; }
+.stat-bar-complexity { background-color: #8e44ad; }
+.stat-bar-earthiness { background-color: #795548; }
+.stat-bar-smokiness { background-color: #546e7a; }
 
 .flavor-notes {
   margin-top: 12px;

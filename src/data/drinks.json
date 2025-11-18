@@ -6259,7 +6259,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["herbal-liqueur"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["vanilla", "anise", "herbs", "sweet", "aromatic"]
+    }
   },
   {
     "id": "strega",
@@ -6279,7 +6293,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["herbal-liqueur"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["mint", "fennel", "saffron", "herbal", "mysterious"]
+    }
   },
   {
     "id": "fernet-branca",
@@ -6299,7 +6327,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["fernet"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 9,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["mint", "herbs", "saffron", "medicinal", "intense", "bitter"]
+    }
   },
   {
     "id": "see-the-elephant-amaro",
@@ -6318,7 +6360,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["herbs", "citrus", "spice", "bittersweet", "craft", "complex"]
+    }
   },
   {
     "id": "unico-amaro-siciliano",
@@ -6338,7 +6394,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 1,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 7,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["herbs", "citrus", "bitter-orange", "mediterranean", "aromatic"]
+    }
   },
   {
     "id": "faccia-brutto-amaro",
@@ -6358,7 +6428,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 7,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["bitter-herbs", "citrus", "roots", "spice", "bold", "artisanal"]
+    }
   },
   {
     "id": "foro-originale-amaro",
@@ -6378,7 +6462,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["herbs", "roots", "citrus", "bittersweet", "balanced"]
+    }
   },
   {
     "id": "nonino-quintessentia-amaro",
@@ -6398,7 +6496,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": ["herbs", "grappa", "honey", "citrus", "refined", "elegant"]
+    }
   },
   {
     "id": "perrine-key-lime-amaro",
@@ -6417,7 +6529,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["key-lime", "herbs", "citrus", "bright", "refreshing", "tropical"]
+    }
   },
   {
     "id": "italian-coffee-sambuca",
@@ -6437,7 +6563,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["coffee", "sambuca"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 1,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["anise", "licorice", "coffee", "sweet", "aromatic"]
+    }
   },
   {
     "id": "irish-coffee-jamesons",
@@ -6456,7 +6596,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["coffee", "irish-whiskey", "cream", "sugar"],
-    "allergens": ["dairy"]
+    "allergens": ["dairy"],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["whiskey", "coffee", "cream", "warm", "comforting"]
+    }
   },
   {
     "id": "nutty-irish-coffee",
@@ -6475,7 +6629,21 @@
     "nutFree": false,
     "kids": false,
     "ingredients": ["coffee", "frangelico", "baileys", "cream"],
-    "allergens": ["dairy", "nuts"]
+    "allergens": ["dairy", "nuts"],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["hazelnut", "cream", "coffee", "sweet", "indulgent", "nutty"]
+    }
   },
   {
     "id": "french-coffee-orange-liqueur",

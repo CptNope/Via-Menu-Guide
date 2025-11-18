@@ -8,6 +8,7 @@ import appetizersData from "./data/appetizers.json";
 import dinnerData from "./data/dinner.json";
 import lunchData from "./data/lunch.json";
 import dessertData from "./data/dessert.json";
+import gelatoData from "./data/gelato.json";
 import kidsData from "./data/kids.json";
 import drinksData from "./data/drinks.json";
 import winesData from "./data/wines.json";
@@ -24,6 +25,9 @@ function App() {
   // Combine appetizers with dinner and lunch menus
   const fullDinnerData = [...appetizersData, ...dinnerData];
   const fullLunchData = [...appetizersData, ...lunchData];
+  
+  // Combine desserts with individual gelato/sorbetto items
+  const fullDessertData = [...dessertData, ...gelatoData];
 
   return (
     <div className="app">
@@ -97,7 +101,7 @@ function App() {
             element={
               <MenuPage
                 title="Dessert"
-                data={dessertData}
+                data={fullDessertData}
                 showKidsFilter={false}
               />
             }
@@ -120,7 +124,7 @@ function App() {
           />
           <Route
             path="/pairings"
-            element={<PairingsPage wines={winesData} menus={{ dinnerData: fullDinnerData, lunchData: fullLunchData, dessertData, kidsData }} />}
+            element={<PairingsPage wines={winesData} menus={{ dinnerData: fullDinnerData, lunchData: fullLunchData, dessertData: fullDessertData, kidsData }} />}
           />
           <Route
             path="/share"
@@ -132,7 +136,7 @@ function App() {
               isAdmin ? (
                 <AdminPanel
                   onLogout={() => setIsAdmin(false)}
-                  menus={{ dinnerData: fullDinnerData, lunchData: fullLunchData, dessertData, kidsData, drinksData }}
+                  menus={{ dinnerData: fullDinnerData, lunchData: fullLunchData, dessertData: fullDessertData, kidsData, drinksData }}
                 />
               ) : (
                 <AdminLogin onLogin={() => setIsAdmin(true)} />

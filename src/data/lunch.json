@@ -134,7 +134,7 @@
   {
     "id": "grilled-caesar-salad-lunch",
     "name": "Grilled Caesar Salad",
-    "description": "Tuscan bread croutons.",
+    "description": "Tuscan bread croutons. Can be made GF without croutons.",
     "price": 11.99,
     "category": "Salads",
     "vegetarian": false,
@@ -225,7 +225,7 @@
   {
     "id": "braised-short-rib-ragu-lunch",
     "name": "Braised Short Rib Ragu",
-    "description": "On cheese ravioli.",
+    "description": "On cheese ravioli. Can substitute GF pasta.",
     "price": 23.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -238,7 +238,7 @@
   {
     "id": "chicken-marsala-lunch",
     "name": "Chicken Marsala",
-    "description": "Sautéed chicken breast, prosciutto, mushrooms, and peas with orecchiette pasta and feta cheese.",
+    "description": "Sautéed chicken breast, prosciutto, mushrooms, and peas with orecchiette pasta and feta cheese. Can substitute GF pasta.",
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -264,7 +264,7 @@
   {
     "id": "shrimp-scampi-lunch",
     "name": "Shrimp Scampi",
-    "description": "Pan seared shrimp tossed with grape tomatoes, parsley, and a lemon white wine butter sauce served over spaghetti.",
+    "description": "Pan seared shrimp tossed with grape tomatoes, parsley, and a lemon white wine butter sauce served over spaghetti. Can substitute GF pasta.",
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
@@ -290,7 +290,7 @@
   {
     "id": "pappardelle-bolognese-lunch",
     "name": "Pappardelle Bolognese",
-    "description": "A rich meat sauce of beef, pork, sausage, a touch of tomato paste and cream.",
+    "description": "A rich meat sauce of beef, pork, sausage, a touch of tomato paste and cream. Can substitute GF pasta.",
     "price": 17.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,

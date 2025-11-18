@@ -206,10 +206,10 @@
   {
     "id": "cannoli",
     "name": "Cannoli Duo",
-    "description": "Traditional vanilla cannoli garnished with chocolate chips and powdered sugar.",
+    "description": "Traditional vanilla cannoli garnished with chocolate chips and powdered sugar. Can be made GF with GF shells.",
     "price": 7.99,
     "category": "Desserts",
-    "serverNotes": "Two Italian cannoli with sweet ricotta filling, chocolate chips, pistachios. Classic Sicilian dessert. Pairs with dessert wines (Marsala, Vin Santo), espresso, or sweet liqueurs. Traditional Italian favorite.",
+    "serverNotes": "Two Italian cannoli with sweet ricotta filling, chocolate chips, pistachios. GF shells available. Classic Sicilian dessert. Pairs with dessert wines (Marsala, Vin Santo), espresso, or sweet liqueurs. Traditional Italian favorite.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": false,

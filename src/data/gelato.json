@@ -21,6 +21,11 @@
       "richness": 7,
       "umami": 0,
       "bitterness": 0,
+      "creaminess": 8,
+      "fattiness": 6,
+      "intensity": 5,
+      "complexity": 4,
+      "aromaticIntensity": 7,
       "flavorNotes": ["vanilla", "creamy", "classic", "smooth"]
     }
   },
@@ -46,6 +51,10 @@
       "richness": 8,
       "umami": 1,
       "bitterness": 4,
+      "creaminess": 7,
+      "fattiness": 6,
+      "intensity": 8,
+      "complexity": 5,
       "flavorNotes": ["chocolate", "rich", "cocoa", "intense"]
     }
   },
@@ -71,6 +80,11 @@
       "richness": 6,
       "umami": 0,
       "bitterness": 0,
+      "creaminess": 7,
+      "fattiness": 5,
+      "intensity": 6,
+      "complexity": 4,
+      "aromaticIntensity": 6,
       "flavorNotes": ["strawberry", "fruity", "bright", "refreshing"]
     }
   },
@@ -96,6 +110,11 @@
       "richness": 6,
       "umami": 0,
       "bitterness": 0,
+      "creaminess": 7,
+      "fattiness": 5,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 8,
       "flavorNotes": ["peach", "sweet", "aromatic", "summery"]
     }
   },
@@ -121,6 +140,11 @@
       "richness": 7,
       "umami": 1,
       "bitterness": 1,
+      "creaminess": 8,
+      "fattiness": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 6,
       "flavorNotes": ["pistachio", "nutty", "creamy", "elegant"]
     }
   },
@@ -146,6 +170,11 @@
       "richness": 6,
       "umami": 0,
       "bitterness": 1,
+      "creaminess": 6,
+      "fattiness": 5,
+      "intensity": 7,
+      "complexity": 5,
+      "aromaticIntensity": 5,
       "flavorNotes": ["blackberry", "fruity", "bold", "vibrant"]
     }
   },
@@ -171,6 +200,11 @@
       "richness": 7,
       "umami": 0,
       "bitterness": 0,
+      "creaminess": 8,
+      "fattiness": 7,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 7,
       "flavorNotes": ["coconut", "tropical", "creamy", "exotic"]
     }
   },
@@ -196,6 +230,11 @@
       "richness": 8,
       "umami": 1,
       "bitterness": 1,
+      "creaminess": 8,
+      "fattiness": 7,
+      "charLevel": 7,
+      "intensity": 8,
+      "complexity": 7,
       "flavorNotes": ["caramel", "salty", "sweet", "indulgent"]
     }
   },
@@ -221,6 +260,10 @@
       "richness": 9,
       "umami": 1,
       "bitterness": 3,
+      "creaminess": 7,
+      "fattiness": 8,
+      "intensity": 9,
+      "complexity": 6,
       "flavorNotes": ["peanut-butter", "chocolate", "rich", "decadent"]
     }
   },
@@ -246,6 +289,11 @@
       "richness": 2,
       "umami": 0,
       "bitterness": 2,
+      "creaminess": 0,
+      "fattiness": 0,
+      "intensity": 7,
+      "complexity": 4,
+      "aromaticIntensity": 8,
       "flavorNotes": ["blood-orange", "citrus", "bright", "refreshing"]
     }
   },
@@ -271,6 +319,12 @@
       "richness": 2,
       "umami": 0,
       "bitterness": 1,
+      "creaminess": 0,
+      "fattiness": 0,
+      "intensity": 8,
+      "complexity": 5,
+      "aromaticIntensity": 9,
+      "alcohol": 2,
       "flavorNotes": ["lemon", "limoncello", "tangy", "refreshing"]
     }
   }

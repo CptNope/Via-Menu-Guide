@@ -9,6 +9,7 @@ import dinnerData from "./data/dinner.json";
 import lunchData from "./data/lunch.json";
 import dessertData from "./data/dessert.json";
 import gelatoData from "./data/gelato.json";
+import pastaData from "./data/pasta.json";
 import kidsData from "./data/kids.json";
 import drinksData from "./data/drinks.json";
 import winesData from "./data/wines.json";
@@ -23,8 +24,8 @@ function App() {
   const [isAdmin, setIsAdmin] = useState(false);
 
   // Combine appetizers with dinner and lunch menus
-  const fullDinnerData = [...appetizersData, ...dinnerData];
-  const fullLunchData = [...appetizersData, ...lunchData];
+  const fullDinnerData = [...appetizersData, ...dinnerData, ...pastaData];
+  const fullLunchData = [...appetizersData, ...lunchData, ...pastaData];
   
   // Combine desserts with individual gelato/sorbetto items
   const fullDessertData = [...dessertData, ...gelatoData];

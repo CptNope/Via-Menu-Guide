@@ -107,21 +107,5 @@
     "vegan": false,
     "ingredients": ["flour", "eggs", "ricotta", "parmesan", "semolina"],
     "allergens": ["gluten", "eggs", "dairy"]
-  },
-  {
-    "id": "pasta-cheese-tortellini",
-    "name": "Cheese Tortellini",
-    "pronunciation": "tor-tell-EE-nee",
-    "description": "Ring-shaped fresh pasta filled with cheese.",
-    "price": 0,
-    "category": "Pasta",
-    "pastaType": "fresh",
-    "serverNotes": "FRESH cheese-filled tortellini. Contains EGGS, gluten, and DAIRY. Ring-shaped, tender, flavorful. Great for kids, perfect in broth or with cream sauce. Italian comfort food.",
-    "vegetarian": true,
-    "glutenFree": false,
-    "nutFree": true,
-    "vegan": false,
-    "ingredients": ["flour", "eggs", "ricotta", "parmesan", "semolina"],
-    "allergens": ["gluten", "eggs", "dairy"]
   }
 ]

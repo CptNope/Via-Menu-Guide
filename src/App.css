@@ -265,6 +265,26 @@
   color: white;
 }
 
+.pairing-toggle-btn.after-dinner-btn {
+  background: #f3f0eb;
+  border-color: #6b5644;
+  margin-top: 0.25rem;
+}
+
+.pairing-toggle-btn.after-dinner-btn:hover {
+  background: #6b5644;
+  color: white;
+}
+
+.wine-category {
+  font-size: 0.75rem;
+  color: #8b7355;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
 .pairing-panel {
   margin-top: 0.5rem;
   padding: 0.75rem;

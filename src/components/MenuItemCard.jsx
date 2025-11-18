@@ -10,6 +10,7 @@ import desserts from "../data/dessert.json";
 
 function MenuItemCard({ item }) {
   const [showPairings, setShowPairings] = useState(false);
+  const [showAfterDinnerPairings, setShowAfterDinnerPairings] = useState(false);
   const tags = [];
   if (item.vegetarian) tags.push("Vegetarian");
   if (item.glutenFree) tags.push("Gluten-free");
@@ -49,10 +50,23 @@ function MenuItemCard({ item }) {
     item.category === 'Cognac'
   );
 
+  // Detect if this is a dessert item
+  const isDessert = item.category === 'Desserts' || item.category === 'Gelato' || item.category === 'Sorbetto';
+  
+  // Filter after-dinner drinks
+  const afterDinnerDrinks = drinks.filter(drink => 
+    drink.category === 'Port' ||
+    drink.category === 'Amaro & Digestivo' ||
+    drink.category === 'Coffee Cocktails' ||
+    drink.category === 'Grappa' ||
+    drink.category === 'Cognac'
+  );
+
   // Get dynamic pairings based on item type
   const allFoodItems = [...appetizers, ...dinner, ...desserts];
   const winePairings = isDrinkWithFoodPairing && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
   const foodPairings = !isDrinkWithFoodPairing && item.flavorProfile ? getFoodPairingRecommendations(item, drinks) : null;
+  const afterDinnerPairings = isDessert && item.flavorProfile ? getFoodPairingRecommendations(item, afterDinnerDrinks) : null;
 
   return (
     <article className="menu-item-card">
@@ -333,6 +347,68 @@ function MenuItemCard({ item }) {
                       </div>
                     </div>
                   ))}
+                </div>
+              )}
+            </div>
+          )}
+        </>
+      )}
+
+      {/* After-Dinner Drink Pairings for Desserts */}
+      {afterDinnerPairings && (
+        <>
+          <button 
+            className="pairing-toggle-btn after-dinner-btn"
+            onClick={() => setShowAfterDinnerPairings(!showAfterDinnerPairings)}
+          >
+            ☕ {showAfterDinnerPairings ? 'Hide' : 'View'} After-Dinner Drink Pairings
+          </button>
+
+          {showAfterDinnerPairings && afterDinnerPairings?.recommendations && (
+            <div className="pairing-panel">
+              {/* By the Glass - Best after-dinner drink */}
+              {afterDinnerPairings.recommendations.byTheGlass && (
+                <div className="pairing-section">
+                  <h4>☕ Top After-Dinner Drink</h4>
+                  
+                  <div className="pairing-item-detailed">
+                    <div className="wine-info">
+                      <div className="wine-header">
+                        <span className="wine-name">
+                          {afterDinnerPairings.recommendations.byTheGlass.drinkName}
+                          {afterDinnerPairings.recommendations.byTheGlass.drinkPronunciation && (
+                            <span className="pronunciation"> ({afterDinnerPairings.recommendations.byTheGlass.drinkPronunciation})</span>
+                          )}
+                        </span>
+                        <span className="wine-price">${afterDinnerPairings.recommendations.byTheGlass.drinkPrice}</span>
+                      </div>
+                      <div className="wine-category">{afterDinnerPairings.recommendations.byTheGlass.drinkCategory}</div>
+                      {afterDinnerPairings.recommendations.byTheGlass.drinkDescription && (
+                        <div className="wine-description">{afterDinnerPairings.recommendations.byTheGlass.drinkDescription}</div>
+                      )}
+                      <div className="pairing-explanation">{afterDinnerPairings.recommendations.byTheGlass.explanation}</div>
+                    </div>
+                    <span className={`match-badge ${afterDinnerPairings.recommendations.byTheGlass.compatibility.toLowerCase().replace(' ', '-')}`}>
+                      {afterDinnerPairings.recommendations.byTheGlass.compatibility}
+                    </span>
+                  </div>
+
+                  {/* Alternative after-dinner drinks */}
+                  {afterDinnerPairings.recommendations.alternativeGlasses?.length > 0 && (
+                    <div className="alternatives">
+                      <label>Also pairs well with:</label>
+                      {afterDinnerPairings.recommendations.alternativeGlasses.slice(0, 4).map((alt, idx) => (
+                        <div key={idx} className="pairing-item-compact">
+                          <span className="wine-name">{alt.drinkName}</span>
+                          <span className="wine-category">{alt.drinkCategory}</span>
+                          <span className="wine-price">${alt.drinkPrice}</span>
+                          <span className={`match-badge ${alt.compatibility.toLowerCase().replace(' ', '-')}`}>
+                            {alt.compatibility}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               )}
             </div>

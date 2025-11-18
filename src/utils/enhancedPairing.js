@@ -20,11 +20,12 @@ export function getFoodPairingRecommendations(foodItem, allDrinks) {
   }
 
   // Separate wines by the glass and bottles
-  // Wines by the glass are typically lower priced (under $20) and don't have "Bottles" in category
+  // Wines by the glass are typically lower priced (under $20) and don't have "Bottles" or "Half" in category
   const winesByGlass = allDrinks.filter(drink => 
     drink.flavorProfile && 
     drink.price < 20 &&
     !drink.category?.includes('Bottles') &&
+    !drink.category?.includes('Half') &&
     (drink.category?.includes('Red') || 
      drink.category?.includes('White') || 
      drink.category?.includes('Rosé') ||
@@ -32,10 +33,12 @@ export function getFoodPairingRecommendations(foodItem, allDrinks) {
      drink.category?.includes('Sparkling'))
   );
   
-  // Bottles are marked with "Bottles" in category or have higher prices
+  // Bottles are marked with "Bottles" or "Half Bottle" in category or have higher prices
   const bottles = allDrinks.filter(drink => 
     drink.flavorProfile &&
-    (drink.category?.includes('Bottles') || drink.price >= 30)
+    (drink.category?.includes('Bottles') || 
+     drink.category?.includes('Half Bottle') || 
+     drink.price >= 30)
   );
 
   // Find best wine by the glass

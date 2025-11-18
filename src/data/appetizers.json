@@ -149,6 +149,11 @@
       "richness": 5,
       "umami": 5,
       "bitterness": 0,
+      "fattiness": 6,
+      "creaminess": 0,
+      "charLevel": 5,
+      "intensity": 7,
+      "complexity": 6,
       "flavorNotes": ["crispy", "bright", "spicy", "fried"]
     }
   },
@@ -174,7 +179,13 @@
       "richness": 8,
       "umami": 9,
       "bitterness": 1,
-      "flavorNotes": ["bold", "sophisticated", "meaty", "creamy"]
+      "fattiness": 7,
+      "creaminess": 6,
+      "charLevel": 6,
+      "intensity": 9,
+      "complexity": 9,
+      "smokiness": 2,
+      "flavorNotes": ["bold", "sophisticated", "meaty", "creamy", "seafood"]
     }
   },
   {
@@ -199,6 +210,11 @@
       "richness": 9,
       "umami": 7,
       "bitterness": 0,
+      "fattiness": 9,
+      "creaminess": 2,
+      "charLevel": 7,
+      "intensity": 9,
+      "complexity": 8,
       "flavorNotes": ["spicy", "sweet", "rich", "complex"]
     }
   },
@@ -224,6 +240,11 @@
       "richness": 6,
       "umami": 6,
       "bitterness": 0,
+      "fattiness": 6,
+      "creaminess": 2,
+      "charLevel": 5,
+      "intensity": 7,
+      "complexity": 7,
       "flavorNotes": ["sweet-sour", "savory", "comfort", "fruity"]
     }
   },
@@ -249,6 +270,11 @@
       "richness": 7,
       "umami": 8,
       "bitterness": 0,
+      "fattiness": 7,
+      "creaminess": 7,
+      "charLevel": 6,
+      "intensity": 8,
+      "complexity": 7,
       "flavorNotes": ["savory", "crispy", "creamy", "meaty"]
     }
   },
@@ -274,6 +300,12 @@
       "richness": 7,
       "umami": 7,
       "bitterness": 0,
+      "fattiness": 7,
+      "creaminess": 8,
+      "charLevel": 5,
+      "intensity": 7,
+      "complexity": 6,
+      "smokiness": 2,
       "flavorNotes": ["savory", "creamy", "salty", "elegant"]
     }
   },
@@ -299,6 +331,11 @@
       "richness": 7,
       "umami": 8,
       "bitterness": 0,
+      "fattiness": 6,
+      "creaminess": 7,
+      "intensity": 8,
+      "complexity": 8,
+      "herbaceousness": 6,
       "flavorNotes": ["luxurious", "fresh", "seafood", "elegant"]
     }
   },
@@ -324,7 +361,11 @@
       "richness": 4,
       "umami": 7,
       "bitterness": 0,
-      "flavorNotes": ["fresh", "bright", "spicy", "sophisticated"]
+      "fattiness": 8,
+      "creaminess": 0,
+      "intensity": 8,
+      "complexity": 7,
+      "flavorNotes": ["fresh", "bright", "spicy", "sophisticated", "seafood"]
     }
   },
   {
@@ -349,6 +390,10 @@
       "richness": 6,
       "umami": 2,
       "bitterness": 0,
+      "creaminess": 9,
+      "fattiness": 5,
+      "intensity": 5,
+      "complexity": 4,
       "flavorNotes": ["creamy", "sweet", "simple", "elegant"]
     }
   },
@@ -374,6 +419,11 @@
       "richness": 7,
       "umami": 5,
       "bitterness": 0,
+      "creaminess": 7,
+      "fattiness": 7,
+      "charLevel": 6,
+      "intensity": 7,
+      "complexity": 5,
       "flavorNotes": ["crispy", "cheesy", "comfort", "classic"]
     }
   },
@@ -399,6 +449,12 @@
       "richness": 6,
       "umami": 7,
       "bitterness": 2,
+      "fattiness": 6,
+      "creaminess": 2,
+      "charLevel": 5,
+      "smokiness": 2,
+      "intensity": 7,
+      "complexity": 6,
       "flavorNotes": ["savory", "crispy", "salty", "addictive"]
     }
   },
@@ -424,6 +480,12 @@
       "richness": 7,
       "umami": 8,
       "bitterness": 0,
+      "fattiness": 6,
+      "creaminess": 3,
+      "earthiness": 9,
+      "charLevel": 4,
+      "intensity": 8,
+      "complexity": 7,
       "flavorNotes": ["earthy", "truffle", "rich", "luxurious"]
     }
   },
@@ -449,6 +511,11 @@
       "richness": 7,
       "umami": 5,
       "bitterness": 0,
+      "creaminess": 6,
+      "fattiness": 7,
+      "charLevel": 3,
+      "intensity": 7,
+      "complexity": 5,
       "flavorNotes": ["garlicky", "cheesy", "comfort", "classic"]
     }
   },
@@ -473,8 +540,13 @@
       "saltiness": 8,
       "richness": 8,
       "umami": 9,
-      "bitterness": 1,
-      "flavorNotes": ["complex", "savory", "salty", "variety"]
+      "bitterness": 0,
+      "creaminess": 7,
+      "fattiness": 8,
+      "smokiness": 4,
+      "intensity": 8,
+      "complexity": 9,
+      "flavorNotes": ["savory", "rich", "varied", "sophisticated"]
     }
   }
 ]

@@ -5,7 +5,7 @@
     "description": "Italy, 5.1% ABV",
     "price": 9,
     "category": "Draught",
-    "serverNotes": "Crisp, refreshing Italian lager with clean, light malt flavor. Easy-drinking, low bitterness. Perfect aperitif or with pizza, pasta, lighter dishes. Italy's #1 beer - authentic Italian dining experience.",
+    "serverNotes": "Crisp, refreshing Italian lager from Birra Peroni, founded 1846 in Rome. 5.1% ABV, 24 IBU. Clean, light Pilsner-style malt flavor with delicate hop character. Easy-drinking with low bitterness and subtle corn sweetness. Brewed with Italian maize for crisp finish. Italy's #1 beer and most iconic brand—served in every trattoria from Milan to Sicily. Perfect aperitif before meals (Italian beer culture) or with pizza margherita, pasta aglio e olio, prosciutto, and lighter Italian dishes. Serve ice cold (38-40°F) in a chilled glass. Authentic Italian dining experience—this is what Italians drink. The blue label is recognized worldwide. Pairs wonderfully with mozzarella, caprese salad, seafood pasta, and wood-fired pizza. Gateway to Italian beer culture.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -18,7 +18,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 7,
+      "flavorNotes": ["clean", "crisp", "light-malt", "corn", "refreshing"]
+    }
   },
   {
     "id": "jacks-abby-copper-legend",
@@ -26,7 +40,7 @@
     "description": "Framingham, MA, 5.7% ABV",
     "price": 10,
     "category": "Draught",
-    "serverNotes": "Traditional Oktoberfest-style lager with rich malt character, caramel, and toasted bread notes. Smooth, medium-bodied with subtle hop balance. Local Massachusetts craft brewery. Perfect with sausages, pork, hearty German-inspired dishes. Seasonal fall favorite.",
+    "serverNotes": "Traditional Oktoberfest-style Märzen lager from Jack's Abby Craft Lagers in Framingham, MA (founded 2011). 5.7% ABV, 25 IBU. Rich toasted malt character with caramel, bread crust, and biscuit notes. Smooth, medium-bodied with subtle noble hop balance. Authentic German-style brewing using lager yeast and traditional decoction mashing. Brewed in spring, traditionally lagered until fall—Jack's Abby honors this tradition. Perfect with bratwurst, pork schnitzel, roasted chicken, pretzels, and hearty German-inspired dishes. Serve cold (45-50°F) in a stein or Märzen glass. Seasonal fall favorite that captures Munich's Oktoberfest spirit. Local Massachusetts craft excellence. Pairs wonderfully with apple dishes, roasted root vegetables, and caramelized onions. This is autumn in a glass.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -38,7 +52,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 1,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 4,
+      "carbonation": 5,
+      "flavorNotes": ["malt", "caramel", "toasted-bread", "biscuit", "smooth"]
+    }
   },
   {
     "id": "pulp-daddy-ipa-draught",
@@ -46,7 +74,7 @@
     "description": "Worcester, MA, 13 oz., 8% ABV",
     "price": 10,
     "category": "Draught",
-    "serverNotes": "Bold Imperial IPA with intense hop character, citrus, tropical fruit. Higher ABV (8%), full-bodied, bitter finish. Local Worcester brewery. For IPA lovers or with spicy foods, burgers, strong flavors. 13 oz pour.",
+    "serverNotes": "Bold Imperial IPA (Double IPA) from Greater Good Brewing in Worcester, MA. 8% ABV, 80+ IBU. Intense hop character with layers of citrus, mango, pineapple, and tropical fruit. Higher alcohol creates warmth and full body. Generously dry-hopped for maximum aroma. Bitter but balanced finish. Local Worcester brewery supporting the community. For serious IPA lovers ready for hop intensity or pair with spicy buffalo wings, jalapeño burgers, Korean BBQ, and strong flavors that can stand up to the hops. 13 oz pour (not a full pint due to higher ABV). Serve cold (40-45°F). The name 'Pulp Daddy' references the hazy, juicy character. Pairs excellently with aged cheddar, spicy Thai, and IPA cheddar soup. This is hop heaven.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -58,7 +86,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 9,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 5,
+      "flavorNotes": ["citrus", "tropical-fruit", "mango", "pine", "intense-hops"]
+    }
   },
   {
     "id": "lunch-car-ipa-draught",
@@ -66,7 +108,7 @@
     "description": "West Coast IPA, Worcester, MA, 6.5% ABV",
     "price": 10,
     "category": "Draught",
-    "serverNotes": "Classic West Coast IPA with pine, grapefruit, and citrus hops. Crisp, clean, bitter finish. Local Worcester craft beer. Pairs well with burgers, fried foods, pizza. Hoppy but balanced - great for IPA fans.",
+    "serverNotes": "Classic West Coast IPA from Double Down Brewing in Worcester, MA. 6.5% ABV, 65 IBU. Traditional West Coast style with assertive pine resin, ruby red grapefruit, and citrus zest hops. Crisp, clean, dry finish—not hazy like New England IPAs. Lighter body lets hop character shine. Celebrates the original IPA style from California with aggressive bitterness and clear appearance. Local Worcester craft beer supporting the community. Pairs excellently with bacon cheeseburgers, crispy fried chicken, pepperoni pizza, and buffalo wings. The bitterness cuts through fat beautifully. Serve cold (40-45°F) in an IPA glass. Hoppy but balanced—great for traditional IPA fans who want clarity and bite. The name references Worcester's lunch car diner culture. West Coast pride in Central Mass.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -78,7 +120,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 8,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 6,
+      "flavorNotes": ["pine", "grapefruit", "citrus", "resinous", "clean"]
+    }
   },
   {
     "id": "allagash-white-bottle",
@@ -86,7 +142,7 @@
     "description": "Portland ME, 16 oz., 5.2% ABV",
     "price": 8,
     "category": "Bottles & Cans",
-    "serverNotes": "Belgian-style wheat beer with orange peel and coriander. Cloudy, light, citrusy, refreshing. Award-winning Maine brewery. Perfect with seafood, salads, lighter fare. Great summer beer, appeals to wide range.",
+    "serverNotes": "Belgian-style witbier (white beer) from Allagash Brewing in Portland, ME (founded 1995). 5.2% ABV, 20 IBU. Brewed with wheat, oats, orange peel, and coriander spice. Cloudy, unfiltered appearance with light, refreshing body. Citrusy with subtle spice notes and creamy wheat texture. Award-winning—one of America's finest Belgian-style beers. Perfect with steamed mussels, lobster rolls, Caesar salad, goat cheese, and lighter fare. Serve cold (40-45°F) in a tulip glass. Great summer beer that appeals to wine drinkers and beer lovers alike. Pairs wonderfully with lemon dishes, fresh herbs, and grilled fish. This is Maine brewing excellence. Belgian tradition meets New England craft.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -99,7 +155,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 7,
+      "flavorNotes": ["citrus", "coriander", "wheat", "orange-peel", "refreshing"]
+    }
   },
   {
     "id": "carlson-oak-hill-cider",
@@ -123,7 +193,7 @@
     "description": "Westminster, MA, 12 oz., 4.5% ABV",
     "price": 8,
     "category": "Bottles & Cans",
-    "serverNotes": "Blueberry ale from local Westminster brewery with subtle blueberry aroma and flavor over a light, crisp malt base. Refreshing and easy-drinking; great for guests who want a fruit-forward beer without heavy bitterness.",
+    "serverNotes": "Blueberry ale from Wachusett Brewing in Westminster, MA (founded 1994). 4.5% ABV, 18 IBU. Subtle blueberry aroma and flavor over a light, crisp golden ale base. Made with real blueberries—not extract or artificial flavoring. Refreshing and easy-drinking with gentle fruit character that doesn't overwhelm. Local Massachusetts brewery named after Mount Wachusett. Great for guests who want a fruit-forward beer without heavy bitterness or hops. Pairs excellently with summer salads, grilled chicken, lemon desserts, and blueberry pancakes. Serve cold (38-42°F). Appeals to cider drinkers and those new to craft beer. This is approachable New England fruit beer done right. Blueberry harvest in every sip.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -136,7 +206,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "flavorNotes": ["blueberry", "fruit", "crisp", "light-malt", "easy-drinking"]
+    }
   },
   {
     "id": "behoppy-wormtown-ipa",
@@ -144,7 +228,7 @@
     "description": "Worcester, MA, 16 oz. 6.5% ABV",
     "price": 8,
     "category": "Bottles & Cans",
-    "serverNotes": "Hoppy IPA from local Worcester brewery with citrus, tropical fruit, pine. Bitter, aromatic finish. Community favorite. Great with burgers, wings, fried foods. For hop lovers who support local craft beer.",
+    "serverNotes": "Hoppy American IPA from Wormtown Brewery in Worcester, MA (founded 2010). 6.5% ABV, 70 IBU. Citrus-forward with grapefruit, tropical fruit, and pine resin hops. Bitter, aromatic finish with golden color. Community favorite—Wormtown is deeply rooted in Worcester culture. The playful name 'Be Hoppy' reflects Worcester's upbeat attitude. Great with bacon burgers, buffalo wings, fried pickles, and bold flavors. Serve cold (40-45°F). For hop lovers who support local craft beer and Worcester pride. Pairs excellently with spicy foods, aged cheddar, and IPA braised dishes. Local brewery, local hops, local love. Worcester's hoppy handshake.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -156,7 +240,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 8,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 6,
+      "flavorNotes": ["citrus", "tropical-fruit", "pine", "grapefruit", "hoppy"]
+    }
   },
   {
     "id": "surfside-iced-tea-vodka",
@@ -182,7 +280,7 @@
     "description": "Burlington, VT, 16 oz., 5% ABV",
     "price": 8,
     "category": "Bottles & Cans",
-    "serverNotes": "Smooth, unfiltered amber ale from Vermont. Malty, slightly sweet with subtle hop balance. Easy-drinking, approachable. Vermont's most popular craft beer. Pairs with everything - burgers, pizza, chicken. Crowd-pleaser.",
+    "serverNotes": "Smooth, unfiltered amber ale from Switchback Brewing in Burlington, VT (founded 2002). 5% ABV, 22 IBU. Malty, slightly sweet with toffee and caramel notes. Subtle hop balance with smooth finish. Unfiltered for fuller body and flavor. Easy-drinking and approachable—Vermont's most popular craft beer for good reason. The flagship that built Switchback's reputation. Pairs with everything: burgers, pepperoni pizza, rotisserie chicken, and bar snacks. Serve cold (42-45°F). Crowd-pleaser that converts macro lager drinkers to craft. Pairs excellently with Vermont cheddar, maple-glazed pork, and comfort food. This is what Vermonters drink after skiing. Green Mountain sessionability.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -194,7 +292,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 1,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 5,
+      "flavorNotes": ["malt", "caramel", "toffee", "smooth", "balanced"]
+    }
   },
   {
     "id": "bridlehead-ipa-bottle",
@@ -202,7 +314,7 @@
     "description": "Shelburne, VT, 16 oz., 6.2% ABV",
     "price": 9,
     "category": "Bottles & Cans",
-    "serverNotes": "Bright, citrus-forward IPA from Vermont's Fiddlehead brewery with grapefruit, orange peel, and tropical notes. Clean finish with moderate bitterness. Great with seafood, salads, and grilled chicken. East Coast IPA style - flavorful but balanced.",
+    "serverNotes": "Bright, citrus-forward IPA from Fiddlehead Brewing in Shelburne, VT (founded 2011). 6.2% ABV, 60 IBU. Juicy with ruby red grapefruit, orange peel, and tropical mango notes. Clean finish with moderate bitterness—not hazy but aromatic. East Coast IPA style that bridges West Coast clarity with New England juiciness. Flavorful but balanced—sessionable hop character. Great with grilled shrimp, Caesar salad, lemon chicken, and citrus vinaigrettes. Serve cold (40-45°F). One of Vermont's most sought-after IPAs. Pairs excellently with goat cheese, Thai basil, and hop-friendly dishes. This is Vermont IPA done right—bright, clean, delicious. Fiddlehead ferns meet hop cones.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -214,7 +326,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 7,
+      "tannin": 0,
+      "alcohol": 4,
+      "carbonation": 6,
+      "flavorNotes": ["grapefruit", "orange", "tropical", "citrus", "clean"]
+    }
   },
   {
     "id": "high-noon-pineapple",
@@ -273,7 +399,7 @@
     "description": "ME, 16 oz., 10.2% ABV",
     "price": 13,
     "category": "Bottles & Cans",
-    "serverNotes": "Belgian Tripel aged in bourbon barrels. Complex with vanilla, oak, caramel, spice. High ABV (10.2%), rich, warming. Award-winning from Allagash. For beer connoisseurs or special occasions. Sipping beer - pairs with dessert, cheese, rich dishes.",
+    "serverNotes": "Belgian Tripel aged in Jim Beam bourbon barrels from Allagash Brewing, Portland, ME. 10.2% ABV, 28 IBU. Complex with vanilla, coconut, oak, caramel, and warm spice from barrel aging. High ABV creates rich, warming character. The Tripel base (Belgian style) meets American bourbon barrels—best of both worlds. Award-winning—multiple medals from GABF and World Beer Cup. For beer connoisseurs and special occasions only. This is a sipping beer like fine whiskey. Serve at cellar temperature (50-55°F) in a snifter. Pairs exquisitely with crème brûlée, aged Gouda, vanilla ice cream, and bourbon barrel-aged anything. Rich enough for dessert pairing. This is Maine barrel-aging mastery. Belgian tradition, American barrels, Portland excellence.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -285,7 +411,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 4,
+      "flavorNotes": ["vanilla", "oak", "bourbon", "caramel", "complex"]
+    }
   },
   {
     "id": "peroni-na-bottle",
@@ -293,7 +433,7 @@
     "description": "12 oz. Bottle",
     "price": 6,
     "category": "Non-Alcoholic Beer",
-    "serverNotes": "Non-alcoholic version of Italy's favorite lager. Crisp, clean, refreshing taste without alcohol. Great for designated drivers, pregnant guests, or anyone avoiding alcohol. Authentic beer flavor. Pairs with all Italian dishes.",
+    "serverNotes": "Non-alcoholic version of Italy's favorite lager from Birra Peroni. 0.0% ABV, 12 IBU. Crisp, clean, refreshing taste that closely mimics the original Peroni. Made using de-alcoholization process that preserves authentic beer flavor. Great for designated drivers, pregnant guests, health-conscious diners, or anyone avoiding alcohol while still wanting the beer experience. Pairs with all Italian dishes: pizza, pasta, antipasti, and seafood. Serve ice cold (38-40°F). The blue label you know, minus the alcohol. Authentic Italian lager flavor without compromise. NA done right by Italian masters.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -305,7 +445,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 7,
+      "flavorNotes": ["clean", "crisp", "malt", "refreshing", "authentic"]
+    }
   },
   {
     "id": "heineken-zero-bottle",
@@ -313,7 +467,7 @@
     "description": "12 oz. Bottle",
     "price": 6,
     "category": "Non-Alcoholic Beer",
-    "serverNotes": "Zero alcohol Heineken with authentic lager taste. Crisp, slightly fruity, balanced. Premium non-alcoholic option. For guests who want beer experience without alcohol. Works with burgers, pizza, casual dining.",
+    "serverNotes": "Zero alcohol Heineken (0.0% ABV) with authentic Dutch lager taste. Crisp, slightly fruity with subtle malt sweetness and balanced hop character. Premium non-alcoholic option using Heineken's proprietary brewing and de-alcoholization process. Tastes remarkably like regular Heineken. For guests who want full beer experience without alcohol: athletes, designated drivers, lunch meetings, health-conscious diners. Works perfectly with burgers, pizza, wings, and casual dining. Serve ice cold (38-40°F) in Heineken's signature green bottle. World's best-selling NA beer for good reason. The green label you trust, zero alcohol.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -325,7 +479,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 7,
+      "flavorNotes": ["crisp", "fruity", "malt", "balanced", "premium"]
+    }
   },
   {
     "id": "sam-adams-just-the-haze",
@@ -333,7 +501,7 @@
     "description": "NEIPA, 12 oz. Can",
     "price": 6,
     "category": "Non-Alcoholic Beer",
-    "serverNotes": "Non-alcoholic New England IPA with hazy appearance, citrus, tropical fruit hops. Full IPA flavor without alcohol. Great for IPA lovers who can't drink alcohol. Impressive craft beer taste. Pairs with hoppy food pairings.",
+    "serverNotes": "Non-alcoholic New England IPA from Sam Adams (Boston Beer Company). 0.5% ABV (trace), 35 IBU. Hazy appearance with citrus and tropical fruit hop character. 'Just The Haze'—all the flavor without the alcohol. Full IPA taste using special brewing process that preserves hop aroma and flavor. Great for IPA lovers who can't or don't want to drink alcohol: recovering individuals, athletes, lunch meetings, pregnancy. Impressive craft beer taste from America's craft beer pioneer. Pairs with IPA-friendly foods: spicy wings, cheddar cheese, burgers. Serve cold (40-45°F). This proves NA beer can be legitimately good. Sam Adams bringing craft to non-alcoholic.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -345,7 +513,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 6,
+      "flavorNotes": ["citrus", "tropical", "hazy", "hoppy", "craft"]
+    }
   },
   {
     "id": "athletic-run-wild-ipa",
@@ -353,7 +535,7 @@
     "description": "12 oz. Can",
     "price": 7,
     "category": "Non-Alcoholic Beer",
-    "serverNotes": "Award-winning non-alcoholic IPA from dedicated NA brewery. Bold hop character, pine, citrus, tropical notes. Full-bodied, authentic IPA taste. Perfect for athletes, health-conscious, or anyone avoiding alcohol. Best-in-class NA beer.",
+    "serverNotes": "Award-winning non-alcoholic IPA from Athletic Brewing, America's premier dedicated NA brewery. Less than 0.5% ABV, 45 IBU. Bold hop character with pine, citrus, and tropical fruit notes. Full-bodied, authentic IPA taste that rivals alcoholic versions. Athletic Brewing ONLY makes non-alcoholic beer—they've perfected the craft. Perfect for athletes (hydration without alcohol), health-conscious individuals, recovery communities, or anyone avoiding alcohol. Best-in-class NA beer with multiple awards. Pairs with hoppy pairings: wings, burgers, pizza, aged cheddar. Serve cold (40-45°F). This is what NA beer should taste like. Run wild without the buzz.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
@@ -365,7 +547,21 @@
     ],
     "allergens": [
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 6,
+      "flavorNotes": ["pine", "citrus", "tropical", "bold-hops", "award-winning"]
+    }
   },
   {
     "id": "ceretto-moscato-half",

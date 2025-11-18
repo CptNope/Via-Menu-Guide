@@ -26,7 +26,10 @@ export function findPairings(foodItem, drinks, maxResults = 5) {
       return {
         drinkId: drink.id,
         drinkName: drink.name,
+        drinkPronunciation: drink.pronunciation,
+        drinkDescription: drink.description,
         drinkCategory: drink.category,
+        drinkRegion: drink.region,
         drinkPrice: drink.price,
         score: score.total,
         scoreBreakdown: score,
@@ -341,6 +344,8 @@ export function findFoodPairings(drinkItem, foods, maxResults = 5) {
       return {
         foodId: food.id,
         foodName: food.name,
+        foodDescription: food.description,
+        foodPronunciation: food.pronunciation,
         foodCategory: food.category,
         foodPrice: food.price,
         score: score.total,

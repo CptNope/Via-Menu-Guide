@@ -380,6 +380,15 @@
   line-height: 1.4;
 }
 
+.wine-region {
+  font-size: 0.75rem;
+  color: #8b7355;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .pairing-explanation {
   font-size: 0.8rem;
   color: #2d5016;

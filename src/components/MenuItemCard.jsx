@@ -98,9 +98,17 @@ function MenuItemCard({ item }) {
                   <div className="pairing-item-detailed">
                     <div className="wine-info">
                       <div className="wine-header">
-                        <span className="wine-name">{foodPairings.recommendations.byTheGlass.drinkName}</span>
+                        <span className="wine-name">
+                          {foodPairings.recommendations.byTheGlass.drinkName}
+                          {foodPairings.recommendations.byTheGlass.drinkPronunciation && (
+                            <span className="pronunciation"> ({foodPairings.recommendations.byTheGlass.drinkPronunciation})</span>
+                          )}
+                        </span>
                         <span className="wine-price">${foodPairings.recommendations.byTheGlass.drinkPrice}</span>
                       </div>
+                      {foodPairings.recommendations.byTheGlass.drinkRegion && (
+                        <div className="wine-region">{foodPairings.recommendations.byTheGlass.drinkRegion}</div>
+                      )}
                       <div className="wine-description">{foodPairings.recommendations.byTheGlass.drinkDescription}</div>
                       <div className="pairing-explanation">{foodPairings.recommendations.byTheGlass.explanation}</div>
                     </div>
@@ -140,9 +148,17 @@ function MenuItemCard({ item }) {
                     <div className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">
-                          <span className="wine-name">{foodPairings.recommendations.bottles.lowTier.best.drinkName}</span>
+                          <span className="wine-name">
+                            {foodPairings.recommendations.bottles.lowTier.best.drinkName}
+                            {foodPairings.recommendations.bottles.lowTier.best.drinkPronunciation && (
+                              <span className="pronunciation"> ({foodPairings.recommendations.bottles.lowTier.best.drinkPronunciation})</span>
+                            )}
+                          </span>
                           <span className="wine-price">${foodPairings.recommendations.bottles.lowTier.best.drinkPrice}</span>
                         </div>
+                        {foodPairings.recommendations.bottles.lowTier.best.drinkRegion && (
+                          <div className="wine-region">{foodPairings.recommendations.bottles.lowTier.best.drinkRegion}</div>
+                        )}
                         <div className="wine-description">{foodPairings.recommendations.bottles.lowTier.best.drinkDescription}</div>
                         <div className="pairing-explanation">{foodPairings.recommendations.bottles.lowTier.best.explanation}</div>
                       </div>
@@ -176,9 +192,17 @@ function MenuItemCard({ item }) {
                     <div className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">
-                          <span className="wine-name">{foodPairings.recommendations.bottles.midTier.best.drinkName}</span>
+                          <span className="wine-name">
+                            {foodPairings.recommendations.bottles.midTier.best.drinkName}
+                            {foodPairings.recommendations.bottles.midTier.best.drinkPronunciation && (
+                              <span className="pronunciation"> ({foodPairings.recommendations.bottles.midTier.best.drinkPronunciation})</span>
+                            )}
+                          </span>
                           <span className="wine-price">${foodPairings.recommendations.bottles.midTier.best.drinkPrice}</span>
                         </div>
+                        {foodPairings.recommendations.bottles.midTier.best.drinkRegion && (
+                          <div className="wine-region">{foodPairings.recommendations.bottles.midTier.best.drinkRegion}</div>
+                        )}
                         <div className="wine-description">{foodPairings.recommendations.bottles.midTier.best.drinkDescription}</div>
                         <div className="pairing-explanation">{foodPairings.recommendations.bottles.midTier.best.explanation}</div>
                       </div>
@@ -211,9 +235,17 @@ function MenuItemCard({ item }) {
                     <div className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">
-                          <span className="wine-name">{foodPairings.recommendations.bottles.highTier.best.drinkName}</span>
+                          <span className="wine-name">
+                            {foodPairings.recommendations.bottles.highTier.best.drinkName}
+                            {foodPairings.recommendations.bottles.highTier.best.drinkPronunciation && (
+                              <span className="pronunciation"> ({foodPairings.recommendations.bottles.highTier.best.drinkPronunciation})</span>
+                            )}
+                          </span>
                           <span className="wine-price">${foodPairings.recommendations.bottles.highTier.best.drinkPrice}</span>
                         </div>
+                        {foodPairings.recommendations.bottles.highTier.best.drinkRegion && (
+                          <div className="wine-region">{foodPairings.recommendations.bottles.highTier.best.drinkRegion}</div>
+                        )}
                         <div className="wine-description">{foodPairings.recommendations.bottles.highTier.best.drinkDescription}</div>
                         <div className="pairing-explanation">{foodPairings.recommendations.bottles.highTier.best.explanation}</div>
                       </div>
@@ -264,9 +296,17 @@ function MenuItemCard({ item }) {
                     <div key={idx} className="pairing-item-detailed">
                       <div className="wine-info">
                         <div className="wine-header">
-                          <span className="wine-name">{pairing.foodName}</span>
+                          <span className="wine-name">
+                            {pairing.foodName}
+                            {pairing.foodPronunciation && (
+                              <span className="pronunciation"> ({pairing.foodPronunciation})</span>
+                            )}
+                          </span>
                           <span className="food-category">{pairing.foodCategory}</span>
                         </div>
+                        {pairing.foodDescription && (
+                          <div className="wine-description">{pairing.foodDescription}</div>
+                        )}
                         <div className="pairing-explanation">{pairing.explanation}</div>
                       </div>
                       <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>

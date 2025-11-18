@@ -120,17 +120,15 @@
     "price": 8.99,
     "category": "Kids",
     "vegetarian": false,
-    "glutenFree": false,
+    "glutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
       "chicken",
-      "breadcrumbs",
+      "GF-breadcrumbs",
       "potatoes"
     ],
-    "allergens": [
-      "gluten"
-    ]
+    "allergens": []
   },
   {
     "id": "chicken-parmesan",
@@ -139,18 +137,17 @@
     "price": 8.99,
     "category": "Kids",
     "vegetarian": false,
-    "glutenFree": false,
+    "glutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
       "chicken",
-      "breadcrumbs",
-      "spaghetti",
+      "GF-breadcrumbs",
+      "GF-spaghetti",
       "tomato-sauce",
       "cheese"
     ],
     "allergens": [
-      "gluten",
       "dairy"
     ]
   },

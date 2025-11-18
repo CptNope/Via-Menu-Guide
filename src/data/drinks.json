@@ -5922,7 +5922,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["port"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "nuts", "dried-fruit", "vanilla", "smooth"]
+    }
   },
   {
     "id": "dows-10-year-tawny-port",
@@ -5941,7 +5955,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["port"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "dried-fruit", "nuts", "fig", "chocolate", "complex"]
+    }
   },
   {
     "id": "dows-lbv-2003-port",
@@ -5960,7 +5988,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["port"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "chocolate", "spice", "pepper", "intense"]
+    }
   },
   {
     "id": "fonseca-20-year-tawny-port",
@@ -5980,7 +6022,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["port"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 9,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": ["caramel", "dried-fruit", "nuts", "butterscotch", "luxurious", "complex"]
+    }
   },
   {
     "id": "quinta-do-noval-2018-vintage-port",
@@ -6000,7 +6056,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["port"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 3,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": ["dark-fruit", "chocolate", "spice", "fig", "pepper", "powerful", "age-worthy"]
+    }
   },
   {
     "id": "amaro-dell-etna",
@@ -6020,7 +6090,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 1,
+      "richness": 5,
+      "umami": 1,
+      "bitterness": 7,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["herbs", "citrus", "mineral", "bittersweet", "refreshing"]
+    }
   },
   {
     "id": "amaro-montenegro",
@@ -6034,13 +6118,27 @@
     "body": "Medium",
     "profile": ["Orange", "Vanilla", "Herbs", "Bittersweet"],
     "servingStyle": ["Neat", "Rocks", "Cocktails"],
-    "serverNotes": "Classic Italian amaro with 40 botanicals. Bittersweet with orange, vanilla, herbs, spice. Smooth, approachable, versatile. Perfect digestif or cocktail ingredient. Pairs with desserts, cheese, espresso. Essential Italian liqueur.",
+    "serverNotes": "Friendly, approachable Italian amaro. Bittersweet with herbs, orange, vanilla. Smooth, balanced, less bitter than most amaros. Great introduction to category. Perfect digestif, in cocktails, or with coffee. Versatile Italian classic.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["herbs", "orange", "vanilla", "bittersweet", "smooth", "balanced"]
+    }
   },
   {
     "id": "bully-boy-amaro",
@@ -6059,7 +6157,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["herbs", "citrus", "root", "spice", "bold", "distinctive"]
+    }
   },
   {
     "id": "don-ciccio-donna-rasa-amaro",
@@ -6079,7 +6191,21 @@
     "nutFree": true,
     "kids": false,
     "ingredients": ["amaro"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": ["rhubarb", "tart", "herbal", "bittersweet", "unique"]
+    }
   },
   {
     "id": "campari",
@@ -6093,13 +6219,27 @@
     "body": "Medium",
     "profile": ["Bitter Orange", "Herbs", "Spice", "Bitter"],
     "servingStyle": ["Cocktails"],
-    "serverNotes": "Iconic Italian bitter aperitif with bitter orange, herbs, spice. Bold red color, bitter-sweet taste. Essential for Negronis, Boulevardiers, Spritzes. Pairs with appetizers, olives, citrus. Classic Italian aperitivo since 1860.",
+    "serverNotes": "Iconic Italian bitter aperitif. Bright red, bittersweet with orange, herbs, spice. Essential cocktail ingredient (Negroni, Americano). Also neat as aperitif. Stimulates appetite. Pairs with citrus, olives, cheese. Italian classic.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": ["campari"],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 8,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "flavorNotes": ["orange", "herbs", "spice", "bitter", "iconic"]
+    }
   },
   {
     "id": "galliano",

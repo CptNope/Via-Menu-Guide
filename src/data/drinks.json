@@ -894,7 +894,30 @@
       "pineapple",
       "prosecco"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Fun, fruity signature cocktail with Cold River blueberry vodka, lemon sorbet, pineapple, and Prosecco float. Light, refreshing, and Instagram-worthy. The sorbet creates a beautiful layered effect while keeping it cold. Prosecco float adds elegant bubbles on top. Perfect for guests who want something sweet, fun, and not too strong. Great celebration drink or warm weather choice. Blueberry and pineapple create a berry-tropical fusion. Pairs wonderfully with brunch dishes, fruit desserts, light salads, and appetizers. Crowd-pleasing choice that's approachable and delicious.",
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 7,
+      "fruitiness": 10,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 5,
+      "creaminess": 3,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["blueberry", "pineapple", "lemon", "prosecco", "fruity"]
+    }
   },
   {
     "id": "mango-inferno",
@@ -913,7 +936,29 @@
       "pineapple",
       "lime"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Bold, spicy-sweet signature cocktail with Ghost tequila, fresh mango, jalapeño, pineapple, and lime. Tropical heat that balances sweet and spicy perfectly. The jalapeño adds real kick—great for guests who love spice. Ghost tequila brings smooth agave character. Mango and pineapple provide tropical sweetness to balance the heat. Perfect for adventurous drinkers and spicy food lovers. Great with Mexican dishes, spicy appetizers, wings, or bold flavors. The name captures the sweet fire. Ask guests about spice tolerance before recommending. Popular choice for tequila enthusiasts.",
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 7,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["mango", "jalapeño", "pineapple", "spicy", "tropical"]
+    }
   },
   {
     "id": "espresso-martini",
@@ -932,7 +977,30 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "serverNotes": "Classic espresso martini with Absolut vanilla vodka, espresso liqueur, house-brewed fresh espresso, and splash of cream. Rich, caffeinated, and indulgent. Perfect after-dinner cocktail that's both dessert and pick-me-up. The vanilla vodka adds subtle sweetness. Fresh espresso creates authentic coffee flavor—not artificial. Beautiful foam on top from shaking. Great for coffee lovers who want an elegant finish to their meal. Pairs wonderfully with tiramisu, chocolate desserts, cannoli, and Italian sweets. Popular choice for late dinners or those who want energy with elegance. Contains caffeine—mention to guests.",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 2,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 1,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 7,
+      "creaminess": 6,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["espresso", "vanilla", "cream", "coffee", "rich"]
+    }
   },
   {
     "id": "mi-casa-su-casa",
@@ -950,7 +1018,29 @@
       "agave",
       "wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Creative signature margarita with Erbbon reposado tequila, fresh lime, agave nectar, and Shiraz wine float. Unique twist on classic margarita. The red wine float creates a beautiful ombre effect and adds depth. Reposado tequila brings oak character. Bruleed lime garnish adds caramelized presentation. Perfect for tequila lovers who want something different. Great conversation starter. Pairs wonderfully with Mexican dishes, grilled meats, spicy appetizers, and bold flavors. The name means 'my house, your house'—welcoming and shareable. Popular choice for margarita fans seeking innovation.",
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 3,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["tequila", "lime", "agave", "wine", "margarita"]
+    }
   },
   {
     "id": "mind-over-matter",
@@ -970,7 +1060,29 @@
       "lemon",
       "lime"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Vibrant signature cocktail with Tree House vodka, Plantation pineapple rum, Aperol, blood orange sorbet, lemon, and lime. Bright, refreshing, and beautifully layered. The blood orange sorbet creates stunning color while keeping it cold. Aperol adds Italian bitter-orange character. Multiple citrus creates complexity. Perfect for guests who love bright, refreshing cocktails with sophistication. Great warm weather choice or aperitif. Pairs wonderfully with seafood, salads, light appetizers, and citrus dishes. The name suggests mental triumph. Popular choice for those seeking something unique and photogenic.",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 6,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["citrus", "blood-orange", "aperol", "pineapple", "bright"]
+    }
   },
   {
     "id": "via-mai-tai",
@@ -991,7 +1103,30 @@
     ],
     "allergens": [
       "tree nuts"
-    ]
+    ],
+    "serverNotes": "Via's twist on the classic Mai Tai with Erbbon reposado tequila, amaretto, Domaine de Canton ginger syrup, fresh lime, pineapple juice, and Amarena cherry. Tropical, nutty, and complex. Tequila replaces traditional rum for Via's Italian-Mexican fusion. Amaretto adds almond sweetness and Italian character. Ginger syrup brings warmth and spice. Tropical flavors with sophisticated depth. IMPORTANT: Contains almonds—always mention allergen. Perfect for tiki cocktail lovers. Pairs wonderfully with tropical dishes, spicy food, and island-inspired cuisine. Beautiful presentation with cherry garnish. Popular celebration choice.",
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 2,
+      "minerality": 2,
+      "finish": 6,
+      "creaminess": 2,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["pineapple", "almond", "ginger", "tropical", "complex"]
+    }
   },
   {
     "id": "il-gentiluomo",
@@ -1009,7 +1144,30 @@
       "prosecco",
       "lemon"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Elegant Italian-inspired signature cocktail with Bow London Dry gin, elderflower liqueur, Prosecco, and fresh lemon. Light, floral, and sophisticated. The name means 'The Gentleman' in Italian—refined and classy. Elderflower adds delicate floral sweetness. Prosecco brings bubbles and elegance. Refreshing and approachable yet complex. Perfect for guests who appreciate light, botanical cocktails. Great aperitif or celebration choice. Pairs wonderfully with seafood, salads, light appetizers, and Italian dishes. Beautiful presentation. Popular choice for those seeking something elegant and not too strong.",
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 8,
+      "fruitiness": 5,
+      "oakiness": 0,
+      "minerality": 4,
+      "finish": 6,
+      "herbaceousness": 4,
+      "intensity": 5,
+      "complexity": 6,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["elderflower", "gin", "prosecco", "floral", "elegant"]
+    }
   },
   {
     "id": "plane-crash",
@@ -1028,7 +1186,31 @@
       "amaro",
       "lemon"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Bold, sophisticated signature cocktail inspired by the Paper Plane. Jefferson's bourbon infused with smoked honey, Aperol, Amaro dell'Etna, and fresh lemon. Complex, balanced, and conversation-worthy. The smoked honey adds depth and intrigue. Sicilian Amaro dell'Etna brings volcanic mineral character. Aperol provides bitter-orange brightness. Perfect for bourbon and amaro enthusiasts. For guests who appreciate craft cocktails with layers of flavor. Pairs excellently with charcuterie, grilled meats, Italian appetizers, and bold flavors. The name references the classic Paper Plane cocktail. Popular choice for cocktail connoisseurs.",
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 5,
+      "minerality": 6,
+      "finish": 9,
+      "herbaceousness": 7,
+      "smokiness": 4,
+      "intensity": 9,
+      "complexity": 10,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["bourbon", "smoked-honey", "amaro", "aperol", "complex"]
+    }
   },
   {
     "id": "raspberry-mojito",
@@ -1046,7 +1228,30 @@
       "mint",
       "lime"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "Via's signature take on the classic mojito with Privateer rum from Ipswich MA, fresh raspberries, mint, lime, and soda. Refreshing, fruity, and perfectly balanced. Made with local Massachusetts rum for New England pride. Fresh mint muddled for authentic mojito character. Raspberries add beautiful color and fruity sweetness. Also available with pineapple rum for tropical variation. Perfect for warm weather, celebrations, or guests who love classic cocktails with a twist. Pairs wonderfully with salads, seafood, light dishes, and Cuban-inspired cuisine. Crowd-pleasing favorite. Always ask if they want pineapple rum version.",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 6,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 5,
+      "herbaceousness": 7,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["raspberry", "mint", "lime", "rum", "refreshing"]
+    }
   },
   {
     "id": "pear-blossom",

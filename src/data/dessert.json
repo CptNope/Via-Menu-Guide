@@ -21,6 +21,10 @@
       "richness": 9,
       "umami": 1,
       "bitterness": 4,
+      "creaminess": 9,
+      "fattiness": 7,
+      "intensity": 8,
+      "complexity": 7,
       "flavorNotes": ["coffee", "creamy", "rich", "classic"]
     }
   },
@@ -46,6 +50,11 @@
       "richness": 9,
       "umami": 1,
       "bitterness": 0,
+      "creaminess": 10,
+      "fattiness": 8,
+      "charLevel": 8,
+      "intensity": 7,
+      "complexity": 8,
       "flavorNotes": ["nutty", "creamy", "caramel", "sophisticated"]
     }
   },
@@ -71,6 +80,10 @@
       "richness": 7,
       "umami": 0,
       "bitterness": 5,
+      "creaminess": 7,
+      "fattiness": 5,
+      "intensity": 7,
+      "complexity": 5,
       "flavorNotes": ["coffee", "vanilla", "simple", "elegant"]
     }
   },
@@ -96,6 +109,10 @@
       "richness": 10,
       "umami": 0,
       "bitterness": 3,
+      "creaminess": 6,
+      "fattiness": 8,
+      "intensity": 9,
+      "complexity": 7,
       "flavorNotes": ["chocolate", "coffee", "decadent", "indulgent"]
     }
   },
@@ -121,6 +138,10 @@
       "richness": 6,
       "umami": 0,
       "bitterness": 0,
+      "creaminess": 7,
+      "fattiness": 5,
+      "intensity": 5,
+      "complexity": 8,
       "flavorNotes": ["delicate", "fruity", "light", "elegant"]
     }
   },
@@ -146,6 +167,10 @@
       "richness": 8,
       "umami": 0,
       "bitterness": 1,
+      "creaminess": 9,
+      "fattiness": 7,
+      "intensity": 7,
+      "complexity": 8,
       "flavorNotes": ["creamy", "bright", "balanced", "nutty"]
     }
   },
@@ -171,6 +196,10 @@
       "richness": 10,
       "umami": 0,
       "bitterness": 4,
+      "creaminess": 3,
+      "fattiness": 8,
+      "intensity": 10,
+      "complexity": 6,
       "flavorNotes": ["chocolate", "intense", "fudgy", "rich"]
     }
   },
@@ -196,6 +225,10 @@
       "richness": 7,
       "umami": 0,
       "bitterness": 1,
+      "creaminess": 8,
+      "fattiness": 6,
+      "intensity": 7,
+      "complexity": 5,
       "flavorNotes": ["sweet", "creamy", "nutty", "traditional"]
     }
   },
@@ -221,6 +254,10 @@
       "richness": 7,
       "umami": 0,
       "bitterness": 5,
+      "creaminess": 8,
+      "fattiness": 6,
+      "intensity": 6,
+      "complexity": 6,
       "flavorNotes": ["creamy", "fruity", "nutty", "refreshing"]
     }
   },
@@ -246,6 +283,10 @@
       "richness": 6,
       "umami": 0,
       "bitterness": 1,
+      "creaminess": 7,
+      "fattiness": 5,
+      "intensity": 5,
+      "complexity": 7,
       "flavorNotes": ["creamy", "fruity", "varied", "playful"]
     }
   },
@@ -271,6 +312,10 @@
       "richness": 6,
       "umami": 0,
       "bitterness": 1,
+      "creaminess": 7,
+      "fattiness": 5,
+      "intensity": 5,
+      "complexity": 7,
       "flavorNotes": ["creamy", "fruity", "varied", "shareable"]
     }
   }

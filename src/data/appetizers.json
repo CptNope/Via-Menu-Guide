@@ -25,6 +25,10 @@
       "richness": 4,
       "umami": 5,
       "bitterness": 0,
+      "fattiness": 2,
+      "creaminess": 1,
+      "intensity": 4,
+      "complexity": 4,
       "flavorNotes": ["savory", "comforting", "light", "broth"]
     }
   },
@@ -55,7 +59,11 @@
       "richness": 2,
       "umami": 6,
       "bitterness": 0,
-      "flavorNotes": ["fresh", "clean", "seafood", "bright"]
+      "fattiness": 1,
+      "creaminess": 0,
+      "intensity": 6,
+      "complexity": 4,
+      "flavorNotes": ["fresh", "clean", "seafood", "bright", "ocean"]
     }
   },
   {
@@ -80,6 +88,11 @@
       "richness": 7,
       "umami": 6,
       "bitterness": 0,
+      "fattiness": 6,
+      "creaminess": 9,
+      "intensity": 6,
+      "complexity": 6,
+      "herbaceousness": 7,
       "flavorNotes": ["creamy", "fresh", "herbaceous", "cheese"]
     }
   },
@@ -102,10 +115,16 @@
       "body": "medium",
       "spiciness": 1,
       "saltiness": 7,
-      "richness": 7,
+      "richness": 6,
       "umami": 8,
       "bitterness": 0,
-      "flavorNotes": ["savory", "smoky", "seafood", "crispy"]
+      "fattiness": 5,
+      "creaminess": 2,
+      "smokiness": 3,
+      "charLevel": 4,
+      "intensity": 7,
+      "complexity": 7,
+      "flavorNotes": ["savory", "seafood", "rich", "bacon"]
     }
   },
   {

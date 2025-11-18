@@ -489,6 +489,12 @@ function MenuItemCard({ item }) {
                           <div className="wine-description">{pairing.drinkDescription}</div>
                         )}
                         <div className="pairing-explanation">{pairing.explanation}</div>
+                        {pairing.flavorProfile && (
+                          <FlavorProfileDisplay 
+                            flavorProfile={pairing.flavorProfile}
+                            title="Tasting Profile"
+                          />
+                        )}
                       </div>
                       <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
                         {pairing.compatibility}
@@ -537,6 +543,12 @@ function MenuItemCard({ item }) {
                           <div className="wine-description">{pairing.drinkDescription}</div>
                         )}
                         <div className="pairing-explanation">{pairing.explanation}</div>
+                        {pairing.flavorProfile && (
+                          <FlavorProfileDisplay 
+                            flavorProfile={pairing.flavorProfile}
+                            title="Tasting Profile"
+                          />
+                        )}
                       </div>
                       <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
                         {pairing.compatibility}

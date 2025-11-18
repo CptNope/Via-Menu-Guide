@@ -14,6 +14,7 @@ import gelatoData from "../data/gelato.json";
 function MenuItemCard({ item }) {
   const [showPairings, setShowPairings] = useState(false);
   const [showAfterDinnerPairings, setShowAfterDinnerPairings] = useState(false);
+  const [showBeerPairings, setShowBeerPairings] = useState(false);
   const tags = [];
   if (item.vegetarian) tags.push("Vegetarian");
   if (item.glutenFree) tags.push("Gluten-free");
@@ -64,6 +65,18 @@ function MenuItemCard({ item }) {
   // Detect if this is a dessert item
   const isDessert = item.category === 'Desserts' || item.category === 'Gelato' || item.category === 'Sorbetto';
   
+  // Detect if this is an appetizer or pizza (should show beer pairings)
+  const isAppetizerOrPizza = item.category === 'Appetizers' || item.category === 'Grilled Pizzas';
+  
+  // Filter beers for appetizer/pizza pairings
+  const beers = drinks.filter(drink => 
+    drink.flavorProfile &&
+    (drink.category === 'Draught' ||
+     drink.category === 'Bottles & Cans' ||
+     drink.category === 'Non-Alcoholic Beer' ||
+     drink.category === 'Beer')
+  );
+  
   // Filter after-dinner drinks
   const afterDinnerDrinks = drinks.filter(drink => 
     drink.category === 'Port' ||
@@ -105,6 +118,19 @@ function MenuItemCard({ item }) {
       afterDinnerPairings = {
         recommendations: {
           topMatches: topMatches
+        }
+      };
+    }
+  }
+
+  // For appetizers and pizzas, get beer pairings
+  let beerPairings = null;
+  if (isAppetizerOrPizza && item.flavorProfile && beers.length > 0) {
+    const topBeerMatches = findPairings(item, beers, 6);
+    if (topBeerMatches && topBeerMatches.length > 0) {
+      beerPairings = {
+        recommendations: {
+          topMatches: topBeerMatches
         }
       };
     }
@@ -417,6 +443,53 @@ function MenuItemCard({ item }) {
                           {pairing.compatibility}
                         </span>
                       </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </>
+      )}
+
+      {/* Beer Pairings for Appetizers & Pizzas */}
+      {beerPairings && (
+        <>
+          <button 
+            className="pairing-toggle-btn beer-btn"
+            onClick={() => setShowBeerPairings(!showBeerPairings)}
+          >
+            🍺 {showBeerPairings ? 'Hide' : 'View'} Beer Pairings
+          </button>
+
+          {showBeerPairings && beerPairings?.recommendations && (
+            <div className="pairing-panel">
+              {/* Top Beer Matches */}
+              {beerPairings.recommendations.topMatches?.length > 0 && (
+                <div className="pairing-section">
+                  <h4>🍺 Top Beer Pairings</h4>
+                  
+                  {beerPairings.recommendations.topMatches.slice(0, 6).map((pairing, idx) => (
+                    <div key={idx} className="pairing-item-detailed">
+                      <div className="wine-info">
+                        <div className="wine-header">
+                          <span className="wine-name">
+                            {pairing.drinkName}
+                            {pairing.drinkPronunciation && (
+                              <span className="pronunciation"> ({pairing.drinkPronunciation})</span>
+                            )}
+                          </span>
+                          <span className="wine-price">${pairing.drinkPrice}</span>
+                        </div>
+                        <div className="wine-category">{pairing.drinkCategory}</div>
+                        {pairing.drinkDescription && (
+                          <div className="wine-description">{pairing.drinkDescription}</div>
+                        )}
+                        <div className="pairing-explanation">{pairing.explanation}</div>
+                      </div>
+                      <span className={`match-badge ${pairing.compatibility.toLowerCase().replace(' ', '-')}`}>
+                        {pairing.compatibility}
+                      </span>
                     </div>
                   ))}
                 </div>

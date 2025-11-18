@@ -2385,10 +2385,10 @@
   {
     "id": "world-wide-whites-flight",
     "name": "World Wide Whites Flight",
-    "description": "Loosen Riesling, Germany, 2023 | \"Matua\" Marlborough, NZ, 2024 | La Crema Chardonnay, Monterey, 2023",
+    "description": "La Fiera Pinot Grigio, 2024 | Loosen Riesling, Germany, 2023 | Matua, Marlborough, NZ, 2024 | La Crema Chardonnay, Monterey, 2023",
     "price": 15,
     "category": "Wine Flights",
-    "serverNotes": "Journey through three white wine styles from around the world. Start with off-dry German Riesling (fruity, balanced sweetness), move to crisp New Zealand Sauvignon Blanc (bright, herbaceous), finish with California Chardonnay (rich, oaky). Perfect comparison of Old World vs. New World whites. Great way to explore different styles and find favorites.",
+    "serverNotes": "Journey through four distinct white wine styles from around the world. Start with crisp Italian Pinot Grigio (light, mineral, refreshing), move to off-dry German Riesling (fruity, balanced sweetness), then bright New Zealand Sauvignon Blanc (herbaceous, vibrant), finish with California Chardonnay (rich, oaky, buttery). Perfect comparison of Old World vs. New World whites. Shows different white wine expressions from light to full-bodied. Great way to explore styles and find favorites. Educational and delicious.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -2396,15 +2396,36 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 2,
+      "minerality": 6,
+      "finish": 6,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["white-wine", "variety", "educational", "four-styles"]
+    }
   },
   {
     "id": "tuscany-vs-usa-flight",
     "name": "Tuscany vs. USA Flight",
-    "description": "San Felice Chianti Classico, DOCG, Tuscany, 2022 | \"O'Lillo\" by Baracchi, IGT, Tuscany, 2024 | Greenwing Cabernet by Duckhorn, Columbia Valley, 2023",
+    "description": "San Felice Chianti Classico, DOCG, Tuscany, 2022 | \"O'Lillo\" by Baracchi, IGT, Tuscany, 2024 | Greenwing Cabernet by Duckhorn, Columbia Valley, 2023 | \"The Pessimist\" by Daou, 2023",
     "price": 15,
     "category": "Wine Flights",
-    "serverNotes": "Compare Italian elegance with American power. Start with classic Chianti (bright cherry, earthy), taste modern Super Tuscan (richer, international style), finish with Washington Cabernet (bold fruit, smooth). Shows evolution from traditional to modern Italian winemaking, then contrast with New World style. Great for Italian dinner or wine education.",
+    "serverNotes": "Compare Italian elegance with American power across four wines. Start with classic Chianti (bright cherry, earthy, traditional Tuscany), taste modern Super Tuscan (richer, international style), then two American powerhouses - Washington Cabernet (bold fruit, smooth) and 'The Pessimist' red blend (dark, concentrated). Shows evolution from traditional to modern Italian winemaking, then contrast with New World boldness. Great for Italian dinner or wine education. Perfect comparison of Old World refinement vs. New World power.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -2412,15 +2433,37 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 5,
+      "minerality": 4,
+      "finish": 7,
+      "earthiness": 6,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["red-wine", "variety", "educational", "old-vs-new-world"]
+    }
   },
   {
     "id": "world-renown-winemakers-flight",
-    "name": "World Renown Winemakers Flight",
-    "description": "Band of Vintners Cabernet, Napa, RP 92, 2022 | Cakebread \"Mullan Road\", Washington, 2022 | Rombauer Chardonnay, Carneros, 2023 | Cambria \"Julia's Vineyard\", Santa Maria, 2018",
+    "name": "World Renowned Winemakers Flight",
+    "description": "Guado Al Tasso, Vermentino, Tuscany, 2024 | Cakebread \"Mullan Road\", Washington, 2022 | Caparzo Brunello di Montalcino, DOCG, JS 94, 2018 | Rombauer, Chardonnay, Carneros, 2023",
     "price": 18,
     "category": "Wine Flights",
-    "serverNotes": "Premium flight featuring legendary producers. Two prestigious Cabs (Napa 92 pts, Cakebread Washington) show different regions' styles. Then two exceptional Chards - cult favorite Rombauer (buttery, rich) and elegant Cambria Pinot Noir. Mix of reds and whites from top-tier wineries. Perfect for special occasions or wine enthusiasts wanting best-of-the-best tasting.",
+    "serverNotes": "Premium flight featuring world-class producers and highly rated wines. Start with Antinori's Guado Al Tasso Vermentino (Tuscan coastal white, mineral, elegant), then Cakebread's Washington red blend (prestigious name, rich), Caparzo Brunello 94 pts (legendary Tuscan red, age-worthy), finish with cult favorite Rombauer Chardonnay (buttery, rich, iconic California). Mix of Italian elegance and California opulence from legendary wineries. Perfect for special occasions, wine enthusiasts, or those wanting the best-of-the-best tasting experience. This is premium wine education.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -2429,7 +2472,29 @@
       "red-wine",
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 8,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 6,
+      "finish": 9,
+      "earthiness": 5,
+      "intensity": 8,
+      "complexity": 10,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["premium", "legendary-producers", "highly-rated", "world-class"]
+    }
   },
   {
     "id": "gd-vajra-nebbiolo-bottle",

@@ -1076,9 +1076,9 @@
     }
   },
   {
-    "id": "bonsoleil",
-    "name": "Bonsoleil",
-    "description": "Fresh Pineapple & Lime, Green Chartreuse, Hildegard Von Bingen Gin",
+    "id": "bonjour-beaute",
+    "name": "Bonjour Beauté",
+    "description": "Green Chartreuse, Hildegard Von Bingen Gin, Fresh Pineapple & Lime, Orgeat",
     "price": 14,
     "category": "Signature Cocktails",
     "vegetarian": true,
@@ -1119,7 +1119,7 @@
   {
     "id": "carnivale",
     "name": "Carnivale",
-    "description": "Dummshambo Brazilian Pineapple Gin, Yuzu, Lime, Cane Sugar, Bruleed lime",
+    "description": "Drumshanbo Brazilian Pineapple Gin, Yuzu, Lime, Cane Sugar, brûléed lime",
     "price": 14,
     "category": "Signature Cocktails",
     "vegetarian": true,
@@ -1243,7 +1243,7 @@
   {
     "id": "espresso-martini",
     "name": "Espresso Martini",
-    "description": "Absolut Vanilla Vodka, Begi Tossofim Espresso Liqueur, House-Brewed Espresso, Splash of Cream",
+    "description": "Absolut Vanilla Vodka, Bepi Tossolini Espresso Liqueur, House-Brewed Espresso, Splash of Cream",
     "price": 14,
     "category": "Signature Cocktails",
     "vegetarian": true,
@@ -1285,7 +1285,7 @@
   {
     "id": "mi-casa-su-casa",
     "name": "Mi Casa, Su Casa",
-    "description": "Erbbon Reposado, Fresh Lime Juice, Agave Nectar, Shiraz Float, Bruleed Lime",
+    "description": "Bribon Reposado, Fresh Lime Juice, Agave Nectar, Shiraz Float, brûléed Lime",
     "price": 14,
     "category": "Signature Cocktails",
     "vegetarian": true,
@@ -1325,7 +1325,7 @@
   {
     "id": "mind-over-matter",
     "name": "Mind Over Matter",
-    "description": "House Vodka by Tree House, Plantation Pineapple Rum, Aperol, Blood Orange Sorbet, Lemon, Lime",
+    "description": "House Vodka by Tree House, Plantation Pineapple Rum, Aperol, Blood Orange Sorbet, Lemon, Lime, and Pineapple Juices",
     "price": 14,
     "category": "Signature Cocktails",
     "vegetarian": true,
@@ -1367,7 +1367,7 @@
   {
     "id": "via-mai-tai",
     "name": "The Via Mai Tai",
-    "description": "Erbbon Reposado & Bacb & Son Amaretto, Domaine De Canton Syrup, Fresh Lime, Pineapple Juice and Amerena Cherry *ALLERGY: This drink recipe contains Almonds*",
+    "description": "Privateer Rum, Gosling's Dark Rum, Amaretto, Orgeat Syrup, Fresh Lime, Pineapple Juice and Amarena Cherry *ALLERGY: This drink recipe contains Almonds*",
     "price": 14,
     "category": "Signature Cocktails",
     "vegetarian": true,
@@ -1375,7 +1375,7 @@
     "nutFree": false,
     "kids": false,
     "ingredients": [
-      "tequila",
+      "rum",
       "amaretto",
       "lime",
       "pineapple",
@@ -1384,7 +1384,7 @@
     "allergens": [
       "tree nuts"
     ],
-    "serverNotes": "Via's twist on the classic Mai Tai with Erbbon reposado tequila, amaretto, Domaine de Canton ginger syrup, fresh lime, pineapple juice, and Amarena cherry. Tropical, nutty, and complex. Tequila replaces traditional rum for Via's Italian-Mexican fusion. Amaretto adds almond sweetness and Italian character. Ginger syrup brings warmth and spice. Tropical flavors with sophisticated depth. IMPORTANT: Contains almonds—always mention allergen. Perfect for tiki cocktail lovers. Pairs wonderfully with tropical dishes, spicy food, and island-inspired cuisine. Beautiful presentation with cherry garnish. Popular celebration choice.",
+    "serverNotes": "Via's twist on the classic Mai Tai with Privateer Rum, Gosling's Dark Rum, amaretto, orgeat syrup, fresh lime, pineapple juice, and Amarena cherry. Tropical, nutty, and complex. Dual rums provide depth - Privateer for brightness, Gosling's for richness. Amaretto adds almond sweetness and Italian character. Orgeat syrup (almond-based) brings authentic tiki flavor. Tropical flavors with sophisticated depth. IMPORTANT: Contains almonds—always mention allergen. Perfect for tiki cocktail lovers. Pairs wonderfully with tropical dishes, spicy food, and island-inspired cuisine. Beautiful presentation with cherry garnish. Popular celebration choice.",
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 6,
@@ -1411,7 +1411,7 @@
   {
     "id": "il-gentiluomo",
     "name": "Il Gentiluomo (The Gentleman)",
-    "description": "Bow London Dry Gin, Elderflower Liqueur, Prosecco, Lemon",
+    "description": "BroVo London Dry Gin, Elderflower Liqueur, Prosecco, Lemon",
     "price": 14,
     "category": "Signature Cocktails",
     "vegetarian": true,
@@ -1495,7 +1495,7 @@
   {
     "id": "raspberry-mojito",
     "name": "Raspberry Mojito",
-    "description": "Our Classic made with Privateer Rum from Ipswich, MA *Also available with Pineapple Rum*",
+    "description": "Our classic made with Privateer Rum from Ipswich, MA",
     "price": 14,
     "category": "Signature Cocktails",
     "vegetarian": true,

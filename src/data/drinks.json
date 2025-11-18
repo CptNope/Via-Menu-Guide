@@ -5578,6 +5578,14 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 5,
+      "minerality": 4,
+      "finish": 6,
+      "creaminess": 6,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 6,
       "flavorNotes": ["apple", "citrus", "vanilla", "creamy"]
     }
   },
@@ -5608,6 +5616,14 @@
       "tannin": 0,
       "alcohol": 6,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 4,
+      "finish": 7,
+      "creaminess": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
       "flavorNotes": ["citrus", "butter", "oak", "rich"]
     }
   },
@@ -5638,6 +5654,14 @@
       "tannin": 0,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 7,
+      "minerality": 4,
+      "finish": 8,
+      "creaminess": 7,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
       "flavorNotes": ["citrus", "butter", "legendary", "Paris-1976"]
     }
   },
@@ -5668,6 +5692,14 @@
       "tannin": 0,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 7,
+      "minerality": 4,
+      "finish": 8,
+      "creaminess": 8,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
       "flavorNotes": ["buttery", "tropical", "opulent", "cult-favorite"]
     }
   },
@@ -5698,6 +5730,14 @@
       "tannin": 0,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 5,
+      "finish": 8,
+      "creaminess": 6,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
       "flavorNotes": ["citrus", "oak", "complex", "aged"]
     }
   },
@@ -5728,6 +5768,14 @@
       "tannin": 0,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 6,
+      "finish": 9,
+      "creaminess": 6,
+      "intensity": 8,
+      "complexity": 9,
+      "aromaticIntensity": 8,
       "flavorNotes": ["citrus", "mineral", "elegant", "Shafer"]
     }
   },
@@ -5758,6 +5806,14 @@
       "tannin": 0,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 7,
+      "minerality": 6,
+      "finish": 9,
+      "creaminess": 7,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 9,
       "flavorNotes": ["stone-fruit", "complex", "single-vineyard", "limited"]
     }
   },
@@ -5788,6 +5844,14 @@
       "tannin": 0,
       "alcohol": 7,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 8,
+      "finish": 10,
+      "creaminess": 6,
+      "intensity": 9,
+      "complexity": 10,
+      "aromaticIntensity": 10,
       "flavorNotes": ["mineral", "coastal", "97pts", "Burgundian"]
     }
   },

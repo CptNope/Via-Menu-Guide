@@ -7324,6 +7324,14 @@
       "tannin": 0,
       "alcohol": 8,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 7,
+      "minerality": 2,
+      "finish": 8,
+      "creaminess": 4,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 8,
       "flavorNotes": ["caramel", "nuts", "dried-fruit", "vanilla", "smooth"]
     }
   },
@@ -7357,6 +7365,14 @@
       "tannin": 0,
       "alcohol": 8,
       "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 8,
+      "minerality": 2,
+      "finish": 9,
+      "creaminess": 5,
+      "intensity": 8,
+      "complexity": 9,
+      "aromaticIntensity": 9,
       "flavorNotes": ["caramel", "dried-fruit", "nuts", "fig", "chocolate", "complex"]
     }
   },
@@ -7390,6 +7406,13 @@
       "tannin": 2,
       "alcohol": 9,
       "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 4,
+      "minerality": 3,
+      "finish": 9,
+      "intensity": 9,
+      "complexity": 8,
+      "aromaticIntensity": 9,
       "flavorNotes": ["dark-fruit", "chocolate", "spice", "pepper", "intense"]
     }
   },
@@ -7424,6 +7447,14 @@
       "tannin": 0,
       "alcohol": 8,
       "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 9,
+      "minerality": 2,
+      "finish": 10,
+      "creaminess": 6,
+      "intensity": 9,
+      "complexity": 10,
+      "aromaticIntensity": 10,
       "flavorNotes": ["caramel", "dried-fruit", "nuts", "butterscotch", "luxurious", "complex"]
     }
   },
@@ -7458,6 +7489,13 @@
       "tannin": 3,
       "alcohol": 9,
       "carbonation": 0,
+      "fruitiness": 10,
+      "oakiness": 3,
+      "minerality": 4,
+      "finish": 10,
+      "intensity": 10,
+      "complexity": 10,
+      "aromaticIntensity": 10,
       "flavorNotes": ["dark-fruit", "chocolate", "spice", "fig", "pepper", "powerful", "age-worthy"]
     }
   },

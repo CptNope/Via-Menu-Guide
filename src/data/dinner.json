@@ -158,6 +158,11 @@
       "richness": 6,
       "umami": 6,
       "bitterness": 0,
+      "fattiness": 7,
+      "creaminess": 5,
+      "charLevel": 5,
+      "intensity": 7,
+      "complexity": 6,
       "flavorNotes": ["spicy", "sweet", "classic", "crowd-pleaser"]
     }
   },
@@ -183,6 +188,10 @@
       "richness": 2,
       "umami": 2,
       "bitterness": 1,
+      "fattiness": 1,
+      "creaminess": 0,
+      "intensity": 3,
+      "complexity": 3,
       "flavorNotes": ["fresh", "light", "crisp", "refreshing"]
     }
   },
@@ -208,6 +217,11 @@
       "richness": 6,
       "umami": 6,
       "bitterness": 1,
+      "fattiness": 3,
+      "creaminess": 8,
+      "charLevel": 2,
+      "intensity": 6,
+      "complexity": 5,
       "flavorNotes": ["savory", "creamy", "tangy", "classic"]
     }
   },
@@ -233,7 +247,12 @@
       "richness": 7,
       "umami": 5,
       "bitterness": 0,
-      "flavorNotes": ["fresh", "creamy", "elegant", "herbaceous"]
+      "fattiness": 5,
+      "creaminess": 9,
+      "herbaceousness": 8,
+      "intensity": 6,
+      "complexity": 6,
+      "flavorNotes": ["fresh", "creamy", "herbaceous", "elegant"]
     }
   },
   {
@@ -258,6 +277,10 @@
       "richness": 6,
       "umami": 6,
       "bitterness": 0,
+      "fattiness": 5,
+      "creaminess": 4,
+      "intensity": 7,
+      "complexity": 7,
       "flavorNotes": ["bright", "lemony", "savory", "elegant"]
     }
   },
@@ -283,6 +306,11 @@
       "richness": 7,
       "umami": 7,
       "bitterness": 0,
+      "fattiness": 6,
+      "creaminess": 7,
+      "charLevel": 6,
+      "intensity": 7,
+      "complexity": 6,
       "flavorNotes": ["savory", "cheesy", "comfort", "classic"]
     }
   },
@@ -308,6 +336,11 @@
       "richness": 7,
       "umami": 6,
       "bitterness": 1,
+      "fattiness": 5,
+      "creaminess": 7,
+      "charLevel": 6,
+      "intensity": 7,
+      "complexity": 6,
       "flavorNotes": ["savory", "cheesy", "comfort", "vegetarian"]
     }
   },
@@ -333,6 +366,10 @@
       "richness": 9,
       "umami": 10,
       "bitterness": 0,
+      "fattiness": 8,
+      "creaminess": 3,
+      "intensity": 10,
+      "complexity": 8,
       "flavorNotes": ["meaty", "rich", "indulgent", "bold"]
     }
   },
@@ -358,6 +395,11 @@
       "richness": 7,
       "umami": 8,
       "bitterness": 0,
+      "fattiness": 7,
+      "creaminess": 4,
+      "herbaceousness": 6,
+      "intensity": 7,
+      "complexity": 6,
       "flavorNotes": ["savory", "meaty", "comfort", "traditional"]
     }
   },

@@ -756,6 +756,7 @@
   {
     "id": "ceretto-moscato-half",
     "name": "Ceretto Vignaioli Moscato D'Asti",
+    "pronunciation": "cheh-REH-toh veen-yai-OH-lee mohs-KAH-toh DAHS-tee",
     "description": "DOCG, Piemonte, JS 90, 2023",
     "price": 25,
     "category": "Half Bottles",
@@ -794,6 +795,7 @@
   {
     "id": "daou-cabernet-half",
     "name": "Daou, Cabernet",
+    "pronunciation": "DAH-oo",
     "description": "Paso Robles, WE 91, 2023",
     "price": 25,
     "category": "Half Bottles",
@@ -833,6 +835,7 @@
   {
     "id": "sonoma-cutrer-pinot-noir-half",
     "name": "Sonoma Cutrer, Russian River Valley, Pinot Noir",
+    "pronunciation": "soh-NOH-mah COO-trer PEE-noh NWAR",
     "description": "JS 93, 2022",
     "price": 25,
     "category": "Half Bottles",
@@ -872,6 +875,7 @@
   {
     "id": "sonoma-cutrer-chardonnay-half",
     "name": "Sonoma Cutrer, Russian River Valley, Chardonnay",
+    "pronunciation": "soh-NOH-mah COO-trer shar-doh-NAY",
     "description": "2023",
     "price": 23,
     "category": "Half Bottles",
@@ -989,6 +993,7 @@
   {
     "id": "alphonse-mellot-sancerre-half",
     "name": "Alphonse Mellot La Moussiere",
+    "pronunciation": "al-FONS mel-LOH lah moo-see-AIR san-SAIR",
     "description": "Sancerre, FR, 2023",
     "price": 35,
     "category": "Half Bottles",
@@ -1067,6 +1072,7 @@
   {
     "id": "damilano-barolo-half",
     "name": "Damilano Lecinquevigne Barolo",
+    "pronunciation": "dah-mee-LAH-noh leh-CHEEN-kweh-VEEN-yeh bah-ROH-loh",
     "description": "DOCG, Piemonte, RP 93, 2020",
     "price": 45,
     "category": "Half Bottles",
@@ -1145,6 +1151,7 @@
   {
     "id": "zenato-amarone-half",
     "name": "Zenato Amarone",
+    "pronunciation": "zeh-NAH-toh ah-mah-ROH-neh",
     "description": "Veneto, JS 95, 2019",
     "price": 58,
     "category": "Half Bottles",
@@ -1223,6 +1230,7 @@
   {
     "id": "kosta-browne-pinot-noir-half",
     "name": "Kosta Browne, Russian River Valley, Pinot Noir",
+    "pronunciation": "KOH-stah BROWN PEE-noh NWAR",
     "description": "RP 93, 2023",
     "price": 70,
     "category": "Half Bottles",

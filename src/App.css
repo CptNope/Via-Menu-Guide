@@ -284,6 +284,21 @@
   text-decoration: underline;
 }
 
+.garnish-info {
+  font-size: 0.85rem;
+  color: #4a3828;
+  background: #f0f9f0;
+  padding: 0.4rem 0.5rem;
+  margin-top: 0.4rem;
+  border-left: 3px solid #4a8f4a;
+  border-radius: 4px;
+}
+
+.garnish-info strong {
+  color: #2d6b2d;
+  font-weight: 600;
+}
+
 .standalone-flavor-profile {
   margin-top: 0.6rem;
   margin-bottom: 0.4rem;

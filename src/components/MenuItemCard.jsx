@@ -201,6 +201,13 @@ function MenuItemCard({ item, pairingPreferences = null }) {
         </div>
       )}
 
+      {/* Garnish Information for Cocktails */}
+      {item.garnish && (
+        <div className="garnish-info">
+          <strong>🍋 Garnish:</strong> {item.garnish}
+        </div>
+      )}
+
       {/* Standalone Flavor Profile - Available for all items */}
       {item.flavorProfile && (
         <div className="standalone-flavor-profile">

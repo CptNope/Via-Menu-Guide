@@ -246,13 +246,42 @@
   margin-top: 0.4rem;
   border-left: 3px solid #8b0000;
   border-radius: 4px;
-  font-style: italic;
+  font-style: normal;
+  line-height: 1.5;
+  white-space: pre-line;
 }
 
 .server-notes strong {
   color: #8b0000;
   font-style: normal;
   font-weight: 600;
+}
+
+.website-link {
+  font-size: 0.85rem;
+  color: #4a3828;
+  background: #eef7f9;
+  padding: 0.4rem 0.5rem;
+  margin-top: 0.4rem;
+  border-left: 3px solid #2d7a9c;
+  border-radius: 4px;
+}
+
+.website-link strong {
+  color: #2d7a9c;
+  font-weight: 600;
+}
+
+.website-link a {
+  color: #1e5a7a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.website-link a:hover {
+  color: #2d7a9c;
+  text-decoration: underline;
 }
 
 .standalone-flavor-profile {

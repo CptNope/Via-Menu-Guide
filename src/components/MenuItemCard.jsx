@@ -181,7 +181,23 @@ function MenuItemCard({ item, pairingPreferences = null }) {
 
       {item.serverNotes && (
         <div className="server-notes">
-          <strong>Server Notes:</strong> {item.serverNotes}
+          <strong>Server Notes:</strong>{' '}
+          {item.serverNotes.split('\n').map((line, idx) => (
+            <React.Fragment key={idx}>
+              {line}
+              {idx < item.serverNotes.split('\n').length - 1 && <br />}
+            </React.Fragment>
+          ))}
+        </div>
+      )}
+
+      {/* Brewery/Winery Website Link */}
+      {item.website && (
+        <div className="website-link">
+          <strong>🔗 Website:</strong>{' '}
+          <a href={item.website} target="_blank" rel="noopener noreferrer">
+            {item.website.replace('https://', '').replace('http://', '').replace('www.', '')}
+          </a>
         </div>
       )}
 

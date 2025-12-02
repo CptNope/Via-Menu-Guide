@@ -4341,11 +4341,50 @@
     }
   },
   {
+    "id": "rubio-super-tuscan-bottle",
+    "name": "Rubio by San Polo",
+    "pronunciation": "ROO-bee-oh / san POH-loh",
+    "description": "IGT, Montalcino, JS 91, 2022",
+    "price": 56,
+    "category": "Super Tuscan Bottles",
+    "serverNotes": "Full-bodied Super Tuscan from Montalcino producer. Dark fruit, spice, and oak. Well-structured with good aging potential. Rated 91 pts. Also by the glass. Modern Tuscan style. Pairs excellently with red meats, aged cheese, hearty Italian dishes. From Brunello producer at accessible price.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 3,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 7,
+      "minerality": 4,
+      "finish": 8,
+      "earthiness": 5,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["dark-fruit", "spice", "oak", "structured"]
+    }
+  },
+  {
     "id": "olillo-super-tuscan-bottle",
     "name": "\"O'Lillo\" by Baracchi",
     "pronunciation": "oh-LEE-loh / bah-RAH-kee",
     "description": "IGT, Tuscany, 2024",
-    "price": 52,
+    "price": 60,
     "category": "Super Tuscan Bottles",
     "serverNotes": "Modern Tuscan blend with Sangiovese and international grapes. Bright red fruit, soft tannins, approachable. Also by the glass. Great introduction to Super Tuscan style. Versatile food wine. Pairs with grilled meats, pasta, pizza. Appealing to both traditional and modern wine drinkers.",
     "vegetarian": true,
@@ -4694,7 +4733,7 @@
   {
     "id": "domaine-bousquet-malbec-bottle",
     "name": "\"Domaine Bousquet Malbec\"",
-    "description": "Mendoza, 2023",
+    "description": "Mendoza, 2024",
     "price": 39,
     "category": "Merlot & Malbec Bottles",
     "serverNotes": "Organic Argentine Malbec with ripe plum, blackberry, smooth tannins. Full-bodied, fruit-forward. Great value introduction to Mendoza Malbec. Pairs with grilled meats, empanadas, BBQ. Crowd-pleasing Argentine style.",
@@ -4727,6 +4766,45 @@
       "complexity": 6,
       "aromaticIntensity": 7,
       "flavorNotes": ["plum", "blackberry", "fruit-forward", "smooth"]
+    }
+  },
+  {
+    "id": "advice-from-john-merlot-bottle",
+    "name": "Advice from John Merlot",
+    "pronunciation": "by Orin Swift",
+    "description": "by Orin Swift, California, 2023",
+    "price": 50,
+    "category": "Merlot & Malbec Bottles",
+    "serverNotes": "Rich California Merlot from cult producer Orin Swift. Plum, black cherry, chocolate with smooth tannins. Full-bodied, approachable style. From same winemaker as Abstract and Machete. Pairs with grilled meats, duck, pork, pasta. Premium Orin Swift quality at great value.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 6,
+      "minerality": 3,
+      "finish": 7,
+      "earthiness": 4,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["plum", "chocolate", "smooth", "Orin-Swift"]
     }
   },
   {
@@ -4958,8 +5036,8 @@
     }
   },
   {
-    "id": "benessere-zinfandel-bottle",
-    "name": "Benessere Zinfandel",
+    "id": "seghesio-zinfandel-bottle",
+    "name": "Seghesio Zinfandel",
     "description": "Sonoma, 2023",
     "price": 45,
     "category": "Pinot Noir & Interesting Reds Bottles",
@@ -5074,7 +5152,7 @@
   {
     "id": "rombauer-zinfandel-bottle",
     "name": "Rombauer Zinfandel",
-    "description": "California, 2021",
+    "description": "California, 2023",
     "price": 59,
     "category": "Pinot Noir & Interesting Reds Bottles",
     "serverNotes": "Premium California Zinfandel from legendary Rombauer family. Rich, jammy with blackberry, spice, vanilla. Full-bodied, opulent style. From famous Chardonnay producer. Pairs with BBQ, burgers, grilled meats, bold dishes. Step-up Zin choice.",
@@ -5107,6 +5185,45 @@
       "complexity": 7,
       "aromaticIntensity": 8,
       "flavorNotes": ["blackberry", "jammy", "opulent", "Rombauer"]
+    }
+  },
+  {
+    "id": "long-meadow-ranch-pinot-noir-bottle",
+    "name": "Long Meadow Ranch, Pinot Noir",
+    "pronunciation": "long MEH-doh ranch",
+    "description": "Anderson Valley, JS 94, 2019",
+    "price": 79,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "serverNotes": "Premium Anderson Valley Pinot Noir rated 94 pts. Red cherry, strawberry, earthy complexity. Elegant, medium-bodied with silky texture. From cool-climate coastal vineyards. Age-worthy with bottle maturity. Pairs with duck, salmon, mushroom dishes, truffle. Serious California Pinot at great value.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 5,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 4,
+      "minerality": 5,
+      "finish": 8,
+      "earthiness": 6,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["cherry", "earthy", "elegant", "Anderson-Valley"]
     }
   },
   {
@@ -5148,12 +5265,13 @@
     }
   },
   {
-    "id": "domaine-drouhin-pinot-noir-bottle",
-    "name": "Domaine Drouhin Pinot Noir",
-    "description": "Willamette Valley, Oregon, WE 93, 2021",
-    "price": 80,
+    "id": "domaine-della-pinot-noir-bottle",
+    "name": "Domaine Della",
+    "pronunciation": "doh-MAYN DEL-lah",
+    "description": "Sonoma Coast, Pinot Noir, WE 93, 2021",
+    "price": 100,
     "category": "Pinot Noir & Interesting Reds Bottles",
-    "serverNotes": "Premium Oregon Pinot rated 93 pts. From legendary Burgundy family's Oregon estate. Elegant, complex with red fruit, earth, spice. Burgundian style in Oregon. Pairs with duck, salmon, mushrooms, truffles. Serious Pinot for connoisseurs.",
+    "serverNotes": "Premium Sonoma Coast Pinot Noir rated 93 pts. Elegant, complex with red fruit, earth, spice. Cool-climate coastal vineyard character. Burgundian style meets California fruit. Pairs with duck, salmon, mushrooms, truffle dishes. Refined California Pinot for connoisseurs.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -5188,10 +5306,10 @@
   {
     "id": "wayfarer-pinot-noir-bottle",
     "name": "Wayfarer, Pinot Noir",
-    "description": "Fort Ross Seaview, California, 2021",
-    "price": 105,
+    "description": "Fort Ross Seaview, California, JS 96, 2021",
+    "price": 135,
     "category": "Pinot Noir & Interesting Reds Bottles",
-    "serverNotes": "Premium coastal Pinot from Pahlmeyer family's estate. Complex, elegant with red fruit, spice, mineral. Extreme coastal vineyard, cool climate. Burgundian style, age-worthy. For serious Pinot collectors. Pairs with duck, salmon, mushrooms, truffles. Elite California Pinot.",
+    "serverNotes": "Outstanding coastal Pinot rated 96 pts from Pahlmeyer family's estate. Complex, elegant with red fruit, spice, mineral. Extreme coastal vineyard, cool climate. Burgundian style, age-worthy. For serious Pinot collectors. Pairs with duck, salmon, mushrooms, truffles. Elite California Pinot.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -5490,6 +5608,45 @@
     }
   },
   {
+    "id": "knights-bridge-meritage-bottle",
+    "name": "Knight's Bridge Meritage",
+    "pronunciation": "knights bridge mair-ih-tidge",
+    "description": "Knight's Valley, 2018",
+    "price": 75,
+    "category": "Cabernet & Blends Bottles",
+    "serverNotes": "Bordeaux-style red blend from Knights Valley estate. Cabernet-based with traditional Bordeaux grapes. Balanced, elegant, age-worthy. From boutique Napa producer. Pairs with lamb, beef, game, aged cheese. Classic California Meritage.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 6,
+      "minerality": 5,
+      "finish": 8,
+      "earthiness": 6,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 7,
+      "flavorNotes": ["Bordeaux-blend", "balanced", "age-worthy", "Meritage"]
+    }
+  },
+  {
     "id": "austin-hope-cabernet-bottle",
     "name": "Austin Hope Cabernet, 1 Liter",
     "description": "Paso Robles, 2022",
@@ -5525,6 +5682,45 @@
       "complexity": 7,
       "aromaticIntensity": 8,
       "flavorNotes": ["jammy", "black-fruit", "opulent", "1-liter"]
+    }
+  },
+  {
+    "id": "regaleali-vigna-san-francesco-bottle",
+    "name": "Regaleali \"Vigna San Francesco\" Cabernet",
+    "pronunciation": "reh-gahl-eh-AH-lee VEEN-yah san frahn-CHEH-skoh",
+    "description": "DOC, Sicily, JS 95, 2019",
+    "price": 89,
+    "category": "Cabernet & Blends Bottles",
+    "serverNotes": "Exceptional Sicilian Cabernet rated 95 pts. Dark fruit, Mediterranean herbs, volcanic minerality. Unique Italian expression of Cabernet from legendary Sicilian estate. Age-worthy, complex. Pairs with lamb, game, aged cheese, rich Italian dishes. Rare gem from Sicily.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 6,
+      "minerality": 7,
+      "finish": 9,
+      "earthiness": 7,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["dark-fruit", "herbs", "volcanic", "Sicilian"]
     }
   },
   {
@@ -5680,6 +5876,44 @@
     }
   },
   {
+    "id": "paul-hobbs-cabernet-bottle",
+    "name": "Paul Hobbs Cabernet",
+    "description": "Napa, JS 94, 2016",
+    "price": 105,
+    "category": "Cabernet & Blends Bottles",
+    "serverNotes": "Premium Napa Cabernet rated 94 pts from renowned winemaker Paul Hobbs. Dark fruit, spice, oak with elegant structure. Boutique production, consultant winemaker to elite estates. Age-worthy with bottle maturity. Pairs with prime cuts, lamb, truffle dishes. Collector-quality Napa Cab.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 7,
+      "minerality": 5,
+      "finish": 9,
+      "earthiness": 6,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["dark-fruit", "spice", "elegant", "Paul-Hobbs"]
+    }
+  },
+  {
     "id": "caymus-cabernet-bottle",
     "name": "Caymus Cabernet",
     "description": "Napa, 2022",
@@ -5832,6 +6066,45 @@
     }
   },
   {
+    "id": "petrolo-campo-lusso-bottle",
+    "name": "Petrolo Campo Lusso Cabernet",
+    "pronunciation": "peh-TROH-loh KAHM-poh LOO-soh",
+    "description": "DOC, Tuscany, WE 96, 2021",
+    "price": 210,
+    "category": "Cabernet & Blends Bottles",
+    "serverNotes": "Outstanding Tuscan Cabernet rated 96 pts by Wine Enthusiast. Exceptional Italian expression with dark fruit, Mediterranean herbs, structure. From prestigious Valdarno estate. Rare Italian Cabernet at world-class level. Pairs with bistecca Fiorentina, game, aged Pecorino. Collector's Italian gem.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 7,
+      "minerality": 6,
+      "finish": 10,
+      "earthiness": 8,
+      "intensity": 10,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["dark-fruit", "herbs", "Tuscan-Cabernet", "96pts"]
+    }
+  },
+  {
     "id": "caymus-special-selection-bottle",
     "name": "Caymus \"Special Selection\" Cabernet",
     "description": "Napa, 2019",
@@ -5867,6 +6140,45 @@
       "complexity": 10,
       "aromaticIntensity": 10,
       "flavorNotes": ["ultra-rich", "chocolate", "luxurious", "ultimate-Caymus"]
+    }
+  },
+  {
+    "id": "la-jota-cabernet-bottle",
+    "name": "La Jota Cabernet",
+    "pronunciation": "lah HOH-tah",
+    "description": "Howell Mountain, JS 97, 2018",
+    "price": 245,
+    "category": "Cabernet & Blends Bottles",
+    "serverNotes": "Near-perfect mountain Cabernet rated 97 pts from legendary Howell Mountain. Powerful, structured with dark fruit, mountain terroir, exceptional depth. From Jackson Family's premium estate. Investment-grade, age for decades. Pairs with finest beef, game, truffles. Elite Napa mountain Cab.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 9,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 9,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 8,
+      "minerality": 7,
+      "finish": 10,
+      "earthiness": 8,
+      "intensity": 10,
+      "complexity": 10,
+      "aromaticIntensity": 10,
+      "flavorNotes": ["powerful", "mountain", "97pts", "Howell-Mountain"]
     }
   },
   {
@@ -6174,6 +6486,84 @@
     }
   },
   {
+    "id": "flouret-sancerre-bottle",
+    "name": "Flouret",
+    "pronunciation": "floor-AY",
+    "description": "Sancerre, FR, 2023",
+    "price": 70,
+    "category": "Sauvignon Blanc Bottles",
+    "serverNotes": "Premium French Sancerre with intense citrus, flint, mineral character. Crisp, elegant, classic Loire expression. From quality Sancerre producer. Pure, focused terroir wine. Pairs with oysters, seafood, goat cheese, delicate dishes. Refined French Sauvignon Blanc.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 0,
+      "acidity": 9,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 3,
+      "umami": 3,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 1,
+      "minerality": 9,
+      "finish": 8,
+      "herbaceousness": 6,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": ["citrus", "flint", "intense", "Sancerre"]
+    }
+  },
+  {
+    "id": "domaine-francois-crochet-exils-bottle",
+    "name": "Domaine Francois Crochet Exils",
+    "pronunciation": "doh-MAYN frahn-SWAH kroh-SHAY ex-EELS",
+    "description": "Sancerre, FR, 2022",
+    "price": 80,
+    "category": "Sauvignon Blanc Bottles",
+    "serverNotes": "Top-tier Sancerre from premier family estate. Intense minerality, citrus, flinty character. Pure, concentrated, age-worthy. Single-vineyard excellence. From one of Sancerre's best producers. Pairs with oysters, seafood, aged goat cheese. For Sancerre connoisseurs.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 0,
+      "acidity": 9,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 2,
+      "richness": 4,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 1,
+      "minerality": 10,
+      "finish": 9,
+      "herbaceousness": 6,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": ["mineral", "concentrated", "single-vineyard", "elite-Sancerre"]
+    }
+  },
+  {
     "id": "knights-bridge-pont-de-chevalier-bottle",
     "name": "Knights Bridge \"Pont de Chevalier\"",
     "description": "Knights Valley, 2023",
@@ -6288,44 +6678,6 @@
     }
   },
   {
-    "id": "grgich-chardonnay-bottle",
-    "name": "Grgich",
-    "description": "Napa, D 95, 2020",
-    "price": 65,
-    "category": "Chardonnay Bottles",
-    "serverNotes": "Legendary Napa Chardonnay rated 95 pts. Won 1976 Judgment of Paris! Citrus, apple, butter, oak. Rich, balanced, elegant. Historic producer. Pairs with lobster, crab, chicken, rich dishes. Iconic California Chardonnay.",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "white-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 2,
-      "acidity": 6,
-      "body": "full",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 7,
-      "umami": 2,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 7,
-      "carbonation": 0,
-      "fruitiness": 7,
-      "oakiness": 7,
-      "minerality": 4,
-      "finish": 8,
-      "creaminess": 7,
-      "intensity": 8,
-      "complexity": 8,
-      "aromaticIntensity": 8,
-      "flavorNotes": ["citrus", "butter", "legendary", "Paris-1976"]
-    }
-  },
-  {
     "id": "rombauer-chardonnay-carneros-bottle",
     "name": "Rombauer",
     "description": "Carneros, 2023",
@@ -6361,44 +6713,6 @@
       "complexity": 8,
       "aromaticIntensity": 8,
       "flavorNotes": ["buttery", "tropical", "opulent", "cult-favorite"]
-    }
-  },
-  {
-    "id": "chappellet-grower-collection-bottle",
-    "name": "Chappellet Grower Collection",
-    "description": "Carneros, WE 93, 2018",
-    "price": 75,
-    "category": "Chardonnay Bottles",
-    "serverNotes": "Premium Carneros Chardonnay rated 93 pts. Citrus, apple, oak, complexity. Balanced, elegant with bottle age. From legendary mountain Cabernet producer. Pairs with lobster, scallops, chicken, rich fish. Sophisticated aged Chardonnay.",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "white-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 2,
-      "acidity": 6,
-      "body": "full",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 7,
-      "umami": 2,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 7,
-      "carbonation": 0,
-      "fruitiness": 7,
-      "oakiness": 6,
-      "minerality": 5,
-      "finish": 8,
-      "creaminess": 6,
-      "intensity": 8,
-      "complexity": 8,
-      "aromaticIntensity": 8,
-      "flavorNotes": ["citrus", "oak", "complex", "aged"]
     }
   },
   {

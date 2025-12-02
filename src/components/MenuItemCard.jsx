@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { GiWheat, GiPeanut, GiCow } from "react-icons/gi";
 import { FaChild } from "react-icons/fa";
 import { TbLeaf } from "react-icons/tb";
@@ -11,6 +11,55 @@ import dinnerData from "../data/dinner.json";
 import dessertData from "../data/dessert.json";
 import gelatoData from "../data/gelato.json";
 
+// Move static data outside component to avoid recreation on every render
+const WINE_CATEGORIES = [
+  'Italian Reds', 'Super Tuscan', 'Merlot & Malbec', 'Pinot Noir & Interesting Reds', 
+  'Organic Pinot Noir', 'Cabernet & Blends', 'Sauvignon Blanc', 'Chardonnay', 
+  'Interesting Whites', 'Sparkling',
+  'Italian Reds Bottles', 'Super Tuscan Bottles', 'Merlot & Malbec Bottles', 
+  'Pinot Noir & Interesting Reds Bottles', 'Cabernet & Blends Bottles',
+  'Sauvignon Blanc Bottles', 'Chardonnay Bottles', 'Interesting Whites Bottles',
+  'Sparkling Bottles',
+  'Half Bottles', 'Half Bottles - Wine'
+];
+
+const BEER_CATEGORIES = ['Draught', 'Bottles & Cans', 'Non-Alcoholic Beer', 'Beer'];
+const WHISKEY_CATEGORIES = ['Bourbon', 'Rye', 'Scotch'];
+const AFTER_DINNER_CATEGORIES = ['Port', 'Amaro & Digestivo', 'Coffee Cocktails', 'Grappa', 'Cognac'];
+const DESSERT_CATEGORIES = ['Desserts', 'Gelato', 'Sorbetto'];
+const APPETIZER_PIZZA_CATEGORIES = ['Appetizers', 'Grilled Pizzas'];
+const MAIN_COURSE_CATEGORIES = ['Salads', 'VIA Italian Classics', 'Beef, Pork & Veal', 'House Pastas', 'Seafood', 'VIA Signature Sandwiches', 'VIA Lunch Classics'];
+
+// Pre-filter drinks data once (only runs once when module loads)
+const FILTERED_BEERS = drinks.filter(drink => 
+  drink.flavorProfile && BEER_CATEGORIES.includes(drink.category)
+);
+
+const FILTERED_WHISKEYS = drinks.filter(drink => 
+  drink.flavorProfile && WHISKEY_CATEGORIES.includes(drink.category)
+);
+
+const FILTERED_AFTER_DINNER = drinks.filter(drink => 
+  AFTER_DINNER_CATEGORIES.includes(drink.category)
+);
+
+// Pre-combine and filter food data
+const ALL_DESSERTS = [...dessertData, ...gelatoData];
+const ALL_FOOD_ITEMS = [...appetizers, ...dinnerData, ...ALL_DESSERTS].filter(food => 
+  food.category !== 'Pasta' && 
+  !food.id?.includes('scoops') && 
+  !food.id?.includes('sampler') &&
+  !food.category?.includes('Red') &&
+  !food.category?.includes('White') &&
+  !food.category?.includes('Sparkling') &&
+  !food.category?.includes('Rosé') &&
+  !food.category?.includes('Port') &&
+  !food.category?.includes('Amaro') &&
+  !food.category?.includes('Cocktails') &&
+  !food.category?.includes('Beer') &&
+  !food.category?.includes('Bottles')
+);
+
 function MenuItemCard({ item, pairingPreferences = null }) {
   const [showPairings, setShowPairings] = useState(false);
   const [showAfterDinnerPairings, setShowAfterDinnerPairings] = useState(false);
@@ -18,196 +67,100 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   const [showBourbonPairings, setShowBourbonPairings] = useState(false);
   const [showWhiskeyPairings, setShowWhiskeyPairings] = useState(false);
   const [showDessertPairings, setShowDessertPairings] = useState(false);
-  const tags = [];
-  if (item.vegetarian) tags.push("Vegetarian");
-  if (item.glutenFree) tags.push("Gluten-free");
-  if (item.nutFree) tags.push("Nut-free");
-  if (item.kids) tags.push("Kids");
+  
+  // Memoize tags array to avoid recreation on every render
+  const tags = useMemo(() => {
+    const tagList = [];
+    if (item.vegetarian) tagList.push("Vegetarian");
+    if (item.glutenFree) tagList.push("Gluten-free");
+    if (item.nutFree) tagList.push("Nut-free");
+    if (item.kids) tagList.push("Kids");
+    return tagList;
+  }, [item.vegetarian, item.glutenFree, item.nutFree, item.kids]);
 
-  const allergenIcons = [];
-  if (item.allergens?.includes("gluten")) allergenIcons.push(<GiWheat key="gluten" />);
-  if (item.allergens?.includes("nuts")) allergenIcons.push(<GiPeanut key="nuts" />);
-  if (item.allergens?.includes("dairy")) allergenIcons.push(<GiCow key="dairy" />);
+  // Memoize allergen icons
+  const allergenIcons = useMemo(() => {
+    const icons = [];
+    if (item.allergens?.includes("gluten")) icons.push(<GiWheat key="gluten" />);
+    if (item.allergens?.includes("nuts")) icons.push(<GiPeanut key="nuts" />);
+    if (item.allergens?.includes("dairy")) icons.push(<GiCow key="dairy" />);
+    return icons;
+  }, [item.allergens]);
 
-  // Determine if this is a drink that should show food pairings
-  // Includes: wines by the glass, wine bottles, half bottles, bourbon, rye, scotch, Port, Amaro, Coffee Cocktails, Grappa, Cognac
-  
-  // Wine categories (by the glass and bottles)
-  const wineCategories = [
-    'Italian Reds', 'Super Tuscan', 'Merlot & Malbec', 'Pinot Noir & Interesting Reds', 
-    'Organic Pinot Noir', 'Cabernet & Blends', 'Sauvignon Blanc', 'Chardonnay', 
-    'Interesting Whites', 'Sparkling',
-    // Bottle categories
-    'Italian Reds Bottles', 'Super Tuscan Bottles', 'Merlot & Malbec Bottles', 
-    'Pinot Noir & Interesting Reds Bottles', 'Cabernet & Blends Bottles',
-    'Sauvignon Blanc Bottles', 'Chardonnay Bottles', 'Interesting Whites Bottles',
-    'Sparkling Bottles',
-    // Half bottles
-    'Half Bottles', 'Half Bottles - Wine'
-  ];
-  
-  const isDrinkWithFoodPairing = item.flavorProfile && (
-    // Wine bottles, glasses, and half bottles
-    wineCategories.includes(item.category) ||
-    // Beers
-    item.category === 'Draught' ||
-    item.category === 'Bottles & Cans' ||
-    item.category === 'Non-Alcoholic Beer' ||
-    item.category === 'Beer' ||
-    // Bourbon, rye, scotch, and after-dinner drinks
-    item.category === 'Bourbon' ||
-    item.category === 'Rye' ||
-    item.category === 'Scotch' ||
-    item.category === 'Port' ||
-    item.category === 'Amaro & Digestivo' ||
-    item.category === 'Coffee Cocktails' ||
-    item.category === 'Grappa' ||
-    item.category === 'Cognac'
-  );
+  // Memoize category detection - only recalculate when item.category changes
+  const categoryFlags = useMemo(() => ({
+    isDrinkWithFoodPairing: item.flavorProfile && (
+      WINE_CATEGORIES.includes(item.category) ||
+      BEER_CATEGORIES.includes(item.category) ||
+      WHISKEY_CATEGORIES.includes(item.category) ||
+      AFTER_DINNER_CATEGORIES.includes(item.category)
+    ),
+    isDessert: DESSERT_CATEGORIES.includes(item.category),
+    isAppetizerOrPizza: APPETIZER_PIZZA_CATEGORIES.includes(item.category),
+    isMainCourse: MAIN_COURSE_CATEGORIES.includes(item.category),
+    isBeer: BEER_CATEGORIES.includes(item.category),
+    isDessertDrink: [...AFTER_DINNER_CATEGORIES, ...WHISKEY_CATEGORIES].includes(item.category)
+  }), [item.category, item.flavorProfile]);
 
-  // Detect if this is a dessert item
-  const isDessert = item.category === 'Desserts' || item.category === 'Gelato' || item.category === 'Sorbetto';
-  
-  // Detect if this is an appetizer or pizza (should show beer pairings)
-  const isAppetizerOrPizza = item.category === 'Appetizers' || item.category === 'Grilled Pizzas';
-  
-  // Detect if this is a main course item (should show beer and bourbon pairings)
-  // Excludes individual pasta types (category === 'Pasta')
-  const isMainCourse = item.category === 'Salads' || 
-                       item.category === 'VIA Italian Classics' || 
-                       item.category === 'Beef, Pork & Veal' || 
-                       item.category === 'House Pastas' || 
-                       item.category === 'Seafood' ||
-                       item.category === 'VIA Signature Sandwiches' ||
-                       item.category === 'VIA Lunch Classics';
-  
-  // Detect if this is a beer item (should show whiskey pairings)
-  const isBeer = item.category === 'Draught' || item.category === 'Bottles & Cans' || item.category === 'Non-Alcoholic Beer' || item.category === 'Beer';
-  
-  // Detect if this is a drink that pairs with desserts (should show dessert pairings)
-  const isDessertDrink = item.category === 'Port' || 
-                         item.category === 'Cognac' || 
-                         item.category === 'Amaro & Digestivo' || 
-                         item.category === 'Coffee Cocktails' || 
-                         item.category === 'Grappa' || 
-                         item.category === 'Bourbon' || 
-                         item.category === 'Rye' || 
-                         item.category === 'Scotch';
-  
-  // Filter beers for appetizer/pizza pairings
-  const beers = drinks.filter(drink => 
-    drink.flavorProfile &&
-    (drink.category === 'Draught' ||
-     drink.category === 'Bottles & Cans' ||
-     drink.category === 'Non-Alcoholic Beer' ||
-     drink.category === 'Beer')
+  // Memoize pairing calculations - only recalculate when item or preferences change
+  const winePairings = useMemo(() => 
+    categoryFlags.isDrinkWithFoodPairing && item.flavorProfile 
+      ? getWinePairingRecommendations(item, ALL_FOOD_ITEMS) 
+      : null,
+    [categoryFlags.isDrinkWithFoodPairing, item, ALL_FOOD_ITEMS]
   );
   
-  // Filter bourbon/whiskey for appetizer/pizza pairings
-  const bourbons = drinks.filter(drink => 
-    drink.flavorProfile &&
-    (drink.category === 'Bourbon' ||
-     drink.category === 'Rye' ||
-     drink.category === 'Scotch')
+  const foodPairings = useMemo(() => 
+    !categoryFlags.isDrinkWithFoodPairing && item.flavorProfile 
+      ? getFoodPairingRecommendations(item, drinks, pairingPreferences) 
+      : null,
+    [categoryFlags.isDrinkWithFoodPairing, item, pairingPreferences]
   );
   
-  // Filter after-dinner drinks
-  const afterDinnerDrinks = drinks.filter(drink => 
-    drink.category === 'Port' ||
-    drink.category === 'Amaro & Digestivo' ||
-    drink.category === 'Coffee Cocktails' ||
-    drink.category === 'Grappa' ||
-    drink.category === 'Cognac'
-  );
+  // Memoize after-dinner pairings
+  const afterDinnerPairings = useMemo(() => {
+    if (!categoryFlags.isDessert || !item.flavorProfile || FILTERED_AFTER_DINNER.length === 0) return null;
+    const topMatches = findPairings(item, FILTERED_AFTER_DINNER, 10);
+    return topMatches && topMatches.length > 0
+      ? { recommendations: { topMatches } }
+      : null;
+  }, [categoryFlags.isDessert, item]);
 
-  // Get dynamic pairings based on item type
-  // Combine all food data including individual gelato/sorbetto
-  const allDesserts = [...dessertData, ...gelatoData];
-  
-  // Filter out pasta types, multi-scoop items, samplers, and any drink categories from food pairing
-  const allFoodItems = [...appetizers, ...dinnerData, ...allDesserts].filter(food => 
-    food.category !== 'Pasta' && 
-    !food.id?.includes('scoops') && 
-    !food.id?.includes('sampler') &&
-    // Exclude any wine/drink categories that might have snuck in
-    !food.category?.includes('Red') &&
-    !food.category?.includes('White') &&
-    !food.category?.includes('Sparkling') &&
-    !food.category?.includes('Rosé') &&
-    !food.category?.includes('Port') &&
-    !food.category?.includes('Amaro') &&
-    !food.category?.includes('Cocktails') &&
-    !food.category?.includes('Beer') &&
-    !food.category?.includes('Bottles')
-  );
-  
-  const winePairings = isDrinkWithFoodPairing && item.flavorProfile ? getWinePairingRecommendations(item, allFoodItems) : null;
-  const foodPairings = !isDrinkWithFoodPairing && item.flavorProfile ? getFoodPairingRecommendations(item, drinks, pairingPreferences) : null;
-  
-  // For after-dinner drinks, use findPairings directly and structure results
-  let afterDinnerPairings = null;
-  if (isDessert && item.flavorProfile && afterDinnerDrinks.length > 0) {
-    const topMatches = findPairings(item, afterDinnerDrinks, 10);
-    if (topMatches && topMatches.length > 0) {
-      afterDinnerPairings = {
-        recommendations: {
-          topMatches: topMatches
-        }
-      };
-    }
-  }
+  // Memoize beer pairings
+  const beerPairings = useMemo(() => {
+    if (!(categoryFlags.isAppetizerOrPizza || categoryFlags.isMainCourse) || !item.flavorProfile || FILTERED_BEERS.length === 0) return null;
+    const topBeerMatches = findPairings(item, FILTERED_BEERS, 6);
+    return topBeerMatches && topBeerMatches.length > 0
+      ? { recommendations: { topMatches: topBeerMatches } }
+      : null;
+  }, [categoryFlags.isAppetizerOrPizza, categoryFlags.isMainCourse, item]);
 
-  // For appetizers, pizzas, and main courses, get beer pairings
-  let beerPairings = null;
-  if ((isAppetizerOrPizza || isMainCourse) && item.flavorProfile && beers.length > 0) {
-    const topBeerMatches = findPairings(item, beers, 6);
-    if (topBeerMatches && topBeerMatches.length > 0) {
-      beerPairings = {
-        recommendations: {
-          topMatches: topBeerMatches
-        }
-      };
-    }
-  }
+  // Memoize bourbon/whiskey pairings
+  const bourbonPairings = useMemo(() => {
+    if (!(categoryFlags.isAppetizerOrPizza || categoryFlags.isMainCourse) || !item.flavorProfile || FILTERED_WHISKEYS.length === 0) return null;
+    const topBourbonMatches = findPairings(item, FILTERED_WHISKEYS, 6);
+    return topBourbonMatches && topBourbonMatches.length > 0
+      ? { recommendations: { topMatches: topBourbonMatches } }
+      : null;
+  }, [categoryFlags.isAppetizerOrPizza, categoryFlags.isMainCourse, item]);
 
-  // For appetizers, pizzas, and main courses, get bourbon/whiskey pairings
-  let bourbonPairings = null;
-  if ((isAppetizerOrPizza || isMainCourse) && item.flavorProfile && bourbons.length > 0) {
-    const topBourbonMatches = findPairings(item, bourbons, 6);
-    if (topBourbonMatches && topBourbonMatches.length > 0) {
-      bourbonPairings = {
-        recommendations: {
-          topMatches: topBourbonMatches
-        }
-      };
-    }
-  }
+  // Memoize whiskey pairings for desserts and beers
+  const whiskeyPairings = useMemo(() => {
+    if (!(categoryFlags.isDessert || categoryFlags.isBeer) || !item.flavorProfile || FILTERED_WHISKEYS.length === 0) return null;
+    const topWhiskeyMatches = findPairings(item, FILTERED_WHISKEYS, 6);
+    return topWhiskeyMatches && topWhiskeyMatches.length > 0
+      ? { recommendations: { topMatches: topWhiskeyMatches } }
+      : null;
+  }, [categoryFlags.isDessert, categoryFlags.isBeer, item]);
 
-  // For desserts and beers, get whiskey pairings
-  let whiskeyPairings = null;
-  if ((isDessert || isBeer) && item.flavorProfile && bourbons.length > 0) {
-    const topWhiskeyMatches = findPairings(item, bourbons, 6);
-    if (topWhiskeyMatches && topWhiskeyMatches.length > 0) {
-      whiskeyPairings = {
-        recommendations: {
-          topMatches: topWhiskeyMatches
-        }
-      };
-    }
-  }
-
-  // For after-dinner drinks and whiskeys, get dessert pairings
-  let dessertPairings = null;
-  if (isDessertDrink && item.flavorProfile && allDesserts.length > 0) {
-    const topDessertMatches = findPairings(item, allDesserts, 6);
-    if (topDessertMatches && topDessertMatches.length > 0) {
-      dessertPairings = {
-        recommendations: {
-          topMatches: topDessertMatches
-        }
-      };
-    }
-  }
+  // Memoize dessert pairings
+  const dessertPairings = useMemo(() => {
+    if (!categoryFlags.isDessertDrink || !item.flavorProfile || ALL_DESSERTS.length === 0) return null;
+    const topDessertMatches = findPairings(item, ALL_DESSERTS, 6);
+    return topDessertMatches && topDessertMatches.length > 0
+      ? { recommendations: { topMatches: topDessertMatches } }
+      : null;
+  }, [categoryFlags.isDessertDrink, item]);
 
   return (
     <article className="menu-item-card">

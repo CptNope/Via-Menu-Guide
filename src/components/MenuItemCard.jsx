@@ -232,6 +232,16 @@ function MenuItemCard({ item, pairingPreferences = null }) {
         </div>
       )}
 
+      {/* Standalone Flavor Profile - Available for all items */}
+      {item.flavorProfile && (
+        <div className="standalone-flavor-profile">
+          <FlavorProfileDisplay 
+            flavorProfile={item.flavorProfile}
+            title="Flavor Profile"
+          />
+        </div>
+      )}
+
       {/* Wine Pairings for Food Items */}
       {foodPairings && (
         <>

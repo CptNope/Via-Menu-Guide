@@ -7203,45 +7203,6 @@
     }
   },
   {
-    "id": "louis-roederer-blanc-de-blancs-bottle",
-    "name": "Louis Roederer Blanc de Blancs",
-    "pronunciation": "loo-WEE roh-der-AIR blahn duh blahn",
-    "description": "Champagne, FR, V 94, 2015",
-    "price": 130,
-    "category": "Sparkling Bottles",
-    "serverNotes": "100% Chardonnay Champagne rated 94 pts. Elegant, refined, pure with citrus, mineral, brioche. Lighter, more delicate than blended styles. From Cristal producer. Vintage dated - special quality. Pairs with oysters, seafood, delicate cuisine. For Champagne connoisseurs.",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "champagne"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 1,
-      "acidity": 8,
-      "body": "light",
-      "spiciness": 0,
-      "saltiness": 1,
-      "richness": 5,
-      "umami": 3,
-      "bitterness": 0,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 7,
-      "fruitiness": 6,
-      "oakiness": 2,
-      "minerality": 8,
-      "finish": 9,
-      "creaminess": 5,
-      "intensity": 9,
-      "complexity": 9,
-      "aromaticIntensity": 9,
-      "flavorNotes": ["citrus", "mineral", "refined", "Blanc-de-Blancs"]
-    }
-  },
-  {
     "id": "dom-perignon-bottle",
     "name": "Dom Pérignon",
     "pronunciation": "dome pair-ee-NYON",

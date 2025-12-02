@@ -42,12 +42,24 @@ export function getFoodPairingRecommendations(foodItem, allDrinks, preferences =
     !drink.category?.includes('Cocktails')
   );
   
-  // Bottles are marked with "Bottles" or "Half Bottles" in category or have higher prices
-  // Explicitly exclude beer categories
+  // Half bottles - separate category
+  const halfBottles = allDrinks.filter(drink => 
+    drink.flavorProfile &&
+    drink.category?.includes('Half') &&
+    // Exclude beers, cocktails, and other non-wine drinks
+    drink.category !== 'Bottles & Cans' &&
+    drink.category !== 'Draught' &&
+    drink.category !== 'Non-Alcoholic Beer' &&
+    drink.category !== 'Beer' &&
+    !drink.category?.includes('Cocktails')
+  );
+  
+  // Full bottles - marked with "Bottles" in category (but NOT "Half") or have higher prices
+  // Explicitly exclude beer categories and half bottles
   const bottles = allDrinks.filter(drink => 
     drink.flavorProfile &&
+    !drink.category?.includes('Half') &&  // Exclude half bottles
     (drink.category?.includes('Bottles') || 
-     drink.category?.includes('Half') || 
      drink.price >= 30) &&
     // Exclude beers, cocktails, and other non-wine drinks
     drink.category !== 'Bottles & Cans' &&
@@ -84,6 +96,14 @@ export function getFoodPairingRecommendations(foodItem, allDrinks, preferences =
     highPairings = applyPairingPreferences(highPairings, highPriceBottles, preferences);
   }
 
+  // Find best half bottles (top 3)
+  let halfBottlePairings = findPairings(foodItem, halfBottles, 10);
+  
+  // Apply user preferences to half bottle pairings
+  if (preferences) {
+    halfBottlePairings = applyPairingPreferences(halfBottlePairings, halfBottles, preferences);
+  }
+
   return {
     foodId: foodItem.id,
     foodName: foodItem.name,
@@ -106,6 +126,11 @@ export function getFoodPairingRecommendations(foodItem, allDrinks, preferences =
           best: highPairings[0] || null,
           alternatives: highPairings.slice(1, 3)
         }
+      },
+      halfBottles: {
+        label: 'Half Bottles (375ml)',
+        best: halfBottlePairings[0] || null,
+        alternatives: halfBottlePairings.slice(1, 3)
       }
     }
   };
@@ -214,7 +239,12 @@ export function getMenuPairingSummary(foodItem, allDrinks) {
         price: recs.recommendations.bottles.highTier.best.drinkPrice,
         match: recs.recommendations.bottles.highTier.best.compatibility
       } : null
-    }
+    },
+    halfBottles: recs.recommendations.halfBottles.best ? {
+      name: recs.recommendations.halfBottles.best.drinkName,
+      price: recs.recommendations.halfBottles.best.drinkPrice,
+      match: recs.recommendations.halfBottles.best.compatibility
+    } : null
   };
 }
 

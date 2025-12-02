@@ -429,6 +429,63 @@ function MenuItemCard({ item, pairingPreferences = null }) {
                   </div>
                 )}
               </div>
+
+              {/* Half Bottles Section */}
+              {foodPairings.recommendations.halfBottles && (
+                <div className="pairing-section">
+                  <h4>🍾 Half Bottle Recommendations (375ml)</h4>
+                  
+                  {/* Best half bottle */}
+                  {foodPairings.recommendations.halfBottles.best && (
+                    <div className="bottle-tier">
+                      <label>Perfect for Two</label>
+                      
+                      <div className="pairing-item-detailed">
+                        <div className="wine-info">
+                          <div className="wine-header">
+                            <span className="wine-name">
+                              {foodPairings.recommendations.halfBottles.best.drinkName}
+                              {foodPairings.recommendations.halfBottles.best.drinkPronunciation && (
+                                <span className="pronunciation"> ({foodPairings.recommendations.halfBottles.best.drinkPronunciation})</span>
+                              )}
+                            </span>
+                            <span className="wine-price">${foodPairings.recommendations.halfBottles.best.drinkPrice}</span>
+                          </div>
+                          {foodPairings.recommendations.halfBottles.best.drinkRegion && (
+                            <div className="wine-region">{foodPairings.recommendations.halfBottles.best.drinkRegion}</div>
+                          )}
+                          <div className="wine-description">{foodPairings.recommendations.halfBottles.best.drinkDescription}</div>
+                          <div className="pairing-explanation">{foodPairings.recommendations.halfBottles.best.explanation}</div>
+                          {foodPairings.recommendations.halfBottles.best.flavorProfile && (
+                            <FlavorProfileDisplay 
+                              flavorProfile={foodPairings.recommendations.halfBottles.best.flavorProfile}
+                              title="Tasting Profile"
+                            />
+                          )}
+                        </div>
+                        <span className={`match-badge ${foodPairings.recommendations.halfBottles.best.compatibility.toLowerCase().replace(' ', '-')}`}>
+                          {foodPairings.recommendations.halfBottles.best.compatibility}
+                        </span>
+                      </div>
+
+                      {/* Alternative half bottles */}
+                      {foodPairings.recommendations.halfBottles.alternatives?.length > 0 && (
+                        <div className="alternatives-compact">
+                          {foodPairings.recommendations.halfBottles.alternatives.slice(0, 2).map((alt, idx) => (
+                            <div key={idx} className="pairing-item-compact">
+                              <span className="wine-name">{alt.drinkName}</span>
+                              <span className="wine-price">${alt.drinkPrice}</span>
+                              <span className={`match-badge-small ${alt.compatibility.toLowerCase().replace(' ', '-')}`}>
+                                {alt.compatibility}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           )}
         </>

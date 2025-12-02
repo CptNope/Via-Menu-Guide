@@ -64,8 +64,8 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/Via-Menu-Guide/",
+  "scope": "/Via-Menu-Guide/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#5a2a27",
@@ -76,7 +76,7 @@
       "name": "Menu",
       "short_name": "Menu",
       "description": "View the full menu",
-      "url": "/",
+      "url": "/Via-Menu-Guide/",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
   ]

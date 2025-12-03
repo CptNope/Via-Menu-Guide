@@ -33,15 +33,48 @@ The app will open at http://localhost:3000.
 - `npm test` – run tests (none defined yet)
 - `npm run eject` – CRA eject (irreversible)
 
-## PWA / Offline
+## PWA / Offline & Auto-Updates
 
-The app registers a service worker in `src/serviceWorkerRegistration.js`.  
-In production (`npm run build`), the service worker will:
+The app uses **Workbox** for advanced PWA features with automatic update notifications.
 
-- cache the app shell and static assets
-- serve cached content when offline
+### Features
 
-The service worker implementation lives in `public/service-worker.js`.
+- ✅ **Offline-first caching** with intelligent cache strategies
+- ✅ **Automatic update detection** - checks every hour
+- ✅ **User-friendly update notifications** with one-click updates
+- ✅ **Version-based cache management** - old caches auto-cleared
+- ✅ **Different cache strategies** for different resource types
+
+### Quick Start
+
+**Deploy a new version:**
+
+```bash
+# 1. Update version in src/service-worker.js
+# 2. Build and deploy
+npm run build
+npm run deploy
+```
+
+Users will automatically see an update notification and can update with one click!
+
+### Implementation
+
+- **Service Worker**: `src/service-worker.js` (Workbox configuration)
+- **Registration**: `src/serviceWorkerRegistration.js` (with Workbox Window API)
+- **Update UI**: `src/components/UpdateNotification.jsx`
+- **Documentation**: See `PWA_UPDATE_GUIDE.md` for complete details
+
+### Cache Strategies
+
+| Resource Type | Strategy | Max Age | Description |
+|--------------|----------|---------|-------------|
+| Images | Cache First | 30 days | Fast loading, rarely change |
+| JSON Data | Network First | 7 days | Fresh content when online |
+| CSS/JS | Stale While Revalidate | 30 days | Instant load + background update |
+| Fonts | Cache First | 365 days | Never change, cache forever |
+
+For complete update and versioning guide, see **[PWA_UPDATE_GUIDE.md](./PWA_UPDATE_GUIDE.md)**.
 
 ## Project Structure
 
@@ -301,7 +334,8 @@ graph TB
 - Wire AdminPanel to edit **all** menu sections, ingredients and wines.
 - Persist JSON updates to a backend (Node, Firebase, etc.) instead of keeping them in-memory.
 - Replace placeholder icons in `public/` with real logo assets.
-- Tune the PWA cache strategy (Workbox, runtime routes, versioning).
+- Add analytics tracking for update adoption and user engagement.
+- Implement background sync for offline admin actions.
 
 ## License
 

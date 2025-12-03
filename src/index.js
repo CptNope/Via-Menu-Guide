@@ -15,4 +15,19 @@ root.render(
 );
 
 // Register the service worker for PWA offline support
-serviceWorkerRegistration.register();
+serviceWorkerRegistration.register({
+  onSuccess: (workbox) => {
+    console.log('Service worker registered successfully!');
+    // Store workbox instance globally so App can access it
+    window.workbox = workbox;
+    // Dispatch custom event to notify App
+    window.dispatchEvent(new Event('workboxReady'));
+  },
+  onUpdate: (workbox) => {
+    console.log('New content is available; please refresh.');
+    // Store workbox instance globally so App can access it
+    window.workbox = workbox;
+    // Dispatch custom event to notify App
+    window.dispatchEvent(new Event('workboxUpdate'));
+  },
+});

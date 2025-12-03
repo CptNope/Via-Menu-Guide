@@ -1,0 +1,141 @@
+.update-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 500px;
+  width: calc(100% - 40px);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  z-index: 10000;
+  animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.update-notification-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.update-notification-icon {
+  font-size: 32px;
+  text-align: center;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.update-notification-text {
+  text-align: center;
+}
+
+.update-notification-text strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.update-notification-text p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.95;
+  line-height: 1.4;
+}
+
+.update-notification-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.update-btn {
+  flex: 1;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.update-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.update-btn-primary {
+  background: white;
+  color: #667eea;
+}
+
+.update-btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.update-btn-secondary {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.update-btn-secondary:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .update-notification {
+    bottom: 10px;
+    width: calc(100% - 20px);
+    padding: 15px;
+  }
+
+  .update-notification-icon {
+    font-size: 24px;
+  }
+
+  .update-notification-text strong {
+    font-size: 16px;
+  }
+
+  .update-notification-text p {
+    font-size: 13px;
+  }
+
+  .update-btn {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .update-notification {
+    background: linear-gradient(135deg, #4f46e5 0%, #6b21a8 100%);
+  }
+}

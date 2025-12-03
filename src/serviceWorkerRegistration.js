@@ -2,6 +2,8 @@
 // register() is not called by default in CRA, but we use it here
 // so the app works offline and loads faster.
 
+import { Workbox } from 'workbox-window';
+
 const isLocalhost = Boolean(
   window.location.hostname === "localhost" ||
     window.location.hostname === "[::1]" ||
@@ -9,6 +11,8 @@ const isLocalhost = Boolean(
       /^127(?:\.\d{1,3}){3}$/
     )
 );
+
+let wb;
 
 export function register(config) {
   if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
@@ -31,31 +35,57 @@ export function register(config) {
   }
 }
 
+// Get the Workbox instance for external use
+export function getWorkbox() {
+  return wb;
+}
+
 function registerValidSW(swUrl, config) {
-  navigator.serviceWorker
-    .register(swUrl)
+  wb = new Workbox(swUrl);
+
+  // Event: Service worker activated for the first time
+  wb.addEventListener('activated', event => {
+    // Content is cached for offline use
+    if (config && config.onSuccess) {
+      config.onSuccess(wb);
+    }
+    
+    // Optional: Track version
+    if (!event.isUpdate) {
+      console.log('Service worker activated for the first time!');
+    }
+  });
+
+  // Event: A new service worker has installed but is waiting to activate
+  wb.addEventListener('waiting', event => {
+    console.log('A new service worker has installed, but it cannot activate until all tabs running the current version have been closed.');
+    
+    // Notify the app that an update is available
+    if (config && config.onUpdate) {
+      config.onUpdate(wb);
+    }
+  });
+
+  // Event: Service worker has been updated and activated
+  wb.addEventListener('controlling', event => {
+    console.log('Service worker is now controlling the page.');
+    
+    // Reload the page to use the new version
+    window.location.reload();
+  });
+
+  // Check for updates periodically (every hour)
+  setInterval(() => {
+    wb.update();
+  }, 60 * 60 * 1000); // 1 hour
+
+  // Register the service worker
+  wb.register()
     .then(registration => {
-      registration.onupdatefound = () => {
-        const installingWorker = registration.installing;
-        if (installingWorker == null) {
-          return;
-        }
-        installingWorker.onstatechange = () => {
-          if (installingWorker.state === "installed") {
-            if (navigator.serviceWorker.controller) {
-              // New content is available
-              if (config && config.onUpdate) {
-                config.onUpdate(registration);
-              }
-            } else {
-              // Content cached for offline use
-              if (config && config.onSuccess) {
-                config.onSuccess(registration);
-              }
-            }
-          }
-        };
-      };
+      console.log('Service worker registered successfully');
+      
+      // Check for updates immediately on registration
+      registration.update();
     })
     .catch(error => {
       console.error("Error during service worker registration:", error);

@@ -16,9 +16,39 @@ import MenuPage from "./components/MenuPage";
 import SharePage from "./components/SharePage";
 import AdminLogin from "./components/AdminLogin";
 import AdminPanel from "./components/AdminPanel";
+import UpdateNotification from "./components/UpdateNotification";
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
+  const [workbox, setWorkbox] = useState(null);
+
+  // Listen for workbox to be set by index.js
+  React.useEffect(() => {
+    if (window.workbox) {
+      setWorkbox(window.workbox);
+    }
+
+    // Listen for workbox ready and update events
+    const handleWorkboxReady = () => {
+      if (window.workbox) {
+        setWorkbox(window.workbox);
+      }
+    };
+
+    const handleWorkboxUpdate = () => {
+      if (window.workbox) {
+        setWorkbox(window.workbox);
+      }
+    };
+
+    window.addEventListener('workboxReady', handleWorkboxReady);
+    window.addEventListener('workboxUpdate', handleWorkboxUpdate);
+
+    return () => {
+      window.removeEventListener('workboxReady', handleWorkboxReady);
+      window.removeEventListener('workboxUpdate', handleWorkboxUpdate);
+    };
+  }, []);
 
   // Combine appetizers with dinner and lunch menus
   const fullDinnerData = [...appetizersData, ...dinnerData, ...pastaData];
@@ -151,6 +181,9 @@ function App() {
       <footer className="app-footer">
         <small>VIA Italian Table · Interactive Menu PWA · Demo starter</small>
       </footer>
+
+      {/* Update notification - shows when new version available */}
+      <UpdateNotification workbox={workbox} />
     </div>
   );
 }

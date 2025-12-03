@@ -1,6 +1,6 @@
 {
   "name": "via-menu-pwa",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "homepage": "https://CptNope.github.io/Via-Menu-Guide",
   "dependencies": {
@@ -17,11 +17,15 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "generate-icons": "node generate-icons.js"
+    "generate-icons": "node generate-icons.js",
+    "bump-version": "node scripts/bump-version.js",
+    "version": "npm run bump-version && git add src/service-worker.js"
   },
   "devDependencies": {
     "gh-pages": "^6.1.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "workbox-webpack-plugin": "^7.4.0",
+    "workbox-window": "^7.4.0"
   },
   "browserslist": {
     "production": [

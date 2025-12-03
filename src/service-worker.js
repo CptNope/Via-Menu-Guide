@@ -6,7 +6,7 @@ import { registerRoute } from 'workbox-routing';
 import { StaleWhileRevalidate, CacheFirst, NetworkFirst } from 'workbox-strategies';
 
 // Version management - increment this with each deployment
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.0.1';
 const CACHE_VERSION = 'v1';
 
 clientsClaim();

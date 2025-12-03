@@ -18,6 +18,7 @@ import AdminLogin from "./components/AdminLogin";
 import AdminPanel from "./components/AdminPanel";
 import UpdateNotification from "./components/UpdateNotification";
 import TipTracker from "./components/TipTracker";
+import GlobalSearch from "./components/GlobalSearch";
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
@@ -58,6 +59,15 @@ function App() {
   // Combine desserts with individual gelato/sorbetto items
   const fullDessertData = [...dessertData, ...gelatoData];
 
+  // Menu data for search
+  const allMenuData = {
+    dinner: fullDinnerData,
+    lunch: fullLunchData,
+    dessert: fullDessertData,
+    kids: kidsData,
+    drinks: drinksData
+  };
+
   return (
     <div className="app">
       <header className="app-header">
@@ -65,6 +75,7 @@ function App() {
           <span className="brand-main">VIA</span>
           <span className="brand-sub">Italian Table</span>
         </div>
+        <GlobalSearch menuData={allMenuData} />
         <nav className="nav">
           <NavLink to="/dinner" className="nav-link">
             Dinner

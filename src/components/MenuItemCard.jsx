@@ -41,7 +41,7 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   }, [item.allergens]);
 
   return (
-    <article className="menu-item-card">
+    <article className="menu-item-card" id={`menu-item-${item.id}`}>
       <div className="menu-item-header">
         <div className="menu-item-name">
           {item.name}

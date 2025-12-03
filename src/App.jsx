@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
-import { FiShield, FiHome, FiShare2 } from "react-icons/fi";
+import { FiShield, FiHome, FiShare2, FiDollarSign } from "react-icons/fi";
 import "./App.css";
 
 import appetizersData from "./data/appetizers.json";
@@ -17,6 +17,7 @@ import SharePage from "./components/SharePage";
 import AdminLogin from "./components/AdminLogin";
 import AdminPanel from "./components/AdminPanel";
 import UpdateNotification from "./components/UpdateNotification";
+import TipTracker from "./components/TipTracker";
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
@@ -79,6 +80,9 @@ function App() {
           </NavLink>
           <NavLink to="/drinks" className="nav-link">
             Drinks
+          </NavLink>
+          <NavLink to="/tips" className="nav-link icon-link">
+            <FiDollarSign /> Tips
           </NavLink>
           <NavLink to="/share" className="nav-link icon-link">
             <FiShare2 /> Share
@@ -146,6 +150,10 @@ function App() {
                 showKidsFilter={false}
               />
             }
+          />
+          <Route
+            path="/tips"
+            element={<TipTracker />}
           />
           <Route
             path="/share"

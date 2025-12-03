@@ -1387,8 +1387,10 @@
     "id": "casa-mopolitan",
     "name": "Casa-Mopolitan",
     "description": "Tito's Vodka, Triple Sec, Cranberry, Fresh Lime",
+    "garnish": "Lemon twist",
     "price": 14,
     "category": "Signature Cocktails",
+    "website": "https://www.titosvodka.com/",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1400,7 +1402,7 @@
       "lime"
     ],
     "allergens": [],
-    "serverNotes": "CHARITY COCKTAIL: Tito's Handmade Vodka is donating $1 per specialty cocktail up to $10K from Nov. 1, 2025–Jan. 31, 2026, to CASA Project Worcester County. Classic cosmopolitan twist with Tito's vodka, triple sec, cranberry juice, and fresh lime. Bright, tart, and refreshing. CASA supports children in foster care—every order helps a great cause. Perfect for guests who love classic cocktails with a purpose. The name cleverly combines CASA with cosmopolitan. Pairs wonderfully with appetizers, salads, and light dishes. Mention the charity aspect to guests—it's a feel-good order. Popular choice for celebrations and doing good.",
+    "serverNotes": "💖 CHARITY COCKTAIL: [Tito's Handmade Vodka](https://www.titosvodka.com/) is donating $1 per cocktail up to $10K (Nov 1, 2025-Jan 31, 2026) to CASA Project Worcester County. Every order helps kids in foster care!\n\n🍸 PROFILE: Classic Cosmopolitan | Tito's vodka, triple sec, cranberry & fresh lime | Bright, tart & refreshing | Garnished with lemon twist | The name cleverly combines CASA with cosmopolitan!\n\n🍽️ PAIRS WITH: Appetizers, salads, light Italian fare, celebration meals.\n\n💡 SERVING TIP: Serve chilled in martini glass. Mention the charity—it's a feel-good order! Perfect for guests who love classics with a purpose.",
     "flavorProfile": {
       "sweetness": 4,
       "acidity": 7,
@@ -1430,6 +1432,7 @@
     "garnish": "Lime",
     "price": 14,
     "category": "Signature Cocktails",
+    "website": "https://www.micampotequila.com/",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1442,7 +1445,7 @@
       "maple"
     ],
     "allergens": [],
-    "serverNotes": "Elevated twist on the classic Paloma with Mi Campo Blanco tequila, fresh lime, house-made cinnamon maple syrup, and grapefruit. Bright, refreshing with warm spice notes. The cinnamon maple syrup adds unique complexity and warmth. Fresh grapefruit provides citrus bitterness. Perfect for tequila lovers seeking something beyond a standard margarita. Great year-round but especially popular in fall/winter. Pairs wonderfully with Mexican dishes, seafood, tacos, and spicy appetizers. Beautiful golden color. Popular choice for brunch or happy hour.",
+    "serverNotes": "🌅 ABOUT: Elevated Paloma featuring [Mi Campo Blanco](https://www.micampotequila.com/) tequila (100% Blue Weber agave). Craft tequila from Jalisco, Mexico!\n\n🍸 PROFILE: Paloma Reimagined | Mi Campo Blanco, fresh lime, house-made cinnamon maple syrup & grapefruit | Bright citrus with warm spice notes | Beautiful golden color | The cinnamon maple adds autumn complexity!\n\n🍽️ PAIRS WITH: Mexican dishes, seafood, tacos, spicy appetizers, fish dishes.\n\n💡 SERVING TIP: Serve in rocks glass over ice. Perfect for tequila lovers seeking beyond margaritas! Great year-round, especially fall/winter. Popular brunch & happy hour choice!",
     "flavorProfile": {
       "sweetness": 5,
       "acidity": 7,
@@ -1472,6 +1475,7 @@
     "garnish": "Lemon twist",
     "price": 14,
     "category": "Signature Cocktails",
+    "website": "https://treehousebrewing.com/",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1483,7 +1487,7 @@
       "lemon"
     ],
     "allergens": [],
-    "serverNotes": "Elegant autumnal cocktail with Tree House vodka, spiced pear liqueur, vanilla, and fresh lemon. Smooth, sophisticated, and seasonally inspired. The spiced pear liqueur brings warm baking spices with fruit character. Vanilla adds creamy sweetness. Lemon provides bright balance. Perfect for guests who enjoy fruit-forward cocktails with depth. Great fall/winter choice but enjoyed year-round. Pairs wonderfully with cheese plates, pork dishes, autumn salads, and desserts. Beautiful presentation. Popular choice for those seeking something unique and elegant.",
+    "serverNotes": "🍐 ABOUT: Elegant autumnal cocktail featuring [Tree House Vodka](https://treehousebrewing.com/) from Massachusetts. Known for their world-class IPA, now crafting premium spirits!\n\n🍸 PROFILE: Fruit-Forward & Sophisticated | Tree House vodka, spiced pear liqueur, vanilla & fresh lemon | Smooth with warm baking spices | Lemon twist garnish | Vanilla adds creamy sweetness!\n\n🍽️ PAIRS WITH: Cheese plates, pork dishes, autumn salads, desserts.\n\n💡 SERVING TIP: Serve chilled in coupe glass. Perfect for guests who enjoy unique fruit cocktails with depth! Great fall/winter choice but enjoyed year-round. Beautiful presentation!",
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 6,
@@ -1513,6 +1517,7 @@
     "garnish": "Brûléed lime",
     "price": 14,
     "category": "Signature Cocktails",
+    "website": "https://www.drumshanbo.com/",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1525,7 +1530,7 @@
       "sugar"
     ],
     "allergens": [],
-    "serverNotes": "Vibrant Brazilian-inspired cocktail with Drumshanbo pineapple gin, exotic yuzu citrus, fresh lime, and bruleed lime garnish. Tropical, citrus-forward, and festive. Yuzu adds unique Japanese citrus character—think lemon meets mandarin. The bruleed lime creates a stunning caramelized presentation. Perfect for adventurous guests who love tropical flavors with sophistication. Great celebration cocktail or warm weather choice. Pairs wonderfully with spicy dishes, ceviche, Thai food, and tropical desserts. The name captures the festive carnival spirit.",
+    "serverNotes": "🎉 ABOUT: Brazilian-inspired cocktail featuring [Drumshanbo Gunpowder Gin](https://www.drumshanbo.com/) with pineapple. Irish gin infused with tropical botanicals from Brazil!\n\n🍸 PROFILE: Tropical & Festive | Drumshanbo pineapple gin, exotic yuzu (Japanese citrus), fresh lime & cane sugar | Brûléed lime garnish creates stunning presentation | Yuzu = lemon meets mandarin!\n\n🍽️ PAIRS WITH: Spicy dishes, ceviche, Thai food, tropical desserts.\n\n💡 SERVING TIP: Serve in rocks glass with brûléed lime. Perfect for adventurous guests who love tropical with sophistication! Great celebration cocktail or warm weather choice. The name captures carnival spirit!",
     "flavorProfile": {
       "sweetness": 5,
       "acidity": 8,
@@ -1567,7 +1572,7 @@
       "prosecco"
     ],
     "allergens": [],
-    "serverNotes": "Fun, fruity signature cocktail with blueberry vodka, lemon sorbet, pineapple, and Prosecco float. Light, refreshing, and Instagram-worthy. The sorbet creates a beautiful layered effect while keeping it cold. Prosecco float adds elegant bubbles on top. Perfect for guests who want something sweet, fun, and not too strong. Great celebration drink or warm weather choice. Blueberry and pineapple create a berry-tropical fusion. Pairs wonderfully with brunch dishes, fruit desserts, light salads, and appetizers. Also available as a Mocktail for $10. Crowd-pleasing choice that's approachable and delicious.",
+    "serverNotes": "💙 ABOUT: Fun, fruity Instagram-worthy cocktail! Blueberry vodka, lemon sorbet, pineapple with Prosecco float. Light, refreshing & celebration-ready! Also available as Mocktail ($10).\n\n🍸 PROFILE: Berry-Tropical Fusion | Blueberry vodka, lemon sorbet, pineapple & Prosecco float | Beautiful layered effect | Elegant bubbles on top | Sweet, fun & not too strong!\n\n🍽️ PAIRS WITH: Brunch dishes, fruit desserts, light salads, appetizers.\n\n💡 SERVING TIP: Serve in tall glass with layers. The sorbet keeps it cold while creating visual appeal! Perfect for celebrations or warm weather. Crowd-pleasing & approachable!",
     "flavorProfile": {
       "sweetness": 7,
       "acidity": 6,
@@ -1598,6 +1603,7 @@
     "garnish": "Lime",
     "price": 14,
     "category": "Signature Cocktails",
+    "website": "https://ghosttequila.com/",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1610,7 +1616,7 @@
       "lime"
     ],
     "allergens": [],
-    "serverNotes": "Bold, spicy-sweet signature cocktail with Ghost tequila, fresh mango, jalapeño, pineapple, and lime. Tropical heat that balances sweet and spicy perfectly. The jalapeño adds real kick—great for guests who love spice. Ghost tequila brings smooth agave character. Mango and pineapple provide tropical sweetness to balance the heat. Perfect for adventurous drinkers and spicy food lovers. Great with Mexican dishes, spicy appetizers, wings, or bold flavors. The name captures the sweet fire. Ask guests about spice tolerance before recommending. Popular choice for tequila enthusiasts.",
+    "serverNotes": "🔥 ABOUT: Bold spicy-sweet cocktail featuring [Ghost Tequila](https://ghosttequila.com/)—smooth 100% Blue Weber agave from Jalisco, Mexico. For spice lovers!\n\n🍸 PROFILE: Tropical Heat | Ghost tequila, fresh mango, jalapeño, pineapple & lime | Sweet fire perfectly balanced | Real jalapeño kick! | Mango & pineapple cool the heat!\n\n🍽️ PAIRS WITH: Mexican dishes, spicy appetizers, wings, bold flavors.\n\n💡 SERVING TIP: Ask guests about spice tolerance first! Serve in rocks glass with lime. Perfect for adventurous drinkers & spicy food lovers. The name captures the sweet fire! Popular choice for tequila enthusiasts.",
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 7,
@@ -1640,6 +1646,7 @@
     "garnish": "3 coffee beans",
     "price": 14,
     "category": "Signature Cocktails",
+    "website": "https://www.bepitossolini.it/",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1652,7 +1659,7 @@
     "allergens": [
       "dairy"
     ],
-    "serverNotes": "Classic espresso martini with vanilla vodka, espresso liqueur, house-brewed fresh espresso, and splash of cream. Rich, caffeinated, and indulgent. Perfect after-dinner cocktail that's both dessert and pick-me-up. The vanilla vodka adds subtle sweetness. Fresh espresso creates authentic coffee flavor—not artificial. Beautiful foam on top from shaking. Great for coffee lovers who want an elegant finish to their meal. Pairs wonderfully with tiramisu, chocolate desserts, cannoli, and Italian sweets. Popular choice for late dinners or those who want energy with elegance. Contains caffeine—mention to guests.",
+    "serverNotes": "☕ ABOUT: Classic espresso martini featuring [Bepi Tossolini Espresso Liqueur](https://www.bepitossolini.it/) from Italy + house-brewed fresh espresso. Both dessert & pick-me-up! ⚠️ Contains caffeine.\n\n🍸 PROFILE: Rich & Caffeinated | Vanilla vodka, Bepi Tossolini liqueur, fresh espresso & splash of cream | Beautiful foam on top | Authentic coffee flavor—not artificial! | 3 coffee bean garnish!\n\n🍽️ PAIRS WITH: Tiramisu, chocolate desserts, cannoli, Italian sweets.\n\n💡 SERVING TIP: Shake vigorously for foam! Serve in martini glass. Perfect after-dinner for coffee lovers who want elegant finish. Popular for late dinners or energy with elegance! Mention caffeine to guests.",
     "flavorProfile": {
       "sweetness": 5,
       "acidity": 3,
@@ -1683,6 +1690,7 @@
     "garnish": "Brûléed lime",
     "price": 14,
     "category": "Signature Cocktails",
+    "website": "https://bribontequila.com/",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1694,7 +1702,7 @@
       "wine"
     ],
     "allergens": [],
-    "serverNotes": "Creative signature margarita with Bribon reposado tequila, fresh lime, agave nectar, and Shiraz wine float. Unique twist on classic margarita. The red wine float creates a beautiful ombre effect and adds depth. Reposado tequila brings oak character. Bruleed lime garnish adds caramelized presentation. Perfect for tequila lovers who want something different. Great conversation starter. Pairs wonderfully with Mexican dishes, grilled meats, spicy appetizers, and bold flavors. The name means 'my house, your house'—welcoming and shareable. Popular choice for margarita fans seeking innovation.",
+    "serverNotes": "🏠 ABOUT: Creative margarita featuring [Bribon Reposado](https://bribontequila.com/) tequila (oak-aged 100% agave from Jalisco). Means 'my house, your house'—welcoming & shareable!\n\n🍸 PROFILE: Margarita Reimagined | Bribon reposado, fresh lime, agave nectar & Shiraz wine float | Beautiful ombre effect! | Oak character from reposado | Brûléed lime adds caramelized wow!\n\n🍽️ PAIRS WITH: Mexican dishes, grilled meats, spicy appetizers, bold flavors.\n\n💡 SERVING TIP: Serve in rocks glass. The red wine float adds depth & visual drama! Great conversation starter. Perfect for tequila lovers seeking innovation beyond standard margaritas. Popular with margarita fans!",
     "flavorProfile": {
       "sweetness": 4,
       "acidity": 7,

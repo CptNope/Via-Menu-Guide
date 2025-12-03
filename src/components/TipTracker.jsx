@@ -128,10 +128,10 @@ function TipTracker() {
         <div className="summary-card total">
           <div className="card-icon">💵</div>
           <div className="card-content">
-            <div className="card-label">Total Tips</div>
-            <div className="card-value">${totals.totalTips.toFixed(2)}</div>
+            <div className="card-label">Cash Walked With</div>
+            <div className="card-value">${totals.cashWalked.toFixed(2)}</div>
             <div className="card-breakdown">
-              Cash: ${totals.cashTips.toFixed(2)} | Credit: ${totals.creditTips.toFixed(2)}
+              Total CC Tips: ${totals.yourCCTips.toFixed(2)}
             </div>
           </div>
         </div>
@@ -139,12 +139,12 @@ function TipTracker() {
         <div className="summary-card exchange">
           <div className="card-icon">🤝</div>
           <div className="card-content">
-            <div className="card-label">Partner Exchange</div>
-            <div className={`card-value ${totals.netExchange >= 0 ? 'positive' : 'negative'}`}>
-              {totals.netExchange >= 0 ? '+' : ''}${totals.netExchange.toFixed(2)}
+            <div className="card-label">CC Tips Exchange</div>
+            <div className={`card-value ${totals.netCCExchange >= 0 ? 'positive' : 'negative'}`}>
+              {totals.netCCExchange >= 0 ? '+' : ''}${totals.netCCExchange.toFixed(2)}
             </div>
             <div className="card-breakdown">
-              Received: ${totals.receivedFromPartner.toFixed(2)} | Sent: ${totals.sentToPartner.toFixed(2)}
+              Received: ${totals.ccReceived.toFixed(2)} | Sent: ${totals.ccSent.toFixed(2)}
             </div>
           </div>
         </div>
@@ -239,9 +239,11 @@ function TipTracker() {
         ) : (
           <div className="entries-list">
             {filteredTips.map(tip => {
-              const tipTotal = (parseFloat(tip.cashTips) || 0) + (parseFloat(tip.creditTips) || 0);
-              const netExchange = (parseFloat(tip.receivedFromPartner) || 0) - (parseFloat(tip.sentToPartner) || 0);
-              const netIncome = tipTotal + netExchange;
+              const cashWalked = parseFloat(tip.cashWalkedWith) || 0;
+              const yourCC = parseFloat(tip.yourCreditTips) || 0;
+              const ccSent = parseFloat(tip.ccTipsSent) || 0;
+              const ccReceived = parseFloat(tip.ccTipsReceived) || 0;
+              const netIncome = cashWalked + ccReceived - ccSent;
               const duration = calculateShiftDuration(tip.startTime, tip.endTime);
               const hourlyRate = duration > 0 ? netIncome / duration : 0;
 
@@ -260,9 +262,14 @@ function TipTracker() {
                         </div>
                       )}
                     </div>
-                    {tip.partner && (
-                      <div className="entry-partner">Partner: {tip.partner}</div>
-                    )}
+                    <div className="entry-meta">
+                      {tip.teamSize && (
+                        <div className="entry-team">Team: {tip.teamSize} {tip.teamSize === '1' ? 'person' : 'people'}</div>
+                      )}
+                      {tip.partners && (
+                        <div className="entry-partner">Partners: {tip.partners}</div>
+                      )}
+                    </div>
                     <div className="entry-actions">
                       <button onClick={() => handleEditTip(tip)} className="btn-icon" title="Edit">
                         ✏️
@@ -275,26 +282,28 @@ function TipTracker() {
 
                   <div className="entry-details">
                     <div className="detail-row">
-                      <span className="detail-label">Cash Tips:</span>
-                      <span className="detail-value">${(parseFloat(tip.cashTips) || 0).toFixed(2)}</span>
+                      <span className="detail-label">Cash Walked With:</span>
+                      <span className="detail-value">${cashWalked.toFixed(2)}</span>
                     </div>
-                    <div className="detail-row">
-                      <span className="detail-label">Credit Tips:</span>
-                      <span className="detail-value">${(parseFloat(tip.creditTips) || 0).toFixed(2)}</span>
-                    </div>
-                    {(tip.sentToPartner || tip.receivedFromPartner) && (
+                    {yourCC > 0 && (
+                      <div className="detail-row">
+                        <span className="detail-label">Your CC Tips:</span>
+                        <span className="detail-value">${yourCC.toFixed(2)}</span>
+                      </div>
+                    )}
+                    {(ccSent > 0 || ccReceived > 0) && (
                       <>
                         <div className="detail-divider"></div>
-                        {tip.sentToPartner && (
+                        {ccSent > 0 && (
                           <div className="detail-row exchange">
-                            <span className="detail-label">Sent to Partner:</span>
-                            <span className="detail-value negative">-${(parseFloat(tip.sentToPartner) || 0).toFixed(2)}</span>
+                            <span className="detail-label">CC Tips Sent:</span>
+                            <span className="detail-value negative">-${ccSent.toFixed(2)}</span>
                           </div>
                         )}
-                        {tip.receivedFromPartner && (
+                        {ccReceived > 0 && (
                           <div className="detail-row exchange">
-                            <span className="detail-label">Received from Partner:</span>
-                            <span className="detail-value positive">+${(parseFloat(tip.receivedFromPartner) || 0).toFixed(2)}</span>
+                            <span className="detail-label">CC Tips Received:</span>
+                            <span className="detail-value positive">+${ccReceived.toFixed(2)}</span>
                           </div>
                         )}
                       </>

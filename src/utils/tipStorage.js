@@ -98,21 +98,24 @@ export function getTipsByYear(year) {
  */
 export function calculateTotals(tips) {
   return tips.reduce((totals, tip) => {
-    totals.cashTips += parseFloat(tip.cashTips) || 0;
-    totals.creditTips += parseFloat(tip.creditTips) || 0;
-    totals.sentToPartner += parseFloat(tip.sentToPartner) || 0;
-    totals.receivedFromPartner += parseFloat(tip.receivedFromPartner) || 0;
-    totals.totalTips = totals.cashTips + totals.creditTips;
-    totals.netExchange = totals.receivedFromPartner - totals.sentToPartner;
-    totals.netIncome = totals.totalTips + totals.netExchange;
+    const cashWalked = parseFloat(tip.cashWalkedWith) || 0;
+    const yourCC = parseFloat(tip.yourCreditTips) || 0;
+    const ccSent = parseFloat(tip.ccTipsSent) || 0;
+    const ccReceived = parseFloat(tip.ccTipsReceived) || 0;
+    
+    totals.cashWalked += cashWalked;
+    totals.yourCCTips += yourCC;
+    totals.ccSent += ccSent;
+    totals.ccReceived += ccReceived;
+    totals.netCCExchange = totals.ccReceived - totals.ccSent;
+    totals.netIncome = totals.cashWalked + totals.ccReceived - totals.ccSent;
     return totals;
   }, {
-    cashTips: 0,
-    creditTips: 0,
-    sentToPartner: 0,
-    receivedFromPartner: 0,
-    totalTips: 0,
-    netExchange: 0,
+    cashWalked: 0,
+    yourCCTips: 0,
+    ccSent: 0,
+    ccReceived: 0,
+    netCCExchange: 0,
     netIncome: 0
   });
 }
@@ -123,10 +126,19 @@ export function calculateTotals(tips) {
  */
 export function getAllPartners() {
   const tips = getAllTips();
-  const partners = tips
-    .map(tip => tip.partner)
-    .filter(partner => partner && partner.trim() !== '');
-  return [...new Set(partners)].sort();
+  const partnersSet = new Set();
+  
+  tips.forEach(tip => {
+    if (tip.partners && tip.partners.trim() !== '') {
+      // Split by comma and add each partner
+      const partnerList = tip.partners.split(',').map(p => p.trim());
+      partnerList.forEach(p => {
+        if (p) partnersSet.add(p);
+      });
+    }
+  });
+  
+  return Array.from(partnersSet).sort();
 }
 
 /**

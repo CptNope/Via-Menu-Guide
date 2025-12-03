@@ -31,12 +31,11 @@ export function calculateShiftDuration(startTime, endTime) {
  * @returns {number} Net income
  */
 export function calculateNetIncome(tip) {
-  const cashTips = parseFloat(tip.cashTips) || 0;
-  const creditTips = parseFloat(tip.creditTips) || 0;
-  const sentToPartner = parseFloat(tip.sentToPartner) || 0;
-  const receivedFromPartner = parseFloat(tip.receivedFromPartner) || 0;
+  const cashWalked = parseFloat(tip.cashWalkedWith) || 0;
+  const ccReceived = parseFloat(tip.ccTipsReceived) || 0;
+  const ccSent = parseFloat(tip.ccTipsSent) || 0;
   
-  return cashTips + creditTips + receivedFromPartner - sentToPartner;
+  return cashWalked + ccReceived - ccSent;
 }
 
 /**

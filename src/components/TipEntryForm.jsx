@@ -8,11 +8,12 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
     date: new Date().toISOString().split('T')[0],
     startTime: '',
     endTime: '',
-    cashTips: '',
-    creditTips: '',
-    partner: '',
-    sentToPartner: '',
-    receivedFromPartner: '',
+    cashWalkedWith: '',
+    yourCreditTips: '',
+    partners: '',
+    ccTipsSent: '',
+    ccTipsReceived: '',
+    teamSize: '2',
     notes: ''
   });
 
@@ -23,11 +24,12 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
         date: editingTip.date,
         startTime: editingTip.startTime || '',
         endTime: editingTip.endTime || '',
-        cashTips: editingTip.cashTips || '',
-        creditTips: editingTip.creditTips || '',
-        partner: editingTip.partner || '',
-        sentToPartner: editingTip.sentToPartner || '',
-        receivedFromPartner: editingTip.receivedFromPartner || '',
+        cashWalkedWith: editingTip.cashWalkedWith || '',
+        yourCreditTips: editingTip.yourCreditTips || '',
+        partners: editingTip.partners || '',
+        ccTipsSent: editingTip.ccTipsSent || '',
+        ccTipsReceived: editingTip.ccTipsReceived || '',
+        teamSize: editingTip.teamSize || '2',
         notes: editingTip.notes || ''
       });
     }
@@ -45,7 +47,7 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
     e.preventDefault();
     
     // Validate at least one field is filled
-    if (!formData.cashTips && !formData.creditTips && !formData.sentToPartner && !formData.receivedFromPartner) {
+    if (!formData.cashWalkedWith && !formData.yourCreditTips && !formData.ccTipsSent && !formData.ccTipsReceived) {
       alert('Please enter at least one value');
       return;
     }
@@ -58,11 +60,12 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
         date: new Date().toISOString().split('T')[0],
         startTime: '',
         endTime: '',
-        cashTips: '',
-        creditTips: '',
-        partner: '',
-        sentToPartner: '',
-        receivedFromPartner: '',
+        cashWalkedWith: '',
+        yourCreditTips: '',
+        partners: '',
+        ccTipsSent: '',
+        ccTipsReceived: '',
+        teamSize: '2',
         notes: ''
       });
     }
@@ -85,9 +88,13 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
     return hours;
   };
 
-  const totalTips = (parseFloat(formData.cashTips) || 0) + (parseFloat(formData.creditTips) || 0);
-  const netExchange = (parseFloat(formData.receivedFromPartner) || 0) - (parseFloat(formData.sentToPartner) || 0);
-  const netIncome = totalTips + netExchange;
+  const cashWalked = parseFloat(formData.cashWalkedWith) || 0;
+  const yourCC = parseFloat(formData.yourCreditTips) || 0;
+  const ccSent = parseFloat(formData.ccTipsSent) || 0;
+  const ccReceived = parseFloat(formData.ccTipsReceived) || 0;
+  
+  // Net Income = Cash you keep + CC tips received - CC tips sent
+  const netIncome = cashWalked + ccReceived - ccSent;
   const duration = calculateDuration();
   const hourlyRate = duration > 0 ? netIncome / duration : 0;
 
@@ -109,15 +116,32 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
         </div>
 
         <div className="form-group">
-          <label htmlFor="partner">Partner</label>
+          <label htmlFor="teamSize">Team Size</label>
+          <select
+            id="teamSize"
+            name="teamSize"
+            value={formData.teamSize}
+            onChange={handleChange}
+          >
+            <option value="1">Solo (1 person)</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+          </select>
+        </div>
+      </div>
+
+      <div className="form-row">
+        <div className="form-group">
+          <label htmlFor="partners">Partner Names (optional)</label>
           <input
             type="text"
-            id="partner"
-            name="partner"
-            value={formData.partner}
+            id="partners"
+            name="partners"
+            value={formData.partners}
             onChange={handleChange}
             list="partner-list"
-            placeholder="Partner name"
+            placeholder="e.g., John, Sarah"
           />
           <datalist id="partner-list">
             {partners.map((p, idx) => (
@@ -160,15 +184,18 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
       )}
 
       <div className="form-section">
-        <h4>💵 Tips Earned</h4>
+        <h4>💵 Your Tips</h4>
         <div className="form-row">
           <div className="form-group">
-            <label htmlFor="cashTips">Cash Tips ($)</label>
+            <label htmlFor="cashWalkedWith">
+              Cash You're Walking With ($)
+              <span className="field-hint">Final cash amount you keep</span>
+            </label>
             <input
               type="number"
-              id="cashTips"
-              name="cashTips"
-              value={formData.cashTips}
+              id="cashWalkedWith"
+              name="cashWalkedWith"
+              value={formData.cashWalkedWith}
               onChange={handleChange}
               step="0.01"
               min="0"
@@ -177,12 +204,15 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
           </div>
 
           <div className="form-group">
-            <label htmlFor="creditTips">Credit Tips ($)</label>
+            <label htmlFor="yourCreditTips">
+              Your Total CC Tips ($)
+              <span className="field-hint">Before splitting</span>
+            </label>
             <input
               type="number"
-              id="creditTips"
-              name="creditTips"
-              value={formData.creditTips}
+              id="yourCreditTips"
+              name="yourCreditTips"
+              value={formData.yourCreditTips}
               onChange={handleChange}
               step="0.01"
               min="0"
@@ -190,23 +220,26 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
             />
           </div>
         </div>
-        {totalTips > 0 && (
+        {cashWalked > 0 && (
           <div className="form-calculation">
-            Total Tips: <strong>${totalTips.toFixed(2)}</strong>
+            Cash Walking With: <strong>${cashWalked.toFixed(2)}</strong>
           </div>
         )}
       </div>
 
       <div className="form-section">
-        <h4>🤝 Partner Exchange</h4>
+        <h4>🤝 CC Tips Exchange with Partners</h4>
         <div className="form-row">
           <div className="form-group">
-            <label htmlFor="sentToPartner">Sent to Partner ($)</label>
+            <label htmlFor="ccTipsSent">
+              CC Tips You Sent Out ($)
+              <span className="field-hint">From YOUR CC tips to partners</span>
+            </label>
             <input
               type="number"
-              id="sentToPartner"
-              name="sentToPartner"
-              value={formData.sentToPartner}
+              id="ccTipsSent"
+              name="ccTipsSent"
+              value={formData.ccTipsSent}
               onChange={handleChange}
               step="0.01"
               min="0"
@@ -215,12 +248,15 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
           </div>
 
           <div className="form-group">
-            <label htmlFor="receivedFromPartner">Received from Partner ($)</label>
+            <label htmlFor="ccTipsReceived">
+              CC Tips You Received ($)
+              <span className="field-hint">From partners' CC tips to you</span>
+            </label>
             <input
               type="number"
-              id="receivedFromPartner"
-              name="receivedFromPartner"
-              value={formData.receivedFromPartner}
+              id="ccTipsReceived"
+              name="ccTipsReceived"
+              value={formData.ccTipsReceived}
               onChange={handleChange}
               step="0.01"
               min="0"
@@ -228,10 +264,10 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
             />
           </div>
         </div>
-        {(formData.sentToPartner || formData.receivedFromPartner) && (
+        {(ccSent > 0 || ccReceived > 0) && (
           <div className="form-calculation">
-            Net Exchange: <strong className={netExchange >= 0 ? 'positive' : 'negative'}>
-              {netExchange >= 0 ? '+' : ''}{netExchange.toFixed(2)}
+            Net CC Exchange: <strong className={(ccReceived - ccSent) >= 0 ? 'positive' : 'negative'}>
+              {(ccReceived - ccSent) >= 0 ? '+' : ''}${(ccReceived - ccSent).toFixed(2)}
             </strong>
           </div>
         )}

@@ -6,6 +6,8 @@ import React, { useState, useEffect } from 'react';
 function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
   const [formData, setFormData] = useState({
     date: new Date().toISOString().split('T')[0],
+    startTime: '',
+    endTime: '',
     cashTips: '',
     creditTips: '',
     partner: '',
@@ -19,6 +21,8 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
     if (editingTip) {
       setFormData({
         date: editingTip.date,
+        startTime: editingTip.startTime || '',
+        endTime: editingTip.endTime || '',
         cashTips: editingTip.cashTips || '',
         creditTips: editingTip.creditTips || '',
         partner: editingTip.partner || '',
@@ -52,6 +56,8 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
     if (!editingTip) {
       setFormData({
         date: new Date().toISOString().split('T')[0],
+        startTime: '',
+        endTime: '',
         cashTips: '',
         creditTips: '',
         partner: '',
@@ -62,9 +68,28 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
     }
   };
 
+  // Calculate shift duration in hours
+  const calculateDuration = () => {
+    if (!formData.startTime || !formData.endTime) return 0;
+    
+    const start = new Date(`2000-01-01T${formData.startTime}`);
+    let end = new Date(`2000-01-01T${formData.endTime}`);
+    
+    // Handle overnight shifts
+    if (end < start) {
+      end = new Date(`2000-01-02T${formData.endTime}`);
+    }
+    
+    const diffMs = end - start;
+    const hours = diffMs / (1000 * 60 * 60);
+    return hours;
+  };
+
   const totalTips = (parseFloat(formData.cashTips) || 0) + (parseFloat(formData.creditTips) || 0);
   const netExchange = (parseFloat(formData.receivedFromPartner) || 0) - (parseFloat(formData.sentToPartner) || 0);
   const netIncome = totalTips + netExchange;
+  const duration = calculateDuration();
+  const hourlyRate = duration > 0 ? netIncome / duration : 0;
 
   return (
     <form className="tip-entry-form" onSubmit={handleSubmit}>
@@ -101,6 +126,38 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
           </datalist>
         </div>
       </div>
+
+      <div className="form-row">
+        <div className="form-group">
+          <label htmlFor="startTime">Start Time</label>
+          <input
+            type="time"
+            id="startTime"
+            name="startTime"
+            value={formData.startTime}
+            onChange={handleChange}
+            placeholder="HH:MM"
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="endTime">End Time</label>
+          <input
+            type="time"
+            id="endTime"
+            name="endTime"
+            value={formData.endTime}
+            onChange={handleChange}
+            placeholder="HH:MM"
+          />
+        </div>
+      </div>
+
+      {duration > 0 && (
+        <div className="form-calculation">
+          Shift Duration: <strong>{duration.toFixed(2)} hours</strong>
+        </div>
+      )}
 
       <div className="form-section">
         <h4>💵 Tips Earned</h4>
@@ -193,10 +250,18 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
       </div>
 
       {netIncome > 0 && (
-        <div className="form-total">
-          <span>Net Income:</span>
-          <strong>${netIncome.toFixed(2)}</strong>
-        </div>
+        <>
+          <div className="form-total">
+            <span>Net Income:</span>
+            <strong>${netIncome.toFixed(2)}</strong>
+          </div>
+          {hourlyRate > 0 && (
+            <div className="form-hourly">
+              <span>Hourly Rate:</span>
+              <strong>${hourlyRate.toFixed(2)}/hr</strong>
+            </div>
+          )}
+        </>
       )}
 
       <div className="form-actions">

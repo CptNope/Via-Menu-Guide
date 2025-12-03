@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import TipEntryForm from './TipEntryForm';
+import TipAnalytics from './TipAnalytics';
 import './TipTracker.css';
 import {
   getAllTips,
@@ -13,6 +14,7 @@ import {
   importTips,
   clearAllTips
 } from '../utils/tipStorage';
+import { calculateShiftDuration } from '../utils/tipAnalytics';
 
 function TipTracker() {
   const [tips, setTips] = useState([]);
@@ -218,6 +220,11 @@ function TipTracker() {
         </div>
       )}
 
+      {/* Analytics & Averages */}
+      {filteredTips.length > 0 && (
+        <TipAnalytics tips={filteredTips} />
+      )}
+
       {/* Tip Entries List */}
       <div className="tip-entries">
         <h2>Entries for {selectedYear}</h2>
@@ -235,6 +242,8 @@ function TipTracker() {
               const tipTotal = (parseFloat(tip.cashTips) || 0) + (parseFloat(tip.creditTips) || 0);
               const netExchange = (parseFloat(tip.receivedFromPartner) || 0) - (parseFloat(tip.sentToPartner) || 0);
               const netIncome = tipTotal + netExchange;
+              const duration = calculateShiftDuration(tip.startTime, tip.endTime);
+              const hourlyRate = duration > 0 ? netIncome / duration : 0;
 
               return (
                 <div key={tip.id} className="tip-entry-card">
@@ -245,6 +254,11 @@ function TipTracker() {
                         month: 'short', 
                         day: 'numeric' 
                       })}
+                      {duration > 0 && (
+                        <div className="entry-time">
+                          {tip.startTime} - {tip.endTime} ({duration.toFixed(1)}hrs)
+                        </div>
+                      )}
                     </div>
                     {tip.partner && (
                       <div className="entry-partner">Partner: {tip.partner}</div>
@@ -290,6 +304,12 @@ function TipTracker() {
                       <span className="detail-label">Net Income:</span>
                       <span className="detail-value highlight">${netIncome.toFixed(2)}</span>
                     </div>
+                    {hourlyRate > 0 && (
+                      <div className="detail-row hourly">
+                        <span className="detail-label">Hourly Rate:</span>
+                        <span className="detail-value hourly-rate">${hourlyRate.toFixed(2)}/hr</span>
+                      </div>
+                    )}
                   </div>
 
                   {tip.notes && (

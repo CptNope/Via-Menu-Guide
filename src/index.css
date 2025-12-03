@@ -35,3 +35,23 @@ ul {
   animation: highlightFlash 1s ease 2;
   scroll-margin-top: 80px; /* Offset for fixed header */
 }
+
+/* Gluten-free modification styles */
+.menu-item-card.can-be-gf-active {
+  border: 2px solid #dc3545;
+  box-shadow: 0 0 8px rgba(220, 53, 69, 0.3);
+}
+
+.gf-modification-banner {
+  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+  color: #856404;
+  padding: 10px 15px;
+  margin: -15px -15px 15px -15px;
+  border-bottom: 2px solid #ffc107;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px 8px 0 0;
+}

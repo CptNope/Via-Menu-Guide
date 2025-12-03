@@ -117,7 +117,7 @@ function MenuPage({ title, data }) {
       
       // Dietary filters
       if (filters.vegetarian && !item.vegetarian) return false;
-      if (filters.glutenFree && !item.glutenFree) return false;
+      if (filters.glutenFree && !(item.glutenFree || item.canBeMadeGlutenFree)) return false;
       if (filters.nutFree && !item.nutFree) return false;
       if (filters.dairyFree && item.allergens?.includes("dairy")) return false;
       if (filters.shellfishFree && item.allergens?.includes("shellfish")) return false;
@@ -236,6 +236,7 @@ function MenuPage({ title, data }) {
                   key={item.id} 
                   item={item} 
                   pairingPreferences={pairingPreferences}
+                  isGlutenFilterActive={filters.glutenFree}
                 />
               ))}
             </section>

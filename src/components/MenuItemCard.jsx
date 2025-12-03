@@ -8,7 +8,7 @@ import FoodPairingDisplay from "./FoodPairingDisplay.jsx";
 import BeveragePairingDisplay from "./BeveragePairingDisplay.jsx";
 import { usePairingData } from "../hooks/usePairingData.js";
 
-function MenuItemCard({ item, pairingPreferences = null }) {
+function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = false }) {
   
   // Use custom hook for all pairing data calculations
   const {
@@ -26,10 +26,11 @@ function MenuItemCard({ item, pairingPreferences = null }) {
     const tagList = [];
     if (item.vegetarian) tagList.push("Vegetarian");
     if (item.glutenFree) tagList.push("Gluten-free");
+    if (item.canBeMadeGlutenFree) tagList.push("Can be made GF");
     if (item.nutFree) tagList.push("Nut-free");
     if (item.kids) tagList.push("Kids");
     return tagList;
-  }, [item.vegetarian, item.glutenFree, item.nutFree, item.kids]);
+  }, [item.vegetarian, item.glutenFree, item.canBeMadeGlutenFree, item.nutFree, item.kids]);
 
   // Memoize allergen icons
   const allergenIcons = useMemo(() => {
@@ -41,7 +42,20 @@ function MenuItemCard({ item, pairingPreferences = null }) {
   }, [item.allergens]);
 
   return (
-    <article className="menu-item-card" id={`menu-item-${item.id}`}>
+    <article 
+      className={`menu-item-card ${item.canBeMadeGlutenFree && isGlutenFilterActive ? 'can-be-gf-active' : ''}`} 
+      id={`menu-item-${item.id}`}
+    >
+      {item.canBeMadeGlutenFree && isGlutenFilterActive && (
+        <div className="gf-modification-banner">
+          ⚠️ Can be made gluten-free upon request — 
+          {item.id.includes('pizzette') 
+            ? ' Substitute cauliflower-parm crust' 
+            : item.id.includes('chicken-parmesan') || item.id.includes('eggplant-parmesan') || item.id.includes('meatball')
+            ? ' Substitute GF penne & GF breading'
+            : ' Substitute GF penne'}
+        </div>
+      )}
       <div className="menu-item-header">
         <div className="menu-item-name">
           {item.name}

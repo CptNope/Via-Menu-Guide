@@ -2,11 +2,12 @@
   {
     "id": "kids-spaghetti-meatball",
     "name": "Kids Spaghetti & Meatball",
-    "description": "Spaghetti with tomato sauce and one meatball. Can be made GF with GF meatball and GF pasta.",
+    "description": "Spaghetti with tomato sauce and one meatball.",
     "price": 9.5,
     "category": "Kids",
     "vegetarian": false,
     "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
@@ -55,11 +56,12 @@
   {
     "id": "mac-and-cheese",
     "name": "Mac & Cheese",
-    "description": "Classic macaroni and cheese. Can substitute GF pasta.",
+    "description": "Classic macaroni and cheese.",
     "price": 5.99,
     "category": "Kids",
     "vegetarian": true,
     "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
@@ -74,11 +76,12 @@
   {
     "id": "cheese-pizzette",
     "name": "Cheese Pizzette",
-    "description": "Small cheese pizza. Can be made GF with cauliflower-parm crust.",
+    "description": "Small cheese pizza.",
     "price": 6.99,
     "category": "Kids",
     "vegetarian": true,
     "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
@@ -94,11 +97,12 @@
   {
     "id": "shrimp-scampi",
     "name": "Shrimp Scampi",
-    "description": "Pan seared shrimp in a garlic butter sauce served over mezzi rigatoni. Can substitute GF pasta.",
+    "description": "Pan seared shrimp in a garlic butter sauce served over mezzi rigatoni.",
     "price": 8.99,
     "category": "Kids",
     "vegetarian": false,
     "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
@@ -137,28 +141,31 @@
     "price": 8.99,
     "category": "Kids",
     "vegetarian": false,
-    "glutenFree": true,
+    "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [
       "chicken",
-      "GF-breadcrumbs",
-      "GF-spaghetti",
+      "breadcrumbs",
+      "spaghetti",
       "tomato-sauce",
       "cheese"
     ],
     "allergens": [
-      "dairy"
+      "dairy",
+      "gluten"
     ]
   },
   {
     "id": "three-mini-meatballs-spaghetti",
     "name": "Three Mini Meatballs & Spaghetti",
-    "description": "Topped with parmesan cheese. Can be made GF with GF meatballs and GF pasta.",
+    "description": "Topped with parmesan cheese.",
     "price": 6.99,
     "category": "Kids",
     "vegetarian": false,
     "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": true,
     "ingredients": [

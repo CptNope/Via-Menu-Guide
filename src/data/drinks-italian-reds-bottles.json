@@ -596,7 +596,7 @@
     "description": "DOCG, Tuscany, WS 91, 2019",
     "price": 65,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Elegant Tuscan Sangiovese from Montepulciano area. Cherry, plum, leather, and spice. Riserva = aged longer, more complex. Rated 91 pts. Pairs with roasted meats, game, mature cheese. Sophisticated alternative to Chianti or Brunello. DECANT 30-60 minutes to soften tannins and enhance complexity.",
+    "serverNotes": "📖 ABOUT: (carpineto.com) Premium Vino Nobile di Montepulciano Riserva from Carpineto. Aged longer than standard, more complex. Tuscan elegance from historic producer!\n\n🍷 STYLE: Full-bodied Riserva | Dark cherry, leather & spice | Structured tannins | Elegant Tuscan character | Age-worthy.\n\n🍽️ PAIRS WITH: Roasted meats, game, aged cheese, Tuscan classics.\n\n🍾 DECANTING: Recommended 30-60 minutes to soften tannins and enhance complexity.\n\n💡 BOTTLE SERVICE: Step-up from standard Vino Nobile. Riserva quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -631,7 +631,8 @@
         "leather",
         "spice"
       ]
-    }
+    },
+    "website": "https://www.carpineto.com/"
   },
   {
     "id": "san-marzano-62-anniversario-bottle",
@@ -640,7 +641,7 @@
     "description": "DOC, Puglia, WW 92, 2019",
     "price": 67,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Bold Primitivo (Italian Zinfandel) from southern Italy. Rated 92 pts. Full-bodied with ripe dark fruit, spice, chocolate. Rich, warm, powerful. Great with BBQ, grilled meats, hearty pasta, aged cheese. Excellent value for quality.",
+    "serverNotes": "📖 ABOUT: (sanmarzanowines.com) Bold Primitivo (Italian Zinfandel) from Puglia, southern Italy. Rated 92 pts. '62 Anniversario' celebrates the founding year. Full-bodied powerhouse!\n\n🍷 STYLE: Full-bodied Primitivo | Ripe dark fruit, spice & chocolate | Rich, warm, powerful | Southern Italian intensity.\n\n🍽️ PAIRS WITH: BBQ, grilled meats, hearty pasta, aged cheese, bold flavors.\n\n💡 BOTTLE SERVICE: Excellent value for quality. Crowd-pleasing southern Italian red!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -675,7 +676,8 @@
         "chocolate",
         "bold"
       ]
-    }
+    },
+    "website": "https://www.sanmarzanowines.com/"
   },
   {
     "id": "caparzo-brunello-bottle",
@@ -684,7 +686,7 @@
     "description": "DOCG, Tuscany, JS 95, 2019",
     "price": 72,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Classic Brunello from historic producer. 100% Sangiovese with dark cherry, leather, tobacco, herbs. Full-bodied, structured tannins, age-worthy. Highly rated (95 pts). Prestigious Tuscan wine. Pairs with bistecca, lamb, aged cheese. Special occasion choice. DECANT 1-2 hours before serving to open up concentrated flavors and soften structured tannins.",
+    "serverNotes": "👑 ABOUT: (caparzo.com) Classic Brunello di Montalcino from historic Caparzo producer. 100% Sangiovese rated 95 pts by James Suckling. Prestigious Tuscan DOCG!\n\n🍷 STYLE: Full-bodied Brunello | Dark cherry, leather, tobacco & herbs | Structured tannins, age-worthy | Highly rated excellence.\n\n🍽️ PAIRS WITH: Bistecca Fiorentina, lamb, aged cheese, Tuscan cuisine.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to open up concentrated flavors and soften structured tannins.\n\n💡 BOTTLE SERVICE: Prestigious Tuscan wine. Special occasion choice!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -720,7 +722,8 @@
         "tobacco",
         "structured"
       ]
-    }
+    },
+    "website": "https://www.caparzo.com/"
   },
   {
     "id": "gd-vajra-barolo-albe-bottle",
@@ -729,7 +732,7 @@
     "description": "DOCG, Piemonte, WS 93, 2021",
     "price": 72,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Premium Barolo from renowned biodynamic producer. Classic Nebbiolo with rose, tar, red fruit, complexity. Elegant, balanced, traditional style. From quality-focused family winery. Pairs with braised beef, truffle dishes, aged cheese. Serious wine for connoisseurs. DECANT 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).",
+    "serverNotes": "🌿 ABOUT: (gdvajra.com) Barolo Albe from biodynamic producer G.D. Vajra! 'Albe' means 'dawn' - entry-level Barolo with classic character. Organic & biodynamic.\n\n🍷 STYLE: Full-bodied Barolo | Rose, tar, cherry & truffle | Firm tannins, elegant | Traditional Nebbiolo | Piedmont excellence.\n\n🍽️ PAIRS WITH: Braised meats, truffle pasta, aged cheese, osso buco.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).\n\n💡 BOTTLE SERVICE: Accessible Barolo from renowned biodynamic producer. King of Italian wines!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -764,7 +767,8 @@
         "red-fruit",
         "elegant"
       ]
-    }
+    },
+    "website": "https://www.gdvajra.com/"
   },
   {
     "id": "campogiovanni-brunello-bottle",
@@ -773,7 +777,7 @@
     "description": "DOCG, Tuscany, WS 93, 2019",
     "price": 75,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Excellent Brunello from San Felice's Campogiovanni estate. Rated 93 pts. 100% Sangiovese with dark cherry, leather, tobacco, spice. Full-bodied, structured, age-worthy. Classic Montalcino style from historic producer. Pairs with Florentine steak, lamb, wild boar, aged Pecorino. Special occasion wine. DECANT 1-2 hours before serving to open up concentrated flavors and soften structured tannins.",
+    "serverNotes": "👑 ABOUT: (campogiovanni.it) Brunello di Montalcino from Campogiovanni estate. 100% Sangiovese with traditional winemaking. Highly rated by Wine Spectator. Prestigious DOCG!\n\n🍷 STYLE: Full-bodied Brunello | Dark cherry, leather, earth & spice | Structured, complex | Traditional Tuscan elegance | Age-worthy.\n\n🍽️ PAIRS WITH: Bistecca, game, truffles, aged Pecorino, Tuscan classics.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to open up concentrated flavors and soften structured tannins.\n\n💡 BOTTLE SERVICE: Classic Brunello for serious wine lovers. Highly rated quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -809,7 +813,8 @@
         "tobacco",
         "structured"
       ]
-    }
+    },
+    "website": "https://www.campogiovanni.it/"
   },
   {
     "id": "altesino-brunello-bottle",
@@ -817,7 +822,7 @@
     "description": "DOCG, Tuscany, 2020",
     "price": 90,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Premium Brunello from iconic producer. Rich, concentrated Sangiovese with dark fruit, spice, earth. Full-bodied, powerful, age-worthy. One of Montalcino's finest. Pairs with bistecca Fiorentina, wild boar, truffles. Investment-quality Italian wine. DECANT 1-2 hours before serving to open up concentrated flavors and soften structured tannins.",
+    "serverNotes": "👑 ABOUT: (altesinobrunello.it) Prestigious Brunello di Montalcino from Altesino estate. 100% Sangiovese with classic Montalcino character. Historic producer since 1970.\n\n🍷 STYLE: Full-bodied Brunello | Rich cherry, tobacco, leather & earth | Elegant structure, refined tannins | Traditional excellence.\n\n🍽️ PAIRS WITH: Grilled meats, bistecca, game, aged cheese, truffles.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to open up concentrated flavors and soften structured tannins.\n\n💡 BOTTLE SERVICE: Classic Brunello from historic estate. Benchmark Tuscan wine!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -852,7 +857,8 @@
         "earth",
         "powerful"
       ]
-    }
+    },
+    "website": "https://www.altesinobrunello.it/"
   },
   {
     "id": "gagliardo-barolo-bottle",
@@ -861,7 +867,7 @@
     "description": "DOCG, Piemonte, 2019",
     "price": 100,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Premium Barolo with complex aromatics - rose petals, tar, dark cherry, licorice. Full-bodied, firm tannins, long aging potential. From prestigious Piedmont estate. Perfect for special celebrations or serious wine collectors. Pairs with braised meats, truffle dishes, aged Parm esano. DECANT 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).",
+    "serverNotes": "👑 ABOUT: (gagliardowine.com) Classic Barolo from Gagliardo family estate in La Morra. Traditional Nebbiolo winemaking. King of Italian wines from prestigious producer!\n\n🍷 STYLE: Full-bodied Barolo | Rose, tar, cherry & truffle | Firm tannins, complex | Traditional Piedmont style | Age-worthy excellence.\n\n🍽️ PAIRS WITH: Braised meats, truffle dishes, aged cheese, osso buco.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).\n\n💡 BOTTLE SERVICE: Traditional Barolo for serious wine enthusiasts. Piedmont royalty!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -897,7 +903,8 @@
         "licorice",
         "complex"
       ]
-    }
+    },
+    "website": "https://www.gagliardowine.com/"
   },
   {
     "id": "livio-sassetti-brunello-bottle",
@@ -905,7 +912,7 @@
     "description": "DOCG, Tuscany, JS 96, 2018",
     "price": 110,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Outstanding Brunello rated 96 pts. Rich, concentrated Sangiovese with exceptional depth. Dark cherry, leather, tobacco, herbs, minerals. Full-bodied, powerful structure, cellar-worthy. From small artisan producer. Ultimate Tuscan wine for collectors. Pairs with Florentine steak, wild boar, aged cheese. DECANT 1-2 hours before serving to open up concentrated flavors and soften structured tannins.",
+    "serverNotes": "👑 ABOUT: (pertimali.it) Brunello di Montalcino from Livio Sassetti's Pertimali estate. Family producer with traditional methods. 100% Sangiovese, highly rated!\n\n🍷 STYLE: Full-bodied Brunello | Dark cherry, leather, tobacco & earth | Structured, elegant | Traditional Tuscan character | Age-worthy.\n\n🍽️ PAIRS WITH: Bistecca, game, truffles, aged Pecorino, Tuscan cuisine.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to open up concentrated flavors and soften structured tannins.\n\n💡 BOTTLE SERVICE: Family estate Brunello. Traditional quality and excellence!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -941,7 +948,8 @@
         "tobacco",
         "concentrated"
       ]
-    }
+    },
+    "website": "https://www.pertimali.it/"
   },
   {
     "id": "tommasi-amarone-bottle",
@@ -950,7 +958,7 @@
     "description": "DOC, Veneto, V 95, 2020",
     "price": 115,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Legendary dried-grape wine from Veneto. Full-bodied, rich, velvety with raisin, chocolate, spice. Made from partially dried grapes, concentrated flavors. High alcohol, intense. Pairs with braised meats, game, strong cheese, or chocolate dessert. Unique Italian wine experience. DECANT 1-2 hours to open up intense, concentrated dried-grape flavors and velvety texture.",
+    "serverNotes": "👑 ABOUT: (tommasiwine.it) Premium Amarone della Valpolicella from Tommasi family. Made from dried grapes (appassimento) for concentrated intensity. Veneto masterpiece!\n\n🍷 STYLE: Full-bodied Amarone | Rich dried fruit, chocolate, raisin & spice | Velvety, powerful | Traditional appassimento method.\n\n🍽️ PAIRS WITH: Braised meats, game, aged cheese, chocolate desserts.\n\n🍾 DECANTING: Recommended 1-2 hours to open up intense, concentrated dried-grape flavors and velvety texture.\n\n💡 BOTTLE SERVICE: Classic Amarone experience. Legendary Veneto style!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -985,7 +993,8 @@
         "spice",
         "concentrated"
       ]
-    }
+    },
+    "website": "https://www.tommasiwine.it/"
   },
   {
     "id": "scavino-bricco-ambrogio-barolo-bottle",
@@ -994,7 +1003,7 @@
     "description": "DOCG, JS 97, 2021",
     "price": 120,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Exceptional single-vineyard Barolo rated 97 pts. From renowned Paolo Scavino estate. Complex Nebbiolo with rose, tar, dark cherry, truffle, spice. Full-bodied, powerful tannins, extraordinary depth. One of Barolo's finest crus. For serious collectors and special celebrations. Pairs with white truffle, braised beef, aged Parmigiano. World-class Piedmont wine. DECANT 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).",
+    "serverNotes": "👑 ABOUT: (paoloscavino.com) 'Bricco Ambrogio' Barolo from renowned Paolo Scavino estate. Single-vineyard excellence. One of Piedmont's finest producers!\n\n🍷 STYLE: Full-bodied Barolo | Complex rose, tar, cherry & truffle | Powerful yet elegant | Single-vineyard character | Investment-grade.\n\n🍽️ PAIRS WITH: Truffle dishes, braised meats, game, aged cheese.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).\n\n💡 BOTTLE SERVICE: Single-vineyard Barolo from legendary producer. Collector's choice!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1030,7 +1039,8 @@
         "truffle",
         "world-class"
       ]
-    }
+    },
+    "website": "https://www.paolosca vino.com/"
   },
   {
     "id": "gaja-pieve-brunello-bottle",
@@ -1039,7 +1049,7 @@
     "description": "DOCG, Tuscany, 2019",
     "price": 124,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Legendary Gaja's Brunello estate wine. Elegant, refined Sangiovese with red fruit, spice, mineral. Rated 94 pts. From Italy's most famous winemaker. Prestigious choice for collectors. Pairs with Florentine steak, game, truffle dishes. Icon wine. DECANT 1-2 hours before serving to open up concentrated flavors and soften structured tannins.",
+    "serverNotes": "👑 ABOUT: (gajawines.com) Brunello di Montalcino from legendary Gaja's Pieve Santa Restituta estate! Italy's most famous winemaker brings Piedmont expertise to Tuscany. World-class!\n\n🍷 STYLE: Full-bodied Brunello | Powerful yet elegant | Dark fruit, spice & earth | Gaja precision and quality.\n\n🍽️ PAIRS WITH: Finest cuts, game, truffles, aged cheese, special occasions.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to open up concentrated flavors and soften structured tannins.\n\n💡 BOTTLE SERVICE: Gaja's Brunello - legendary producer's Tuscan masterpiece!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1074,7 +1084,8 @@
         "mineral",
         "elegant"
       ]
-    }
+    },
+    "website": "https://www.gajawines.com/"
   },
   {
     "id": "petrolo-boggina-bottle",
@@ -1083,7 +1094,7 @@
     "description": "DOC, Tuscany, WA 95, 2021",
     "price": 135,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Premium Tuscan blend from boutique producer. 100% Sangiovese, modern style with concentrated fruit, oak, structure. Rated 95 pts. Cellar-worthy, powerful. For serious collectors. Pairs with prime cuts, braised meats, aged cheese. World-class Tuscan wine.",
+    "serverNotes": "📖 ABOUT: (petrolo.it) 'Bòggina C' Riserva from Petrolo estate in Tuscany. Sangiovese Riserva with extended aging. Premium Tuscan red from historic family producer!\n\n🍷 STYLE: Full-bodied Riserva | Rich dark fruit, spice & earth | Structured, complex | Age-worthy Tuscan character.\n\n🍽️ PAIRS WITH: Bistecca, game, aged cheese, hearty Tuscan dishes.\n\n💡 BOTTLE SERVICE: Step-up Riserva from respected producer. Serious Tuscan wine!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1118,7 +1129,8 @@
         "structured",
         "powerful"
       ]
-    }
+    },
+    "website": "https://www.petrolo.it/"
   },
   {
     "id": "petrolo-galatrona-bottle",
@@ -1127,7 +1139,7 @@
     "description": "DOC, Tuscany, JS 98, 2021",
     "price": 150,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Exceptional 100% Merlot from Tuscany. Nearly perfect 98 pts rating. Rich, velvety, concentrated black fruit, chocolate, spice. World-class Super Tuscan. Competes with Bordeaux's best. For collectors and special celebrations. Pairs with prime beef, lamb, game. Remarkable wine.",
+    "serverNotes": "🏆 ABOUT: (petrolo.it) Galatrona - Petrolo's flagship 100% Merlot. One of Italy's finest Merlots, competing with Pomerol! Highly acclaimed, investment-grade wine.\n\n🍷 STYLE: Full-bodied Merlot | Rich, velvety with dark fruit & spice | Elegant power | Tuscan Merlot masterpiece.\n\n🍽️ PAIRS WITH: Finest cuts, truffle dishes, special celebrations.\n\n💡 BOTTLE SERVICE: World-class Italian Merlot. Serious collector's wine!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1162,7 +1174,8 @@
         "velvety",
         "world-class"
       ]
-    }
+    },
+    "website": "https://www.petrolo.it/"
   },
   {
     "id": "gagliardo-fossati-barolo-bottle",
@@ -1171,7 +1184,7 @@
     "description": "DOCG, Piemonte, JS 93, 2020",
     "price": 175,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Single-vineyard Barolo from premium Fossati cru. Complex Nebbiolo with rose, tar, cherry, truffle. Rated 93 pts. Elegant, age-worthy, traditional style. From family estate. Ultimate Piedmont expression. Pairs with white truffle, braised beef, aged Parmigiano. Collector's choice. DECANT 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).",
+    "serverNotes": "👑 ABOUT: (gagliardowine.com) 'Fossati' single-vineyard Barolo from Gagliardo estate. Premium cru from specific vineyard site. Enhanced complexity and aging potential!\n\n🍷 STYLE: Full-bodied Barolo | Rose, tar, cherry & truffle | Complex, powerful | Single-vineyard character | Age-worthy.\n\n🍽️ PAIRS WITH: Truffle dishes, braised meats, game, aged cheese.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).\n\n💡 BOTTLE SERVICE: Single-vineyard Barolo. Step-up from standard Gagliardo!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1207,7 +1220,8 @@
         "truffle",
         "single-vineyard"
       ]
-    }
+    },
+    "website": "https://www.gagliardowine.com/"
   },
   {
     "id": "bertani-amarone-classico-bottle",
@@ -1216,7 +1230,7 @@
     "description": "DOCG, 2015",
     "price": 225,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Legendary Amarone from historic Veneto producer (since 1857). Full-bodied dried-grape wine with raisin, chocolate, spice, power. Traditional style, age-worthy. Icon Italian wine. Pairs with rich meats, game, blue cheese, or chocolate. Ultimate expression of Amarone. DECANT 1-2 hours to open up intense, concentrated dried-grape flavors and velvety texture.",
+    "serverNotes": "👑 ABOUT: (bertani.net) Amarone Classico from historic Bertani estate (est. 1857). Traditional appassimento method with dried grapes. One of Veneto's most respected producers!\n\n🍷 STYLE: Full-bodied Amarone | Rich dried fruit, chocolate, raisin & spice | Velvety, elegant | Traditional Valpolicella character.\n\n🍽️ PAIRS WITH: Braised meats, game, aged cheese, chocolate desserts.\n\n🍾 DECANTING: Recommended 1-2 hours to open up intense, concentrated dried-grape flavors and velvety texture.\n\n💡 BOTTLE SERVICE: Historic producer's Amarone. Classic Veneto excellence!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1251,7 +1265,8 @@
         "powerful",
         "legendary"
       ]
-    }
+    },
+    "website": "https://www.bertani.net/"
   },
   {
     "id": "giodo-brunello-bottle",
@@ -1260,7 +1275,7 @@
     "description": "DOCG, Tuscany, JS 99, 2019",
     "price": 225,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Near-perfect Brunello rated 99 pts! Exceptional Sangiovese with extraordinary depth, complexity. Dark cherry, leather, tobacco, minerals. Full-bodied, powerful, cellar-worthy for decades. From small artisan producer. Ultimate Tuscan wine. For serious collectors only. Pairs with Florentine steak, truffles. DECANT 1-2 hours before serving to open up concentrated flavors and soften structured tannins.",
+    "serverNotes": "👑 ABOUT: (giodomontalcino.it) Brunello di Montalcino from Giodo estate. 100% Sangiovese with traditional Montalcino character. Highly rated by Wine Spectator!\n\n🍷 STYLE: Full-bodied Brunello | Dark cherry, tobacco, leather & earth | Structured, elegant | Classic Tuscan excellence | Age-worthy.\n\n🍽️ PAIRS WITH: Bistecca, game, truffles, aged Pecorino, Tuscan cuisine.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to open up concentrated flavors and soften structured tannins.\n\n💡 BOTTLE SERVICE: Highly rated Brunello. Classic Montalcino quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1296,7 +1311,8 @@
         "tobacco",
         "near-perfect"
       ]
-    }
+    },
+    "website": "https://www.giodomontalcino.it/"
   },
   {
     "id": "gaja-sugarille-brunello-bottle",
@@ -1305,7 +1321,7 @@
     "description": "DOCG, Tuscany, JS 96, 2018",
     "price": 250,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Gaja's single-vineyard Brunello. Exceptional quality rated 96 pts. Complex, elegant Sangiovese with remarkable depth. From Italy's most legendary producer. Investment-grade wine. Pairs with finest cuts, white truffle, aged Parmigiano. Ultimate Italian wine experience. DECANT 1-2 hours before serving to open up concentrated flavors and soften structured tannins.",
+    "serverNotes": "🏆 ABOUT: (gajawines.com) 'Sugarille' single-vineyard Brunello from legendary Gaja's Pieve Santa Restituta estate! Premium cru from Italy's most famous winemaker. Collector's item!\n\n🍷 STYLE: Full-bodied Brunello | Extraordinary power & elegance | Complex layers | Gaja mastery | Investment-grade.\n\n🍽️ PAIRS WITH: Finest cuts, white truffle, game, special celebrations.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to open up concentrated flavors and soften structured tannins.\n\n💡 BOTTLE SERVICE: Single-vineyard Brunello from Gaja. Ultimate Italian wine experience!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1340,7 +1356,8 @@
         "single-vineyard",
         "legendary"
       ]
-    }
+    },
+    "website": "https://www.gajawines.com/"
   },
   {
     "id": "gaja-sperss-barolo-bottle",
@@ -1349,7 +1366,7 @@
     "description": "DOCG, Piemonte, V 97, 2018",
     "price": 475,
     "category": "Italian Reds Bottles",
-    "serverNotes": "Gaja's pinnacle Barolo, rated 97 pts. One of Italy's greatest wines. Extraordinary Nebbiolo with phenomenal complexity, depth, elegance. Single-vineyard masterpiece. Cellar for decades. For ultimate collectors and special once-in-lifetime celebrations. Pairs with white truffle, finest cuts. Legendary wine. DECANT 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).",
+    "serverNotes": "🏆 ABOUT: (gajawines.com) Sperss Barolo - Gaja's flagship Piedmont masterpiece! Single-vineyard Barolo from legendary producer. One of Italy's greatest wines. Investment-grade!\n\n🍷 STYLE: Full-bodied Barolo | Extraordinary complexity | Rose, tar, truffle & dark fruit | World-class power & elegance.\n\n🍽️ PAIRS WITH: White truffle, finest cuts, once-in-lifetime celebrations.\n\n🍾 DECANTING: Recommended 1-2 hours before serving to soften firm tannins and release complex aromatics (rose, tar, truffle).\n\n💡 BOTTLE SERVICE: Gaja's Barolo flagship. Ultimate Italian wine for serious collectors!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1384,6 +1401,7 @@
         "masterpiece",
         "legendary"
       ]
-    }
+    },
+    "website": "https://www.gajawines.com/"
   }
 ]

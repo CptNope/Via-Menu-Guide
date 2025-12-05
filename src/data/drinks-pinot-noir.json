@@ -1,0 +1,75 @@
+[
+  {
+    "id": "siduri-pinot-noir",
+    "name": "Siduri",
+    "pronunciation": "sih-DOO-ree",
+    "description": "Willamette Valley, 2023",
+    "price": 12,
+    "category": "Pinot Noir",
+    "website": "https://www.siduri.com/",
+    "serverNotes": "🌲 📖 ABOUT: Organic Oregon Pinot Noir from Siduri, Willamette Valley. Sustainably farmed with certified organic practices!\n\n🍷 STYLE: Light to medium-bodied Pinot | Red cherry, raspberry & earthy notes | Silky texture, bright acidity | Classic Pacific Northwest character.\n\n🍽️ PAIRS WITH: Salmon, duck, mushroom dishes, roasted chicken, lighter fare.\n\n💡 BY THE GLASS: Perfect example of Oregon Pinot - elegant, food-friendly, and sustainable!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 4,
+      "bitterness": 1,
+      "tannin": 3,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "cherry",
+        "raspberry",
+        "earthy",
+        "silky"
+      ]
+    }
+  },
+  {
+    "id": "cambria-julias-vineyard",
+    "name": "Cambria \"Julia's Vineyard\"",
+    "description": "Santa Maria, 2023",
+    "price": 13,
+    "category": "Pinot Noir",
+    "website": "https://www.cambriawines.com/",
+    "serverNotes": "🍇 ABOUT: Medium-bodied California Pinot from Cambria's Julia's Vineyard, Santa Maria Valley. Organic, sustainably farmed estate!\n\n🍷 STYLE: Smooth Pinot Noir | Ripe cherry, strawberry, vanilla & spice | Balanced oak, approachable | California elegance.\n\n🍽️ PAIRS WITH: Poultry, pork, lighter seafood, mushroom dishes, grilled salmon.\n\n💡 BY THE GLASS: Versatile food wine that works with almost everything. Smooth and crowd-pleasing!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 3,
+      "bitterness": 1,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "cherry",
+        "strawberry",
+        "vanilla",
+        "spice"
+      ]
+    }
+  }
+]

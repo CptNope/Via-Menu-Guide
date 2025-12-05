@@ -1,0 +1,591 @@
+[
+  {
+    "id": "glenlivet-12-year-scotch",
+    "name": "Glenlivet, 12 Year",
+    "pronunciation": "glen-LIV-it",
+    "description": "Speyside",
+    "price": 13,
+    "category": "Scotch",
+    "website": "https://www.theglenlivet.com/",
+    "region": "Speyside",
+    "style": "Single Malt",
+    "body": "Light-Medium",
+    "profile": [
+      "Apple",
+      "Pear",
+      "Vanilla",
+      "Honey"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Water"
+    ],
+    "serverNotes": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 📖 ABOUT: Classic 12-year Speyside single malt from Glenlivet. Founded 1824. 80 proof. World's best-selling single malt!\n\n🥃 PROFILE: Smooth & Fruity | Crisp apple, pear, vanilla & honey | Light, approachable | Aged in American oak | THE perfect entry to single malt scotch!\n\n🍽️ PAIRS WITH: Scottish smoked salmon, grilled seafood, mild cheeses, fruit desserts.\n\n💡 SERVING: Neat for delicate fruit, rocks for easy sipping, or with water to open it up. Gateway scotch that converts bourbon drinkers!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "light",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 4,
+      "minerality": 3,
+      "finish": 7,
+      "creaminess": 3,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "apple",
+        "pear",
+        "vanilla",
+        "honey",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "port-charlotte-scotch",
+    "name": "Port Charlotte",
+    "description": "Islay",
+    "price": 13,
+    "category": "Scotch",
+    "website": "https://www.bruichladdich.com/",
+    "region": "Islay",
+    "style": "Single Malt - Heavily Peated",
+    "body": "Full",
+    "profile": [
+      "Smoke",
+      "Peat",
+      "Sea Salt",
+      "Citrus"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Water"
+    ],
+    "serverNotes": "🔥 📖 ABOUT: Heavily peated Islay single malt from Bruichladdich's Port Charlotte line. 100 proof. Peated to 40 PPM - serious peat!\n\n🥃 PROFILE: Bold & Maritime | Intense smoke, peat, sea salt & citrus zest | Powerful Islay character | Unfiltered, natural color | Scotland's wild side in a glass!\n\n🍽️ PAIRS WITH: Smoked mackerel, fresh oysters, blue cheese, aged cheddar.\n\n💡 SERVING: For peat lovers & adventurous drinkers! Add water drops to tame heat & release complexity.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 7,
+      "richness": 8,
+      "umami": 2,
+      "bitterness": 6,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 4,
+      "oakiness": 3,
+      "minerality": 6,
+      "finish": 9,
+      "smokiness": 10,
+      "intensity": 10,
+      "complexity": 8,
+      "aromaticIntensity": 10,
+      "flavorNotes": [
+        "smoke",
+        "peat",
+        "sea salt",
+        "citrus",
+        "intense"
+      ]
+    }
+  },
+  {
+    "id": "glenfiddich-12-year-scotch",
+    "name": "Glenfiddich, 12 Year",
+    "pronunciation": "glen-FID-ik",
+    "description": "Speyside",
+    "price": 14,
+    "category": "Scotch",
+    "website": "https://www.glenfiddich.com/",
+    "region": "Speyside",
+    "style": "Single Malt",
+    "body": "Light-Medium",
+    "profile": [
+      "Pear",
+      "Oak",
+      "Subtle Smoke",
+      "Fresh"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Water"
+    ],
+    "serverNotes": "🦌 📖 ABOUT: Iconic 12-year Speyside single malt from Glenfiddich. Est. 1887. 80 proof. World's most awarded single malt! Family-owned 5 generations.\n\n🥃 PROFILE: Smooth & Fresh | Fresh pear, oak & subtle smoke | Matured in bourbon & sherry casks | Classic Speyside style | Distinctive stag logo recognized worldwide!\n\n🍽️ PAIRS WITH: Pan-seared scallops, roasted chicken, mild cheeses, pear tarts.\n\n💡 SERVING: Great intro to scotch! Neat, rocks, or with water. Reliable quality that never disappoints.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "light",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 5,
+      "minerality": 3,
+      "finish": 7,
+      "smokiness": 2,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "pear",
+        "oak",
+        "subtle smoke",
+        "fresh",
+        "classic"
+      ]
+    }
+  },
+  {
+    "id": "balvenie-double-wood-scotch",
+    "name": "Balvenie Double Wood, 12 Year",
+    "pronunciation": "bal-VEN-ee",
+    "description": "Speyside",
+    "price": 15,
+    "category": "Scotch",
+    "website": "https://www.thebalvenie.com/",
+    "region": "Speyside",
+    "style": "Single Malt - Double Cask",
+    "body": "Medium",
+    "profile": [
+      "Honey",
+      "Vanilla",
+      "Dried Fruit",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Water"
+    ],
+    "serverNotes": "🍯 📖 ABOUT: Premium 12-year Speyside single malt from Balvenie. 86 proof. One of Scotland's last family-owned distilleries! Uses traditional floor malting.\n\n🥃 PROFILE: Smooth & Complex | Honey, vanilla, dried fruit & warming spice | American oak bourbon barrels → European oak sherry casks | Double maturation creates exceptional richness | Hand-crafted elegance.\n\n🍽️ PAIRS WITH: Crème brûlée, dark chocolate truffles, aged Gouda, fruit cakes.\n\n💡 SERVING: Perfect neat to appreciate dual cask influence. For those who appreciate craftsmanship!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 3,
+      "finish": 8,
+      "creaminess": 4,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "honey",
+        "vanilla",
+        "dried fruit",
+        "spice",
+        "elegant"
+      ]
+    }
+  },
+  {
+    "id": "johnnie-walker-black-scotch",
+    "name": "Johnnie Walker Black",
+    "description": "Blend",
+    "price": 15,
+    "category": "Scotch",
+    "website": "https://www.johnniewalker.com/",
+    "region": "Scotland",
+    "style": "Blended Scotch",
+    "body": "Medium-Full",
+    "profile": [
+      "Smoke",
+      "Fruit",
+      "Vanilla",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🚶 📖 ABOUT: Premium blended scotch with 40+ whiskies, each aged 12+ years. 80 proof. World's #1 scotch! Iconic 'Striding Man' since 1820.\n\n🥃 PROFILE: Smooth & Complex | Balanced smoke, fruit, vanilla & spice | From Scotland's 4 corners: Speyside fruit, Highland flowers, Lowland grass, Islay peat | Consistent quality batch after batch.\n\n🍽️ PAIRS WITH: BBQ ribs, grilled steak, aged cheddar, dark chocolate.\n\n💡 SERVING: Perfect for Rob Roys or Blood & Sands, or neat/rocks. Bartender's reliable choice!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 1,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 5,
+      "minerality": 4,
+      "finish": 8,
+      "smokiness": 6,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "smoke",
+        "fruit",
+        "vanilla",
+        "spice",
+        "complex"
+      ]
+    }
+  },
+  {
+    "id": "lagavulin-16-year-scotch",
+    "name": "Lagavulin 16 Year",
+    "pronunciation": "lah-gah-VOO-lin",
+    "description": "Islay",
+    "price": 18,
+    "category": "Scotch",
+    "website": "https://www.malts.com/",
+    "region": "Islay",
+    "style": "Single Malt - Heavily Peated",
+    "body": "Full",
+    "profile": [
+      "Smoke",
+      "Peat",
+      "Sea Salt",
+      "Dried Fruit"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Water"
+    ],
+    "serverNotes": "🔥 📖 ABOUT: Legendary 16-year heavily peated Islay single malt from Lagavulin. Est. 1816. 86 proof. Ron Swanson's choice! Peat perfection.\n\n🥃 PROFILE: Full & Powerful | Intense smoke, peat, sea salt, iodine & dried fruit | Peated to 35 PPM, aged 16 years | Peat mellows but never disappears | The whisky that converted many to peat!\n\n🍽️ PAIRS WITH: Scottish smoked salmon, fresh oysters, blue cheese, dark chocolate.\n\n💡 SERVING: For serious peat lovers! Add water to unlock hidden sweetness & coastal notes.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 8,
+      "richness": 9,
+      "umami": 3,
+      "bitterness": 7,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 6,
+      "minerality": 6,
+      "finish": 10,
+      "smokiness": 10,
+      "intensity": 10,
+      "complexity": 9,
+      "aromaticIntensity": 10,
+      "flavorNotes": [
+        "smoke",
+        "peat",
+        "sea salt",
+        "dried fruit",
+        "powerful"
+      ]
+    }
+  },
+  {
+    "id": "macallan-12-year-scotch",
+    "name": "Macallan 12 Year",
+    "pronunciation": "muh-CAL-an",
+    "description": "Speyside",
+    "price": 18,
+    "category": "Scotch",
+    "website": "https://www.themacallan.com/",
+    "region": "Speyside",
+    "style": "Single Malt - Sherry Cask",
+    "body": "Full",
+    "profile": [
+      "Dried Fruit",
+      "Chocolate",
+      "Spice",
+      "Oak"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Water"
+    ],
+    "serverNotes": "👑 ABOUT: Premium 12-year Speyside single malt aged in hand-selected sherry casks from Jerez. 86 proof. The 'Rolls-Royce of single malts'!\n\n🥃 PROFILE: Rich & Luxurious | Dried fruit, dark chocolate, warm spice & oak | Own cooperage, season casks 2 years | Natural color - no additives | Benchmark luxury scotch!\n\n🍽️ PAIRS WITH: Dry-aged ribeye, 70% dark chocolate, hand-rolled cigars, Christmas cake.\n\n💡 SERVING: Perfect neat or with drop of water. Defines excellence!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 8,
+      "minerality": 3,
+      "finish": 9,
+      "creaminess": 5,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "dried fruit",
+        "chocolate",
+        "spice",
+        "oak",
+        "luxurious"
+      ]
+    }
+  },
+  {
+    "id": "oban-14-year-scotch",
+    "name": "Oban 14 Year",
+    "pronunciation": "OH-ban",
+    "description": "West Highland",
+    "price": 19,
+    "category": "Scotch",
+    "website": "https://www.malts.com/",
+    "region": "Highland",
+    "style": "Single Malt",
+    "body": "Medium",
+    "profile": [
+      "Smoke",
+      "Fruit",
+      "Sea Salt",
+      "Honey"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Water"
+    ],
+    "serverNotes": "🌊 📖 ABOUT: West Highland 14-year single malt from Oban. Est. 1794. 86 proof. Scotland's smallest distillery - one of most sought-after malts!\n\n🥃 PROFILE: Balanced & Elegant | Gentle smoke, orange fruit, sea salt & honey | Bridges peaty Islay & fruity Speyside | Maritime coastal character | Classic Highland gem!\n\n🍽️ PAIRS WITH: Scottish langoustines, smoked haddock, aged cheddar, seafood chowder.\n\n💡 SERVING: Perfect neat or with water to open fruit. Limited production makes this special!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 5,
+      "richness": 7,
+      "umami": 2,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 5,
+      "minerality": 6,
+      "finish": 9,
+      "smokiness": 5,
+      "intensity": 8,
+      "complexity": 9,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "smoke",
+        "fruit",
+        "sea salt",
+        "honey",
+        "maritime"
+      ]
+    }
+  },
+  {
+    "id": "johnnie-walker-blue-scotch",
+    "name": "Johnnie Walker Blue",
+    "description": "Blend",
+    "price": 33,
+    "category": "Scotch",
+    "website": "https://www.johnniewalker.com/",
+    "region": "Scotland",
+    "style": "Ultra-Premium Blend",
+    "body": "Full",
+    "profile": [
+      "Honey",
+      "Smoke",
+      "Fruit",
+      "Vanilla"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "💎 📖 ABOUT: Ultra-premium luxury blend from exceedingly rare whiskies. 80 proof. Only 1 in 10,000 casks selected! Individually numbered.\n\n🥃 PROFILE: Exceptionally Smooth | Honey, delicate smoke, fruit & vanilla | From closed distilleries | Silk-lined presentation box | Pinnacle of blended scotch | 200 years of blending expertise!\n\n🍽️ PAIRS WITH: Wagyu beef, lobster thermidor, premium cigars, luxury chocolates.\n\n💡 SERVING: For special celebrations & collectors! Perfect neat or single cube. Johnnie Walker's masterpiece!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 1,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 3,
+      "finish": 10,
+      "smokiness": 3,
+      "creaminess": 5,
+      "intensity": 9,
+      "complexity": 10,
+      "aromaticIntensity": 10,
+      "flavorNotes": [
+        "honey",
+        "smoke",
+        "fruit",
+        "vanilla",
+        "exceptional"
+      ]
+    }
+  },
+  {
+    "id": "macallan-18-year-scotch",
+    "name": "Macallan 18 Year",
+    "pronunciation": "muh-CAL-an",
+    "description": "Speyside",
+    "price": 47,
+    "category": "Scotch",
+    "website": "https://www.themacallan.com/",
+    "region": "Speyside",
+    "style": "Single Malt - Sherry Cask",
+    "body": "Full",
+    "profile": [
+      "Dried Fruit",
+      "Chocolate",
+      "Spice",
+      "Fig"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "🎯 📖 ABOUT: Exceptional 18-year Speyside single malt from Macallan. 86 proof. Whisky royalty! Investment-grade - bottles appreciate in value. Scotland's liquid gold!\n\n🥃 PROFILE: Extraordinary & Complex | Dried fruit, dark chocolate, warm spice, oak & fig | 18 years in hand-selected sherry casks | Rich, luxurious, profoundly age-worthy | Each drop = 18 years patience!\n\n🍽️ PAIRS WITH: Finest dry-aged steaks, white truffles, premium cigars, chocolate soufflé.\n\n💡 SERVING: For ultimate celebrations & collectors only! Neat in Glencairn glass. Demands respect!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "scotch"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 10,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 9,
+      "minerality": 3,
+      "finish": 10,
+      "creaminess": 6,
+      "intensity": 10,
+      "complexity": 10,
+      "aromaticIntensity": 10,
+      "flavorNotes": [
+        "dried fruit",
+        "chocolate",
+        "spice",
+        "fig",
+        "extraordinary"
+      ]
+    }
+  }
+]

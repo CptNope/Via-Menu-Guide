@@ -1,0 +1,815 @@
+[
+  {
+    "id": "eagle-rare-bourbon",
+    "name": "Eagle Rare",
+    "description": "Kentucky, 10 Year",
+    "price": 11,
+    "category": "Bourbon",
+    "website": "https://www.buffalotracedistillery.com/",
+    "region": "Kentucky",
+    "style": "Straight Bourbon",
+    "body": "Medium-Full",
+    "profile": [
+      "Caramel",
+      "Vanilla",
+      "Oak",
+      "Honey"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🦅 📖 ABOUT: Premium 10-year Kentucky straight bourbon from Buffalo Trace Distillery. 90 proof. Highly sought-after & hard to find!\n\n🥃 PROFILE: Rich & Complex | Caramel, vanilla, oak & honey | Single barrel selection | The 10-year age creates exceptional depth.\n\n🍽️ PAIRS WITH: BBQ ribs, smoked brisket, chocolate desserts, pecan pie.\n\n💡 SERVING: Neat to appreciate complexity, on rocks for easy sipping, or in upscale Old Fashioneds. True bourbon enthusiast's choice!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": [
+        "caramel",
+        "vanilla",
+        "oak",
+        "honey",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "four-roses-small-batch-bourbon",
+    "name": "Four Roses Small Batch",
+    "description": "Kentucky",
+    "price": 11,
+    "category": "Bourbon",
+    "website": "https://www.fourrosesbourbon.com/",
+    "region": "Kentucky",
+    "style": "Small Batch Bourbon",
+    "body": "Medium",
+    "profile": [
+      "Fruit",
+      "Spice",
+      "Caramel",
+      "Oak"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🌹 📖 ABOUT: Small batch Kentucky bourbon from award-winning Four Roses. 90 proof. Blend of 4 distinct recipes - unique approach!\n\n🥃 PROFILE: Well-balanced & Smooth | Fruit, spice, caramel & oak | Uses 2 mashbills & 2 yeast strains for layered flavor.\n\n🍽️ PAIRS WITH: Grilled chicken, pork chops, aged cheddar, spiced nuts.\n\n💡 SERVING: Great for beginners or excellent in Manhattans. Reliable, crowd-pleasing choice!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "fruit",
+        "spice",
+        "caramel",
+        "oak",
+        "balanced"
+      ]
+    }
+  },
+  {
+    "id": "jeffersons-small-batch-bourbon",
+    "name": "Jefferson's Small Batch Bourbon",
+    "description": "Kentucky",
+    "price": 11,
+    "category": "Bourbon",
+    "website": "https://www.jeffersonsbourbon.com/",
+    "region": "Kentucky",
+    "style": "Small Batch Bourbon",
+    "body": "Medium",
+    "profile": [
+      "Caramel",
+      "Vanilla",
+      "Spice",
+      "Citrus"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "✨ 📖 ABOUT: Elegant small-batch Kentucky bourbon from Jefferson's artisan distillery. 82.3 proof. Focuses on innovation & quality!\n\n🥃 PROFILE: Smooth & Refined | Caramel, vanilla, warm baking spice & bright citrus | Each batch meticulously selected for balance & complexity.\n\n🍽️ PAIRS WITH: Dark chocolate truffles, cigars, Texas BBQ, bourbon-glazed salmon.\n\n💡 SERVING: Perfect neat for nuanced flavors or in premium cocktails. Quality craft bourbon!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "caramel",
+        "vanilla",
+        "spice",
+        "citrus",
+        "elegant"
+      ]
+    }
+  },
+  {
+    "id": "makers-mark-bourbon",
+    "name": "Maker's Mark",
+    "description": "Kentucky",
+    "price": 11,
+    "category": "Bourbon",
+    "website": "https://www.makersmark.com/",
+    "region": "Kentucky",
+    "style": "Wheated Bourbon",
+    "body": "Medium",
+    "profile": [
+      "Caramel",
+      "Vanilla",
+      "Wheat",
+      "Sweet"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🔴 📖 ABOUT: Iconic hand-dipped red wax sealed wheated bourbon from Maker's Mark. 90 proof. Family-owned since 1953!\n\n🥃 PROFILE: Smooth & Mellow | Sweet caramel, vanilla & wheat bread | Uses soft red winter wheat instead of rye | No harsh burn - perfect for those who find bourbons too spicy.\n\n🍽️ PAIRS WITH: KC BBQ ribs, gourmet burgers, bread pudding, caramel desserts.\n\n💡 SERVING: Excellent in Old Fashioneds, neat, or on rocks. Instantly recognizable bottle!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 1,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "caramel",
+        "vanilla",
+        "wheat",
+        "sweet",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "buffalo-trace-bourbon",
+    "name": "Buffalo Trace",
+    "description": "Kentucky",
+    "price": 11,
+    "category": "Bourbon",
+    "website": "https://www.buffalotracedistillery.com/",
+    "region": "Kentucky",
+    "style": "Straight Bourbon",
+    "body": "Medium",
+    "profile": [
+      "Vanilla",
+      "Toffee",
+      "Spice",
+      "Oak"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🏛️ 📖 ABOUT: Award-winning Kentucky straight bourbon from legendary Buffalo Trace Distillery. 90 proof. America's oldest continuously operating distillery (since 1787)!\n\n🥃 PROFILE: Smooth & Balanced | Vanilla, toffee, baking spice & toasted oak | Incredibly versatile | Consistently wins awards above its price point.\n\n🍽️ PAIRS WITH: Memphis BBQ, smoked brisket, praline pecans, maple bacon.\n\n💡 SERVING: Perfect for Boulevardiers or sipping neat. Benchmark bourbon - National Historic Landmark distillery!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "vanilla",
+        "toffee",
+        "spice",
+        "oak",
+        "balanced"
+      ]
+    }
+  },
+  {
+    "id": "elijah-craig-bourbon",
+    "name": "Elijah Craig",
+    "description": "Kentucky",
+    "price": 11,
+    "category": "Bourbon",
+    "website": "https://www.elijahcraig.com/",
+    "region": "Kentucky",
+    "style": "Small Batch Bourbon",
+    "body": "Full",
+    "profile": [
+      "Caramel",
+      "Vanilla",
+      "Smoke",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "⛪ 📖 ABOUT: Small-batch Kentucky bourbon named after bourbon's founding father, Rev. Elijah Craig. 94 proof. Aged 8-12 years!\n\n🥃 PROFILE: Rich & Full-bodied | Caramel, vanilla, subtle smoke & warm spice | Bold yet smooth | Slight smoke from deep barrel char | From Heaven Hill Distillery.\n\n🍽️ PAIRS WITH: Ribeye steak, dark chocolate truffles, cigars, bourbon pecan pie.\n\n💡 SERVING: Great neat for complexity or in a Manhattan. Rev. Craig invented charred oak barrel aging (1789)!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": [
+        "caramel",
+        "vanilla",
+        "smoke",
+        "spice",
+        "rich"
+      ]
+    }
+  },
+  {
+    "id": "high-west-bourbon",
+    "name": "High West",
+    "description": "Utah",
+    "price": 13,
+    "category": "Bourbon",
+    "website": "https://www.highwest.com/",
+    "region": "Utah",
+    "style": "Bourbon Blend",
+    "body": "Medium",
+    "profile": [
+      "Caramel",
+      "Vanilla",
+      "Rye Spice",
+      "Mint"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "⛰️ 📖 ABOUT: Unique Utah bourbon blend from High West - first legal distillery in Utah since 1870! 92 proof. Located at 7,000 feet in Park City.\n\n🥃 PROFILE: Smooth with Spirit | Caramel, vanilla, rye spice & refreshing mint | Mountain character | Rye content adds complexity.\n\n🍽️ PAIRS WITH: Western BBQ, elk/bison steaks, venison, apple pie.\n\n💡 SERVING: Great for Whiskey Sours or neat over large ice. True Western craft bourbon!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 5,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "caramel",
+        "vanilla",
+        "rye spice",
+        "mint",
+        "unique"
+      ]
+    }
+  },
+  {
+    "id": "whistlepig-piggyback-bourbon",
+    "name": "WhistlePig Piggyback, 6 Year",
+    "pronunciation": "WIS-ul-pig",
+    "description": "Vermont",
+    "price": 13,
+    "category": "Bourbon",
+    "website": "https://www.whistlepigwhiskey.com/",
+    "region": "Vermont",
+    "style": "Straight Rye",
+    "body": "Medium-Full",
+    "profile": [
+      "Rye Spice",
+      "Mint",
+      "Caramel",
+      "Pepper"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🐷 📖 ABOUT: Vermont straight rye aged 6 years from WhistlePig - America's premier rye specialist! 96.56 proof. Vermont's first whiskey distillery since Prohibition.\n\n🥃 PROFILE: Bold & Spicy | Rye grain, mint, caramel & black pepper | 100% rye mash bill | Intense but balanced.\n\n🍽️ PAIRS WITH: Smoked pastrami, applewood bacon, aged Gruyere, dark chocolate bark.\n\n💡 SERVING: Perfect for Sazeracs/Manhattans or neat for rye enthusiasts. Craft rye excellence!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": [
+        "rye spice",
+        "mint",
+        "caramel",
+        "pepper",
+        "bold"
+      ]
+    }
+  },
+  {
+    "id": "basil-haydens-bourbon",
+    "name": "Basil Hayden's",
+    "description": "Kentucky",
+    "price": 14,
+    "category": "Bourbon",
+    "website": "https://www.basilhaydens.com/",
+    "region": "Kentucky",
+    "style": "High-Rye Bourbon",
+    "body": "Light-Medium",
+    "profile": [
+      "Spice",
+      "Tea",
+      "Peppermint",
+      "Honey"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🍃 📖 ABOUT: High-rye Kentucky bourbon from Jim Beam's premium collection. 80 proof. Named after legendary distiller - family recipe from 1796!\n\n🥃 PROFILE: Delicate & Light-bodied | Spicy character with tea, peppermint & honey | Unique high-rye mash bill | Lower proof makes it exceptionally drinkable.\n\n🍽️ PAIRS WITH: Grilled chicken, pork tenderloin, pan-seared duck, lighter Italian fare.\n\n💡 SERVING: Perfect for bourbon newcomers! Great in Whiskey Smashes or with splash of water. Elegant & refined!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 5,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "spice",
+        "tea",
+        "peppermint",
+        "honey",
+        "elegant"
+      ]
+    }
+  },
+  {
+    "id": "knob-creek-bourbon",
+    "name": "Knob Creek",
+    "description": "Kentucky, 9 Year",
+    "price": 14,
+    "category": "Bourbon",
+    "website": "https://www.knobcreek.com/",
+    "region": "Kentucky",
+    "style": "Straight Bourbon",
+    "body": "Full",
+    "profile": [
+      "Oak",
+      "Caramel",
+      "Vanilla",
+      "Nuts"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🔥 📖 ABOUT: Full-bodied Kentucky straight bourbon aged 9 years from Knob Creek. 100 proof! Named after creek near Abe Lincoln's childhood home.\n\n🥃 PROFILE: Bold & Robust | Deep oak, caramel, vanilla, toasted nuts & barrel char | Pre-Prohibition style | 100 proof creates intense flavor & warmth.\n\n🍽️ PAIRS WITH: Charred ribeye, slow-cooked BBQ brisket, aged cigars, bourbon chocolate cake.\n\n💡 SERVING: For serious bourbon drinkers who want big flavor! No shortcuts - aged patiently.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": [
+        "oak",
+        "caramel",
+        "vanilla",
+        "nuts",
+        "bold"
+      ]
+    }
+  },
+  {
+    "id": "woodford-reserve-double-oaked-bourbon",
+    "name": "Woodford Reserve \"Double Oaked\"",
+    "description": "Kentucky",
+    "price": 15,
+    "category": "Bourbon",
+    "website": "https://www.woodfordreserve.com/",
+    "region": "Kentucky",
+    "style": "Double Oaked Bourbon",
+    "body": "Full",
+    "profile": [
+      "Caramel",
+      "Dark Fruit",
+      "Chocolate",
+      "Toasted Oak"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🌾 📖 ABOUT: Premium Woodford Reserve bourbon aged in TWO different barrels. 90.4 proof. From Kentucky's oldest operating distillery (1812)!\n\n🥃 PROFILE: Rich & Velvety | Caramel, dark fruit, chocolate, vanilla & toasted wood | Double barrel process creates unmatched depth | Bourbon as an experience.\n\n🍽️ PAIRS WITH: Chocolate torta, crème brûlée, aged cigars, espresso.\n\n💡 SERVING: Sip neat to appreciate layered oak influence. Luxury bourbon for special occasions!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": [
+        "caramel",
+        "dark fruit",
+        "chocolate",
+        "toasted oak",
+        "complex"
+      ]
+    }
+  },
+  {
+    "id": "uncle-nearest-1856-bourbon",
+    "name": "Uncle Nearest \"1856\"",
+    "description": "Tennessee",
+    "price": 15,
+    "category": "Bourbon",
+    "website": "https://www.unclenearest.com/",
+    "region": "Tennessee",
+    "style": "Tennessee Whiskey",
+    "body": "Medium-Full",
+    "profile": [
+      "Caramel",
+      "Vanilla",
+      "Charcoal",
+      "Maple"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "✨ 📖 ABOUT: Premium Tennessee whiskey honoring Nathan 'Nearest' Green - first known African-American master distiller who taught Jack Daniel! 93 proof.\n\n🥃 PROFILE: Smooth & Meaningful | Caramel, vanilla, charcoal mellowing & maple | Lincoln County Process | Nearest's descendants involved today | History you can taste!\n\n🍽️ PAIRS WITH: Tennessee BBQ, Southern soul food, buttermilk fried chicken, bourbon pecan pie.\n\n💡 SERVING: Perfect neat or on rocks. Award-winning with important story!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "tennessee-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": [
+        "caramel",
+        "vanilla",
+        "charcoal",
+        "maple",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "blantons-bourbon",
+    "name": "Blanton's",
+    "pronunciation": "BLAN-tunz",
+    "description": "Kentucky, Single Barrel",
+    "price": 15,
+    "category": "Bourbon",
+    "website": "https://www.buffalotracedistillery.com/",
+    "region": "Kentucky",
+    "style": "Single Barrel Bourbon",
+    "body": "Medium-Full",
+    "profile": [
+      "Caramel",
+      "Honey",
+      "Citrus",
+      "Leather"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🐎 📖 ABOUT: Original single-barrel bourbon from Buffalo Trace's premium Blanton's line. 93 proof. World's first modern single-barrel bourbon (1984)!\n\n🥃 PROFILE: Smooth & Complex | Caramel, honey, bright citrus, spice & leather | Each bottle from one exceptional barrel | Highly collectible with horse & jockey stopper (collect all 8 letters!) | Highly allocated - we're fortunate to have it!\n\n🍽️ PAIRS WITH: Dry-aged steak, hand-rolled cigars, fine dining.\n\n💡 SERVING: Perfect for special occasions or bourbon collectors. Each bottle is one-of-a-kind!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": [
+        "caramel",
+        "honey",
+        "citrus",
+        "leather",
+        "complex"
+      ]
+    }
+  },
+  {
+    "id": "angels-envy-bourbon",
+    "name": "Angel's Envy",
+    "description": "Kentucky, Port Cask Finish",
+    "price": 12,
+    "category": "Bourbon",
+    "website": "https://www.angelsenvy.com/",
+    "region": "Kentucky",
+    "style": "Finished Bourbon",
+    "body": "Medium",
+    "profile": [
+      "Vanilla",
+      "Dried Fruit",
+      "Maple",
+      "Berry"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🙇 📖 ABOUT: Innovative Kentucky bourbon finished in port wine casks. 86.6 proof. Created by legendary master distiller Lincoln Henderson!\n\n🥃 PROFILE: Smooth & Unique | Vanilla, dried fruit, maple, toast & berry | Aged 4-6 years, then finished 3-6 months in port barrels | Port cask adds wine-like complexity | Stunning bottle design.\n\n🍽️ PAIRS WITH: Tiramisu, chocolate desserts, aged cheese plates, berry tarts.\n\n💡 SERVING: Perfect for bourbon adventurers! 'Angel's Envy' = whiskey lost to evaporation.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "vanilla",
+        "dried fruit",
+        "maple",
+        "berry",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "whistlepig-snout-to-tail-bourbon",
+    "name": "WhistlePig \"Snout to Tail\", 10 Year",
+    "pronunciation": "WIS-ul-pig",
+    "description": "Vermont",
+    "price": 18,
+    "category": "Bourbon",
+    "website": "https://www.whistlepigwhiskey.com/",
+    "region": "Vermont",
+    "style": "Finished Rye",
+    "body": "Full",
+    "profile": [
+      "Rye Spice",
+      "Caramel",
+      "Fruit",
+      "Oak"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🐷 📖 ABOUT: Premium 10-year Vermont rye from WhistlePig's limited 'Snout to Tail' series. 101 proof. Small batches only!\n\n🥃 PROFILE: Bold & Sophisticated | Intense rye spice, caramel, dark fruit, oak & char | Aged in various casks (American, French, toasted) | Each batch explores different finishing.\n\n🍽️ PAIRS WITH: Wild game meats, venison, strong aged cheeses, artisan dark chocolate.\n\n💡 SERVING: Perfect neat for craftsmanship. For serious rye enthusiasts! Name celebrates using whole barrel's influence.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 8,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "flavorNotes": [
+        "rye spice",
+        "caramel",
+        "fruit",
+        "oak",
+        "complex"
+      ]
+    }
+  },
+  {
+    "id": "angels-envy-triple-oak-bourbon",
+    "name": "Angel's Envy Triple Oak",
+    "description": "Kentucky",
+    "price": 20,
+    "category": "Bourbon",
+    "website": "https://www.angelsenvy.com/",
+    "region": "Kentucky",
+    "style": "Triple Finished Bourbon",
+    "body": "Full",
+    "profile": [
+      "Vanilla",
+      "Caramel",
+      "Dried Fruit",
+      "Toast"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "🌟 📖 ABOUT: Ultra-premium Angel's Envy bourbon aged in THREE different oak types. 95.6 proof. Extremely limited quantities!\n\n🥃 PROFILE: Smooth & Luxurious | Vanilla, caramel, dried fruit, warm spice & toasted oak | American oak → Oloroso sherry → Madeira wine casks | Each sip reveals new dimensions | Pinnacle of American whiskey craftsmanship.\n\n🍽️ PAIRS WITH: Finest dry-aged steaks, premium truffles, aged cigars, chocolate soufflé.\n\n💡 SERVING: For serious collectors & special celebrations only! Triple finishing takes years of patience.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "bourbon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 10,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": [
+        "vanilla",
+        "caramel",
+        "dried fruit",
+        "toast",
+        "luxurious"
+      ]
+    }
+  }
+]

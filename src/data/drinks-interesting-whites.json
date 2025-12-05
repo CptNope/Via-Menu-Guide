@@ -1,0 +1,252 @@
+[
+  {
+    "id": "la-fiera-pinot-grigio",
+    "name": "La Fiera Pinot Grigio",
+    "pronunciation": "lah fee-AIR-ah pee-noh GREE-jee-oh",
+    "description": "2024",
+    "price": 11,
+    "category": "Interesting Whites",
+    "website": "https://www.lafiera.it/",
+    "serverNotes": "📖 ABOUT: Light, crisp Italian Pinot Grigio from La Fiera. Classic Italian white that appeals to most palates!\n\n🍷 STYLE: Refreshing Pinot Grigio | Citrus, green apple & mineral notes | Easy-drinking, crisp acidity | Traditional Italian style.\n\n🍽️ PAIRS WITH: Light seafood, salads, antipasto, fresh mozzarella, summer dishes.\n\n💡 BY THE GLASS: Perfect aperitif or light lunch wine. Refreshing and versatile!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 0,
+      "minerality": 7,
+      "finish": 5,
+      "intensity": 5,
+      "complexity": 4,
+      "aromaticIntensity": 5,
+      "flavorNotes": [
+        "citrus",
+        "green-apple",
+        "mineral",
+        "crisp"
+      ]
+    }
+  },
+  {
+    "id": "loosen-riesling",
+    "name": "Loosen Riesling",
+    "description": "Germany, 2023",
+    "price": 12,
+    "category": "Interesting Whites",
+    "website": "https://www.drloosen.com/",
+    "serverNotes": "🇩🇪 📖 ABOUT: Off-dry German Riesling from Dr. Loosen. Great for those who want something different!\n\n🍷 STYLE: Aromatic Riesling | Peach, apricot & honey notes | Balanced sweetness, bright acidity | Classic Mosel character.\n\n🍽️ PAIRS WITH: Spicy dishes, Asian cuisine, pork, Thai food, or enjoy alone.\n\n💡 BY THE GLASS: Versatile wine that works with spice. Perfect for adventurous palates!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 1,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 6,
+      "finish": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "peach",
+        "apricot",
+        "honey",
+        "off-dry"
+      ]
+    }
+  },
+  {
+    "id": "gd-vajra-rosa-bella",
+    "name": "G.D. Vajra Rosa Bella",
+    "pronunciation": "vah-YRAH ROH-zah BEL-lah",
+    "description": "Piedmont, 2024",
+    "price": 12,
+    "category": "Interesting Whites",
+    "website": "https://www.gdvajra.com/",
+    "serverNotes": "🌸 📖 ABOUT: Light-bodied Piedmont white from G.D. Vajra. Lesser-known Italian grape variety - great conversation starter!\n\n🍷 STYLE: Aromatic White | Floral, citrus & stone fruit notes | Crisp acidity, refreshing finish | Biodynamic Piedmont.\n\n🍽️ PAIRS WITH: Seafood, light pasta, summer salads, fresh appetizers.\n\n💡 BY THE GLASS: Something unique from the Vajra family. Floral and refreshing!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 5,
+      "finish": 6,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "floral",
+        "citrus",
+        "stone-fruit",
+        "crisp"
+      ]
+    }
+  },
+  {
+    "id": "guado-al-tasso-vermentino",
+    "name": "Guado Al Tasso, Vermentino",
+    "pronunciation": "GWAH-doh ahl TAH-soh / vair-men-TEE-noh",
+    "description": "Tuscany, 2024",
+    "price": 13,
+    "category": "Interesting Whites",
+    "website": "https://www.antinori.it/",
+    "serverNotes": "🌊 📖 ABOUT: Medium-bodied Tuscan Vermentino from renowned Antinori estate (Guado al Tasso). Premium quality coastal Italian variety!\n\n🍷 STYLE: Crisp Vermentino | Citrus, white peach & herbal notes | Mineral finish | Tuscan coast elegance.\n\n🍽️ PAIRS WITH: Seafood, especially shellfish, oysters, crudo, Mediterranean dishes.\n\n💡 BY THE GLASS: Legendary Antinori family's coastal white. Perfect with seafood!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 3,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 0,
+      "minerality": 8,
+      "finish": 7,
+      "intensity": 6,
+      "complexity": 6,
+      "herbaceousness": 3,
+      "aromaticIntensity": 6,
+      "flavorNotes": [
+        "citrus",
+        "white-peach",
+        "herbal",
+        "mineral"
+      ]
+    }
+  },
+  {
+    "id": "gianni-gagliardo-roero",
+    "name": "Gianni Gagliardo Roero Arneis",
+    "pronunciation": "jee-AHN-nee gahl-yar-DOH roh-AIR-oh ar-NAYS",
+    "description": "DOCG, Piemonte, 2022",
+    "price": 14,
+    "category": "Interesting Whites",
+    "website": "https://www.giannigagliardo.it/",
+    "serverNotes": "🌼 📖 ABOUT: Medium-bodied Piedmont white from Gianni Gagliardo. Arneis - ancient grape from Barolo region! DOCG quality.\n\n🍷 STYLE: Rich Arneis | Pear, almond & white flowers | Rich texture, refreshing acidity | Elegant Piedmont.\n\n🍽️ PAIRS WITH: Risotto, seafood, white truffle dishes, creamy pasta.\n\n💡 BY THE GLASS: Rare opportunity to try this ancient Piedmont grape. Complex and food-friendly!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "pear",
+        "almond",
+        "white-flowers",
+        "rich"
+      ]
+    }
+  },
+  {
+    "id": "santa-margherita-pinot",
+    "name": "Santa Margherita Pinot Grigio",
+    "pronunciation": "SAN-tah mar-gair-EE-tah pee-noh GREE-jee-oh",
+    "description": "DOC, Alto Adige, 2024",
+    "price": 14,
+    "category": "Interesting Whites",
+    "website": "https://www.santamargherita.com/",
+    "serverNotes": "📖 ABOUT: Elegant Pinot Grigio from premium Alto Adige region by Santa Margherita. Iconic Italian brand - the gold standard!\n\n🍷 STYLE: Refined Pinot Grigio | Citrus, white peach & clean mineral finish | More complex than typical PG | DOC Alto Adige quality.\n\n🍽️ PAIRS WITH: Seafood, light chicken, fresh mozzarella, prosciutto, salads.\n\n💡 BY THE GLASS: THE Pinot Grigio that started it all in America. Classic and elegant!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "citrus",
+        "white-peach",
+        "mineral",
+        "elegant"
+      ]
+    }
+  }
+]

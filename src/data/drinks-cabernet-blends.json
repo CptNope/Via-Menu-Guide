@@ -1,0 +1,184 @@
+[
+  {
+    "id": "the-pessimist",
+    "name": "\"The Pessimist\" by Daou",
+    "pronunciation": "dow (rhymes with 'cow')",
+    "description": "Paso Robles, JD 92, 2023",
+    "price": 12,
+    "category": "Cabernet & Blends",
+    "website": "https://www.daouvineyards.com/",
+    "serverNotes": "🍇 ABOUT: Bold Paso Robles Cabernet blend from DAOU. Highly rated JD 92 pts! Cult favorite 'The Pessimist' - great value premium Cab.\n\n🍷 STYLE: Full-bodied Cabernet Blend | Dark fruit, chocolate & spice | Well-structured, smooth tannins | Crowd-pleasing Paso style.\n\n🍽️ PAIRS WITH: Steaks, lamb, hearty pasta, BBQ, bold dishes.\n\n💡 BY THE GLASS: Bold California Cab at an amazing price point. Perfect for steak night!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "dark-fruit",
+        "chocolate",
+        "spice",
+        "bold"
+      ]
+    }
+  },
+  {
+    "id": "greenwing-cabernet",
+    "name": "Greenwing Cabernet by Duckhorn",
+    "description": "Columbia Valley, 2023",
+    "price": 13,
+    "category": "Cabernet & Blends",
+    "website": "https://www.duckhorn.com/",
+    "serverNotes": "🌲 📖 ABOUT: Full-bodied Washington Cabernet from the renowned Duckhorn family, Columbia Valley. Pacific Northwest Cab at its best!\n\n🍷 STYLE: Smooth Cabernet | Dark berry, mocha & spice | Accessible with supple tannins | Washington elegance.\n\n🍽️ PAIRS WITH: Beef, pork, aged cheese, grilled meats, hearty dishes.\n\n💡 BY THE GLASS: Legendary Duckhorn quality from Washington State. Smooth and food-friendly!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "dark-berry",
+        "mocha",
+        "spice",
+        "supple"
+      ]
+    }
+  },
+  {
+    "id": "band-of-vintners",
+    "name": "Band of Vintners Cabernet",
+    "description": "Napa, RP 92, 2022",
+    "price": 15,
+    "category": "Cabernet & Blends",
+    "website": "https://www.bandofvintners.com/",
+    "serverNotes": "📖 ABOUT: Full-bodied Napa Cabernet from Band of Vintners. Robert Parker 92 pts! True Napa Valley expression.\n\n🍷 STYLE: Structured Napa Cab | Rich blackberry, cassis & oak | Structured tannins, long finish | Premium Napa quality.\n\n🍽️ PAIRS WITH: Prime cuts, lamb, ribeye, strong cheese, special occasion dishes.\n\n💡 BY THE GLASS: Authentic Napa Cab by the glass - rare opportunity for premium wine!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "blackberry",
+        "cassis",
+        "oak",
+        "structured"
+      ]
+    }
+  },
+  {
+    "id": "cakebread-mullan-road",
+    "name": "Cakebread \"Mullan Road\"",
+    "description": "Washington, 2022",
+    "price": 15,
+    "category": "Cabernet & Blends",
+    "website": "https://www.cakebread.com/",
+    "serverNotes": "🎯 📖 ABOUT: Full-bodied red blend from legendary Cakebread Cellars, Washington. World-class winemaking!\n\n🍷 STYLE: Velvety Red Blend | Black fruit, espresso & spice | Velvety texture, integrated tannins | Premium Washington.\n\n🍽️ PAIRS WITH: Beef tenderloin, short ribs, lamb, rich dishes.\n\n💡 BY THE GLASS: Iconic Napa winery's Washington project. Exceptional quality and value!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "black-fruit",
+        "espresso",
+        "spice",
+        "velvety"
+      ]
+    }
+  },
+  {
+    "id": "austin-hope-cabernet",
+    "name": "Austin Hope Cabernet",
+    "description": "Paso Robles, 2022",
+    "price": 17,
+    "category": "Cabernet & Blends",
+    "website": "https://www.austinhopewinery.com/",
+    "serverNotes": "🔥 📖 ABOUT: Bold Paso Cabernet from Austin Hope. Cult favorite from Central Coast! Impressive by-the-glass selection.\n\n🍷 STYLE: Full-bodied & Opulent | Jammy black fruit, vanilla & chocolate | Rich style, big tannins | Paso power.\n\n🍽️ PAIRS WITH: Ribeye, BBQ, bold flavored dishes, grilled meats, rich sauces.\n\n💡 BY THE GLASS: Big, bold Paso Cab that's become a cult sensation. Perfect for meat lovers!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 8,
+      "alcohol": 8,
+      "carbonation": 0,
+      "flavorNotes": [
+        "jammy",
+        "black-fruit",
+        "vanilla",
+        "chocolate",
+        "opulent"
+      ]
+    }
+  }
+]

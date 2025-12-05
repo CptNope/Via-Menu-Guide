@@ -1,0 +1,58 @@
+{
+  "id": "nonino-il-moscato-grappa",
+  "name": "Nonino Il Moscato",
+  "pronunciation": "noh-NEE-noh eel moh-SCAH-toh",
+  "description": "Italy",
+  "price": 13,
+  "category": "Grappa",
+  "website": "https://www.grappanonino.it/",
+  "region": "Italy",
+  "style": "Single Varietal Grappa",
+  "body": "Light-Medium",
+  "profile": [
+    "Floral",
+    "Grape",
+    "Honey",
+    "Aromatic"
+  ],
+  "servingStyle": [
+    "Neat",
+    "Chilled"
+  ],
+  "serverNotes": "📖 ABOUT: Premium Italian grappa from Moscato grapes by legendary Nonino distillery. Elegant, aromatic & refined!\n\n🥃 PROFILE: Smooth & Floral | Floral, grape & honey notes | Single varietal from Moscato | Traditional Italian after-dinner spirit.\n\n🍽️ PAIRS WITH: Desserts, biscotti, dark chocolate, Italian pastries.\n\n💡 SERVING: Perfect digestif! Neat or chilled. Classic Italian tradition!",
+  "vegetarian": true,
+  "glutenFree": true,
+  "nutFree": true,
+  "kids": false,
+  "ingredients": [
+    "grappa"
+  ],
+  "allergens": [],
+  "flavorProfile": {
+    "sweetness": 3,
+    "acidity": 2,
+    "body": "light",
+    "spiciness": 0,
+    "saltiness": 0,
+    "richness": 5,
+    "umami": 0,
+    "bitterness": 1,
+    "tannin": 0,
+    "alcohol": 8,
+    "carbonation": 0,
+    "fruitiness": 6,
+    "oakiness": 0,
+    "minerality": 3,
+    "finish": 8,
+    "intensity": 7,
+    "complexity": 7,
+    "aromaticIntensity": 9,
+    "flavorNotes": [
+      "floral",
+      "grape",
+      "honey",
+      "aromatic",
+      "elegant"
+    ]
+  }
+}

@@ -1,0 +1,588 @@
+[
+  {
+    "id": "pendleton-12-year-rye",
+    "name": "Pendleton, 12 Year",
+    "description": "Oregon",
+    "price": 11,
+    "category": "Rye",
+    "website": "https://www.pendletonwhisky.com/",
+    "region": "Canada",
+    "style": "Canadian Rye",
+    "body": "Medium",
+    "profile": [
+      "Caramel",
+      "Vanilla",
+      "Butterscotch",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🤠 📖 ABOUT: Premium 12-year Canadian rye bottled in Oregon. 80 proof. Named after famous Pendleton Round-Up rodeo! Western-style with rodeo character.\n\n🥃 PROFILE: Smooth & Approachable | Caramel, vanilla, butterscotch & subtle spice | Less aggressive than Kentucky ryes | Canadian ryes = smoother & sweeter | Mellow, rounded flavor.\n\n🍽️ PAIRS WITH: KC BBQ, grilled tri-tip, apple pie, caramel desserts.\n\n💡 SERVING: Perfect for cocktails (Whiskey Sours, Old Fashioneds) or neat. Great intro to rye for bourbon drinkers!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 3,
+      "oakiness": 5,
+      "minerality": 2,
+      "finish": 6,
+      "creaminess": 4,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 6,
+      "flavorNotes": [
+        "caramel",
+        "vanilla",
+        "butterscotch",
+        "spice",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "sazerac-rye",
+    "name": "Sazerac",
+    "description": "Kentucky",
+    "price": 11,
+    "category": "Rye",
+    "website": "https://www.buffalotracedistillery.com/",
+    "region": "Kentucky",
+    "style": "Straight Rye",
+    "body": "Medium-Full",
+    "profile": [
+      "Spice",
+      "Clove",
+      "Pepper",
+      "Citrus"
+    ],
+    "servingStyle": [
+      "Cocktails",
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🍸 📖 ABOUT: Classic Kentucky straight rye from legendary Buffalo Trace. 90 proof. Named after THE cocktail! Essential rye every bartender respects.\n\n🥃 PROFILE: Bold & Spicy | Intense rye spice, clove, black pepper & bright citrus | Traditional, flavorful, unapologetically spicy | High rye content = signature bite | This is what proper rye tastes like!\n\n🍽️ PAIRS WITH: Charred ribeye, 70% dark chocolate, aged Gruyere, spiced nuts.\n\n💡 SERVING: THE rye for authentic Sazeracs or Manhattans! Essential for cocktail programs.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 8,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 4,
+      "minerality": 3,
+      "finish": 7,
+      "herbaceousness": 3,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "spice",
+        "clove",
+        "pepper",
+        "citrus",
+        "bold"
+      ]
+    }
+  },
+  {
+    "id": "high-west-rye",
+    "name": "High West",
+    "description": "Utah",
+    "price": 12,
+    "category": "Rye",
+    "website": "https://www.highwest.com/",
+    "region": "Utah",
+    "style": "Rye Blend",
+    "body": "Medium",
+    "profile": [
+      "Spice",
+      "Mint",
+      "Caramel",
+      "Pepper"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "⛰️ 📖 ABOUT: Utah straight rye blend from High West. 92 proof. First legal Utah distillery since 1870! At 7,000 feet elevation. Revolutionized American rye blending!\n\n🥃 PROFILE: Smooth & Assertive | Bold spice, fresh mint, caramel & black pepper | Expertly blended ryes | Perfect balance | Mint notes surprisingly refreshing!\n\n🍽️ PAIRS WITH: Western BBQ brisket, elk medallions, wild game, dark chocolate truffles.\n\n💡 SERVING: Great for Rye Old Fashioneds or neat with large ice. Mountain whiskey pioneers!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 4,
+      "oakiness": 5,
+      "minerality": 3,
+      "finish": 7,
+      "herbaceousness": 4,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "spice",
+        "mint",
+        "caramel",
+        "pepper",
+        "bold"
+      ]
+    }
+  },
+  {
+    "id": "knob-creek-small-batch-rye",
+    "name": "Knob Creek Small Batch",
+    "description": "Kentucky",
+    "price": 12,
+    "category": "Rye",
+    "website": "https://www.knobcreek.com/",
+    "region": "Kentucky",
+    "style": "Straight Rye",
+    "body": "Full",
+    "profile": [
+      "Rye Spice",
+      "Oak",
+      "Caramel",
+      "Char"
+    ],
+    "servingStyle": [
+      "Cocktails",
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🔥 📖 ABOUT: Full-bodied Kentucky straight rye from Knob Creek. 100 proof! Pre-Prohibition style - rye at full strength & full flavor!\n\n🥃 PROFILE: Bold & Robust | Intense rye spice, deep oak, caramel & barrel char | 100 proof creates intensity & warmth without harshness | Knob Creek doesn't compromise!\n\n🍽️ PAIRS WITH: Bone-in ribeye, Texas BBQ burnt ends, hand-rolled cigars, bourbon barrel-aged coffee.\n\n💡 SERVING: Perfect for Manhattans/Boulevardiers or serious rye drinkers! Maximum flavor!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 8,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "fruitiness": 4,
+      "oakiness": 7,
+      "minerality": 3,
+      "finish": 8,
+      "smokiness": 3,
+      "intensity": 9,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "rye spice",
+        "oak",
+        "caramel",
+        "char",
+        "robust"
+      ]
+    }
+  },
+  {
+    "id": "whistlepig-piggyback-rye",
+    "name": "WhistlePig Piggyback, 6 Year",
+    "pronunciation": "WIS-ul-pig",
+    "description": "Vermont",
+    "price": 13,
+    "category": "Rye",
+    "website": "https://www.whistlepigwhiskey.com/",
+    "region": "Vermont",
+    "style": "Straight Rye",
+    "body": "Medium-Full",
+    "profile": [
+      "Rye Spice",
+      "Mint",
+      "Caramel",
+      "Pepper"
+    ],
+    "servingStyle": [
+      "Cocktails",
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🐷 📖 ABOUT: Vermont 6-year straight rye from WhistlePig - America's premier rye specialist! 96.56 proof. The farm that made rye cool again!\n\n🥃 PROFILE: Bold & Smooth | Rye grain, fresh mint, caramel & black pepper | 100% rye mash bill | No corn diluting the rye character | Intense but balanced!\n\n🍽️ PAIRS WITH: Smoked pastrami, applewood bacon, aged Gruyere, dark chocolate bark.\n\n💡 SERVING: Perfect for Sazeracs/Manhattans where rye needs to shine! Craft excellence.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 6,
+      "minerality": 3,
+      "finish": 8,
+      "herbaceousness": 5,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "rye spice",
+        "mint",
+        "caramel",
+        "pepper",
+        "bold"
+      ]
+    }
+  },
+  {
+    "id": "mad-river-revolution-rye",
+    "name": "Mad River \"Revolution\"",
+    "description": "Vermont",
+    "price": 14,
+    "category": "Rye",
+    "website": "https://www.madriverdistillers.com/",
+    "region": "Vermont",
+    "style": "Craft Rye",
+    "body": "Medium-Full",
+    "profile": [
+      "Spice",
+      "Caramel",
+      "Vanilla",
+      "Pepper"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🏞️ 📖 ABOUT: Vermont craft straight rye from Mad River Distillers. 90 proof. Vermont's first distillery since Prohibition (2013)! Small-batch, traditional methods.\n\n🥃 PROFILE: Smooth & Distinctive | Bold spice, caramel, vanilla & pepper | Green Mountains terroir | Vermont rye with personality! Outside Kentucky mainstream.\n\n🍽️ PAIRS WITH: Vermont BBQ, maple-glazed pork, grilled meats, dark chocolate.\n\n💡 SERVING: For rye enthusiasts seeking something unique! Supporting local craft excellence!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 6,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "spice",
+        "caramel",
+        "vanilla",
+        "pepper",
+        "craft"
+      ]
+    }
+  },
+  {
+    "id": "mad-river-silver-oak-rye",
+    "name": "Mad River Silver Oak Barrel",
+    "description": "Vermont",
+    "price": 14,
+    "category": "Rye",
+    "website": "https://www.madriverdistillers.com/",
+    "region": "Vermont",
+    "style": "Finished Rye",
+    "body": "Medium-Full",
+    "profile": [
+      "Rye Spice",
+      "Red Fruit",
+      "Oak",
+      "Vanilla"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🍷 📖 ABOUT: Unique Vermont rye finished in authentic Silver Oak wine barrels from Napa! 92 proof. Limited production - only when barrels available! Vermont meets Napa Valley.\n\n🥃 PROFILE: Complex & Innovative | Rye spice, red fruit, oak tannins & vanilla | Wine barrel finish creates wine-whiskey hybrid | Remarkable depth & fruit character rarely found in rye!\n\n🍽️ PAIRS WITH: Venison, wild boar, aged Manchego, dark chocolate truffles.\n\n💡 SERVING: For whiskey adventurers! Perfect neat. Mad River's experimental program!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 7,
+      "minerality": 3,
+      "finish": 8,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "rye spice",
+        "red fruit",
+        "oak",
+        "vanilla",
+        "innovative"
+      ]
+    }
+  },
+  {
+    "id": "short-path-concord-rye",
+    "name": "Short Path, \"Concord Straight Rye\"",
+    "description": "Everett, Massachusetts",
+    "price": 14,
+    "category": "Rye",
+    "website": "https://www.shortpathdistillery.com/",
+    "region": "Massachusetts",
+    "style": "Straight Rye",
+    "body": "Medium",
+    "profile": [
+      "Spice",
+      "Caramel",
+      "Fruit",
+      "Pepper"
+    ],
+    "servingStyle": [
+      "Cocktails",
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🍽️ 📖 ABOUT: Massachusetts straight rye from Short Path, Everett (Boston area). 90 proof. Historic whiskey territory - MA had thriving rye pre-Prohibition!\n\n🥃 PROFILE: Smooth & Flavorful | Rye spice, caramel, fruit & black pepper | Grain-to-glass, local ingredients | Distinctively New England | Small-batch craft.\n\n🍽️ PAIRS WITH: New England seafood, Boston BBQ, lobster rolls, apple cider desserts.\n\n💡 SERVING: Great for cocktails or neat! Supporting local New England distilling!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 7,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 5,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "spice",
+        "caramel",
+        "fruit",
+        "pepper",
+        "craft"
+      ]
+    }
+  },
+  {
+    "id": "whistlepig-10-year-rye",
+    "name": "WhistlePig",
+    "pronunciation": "WIS-ul-pig",
+    "description": "Vermont, 10 Year",
+    "price": 16,
+    "category": "Rye",
+    "website": "https://www.whistlepigwhiskey.com/",
+    "region": "Vermont",
+    "style": "Straight Rye",
+    "body": "Full",
+    "profile": [
+      "Rye Spice",
+      "Caramel",
+      "Vanilla",
+      "Oak"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks"
+    ],
+    "serverNotes": "🐷 📖 ABOUT: Premium 10-year Vermont straight rye from WhistlePig. 100 proof! WhistlePig's flagship - pioneered the rye renaissance!\n\n🥃 PROFILE: Bold & Sophisticated | Intense rye spice, caramel, vanilla, oak & fresh mint | 100% rye mash bill | 10 years patience creates exceptional depth | Benchmark that set new standards!\n\n🍽️ PAIRS WITH: Dry-aged steak, wild game meats, premium cigars, dark chocolate.\n\n💡 SERVING: For serious whiskey lovers! Sip neat to appreciate world-class craftsmanship.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 8,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 8,
+      "minerality": 3,
+      "finish": 9,
+      "herbaceousness": 4,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "rye spice",
+        "caramel",
+        "vanilla",
+        "oak",
+        "complex"
+      ]
+    }
+  },
+  {
+    "id": "whistlepig-boss-hog-xi-rye",
+    "name": "The Boss Hog by WhistlePig, \"XI The Juggernaut\"",
+    "pronunciation": "WIS-ul-pig",
+    "description": "Vermont",
+    "price": 55,
+    "category": "Rye",
+    "website": "https://www.whistlepigwhiskey.com/",
+    "region": "Vermont",
+    "style": "Limited Edition Rye",
+    "body": "Full",
+    "profile": [
+      "Rye Spice",
+      "Caramel",
+      "Fruit",
+      "Oak"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "🐗 📖 ABOUT: Ultra-premium Boss Hog XI 'The Juggernaut' from WhistlePig. Barrel strength (108-115 proof)! Only ~3,000 bottles worldwide. WhistlePig's masterpiece!\n\n🥃 PROFILE: Extraordinary & Complex | Rye spice, caramel, dark fruit, oak & char | Aged 13+ years, finished in Teakwood casks | Uncut, unfiltered | Collectible ceramic pig bottle | Absolute rye perfection!\n\n🍽️ PAIRS WITH: Finest dry-aged beef, white truffles, premium cigars, single-origin dark chocolate.\n\n💡 SERVING: For serious collectors & once-in-a-lifetime celebrations only! Neat - water would be sacrilege!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 9,
+      "saltiness": 0,
+      "richness": 10,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 2,
+      "alcohol": 10,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 9,
+      "minerality": 4,
+      "finish": 10,
+      "smokiness": 4,
+      "intensity": 10,
+      "complexity": 10,
+      "aromaticIntensity": 10,
+      "flavorNotes": [
+        "rye spice",
+        "caramel",
+        "fruit",
+        "oak",
+        "extraordinary"
+      ]
+    }
+  }
+]

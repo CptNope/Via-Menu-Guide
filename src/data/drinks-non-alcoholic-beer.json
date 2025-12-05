@@ -1,0 +1,166 @@
+[
+  {
+    "id": "peroni-na-bottle",
+    "name": "Peroni, Lager",
+    "description": "12 oz. Bottle",
+    "price": 6,
+    "category": "Non-Alcoholic Beer",
+    "website": "https://www.peroniitaly.com/",
+    "serverNotes": "📖 ABOUT: Non-alcoholic version of Italy's favorite lager from Birra Peroni. The blue label you know, minus the alcohol!\n\n🍺 STYLE: Non-Alcoholic Lager | 0.0% ABV, 12 IBU | Crisp, clean, refreshing | De-alcoholization process preserves authentic beer flavor.\n\n🍽️ PAIRS WITH: Pizza, pasta, antipasti, seafood—all Italian dishes!\n\n💡 SERVING TIP: Serve ice cold (38-40°F). Perfect for designated drivers, pregnant guests, health-conscious diners. Authentic Italian lager flavor without compromise!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 7,
+      "flavorNotes": [
+        "clean",
+        "crisp",
+        "malt",
+        "refreshing",
+        "authentic"
+      ]
+    }
+  },
+  {
+    "id": "heineken-zero-bottle",
+    "name": "Heineken \"0.0\" Lager",
+    "description": "12 oz. Bottle",
+    "price": 6,
+    "category": "Non-Alcoholic Beer",
+    "website": "https://www.heineken.com/",
+    "serverNotes": "🍺 ABOUT: Zero alcohol Heineken with authentic Dutch lager taste. World's best-selling NA beer! The green label you trust, zero alcohol.\n\n🍺 STYLE: Non-Alcoholic Lager | 0.0% ABV | Crisp, slightly fruity with subtle malt sweetness | Balanced hop character | Proprietary brewing process preserves Heineken taste.\n\n🍽️ PAIRS WITH: Burgers, pizza, wings, casual dining.\n\n💡 SERVING TIP: Serve ice cold (38-40°F) in Heineken's signature green bottle. Perfect for athletes, designated drivers, lunch meetings, health-conscious diners!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 7,
+      "flavorNotes": [
+        "crisp",
+        "fruity",
+        "malt",
+        "balanced",
+        "premium"
+      ]
+    }
+  },
+  {
+    "id": "sam-adams-just-the-haze",
+    "name": "Sam Adams \"Just The Haze\"",
+    "description": "NEIPA, 12 oz. Can",
+    "price": 6,
+    "category": "Non-Alcoholic Beer",
+    "website": "https://www.samueladams.com/",
+    "serverNotes": "🍊 📖 ABOUT: Non-alcoholic New England IPA from Sam Adams (Boston Beer Company). 'Just The Haze'—all the flavor without the alcohol! Proves NA beer can be legitimately good.\n\n🍺 STYLE: Non-Alcoholic NEIPA | 0.5% ABV (trace), 35 IBU | Hazy appearance with citrus & tropical fruit hop character | Special brewing process preserves hop aroma and flavor.\n\n🍽️ PAIRS WITH: Spicy wings, cheddar cheese, burgers, IPA-friendly foods.\n\n💡 SERVING TIP: Serve cold (40-45°F). Perfect for IPA lovers who can't or don't want alcohol. Sam Adams bringing craft to non-alcoholic!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 6,
+      "flavorNotes": [
+        "citrus",
+        "tropical",
+        "hazy",
+        "hoppy",
+        "craft"
+      ]
+    }
+  },
+  {
+    "id": "athletic-run-wild-ipa",
+    "name": "Athletic \"Run Wild\" IPA",
+    "description": "12 oz. Can",
+    "price": 7,
+    "category": "Non-Alcoholic Beer",
+    "website": "https://athleticbrewing.com/",
+    "serverNotes": "📖 ABOUT: Award-winning non-alcoholic IPA from Athletic Brewing, America's premier dedicated NA brewery. Athletic ONLY makes non-alcoholic beer—they've perfected the craft! Best-in-class with multiple awards.\n\n🍺 STYLE: Non-Alcoholic IPA | Less than 0.5% ABV, 45 IBU | Bold hop character with pine, citrus & tropical fruit | Full-bodied, authentic IPA taste that rivals alcoholic versions.\n\n🍽️ PAIRS WITH: Wings, burgers, pizza, aged cheddar—classic hoppy pairings.\n\n💡 SERVING TIP: Serve cold (40-45°F). Perfect for athletes (hydration without alcohol), health-conscious individuals, recovery communities. This is what NA beer should taste like. Run wild without the buzz!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 6,
+      "flavorNotes": [
+        "pine",
+        "citrus",
+        "tropical",
+        "bold-hops",
+        "award-winning"
+      ]
+    }
+  }
+]

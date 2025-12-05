@@ -1,0 +1,82 @@
+[
+  {
+    "id": "la-crema-chardonnay",
+    "name": "La Crema",
+    "description": "Monterey, 2023",
+    "price": 12,
+    "category": "Chardonnay",
+    "website": "https://www.lacrema.com/",
+    "serverNotes": "📖 ABOUT: Medium-bodied California Chardonnay from La Crema, Monterey. Balanced, approachable style - crowd-pleasing & reliable!\n\n🍷 STYLE: Classic Chardonnay | Apple, pear, vanilla & butter notes | Partial oak aging adds richness | California elegance.\n\n🍽️ PAIRS WITH: Seafood, poultry, cream sauces, lobster, scallops.\n\n💡 BY THE GLASS: Versatile Chardonnay that works with everything. Perfect house white!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 5,
+      "minerality": 4,
+      "finish": 6,
+      "creaminess": 5,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 6,
+      "flavorNotes": [
+        "apple",
+        "pear",
+        "vanilla",
+        "butter"
+      ]
+    }
+  },
+  {
+    "id": "rombauer-chardonnay",
+    "name": "Rombauer",
+    "description": "Carneros, 2023",
+    "price": 17,
+    "category": "Chardonnay",
+    "website": "https://www.rombauer.com/",
+    "serverNotes": "📖 ABOUT: Full-bodied, luxurious Chardonnay from Rombauer, Carneros. Cult classic - highly sought after! Premium by-the-glass offering.\n\n🍷 STYLE: Rich Chardonnay | Ripe tropical fruit, butter & toasty oak | Creamy texture from malolactic fermentation | Napa luxury.\n\n🍽️ PAIRS WITH: Lobster, scallops, rich poultry dishes, crab, cream sauces.\n\n💡 BY THE GLASS: THE cult Chardonnay everyone asks for. Buttery, rich, indulgent!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "flavorNotes": [
+        "tropical-fruit",
+        "butter",
+        "toasty-oak",
+        "creamy"
+      ]
+    }
+  }
+]

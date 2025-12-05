@@ -1,0 +1,291 @@
+[
+  {
+    "id": "croft-reserve-tawny-port",
+    "name": "Croft Reserve Tawny",
+    "description": "Portugal",
+    "price": 11,
+    "category": "Port",
+    "website": "https://www.croftport.com/",
+    "region": "Portugal",
+    "style": "Tawny Port",
+    "body": "Full",
+    "profile": [
+      "Caramel",
+      "Nuts",
+      "Dried Fruit",
+      "Vanilla"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "🇵🇹 📖 ABOUT: Tawny port from Croft - one of oldest port houses! Founded 1588. 40 proof. From Douro Valley's steep terraced vineyards.\n\n🍷 PROFILE: Sweet & Smooth | Caramel, toasted nuts, dried fruit & vanilla | Wood-aged for mellow oxidative character | Beautiful amber color | Approachable entry to port!\n\n🍽️ PAIRS WITH: Roasted almonds, aged Manchego, chocolate torta, crème brûlée.\n\n💡 SERVING: Perfect dessert wine or digestif! Serve slightly chilled (60°F). Excellent value!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "port"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 7,
+      "minerality": 2,
+      "finish": 8,
+      "creaminess": 4,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "caramel",
+        "nuts",
+        "dried-fruit",
+        "vanilla",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "dows-10-year-tawny-port",
+    "name": "Dow's 10 Year",
+    "description": "Portugal, Tawny",
+    "price": 13,
+    "category": "Port",
+    "website": "https://www.dows-port.com/",
+    "region": "Portugal",
+    "style": "10 Year Tawny Port",
+    "body": "Full",
+    "profile": [
+      "Caramel",
+      "Dried Fruit",
+      "Nuts",
+      "Fig"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "🍷 📖 ABOUT: Premium 10-year tawny from legendary Dow's. Est. 1798. 40 proof. Age statement verified! Historic Symington family. What proper tawny should taste like!\n\n🍷 PROFILE: Smooth & Complex | Caramel, dried apricot, toasted hazelnuts, fig & milk chocolate | 10 years in seasoned oak | Mellow oxidative character | Remarkable depth!\n\n🍽️ PAIRS WITH: Stilton blue cheese, roasted pecans, caramel flan, apple tart.\n\n💡 SERVING: Serve slightly chilled (60-65°F) to enhance nutty notes. Excellent value aged port!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "port"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 8,
+      "minerality": 2,
+      "finish": 9,
+      "creaminess": 5,
+      "intensity": 8,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "caramel",
+        "dried-fruit",
+        "nuts",
+        "fig",
+        "chocolate",
+        "complex"
+      ]
+    }
+  },
+  {
+    "id": "dows-lbv-2003-port",
+    "name": "Dow's Late Bottled Vintage 2003",
+    "description": "Portugal, LBV",
+    "price": 13,
+    "category": "Port",
+    "website": "https://www.dows-port.com/",
+    "region": "Portugal",
+    "style": "Late Bottled Vintage Port",
+    "body": "Full",
+    "profile": [
+      "Dark Fruit",
+      "Chocolate",
+      "Spice",
+      "Pepper"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "🍷 📖 ABOUT: Late Bottled Vintage port from exceptional 2003 harvest by Dow's. 40 proof. LBV aged 4-6 years! Ready to drink now - no decanting needed!\n\n🍷 PROFILE: Full & Intense | Dark blackberry, bitter chocolate, warm spice & black pepper | Vintage-style character | Great alternative to expensive vintage at fraction of price!\n\n🍽️ PAIRS WITH: Roquefort blue cheese, chocolate lava cake, roasted chestnuts, dark chocolate truffles.\n\n💡 SERVING: Cool room temp (60-65°F). Excellent value from Quinta do Bomfim estate!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "port"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 2,
+      "alcohol": 9,
+      "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 4,
+      "minerality": 3,
+      "finish": 9,
+      "intensity": 9,
+      "complexity": 8,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "dark-fruit",
+        "chocolate",
+        "spice",
+        "pepper",
+        "intense"
+      ]
+    }
+  },
+  {
+    "id": "fonseca-20-year-tawny-port",
+    "name": "Fonseca 20 Year",
+    "pronunciation": "fon-SEH-kah",
+    "description": "Portugal, Tawny",
+    "price": 16,
+    "category": "Port",
+    "website": "https://www.fonseca.pt/",
+    "region": "Portugal",
+    "style": "20 Year Tawny Port",
+    "body": "Full",
+    "profile": [
+      "Caramel",
+      "Dried Fruit",
+      "Nuts",
+      "Butterscotch"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "✨ 📖 ABOUT: Exceptional 20-year tawny from prestigious Fonseca. Founded 1815. 40 proof. Port house artistry at its peak!\n\n🍷 PROFILE: Smooth & Luxurious | Burnt caramel, dried figs, toasted walnuts, warm spice & butterscotch | 20 years in wood creates incredible depth | Amber-brick color | Sweet spot of aged tawny!\n\n🍽️ PAIRS WITH: Foie gras terrine, Stilton blue cheese, crème brûlée, almond biscotti.\n\n💡 SERVING: For special occasions! Lightly chilled (55-60°F). Profoundly refined!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "port"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 9,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 9,
+      "minerality": 2,
+      "finish": 10,
+      "creaminess": 6,
+      "intensity": 9,
+      "complexity": 10,
+      "aromaticIntensity": 10,
+      "flavorNotes": [
+        "caramel",
+        "dried-fruit",
+        "nuts",
+        "butterscotch",
+        "luxurious",
+        "complex"
+      ]
+    }
+  },
+  {
+    "id": "quinta-do-noval-2018-vintage-port",
+    "name": "Quinta do Noval 2018 Vintage",
+    "pronunciation": "KEEN-tah doo noh-VAHL",
+    "description": "Portugal, Vintage",
+    "price": 25,
+    "category": "Port",
+    "website": "https://www.quintadonoval.com/",
+    "region": "Portugal",
+    "style": "Vintage Port",
+    "body": "Full",
+    "profile": [
+      "Dark Fruit",
+      "Chocolate",
+      "Spice",
+      "Fig"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "🍷 📖 ABOUT: Premium vintage port from legendary Quinta do Noval's exceptional 2018 harvest! 40 proof. Since 1715. Universally declared vintage. Portuguese port royalty!\n\n🍷 PROFILE: Powerful & Age-Worthy | Concentrated dark cherry, bitter chocolate, exotic spice, black pepper & fig | Made only in declared vintage years (2-3 per decade) | Cellar until 2040+! Liquid history!\n\n🍽️ PAIRS WITH: Roquefort blue cheese, 85% dark chocolate, roasted walnuts, Stilton.\n\n💡 SERVING: For special occasions & collectors! Decant first. Investment-grade port!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "port"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 3,
+      "alcohol": 9,
+      "carbonation": 0,
+      "fruitiness": 10,
+      "oakiness": 3,
+      "minerality": 4,
+      "finish": 10,
+      "intensity": 10,
+      "complexity": 10,
+      "aromaticIntensity": 10,
+      "flavorNotes": [
+        "dark-fruit",
+        "chocolate",
+        "spice",
+        "fig",
+        "pepper",
+        "powerful",
+        "age-worthy"
+      ]
+    }
+  }
+]

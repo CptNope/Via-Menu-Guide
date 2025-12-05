@@ -1,0 +1,301 @@
+[
+  {
+    "id": "grand-marnier-100-cognac",
+    "name": "Grand Marnier 100",
+    "pronunciation": "grahn mar-nee-AY",
+    "description": "France",
+    "price": 13,
+    "category": "Cognac",
+    "website": "https://www.grand-marnier.com/",
+    "region": "France",
+    "style": "Orange Liqueur",
+    "body": "Medium",
+    "profile": [
+      "Orange",
+      "Cognac",
+      "Vanilla",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "🇫🇷 📖 ABOUT: Premium orange liqueur with cognac base from Grand Marnier. Created 1880. 100 proof! More cognac, more orange, more everything!\n\n🥃 PROFILE: Rich & Bold | Haitian bitter orange, fine cognac, vanilla & warm spice | Aged in French oak | Significantly bolder than regular GM (80 proof).\n\n🍽️ PAIRS WITH: Chocolate soufflé, crêpes Suzette, orange desserts, dark chocolate.\n\n💡 SERVING: Perfect for Cadillac Margaritas or neat for cognac lovers! French luxury since 1880.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "cognac",
+      "orange-liqueur"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 5,
+      "minerality": 2,
+      "finish": 8,
+      "creaminess": 3,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "orange",
+        "cognac",
+        "vanilla",
+        "spice",
+        "bold"
+      ]
+    }
+  },
+  {
+    "id": "courvoisier-cognac",
+    "name": "Courvoisier",
+    "pronunciation": "koor-vwah-zee-AY",
+    "description": "France, VS",
+    "price": 14,
+    "category": "Cognac",
+    "website": "https://www.courvoisier.com/",
+    "region": "Cognac, France",
+    "style": "VS Cognac",
+    "body": "Medium",
+    "profile": [
+      "Fruit",
+      "Oak",
+      "Vanilla",
+      "Caramel"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "👑 ABOUT: Classic French VS cognac from Courvoisier. Est. 1828. 80 proof. 'The Cognac of Napoleon' - supplied imperial court!\n\n🥃 PROFILE: Smooth & Approachable | Stone fruit, oak, vanilla & caramel | VS = aged min 2 years | Grande & Petite Champagne blend | Imperial heritage!\n\n🍽️ PAIRS WITH: Aged Comté cheese, dark chocolate, premium cigars, foie gras.\n\n💡 SERVING: Perfect for Sidecars or neat in snifter. Napoleon connection is legendary!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "cognac"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 2,
+      "finish": 7,
+      "creaminess": 3,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "fruit",
+        "oak",
+        "vanilla",
+        "caramel",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "grand-marnier-cognac",
+    "name": "Grand Marnier",
+    "pronunciation": "grahn mar-nee-AY",
+    "description": "France",
+    "price": 14,
+    "category": "Cognac",
+    "website": "https://www.grand-marnier.com/",
+    "region": "France",
+    "style": "Orange Liqueur",
+    "body": "Medium",
+    "profile": [
+      "Orange",
+      "Cognac",
+      "Vanilla",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "🍊 📖 ABOUT: Premium orange liqueur with fine cognac from Grand Marnier. Created 1880. 80 proof. Red ribbon & wax seal instantly recognizable!\n\n🥃 PROFILE: Rich & Luxurious | Exotic bitter orange, aged cognac, Madagascar vanilla & warm spice | Caribbean orange peels macerated in cognac | The original!\n\n🍽️ PAIRS WITH: Crêpes Suzette (flambéed!), chocolate mousse, crème brûlée, orange soufflé.\n\n💡 SERVING: Essential for premium Margaritas! Or neat as digestif. French luxury since 1880!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "cognac",
+      "orange-liqueur"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 5,
+      "minerality": 2,
+      "finish": 8,
+      "creaminess": 3,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "orange",
+        "cognac",
+        "vanilla",
+        "spice",
+        "luxurious"
+      ]
+    }
+  },
+  {
+    "id": "hennessy-cognac",
+    "name": "Hennessy",
+    "pronunciation": "HEN-uh-see",
+    "description": "France, VS",
+    "price": 16,
+    "category": "Cognac",
+    "website": "https://www.hennessy.com/",
+    "region": "Cognac, France",
+    "style": "VS Cognac",
+    "body": "Medium-Full",
+    "profile": [
+      "Fruit",
+      "Oak",
+      "Vanilla",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🏆 📖 ABOUT: World's best-selling cognac from Hennessy. Founded 1765. 80 proof. 50+ million bottles sold annually! Famous arm-and-axe logo. Cognac royalty!\n\n🥃 PROFILE: Bold & Iconic | Stone fruit, oak, vanilla & warm spice | VS aged min 2 years | Blend of 40+ eaux-de-vie | Prestigious for 250+ years!\n\n🍽️ PAIRS WITH: Aged Gruyère, dark chocolate truffles, premium cigars, duck confit.\n\n💡 SERVING: Perfect for cocktails (Hennessy & Coke, Sidecars) or neat in snifter. Benchmark cognac!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "cognac"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 2,
+      "finish": 8,
+      "creaminess": 3,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "fruit",
+        "oak",
+        "vanilla",
+        "spice",
+        "bold",
+        "iconic"
+      ]
+    }
+  },
+  {
+    "id": "remy-vsop-cognac",
+    "name": "Rémy Martin VSOP",
+    "pronunciation": "ray-MEE mar-TAN",
+    "description": "France, VSOP",
+    "price": 19,
+    "category": "Cognac",
+    "website": "https://www.remymartin.com/",
+    "region": "Cognac, France",
+    "style": "VSOP Cognac",
+    "body": "Medium-Full",
+    "profile": [
+      "Fruit",
+      "Vanilla",
+      "Oak",
+      "Honey"
+    ],
+    "servingStyle": [
+      "Neat"
+    ],
+    "serverNotes": "🌾 📖 ABOUT: Premium VSOP cognac from Rémy Martin. Founded 1724. 80 proof. VSOP = aged 4+ years! Iconic centaur logo. Liquid elegance!\n\n🥃 PROFILE: Smooth & Refined | Stone fruit, vanilla, oak, warm spice & wildflower honey | Exclusively Grande & Petite Champagne grapes | Fine Champagne designation = superior quality!\n\n🍽️ PAIRS WITH: Foie gras, truffles, dark chocolate soufflé, hand-rolled cigars.\n\n💡 SERVING: For special occasions! Neat in tulip glass to concentrate aromas. Prestigious since 1724!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "cognac"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 7,
+      "minerality": 3,
+      "finish": 9,
+      "creaminess": 4,
+      "intensity": 8,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "fruit",
+        "vanilla",
+        "oak",
+        "honey",
+        "complex",
+        "elegant"
+      ]
+    }
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "centorri-moscato",
+    "name": "Centorri Moscato di Pavia",
+    "description": "IGT Lombardy, 11, 2023",
+    "price": 11,
+    "category": "Sparkling",
+    "website": "https://www.centorri.it/",
+    "serverNotes": "📖 ABOUT: Sweet, lightly sparkling Moscato from Centorri, Lombardy. Low alcohol (11%) - easy-drinking & fun!\n\n🍷 STYLE: Sweet Moscato | Peach, orange blossom & honey | Lightly sparkling, refreshing | Appeals to sweet wine lovers.\n\n🍽️ PAIRS WITH: Fruit, light desserts, brunch, or enjoy alone.\n\n💡 BY THE GLASS: Perfect for dessert or aperitif. Sweet, bubbly, and delicious!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 8,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 4,
+      "carbonation": 6,
+      "flavorNotes": [
+        "peach",
+        "orange-blossom",
+        "honey",
+        "sweet"
+      ]
+    }
+  },
+  {
+    "id": "benvolio-prosecco",
+    "name": "Benvolio Prosecco",
+    "pronunciation": "ben-VOH-lee-oh proh-SEH-koh",
+    "description": "DOC, Friuli, Italy, N.V.",
+    "price": 13,
+    "category": "Sparkling",
+    "website": "https://www.benvolio.it/",
+    "serverNotes": "🥂 📖 ABOUT: Dry, refreshing Italian Prosecco from Benvolio, Friuli. DOC quality - great value sparkler!\n\n🍷 STYLE: Classic Prosecco | Green apple, pear & citrus | Light, effervescent, crisp finish | Perfect bubbles.\n\n🍽️ PAIRS WITH: Appetizers, fried foods, light seafood, celebrations.\n\n💡 BY THE GLASS: Perfect celebration wine or aperitif. Festive and affordable!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 8,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 5,
+      "finish": 5,
+      "intensity": 5,
+      "complexity": 4,
+      "aromaticIntensity": 6,
+      "flavorNotes": [
+        "green-apple",
+        "pear",
+        "citrus",
+        "crisp"
+      ]
+    }
+  },
+  {
+    "id": "pasqua-prosecco-rose",
+    "name": "Pasqua Prosecco Brut Rosé",
+    "description": "DOC, Veneto, 2023",
+    "price": 13,
+    "category": "Sparkling",
+    "website": "https://www.pasqua.it/",
+    "serverNotes": "🌸 📖 ABOUT: Refreshing Italian Prosecco Rosé from Pasqua, Veneto. Beautiful pink color - festive & fun! DOC quality.\n\n🍷 STYLE: Sparkling Rosé | Strawberry, cherry & floral notes | Light bubbles, refreshing | Perfect celebration wine.\n\n🍽️ PAIRS WITH: Light appetizers, fresh fruit, salads, brunch dishes.\n\n💡 BY THE GLASS: Pretty pink bubbles! Perfect for celebrations, brunch, or just because!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "sparkling-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 8,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 4,
+      "finish": 5,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "strawberry",
+        "cherry",
+        "floral",
+        "refreshing"
+      ]
+    }
+  },
+  {
+    "id": "nicolas-feuillatte-brut",
+    "name": "Nicolas Feuillatte Brut",
+    "description": "Champagne, France, WS 92, N.V.",
+    "price": 18,
+    "category": "Sparkling",
+    "website": "https://www.nicolas-feuillatte.com/",
+    "serverNotes": "🇫🇷 📖 ABOUT: True French Champagne from Nicolas Feuillatte. Highly rated Wine Spectator 92 pts! Premium offering.\n\n🍷 STYLE: Elegant Champagne | Fine bubbles, brioche, citrus & toast notes | Balanced, complex | Classic French luxury.\n\n🍽️ PAIRS WITH: Oysters, caviar, fine cuisine, celebrations.\n\n💡 BY THE GLASS: Real Champagne by the glass! Perfect for special occasions.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 5,
+      "umami": 2,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 9,
+      "fruitiness": 5,
+      "oakiness": 4,
+      "minerality": 7,
+      "finish": 9,
+      "creaminess": 6,
+      "intensity": 7,
+      "complexity": 9,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "brioche",
+        "citrus",
+        "toast",
+        "elegant"
+      ]
+    }
+  },
+  {
+    "id": "nicolas-feuillatte-rose",
+    "name": "Nicolas Feuillatte Brut Rosé",
+    "description": "Champagne, France, WS 90, N.V.",
+    "price": 21,
+    "category": "Sparkling",
+    "website": "https://www.nicolas-feuillatte.com/",
+    "serverNotes": "🌹 📖 ABOUT: Elegant French Rosé Champagne from Nicolas Feuillatte. Wine Spectator 90 pts! Top-tier sparkling option.\n\n🍷 STYLE: Luxurious Rosé Champagne | Red berry, brioche & citrus | Beautiful salmon-pink color | Romantic & celebratory.\n\n🍽️ PAIRS WITH: Sushi, salmon, berries, desserts, celebrations.\n\n💡 BY THE GLASS: Ultimate romantic choice. Pink Champagne for special moments!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 8,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 1,
+      "richness": 5,
+      "umami": 2,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 9,
+      "flavorNotes": [
+        "red-berry",
+        "brioche",
+        "citrus",
+        "elegant"
+      ]
+    }
+  }
+]

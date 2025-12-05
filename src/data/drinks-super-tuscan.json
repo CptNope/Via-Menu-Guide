@@ -1,0 +1,82 @@
+[
+  {
+    "id": "rubio-super-tuscan",
+    "name": "Rubio by San Polo",
+    "pronunciation": "ROO-bee-oh / san POH-loh",
+    "description": "IGT, Montalcino, JS 91, 2022",
+    "price": 14,
+    "category": "Super Tuscan",
+    "serverNotes": "Full-bodied Super Tuscan from Montalcino producer. Dark fruit, spice, and oak. Well-structured with good aging potential. Rated 91 pts. Modern Tuscan style. Pairs excellently with red meats, aged cheese, hearty Italian dishes.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 3,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 7,
+      "minerality": 4,
+      "finish": 8,
+      "earthiness": 5,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "dark-fruit",
+        "spice",
+        "oak",
+        "structured"
+      ]
+    }
+  },
+  {
+    "id": "olillo-super-tuscan",
+    "name": "\"O'Lillo\" by Baracchi",
+    "pronunciation": "oh-LEE-loh / bah-RAH-kee",
+    "description": "IGT, Tuscany, 2024",
+    "price": 15,
+    "category": "Super Tuscan",
+    "serverNotes": "Medium to full-bodied Tuscan blend with Sangiovese and international grapes. Bright red fruit, soft tannins, approachable. Modern Italian style that appeals to both traditional and new world wine drinkers. Versatile with many dishes.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 5,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "red-fruit",
+        "approachable",
+        "soft-tannins",
+        "versatile"
+      ]
+    }
+  }
+]

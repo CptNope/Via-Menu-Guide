@@ -1,0 +1,195 @@
+[
+  {
+    "id": "peroni-draught",
+    "name": "Peroni Lager",
+    "description": "Italy, 5.1% ABV",
+    "price": 9,
+    "category": "Draught",
+    "website": "https://www.peroniitaly.com/",
+    "serverNotes": "📖 ABOUT: Italy's #1 beer from Birra Peroni, founded 1846 in Rome. The iconic blue label served in every trattoria from Milan to Sicily.\n\n🍺 STYLE: Crisp, refreshing Italian lager | 5.1% ABV, 24 IBU | Clean Pilsner-style with delicate hops | Brewed with Italian maize for crisp finish.\n\n🍽️ PAIRS WITH: Pizza margherita, pasta aglio e olio, prosciutto, mozzarella, caprese salad, seafood pasta, wood-fired pizza.\n\n💡 SERVING TIP: Serve ice cold (38-40°F) in a chilled glass. Perfect aperitif before meals—authentic Italian beer culture!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "water",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 2,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 7,
+      "fruitiness": 2,
+      "oakiness": 0,
+      "minerality": 5,
+      "finish": 4,
+      "intensity": 3,
+      "complexity": 3,
+      "aromaticIntensity": 4,
+      "flavorNotes": [
+        "clean",
+        "crisp",
+        "light-malt",
+        "corn",
+        "refreshing"
+      ]
+    }
+  },
+  {
+    "id": "jacks-abby-copper-legend",
+    "name": "Jack's Abby Copper Legend, Oktoberfest Lager",
+    "description": "Framingham, MA, 5.7% ABV",
+    "price": 10,
+    "category": "Draught",
+    "website": "https://jacksabby.com/",
+    "serverNotes": "🍂 📖 ABOUT: Authentic Oktoberfest Märzen from Jack's Abby Craft Lagers in Framingham, MA (founded 2011). Local Massachusetts craft excellence!\n\n🍺 STYLE: Traditional German Märzen | 5.7% ABV, 25 IBU | Rich toasted malt with caramel, bread crust & biscuit notes | Smooth, medium-bodied | Brewed in spring, lagered until fall—honoring Munich tradition.\n\n🍽️ PAIRS WITH: Bratwurst, pork schnitzel, roasted chicken, pretzels, apple dishes, roasted root vegetables, caramelized onions.\n\n💡 SERVING TIP: Serve cold (45-50°F) in a stein or Märzen glass. This is autumn in a glass!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 1,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 1,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 4,
+      "carbonation": 5,
+      "fruitiness": 4,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 6,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 6,
+      "flavorNotes": [
+        "malt",
+        "caramel",
+        "toasted-bread",
+        "biscuit",
+        "smooth"
+      ]
+    }
+  },
+  {
+    "id": "pulp-daddy-ipa-draught",
+    "name": "\"Pulp Daddy\" Imperial IPA by Greater Good",
+    "description": "Worcester, MA, 13 oz., 8% ABV",
+    "price": 10,
+    "category": "Draught",
+    "website": "https://greatergoodimperial.com/",
+    "serverNotes": "🍺 ABOUT: Bold Imperial IPA (Double IPA) from Greater Good Brewing in Worcester, MA. Local brewery supporting the community!\n\n🍊 STYLE: Hazy Imperial IPA | 8% ABV, 80+ IBU | Intense hop character with citrus, mango, pineapple & tropical fruit | Generously dry-hopped for maximum aroma | Full body with warming alcohol.\n\n🍽️ PAIRS WITH: Spicy buffalo wings, jalapeño burgers, Korean BBQ, aged cheddar, spicy Thai, IPA cheddar soup. Strong flavors that stand up to the hops!\n\n💡 SERVING TIP: 13 oz pour (not a full pint due to higher ABV). Serve cold (40-45°F). For serious IPA lovers—this is hop heaven!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 9,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 5,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 9,
+      "complexity": 7,
+      "aromaticIntensity": 10,
+      "flavorNotes": [
+        "citrus",
+        "tropical-fruit",
+        "mango",
+        "pine",
+        "intense-hops"
+      ]
+    }
+  },
+  {
+    "id": "lunch-car-ipa-draught",
+    "name": "\"Lunch Car\" by Double Down",
+    "description": "West Coast IPA, Worcester, MA, 6.5% ABV",
+    "price": 10,
+    "category": "Draught",
+    "website": "https://www.doubledownbrewing.com/",
+    "serverNotes": "🌅 📖 ABOUT: Classic West Coast IPA from Double Down Brewing in Worcester, MA. Named after Worcester's famous lunch car diner culture. Local craft supporting the community!\n\n🍊 STYLE: West Coast IPA | 6.5% ABV, 65 IBU | Assertive pine resin, ruby red grapefruit & citrus zest | Crisp, clean, dry finish | Clear appearance (not hazy) | Lighter body lets hop character shine.\n\n🍽️ PAIRS WITH: Bacon cheeseburgers, crispy fried chicken, pepperoni pizza, buffalo wings. The bitterness cuts through fat beautifully!\n\n💡 SERVING TIP: Serve cold (40-45°F) in an IPA glass. Traditional IPA for fans who want clarity and bite. West Coast pride in Central Mass!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 8,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 6,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 4,
+      "finish": 7,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "pine",
+        "grapefruit",
+        "citrus",
+        "resinous",
+        "clean"
+      ]
+    }
+  }
+]

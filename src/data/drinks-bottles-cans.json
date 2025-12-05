@@ -1,0 +1,513 @@
+[
+  {
+    "id": "allagash-white-bottle",
+    "name": "Allagash White Wheat Ale",
+    "description": "Portland ME, 16 oz., 5.2% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "website": "https://www.allagash.com/",
+    "serverNotes": "📖 ABOUT: Award-winning Belgian-style witbier from Allagash Brewing in Portland, ME (founded 1995). One of America's finest Belgian-style beers!\n\n🍺 STYLE: Belgian Witbier | 5.2% ABV, 20 IBU | Brewed with wheat, oats, orange peel & coriander | Cloudy, unfiltered | Light, refreshing with citrus & subtle spice notes.\n\n🍽️ PAIRS WITH: Steamed mussels, lobster rolls, Caesar salad, goat cheese, lemon dishes, fresh herbs, grilled fish.\n\n💡 SERVING TIP: Serve cold (40-45°F) in a tulip glass. Great summer beer that appeals to wine drinkers and beer lovers alike. Belgian tradition meets New England craft!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "wheat",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 7,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 5,
+      "creaminess": 4,
+      "intensity": 5,
+      "complexity": 6,
+      "aromaticIntensity": 8,
+      "herbaceousness": 5,
+      "flavorNotes": [
+        "citrus",
+        "coriander",
+        "wheat",
+        "orange-peel",
+        "refreshing"
+      ]
+    }
+  },
+  {
+    "id": "carlson-oak-hill-cider",
+    "name": "Carlson \"Oak Hill\" Hard Cider",
+    "description": "Harvard, MA, 16 oz., 5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "website": "https://www.carlsonorchards.com/",
+    "serverNotes": "📖 ABOUT: Crisp, dry hard cider from Carlson Orchards in Harvard, MA. Made from local Massachusetts apples. Naturally gluten-free!\n\n🍺 STYLE: Dry Hard Cider | 5% ABV | Refreshing, not too sweet | Great beer alternative for gluten-free guests.\n\n🍽️ PAIRS WITH: Pork, chicken, salads, apple-based dishes.\n\n💡 SERVING TIP: Serve cold. Perfect for cider lovers and those avoiding gluten. Local craft cider excellence!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "apple"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 1,
+      "alcohol": 4,
+      "carbonation": 7,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 5,
+      "intensity": 5,
+      "complexity": 4,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "apple",
+        "crisp",
+        "dry",
+        "refreshing",
+        "cider"
+      ]
+    }
+  },
+  {
+    "id": "wachusett-ipa-bottle",
+    "name": "Wachusett Blueberry Ale",
+    "description": "Westminster, MA, 12 oz., 4.5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "website": "https://www.wachusettbrew.com/",
+    "serverNotes": "🫐 📖 ABOUT: Fruit ale from Wachusett Brewing in Westminster, MA (founded 1994). Named after Mount Wachusett. Made with REAL blueberries, no extract!\n\n🍺 STYLE: Blueberry Ale | 4.5% ABV, 18 IBU | Subtle blueberry aroma & flavor over crisp golden ale base | Light, refreshing | Gentle fruit character.\n\n🍽️ PAIRS WITH: Summer salads, grilled chicken, lemon desserts, blueberry pancakes.\n\n💡 SERVING TIP: Serve cold (38-42°F). Appeals to cider drinkers and those new to craft beer. Approachable New England fruit beer done right!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast",
+      "blueberry"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 4,
+      "intensity": 6,
+      "complexity": 4,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "blueberry",
+        "fruit",
+        "crisp",
+        "light-malt",
+        "easy-drinking"
+      ]
+    }
+  },
+  {
+    "id": "behoppy-wormtown-ipa",
+    "name": "\"Be Hoppy\" by Wormtown IPA",
+    "description": "Worcester, MA, 16 oz. 6.5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "website": "https://www.wormtownbrewery.com/",
+    "serverNotes": "😊 📖 ABOUT: Hoppy American IPA from Wormtown Brewery in Worcester, MA (founded 2010). Deeply rooted in Worcester culture—Worcester's hoppy handshake!\n\n🍺 STYLE: American IPA | 6.5% ABV, 70 IBU | Citrus-forward with grapefruit, tropical fruit & pine resin | Bitter, aromatic finish | Golden color.\n\n🍽️ PAIRS WITH: Bacon burgers, buffalo wings, fried pickles, spicy foods, aged cheddar, IPA braised dishes.\n\n💡 SERVING TIP: Serve cold (40-45°F). For hop lovers who support local craft beer. The playful name 'Be Hoppy' reflects Worcester's upbeat attitude!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 8,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 6,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 8,
+      "complexity": 6,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "citrus",
+        "tropical-fruit",
+        "pine",
+        "grapefruit",
+        "hoppy"
+      ]
+    }
+  },
+  {
+    "id": "surfside-iced-tea-vodka",
+    "name": "Surfside Iced Tea & Vodka",
+    "description": "Phil., PA, 12 oz., 4.5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "website": "https://www.statesidesurfside.com/",
+    "serverNotes": "📖 ABOUT: Hard iced tea made with real vodka and real tea from Stateside. Great cocktail-in-a-can alternative!\n\n🍺 STYLE: Hard Iced Tea | 4.5% ABV | Lightly sweet, refreshing | Easy-drinking.\n\n🍽️ PAIRS WITH: Light fare, sandwiches, salads, poolside snacks.\n\n💡 SERVING TIP: Serve cold. Perfect for guests who prefer cocktails in a can or lighter options!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "tea",
+      "lemon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 2,
+      "tannin": 1,
+      "alcohol": 3,
+      "carbonation": 5,
+      "fruitiness": 5,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 4,
+      "intensity": 4,
+      "complexity": 3,
+      "aromaticIntensity": 5,
+      "flavorNotes": [
+        "tea",
+        "lemon",
+        "vodka",
+        "refreshing",
+        "lightly-sweet"
+      ]
+    }
+  },
+  {
+    "id": "switchback-ale-bottle",
+    "name": "Switchback Ale",
+    "description": "Burlington, VT, 16 oz., 5% ABV",
+    "price": 8,
+    "category": "Bottles & Cans",
+    "website": "https://www.switchbackvt.com/",
+    "serverNotes": "⛰️ 📖 ABOUT: Smooth, unfiltered amber ale from Switchback Brewing in Burlington, VT (founded 2002). Vermont's most popular craft beer—what Vermonters drink after skiing!\n\n🍺 STYLE: Unfiltered Amber Ale | 5% ABV, 22 IBU | Malty, slightly sweet with toffee & caramel notes | Subtle hop balance | Fuller body from being unfiltered.\n\n🍽️ PAIRS WITH: Burgers, pepperoni pizza, rotisserie chicken, bar snacks, Vermont cheddar, maple-glazed pork, comfort food.\n\n💡 SERVING TIP: Serve cold (42-45°F). Easy-drinking crowd-pleaser that converts macro lager drinkers to craft. Green Mountain sessionability!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 1,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "fruitiness": 4,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 5,
+      "creaminess": 3,
+      "intensity": 5,
+      "complexity": 5,
+      "aromaticIntensity": 5,
+      "flavorNotes": [
+        "malty",
+        "caramel",
+        "toffee",
+        "smooth",
+        "balanced"
+      ]
+    }
+  },
+  {
+    "id": "fiddlehead-ipa-bottle",
+    "name": "Fiddlehead IPA",
+    "description": "Shelburne, VT, 16 oz., 6.2% ABV",
+    "price": 9,
+    "category": "Bottles & Cans",
+    "website": "https://fiddleheadbrewing.com/",
+    "serverNotes": "🌿 ABOUT: Bright, citrus-forward IPA from Fiddlehead Brewing in Shelburne, VT (founded 2011). One of Vermont's most sought-after IPAs!\n\n🍺 STYLE: East Coast IPA | 6.2% ABV, 60 IBU | Juicy with ruby red grapefruit, orange peel & tropical mango | Clean finish, moderate bitterness | Bridges West Coast clarity with New England juiciness.\n\n🍽️ PAIRS WITH: Grilled shrimp, Caesar salad, lemon chicken, citrus vinaigrettes, goat cheese, Thai basil, hop-friendly dishes.\n\n💡 SERVING TIP: Serve cold (40-45°F). Vermont IPA done right—bright, clean, delicious. Fiddlehead ferns meet hop cones!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 7,
+      "tannin": 0,
+      "alcohol": 4,
+      "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "grapefruit",
+        "orange",
+        "tropical",
+        "citrus",
+        "clean"
+      ]
+    }
+  },
+  {
+    "id": "high-noon-pineapple",
+    "name": "High Noon Pineapple Vodka Soda",
+    "description": "Modesto, CA, 12 oz. 4.5% ABV",
+    "price": 9,
+    "category": "Bottles & Cans",
+    "website": "https://highnoonspirits.com/",
+    "serverNotes": "📖 ABOUT: Light vodka soda with REAL pineapple juice from High Noon. Popular hard seltzer alternative!\n\n🍺 STYLE: Vodka Soda | 4.5% ABV | Low calorie, gluten-free, no added sugar | Tropical, not too sweet.\n\n🍽️ PAIRS WITH: Light fare, seafood, poolside snacks.\n\n💡 SERVING TIP: Serve cold. Perfect for warm weather or lighter drinking option!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "pineapple"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 3,
+      "intensity": 5,
+      "complexity": 3,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "pineapple",
+        "tropical",
+        "light",
+        "refreshing",
+        "vodka-soda"
+      ]
+    }
+  },
+  {
+    "id": "high-noon-peach",
+    "name": "High Noon Peach Vodka Soda",
+    "description": "Modesto, CA, 12 oz. 4.5% ABV",
+    "price": 9,
+    "category": "Bottles & Cans",
+    "website": "https://highnoonspirits.com/",
+    "serverNotes": "📖 ABOUT: Light vodka soda with REAL peach juice from High Noon. Sweet but refreshing!\n\n🍺 STYLE: Vodka Soda | 4.5% ABV | Low calorie, gluten-free, no added sugar | Sweet peach flavor.\n\n🍽️ PAIRS WITH: Light salads, fruit dishes, summer fare.\n\n💡 SERVING TIP: Serve cold. Great summer drink for guests who want lower ABV and fewer calories!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "peach"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 3,
+      "intensity": 5,
+      "complexity": 3,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "peach",
+        "sweet",
+        "light",
+        "refreshing",
+        "vodka-soda"
+      ]
+    }
+  },
+  {
+    "id": "high-noon-watermelon",
+    "name": "High Noon Watermelon Vodka Soda",
+    "description": "CA, 12 oz. 4.5% ABV",
+    "price": 9,
+    "category": "Bottles & Cans",
+    "website": "https://highnoonspirits.com/",
+    "serverNotes": "📖 ABOUT: Light vodka soda with REAL watermelon juice from High Noon. Fresh, summery!\n\n🍺 STYLE: Vodka Soda | 4.5% ABV | Low calorie, gluten-free, no added sugar | Fresh watermelon taste.\n\n🍽️ PAIRS WITH: Light fare, grilled items, summer dishes.\n\n💡 SERVING TIP: Serve cold. Perfect warm weather drink and great alternative to beer or heavy cocktails!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "vodka",
+      "watermelon"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 6,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 3,
+      "intensity": 5,
+      "complexity": 3,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "watermelon",
+        "fresh",
+        "light",
+        "refreshing",
+        "vodka-soda"
+      ]
+    }
+  },
+  {
+    "id": "allagash-curieux",
+    "name": "Allagash, Curieux, Barrel Aged Tripel",
+    "description": "ME, 16 oz., 10.2% ABV",
+    "price": 13,
+    "category": "Bottles & Cans",
+    "website": "https://www.allagash.com/",
+    "serverNotes": "🍺 ABOUT: Award-winning Belgian Tripel aged in Jim Beam bourbon barrels from Allagash Brewing, Portland, ME. Multiple medals from GABF and World Beer Cup!\n\n🥃 STYLE: Barrel-Aged Tripel | 10.2% ABV, 28 IBU | Complex vanilla, coconut, oak, caramel & warm spice from barrel aging | Rich, warming character | Belgian style meets American bourbon barrels.\n\n🍽️ PAIRS WITH: Crème brûlée, aged Gouda, vanilla ice cream, bourbon barrel-aged desserts. Rich enough for dessert pairing!\n\n💡 SERVING TIP: Serve at cellar temperature (50-55°F) in a snifter. For beer connoisseurs and special occasions—sip like fine whiskey. Maine barrel-aging mastery!",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "full",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 9,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 4,
+      "flavorNotes": [
+        "vanilla",
+        "oak",
+        "bourbon",
+        "caramel",
+        "complex"
+      ]
+    }
+  }
+]

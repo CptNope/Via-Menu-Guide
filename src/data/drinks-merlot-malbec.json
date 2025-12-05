@@ -1,0 +1,89 @@
+[
+  {
+    "id": "felino-malbec",
+    "name": "Felino Malbec",
+    "pronunciation": "feh-LEE-noh mahl-BECK",
+    "description": "Mendoza, Argentina, JS 93, 2023",
+    "price": 13,
+    "category": "Merlot & Malbec",
+    "serverNotes": "Medium to full-bodied with bold dark fruit, plum, and hints of cocoa. Smooth, velvety texture with soft tannins. High altitude Argentinian wine (93 pts). Excellent with grilled meats, especially steak. Great value.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 5,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 4,
+      "minerality": 3,
+      "finish": 7,
+      "earthiness": 4,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "dark-fruit",
+        "plum",
+        "cocoa",
+        "velvety"
+      ]
+    }
+  },
+  {
+    "id": "stags-leap-merlot",
+    "name": "Stags' Leap Merlot",
+    "description": "Napa, JS 95, 2022",
+    "price": 15,
+    "category": "Merlot & Malbec",
+    "serverNotes": "Full-bodied Napa Merlot with plush black cherry, chocolate, and subtle oak. Elegant, smooth tannins, long finish. Highly rated (95 pts). Perfect for red meat dishes. Premium California wine from legendary producer.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 5,
+      "bitterness": 1,
+      "tannin": 6,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 5,
+      "minerality": 4,
+      "finish": 9,
+      "earthiness": 3,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "black-cherry",
+        "chocolate",
+        "oak",
+        "elegant"
+      ]
+    }
+  }
+]

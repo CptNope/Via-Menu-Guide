@@ -1,0 +1,814 @@
+[
+  {
+    "id": "amaro-dell-etna",
+    "name": "Amaro dell' Etna",
+    "pronunciation": "ah-MAH-roh dell ETT-nah",
+    "description": "Sicily",
+    "price": 9,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.amarodelletna.it/",
+    "region": "Sicily",
+    "style": "Herbal Amaro",
+    "body": "Medium",
+    "profile": [
+      "Herbs",
+      "Citrus",
+      "Mineral",
+      "Bittersweet"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "🌋 📖 ABOUT: Sicilian amaro from Mt. Etna volcanic region! 60 proof. Made with herbs growing only on Etna's slopes. Tastes like Sicily itself!\n\n🥃 PROFILE: Refreshing & Complex | Indigenous Sicilian herbs, citrus & volcanic mineral notes from lava-enriched soil | True terroir character | Wild fennel & Sicilian oranges.\n\n🍽️ PAIRS WITH: Espresso, cannoli, dark chocolate, lemon granita.\n\n💡 SERVING: Perfect digestif! Neat, chilled, or in Negroni variations. Aids digestion naturally!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 1,
+      "richness": 5,
+      "umami": 1,
+      "bitterness": 7,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 0,
+      "minerality": 8,
+      "finish": 7,
+      "earthiness": 6,
+      "herbaceousness": 9,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "herbs",
+        "citrus",
+        "mineral",
+        "bittersweet",
+        "refreshing"
+      ]
+    }
+  },
+  {
+    "id": "amaro-montenegro",
+    "name": "Amaro Montenegro",
+    "pronunciation": "ah-MAH-roh mon-teh-NEH-groh",
+    "description": "Italy",
+    "price": 9,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.amaro-montenegro.com/",
+    "region": "Italy",
+    "style": "Herbal Amaro",
+    "body": "Medium",
+    "profile": [
+      "Orange",
+      "Vanilla",
+      "Herbs",
+      "Bittersweet"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Rocks",
+      "Cocktails"
+    ],
+    "serverNotes": "📖 ABOUT: Friendly Italian amaro from Bologna. Created 1885. 46 proof. 'Il Gusto della Vita' (The Taste of Life)! Gateway to amaro!\n\n🥃 PROFILE: Smooth & Balanced | 40 botanicals including herbs, bitter orange & vanilla | Less bitter than most amaros | Secret recipe unchanged 135+ years | Italy's most beloved!\n\n🍽️ PAIRS WITH: Panna cotta, tiramisu, biscotti, after-dinner coffee.\n\n💡 SERVING: Perfect intro to amaro! Neat, rocks with orange twist, or in Paper Planes. Versatile classic!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 1,
+      "minerality": 3,
+      "finish": 6,
+      "creaminess": 3,
+      "herbaceousness": 7,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "herbs",
+        "orange",
+        "vanilla",
+        "bittersweet",
+        "smooth",
+        "balanced"
+      ]
+    }
+  },
+  {
+    "id": "bully-boy-amaro",
+    "name": "Bully Boy Amaro",
+    "description": "Boston, Massachusetts",
+    "price": 9,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.bullyboydistillers.com/",
+    "region": "Massachusetts",
+    "style": "American Craft Amaro",
+    "body": "Medium",
+    "profile": [
+      "Bitter Herbs",
+      "Citrus",
+      "Root",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "🇺🇸 📖 ABOUT: American craft amaro from Bully Boy, Boston. Est. 2011. 60 proof. New England botanicals! American mastery of Italian tradition!\n\n🥃 PROFILE: Bold & Distinctive | Bitter herbs, citrus peel, gentian root & warming spice | Small batches | Massachusetts character | True New England craft!\n\n🍽️ PAIRS WITH: Charcuterie boards, aged Vermont cheddar, dark chocolate bark, roasted nuts.\n\n💡 SERVING: Great for Black Manhattans or digestif! Neat or over large ice. Supporting local Boston craft!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 0,
+      "minerality": 4,
+      "finish": 7,
+      "earthiness": 7,
+      "herbaceousness": 8,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "herbs",
+        "citrus",
+        "root",
+        "spice",
+        "bold",
+        "distinctive"
+      ]
+    }
+  },
+  {
+    "id": "don-ciccio-donna-rasa-amaro",
+    "name": "Don Ciccio Donna Rasa Rabarbaro Amaro",
+    "pronunciation": "don CHEE-choh DON-nah RAH-sah rah-BAR-bah-roh",
+    "description": "Washington DC",
+    "price": 9,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.donciccio.com/",
+    "region": "Washington DC",
+    "style": "Rhubarb Amaro",
+    "body": "Medium",
+    "profile": [
+      "Rhubarb",
+      "Bitter Herbs",
+      "Citrus",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "🌱 📖 ABOUT: Rhubarb-based amaro from Don Ciccio & Figli, DC. Founded 2012. 60 proof. Italian family recipes meet America! Unique in amaro world!\n\n🥃 PROFILE: Bold & Innovative | Tart rhubarb, bitter herbs, citrus & warm spice | Rhubarb focus creates bright tartness | Artisanal craft | American creativity!\n\n🍽️ PAIRS WITH: Aged cheese, dark chocolate bark, lemon tart, citrus desserts.\n\n💡 SERVING: Perfect for Paper Planes or digestif! Neat or over ice. Supporting DC craft spirits!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 7,
+      "herbaceousness": 8,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "rhubarb",
+        "tart",
+        "herbal",
+        "bittersweet",
+        "unique"
+      ]
+    }
+  },
+  {
+    "id": "campari",
+    "name": "Campari",
+    "pronunciation": "cam-PAR-ee",
+    "description": "Italy",
+    "price": 9,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.campari.com/",
+    "region": "Italy",
+    "style": "Bitter Aperitif",
+    "body": "Medium",
+    "profile": [
+      "Bitter Orange",
+      "Herbs",
+      "Spice",
+      "Bitter"
+    ],
+    "servingStyle": [
+      "Cocktails"
+    ],
+    "serverNotes": "🔴 📖 ABOUT: Iconic Italian bitter aperitif. Created 1860, Milan. 48 proof. Bright crimson red! Secret recipe of 68 ingredients. No Negroni without Campari!\n\n🥃 PROFILE: Bittersweet & Essential | Bitter orange peel, herbs & aromatic spices | THE base for Negronis, Americanos, Boulevardiers | Aperitivo culture | Recognized instantly by color & taste!\n\n🍽️ PAIRS WITH: Orange slices, green olives, Parmigiano-Reggiano, aperitivo snacks.\n\n💡 SERVING: Over ice with orange peel or club soda. Italian cocktail culture since 1860!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "campari"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 8,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 8,
+      "herbaceousness": 9,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "orange",
+        "herbs",
+        "spice",
+        "bitter",
+        "iconic"
+      ]
+    }
+  },
+  {
+    "id": "galliano",
+    "name": "Galliano",
+    "pronunciation": "gah-lee-AH-noh",
+    "description": "Italy",
+    "price": 9,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.galliano.com/",
+    "region": "Italy",
+    "style": "Herbal Liqueur",
+    "body": "Medium",
+    "profile": [
+      "Vanilla",
+      "Anise",
+      "Herbs",
+      "Sweet"
+    ],
+    "servingStyle": [
+      "Cocktails",
+      "Neat"
+    ],
+    "serverNotes": "💛 📖 ABOUT: Italian herbal liqueur from 30 herbs. Created 1896. 60 proof. Golden-yellow! Iconic tall conical bottle. The tall bottle tells stories!\n\n🥃 PROFILE: Sweet & Aromatic | Vanilla from 3 sources (Madagascar, Ceylon, Tahiti), anise & herbs | Rich vanilla character | Perfect for retro Harvey Wallbangers & Golden Cadillacs!\n\n🍽️ PAIRS WITH: Panna cotta, fruit tarts, espresso, vanilla desserts.\n\n💡 SERVING: Room temp or gently warmed. Also excellent in espresso or over vanilla gelato!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "herbal-liqueur"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 3,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 3,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 6,
+      "creaminess": 4,
+      "herbaceousness": 7,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "vanilla",
+        "anise",
+        "herbs",
+        "sweet",
+        "aromatic"
+      ]
+    }
+  },
+  {
+    "id": "strega",
+    "name": "Strega",
+    "pronunciation": "STRAY-gah",
+    "description": "Italy",
+    "price": 9,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.strega.it/",
+    "region": "Italy",
+    "style": "Herbal Liqueur",
+    "body": "Medium",
+    "profile": [
+      "Mint",
+      "Fennel",
+      "Saffron",
+      "Sweet"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "🧙 📖 ABOUT: Italian herbal liqueur with ~70 botanicals from Benevento. Created 1860. 80 proof. 'Strega' = witch! Legend: couples who drink together remain faithful forever! Witch's potion!\n\n🥃 PROFILE: Sweet & Mysterious | Mint, fennel & saffron creating distinctive yellow | Secret recipe known to only 2 people | Aged 6+ months in oak | Steeped in folklore!\n\n🍽️ PAIRS WITH: Almond biscotti, sfogliatelle pastries, espresso, Italian desserts.\n\n💡 SERVING: Perfect digestif! Neat or slightly chilled. Traditional Italian mystery!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "herbal-liqueur"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 2,
+      "oakiness": 2,
+      "minerality": 3,
+      "finish": 7,
+      "herbaceousness": 9,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "mint",
+        "fennel",
+        "saffron",
+        "herbal",
+        "mysterious"
+      ]
+    }
+  },
+  {
+    "id": "fernet-branca",
+    "name": "Fernet Branca",
+    "pronunciation": "fer-NET BRAHN-kah",
+    "description": "Italy",
+    "price": 9,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.fernet.com/",
+    "region": "Italy",
+    "style": "Fernet",
+    "body": "Full",
+    "profile": [
+      "Mint",
+      "Herbs",
+      "Saffron",
+      "Intensely Bitter"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Shot"
+    ],
+    "serverNotes": "💀 📖 ABOUT: Intensely bitter Italian fernet from Milan. Created 1845. 78 proof! The bartender's handshake! Argentina's national drink. Extreme bitter!\n\n🥃 PROFILE: Bold & Medicinal | Menthol mint, bitter herbs & saffron | 27 botanicals (myrrh, rhubarb, chamomile, cardamom) | Cult favorite | Separates amateurs from pros | Acquired taste - once you love it, you LOVE it!\n\n🍽️ PAIRS WITH: Rich dishes, aged Parmigiano, espresso, dark chocolate.\n\n💡 SERVING: Traditional digestif shot after heavy meals! Ice cold or room temp. Legendary!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "fernet"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 9,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 2,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 9,
+      "herbaceousness": 10,
+      "intensity": 9,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "mint",
+        "herbs",
+        "saffron",
+        "medicinal",
+        "intense",
+        "bitter"
+      ]
+    }
+  },
+  {
+    "id": "see-the-elephant-amaro",
+    "name": "See The Elephant Amaro",
+    "description": "USA",
+    "price": 11,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.seetheelephantspirits.com/",
+    "region": "USA",
+    "style": "American Craft Amaro",
+    "body": "Medium",
+    "profile": [
+      "Herbs",
+      "Citrus",
+      "Spice",
+      "Bittersweet"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "🐘 📖 ABOUT: American craft amaro. 56 proof. 'See The Elephant' = 19th century expression for gaining worldly experience! New World masters Old World!\n\n🥃 PROFILE: Balanced & Innovative | Complex herbs, citrus & warming spice | Respects Italian tradition with American creativity | Small-batch, carefully sourced botanicals.\n\n🍽️ PAIRS WITH: Aged cheese, Italian charcuterie, dark chocolate, roasted nuts.\n\n💡 SERVING: Perfect for Amaro Sours or digestif! Neat or over ice. Supporting American craft innovation!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "herbs",
+        "citrus",
+        "spice",
+        "bittersweet",
+        "craft",
+        "complex"
+      ]
+    }
+  },
+  {
+    "id": "unico-amaro-siciliano",
+    "name": "Unico Amaro Siciliano",
+    "pronunciation": "OO-nee-koh ah-MAH-roh see-chee-lee-AH-noh",
+    "description": "Sicily",
+    "price": 11,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.unicoamaro.it/",
+    "region": "Sicily",
+    "style": "Herbal Amaro",
+    "body": "Medium",
+    "profile": [
+      "Herbs",
+      "Citrus",
+      "Bitter Orange",
+      "Bittersweet"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "☀️ 📖 ABOUT: Sicilian amaro with Mediterranean herbs. 60 proof. 'Unico' = unique! True island character. Taste of Mediterranean sun!\n\n🥃 PROFILE: Bittersweet & Aromatic | Indigenous Sicilian botanicals, wild Mediterranean herbs & bitter Sicilian chinotto citrus | Sun-soaked terroir | Authentic tradition!\n\n🍽️ PAIRS WITH: Grilled swordfish, almond granita, citrus desserts, espresso.\n\n💡 SERVING: Perfect digestif! Room temp or in Italian cocktails. This is Sicily bottled!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 1,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 7,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "herbs",
+        "citrus",
+        "bitter-orange",
+        "mediterranean",
+        "aromatic"
+      ]
+    }
+  },
+  {
+    "id": "faccia-brutto-amaro",
+    "name": "Faccia Brutto Amaro",
+    "pronunciation": "FAH-chah BROO-toh ah-MAH-roh",
+    "description": "Brooklyn, New York",
+    "price": 12,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.facciabrutto.com/",
+    "region": "Brooklyn, NY",
+    "style": "American Craft Amaro",
+    "body": "Medium",
+    "profile": [
+      "Bitter Herbs",
+      "Citrus",
+      "Roots",
+      "Spice"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "🇺🇸 📖 ABOUT: Brooklyn craft amaro from Faccia Brutto. 60 proof. 'Faccia Brutto' = ugly face! Brooklyn attitude meets Italian heritage!\n\n🥃 PROFILE: Bold & Artisanal | Bitter herbs, citrus peel, gentian root & warm spice | Red Hook, Brooklyn using traditional Italian maceration | Italian soul, Brooklyn heart!\n\n🍽️ PAIRS WITH: Red-sauce Italian dishes, aged provolone, espresso, cannoli.\n\n💡 SERVING: Perfect for Negronis & Paper Planes or digestif! Neat or over ice. Modern craft excellence!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 7,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "bitter-herbs",
+        "citrus",
+        "roots",
+        "spice",
+        "bold",
+        "artisanal"
+      ]
+    }
+  },
+  {
+    "id": "foro-originale-amaro",
+    "name": "Foro Originale Amaro",
+    "pronunciation": "FOR-oh oh-ree-jee-NAH-lay ah-MAH-roh",
+    "description": "Italy",
+    "price": 12,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.foroamaro.com/",
+    "region": "Italy",
+    "style": "Herbal Amaro",
+    "body": "Medium",
+    "profile": [
+      "Herbs",
+      "Roots",
+      "Citrus",
+      "Bittersweet"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "📖 ABOUT: Traditional Italian amaro from Foro. 60 proof. 'Originale' = authentic traditional methods! What Italian nonnas served after Sunday dinner!\n\n🥃 PROFILE: Bittersweet & Balanced | 25+ botanicals (gentian, wormwood, orange peel) | Classic Italian profile | Time-honored recipe | Old-school authenticity!\n\n🍽️ PAIRS WITH: Parmigiano-Reggiano, toasted hazelnuts, dark chocolate, espresso macchiato.\n\n💡 SERVING: Perfect digestif or cocktail base! Room temp for full flavor. Quality that respects tradition!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 5,
+      "oakiness": 0,
+      "minerality": 4,
+      "finish": 7,
+      "herbaceousness": 8,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "herbs",
+        "roots",
+        "citrus",
+        "bittersweet",
+        "balanced"
+      ]
+    }
+  },
+  {
+    "id": "nonino-quintessentia-amaro",
+    "name": "Nonino Quintessentia Amaro",
+    "pronunciation": "noh-NEE-noh kwin-tess-EN-tsee-ah ah-MAH-roh",
+    "description": "Italy",
+    "price": 12,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.grappanonino.it/",
+    "region": "Italy",
+    "style": "Grappa-Based Amaro",
+    "body": "Medium",
+    "profile": [
+      "Herbs",
+      "Grappa",
+      "Honey",
+      "Citrus"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "🌿 ABOUT: Premium amaro from legendary Nonino grappa distillery, Friuli. Est. 1897. 70 proof. Multiple international awards! Amaro royalty!\n\n🥃 PROFILE: Smooth & Elegant | Herbs, grappa base (proprietary ÙE® grape distillate), wildflower honey & citrus | Friuli mountain herbs | THE amaro for Paper Plane cocktails! Unique character!\n\n🍽️ PAIRS WITH: Panna cotta, aged Asiago, espresso, amaretti cookies.\n\n💡 SERVING: Perfect digestif neat or slightly chilled! From the masters of grappa. Prestigious!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 1,
+      "minerality": 4,
+      "finish": 8,
+      "creaminess": 2,
+      "herbaceousness": 8,
+      "intensity": 7,
+      "complexity": 9,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "herbs",
+        "grappa",
+        "honey",
+        "citrus",
+        "refined",
+        "elegant"
+      ]
+    }
+  },
+  {
+    "id": "perrine-key-lime-amaro",
+    "name": "Perrine Key Lime Amaro",
+    "description": "Florida",
+    "price": 12,
+    "category": "Amaro & Digestivo",
+    "website": "https://www.perrineamaro.com/",
+    "region": "Florida",
+    "style": "Citrus Amaro",
+    "body": "Light-Medium",
+    "profile": [
+      "Key Lime",
+      "Herbs",
+      "Bitter Citrus",
+      "Bright"
+    ],
+    "servingStyle": [
+      "Neat",
+      "Cocktails"
+    ],
+    "serverNotes": "📖 ABOUT: Unique American amaro featuring Florida Key limes! 60 proof. From Perrine, Miami neighborhood known for Key limes! Italian tradition meets Miami beaches!\n\n🥃 PROFILE: Bright & Refreshing | Real Florida Key limes creating tart tropical character | Herbs & bitter citrus | Nothing like traditional Italian amaros | Reimagines what amaro can be!\n\n🍽️ PAIRS WITH: Ceviche, Key lime pie, coconut desserts, Florida stone crab.\n\n💡 SERVING: Perfect for tropical cocktails, tiki drinks, or after spicy food! Chilled or over crushed ice. Florida sunshine!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "amaro"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 6,
+      "herbaceousness": 6,
+      "intensity": 7,
+      "complexity": 6,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "key-lime",
+        "herbs",
+        "citrus",
+        "bright",
+        "refreshing",
+        "tropical"
+      ]
+    }
+  }
+]

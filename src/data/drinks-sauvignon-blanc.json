@@ -1,0 +1,82 @@
+[
+  {
+    "id": "matua-sauvignon-blanc",
+    "name": "Matua",
+    "description": "Marlborough, NZ, 2024",
+    "price": 12,
+    "category": "Sauvignon Blanc",
+    "website": "https://www.matua.co.nz/",
+    "serverNotes": "🇳🇿 📖 ABOUT: Crisp New Zealand Sauvignon Blanc from Matua, Marlborough. Classic Kiwi style that's always popular!\n\n🍷 STYLE: Refreshing Sauvignon Blanc | Bright grapefruit, passion fruit & fresh-cut grass | High acidity, clean finish | Quintessential Marlborough.\n\n🍽️ PAIRS WITH: Seafood, salads, goat cheese, oysters, fresh dishes.\n\n💡 BY THE GLASS: Perfect aperitif! Zesty, tropical, and refreshingly crisp.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 9,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 6,
+      "finish": 6,
+      "herbaceousness": 8,
+      "intensity": 7,
+      "complexity": 6,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "grapefruit",
+        "passion-fruit",
+        "grass",
+        "crisp"
+      ]
+    }
+  },
+  {
+    "id": "knights-bridge-sauvignon",
+    "name": "Knights Bridge \"Pont de Chevalier\"",
+    "description": "Knights Valley, 2023",
+    "price": 16,
+    "category": "Sauvignon Blanc",
+    "website": "https://www.knightsbridgewinery.com/",
+    "serverNotes": "🍇 ABOUT: California Sauvignon Blanc from Knights Bridge, Knights Valley. Elegant, food-friendly - premium domestic option!\n\n🍷 STYLE: Rounded Sauvignon Blanc | Citrus, melon & subtle oak | More rounded than NZ style, balanced acidity | California sophistication.\n\n🍽️ PAIRS WITH: Seafood, chicken, creamy pasta, lighter dishes.\n\n💡 BY THE GLASS: California take on Sauv Blanc - elegant with subtle oak. Different from typical grassy style!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "flavorNotes": [
+        "citrus",
+        "melon",
+        "oak",
+        "rounded"
+      ]
+    }
+  }
+]

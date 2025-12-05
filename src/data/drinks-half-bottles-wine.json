@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ceretto-vignaioli-moscato-half",
+    "name": "Ceretto Vignaioli Moscato D'Asti",
+    "description": "DOCG, Piemonte, JS 90, 2023",
+    "price": 25,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "la-crema-chardonnay-sonoma-half",
+    "name": "La Crema Chardonnay",
+    "description": "Sonoma Coast, 2023",
+    "price": 29,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "duckhorn-sauvignon-blanc-north-coast-half",
+    "name": "Duckhorn Sauvignon Blanc",
+    "description": "North Coast, JS 91, 2023",
+    "price": 29,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "alphonse-mellot-la-moussiere-half",
+    "name": "Alphonse Mellot La Moussiere",
+    "description": "Sancerre, FR, 2023",
+    "price": 35,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "stags-leap-cabernet-napa-half",
+    "name": "Stags Leap, Cabernet",
+    "description": "Napa, 2022",
+    "price": 44,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "damilano-lecrinquevigne-barolo-half",
+    "name": "Damilano Lecrinquevigne Barolo",
+    "description": "DOCG, Piemonte, RP 93, 2020",
+    "price": 45,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "bv-tapestry-napa-half",
+    "name": "BV \"Tapestry\"",
+    "description": "Napa, JS 94, 2021",
+    "price": 48,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "moutard-pere-fils-champagne-half",
+    "name": "Moutard Père & Fils Brut Grande Cuvée",
+    "description": "Champagne, FR, WE 90, N.V.",
+    "price": 48,
+    "category": "Half Bottles - Wine",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "champagne"
+    ],
+    "allergens": []
+  }
+]

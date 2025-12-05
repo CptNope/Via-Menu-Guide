@@ -10,7 +10,80 @@ import dessertData from "./data/dessert.json";
 import gelatoData from "./data/gelato.json";
 import pastaData from "./data/pasta.json";
 import kidsData from "./data/kids.json";
-import drinksData from "./data/drinks.json";
+
+// Import all drink category files
+import drinksDraught from "./data/drinks-draught.json";
+import drinksBottlesCans from "./data/drinks-bottles-cans.json";
+import drinksNonAlcoholicBeer from "./data/drinks-non-alcoholic-beer.json";
+import drinksHalfBottles from "./data/drinks-half-bottles.json";
+import drinksItalianReds from "./data/drinks-italian-reds.json";
+import drinksSuperTuscan from "./data/drinks-super-tuscan.json";
+import drinksMerlotMalbec from "./data/drinks-merlot-malbec.json";
+import drinksPinotNoir from "./data/drinks-pinot-noir.json";
+import drinksCabernetBlends from "./data/drinks-cabernet-blends.json";
+import drinksSauvignonBlanc from "./data/drinks-sauvignon-blanc.json";
+import drinksChardonnay from "./data/drinks-chardonnay.json";
+import drinksInterestingWhites from "./data/drinks-interesting-whites.json";
+import drinksSparkling from "./data/drinks-sparkling.json";
+import drinksWineFlights from "./data/drinks-wine-flights.json";
+import drinksItalianRedsBottles from "./data/drinks-italian-reds-bottles.json";
+import drinksSuperTuscanBottles from "./data/drinks-super-tuscan-bottles.json";
+import drinksMerlotMalbecBottles from "./data/drinks-merlot-malbec-bottles.json";
+import drinksPinotNoirInterestingRedsBottles from "./data/drinks-pinot-noir-interesting-reds-bottles.json";
+import drinksCabernetBlendsBottles from "./data/drinks-cabernet-blends-bottles.json";
+import drinksSauvignonBlancBottles from "./data/drinks-sauvignon-blanc-bottles.json";
+import drinksChardonnayBottles from "./data/drinks-chardonnay-bottles.json";
+import drinksInterestingWhitesBottles from "./data/drinks-interesting-whites-bottles.json";
+import drinksSparklingBottles from "./data/drinks-sparkling-bottles.json";
+import drinksHalfBottlesWine from "./data/drinks-half-bottles-wine.json";
+import drinksBourbon from "./data/drinks-bourbon.json";
+import drinksRye from "./data/drinks-rye.json";
+import drinksScotch from "./data/drinks-scotch.json";
+import drinksGrappa from "./data/drinks-grappa.json";
+import drinksCognac from "./data/drinks-cognac.json";
+import drinksPort from "./data/drinks-port.json";
+import drinksAmaroDigestivo from "./data/drinks-amaro-digestivo.json";
+import drinksSignatureCocktails from "./data/drinks-signature-cocktails.json";
+import drinksMocktails from "./data/drinks-mocktails.json";
+import drinksCoffeeCocktails from "./data/drinks-coffee-cocktails.json";
+
+// Combine all drink categories into one array
+const drinksData = [
+  ...drinksDraught,
+  ...drinksBottlesCans,
+  ...drinksNonAlcoholicBeer,
+  ...drinksSignatureCocktails,
+  ...drinksMocktails,
+  ...drinksCoffeeCocktails,
+  ...drinksItalianReds,
+  ...drinksSuperTuscan,
+  ...drinksMerlotMalbec,
+  ...drinksPinotNoir,
+  ...drinksCabernetBlends,
+  ...drinksSauvignonBlanc,
+  ...drinksChardonnay,
+  ...drinksInterestingWhites,
+  ...drinksSparkling,
+  ...drinksWineFlights,
+  ...drinksItalianRedsBottles,
+  ...drinksSuperTuscanBottles,
+  ...drinksMerlotMalbecBottles,
+  ...drinksPinotNoirInterestingRedsBottles,
+  ...drinksCabernetBlendsBottles,
+  ...drinksSauvignonBlancBottles,
+  ...drinksChardonnayBottles,
+  ...drinksInterestingWhitesBottles,
+  ...drinksSparklingBottles,
+  ...drinksHalfBottles,
+  ...drinksHalfBottlesWine,
+  ...drinksBourbon,
+  ...drinksRye,
+  ...drinksScotch,
+  ...drinksGrappa,
+  ...drinksCognac,
+  ...drinksPort,
+  ...drinksAmaroDigestivo
+];
 
 import MenuPage from "./components/MenuPage";
 import SharePage from "./components/SharePage";

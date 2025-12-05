@@ -6,7 +6,7 @@
     "description": "Mendoza, Argentina, JS 93, 2023",
     "price": 13,
     "category": "Merlot & Malbec",
-    "serverNotes": "Medium to full-bodied with bold dark fruit, plum, and hints of cocoa. Smooth, velvety texture with soft tannins. High altitude Argentinian wine (93 pts). Excellent with grilled meats, especially steak. Great value.",
+    "serverNotes": "📖 ABOUT: (paulhobbs.com) Premium Mendoza Malbec from legendary winemaker Paul Hobbs. Rated 93 pts by James Suckling! High-altitude vineyard (3,000+ ft) creates concentrated fruit.\\n\\n🍷 STYLE: Medium to full-bodied Malbec | Bold dark fruit, plum & cocoa | Smooth velvety texture | Soft tannins | Classic Argentine character.\\n\\n🍽️ PAIRS WITH: Grilled steaks, ribeye, BBQ, empanadas, chimichurri dishes.\\n\\n💡 BY THE GLASS: Argentina's signature grape! Great value for this quality level. Also available by the bottle.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -41,7 +41,8 @@
         "cocoa",
         "velvety"
       ]
-    }
+    },
+    "website": "https://www.paulhobbs.com/"
   },
   {
     "id": "stags-leap-merlot",
@@ -49,7 +50,7 @@
     "description": "Napa, JS 95, 2022",
     "price": 15,
     "category": "Merlot & Malbec",
-    "serverNotes": "Full-bodied Napa Merlot with plush black cherry, chocolate, and subtle oak. Elegant, smooth tannins, long finish. Highly rated (95 pts). Perfect for red meat dishes. Premium California wine from legendary producer.",
+    "serverNotes": "📖 ABOUT: (stagsleap.com) Full-bodied Napa Merlot from legendary Stags' Leap Winery. Highly rated 95 pts by James Suckling! From famous Stags Leap District.\\n\\n🍷 STYLE: Full-bodied Napa Merlot | Plush black cherry, chocolate & subtle oak | Elegant smooth tannins | Long finish | Premium California elegance.\\n\\n🍽️ PAIRS WITH: Duck, pork tenderloin, mushroom dishes, softer red meats.\\n\\n💡 BY THE GLASS: Premium Napa Merlot from an iconic producer. Softer alternative to Cabernet. Also available by the bottle.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -84,6 +85,7 @@
         "oak",
         "elegant"
       ]
-    }
+    },
+    "website": "https://www.stagsleap.com/"
   }
 ]

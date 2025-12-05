@@ -5,7 +5,7 @@
     "description": "Mendoza, 2024",
     "price": 39,
     "category": "Merlot & Malbec Bottles",
-    "serverNotes": "Organic Argentine Malbec with ripe plum, blackberry, smooth tannins. Full-bodied, fruit-forward. Great value introduction to Mendoza Malbec. Pairs with grilled meats, empanadas, BBQ. Crowd-pleasing Argentine style.",
+    "serverNotes": "📖 ABOUT: (domainebousquet.com) Organic Argentine Malbec from Domaine Bousquet in Mendoza. Certified organic, sustainably grown at high altitude. Great value introduction to Argentine Malbec!\\n\\n🍷 STYLE: Full-bodied Malbec | Ripe plum, blackberry & smooth tannins | Fruit-forward, approachable | Crowd-pleasing style.\\n\\n🍽️ PAIRS WITH: Grilled meats, empanadas, BBQ, chimichurri steak.\\n\\n💡 BOTTLE SERVICE: Perfect everyday Argentine wine. Organic quality at great value!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -40,7 +40,8 @@
         "fruit-forward",
         "smooth"
       ]
-    }
+    },
+    "website": "https://www.domainebousquet.com/"
   },
   {
     "id": "advice-from-john-merlot-bottle",
@@ -49,7 +50,7 @@
     "description": "by Orin Swift, California, 2023",
     "price": 50,
     "category": "Merlot & Malbec Bottles",
-    "serverNotes": "Rich California Merlot from cult producer Orin Swift. Plum, black cherry, chocolate with smooth tannins. Full-bodied, approachable style. From same winemaker as Abstract and Machete. Pairs with grilled meats, duck, pork, pasta. Premium Orin Swift quality at great value.",
+    "serverNotes": "📖 ABOUT: (orinswift.com) Rich California Merlot from cult producer Orin Swift. Same winemaker as Abstract and Machete. Premium quality at accessible price!\\n\\n🍷 STYLE: Full-bodied Merlot | Plum, black cherry & chocolate | Smooth tannins | Approachable Orin Swift style.\\n\\n🍽️ PAIRS WITH: Grilled meats, duck, pork, pasta, Italian dishes.\\n\\n💡 BOTTLE SERVICE: Premium Orin Swift quality. Great value from this renowned producer!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -84,7 +85,8 @@
         "smooth",
         "Orin-Swift"
       ]
-    }
+    },
+    "website": "https://www.orinswift.com/"
   },
   {
     "id": "felino-malbec-bottle",
@@ -92,7 +94,7 @@
     "description": "Mendoza, Argentina, JS 93, 2023",
     "price": 52,
     "category": "Merlot & Malbec Bottles",
-    "serverNotes": "Premium Mendoza Malbec rated 93 pts. Rich, concentrated with dark fruit, chocolate, spice. From renowned Paul Hobbs. Also by the glass. Velvety texture, balanced. Pairs with ribeye, lamb, BBQ. High-quality Argentine Malbec.",
+    "serverNotes": "📖 ABOUT: (paulhobbs.com) Premium Mendoza Malbec from renowned winemaker Paul Hobbs. Rated 93 pts by James Suckling! Also available by the glass.\\n\\n🍷 STYLE: Full-bodied Malbec | Rich, concentrated dark fruit, chocolate & spice | Velvety texture | High-altitude balance.\\n\\n🍽️ PAIRS WITH: Ribeye, lamb, BBQ, Argentine steak.\\n\\n💡 BOTTLE SERVICE: High-quality Argentine Malbec from a legendary winemaker. Available by the glass too!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -127,7 +129,8 @@
         "velvety",
         "concentrated"
       ]
-    }
+    },
+    "website": "https://www.paulhobbs.com/"
   },
   {
     "id": "stags-leap-merlot-bottle",
@@ -135,7 +138,7 @@
     "description": "Napa, 2022",
     "price": 60,
     "category": "Merlot & Malbec Bottles",
-    "serverNotes": "Elegant Napa Merlot from legendary estate. Plum, black cherry, chocolate, smooth tannins. Softer than Cabernet, approachable. From famous Stags Leap District. Pairs with duck, pork, mushroom dishes, softer cheeses. Premium Napa Merlot.",
+    "serverNotes": "📖 ABOUT: (stagsleap.com) Elegant Napa Merlot from legendary Stags' Leap estate in the famous Stags Leap District. Softer, more approachable than Cabernet. Also available by the glass.\\n\\n🍷 STYLE: Full-bodied Merlot | Plum, black cherry, chocolate | Smooth tannins | Premium Napa elegance.\\n\\n🍽️ PAIRS WITH: Duck, pork, mushroom dishes, softer cheeses.\\n\\n💡 BOTTLE SERVICE: Premium Napa Merlot from an iconic producer. Perfect for those who prefer softer reds!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -170,7 +173,8 @@
         "chocolate",
         "elegant"
       ]
-    }
+    },
+    "website": "https://www.stagsleap.com/"
   },
   {
     "id": "red-schooner-malbec-bottle",
@@ -178,7 +182,7 @@
     "description": "Voyage 12, Argentina/Napa, N.V.",
     "price": 56,
     "category": "Merlot & Malbec Bottles",
-    "serverNotes": "Unique Argentine Malbec finished in Caymus' Napa facility. Rich, bold with dark fruit, smooth tannins. Caymus style meets Argentine fruit. Also by the glass. Conversation starter. Pairs with steaks, BBQ, bold dishes. Innovative collaboration wine.",
+    "serverNotes": "🚢 ABOUT: (caymus.com) Unique collaboration! Argentine Malbec finished in Caymus' Napa facility. Caymus style meets Argentine fruit. Conversation starter! Also available by the glass.\\n\\n🍷 STYLE: Full-bodied Malbec | Rich, bold dark fruit | Smooth tannins | Innovative Argentina-Napa fusion.\\n\\n🍽️ PAIRS WITH: Steaks, BBQ, bold dishes, Argentine cuisine.\\n\\n💡 BOTTLE SERVICE: Innovative wine from legendary Caymus. Unique story for wine enthusiasts!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -213,7 +217,8 @@
         "smooth",
         "innovative"
       ]
-    }
+    },
+    "website": "https://www.caymus.com/"
   },
   {
     "id": "grgich-merlot-bottle",
@@ -221,7 +226,7 @@
     "description": "Napa, 2018",
     "price": 65,
     "category": "Merlot & Malbec Bottles",
-    "serverNotes": "Premium Napa Merlot from legendary Grgich Hills Estate (est. 1977). Plum, leather, earth, integrated tannins. From the winemaker who put California on the map with the 1976 Judgment of Paris. Well-aged, ready to drink now. Pairs with duck, pork, truffle dishes, aged cheese. Iconic producer, sophisticated Merlot.",
+    "serverNotes": "🏆 ABOUT: (grgich.com) Premium Napa Merlot from legendary Grgich Hills Estate (est. 1977). From the winemaker who put California on the map with the 1976 Judgment of Paris!\\n\\n🍷 STYLE: Full-bodied Merlot | Plum, leather & earth | Integrated tannins | Well-aged, ready now | Sophisticated elegance.\\n\\n🍽️ PAIRS WITH: Duck, pork, truffle dishes, aged cheese.\\n\\n💡 BOTTLE SERVICE: Iconic producer, sophisticated Merlot. Wine history in every glass!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -256,7 +261,8 @@
         "earth",
         "aged"
       ]
-    }
+    },
+    "website": "https://www.grgich.com/"
   },
   {
     "id": "duckhorn-merlot-bottle",
@@ -264,7 +270,7 @@
     "description": "Napa, WE 90, 2022",
     "price": 75,
     "category": "Merlot & Malbec Bottles",
-    "serverNotes": "Legendary Napa Merlot rated 90 pts. Made Merlot fashionable in America. Rich, velvety with plum, chocolate, spice. Benchmark Merlot. Consistently excellent. Pairs with duck, pork, mushrooms, softer dishes. Premier American Merlot producer.",
+    "serverNotes": "🏆 ABOUT: (duckhorn.com) Legendary Napa Merlot rated 90 pts by Wine Enthusiast! Duckhorn made Merlot fashionable in America. Benchmark producer since 1978.\\n\\n🍷 STYLE: Full-bodied Merlot | Rich, velvety with plum, chocolate & spice | Consistently excellent | Premier American Merlot.\\n\\n🍽️ PAIRS WITH: Duck, pork, mushrooms, softer dishes.\\n\\n💡 BOTTLE SERVICE: THE benchmark American Merlot. Duckhorn is synonymous with quality Merlot!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -299,6 +305,7 @@
         "velvety",
         "benchmark"
       ]
-    }
+    },
+    "website": "https://www.duckhorn.com/"
   }
 ]

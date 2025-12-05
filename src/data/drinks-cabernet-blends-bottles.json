@@ -5,7 +5,7 @@
     "description": "California, Lot 8",
     "price": 45,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "From legendary Caymus family. Rich, approachable California Cabernet with dark fruit, smooth tannins. Great value entry to Caymus style. Pairs with steaks, burgers, BBQ. Perfect everyday Napa-style Cab at accessible price.",
+    "serverNotes": "📖 ABOUT: (caymus.com) Bonanza Cabernet - Caymus family's value brand. Bold, approachable California Cab. Caymus quality at accessible price!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, chocolate & spice | Smooth tannins | Caymus signature style | Rich, approachable.\n\n🍽️ PAIRS WITH: Grilled steaks, burgers, BBQ, hearty dishes.\n\n💡 BOTTLE SERVICE: Caymus family quality at great value. Bold, crowd-pleasing Cab!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -40,7 +40,8 @@
         "approachable",
         "Caymus-style"
       ]
-    }
+    },
+    "website": "https://www.caymus.com/"
   },
   {
     "id": "the-pessimist-cabernet-bottle",
@@ -48,7 +49,7 @@
     "description": "Paso Robles, 2023",
     "price": 48,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Bold Paso Robles Cabernet blend with dark fruit, chocolate, spice. Full-bodied, smooth tannins. Also by the glass. Crowd-pleasing style. Pairs with steaks, lamb, hearty pasta. Great value premium Cab from Central Coast.",
+    "serverNotes": "📖 ABOUT: (daouvineyards.com) 'The Pessimist' red blend from Daou in Paso Robles. Bold, fruit-forward California blend. Great value from premium producer!\n\n🍷 STYLE: Full-bodied blend | Dark fruit, chocolate & oak | Rich, bold | Paso Robles intensity.\n\n🍽️ PAIRS WITH: Grilled meats, BBQ, burgers, pasta.\n\n💡 BOTTLE SERVICE: Value blend from Daou. Bold Paso Robles character!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -83,7 +84,8 @@
         "bold",
         "crowd-pleasing"
       ]
-    }
+    },
+    "website": "https://www.daouvineyards.com/"
   },
   {
     "id": "greenwing-cabernet-bottle",
@@ -91,7 +93,7 @@
     "description": "Columbia Valley, 2023",
     "price": 52,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Washington Cabernet from renowned Duckhorn family. Dark berry, mocha, spice. Smooth, accessible. Also by the glass. From legendary producer at great value. Pairs with beef, pork, aged cheese. Pacific Northwest Cab at its best.",
+    "serverNotes": "📖 ABOUT: (duckhorn.com) Greenwing Cabernet - Duckhorn's approachable Napa Cab. Legendary producer at accessible price. Quality Napa value!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, oak & spice | Smooth tannins | Napa character | Duckhorn quality.\n\n🍽️ PAIRS WITH: Steaks, lamb, grilled meats, hearty dishes.\n\n💡 BOTTLE SERVICE: Napa Cab from legendary Duckhorn. Quality at great value!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -126,7 +128,8 @@
         "smooth",
         "Duckhorn"
       ]
-    }
+    },
+    "website": "https://www.duckhorn.com/"
   },
   {
     "id": "band-of-vinters-cabernet-bottle",
@@ -134,7 +137,7 @@
     "description": "Napa, RP 92, 2022",
     "price": 60,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "True Napa Cabernet rated 92 pts by Robert Parker. Rich blackberry, cassis, oak. Structured tannins, long finish. Also by the glass. Authentic Napa expression. Pairs with prime cuts, lamb, strong cheese. Great value Napa Cab.",
+    "serverNotes": "📖 ABOUT: (bandofvinters.com) Band of Vintners Cabernet from Napa. Small producer focused on quality. Artisan Napa Cabernet!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, earth & oak | Structured, balanced | Napa craftsmanship.\n\n🍽️ PAIRS WITH: Steaks, roasted meats, aged cheese.\n\n💡 BOTTLE SERVICE: Artisan Napa Cab. Small production quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -169,7 +172,8 @@
         "oak",
         "structured"
       ]
-    }
+    },
+    "website": "https://www.bandofvinters.com/"
   },
   {
     "id": "cakebread-mullan-road-bottle",
@@ -177,7 +181,7 @@
     "description": "Washington, 2022",
     "price": 60,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "From legendary Cakebread winery. Washington red blend with black fruit, espresso, spice. Velvety texture, integrated tannins. Also by the glass. World-class winemaking at accessible price. Pairs with beef tenderloin, short ribs, lamb.",
+    "serverNotes": "📖 ABOUT: (cakebread.com) 'Mullan Road' red blend by Cakebread Cellars. More approachable than estate wines. Legendary Napa producer!\n\n🍷 STYLE: Full-bodied blend | Dark fruit, chocolate & spice | Rich, smooth | Cakebread quality.\n\n🍽️ PAIRS WITH: Grilled meats, steak, hearty pasta.\n\n💡 BOTTLE SERVICE: Cakebread quality at accessible price. Napa excellence!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -212,7 +216,8 @@
         "velvety",
         "Cakebread"
       ]
-    }
+    },
+    "website": "https://www.cakebread.com/"
   },
   {
     "id": "la-crema-cabernet-bottle",
@@ -220,7 +225,7 @@
     "description": "Sonoma, JS 92, 2022",
     "price": 70,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Sonoma Cabernet rated 92 pts. Dark fruit, vanilla, spice. Balanced, approachable style. From quality producer known for consistency. Pairs with steaks, burgers, pasta. Reliable crowd-pleasing California Cab.",
+    "serverNotes": "📖 ABOUT: (lacrema.com) California Cabernet from La Crema. Known for quality wines. Approachable, well-made Cabernet!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, oak & spice | Smooth, balanced | California character.\n\n🍽️ PAIRS WITH: Steaks, burgers, grilled meats.\n\n💡 BOTTLE SERVICE: Reliable California Cab. La Crema quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -255,7 +260,8 @@
         "balanced",
         "reliable"
       ]
-    }
+    },
+    "website": "https://www.lacrema.com/"
   },
   {
     "id": "mount-peak-gravity-bottle",
@@ -263,7 +269,7 @@
     "description": "Atlas Peak, 2020",
     "price": 75,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Mountain Cabernet from Atlas Peak appellation. Dark fruit, minerality, structure. Elevated, cooler climate produces concentrated flavors. Boutique Napa producer. Pairs with grilled meats, game, aged cheese. Premium mountain Cab.",
+    "serverNotes": "📖 ABOUT: (mtpeak.com) 'Gravity' Cabernet from Mount Peak Winery in Napa. Mountain fruit, elevated terroir. Napa value!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, earth & oak | Mountain intensity | Napa character.\n\n🍽️ PAIRS WITH: Grilled steaks, roasted meats, hearty dishes.\n\n💡 BOTTLE SERVICE: Mountain Napa Cab. Great value!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -298,7 +304,8 @@
         "mountain",
         "structured"
       ]
-    }
+    },
+    "website": "https://www.mtpeak.com/"
   },
   {
     "id": "knights-bridge-meritage-bottle",
@@ -307,7 +314,7 @@
     "description": "Knight's Valley, 2018",
     "price": 75,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Bordeaux-style red blend from Knights Valley estate. Cabernet-based with traditional Bordeaux grapes. Balanced, elegant, age-worthy. From boutique Napa producer. Pairs with lamb, beef, game, aged cheese. Classic California Meritage.",
+    "serverNotes": "📖 ABOUT: (knightsbridgewinery.com) Meritage blend from Knights Bridge in Napa. Bordeaux-style blend with Napa power. Premium quality!\n\n🍷 STYLE: Full-bodied Meritage | Dark fruit, chocolate & spice | Structured, complex | Bordeaux meets Napa.\n\n🍽️ PAIRS WITH: Prime cuts, lamb, aged cheese.\n\n💡 BOTTLE SERVICE: Napa Meritage from quality producer. Bordeaux-style excellence!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -342,7 +349,8 @@
         "age-worthy",
         "Meritage"
       ]
-    }
+    },
+    "website": "https://www.knightsbridgewinery.com/"
   },
   {
     "id": "austin-hope-cabernet-bottle",
@@ -350,7 +358,7 @@
     "description": "Paso Robles, 2022",
     "price": 85,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Cult favorite in 1 Liter bottle! Bold Paso Cabernet with jammy black fruit, vanilla, chocolate. Rich, opulent style. Also by the glass. Extra large format great for groups. Pairs with ribeye, BBQ, bold dishes. Impressive value statement.",
+    "serverNotes": "📖 ABOUT: (austinhope.com) Austin Hope Cabernet in 1-liter format! Bold Paso Robles Cab. Great for groups or parties. Value size!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, chocolate & bold spice | Rich Paso Robles power.\n\n🍽️ PAIRS WITH: Grilled meats, BBQ, hearty dishes, parties.\n\n💡 BOTTLE SERVICE: 1-liter size - perfect for groups! Bold Paso Robles Cab at great value!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -385,7 +393,8 @@
         "opulent",
         "1-liter"
       ]
-    }
+    },
+    "website": "https://www.austinhope.com/"
   },
   {
     "id": "regaleali-vigna-san-francesco-bottle",
@@ -394,7 +403,7 @@
     "description": "DOC, Sicily, JS 95, 2019",
     "price": 89,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Exceptional Sicilian Cabernet rated 95 pts. Dark fruit, Mediterranean herbs, volcanic minerality. Unique Italian expression of Cabernet from legendary Sicilian estate. Age-worthy, complex. Pairs with lamb, game, aged cheese, rich Italian dishes. Rare gem from Sicily.",
+    "serverNotes": "📖 ABOUT: (tascadalmerita.it) 'Vigna San Francesco' Cabernet from Sicily's Regaleali estate. Italian Cabernet with Mediterranean character. Unique expression!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, herbs & Mediterranean spice | Sicilian terroir | Elegant structure.\n\n🍽️ PAIRS WITH: Grilled meats, Italian dishes, aged cheese.\n\n💡 BOTTLE SERVICE: Italian Cabernet from historic Sicilian estate. Mediterranean character!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -429,7 +438,8 @@
         "volcanic",
         "Sicilian"
       ]
-    }
+    },
+    "website": "https://www.tascadalmerita.it/"
   },
   {
     "id": "mount-peak-sentinel-bottle",
@@ -437,7 +447,7 @@
     "description": "Atlas Peak, 2016",
     "price": 90,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Premium mountain Cabernet from Atlas Peak. Aged, mature wine with complexity. Dark fruit, spice, earth. Boutique producer. Pairs with game, braised meats, aged cheese. Serious mountain Cab with bottle age.",
+    "serverNotes": "📖 ABOUT: (mtpeak.com) 'Sentinel' Cabernet from Mount Peak in Napa. Mountain fruit, premium quality. Step-up from Gravity!\n\n🍷 STYLE: Full-bodied Cabernet | Concentrated dark fruit, oak & earth | Mountain power | Premium Napa.\n\n🍽️ PAIRS WITH: Prime steaks, lamb, aged cheese.\n\n💡 BOTTLE SERVICE: Premium mountain Napa Cab. Enhanced quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -472,7 +482,8 @@
         "earth",
         "aged"
       ]
-    }
+    },
+    "website": "https://www.mtpeak.com/"
   },
   {
     "id": "stonestreet-cabernet-bottle",
@@ -480,7 +491,7 @@
     "description": "Alexander Valley, California, RP 90, 2014",
     "price": 90,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Mature Sonoma Cabernet rated 90 pts. Well-aged with secondary flavors. Smooth tannins, evolved complexity. From quality Alexander Valley. Pairs with prime cuts, lamb, mature cheese. Ready to drink now with bottle age.",
+    "serverNotes": "📖 ABOUT: (stonestreet.com) Alexander Valley Cabernet from Stonestreet Estate. Mountain vineyards, elegant style. Sonoma excellence!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, spice & oak | Mountain elegance | Structured, refined.\n\n🍽️ PAIRS WITH: Steaks, lamb, grilled meats.\n\n💡 BOTTLE SERVICE: Mountain Sonoma Cab. Alexander Valley quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -515,7 +526,8 @@
         "smooth",
         "secondary"
       ]
-    }
+    },
+    "website": "https://www.stonestreet.com/"
   },
   {
     "id": "duckhorn-cabernet-bottle",
@@ -523,7 +535,7 @@
     "description": "Napa, 2022",
     "price": 95,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Classic Napa Cabernet from legendary producer. Elegant, balanced with dark fruit, oak, structure. Consistent quality, benchmark wine. Perfect for special dinners or collectors. Pairs with prime beef, lamb, aged cheese. Reliable premium Napa choice.",
+    "serverNotes": "🏆 ABOUT: (duckhorn.com) Napa Valley Cabernet from legendary Duckhorn Vineyards. Benchmark producer since 1976. Consistently excellent!\n\n🍷 STYLE: Full-bodied Cabernet | Rich dark fruit, chocolate & oak | Velvety tannins | Classic Napa elegance | Age-worthy.\n\n🍽️ PAIRS WITH: Prime steaks, lamb, aged cheese, special occasions.\n\n💡 BOTTLE SERVICE: Benchmark Napa Cab from legendary producer. Consistently outstanding!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -558,7 +570,8 @@
         "elegant",
         "benchmark"
       ]
-    }
+    },
+    "website": "https://www.duckhorn.com/"
   },
   {
     "id": "stonestreet-estate-cabernet-bottle",
@@ -566,7 +579,7 @@
     "description": "Alexander/Sonoma, 2018",
     "price": 100,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Premium estate Cabernet from mountain vineyards. Rich, concentrated with dark fruit, spice. Age-worthy, complex. From acclaimed Sonoma producer. Pairs with steaks, game, truffle dishes. Serious Sonoma Cab at $100 milestone.",
+    "serverNotes": "🏆 ABOUT: (stonestreet.com) Estate Cabernet from Stonestreet's mountain vineyards. Single-estate quality. Premium Sonoma mountain Cab!\n\n🍷 STYLE: Full-bodied Cabernet | Concentrated dark fruit, spice & minerality | Mountain power & elegance | Estate quality.\n\n🍽️ PAIRS WITH: Prime cuts, lamb, truffle dishes.\n\n💡 BOTTLE SERVICE: Single-estate mountain Cab. Premium Sonoma quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -601,7 +614,8 @@
         "mountain",
         "age-worthy"
       ]
-    }
+    },
+    "website": "https://www.stonestreet.com/"
   },
   {
     "id": "paul-hobbs-cabernet-bottle",
@@ -609,7 +623,7 @@
     "description": "Napa, JS 94, 2016",
     "price": 105,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Premium Napa Cabernet rated 94 pts from renowned winemaker Paul Hobbs. Dark fruit, spice, oak with elegant structure. Boutique production, consultant winemaker to elite estates. Age-worthy with bottle maturity. Pairs with prime cuts, lamb, truffle dishes. Collector-quality Napa Cab.",
+    "serverNotes": "🏆 ABOUT: (paulhobbs.com) Napa Cabernet from legendary winemaker Paul Hobbs. World-renowned for precision and quality. Collector's choice!\n\n🍷 STYLE: Full-bodied Cabernet | Powerful yet elegant | Dark fruit, spice & earth | Paul Hobbs craftsmanship | Age-worthy.\n\n🍽️ PAIRS WITH: Prime cuts, lamb, truffle dishes, special occasions.\n\n💡 BOTTLE SERVICE: World-class winemaker's Napa Cab. Serious collector's wine!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -644,7 +658,8 @@
         "elegant",
         "Paul-Hobbs"
       ]
-    }
+    },
+    "website": "https://www.paulhobbs.com/"
   },
   {
     "id": "caymus-cabernet-bottle",
@@ -652,7 +667,7 @@
     "description": "Napa, 2022",
     "price": 120,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Legendary Napa Cabernet. Rich, velvety, opulent style with dark fruit, vanilla, chocolate. Smooth, approachable. Iconic producer, consistently high quality. Perfect for celebrations or steak dinners. Pairs with prime cuts, lamb. Quintessential Napa experience.",
+    "serverNotes": "🏆 ABOUT: (caymus.com) Caymus Napa Valley Cabernet - iconic California Cab! Rich, bold style that defined Napa Cabernet. Legendary producer!\n\n🍷 STYLE: Full-bodied Cabernet | Lush dark fruit, chocolate & vanilla | Rich, velvety | Caymus signature boldness.\n\n🍽️ PAIRS WITH: Prime steaks, lamb, rich dishes.\n\n💡 BOTTLE SERVICE: Iconic Napa Cab. The wine that defined California Cabernet!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -687,7 +702,8 @@
         "opulent",
         "legendary"
       ]
-    }
+    },
+    "website": "https://www.caymus.com/"
   },
   {
     "id": "doubleback-cabernet-bottle",
@@ -695,7 +711,7 @@
     "description": "Walla Walla, 2021",
     "price": 165,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Premium Washington Cabernet from Drew Bledsoe's (NFL QB) winery. Elegant, structured with dark fruit, spice. Cult favorite from Walla Walla. Collector's item. Pairs with finest cuts, game, aged cheese. Celebrity winemaker with serious quality.",
+    "serverNotes": "🏆 ABOUT: (doubleback.com) Walla Walla Cabernet from NFL quarterback Drew Bledsoe's winery. Washington state excellence. Premium quality!\n\n🍷 STYLE: Full-bodied Cabernet | Dark fruit, spice & earth | Elegant power | Washington character | Age-worthy.\n\n🍽️ PAIRS WITH: Prime steaks, lamb, game.\n\n💡 BOTTLE SERVICE: Premium Washington Cab from Drew Bledsoe. Pacific Northwest excellence!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -730,7 +746,8 @@
         "cult",
         "Walla-Walla"
       ]
-    }
+    },
+    "website": "https://www.doubleback.com/"
   },
   {
     "id": "knights-bridge-cabernet-bottle",
@@ -738,7 +755,7 @@
     "description": "Knights Valley, JD 90, 2018",
     "price": 165,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Napa Valley Cabernet rated 90 pts. Elegant, refined style with dark fruit, oak. From boutique Knights Valley estate. Also by the glass in Sauvignon Blanc. Premium quality. Pairs with prime cuts, lamb, game. Sophisticated Napa choice.",
+    "serverNotes": "🏆 ABOUT: (knightsbridgewinery.com) Estate Cabernet from Knights Bridge in Knights Valley, Napa. Premium estate fruit. Serious Napa quality!\n\n🍷 STYLE: Full-bodied Cabernet | Rich dark fruit, chocolate & spice | Structured, complex | Estate excellence.\n\n🍽️ PAIRS WITH: Prime cuts, lamb, aged cheese.\n\n💡 BOTTLE SERVICE: Premium Knights Valley Cab. Estate quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -773,7 +790,8 @@
         "refined",
         "boutique"
       ]
-    }
+    },
+    "website": "https://www.knightsbridgewinery.com/"
   },
   {
     "id": "revana-estate-cabernet-bottle",
@@ -781,7 +799,7 @@
     "description": "Napa, JD 95, 2019",
     "price": 200,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Outstanding Napa Cabernet rated 95 pts. Rich, concentrated with exceptional depth. Estate grown, boutique producer. Investment-quality wine. Cellar-worthy. Pairs with finest beef, game, truffles. Serious collector's Napa Cab.",
+    "serverNotes": "🏆 ABOUT: (revanawinery.com) 'Estate' Cabernet from Revana Family Vineyard in St. Helena, Napa. Premium estate, limited production. Serious collector's wine!\n\n🍷 STYLE: Full-bodied Cabernet | Concentrated dark fruit, spice & minerality | Powerful, elegant | St. Helena intensity.\n\n🍽️ PAIRS WITH: Prime cuts, truffle dishes, special celebrations.\n\n💡 BOTTLE SERVICE: St. Helena estate Cab. Limited production excellence!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -816,7 +834,8 @@
         "investment",
         "cellar-worthy"
       ]
-    }
+    },
+    "website": "https://www.revanawinery.com/"
   },
   {
     "id": "petrolo-campo-lusso-bottle",
@@ -825,7 +844,7 @@
     "description": "DOC, Tuscany, WE 96, 2021",
     "price": 210,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Outstanding Tuscan Cabernet rated 96 pts by Wine Enthusiast. Exceptional Italian expression with dark fruit, Mediterranean herbs, structure. From prestigious Valdarno estate. Rare Italian Cabernet at world-class level. Pairs with bistecca Fiorentina, game, aged Pecorino. Collector's Italian gem.",
+    "serverNotes": "🏆 ABOUT: (petrolo.it) Campo Lusso - Petrolo's Tuscan Cabernet Franc. Italian mastery of Bordeaux grape. Highly acclaimed!\n\n🍷 STYLE: Full-bodied Cabernet Franc | Dark fruit, herbs & spice | Elegant, refined | Tuscan terroir | Age-worthy.\n\n🍽️ PAIRS WITH: Bistecca, lamb, truffle dishes.\n\n💡 BOTTLE SERVICE: Italian Cabernet Franc excellence. Unique Tuscan expression!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -860,7 +879,8 @@
         "Tuscan-Cabernet",
         "96pts"
       ]
-    }
+    },
+    "website": "https://www.petrolo.it/"
   },
   {
     "id": "caymus-special-selection-bottle",
@@ -868,7 +888,7 @@
     "description": "Napa, 2019",
     "price": 235,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Caymus' top wine. Ultra-rich, velvety Napa Cabernet with layers of dark fruit, chocolate, vanilla. Full-bodied, opulent, luxurious. Consistently high scores. For special celebrations or serious collectors. Pairs with finest cuts, truffles. Ultimate Caymus experience.",
+    "serverNotes": "🏆 ABOUT: (caymus.com) Caymus 'Special Selection' - their flagship wine! Multiple awards, consistently rated 90+ points. Top-tier Napa Cabernet!\n\n🍷 STYLE: Full-bodied Cabernet | Ultra-rich dark fruit, chocolate & vanilla | Luxurious, velvety | Maximum Caymus power.\n\n🍽️ PAIRS WITH: Prime steaks, lamb, special celebrations.\n\n💡 BOTTLE SERVICE: Caymus' best! Multiple awards, consistently outstanding!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -903,7 +923,8 @@
         "luxurious",
         "ultimate-Caymus"
       ]
-    }
+    },
+    "website": "https://www.caymus.com/"
   },
   {
     "id": "la-jota-cabernet-bottle",
@@ -912,7 +933,7 @@
     "description": "Howell Mountain, JS 97, 2018",
     "price": 245,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Near-perfect mountain Cabernet rated 97 pts from legendary Howell Mountain. Powerful, structured with dark fruit, mountain terroir, exceptional depth. From Jackson Family's premium estate. Investment-grade, age for decades. Pairs with finest beef, game, truffles. Elite Napa mountain Cab.",
+    "serverNotes": "🏆 ABOUT: (lajotavineyard.com) Howell Mountain Cabernet from La Jota. Mountain intensity from legendary Napa sub-AVA. Powerful, age-worthy!\n\n🍷 STYLE: Full-bodied Cabernet | Concentrated dark fruit, earth & minerality | Mountain power | Structured, complex | Cellar-worthy.\n\n🍽️ PAIRS WITH: Prime cuts, game, aged cheese.\n\n💡 BOTTLE SERVICE: Howell Mountain Cab. Legendary Napa mountain terroir!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -947,7 +968,8 @@
         "97pts",
         "Howell-Mountain"
       ]
-    }
+    },
+    "website": "https://www.lajotavineyard.com/"
   },
   {
     "id": "quintessa-cabernet-bottle",
@@ -955,7 +977,7 @@
     "description": "Rutherford, Napa, WE 100, 2021",
     "price": 250,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Perfect 100 pts! Iconic Rutherford estate blend. Extraordinary elegance, complexity, depth. One of Napa's greatest wines. Biodynamic farming. Investment-grade, cellar for decades. For ultimate celebrations or collectors. Pairs with finest cuisine, truffles. Icon Napa wine.",
+    "serverNotes": "🏆 ABOUT: (quintessa.com) Quintessa - iconic Rutherford estate blend. Bordeaux-style masterpiece from Napa's finest terroir. World-class wine!\n\n🍷 STYLE: Full-bodied Bordeaux blend | Extraordinary complexity | Dark fruit, spice & minerality | Rutherford power | Investment-grade.\n\n🍽️ PAIRS WITH: Finest cuts, truffle dishes, special celebrations.\n\n💡 BOTTLE SERVICE: Iconic Rutherford estate. World-class Napa excellence!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -990,7 +1012,8 @@
         "icon",
         "biodynamic"
       ]
-    }
+    },
+    "website": "https://www.quintessa.com/"
   },
   {
     "id": "chappellet-prichard-hill-bottle",
@@ -998,7 +1021,7 @@
     "description": "Napa, RP 99, 2019",
     "price": 285,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Near-perfect mountain Cabernet rated 99 pts by Robert Parker. From legendary Prichard Hill vineyard. Extraordinary power, elegance, complexity. Cellar-worthy for decades. For serious collectors only. Pairs with finest beef, game, truffles. One of Napa's greatest sites.",
+    "serverNotes": "🏆 ABOUT: (chappellet.com) Prichard Hill Estate Cabernet from Chappellet's legendary vineyard. One of Napa's most acclaimed sites. Collector's wine!\n\n🍷 STYLE: Full-bodied Cabernet | Extraordinary concentration & complexity | Mountain power & elegance | Age-worthy masterpiece.\n\n🍽️ PAIRS WITH: Finest cuts, white truffle, once-in-lifetime celebrations.\n\n💡 BOTTLE SERVICE: Legendary Prichard Hill vineyard. Serious collector's choice!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1033,7 +1056,8 @@
         "Prichard-Hill",
         "mountain"
       ]
-    }
+    },
+    "website": "https://www.chappellet.com/"
   },
   {
     "id": "joseph-phelps-insignia-bottle",
@@ -1041,7 +1065,7 @@
     "description": "Napa, JD 99, 2019",
     "price": 295,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Legendary Napa blend rated 99 pts. Bordeaux-style masterpiece with decades of acclaim. Rich, complex, age-worthy. Icon American wine since 1974. Investment-grade. For ultimate celebrations or collectors. Pairs with finest cuisine, truffles, prime cuts. Benchmark California wine.",
+    "serverNotes": "🏆 ABOUT: (josephphelps.com) Insignia - Joseph Phelps' flagship Bordeaux blend. One of California's first proprietary reds (1974). Icon wine!\n\n🍷 STYLE: Full-bodied Bordeaux blend | Extraordinary depth & complexity | Dark fruit, spice & power | Legendary California blend | Investment-grade.\n\n🍽️ PAIRS WITH: Finest cuts, truffle dishes, special celebrations.\n\n💡 BOTTLE SERVICE: California icon wine. The original Napa proprietary blend!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1076,7 +1100,8 @@
         "99pts",
         "Insignia"
       ]
-    }
+    },
+    "website": "https://www.josephphelps.com/"
   },
   {
     "id": "shafer-hillside-select-bottle",
@@ -1084,7 +1109,7 @@
     "description": "Napa, JD 100, 2018",
     "price": 345,
     "category": "Cabernet & Blends Bottles",
-    "serverNotes": "Perfect 100 pts! One of America's greatest Cabernets. From legendary Stags Leap hillside vineyard. Extraordinary power, elegance, complexity. Cellar for decades. Consistently perfect scores. For once-in-lifetime celebrations, serious collectors. Pairs with finest cuisine, white truffle. Ultimate Napa experience.",
+    "serverNotes": "🏆 ABOUT: (shafervineyards.com) Hillside Select - Shafer's masterpiece from Stags Leap District. Consistently rated 95+ points. One of Napa's greatest wines!\n\n🍷 STYLE: Full-bodied Cabernet | Extraordinary power & elegance | Perfect balance | World-class complexity | Investment-grade masterpiece.\n\n🍽️ PAIRS WITH: Finest cuts, white truffle, once-in-lifetime moments.\n\n💡 BOTTLE SERVICE: Napa's finest! Consistently one of California's greatest Cabernets!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -1119,6 +1144,7 @@
         "ultimate",
         "America's-best"
       ]
-    }
+    },
+    "website": "https://www.shafervineyards.com/"
   }
 ]

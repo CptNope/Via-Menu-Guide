@@ -31,7 +31,79 @@ function FilterBar({ filters, onChange, showDrinkFilters = false }) {
             onClick={() => handleToggle("bottles")}
           >
             <input type="checkbox" readOnly checked={filters.bottles} />
-            <span>Bottles</span>
+            <span>All Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("italianRedsBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.italianRedsBottles} />
+            <span>Italian Reds Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("superTuscanBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.superTuscanBottles} />
+            <span>Super Tuscan Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("merlotMalbecBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.merlotMalbecBottles} />
+            <span>Merlot & Malbec Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("pinotNoirBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.pinotNoirBottles} />
+            <span>Pinot Noir Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("cabernetBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.cabernetBottles} />
+            <span>Cabernet Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("sauvignonBlancBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.sauvignonBlancBottles} />
+            <span>Sauvignon Blanc Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("chardonnayBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.chardonnayBottles} />
+            <span>Chardonnay Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("interestingWhitesBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.interestingWhitesBottles} />
+            <span>Interesting Whites Bottles</span>
+          </button>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => handleToggle("sparklingBottles")}
+          >
+            <input type="checkbox" readOnly checked={filters.sparklingBottles} />
+            <span>Sparkling Bottles</span>
           </button>
           <button
             type="button"

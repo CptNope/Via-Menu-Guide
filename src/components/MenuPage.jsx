@@ -34,6 +34,17 @@ function MenuPage({ title, data }) {
     winesByGlass: false,
     halfBottles: false,
     bottles: false,
+    // Bottle wine category filters
+    italianRedsBottles: false,
+    superTuscanBottles: false,
+    merlotMalbecBottles: false,
+    pinotNoirBottles: false,
+    cabernetBottles: false,
+    sauvignonBlancBottles: false,
+    chardonnayBottles: false,
+    interestingWhitesBottles: false,
+    sparklingBottles: false,
+    // Other drink filters
     cocktails: false,
     beers: false,
     bourbon: false,
@@ -64,6 +75,9 @@ function MenuPage({ title, data }) {
         const beerCategories = ["Draught", "Bottles & Cans", "Non-Alcoholic Beer"];
         
         const anyDrinkFilter = filters.winesByGlass || filters.halfBottles || filters.bottles || 
+                               filters.italianRedsBottles || filters.superTuscanBottles || filters.merlotMalbecBottles ||
+                               filters.pinotNoirBottles || filters.cabernetBottles || filters.sauvignonBlancBottles ||
+                               filters.chardonnayBottles || filters.interestingWhitesBottles || filters.sparklingBottles ||
                                filters.cocktails || filters.beers || filters.bourbon || filters.rye || 
                                filters.scotch || filters.grappa || filters.cognac || filters.port || 
                                filters.amaro || filters.coffeeCocktails;
@@ -78,6 +92,34 @@ function MenuPage({ title, data }) {
             matchesDrinkFilter = true;
           }
           if (filters.bottles && bottleCategories.includes(item.category)) {
+            matchesDrinkFilter = true;
+          }
+          // Individual bottle category filters
+          if (filters.italianRedsBottles && item.category === "Italian Reds Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.superTuscanBottles && item.category === "Super Tuscan Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.merlotMalbecBottles && item.category === "Merlot & Malbec Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.pinotNoirBottles && item.category === "Pinot Noir & Interesting Reds Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.cabernetBottles && item.category === "Cabernet & Blends Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.sauvignonBlancBottles && item.category === "Sauvignon Blanc Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.chardonnayBottles && item.category === "Chardonnay Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.interestingWhitesBottles && item.category === "Interesting Whites Bottles") {
+            matchesDrinkFilter = true;
+          }
+          if (filters.sparklingBottles && item.category === "Sparkling Bottles") {
             matchesDrinkFilter = true;
           }
           if (filters.cocktails && cocktailCategories.includes(item.category)) {

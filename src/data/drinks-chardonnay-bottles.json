@@ -5,7 +5,7 @@
     "description": "Monterey, 2023",
     "price": 48,
     "category": "Chardonnay Bottles",
-    "serverNotes": "California Chardonnay with apple, citrus, vanilla, oak. Medium-bodied, balanced, creamy texture. Also by the glass. From quality producer. Pairs with chicken, seafood, pasta with cream sauce. Crowd-pleasing California style.",
+    "serverNotes": "📖 ABOUT: (lacrema.com) Sonoma Coast Chardonnay from La Crema. Known for quality California Chardonnay since 1979. Balanced, approachable style. Also available by the glass!\n\n🍷 STYLE: Medium-bodied Chardonnay | Apple, pear & vanilla | Balanced oak, food-friendly | Classic California elegance.\n\n🍽️ PAIRS WITH: Lobster, scallops, chicken, cream sauces, seafood.\n\n💡 BOTTLE SERVICE: Versatile Chardonnay for diverse menus. Available by the glass too!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -40,7 +40,8 @@
         "vanilla",
         "creamy"
       ]
-    }
+    },
+    "website": "https://www.lacrema.com/"
   },
   {
     "id": "knights-bridge-kb-chardonnay-bottle",
@@ -48,7 +49,7 @@
     "description": "Knights Valley, 2021",
     "price": 50,
     "category": "Chardonnay Bottles",
-    "serverNotes": "Napa Valley Chardonnay with citrus, apple, butter, oak. Medium to full-bodied, rich texture. Also by the glass. From boutique producer. Pairs with lobster, chicken, risotto, creamy dishes. Premium California Chardonnay.",
+    "serverNotes": "📖 ABOUT: (knightsbridgewinery.com) 'KB' Chardonnay from Knights Bridge in Knights Valley, Napa. Estate fruit, Burgundian style. Premium Napa quality!\n\n🍷 STYLE: Medium to full-bodied Chardonnay | Ripe apple, citrus & subtle oak | Balanced, elegant | Napa with Burgundy influence.\n\n🍽️ PAIRS WITH: Lobster, scallops, roasted chicken, cream sauces.\n\n💡 BOTTLE SERVICE: Premium Napa Chardonnay with Burgundian elegance. Knights Valley terroir!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -83,7 +84,8 @@
         "oak",
         "rich"
       ]
-    }
+    },
+    "website": "https://www.knightsbridgewinery.com/"
   },
   {
     "id": "rombauer-chardonnay-carneros-bottle",
@@ -91,7 +93,7 @@
     "description": "Carneros, 2023",
     "price": 68,
     "category": "Chardonnay Bottles",
-    "serverNotes": "Cult favorite California Chardonnay. Rich, buttery with tropical fruit, vanilla, oak. Full-bodied, creamy, opulent. Most requested Chardonnay in America. Pairs with lobster, crab, chicken, creamy pasta. Ultra-popular premium choice.",
+    "serverNotes": "🏆 ABOUT: (rombauer.com) Iconic Carneros Chardonnay from Rombauer Vineyards. Rich, buttery California style. One of America's most beloved Chardonnays!\n\n🍷 STYLE: Full-bodied Chardonnay | Rich butter, vanilla & tropical fruit | Creamy texture | Classic Carneros character | Rombauer signature.\n\n🍽️ PAIRS WITH: Lobster, crab, roasted chicken, cream sauces.\n\n💡 BOTTLE SERVICE: Iconic California Chardonnay. Consistently one of America's favorites!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -126,7 +128,8 @@
         "opulent",
         "cult-favorite"
       ]
-    }
+    },
+    "website": "https://www.rombauer.com/"
   },
   {
     "id": "shafer-red-shoulder-ranch-bottle",
@@ -134,7 +137,7 @@
     "description": "Napa, 2022",
     "price": 85,
     "category": "Chardonnay Bottles",
-    "serverNotes": "Premium Napa Chardonnay from legendary Shafer estate. Citrus, apple, butter, mineral. Balanced, elegant, refined. From cult Cabernet producer. Pairs with lobster, scallops, fine dining, rich seafood. Collector-quality Chardonnay.",
+    "serverNotes": "🏆 ABOUT: (shafervineyards.com) 'Red Shoulder Ranch' Chardonnay from Shafer's Carneros vineyard. Cool-climate elegance from legendary Napa producer. Highly acclaimed!\n\n🍷 STYLE: Full-bodied Chardonnay | Ripe apple, citrus & oak | Complex, balanced | Carneros cool-climate | Age-worthy quality.\n\n🍽️ PAIRS WITH: Lobster, scallops, roasted chicken, fine cuisine.\n\n💡 BOTTLE SERVICE: Premium Carneros Chardonnay from legendary Shafer. Collector quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -169,7 +172,8 @@
         "elegant",
         "Shafer"
       ]
-    }
+    },
+    "website": "https://www.shafervineyards.com/"
   },
   {
     "id": "knights-bridge-west-block-bottle",
@@ -177,7 +181,7 @@
     "description": "Knights Valley, 2021",
     "price": 90,
     "category": "Chardonnay Bottles",
-    "serverNotes": "Single-vineyard Napa Chardonnay with citrus, stone fruit, oak. Rich, complex, balanced. From boutique estate's best block. Limited production. Pairs with lobster, fine dining, rich dishes. Premium small-lot Chardonnay.",
+    "serverNotes": "🏆 ABOUT: (knightsbridgewinery.com) West Block Estate Chardonnay from Knights Bridge's premier vineyard. Single-block quality. Top-tier Napa Chardonnay!\n\n🍷 STYLE: Full-bodied Chardonnay | Concentrated citrus, apple & minerality | Complex, elegant | Single-block terroir | Premium quality.\n\n🍽️ PAIRS WITH: Lobster, fine seafood, roasted chicken, special occasions.\n\n💡 BOTTLE SERVICE: Single-block estate Chardonnay. Premium Knights Valley terroir!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -212,7 +216,8 @@
         "single-vineyard",
         "limited"
       ]
-    }
+    },
+    "website": "https://www.knightsbridgewinery.com/"
   },
   {
     "id": "wayfarer-chardonnay-bottle",
@@ -220,7 +225,7 @@
     "description": "Fort Ross - Seaview, California, JD 97, 2020",
     "price": 95,
     "category": "Chardonnay Bottles",
-    "serverNotes": "Near-perfect Chardonnay rated 97 pts! From Pahlmeyer family's coastal estate. Citrus, mineral, oak, complexity. Elegant, Burgundian style. Extreme coastal vineyard. For serious collectors. Pairs with lobster, fine dining, truffles. Elite California Chardonnay.",
+    "serverNotes": "🏆 ABOUT: (pahlmeyer.com) Wayfarer Chardonnay from Pahlmeyer's Fort Ross-Seaview estate. Extreme coastal Sonoma. World-class cool-climate Chardonnay!\n\n🍷 STYLE: Full-bodied Chardonnay | Precise citrus, mineral & complexity | Coastal elegance | Burgundian finesse | Investment-grade.\n\n🍽️ PAIRS WITH: Oysters, lobster, fine seafood, special celebrations.\n\n💡 BOTTLE SERVICE: Ultra-premium coastal Chardonnay. Pahlmeyer excellence meets Burgundy!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -255,6 +260,7 @@
         "97pts",
         "Burgundian"
       ]
-    }
+    },
+    "website": "https://www.pahlmeyer.com/"
   }
 ]

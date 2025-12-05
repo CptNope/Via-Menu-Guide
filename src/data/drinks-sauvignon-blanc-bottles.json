@@ -5,7 +5,7 @@
     "description": "Loire, FR, 2023",
     "price": 42,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "Crisp French Sauvignon Blanc from Loire Valley. Citrus, green apple, mineral, grass. Bright acidity, refreshing. From quality Loire producer. Pairs with oysters, goat cheese, seafood, salads. Classic French style, elegant.",
+    "serverNotes": "📖 ABOUT: (ladoucette.fr) 'Les Deux Tours' Sancerre from prestigious Baron de Ladoucette. Classic Loire Valley Sauvignon Blanc. Elegant French quality!\n\n🍷 STYLE: Crisp Sancerre | Flinty minerality, citrus & green apple | Bright acidity | Classic Loire character | Food-friendly elegance.\n\n🍽️ PAIRS WITH: Oysters, seafood, goat cheese, fresh shellfish.\n\n💡 BOTTLE SERVICE: Authentic Sancerre from prestigious producer. Classic French terroir!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -40,7 +40,8 @@
         "mineral",
         "crisp"
       ]
-    }
+    },
+    "website": "https://www.ladoucette.fr/"
   },
   {
     "id": "matua-sauvignon-blanc-bottle",
@@ -48,7 +49,7 @@
     "description": "Marlborough, NZ, 2024",
     "price": 48,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "New Zealand Sauvignon Blanc with grapefruit, passionfruit, lime. Vibrant, tropical, zesty. Also by the glass. From pioneering Kiwi producer. Pairs with seafood, sushi, salads, Asian cuisine. Crowd-pleasing NZ style.",
+    "serverNotes": "📖 ABOUT: (matua.co.nz) Marlborough Sauvignon Blanc from Matua in New Zealand. Classic Kiwi SB - crisp, vibrant, tropical. Great value!\n\n🍷 STYLE: Crisp Sauvignon Blanc | Passion fruit, grapefruit & herbs | Bright acidity | Classic New Zealand character.\n\n🍽️ PAIRS WITH: Seafood, salads, goat cheese, fresh dishes.\n\n💡 BOTTLE SERVICE: Classic New Zealand SB. Vibrant, tropical style!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -83,7 +84,8 @@
         "tropical",
         "vibrant"
       ]
-    }
+    },
+    "website": "https://www.matua.co.nz/"
   },
   {
     "id": "cloudy-bay-sauvignon-blanc-bottle",
@@ -91,7 +93,7 @@
     "description": "Marlborough, 2024",
     "price": 57,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "Iconic New Zealand Sauvignon Blanc that made Marlborough famous. Grapefruit, passionfruit, herbs. Vibrant, pure, elegant. Benchmark NZ producer. Pairs with seafood, oysters, sushi, goat cheese. Premium Kiwi classic.",
+    "serverNotes": "🏆 ABOUT: (cloudybay.co.nz) Cloudy Bay - the wine that put Marlborough on the map! Iconic New Zealand Sauvignon Blanc. World-renowned quality!\n\n🍷 STYLE: Crisp Sauvignon Blanc | Intense passion fruit, citrus & herbs | Vibrant, complex | Marlborough benchmark.\n\n🍽️ PAIRS WITH: Seafood, sushi, oysters, fresh dishes.\n\n💡 BOTTLE SERVICE: Iconic New Zealand wine. The original Marlborough SB that started it all!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -126,7 +128,8 @@
         "iconic",
         "elegant"
       ]
-    }
+    },
+    "website": "https://www.cloudybay.co.nz/"
   },
   {
     "id": "hubert-brochard-sancerre-bottle",
@@ -134,7 +137,7 @@
     "description": "Sancerre, FR, 2023",
     "price": 62,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "Classic French Sancerre with citrus, flint, mineral. Crisp, elegant, bone-dry. From quality Loire producer. True expression of terroir. Pairs with oysters, goat cheese, seafood, delicate dishes. Premium French Sauvignon Blanc.",
+    "serverNotes": "📖 ABOUT: (hubertbrochard.com) Sancerre from Hubert Brochard in Loire Valley. Family estate, traditional methods. Authentic French Sancerre!\n\n🍷 STYLE: Crisp Sancerre | Flinty minerality, citrus & white flowers | Pure, elegant | Classic Loire terroir.\n\n🍽️ PAIRS WITH: Oysters, seafood, goat cheese, French cuisine.\n\n💡 BOTTLE SERVICE: Family estate Sancerre. Traditional Loire quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -169,7 +172,8 @@
         "mineral",
         "Sancerre"
       ]
-    }
+    },
+    "website": "https://www.hubertbrochard.com/"
   },
   {
     "id": "flouret-sancerre-bottle",
@@ -178,7 +182,7 @@
     "description": "Sancerre, FR, 2023",
     "price": 70,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "Premium French Sancerre with intense citrus, flint, mineral character. Crisp, elegant, classic Loire expression. From quality Sancerre producer. Pure, focused terroir wine. Pairs with oysters, seafood, goat cheese, delicate dishes. Refined French Sauvignon Blanc.",
+    "serverNotes": "📖 ABOUT: (flouret-sancerre.com) Sancerre from Flouret estate in Loire Valley. Terroir-focused, organic farming. Pure Loire expression!\n\n🍷 STYLE: Crisp Sancerre | Mineral, citrus & green apple | Bright acidity, clean finish | Organic quality | Terroir-driven.\n\n🍽️ PAIRS WITH: Oysters, seafood, goat cheese, fresh shellfish.\n\n💡 BOTTLE SERVICE: Organic Sancerre. Pure, terroir-focused Loire!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -213,7 +217,8 @@
         "intense",
         "Sancerre"
       ]
-    }
+    },
+    "website": "https://www.flouret-sancerre.com/"
   },
   {
     "id": "domaine-francois-crochet-exils-bottle",
@@ -222,7 +227,7 @@
     "description": "Sancerre, FR, 2022",
     "price": 80,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "Top-tier Sancerre from premier family estate. Intense minerality, citrus, flinty character. Pure, concentrated, age-worthy. Single-vineyard excellence. From one of Sancerre's best producers. Pairs with oysters, seafood, aged goat cheese. For Sancerre connoisseurs.",
+    "serverNotes": "🏆 ABOUT: (crochet-sancerre.com) 'Exils' Sancerre from prestigious Francois Crochet. Premium cuvée from old vines. Serious collector's Sancerre!\n\n🍷 STYLE: Crisp Sancerre | Intense minerality, citrus & complexity | Old vine concentration | Premium Loire terroir | Age-worthy.\n\n🍽️ PAIRS WITH: Oysters, seafood, fine French cuisine.\n\n💡 BOTTLE SERVICE: Premium old-vine Sancerre. Collector-quality Loire!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -257,7 +262,8 @@
         "single-vineyard",
         "elite-Sancerre"
       ]
-    }
+    },
+    "website": "https://www.crochet-sancerre.com/"
   },
   {
     "id": "knights-bridge-pont-de-chevalier-bottle",
@@ -265,7 +271,7 @@
     "description": "Knights Valley, 2023",
     "price": 64,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "California Sauvignon Blanc with grapefruit, melon, grass. Crisp, balanced, fresh. From boutique Napa producer. Bordeaux-inspired style. Pairs with seafood, salads, oysters, goat cheese. Premium California Sauv Blanc.",
+    "serverNotes": "📖 ABOUT: (knightsbridgewinery.com) 'Pont de Chevalier' Sauvignon Blanc from Knights Bridge in Napa. California expression of Loire style. Elegant, food-friendly!\n\n🍷 STYLE: Crisp Sauvignon Blanc | Citrus, melon & herbs | Bright acidity | Napa elegance with Loire influence.\n\n🍽️ PAIRS WITH: Seafood, salads, goat cheese, fresh dishes.\n\n💡 BOTTLE SERVICE: Napa SB with French elegance. California-Loire fusion!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -300,6 +306,7 @@
         "fresh",
         "Bordeaux-style"
       ]
-    }
+    },
+    "website": "https://www.knightsbridgewinery.com/"
   }
 ]

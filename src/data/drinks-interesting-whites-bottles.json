@@ -6,7 +6,7 @@
     "description": "DOC, Langhe",
     "price": 29,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Light, crisp Piedmont white blend with citrus, white flowers. Refreshing, easy-drinking. Great value Italian white. Pairs with antipasto, seafood, salads, lighter dishes. Perfect everyday white wine.",
+    "serverNotes": "📖 ABOUT: (batasiolo.com) 'Sunsi' white blend from Batasiolo in Piedmont. Unique Italian white with aromatic character. Interesting alternative!\n\n🍷 STYLE: Medium-bodied white blend | Floral, stone fruit & herbs | Fresh, aromatic | Piedmont character.\n\n🍽️ PAIRS WITH: Seafood, pasta, salads, Italian cuisine.\n\n💡 BOTTLE SERVICE: Aromatic Piedmont white. Great alternative to standard varietals!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -41,7 +41,8 @@
         "crisp",
         "everyday"
       ]
-    }
+    },
+    "website": "https://www.batasiolo.com/"
   },
   {
     "id": "sorbara-lambrusco-rose-bottle",
@@ -50,7 +51,7 @@
     "description": "DOC, Lambrusco, NV",
     "price": 39,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Lightly sparkling Italian rosé with strawberry, raspberry, refreshing bubbles. Off-dry, fun, festive. Unique style - conversation starter. Pairs with charcuterie, pizza, fried foods, brunch. Playful, approachable sparkler.",
+    "serverNotes": "📖 ABOUT: (cantinedisorbara.it) Lambrusco Rosé from Sorbara - lightly sparkling Italian rosé! Fun, refreshing, low alcohol. Perfect summer wine!\n\n🍷 STYLE: Light-bodied, frizzante | Strawberry, raspberry & floral | Lightly sparkling | Low alcohol, refreshing.\n\n🍽️ PAIRS WITH: Charcuterie, pizza, appetizers, summer dishes.\n\n💡 BOTTLE SERVICE: Fun sparkling rosé! Light, refreshing, perfect for groups!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -84,7 +85,8 @@
         "playful",
         "lightly-sparkling"
       ]
-    }
+    },
+    "website": "https://www.cantinedisorbara.it/"
   },
   {
     "id": "elena-walch-gewurztraminer-bottle",
@@ -93,7 +95,7 @@
     "description": "DOC, Alto Adige, 2021",
     "price": 42,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Aromatic Italian white with lychee, rose petals, spice. Exotic, off-dry, full-bodied. From quality Alto Adige producer. Pairs with Asian cuisine, spicy dishes, duck, strong cheeses. Bold, distinctive white wine.",
+    "serverNotes": "📖 ABOUT: (elenawalch.com) Gewürztraminer from Elena Walch in Alto Adige. Aromatic, spicy Italian white. Exotic and distinctive!\n\n🍷 STYLE: Medium-bodied Gewürz | Lychee, rose petal & spice | Aromatic, exotic | Alto Adige elegance.\n\n🍽️ PAIRS WITH: Asian cuisine, spicy dishes, duck, Thai food.\n\n💡 BOTTLE SERVICE: Exotic aromatic white. Perfect for spicy cuisine!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -127,7 +129,8 @@
         "exotic",
         "aromatic"
       ]
-    }
+    },
+    "website": "https://www.elenawalch.com/"
   },
   {
     "id": "la-fiera-pinot-grigio-bottle",
@@ -135,7 +138,7 @@
     "description": "2024",
     "price": 44,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Crisp Italian Pinot Grigio with citrus, green apple, mineral notes. Light, refreshing, clean. Also by the glass. Perfect aperitif wine. Pairs with seafood, salads, antipasto, light pasta. Classic Italian white that appeals to most palates.",
+    "serverNotes": "📖 ABOUT: (lafiera.it) Pinot Grigio from La Fiera in Friuli. Serious northern Italian Pinot Grigio with depth. Not your typical PG!\n\n🍷 STYLE: Medium-bodied Pinot Grigio | Pear, almond & minerality | Structured, complex | Friuli quality.\n\n🍽️ PAIRS WITH: Seafood, white fish, risotto, Italian cuisine.\n\n💡 BOTTLE SERVICE: Quality Friuli Pinot Grigio. Step above standard PG!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -169,7 +172,8 @@
         "clean",
         "aperitif"
       ]
-    }
+    },
+    "website": "https://www.lafiera.it/"
   },
   {
     "id": "loosen-riesling-bottle",
@@ -177,7 +181,7 @@
     "description": "Germany, 2023",
     "price": 44,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Classic German Riesling with apple, peach, mineral notes. Off-dry, balanced sweetness with acidity. Also by the glass. From legendary Dr. Loosen. Pairs with spicy foods, Asian cuisine, pork, duck. Gateway to German Riesling.",
+    "serverNotes": "📖 ABOUT: (drloosen.com) Mosel Riesling from legendary Dr. Loosen estate. Classic German Riesling with precision. World-renowned quality!\n\n🍷 STYLE: Light to medium-bodied Riesling | Peach, citrus & slate minerality | Off-dry, balanced | Classic Mosel character.\n\n🍽️ PAIRS WITH: Asian cuisine, spicy dishes, seafood, pork.\n\n💡 BOTTLE SERVICE: Legendary German Riesling. Classic Mosel quality!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -211,7 +215,8 @@
         "mineral",
         "off-dry"
       ]
-    }
+    },
+    "website": "https://www.drloosen.com/"
   },
   {
     "id": "trimbach-riesling-bottle",
@@ -220,7 +225,7 @@
     "description": "Alsace, FR, JS 92, 2021",
     "price": 45,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Dry French Riesling rated 92 pts. Citrus, mineral, steel. Crisp, bone-dry style. From legendary Alsace producer. Pairs with oysters, seafood, Asian cuisine, goat cheese. Premium Old World Riesling for serious wine lovers.",
+    "serverNotes": "🏆 ABOUT: (maison-trimbach.fr) Riesling from historic Trimbach in Alsace, France. Family estate since 1626. Benchmark dry Riesling!\n\n🍷 STYLE: Medium-bodied Riesling | Citrus, stone fruit & minerality | Bone dry, precise | Alsace elegance | Age-worthy.\n\n🍽️ PAIRS WITH: Seafood, Asian cuisine, charcuterie, fine dining.\n\n💡 BOTTLE SERVICE: Historic Alsace Riesling. Benchmark dry style!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -254,7 +259,8 @@
         "steel",
         "bone-dry"
       ]
-    }
+    },
+    "website": "https://www.maison-trimbach.fr/"
   },
   {
     "id": "benanti-etna-bianco-bottle",
@@ -263,7 +269,7 @@
     "description": "DOC, Sicily, 2023",
     "price": 56,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Unique Sicilian white from volcanic Mt. Etna slopes. Citrus, mineral, smoke, saline notes. Crisp, distinctive terroir. Trendy, food-friendly. Pairs with seafood, fish, oysters, grilled vegetables. Conversation starter wine.",
+    "serverNotes": "📖 ABOUT: (vinibenanti.it) Etna Bianco from Benanti on Mt. Etna, Sicily. Volcanic terroir with indigenous grapes. Unique Sicilian white!\n\n🍷 STYLE: Medium-bodied white blend | Citrus, mineral & volcanic character | Fresh, distinctive | Mt. Etna terroir.\n\n🍽️ PAIRS WITH: Seafood, grilled fish, Sicilian cuisine, Mediterranean dishes.\n\n💡 BOTTLE SERVICE: Volcanic Sicilian white. Unique Mt. Etna terroir!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -298,7 +304,8 @@
         "smoke",
         "volcanic"
       ]
-    }
+    },
+    "website": "https://www.vinibenanti.it/"
   },
   {
     "id": "gd-vajra-rosa-bella-bottle",
@@ -307,7 +314,7 @@
     "description": "Piedmont, 2024",
     "price": 56,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Elegant Piedmont rosé from biodynamic producer G.D. Vajra. Light, fresh with strawberry, citrus, minerals. Delicate, refreshing. From prestigious Barolo producer. Pairs with appetizers, salads, seafood, summer dishes. Quality Italian rosé.",
+    "serverNotes": "🌿 ABOUT: (gdvajra.com) Rosa Bella rosé from biodynamic G.D. Vajra! Nebbiolo rosé from Piedmont. Organic, elegant, unique. Also available by the glass!\n\n🍷 STYLE: Medium-bodied rosé | Strawberry, herbs & minerality | Elegant, dry | Nebbiolo character | Biodynamic quality.\n\n🍽️ PAIRS WITH: Salads, seafood, Mediterranean cuisine, summer dishes.\n\n💡 BOTTLE SERVICE: Biodynamic Nebbiolo rosé! Unique Piedmont style. Available by the glass too!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -341,7 +348,8 @@
         "mineral",
         "elegant-rosé"
       ]
-    }
+    },
+    "website": "https://www.gdvajra.com/"
   },
   {
     "id": "gianni-gagliardo-roero-arneis-bottle",
@@ -350,7 +358,7 @@
     "description": "DOCG, Piemonte, 2022",
     "price": 56,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Medium-bodied Piedmont white with pear, almond, white flowers. Rich texture with refreshing acidity. Ancient grape from Barolo region. Also by the glass. Pairs with risotto, seafood, white truffle dishes. Quality Piedmont white.",
+    "serverNotes": "📖 ABOUT: (gagliardowine.com) Roero Arneis from Gianni Gagliardo in Piedmont. Indigenous Arneis grape. Classic Piedmont white!\n\n🍷 STYLE: Medium-bodied Arneis | White flowers, pear & almond | Fresh, aromatic | Indigenous Piedmont grape.\n\n🍽️ PAIRS WITH: Seafood, risotto, white fish, Italian cuisine.\n\n💡 BOTTLE SERVICE: Indigenous Piedmont white. Arneis grape specialty!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -384,7 +392,8 @@
         "white-flowers",
         "Arneis"
       ]
-    }
+    },
+    "website": "https://www.gagliardowine.com/"
   },
   {
     "id": "guado-al-tasso-vermentino-bottle",
@@ -392,7 +401,7 @@
     "description": "Tuscany, 2024",
     "price": 52,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Crisp Tuscan white from legendary Antinori estate. Citrus, white peach, herbal notes. Fresh, Mediterranean style. From prestigious producer. Pairs with seafood, shellfish, light pasta, grilled fish. Premium coastal Italian white.",
+    "serverNotes": "🏆 ABOUT: (antinori.it) Guado al Tasso Vermentino from legendary Antinori in Tuscany. Coastal Tuscan white with elegance. Premium quality!\n\n🍷 STYLE: Medium-bodied Vermentino | Citrus, white flowers & minerality | Fresh, elegant | Tuscan coastal character.\n\n🍽️ PAIRS WITH: Seafood, grilled fish, Mediterranean cuisine.\n\n💡 BOTTLE SERVICE: Antinori's coastal Tuscan white. Premium Vermentino!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -427,7 +436,8 @@
         "coastal",
         "Antinori"
       ]
-    }
+    },
+    "website": "https://www.antinori.it/"
   },
   {
     "id": "santa-margherita-pinot-grigio-bottle",
@@ -435,7 +445,7 @@
     "description": "DOC, Alto Adige, 2024",
     "price": 56,
     "category": "Interesting Whites Bottles",
-    "serverNotes": "Iconic Italian Pinot Grigio that made the grape famous. Crisp, clean with citrus, mineral. Elegant, refined. Most recognized Italian white brand. Pairs with seafood, appetizers, salads, light dishes. Premium benchmark Pinot Grigio.",
+    "serverNotes": "📖 ABOUT: (santamargherita.com) Santa Margherita Pinot Grigio - the wine that made Pinot Grigio famous worldwide! Iconic Italian white since 1961.\n\n🍷 STYLE: Light to medium-bodied Pinot Grigio | Citrus, pear & clean finish | Crisp, refreshing | Classic Italian style.\n\n🍽️ PAIRS WITH: Seafood, salads, pasta, Italian cuisine.\n\n💡 BOTTLE SERVICE: The original iconic Pinot Grigio. Made this grape famous!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -469,6 +479,7 @@
         "iconic",
         "benchmark"
       ]
-    }
+    },
+    "website": "https://www.santamargherita.com/"
   }
 ]

@@ -4,6 +4,7 @@ import FilterBar from "./FilterBar";
 import PairingControls from "./PairingControls";
 import CategoryWineMap from "./CategoryWineMap";
 import InternationalWineMap from "./InternationalWineMap";
+import SpiritsMap from "./SpiritsMap";
 import { getDefaultPreferences } from "../utils/pairingPreferences";
 import educationalGuide from "../data/drinksEducationalGuide.json";
 
@@ -289,6 +290,11 @@ function MenuPage({ title, data }) {
                 cat === "Interesting Whites Bottles" ||
                 cat === "Sparkling Bottles") && (
                 <InternationalWineMap wines={grouped[cat]} categoryName={cat} />
+              )}
+
+              {/* Show spirits map for whiskey categories */}
+              {(cat === "Bourbon" || cat === "Rye" || cat === "Scotch") && (
+                <SpiritsMap spirits={grouped[cat]} categoryName={cat} />
               )}
               
               {grouped[cat].map((item) => (

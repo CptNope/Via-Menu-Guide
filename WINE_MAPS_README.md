@@ -1,4 +1,4 @@
-# 🗺️ Interactive Wine Maps (Italy + World)
+# 🗺️ Interactive Maps (Wine + Spirits)
 
 ## Overview
 All wine bottle categories now feature **interactive OpenStreetMaps**:
@@ -25,6 +25,15 @@ Each Italian wine card displays its own detailed map:
 - **Regional landmarks** (historic towns, appellations, key sites)
 - **Educational links** to Wikipedia for each landmark
 - Focused regional view (300px)
+
+### 🥃 Spirits Maps (NEW!)
+**Categories:** Bourbon, Rye, Scotch (30+ spirits)
+- **Regional whiskey maps** showing distilling regions
+- USA: Kentucky, Tennessee, Vermont, Massachusetts, Utah, Canada
+- Scotland: Speyside, Islay, Highland, Lowland, Campbeltown
+- Color-coded whiskey glass markers
+- Distillery region landmarks with links
+- 450px focused regional view
 
 ## Features
 
@@ -95,6 +104,17 @@ Each Italian wine card displays its own detailed map:
 - **New Zealand** - Navy (#00247D)
 - **South Africa** - Green (#007A4D)
 - Plus: Loire Valley, Rhone, Alsace, Oregon, Washington State, Paso Robles, Spain, Portugal
+
+**Spirits Regions:**
+- **Kentucky** - Dark Goldenrod (#B8860B)
+- **Tennessee** - Peru (#CD853F)
+- **Vermont** - Saddle Brown (#8B4513)
+- **Speyside** - Dark Orchid (#8B4789)
+- **Islay** - Indigo (#4B0082)
+- **Highland** - Medium Purple (#9370DB)
+- **Scotland** - Rebecca Purple (#663399)
+- **Canada** - Crimson (#DC143C)
+- Plus: Utah, Massachusetts, Lowland, Campbeltown
 
 ## Technology
 - **OpenStreetMap** - Free, open-source mapping

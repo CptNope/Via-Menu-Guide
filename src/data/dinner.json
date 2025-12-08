@@ -143,7 +143,8 @@
         "savory",
         "unique"
       ]
-    }
+    },
+    "canBeMadeGlutenFree": true
   },
   {
     "id": "fig-prosciutto-pizza",
@@ -324,7 +325,8 @@
         "tangy",
         "classic"
       ]
-    }
+    },
+    "canBeMadeGlutenFree": true
   },
   {
     "id": "burrata-caprese-salad",

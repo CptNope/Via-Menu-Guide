@@ -74,7 +74,8 @@
       "dairy",
       "gluten",
       "fish"
-    ]
+    ],
+    "canBeMadeGlutenFree": true
   },
   {
     "id": "fig-prosciutto-pizza-lunch",
@@ -242,7 +243,8 @@
       "dairy",
       "gluten",
       "fish"
-    ]
+    ],
+    "canBeMadeGlutenFree": true
   },
   {
     "id": "burrata-caprese-salad-lunch",

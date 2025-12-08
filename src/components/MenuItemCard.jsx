@@ -54,6 +54,12 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
             ? ' Substitute cauliflower-parm crust' 
             : item.id.includes('chicken-parmesan') || item.id.includes('eggplant-parmesan') || item.id.includes('meatball')
             ? ' Substitute GF penne & GF breading'
+            : item.id.includes('orzo-soup')
+            ? ' Hold the orzo'
+            : item.id.includes('caesar')
+            ? ' Hold the croutons'
+            : item.id.includes('ricotta') || item.id.includes('charcuterie')
+            ? ' Substitute cucumber slices for bread'
             : ' Substitute GF penne'}
         </div>
       )}

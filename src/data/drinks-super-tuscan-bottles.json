@@ -273,7 +273,11 @@
       ]
     },
     "website": "https://www.antinori.it/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.5808,
+      11.3147
+    ]
   },
   {
     "id": "gaja-ca-marcanda-camarcanda-bottle",
@@ -365,7 +369,11 @@
       ]
     },
     "website": "https://www.ornellaia.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.2222,
+      10.5931
+    ]
   },
   {
     "id": "sassicaia-bolgheri-bottle",
@@ -411,7 +419,11 @@
       ]
     },
     "website": "https://www.tenutasanguido.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.2222,
+      10.5931
+    ]
   },
   {
     "id": "antinori-solaia-bottle",
@@ -457,6 +469,10 @@
       ]
     },
     "website": "https://www.antinori.it/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.5808,
+      11.3147
+    ]
   }
 ]

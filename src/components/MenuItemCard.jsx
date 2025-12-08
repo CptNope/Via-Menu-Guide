@@ -6,7 +6,7 @@ import PairingSection from "./PairingSection.jsx";
 import WinePairingDisplay from "./WinePairingDisplay.jsx";
 import FoodPairingDisplay from "./FoodPairingDisplay.jsx";
 import BeveragePairingDisplay from "./BeveragePairingDisplay.jsx";
-import ItalianWineMap from "./ItalianWineMap.jsx";
+import ItalianWineMapInteractive from "./ItalianWineMapInteractive.jsx";
 import { usePairingData } from "../hooks/usePairingData.js";
 
 function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = false }) {
@@ -87,7 +87,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
       )}
 
       {item.region && (item.category === "Italian Reds Bottles" || item.category === "Super Tuscan Bottles") && (
-        <ItalianWineMap region={item.region} />
+        <ItalianWineMapInteractive wine={item} />
       )}
 
       {item.serverNotes && (

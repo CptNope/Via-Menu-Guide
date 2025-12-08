@@ -90,7 +90,11 @@
         "approachable"
       ]
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6333,
+      7.9167
+    ]
   },
   {
     "id": "valentina-montepulciano-bottle",
@@ -275,7 +279,11 @@
         "approachable"
       ]
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.0578,
+      11.4889
+    ]
   },
   {
     "id": "rosina-barbera-bottle",
@@ -368,7 +376,11 @@
         "classic"
       ]
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.5808,
+      11.3147
+    ]
   },
   {
     "id": "ca-del-baio-barbaresco-bottle",
@@ -414,7 +426,11 @@
         "elegant"
       ]
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.7258,
+      8.0828
+    ]
   },
   {
     "id": "benanti-etna-rosso-bottle",
@@ -461,7 +477,11 @@
         "volcanic"
       ]
     },
-    "region": "Sicily"
+    "region": "Sicily",
+    "coordinates": [
+      37.751,
+      14.9934
+    ]
   },
   {
     "id": "ascheri-barolo-bottle",
@@ -508,7 +528,11 @@
         "complex"
       ]
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6089,
+      7.9425
+    ]
   },
   {
     "id": "bussola-valpolicella-bottle",
@@ -600,7 +624,11 @@
         "complex"
       ]
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.5808,
+      11.3147
+    ]
   },
   {
     "id": "carpineto-vino-nobile-bottle",
@@ -692,7 +720,11 @@
       ]
     },
     "website": "https://www.sanmarzanowines.com/",
-    "region": "Puglia"
+    "region": "Puglia",
+    "coordinates": [
+      40.4019,
+      17.6361
+    ]
   },
   {
     "id": "caparzo-brunello-bottle",
@@ -739,7 +771,11 @@
       ]
     },
     "website": "https://www.caparzo.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.0578,
+      11.4889
+    ]
   },
   {
     "id": "gd-vajra-barolo-albe-bottle",
@@ -1016,7 +1052,11 @@
       ]
     },
     "website": "https://www.tommasiwine.it/",
-    "region": "Veneto"
+    "region": "Veneto",
+    "coordinates": [
+      45.5303,
+      10.8756
+    ]
   },
   {
     "id": "scavino-bricco-ambrogio-barolo-bottle",
@@ -1294,7 +1334,11 @@
       ]
     },
     "website": "https://www.bertani.net/",
-    "region": "Veneto"
+    "region": "Veneto",
+    "coordinates": [
+      45.5303,
+      10.8756
+    ]
   },
   {
     "id": "giodo-brunello-bottle",

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import { FiShield, FiHome, FiShare2, FiDollarSign } from "react-icons/fi";
 import "./App.css";
+import "leaflet/dist/leaflet.css";
 
 import appetizersData from "./data/appetizers.json";
 import dinnerData from "./data/dinner.json";

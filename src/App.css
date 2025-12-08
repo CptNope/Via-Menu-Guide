@@ -225,30 +225,74 @@
   gap: 0.5rem;
 }
 
-.italian-wine-map {
-  margin: 0.5rem 0;
-}
-
-.map-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: linear-gradient(135deg, #f5e9da 0%, #e8d5c4 100%);
-  padding: 0.4rem 0.75rem;
-  border-radius: 20px;
+.wine-map-container {
+  margin: 0.75rem 0;
   border: 2px solid #8b7355;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.map-badge svg {
-  flex-shrink: 0;
+.map-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background: linear-gradient(135deg, #f5e9da 0%, #e8d5c4 100%);
+  border-bottom: 1px solid #8b7355;
 }
 
-.region-name {
-  font-size: 0.8rem;
+.map-toggle-btn {
+  background: #8b7355;
+  color: white;
+  border: none;
+  padding: 0.35rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.map-toggle-btn:hover {
+  background: #6b4a3b;
+}
+
+.map-region-label {
+  font-size: 0.85rem;
   font-weight: 600;
   color: #4a2f1e;
-  letter-spacing: 0.02em;
+}
+
+.wine-popup,
+.landmark-popup {
+  font-size: 0.85rem;
+}
+
+.wine-popup strong,
+.landmark-popup strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #8b0000;
+}
+
+.landmark-popup a {
+  color: #8b7355;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.landmark-popup a:hover {
+  text-decoration: underline;
+}
+
+/* Leaflet popup adjustments */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+}
+
+.leaflet-popup-content {
+  margin: 10px;
 }
 
 .menu-item-header {

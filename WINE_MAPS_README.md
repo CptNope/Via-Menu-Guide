@@ -11,12 +11,14 @@ All wine bottle categories now feature **interactive OpenStreetMaps**:
 - 500px tall comprehensive view
 - Toggle landmarks on/off
 
-### 🌍 International Wine Maps
+### 🌍 International Wine Maps (ENHANCED!)
 **Categories:** Merlot & Malbec, Pinot Noir, Cabernet, Sauvignon Blanc, Chardonnay, Interesting Whites, Sparkling (60+ wines)
-- **World map view** showing global wine regions
+- **Smart zoom** - Auto-focuses on California, USA, France, or world based on wine selection
+- **Wine region landmarks** with Wikipedia links (Napa, Bordeaux, Champagne, etc.)
 - Color-coded markers for 21+ wine regions
 - Covers France, USA, Argentina, Chile, Australia, New Zealand, South Africa, Spain, Portugal
-- 450px tall world view
+- Toggle landmarks on/off
+- 450px tall responsive view
 - Region legend with wine counts
 
 ### 🍷 Individual Wine Maps (Italian wines only)
@@ -80,6 +82,30 @@ Each Italian wine card displays its own detailed map:
 - **Wikipedia links** - Learn more about each location
 - **Pan & zoom** - Explore the region
 - **Color-coded legend** - Understand regional distribution at a glance
+
+### 🔍 Smart Zoom Feature
+Maps automatically adjust zoom level based on wine selection:
+- **California-only wines** → Zoom level 6 (focused on Napa, Sonoma, Paso Robles)
+- **USA-only wines** → Zoom level 4 (West Coast to East Coast view)
+- **France-only wines** → Zoom level 6 (all French regions visible)
+- **International mix** → Zoom level 2 (world view)
+
+### 🏛️ Wine Region Landmarks (40+ locations)
+**California Regions:**
+- Napa, St. Helena, Yountville (Napa Valley)
+- Healdsburg, Sonoma Plaza (Sonoma)
+- Paso Robles (Central Coast)
+
+**French Regions:**
+- Bordeaux, Médoc (Bordeaux)
+- Beaune, Côte de Nuits (Burgundy)
+- Reims, Épernay (Champagne)
+- Sancerre (Loire Valley)
+
+**Other Regions:**
+- Willamette Valley, McMinnville (Oregon)
+- Mendoza (Argentina - Malbec capital)
+- Marlborough (New Zealand - Sauvignon Blanc)
 
 ### 🎨 Regional Color Coding
 

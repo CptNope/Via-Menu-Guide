@@ -84,8 +84,50 @@ const regionCenters = {
   'Portugal': [41.5, -8.5]
 };
 
+// Wine region landmarks
+const regionalLandmarks = {
+  'Napa Valley': [
+    { name: 'Napa', coords: [38.2975, -122.2869], description: 'Napa Valley wine capital', link: 'https://en.wikipedia.org/wiki/Napa,_California' },
+    { name: 'St. Helena', coords: [38.5052, -122.4703], description: 'Heart of Napa Valley', link: 'https://en.wikipedia.org/wiki/St._Helena,_California' },
+    { name: 'Yountville', coords: [38.4016, -122.3608], description: 'Culinary & wine destination', link: 'https://en.wikipedia.org/wiki/Yountville,_California' }
+  ],
+  'Sonoma': [
+    { name: 'Healdsburg', coords: [38.6102, -122.8695], description: 'Sonoma wine hub', link: 'https://en.wikipedia.org/wiki/Healdsburg,_California' },
+    { name: 'Sonoma Plaza', coords: [38.2919, -122.4580], description: 'Historic wine town', link: 'https://en.wikipedia.org/wiki/Sonoma,_California' }
+  ],
+  'Paso Robles': [
+    { name: 'Paso Robles', coords: [35.6266, -120.6907], description: 'Central Coast wine region', link: 'https://en.wikipedia.org/wiki/Paso_Robles,_California' }
+  ],
+  'Oregon': [
+    { name: 'Willamette Valley', coords: [45.2, -123.0], description: 'Pinot Noir paradise', link: 'https://en.wikipedia.org/wiki/Willamette_Valley_AVA' },
+    { name: 'McMinnville', coords: [45.2104, -123.1987], description: 'Oregon wine country', link: 'https://en.wikipedia.org/wiki/McMinnville,_Oregon' }
+  ],
+  'Bordeaux': [
+    { name: 'Bordeaux', coords: [44.8378, -0.5792], description: 'World wine capital', link: 'https://en.wikipedia.org/wiki/Bordeaux' },
+    { name: 'Médoc', coords: [45.2, -0.8], description: 'Left Bank Cabernet', link: 'https://en.wikipedia.org/wiki/M%C3%A9doc' }
+  ],
+  'Burgundy': [
+    { name: 'Beaune', coords: [47.0253, 4.8395], description: 'Burgundy wine capital', link: 'https://en.wikipedia.org/wiki/Beaune' },
+    { name: 'Côte de Nuits', coords: [47.2, 4.95], description: 'Premier Pinot Noir', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_de_Nuits' }
+  ],
+  'Champagne': [
+    { name: 'Reims', coords: [49.2583, 4.0317], description: 'Champagne capital', link: 'https://en.wikipedia.org/wiki/Reims' },
+    { name: 'Épernay', coords: [49.0417, 3.9592], description: 'Avenue de Champagne', link: 'https://en.wikipedia.org/wiki/%C3%89pernay' }
+  ],
+  'Loire Valley': [
+    { name: 'Sancerre', coords: [47.3333, 2.8333], description: 'Sauvignon Blanc home', link: 'https://en.wikipedia.org/wiki/Sancerre' }
+  ],
+  'Argentina': [
+    { name: 'Mendoza', coords: [-32.8895, -68.8458], description: 'Malbec capital', link: 'https://en.wikipedia.org/wiki/Mendoza,_Argentina' }
+  ],
+  'New Zealand': [
+    { name: 'Marlborough', coords: [-41.5, 173.8], description: 'Sauvignon Blanc region', link: 'https://en.wikipedia.org/wiki/Marlborough_Region' }
+  ]
+};
+
 function InternationalWineMap({ wines, categoryName }) {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [showLandmarks, setShowLandmarks] = useState(true);
   
   const regions = useMemo(() => {
     return [...new Set(wines.map(w => w.region).filter(Boolean))];
@@ -101,9 +143,34 @@ function InternationalWineMap({ wines, categoryName }) {
     return counts;
   }, [wines]);
 
-  // World center for showing all wines
-  const mapCenter = [20, 0];
-  const mapZoom = 2;
+  // Get relevant landmarks
+  const allLandmarks = useMemo(() => {
+    return regions.flatMap(region => regionalLandmarks[region] || []);
+  }, [regions]);
+
+  // Smart zoom based on wine regions
+  const { mapCenter, mapZoom } = useMemo(() => {
+    // If only California regions, zoom to California
+    const allCalifornia = regions.every(r => 
+      ['Napa Valley', 'Sonoma', 'California', 'Paso Robles'].includes(r)
+    );
+    if (allCalifornia) return { mapCenter: [37.5, -121.5], mapZoom: 6 };
+    
+    // If only USA, zoom to USA
+    const allUSA = regions.every(r => 
+      ['Napa Valley', 'Sonoma', 'California', 'Oregon', 'Washington State', 'Paso Robles'].includes(r)
+    );
+    if (allUSA) return { mapCenter: [40.0, -100.0], mapZoom: 4 };
+    
+    // If only France, zoom to France
+    const allFrance = regions.every(r => 
+      ['Bordeaux', 'Burgundy', 'Champagne', 'Loire Valley', 'Rhone Valley', 'Alsace'].includes(r)
+    );
+    if (allFrance) return { mapCenter: [47.0, 2.5], mapZoom: 6 };
+    
+    // Default world view
+    return { mapCenter: [20, 0], mapZoom: 2 };
+  }, [regions]);
 
   if (!wines || wines.length === 0) return null;
 
@@ -127,6 +194,14 @@ function InternationalWineMap({ wines, categoryName }) {
       {isExpanded && (
         <>
           <div className="map-controls">
+            {allLandmarks.length > 0 && (
+              <button 
+                className="map-toggle-btn"
+                onClick={() => setShowLandmarks(!showLandmarks)}
+              >
+                {showLandmarks ? '🏛️ Hide' : '🏛️ Show'} Landmarks ({allLandmarks.length})
+              </button>
+            )}
             <div className="region-legend">
               {regions.map(region => (
                 <div key={region} className="legend-item">
@@ -173,6 +248,23 @@ function InternationalWineMap({ wines, categoryName }) {
                 </Marker>
               );
             })}
+
+            {/* Landmark markers */}
+            {showLandmarks && allLandmarks.map((landmark, idx) => (
+              <Marker key={`landmark-${idx}`} position={landmark.coords}>
+                <Popup>
+                  <div className="landmark-popup">
+                    <strong>{landmark.name}</strong>
+                    <p>{landmark.description}</p>
+                    {landmark.link && (
+                      <a href={landmark.link} target="_blank" rel="noopener noreferrer">
+                        Learn more →
+                      </a>
+                    )}
+                  </div>
+                </Popup>
+              </Marker>
+            ))}
           </MapContainer>
         </>
       )}

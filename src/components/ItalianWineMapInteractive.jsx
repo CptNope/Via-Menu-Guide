@@ -11,12 +11,25 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
 });
 
-// Wine-colored marker icon
+// Wine-colored marker icon - elegant wine glass
 const wineIcon = new L.Icon({
-  iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAyNCAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTIgMEMxOC42MjcgMCAyNCAxMC4wNzQgMjQgMThDMjQgMjYuODM3IDE4LjYyNyAzNiAxMiAzNkM1LjM3MyAzNiAwIDI2LjgzNyAwIDE4QzAgMTAuMDc0IDUuMzczIDAgMTIgMFoiIGZpbGw9IiM4QjAwMDAiLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjE1IiByPSI1IiBmaWxsPSIjRkZGIiBmaWxsLW9wYWNpdHk9IjAuMyIvPgo8L3N2Zz4=',
-  iconSize: [24, 36],
-  iconAnchor: [12, 36],
-  popupAnchor: [0, -36]
+  iconUrl: `data:image/svg+xml;base64,${btoa(`<svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow -->
+  <ellipse cx="16" cy="38" rx="8" ry="2" fill="#000" opacity="0.2"/>
+  <!-- Glass stem -->
+  <rect x="14" y="24" width="4" height="10" fill="#333" rx="1"/>
+  <!-- Glass base -->
+  <ellipse cx="16" cy="35" rx="6" ry="2" fill="#444"/>
+  <!-- Wine glass bowl -->
+  <path d="M8 8 C8 4 10 2 16 2 C22 2 24 4 24 8 L22 20 C22 24 19 26 16 26 C13 26 10 24 10 20 Z" fill="#8B0000" stroke="#333" stroke-width="1"/>
+  <!-- Wine highlight -->
+  <ellipse cx="14" cy="10" rx="3" ry="4" fill="#FFF" opacity="0.25"/>
+  <!-- Glass rim shine -->
+  <path d="M9 8 Q16 6 23 8" stroke="#FFF" stroke-width="1.5" fill="none" opacity="0.4"/>
+</svg>`)}`,
+  iconSize: [32, 40],
+  iconAnchor: [16, 40],
+  popupAnchor: [0, -40]
 });
 
 // Regional landmarks data

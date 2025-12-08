@@ -11,15 +11,25 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
 });
 
-// Different colored wine icons for each region
+// Different colored wine icons for each region - elegant wine glass style
 const createWineIcon = (color) => new L.Icon({
-  iconUrl: `data:image/svg+xml;base64,${btoa(`<svg width="24" height="36" viewBox="0 0 24 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M12 0C18.627 0 24 10.074 24 18C24 26.837 18.627 36 12 36C5.373 36 0 26.837 0 18C0 10.074 5.373 0 12 0Z" fill="${color}"/>
-  <circle cx="12" cy="15" r="5" fill="#FFF" fill-opacity="0.3"/>
+  iconUrl: `data:image/svg+xml;base64,${btoa(`<svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow -->
+  <ellipse cx="16" cy="38" rx="8" ry="2" fill="#000" opacity="0.2"/>
+  <!-- Glass stem -->
+  <rect x="14" y="24" width="4" height="10" fill="#333" rx="1"/>
+  <!-- Glass base -->
+  <ellipse cx="16" cy="35" rx="6" ry="2" fill="#444"/>
+  <!-- Wine glass bowl -->
+  <path d="M8 8 C8 4 10 2 16 2 C22 2 24 4 24 8 L22 20 C22 24 19 26 16 26 C13 26 10 24 10 20 Z" fill="${color}" stroke="#333" stroke-width="1"/>
+  <!-- Wine highlight -->
+  <ellipse cx="14" cy="10" rx="3" ry="4" fill="#FFF" opacity="0.25"/>
+  <!-- Glass rim shine -->
+  <path d="M9 8 Q16 6 23 8" stroke="#FFF" stroke-width="1.5" fill="none" opacity="0.4"/>
 </svg>`)}`,
-  iconSize: [24, 36],
-  iconAnchor: [12, 36],
-  popupAnchor: [0, -36]
+  iconSize: [32, 40],
+  iconAnchor: [16, 40],
+  popupAnchor: [0, -40]
 });
 
 const regionColors = {
@@ -80,6 +90,7 @@ const regionCenters = {
 
 function CategoryWineMap({ wines, categoryName }) {
   const [showLandmarks, setShowLandmarks] = useState(true);
+  const [isExpanded, setIsExpanded] = useState(false);
   
   // Get unique regions from wines
   const regions = useMemo(() => {
@@ -110,13 +121,23 @@ function CategoryWineMap({ wines, categoryName }) {
 
   return (
     <div className="category-wine-map">
-      <div className="map-header">
-        <h3 className="map-title">🗺️ {categoryName} - Regional Map</h3>
-        <p className="map-subtitle">
-          {wines.length} wines across {regions.length} {regions.length === 1 ? 'region' : 'regions'}
-        </p>
+      <div className="map-header" onClick={() => setIsExpanded(!isExpanded)} style={{ cursor: 'pointer' }}>
+        <div className="map-header-content">
+          <div>
+            <h3 className="map-title">
+              🗺️ {categoryName} - Regional Map
+              <span className="map-toggle-icon">{isExpanded ? '▼' : '▶'}</span>
+            </h3>
+            <p className="map-subtitle">
+              {wines.length} wines across {regions.length} {regions.length === 1 ? 'region' : 'regions'}
+              {!isExpanded && ' • Click to expand map'}
+            </p>
+          </div>
+        </div>
       </div>
       
+      {isExpanded && (
+        <>
       <div className="map-controls">
         <button 
           className="map-toggle-btn"
@@ -188,6 +209,8 @@ function CategoryWineMap({ wines, categoryName }) {
           </Marker>
         ))}
       </MapContainer>
+        </>
+      )}
     </div>
   );
 }

@@ -86,7 +86,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
         <p className="menu-item-description">{item.description}</p>
       )}
 
-      {item.region && item.category === "Italian Reds Bottles" && (
+      {item.region && (item.category === "Italian Reds Bottles" || item.category === "Super Tuscan Bottles") && (
         <ItalianWineMap region={item.region} />
       )}
 

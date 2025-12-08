@@ -42,7 +42,8 @@
         "structured"
       ]
     },
-    "website": "https://www.sanpolomontalcino.com/"
+    "website": "https://www.sanpolomontalcino.com/",
+    "region": "Tuscany"
   },
   {
     "id": "olillo-super-tuscan-bottle",
@@ -87,7 +88,8 @@
         "approachable"
       ]
     },
-    "website": "https://www.baracchiwinery.com/"
+    "website": "https://www.baracchiwinery.com/",
+    "region": "Tuscany"
   },
   {
     "id": "ardito-baracchi-bottle",
@@ -132,7 +134,8 @@
         "concentrated"
       ]
     },
-    "website": "https://www.baracchiwinery.com/"
+    "website": "https://www.baracchiwinery.com/",
+    "region": "Tuscany"
   },
   {
     "id": "tenuta-san-guido-bottle",
@@ -177,7 +180,8 @@
         "prestigious"
       ]
     },
-    "website": "https://www.tenutasanguido.com/"
+    "website": "https://www.tenutasanguido.com/",
+    "region": "Tuscany"
   },
   {
     "id": "gaja-ca-marcanda-magari-bottle",
@@ -222,7 +226,8 @@
         "Gaja"
       ]
     },
-    "website": "https://www.gajawines.com/"
+    "website": "https://www.gajawines.com/",
+    "region": "Tuscany"
   },
   {
     "id": "antinori-tignanello-bottle",
@@ -267,7 +272,8 @@
         "iconic"
       ]
     },
-    "website": "https://www.antinori.it/"
+    "website": "https://www.antinori.it/",
+    "region": "Tuscany"
   },
   {
     "id": "gaja-ca-marcanda-camarcanda-bottle",
@@ -312,7 +318,8 @@
         "flagship"
       ]
     },
-    "website": "https://www.gajawines.com/"
+    "website": "https://www.gajawines.com/",
+    "region": "Tuscany"
   },
   {
     "id": "ornellaia-bolgheri-bottle",
@@ -357,7 +364,8 @@
         "near-perfect"
       ]
     },
-    "website": "https://www.ornellaia.com/"
+    "website": "https://www.ornellaia.com/",
+    "region": "Tuscany"
   },
   {
     "id": "sassicaia-bolgheri-bottle",
@@ -402,7 +410,8 @@
         "world-class"
       ]
     },
-    "website": "https://www.tenutasanguido.com/"
+    "website": "https://www.tenutasanguido.com/",
+    "region": "Tuscany"
   },
   {
     "id": "antinori-solaia-bottle",
@@ -447,6 +456,7 @@
         "world-class"
       ]
     },
-    "website": "https://www.antinori.it/"
+    "website": "https://www.antinori.it/",
+    "region": "Tuscany"
   }
 ]

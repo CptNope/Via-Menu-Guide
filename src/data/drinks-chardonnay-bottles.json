@@ -173,7 +173,8 @@
         "Shafer"
       ]
     },
-    "website": "https://www.shafervineyards.com/"
+    "website": "https://www.shafervineyards.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "knights-bridge-west-block-bottle",
@@ -261,6 +262,7 @@
         "Burgundian"
       ]
     },
-    "website": "https://www.pahlmeyer.com/"
+    "website": "https://www.pahlmeyer.com/",
+    "region": "California"
   }
 ]

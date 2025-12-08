@@ -41,7 +41,8 @@
         "Caymus-style"
       ]
     },
-    "website": "https://www.caymus.com/"
+    "website": "https://www.caymus.com/",
+    "region": "California"
   },
   {
     "id": "the-pessimist-cabernet-bottle",
@@ -85,7 +86,8 @@
         "crowd-pleasing"
       ]
     },
-    "website": "https://www.daouvineyards.com/"
+    "website": "https://www.daouvineyards.com/",
+    "region": "Paso Robles"
   },
   {
     "id": "greenwing-cabernet-bottle",
@@ -173,7 +175,8 @@
         "structured"
       ]
     },
-    "website": "https://www.bandofvinters.com/"
+    "website": "https://www.bandofvinters.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "cakebread-mullan-road-bottle",
@@ -217,7 +220,8 @@
         "Cakebread"
       ]
     },
-    "website": "https://www.cakebread.com/"
+    "website": "https://www.cakebread.com/",
+    "region": "Washington State"
   },
   {
     "id": "la-crema-cabernet-bottle",
@@ -261,7 +265,8 @@
         "reliable"
       ]
     },
-    "website": "https://www.lacrema.com/"
+    "website": "https://www.lacrema.com/",
+    "region": "Sonoma"
   },
   {
     "id": "mount-peak-gravity-bottle",
@@ -394,7 +399,8 @@
         "1-liter"
       ]
     },
-    "website": "https://www.austinhope.com/"
+    "website": "https://www.austinhope.com/",
+    "region": "Paso Robles"
   },
   {
     "id": "regaleali-vigna-san-francesco-bottle",
@@ -527,7 +533,8 @@
         "secondary"
       ]
     },
-    "website": "https://www.stonestreet.com/"
+    "website": "https://www.stonestreet.com/",
+    "region": "California"
   },
   {
     "id": "duckhorn-cabernet-bottle",
@@ -571,7 +578,8 @@
         "benchmark"
       ]
     },
-    "website": "https://www.duckhorn.com/"
+    "website": "https://www.duckhorn.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "stonestreet-estate-cabernet-bottle",
@@ -615,7 +623,8 @@
         "age-worthy"
       ]
     },
-    "website": "https://www.stonestreet.com/"
+    "website": "https://www.stonestreet.com/",
+    "region": "Sonoma"
   },
   {
     "id": "paul-hobbs-cabernet-bottle",
@@ -659,7 +668,8 @@
         "Paul-Hobbs"
       ]
     },
-    "website": "https://www.paulhobbs.com/"
+    "website": "https://www.paulhobbs.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "caymus-cabernet-bottle",
@@ -703,7 +713,8 @@
         "legendary"
       ]
     },
-    "website": "https://www.caymus.com/"
+    "website": "https://www.caymus.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "doubleback-cabernet-bottle",
@@ -835,7 +846,8 @@
         "cellar-worthy"
       ]
     },
-    "website": "https://www.revanawinery.com/"
+    "website": "https://www.revanawinery.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "petrolo-campo-lusso-bottle",
@@ -924,7 +936,8 @@
         "ultimate-Caymus"
       ]
     },
-    "website": "https://www.caymus.com/"
+    "website": "https://www.caymus.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "la-jota-cabernet-bottle",
@@ -1013,7 +1026,8 @@
         "biodynamic"
       ]
     },
-    "website": "https://www.quintessa.com/"
+    "website": "https://www.quintessa.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "chappellet-prichard-hill-bottle",
@@ -1057,7 +1071,8 @@
         "mountain"
       ]
     },
-    "website": "https://www.chappellet.com/"
+    "website": "https://www.chappellet.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "joseph-phelps-insignia-bottle",
@@ -1101,7 +1116,8 @@
         "Insignia"
       ]
     },
-    "website": "https://www.josephphelps.com/"
+    "website": "https://www.josephphelps.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "shafer-hillside-select-bottle",
@@ -1145,6 +1161,7 @@
         "America's-best"
       ]
     },
-    "website": "https://www.shafervineyards.com/"
+    "website": "https://www.shafervineyards.com/",
+    "region": "Napa Valley"
   }
 ]

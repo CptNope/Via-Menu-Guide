@@ -1,18 +1,26 @@
-# 🗺️ Interactive Italian Wine Maps
+# 🗺️ Interactive Wine Maps (Italy + World)
 
 ## Overview
-Italian wine bottles now feature **TWO levels of interactive OpenStreetMaps**:
+All wine bottle categories now feature **interactive OpenStreetMaps**:
 
-### 📍 Category Overview Map
-At the top of "Italian Reds Bottles" and "Super Tuscan Bottles" sections:
-- **All wines displayed on one map** of Italy
-- Color-coded markers by region (6 different colors)
-- Wine count legend showing distribution
+### 🇮🇹 Italian Wine Maps
+**Categories:** Italian Reds Bottles (31 wines), Super Tuscan Bottles (10 wines)
+- **Italy-focused view** showing 6 Italian regions
+- Color-coded wine glass markers by region
+- Historic landmarks with Wikipedia links
 - 500px tall comprehensive view
 - Toggle landmarks on/off
 
-### 🍷 Individual Wine Maps
-Each wine bottle card displays its own detailed map:
+### 🌍 International Wine Maps
+**Categories:** Merlot & Malbec, Pinot Noir, Cabernet, Sauvignon Blanc, Chardonnay, Interesting Whites, Sparkling (60+ wines)
+- **World map view** showing global wine regions
+- Color-coded markers for 21+ wine regions
+- Covers France, USA, Argentina, Chile, Australia, New Zealand, South Africa, Spain, Portugal
+- 450px tall world view
+- Region legend with wine counts
+
+### 🍷 Individual Wine Maps (Italian wines only)
+Each Italian wine card displays its own detailed map:
 - **Exact winery location** (wine-colored marker)
 - **Regional landmarks** (historic towns, appellations, key sites)
 - **Educational links** to Wikipedia for each landmark
@@ -65,12 +73,28 @@ Each wine bottle card displays its own detailed map:
 - **Color-coded legend** - Understand regional distribution at a glance
 
 ### 🎨 Regional Color Coding
+
+**Italian Regions:**
 - **Piedmont** - Dark Red (#8B0000)
 - **Tuscany** - Crimson (#DC143C)
 - **Veneto** - Firebrick (#B22222)
 - **Puglia** - Indian Red (#CD5C5C)
 - **Sicily** - Brown Red (#A52A2A)
 - **Abruzzo** - Cardinal Red (#C41E3A)
+
+**International Regions:**
+- **Bordeaux** - Claret (#722F37)
+- **Burgundy** - Burgundy (#800020)
+- **Champagne** - Champagne Gold (#FADA5E)
+- **Napa Valley** - Deep Plum (#811F3F)
+- **Sonoma** - Plum (#993366)
+- **California** - Dark Red (#8B0000)
+- **Argentina** - Sky Blue (#74ACDF)
+- **Chile** - Chilean Red (#D52B1E)
+- **Australia** - Gold (#FFD700)
+- **New Zealand** - Navy (#00247D)
+- **South Africa** - Green (#007A4D)
+- Plus: Loire Valley, Rhone, Alsace, Oregon, Washington State, Paso Robles, Spain, Portugal
 
 ## Technology
 - **OpenStreetMap** - Free, open-source mapping

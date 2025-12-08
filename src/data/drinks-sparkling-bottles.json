@@ -129,7 +129,8 @@
         "Prosecco"
       ]
     },
-    "website": "https://www.pasqua.it/"
+    "website": "https://www.pasqua.it/",
+    "region": "Italy"
   },
   {
     "id": "taittinger-prestige-brut-bottle",
@@ -174,7 +175,8 @@
         "Champagne"
       ]
     },
-    "website": "https://www.taittinger.com/"
+    "website": "https://www.taittinger.com/",
+    "region": "Champagne"
   },
   {
     "id": "nicolas-feuillatte-brut-bottle",
@@ -219,7 +221,8 @@
         "92pts"
       ]
     },
-    "website": "https://www.feuillatte.com/"
+    "website": "https://www.feuillatte.com/",
+    "region": "Champagne"
   },
   {
     "id": "nicolas-feuillatte-rose-bottle",
@@ -264,7 +267,8 @@
         "romantic"
       ]
     },
-    "website": "https://www.feuillatte.com/"
+    "website": "https://www.feuillatte.com/",
+    "region": "Champagne"
   },
   {
     "id": "veuve-clicquot-bottle",
@@ -354,6 +358,7 @@
         "98pts-icon"
       ]
     },
-    "website": "https://www.domperignon.com/"
+    "website": "https://www.domperignon.com/",
+    "region": "Champagne"
   }
 ]

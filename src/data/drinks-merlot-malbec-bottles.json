@@ -41,7 +41,8 @@
         "smooth"
       ]
     },
-    "website": "https://www.domainebousquet.com/"
+    "website": "https://www.domainebousquet.com/",
+    "region": "Argentina"
   },
   {
     "id": "advice-from-john-merlot-bottle",
@@ -86,7 +87,8 @@
         "Orin-Swift"
       ]
     },
-    "website": "https://www.orinswift.com/"
+    "website": "https://www.orinswift.com/",
+    "region": "California"
   },
   {
     "id": "felino-malbec-bottle",
@@ -130,7 +132,8 @@
         "concentrated"
       ]
     },
-    "website": "https://www.paulhobbs.com/"
+    "website": "https://www.paulhobbs.com/",
+    "region": "Argentina"
   },
   {
     "id": "stags-leap-merlot-bottle",
@@ -174,7 +177,8 @@
         "elegant"
       ]
     },
-    "website": "https://www.stagsleap.com/"
+    "website": "https://www.stagsleap.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "red-schooner-malbec-bottle",
@@ -218,7 +222,8 @@
         "innovative"
       ]
     },
-    "website": "https://www.caymus.com/"
+    "website": "https://www.caymus.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "grgich-merlot-bottle",
@@ -262,7 +267,8 @@
         "aged"
       ]
     },
-    "website": "https://www.grgich.com/"
+    "website": "https://www.grgich.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "duckhorn-merlot-bottle",
@@ -306,6 +312,7 @@
         "benchmark"
       ]
     },
-    "website": "https://www.duckhorn.com/"
+    "website": "https://www.duckhorn.com/",
+    "region": "Napa Valley"
   }
 ]

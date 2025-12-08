@@ -41,7 +41,8 @@
         "approachable"
       ]
     },
-    "website": "https://www.lacrema.com/"
+    "website": "https://www.lacrema.com/",
+    "region": "Sonoma"
   },
   {
     "id": "seghesio-zinfandel-bottle",
@@ -85,7 +86,8 @@
         "bold"
       ]
     },
-    "website": "https://www.seghesio.com/"
+    "website": "https://www.seghesio.com/",
+    "region": "Sonoma"
   },
   {
     "id": "siduri-pinot-noir-bottle",
@@ -129,7 +131,8 @@
         "silky"
       ]
     },
-    "website": "https://www.siduri.com/"
+    "website": "https://www.siduri.com/",
+    "region": "Oregon"
   },
   {
     "id": "cambria-julias-vineyard-bottle",
@@ -217,7 +220,8 @@
         "Rombauer"
       ]
     },
-    "website": "https://www.rombauer.com/"
+    "website": "https://www.rombauer.com/",
+    "region": "California"
   },
   {
     "id": "long-meadow-ranch-pinot-noir-bottle",
@@ -306,7 +310,8 @@
         "powerful"
       ]
     },
-    "website": "https://www.orinswift.com/"
+    "website": "https://www.orinswift.com/",
+    "region": "California"
   },
   {
     "id": "domaine-della-pinot-noir-bottle",
@@ -351,7 +356,8 @@
         "Burgundian"
       ]
     },
-    "website": "https://www.domainedella.com/"
+    "website": "https://www.domainedella.com/",
+    "region": "Sonoma"
   },
   {
     "id": "wayfarer-pinot-noir-bottle",
@@ -395,6 +401,7 @@
         "coastal"
       ]
     },
-    "website": "https://www.pahlmeyer.com/"
+    "website": "https://www.pahlmeyer.com/",
+    "region": "California"
   }
 ]

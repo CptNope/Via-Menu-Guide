@@ -41,7 +41,8 @@
         "crisp"
       ]
     },
-    "website": "https://www.ladoucette.fr/"
+    "website": "https://www.ladoucette.fr/",
+    "region": "Loire Valley"
   },
   {
     "id": "matua-sauvignon-blanc-bottle",
@@ -85,7 +86,8 @@
         "vibrant"
       ]
     },
-    "website": "https://www.matua.co.nz/"
+    "website": "https://www.matua.co.nz/",
+    "region": "New Zealand"
   },
   {
     "id": "cloudy-bay-sauvignon-blanc-bottle",
@@ -129,7 +131,8 @@
         "elegant"
       ]
     },
-    "website": "https://www.cloudybay.co.nz/"
+    "website": "https://www.cloudybay.co.nz/",
+    "region": "New Zealand"
   },
   {
     "id": "hubert-brochard-sancerre-bottle",
@@ -173,7 +176,8 @@
         "Sancerre"
       ]
     },
-    "website": "https://www.hubertbrochard.com/"
+    "website": "https://www.hubertbrochard.com/",
+    "region": "Loire Valley"
   },
   {
     "id": "flouret-sancerre-bottle",
@@ -218,7 +222,8 @@
         "Sancerre"
       ]
     },
-    "website": "https://www.flouret-sancerre.com/"
+    "website": "https://www.flouret-sancerre.com/",
+    "region": "Loire Valley"
   },
   {
     "id": "domaine-francois-crochet-exils-bottle",
@@ -263,7 +268,8 @@
         "elite-Sancerre"
       ]
     },
-    "website": "https://www.crochet-sancerre.com/"
+    "website": "https://www.crochet-sancerre.com/",
+    "region": "Loire Valley"
   },
   {
     "id": "knights-bridge-pont-de-chevalier-bottle",

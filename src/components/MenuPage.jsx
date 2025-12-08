@@ -3,6 +3,7 @@ import MenuItemCard from "./MenuItemCard";
 import FilterBar from "./FilterBar";
 import PairingControls from "./PairingControls";
 import CategoryWineMap from "./CategoryWineMap";
+import InternationalWineMap from "./InternationalWineMap";
 import { getDefaultPreferences } from "../utils/pairingPreferences";
 import educationalGuide from "../data/drinksEducationalGuide.json";
 
@@ -277,6 +278,17 @@ function MenuPage({ title, data }) {
               {/* Show category map for Italian wine bottles */}
               {(cat === "Italian Reds Bottles" || cat === "Super Tuscan Bottles") && (
                 <CategoryWineMap wines={grouped[cat]} categoryName={cat} />
+              )}
+
+              {/* Show international wine map for other bottle categories */}
+              {(cat === "Merlot & Malbec Bottles" || 
+                cat === "Pinot Noir & Interesting Reds Bottles" ||
+                cat === "Cabernet & Blends Bottles" ||
+                cat === "Sauvignon Blanc Bottles" ||
+                cat === "Chardonnay Bottles" ||
+                cat === "Interesting Whites Bottles" ||
+                cat === "Sparkling Bottles") && (
+                <InternationalWineMap wines={grouped[cat]} categoryName={cat} />
               )}
               
               {grouped[cat].map((item) => (

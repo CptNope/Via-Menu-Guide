@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import MenuItemCard from "./MenuItemCard";
 import FilterBar from "./FilterBar";
 import PairingControls from "./PairingControls";
+import CategoryWineMap from "./CategoryWineMap";
 import { getDefaultPreferences } from "../utils/pairingPreferences";
 import educationalGuide from "../data/drinksEducationalGuide.json";
 
@@ -271,6 +272,11 @@ function MenuPage({ title, data }) {
                     <p>{eduInfo.expertTips}</p>
                   </div>
                 </div>
+              )}
+
+              {/* Show category map for Italian wine bottles */}
+              {(cat === "Italian Reds Bottles" || cat === "Super Tuscan Bottles") && (
+                <CategoryWineMap wines={grouped[cat]} categoryName={cat} />
               )}
               
               {grouped[cat].map((item) => (

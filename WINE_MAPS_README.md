@@ -1,10 +1,22 @@
 # 🗺️ Interactive Italian Wine Maps
 
 ## Overview
-Each Italian Reds and Super Tuscan wine bottle now displays an **interactive OpenStreetMap** showing:
+Italian wine bottles now feature **TWO levels of interactive OpenStreetMaps**:
+
+### 📍 Category Overview Map
+At the top of "Italian Reds Bottles" and "Super Tuscan Bottles" sections:
+- **All wines displayed on one map** of Italy
+- Color-coded markers by region (6 different colors)
+- Wine count legend showing distribution
+- 500px tall comprehensive view
+- Toggle landmarks on/off
+
+### 🍷 Individual Wine Maps
+Each wine bottle card displays its own detailed map:
 - **Exact winery location** (wine-colored marker)
 - **Regional landmarks** (historic towns, appellations, key sites)
 - **Educational links** to Wikipedia for each landmark
+- Focused regional view (300px)
 
 ## Features
 
@@ -46,10 +58,19 @@ Each Italian Reds and Super Tuscan wine bottle now displays an **interactive Ope
 - L'Aquila - Mountain wine region
 
 ### 🎛️ Interactive Controls
-- **Toggle landmarks** - Show/hide landmark markers
-- **Clickable popups** - Wine info and landmark details
+- **Toggle landmarks** - Show/hide landmark markers (category map shows count)
+- **Clickable popups** - Wine info and landmark details with prices
 - **Wikipedia links** - Learn more about each location
 - **Pan & zoom** - Explore the region
+- **Color-coded legend** - Understand regional distribution at a glance
+
+### 🎨 Regional Color Coding
+- **Piedmont** - Dark Red (#8B0000)
+- **Tuscany** - Crimson (#DC143C)
+- **Veneto** - Firebrick (#B22222)
+- **Puglia** - Indian Red (#CD5C5C)
+- **Sicily** - Brown Red (#A52A2A)
+- **Abruzzo** - Cardinal Red (#C41E3A)
 
 ## Technology
 - **OpenStreetMap** - Free, open-source mapping

@@ -27,10 +27,11 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
     if (item.vegetarian) tagList.push("Vegetarian");
     if (item.glutenFree) tagList.push("Gluten-free");
     if (item.canBeMadeGlutenFree) tagList.push("Can be made GF");
+    if (item.glutenFreeAvailable) tagList.push("GF option available");
     if (item.nutFree) tagList.push("Nut-free");
     if (item.kids) tagList.push("Kids");
     return tagList;
-  }, [item.vegetarian, item.glutenFree, item.canBeMadeGlutenFree, item.nutFree, item.kids]);
+  }, [item.vegetarian, item.glutenFree, item.canBeMadeGlutenFree, item.glutenFreeAvailable, item.nutFree, item.kids]);
 
   // Memoize allergen icons
   const allergenIcons = useMemo(() => {
@@ -43,7 +44,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
 
   return (
     <article 
-      className={`menu-item-card ${item.canBeMadeGlutenFree && isGlutenFilterActive ? 'can-be-gf-active' : ''}`} 
+      className={`menu-item-card ${(item.canBeMadeGlutenFree || item.glutenFreeAvailable) && isGlutenFilterActive ? 'can-be-gf-active' : ''}`} 
       id={`menu-item-${item.id}`}
     >
       {item.canBeMadeGlutenFree && isGlutenFilterActive && (
@@ -54,6 +55,13 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
             : item.id.includes('chicken-parmesan') || item.id.includes('eggplant-parmesan') || item.id.includes('meatball')
             ? ' Substitute GF penne & GF breading'
             : ' Substitute GF penne'}
+        </div>
+      )}
+      {item.glutenFreeAvailable && isGlutenFilterActive && (
+        <div className="gf-modification-banner">
+          ⚠️ Gluten-free option available — 
+          {item.glutenFreeCrust && ` Substitute ${item.glutenFreeCrust} crust`}
+          {item.glutenFreeUpcharge > 0 && ` (+$${item.glutenFreeUpcharge.toFixed(2)})`}
         </div>
       )}
       <div className="menu-item-header">

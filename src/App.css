@@ -206,6 +206,25 @@
   border-bottom: 1px dashed #d0bca3;
 }
 
+.menu-item-card.can-be-gf-active {
+  background: linear-gradient(to right, #fff5f5 0%, #ffe5e5 100%);
+  border-left: 4px solid #dc2626;
+  padding-left: calc(0.5rem - 4px);
+}
+
+.gf-modification-banner {
+  background: #dc2626;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  margin: -0.75rem -0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .menu-item-header {
   display: flex;
   justify-content: space-between;

@@ -8,12 +8,22 @@
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 4,
+    "glutenFreeUpcharge": 2,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
-    "ingredients": ["pizza-dough", "pepperoni", "diavolo-sauce", "mozzarella", "asiago", "hot-honey"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "pizza-dough",
+      "pepperoni",
+      "diavolo-sauce",
+      "mozzarella",
+      "asiago",
+      "hot-honey"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "heirloom-tomato-margherita-lunch",
@@ -24,12 +34,20 @@
     "vegetarian": true,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 4,
+    "glutenFreeUpcharge": 2,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
-    "ingredients": ["pizza-dough", "mozzarella", "garlic-oil", "basil"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "pizza-dough",
+      "mozzarella",
+      "garlic-oil",
+      "basil"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "chicken-caesar-salad-pizza-lunch",
@@ -40,12 +58,23 @@
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 4,
+    "glutenFreeUpcharge": 2,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
-    "ingredients": ["pizza-dough", "chicken", "caesar-dressing", "tomato", "mozzarella", "provolone"],
-    "allergens": ["dairy", "gluten", "fish"]
+    "ingredients": [
+      "pizza-dough",
+      "chicken",
+      "caesar-dressing",
+      "tomato",
+      "mozzarella",
+      "provolone"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "fish"
+    ]
   },
   {
     "id": "fig-prosciutto-pizza-lunch",
@@ -56,12 +85,23 @@
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 4,
+    "glutenFreeUpcharge": 2,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
-    "ingredients": ["pizza-dough", "fig", "prosciutto", "eggplant", "asiago", "arugula", "balsamic"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "pizza-dough",
+      "fig",
+      "prosciutto",
+      "eggplant",
+      "asiago",
+      "arugula",
+      "balsamic"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "meatball-sausage-pizza-lunch",
@@ -72,12 +112,24 @@
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 4,
+    "glutenFreeUpcharge": 2,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
-    "ingredients": ["pizza-dough", "meatball", "sausage", "peppadew-peppers", "tomatoes", "ricotta", "parmesan", "parsley-oil"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "pizza-dough",
+      "meatball",
+      "sausage",
+      "peppadew-peppers",
+      "tomatoes",
+      "ricotta",
+      "parmesan",
+      "parsley-oil"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "chicken-pesto-sandwich",
@@ -89,8 +141,19 @@
     "glutenFree": false,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["chicken", "prosciutto", "peppers", "arugula", "provolone", "pesto"],
-    "allergens": ["dairy", "gluten", "nuts"]
+    "ingredients": [
+      "chicken",
+      "prosciutto",
+      "peppers",
+      "arugula",
+      "provolone",
+      "pesto"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ]
   },
   {
     "id": "via-meatball-sandwich",
@@ -102,8 +165,17 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["meatballs", "provolone", "mozzarella", "marinara-sauce", "bread"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "meatballs",
+      "provolone",
+      "mozzarella",
+      "marinara-sauce",
+      "bread"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "fried-eggplant-parmesan-sandwich",
@@ -115,8 +187,17 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["eggplant", "mozzarella", "provolone", "marinara-sauce", "bread"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "eggplant",
+      "mozzarella",
+      "provolone",
+      "marinara-sauce",
+      "bread"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "caprese-blt",
@@ -128,8 +209,18 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["bacon", "mozzarella", "tomatoes", "arugula", "aioli", "bread"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "bacon",
+      "mozzarella",
+      "tomatoes",
+      "arugula",
+      "aioli",
+      "bread"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "grilled-caesar-salad-lunch",
@@ -141,8 +232,17 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["romaine", "caesar-dressing", "parmesan", "croutons"],
-    "allergens": ["dairy", "gluten", "fish"]
+    "ingredients": [
+      "romaine",
+      "caesar-dressing",
+      "parmesan",
+      "croutons"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "fish"
+    ]
   },
   {
     "id": "burrata-caprese-salad-lunch",
@@ -154,8 +254,16 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["burrata", "tomato", "basil", "herb-oil", "balsamic-reduction"],
-    "allergens": ["dairy"]
+    "ingredients": [
+      "burrata",
+      "tomato",
+      "basil",
+      "herb-oil",
+      "balsamic-reduction"
+    ],
+    "allergens": [
+      "dairy"
+    ]
   },
   {
     "id": "grilled-salmon-salad-lunch",
@@ -167,8 +275,18 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["salmon", "arugula", "mozzarella", "tomatoes", "pesto"],
-    "allergens": ["fish", "dairy", "nuts"]
+    "ingredients": [
+      "salmon",
+      "arugula",
+      "mozzarella",
+      "tomatoes",
+      "pesto"
+    ],
+    "allergens": [
+      "fish",
+      "dairy",
+      "nuts"
+    ]
   },
   {
     "id": "shrimp-bean-salad-lunch",
@@ -180,8 +298,15 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["shrimp", "arugula", "beans", "lemon"],
-    "allergens": ["shellfish"]
+    "ingredients": [
+      "shrimp",
+      "arugula",
+      "beans",
+      "lemon"
+    ],
+    "allergens": [
+      "shellfish"
+    ]
   },
   {
     "id": "chicken-panzanella-lunch",
@@ -193,8 +318,17 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["chicken", "mixed-greens", "brussels-sprouts", "apples", "onions"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "chicken",
+      "mixed-greens",
+      "brussels-sprouts",
+      "apples",
+      "onions"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "steak-salad-lunch",
@@ -206,8 +340,18 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["steak", "mixed-greens", "brussels-sprouts", "pecans", "blue-cheese", "beets"],
-    "allergens": ["dairy", "nuts"]
+    "ingredients": [
+      "steak",
+      "mixed-greens",
+      "brussels-sprouts",
+      "pecans",
+      "blue-cheese",
+      "beets"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ]
   },
   {
     "id": "via-chopped-antipasto-salad-lunch",
@@ -219,8 +363,17 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["salami", "ham", "chicken", "provolone", "feta", "olives"],
-    "allergens": ["dairy"]
+    "ingredients": [
+      "salami",
+      "ham",
+      "chicken",
+      "provolone",
+      "feta",
+      "olives"
+    ],
+    "allergens": [
+      "dairy"
+    ]
   },
   {
     "id": "braised-short-rib-ragu-lunch",
@@ -232,8 +385,18 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["beef", "pork", "sausage", "tomato", "cream", "ravioli"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "beef",
+      "pork",
+      "sausage",
+      "tomato",
+      "cream",
+      "ravioli"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "chicken-marsala-lunch",
@@ -245,8 +408,18 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["chicken", "prosciutto", "mushrooms", "peas", "orecchiette", "feta"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "chicken",
+      "prosciutto",
+      "mushrooms",
+      "peas",
+      "orecchiette",
+      "feta"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "eggplant-parmesan-lunch",
@@ -259,8 +432,19 @@
     "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["eggplant", "breadcrumbs", "mozzarella", "provolone", "parmesan", "spaghetti", "marinara-sauce"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "eggplant",
+      "breadcrumbs",
+      "mozzarella",
+      "provolone",
+      "parmesan",
+      "spaghetti",
+      "marinara-sauce"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "shrimp-scampi-lunch",
@@ -273,8 +457,19 @@
     "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["shrimp", "tomatoes", "garlic", "lemon", "butter", "spaghetti"],
-    "allergens": ["shellfish", "dairy", "gluten"]
+    "ingredients": [
+      "shrimp",
+      "tomatoes",
+      "garlic",
+      "lemon",
+      "butter",
+      "spaghetti"
+    ],
+    "allergens": [
+      "shellfish",
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "shrimp-risotto-lunch",
@@ -286,8 +481,19 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["shrimp", "spinach", "onion", "tomatoes", "beans", "risotto", "prosciutto"],
-    "allergens": ["shellfish", "dairy"]
+    "ingredients": [
+      "shrimp",
+      "spinach",
+      "onion",
+      "tomatoes",
+      "beans",
+      "risotto",
+      "prosciutto"
+    ],
+    "allergens": [
+      "shellfish",
+      "dairy"
+    ]
   },
   {
     "id": "pappardelle-bolognese-lunch",
@@ -299,8 +505,17 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["beef", "pork", "sausage", "tomato", "cream"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "beef",
+      "pork",
+      "sausage",
+      "tomato",
+      "cream"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   },
   {
     "id": "salmon-livornese-lunch",
@@ -312,8 +527,18 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["salmon", "tomatoes", "olives", "capers", "polenta", "arugula"],
-    "allergens": ["fish", "dairy"]
+    "ingredients": [
+      "salmon",
+      "tomatoes",
+      "olives",
+      "capers",
+      "polenta",
+      "arugula"
+    ],
+    "allergens": [
+      "fish",
+      "dairy"
+    ]
   },
   {
     "id": "tuscan-herb-crumb-crusted-haddock-lunch",
@@ -325,8 +550,14 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["haddock", "potatoes", "asparagus"],
-    "allergens": ["fish"]
+    "ingredients": [
+      "haddock",
+      "potatoes",
+      "asparagus"
+    ],
+    "allergens": [
+      "fish"
+    ]
   },
   {
     "id": "lunch-pasta-sauce",
@@ -339,7 +570,12 @@
     "glutenFreeAvailable": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["pasta"],
-    "allergens": ["dairy", "gluten"]
+    "ingredients": [
+      "pasta"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ]
   }
 ]

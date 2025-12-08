@@ -41,7 +41,8 @@
         "creamy"
       ]
     },
-    "website": "https://www.lacrema.com/"
+    "website": "https://www.lacrema.com/",
+    "region": "California"
   },
   {
     "id": "knights-bridge-kb-chardonnay-bottle",
@@ -85,7 +86,8 @@
         "rich"
       ]
     },
-    "website": "https://www.knightsbridgewinery.com/"
+    "website": "https://www.knightsbridgewinery.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "rombauer-chardonnay-carneros-bottle",
@@ -129,7 +131,8 @@
         "cult-favorite"
       ]
     },
-    "website": "https://www.rombauer.com/"
+    "website": "https://www.rombauer.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "shafer-red-shoulder-ranch-bottle",
@@ -218,7 +221,8 @@
         "limited"
       ]
     },
-    "website": "https://www.knightsbridgewinery.com/"
+    "website": "https://www.knightsbridgewinery.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "wayfarer-chardonnay-bottle",
@@ -226,7 +230,7 @@
     "description": "Fort Ross - Seaview, California, JD 97, 2020",
     "price": 95,
     "category": "Chardonnay Bottles",
-    "serverNotes": "🏆 ABOUT: (pahlmeyer.com) Wayfarer Chardonnay from Pahlmeyer's Fort Ross-Seaview estate. Extreme coastal Sonoma. World-class cool-climate Chardonnay!\n\n🍷 STYLE: Full-bodied Chardonnay | Precise citrus, mineral & complexity | Coastal elegance | Burgundian finesse | Investment-grade.\n\n🍽️ PAIRS WITH: Oysters, lobster, fine seafood, special celebrations.\n\n💡 BOTTLE SERVICE: Ultra-premium coastal Chardonnay. Pahlmeyer excellence meets Burgundy!",
+    "serverNotes": " ABOUT: (pahlmeyer.com) Wayfarer Chardonnay from Pahlmeyer's Fort Ross-Seaview estate. Extreme coastal Sonoma. World-class cool-climate Chardonnay!\n\n STYLE: Full-bodied Chardonnay | Precise citrus, mineral & complexity | Coastal elegance | Burgundian finesse | Investment-grade.\n\n PAIRS WITH: Oysters, lobster, fine seafood, special celebrations.\n\n BOTTLE SERVICE: Ultra-premium coastal Chardonnay. Pahlmeyer excellence meets Burgundy!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,

@@ -225,6 +225,32 @@
   gap: 0.5rem;
 }
 
+.italian-wine-map {
+  margin: 0.5rem 0;
+}
+
+.map-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #f5e9da 0%, #e8d5c4 100%);
+  padding: 0.4rem 0.75rem;
+  border-radius: 20px;
+  border: 2px solid #8b7355;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map-badge svg {
+  flex-shrink: 0;
+}
+
+.region-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #4a2f1e;
+  letter-spacing: 0.02em;
+}
+
 .menu-item-header {
   display: flex;
   justify-content: space-between;

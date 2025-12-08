@@ -43,7 +43,8 @@
         "earthy",
         "versatile"
       ]
-    }
+    },
+    "region": "Tuscany"
   },
   {
     "id": "gd-vajra-nebbiolo-bottle",
@@ -88,7 +89,8 @@
         "herbal",
         "approachable"
       ]
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "valentina-montepulciano-bottle",
@@ -133,7 +135,8 @@
         "soft",
         "versatile"
       ]
-    }
+    },
+    "region": "Abruzzo"
   },
   {
     "id": "ascheri-langhe-barbera-bottle",
@@ -178,7 +181,8 @@
         "food-friendly",
         "versatile"
       ]
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "gd-vajra-dolcetto-bottle",
@@ -223,7 +227,8 @@
         "fruity",
         "easy-drinking"
       ]
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "castello-banfi-rosso-bottle",
@@ -269,7 +274,8 @@
         "soft",
         "approachable"
       ]
-    }
+    },
+    "region": "Tuscany"
   },
   {
     "id": "rosina-barbera-bottle",
@@ -314,7 +320,8 @@
         "vibrant",
         "food-friendly"
       ]
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "san-felice-chianti-bottle",
@@ -360,7 +367,8 @@
         "leather",
         "classic"
       ]
-    }
+    },
+    "region": "Tuscany"
   },
   {
     "id": "ca-del-baio-barbaresco-bottle",
@@ -405,7 +413,8 @@
         "tar",
         "elegant"
       ]
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "benanti-etna-rosso-bottle",
@@ -451,7 +460,8 @@
         "smoke",
         "volcanic"
       ]
-    }
+    },
+    "region": "Sicily"
   },
   {
     "id": "ascheri-barolo-bottle",
@@ -497,7 +507,8 @@
         "truffle",
         "complex"
       ]
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "bussola-valpolicella-bottle",
@@ -542,7 +553,8 @@
         "spice",
         "velvety"
       ]
-    }
+    },
+    "region": "Veneto"
   },
   {
     "id": "antinori-chianti-riserva-bottle",
@@ -587,7 +599,8 @@
         "oak",
         "complex"
       ]
-    }
+    },
+    "region": "Tuscany"
   },
   {
     "id": "carpineto-vino-nobile-bottle",
@@ -632,7 +645,8 @@
         "spice"
       ]
     },
-    "website": "https://www.carpineto.com/"
+    "website": "https://www.carpineto.com/",
+    "region": "Tuscany"
   },
   {
     "id": "san-marzano-62-anniversario-bottle",
@@ -677,7 +691,8 @@
         "bold"
       ]
     },
-    "website": "https://www.sanmarzanowines.com/"
+    "website": "https://www.sanmarzanowines.com/",
+    "region": "Puglia"
   },
   {
     "id": "caparzo-brunello-bottle",
@@ -723,7 +738,8 @@
         "structured"
       ]
     },
-    "website": "https://www.caparzo.com/"
+    "website": "https://www.caparzo.com/",
+    "region": "Tuscany"
   },
   {
     "id": "gd-vajra-barolo-albe-bottle",
@@ -768,7 +784,8 @@
         "elegant"
       ]
     },
-    "website": "https://www.gdvajra.com/"
+    "website": "https://www.gdvajra.com/",
+    "region": "Piedmont"
   },
   {
     "id": "campogiovanni-brunello-bottle",
@@ -814,7 +831,8 @@
         "structured"
       ]
     },
-    "website": "https://www.campogiovanni.it/"
+    "website": "https://www.campogiovanni.it/",
+    "region": "Tuscany"
   },
   {
     "id": "altesino-brunello-bottle",
@@ -858,7 +876,8 @@
         "powerful"
       ]
     },
-    "website": "https://www.altesinobrunello.it/"
+    "website": "https://www.altesinobrunello.it/",
+    "region": "Tuscany"
   },
   {
     "id": "gagliardo-barolo-bottle",
@@ -904,7 +923,8 @@
         "complex"
       ]
     },
-    "website": "https://www.gagliardowine.com/"
+    "website": "https://www.gagliardowine.com/",
+    "region": "Piedmont"
   },
   {
     "id": "livio-sassetti-brunello-bottle",
@@ -949,7 +969,8 @@
         "concentrated"
       ]
     },
-    "website": "https://www.pertimali.it/"
+    "website": "https://www.pertimali.it/",
+    "region": "Tuscany"
   },
   {
     "id": "tommasi-amarone-bottle",
@@ -994,7 +1015,8 @@
         "concentrated"
       ]
     },
-    "website": "https://www.tommasiwine.it/"
+    "website": "https://www.tommasiwine.it/",
+    "region": "Veneto"
   },
   {
     "id": "scavino-bricco-ambrogio-barolo-bottle",
@@ -1040,7 +1062,8 @@
         "world-class"
       ]
     },
-    "website": "https://www.paolosca vino.com/"
+    "website": "https://www.paolosca vino.com/",
+    "region": "Piedmont"
   },
   {
     "id": "gaja-pieve-brunello-bottle",
@@ -1085,7 +1108,8 @@
         "elegant"
       ]
     },
-    "website": "https://www.gajawines.com/"
+    "website": "https://www.gajawines.com/",
+    "region": "Tuscany"
   },
   {
     "id": "petrolo-boggina-bottle",
@@ -1130,7 +1154,8 @@
         "powerful"
       ]
     },
-    "website": "https://www.petrolo.it/"
+    "website": "https://www.petrolo.it/",
+    "region": "Tuscany"
   },
   {
     "id": "petrolo-galatrona-bottle",
@@ -1175,7 +1200,8 @@
         "world-class"
       ]
     },
-    "website": "https://www.petrolo.it/"
+    "website": "https://www.petrolo.it/",
+    "region": "Tuscany"
   },
   {
     "id": "gagliardo-fossati-barolo-bottle",
@@ -1221,7 +1247,8 @@
         "single-vineyard"
       ]
     },
-    "website": "https://www.gagliardowine.com/"
+    "website": "https://www.gagliardowine.com/",
+    "region": "Piedmont"
   },
   {
     "id": "bertani-amarone-classico-bottle",
@@ -1266,7 +1293,8 @@
         "legendary"
       ]
     },
-    "website": "https://www.bertani.net/"
+    "website": "https://www.bertani.net/",
+    "region": "Veneto"
   },
   {
     "id": "giodo-brunello-bottle",
@@ -1312,7 +1340,8 @@
         "near-perfect"
       ]
     },
-    "website": "https://www.giodomontalcino.it/"
+    "website": "https://www.giodomontalcino.it/",
+    "region": "Tuscany"
   },
   {
     "id": "gaja-sugarille-brunello-bottle",
@@ -1357,7 +1386,8 @@
         "legendary"
       ]
     },
-    "website": "https://www.gajawines.com/"
+    "website": "https://www.gajawines.com/",
+    "region": "Tuscany"
   },
   {
     "id": "gaja-sperss-barolo-bottle",
@@ -1402,6 +1432,7 @@
         "legendary"
       ]
     },
-    "website": "https://www.gajawines.com/"
+    "website": "https://www.gajawines.com/",
+    "region": "Piedmont"
   }
 ]

@@ -23,7 +23,21 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 3,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 6,
+      "fattiness": 6,
+      "charLevel": 4,
+      "intensity": 7,
+      "complexity": 6,
+      "flavorNotes": ["spicy", "savory", "cheesy", "meaty"]
+    }
   },
   {
     "id": "heirloom-tomato-margherita-lunch",
@@ -47,7 +61,22 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 5,
+      "umami": 5,
+      "fattiness": 5,
+      "herbaceousness": 8,
+      "charLevel": 4,
+      "intensity": 5,
+      "complexity": 5,
+      "flavorNotes": ["fresh", "herbaceous", "simple", "classic"]
+    }
   },
   {
     "id": "chicken-caesar-salad-pizza-lunch",
@@ -75,7 +104,21 @@
       "gluten",
       "fish"
     ],
-    "canBeMadeGlutenFree": true
+    "canBeMadeGlutenFree": true,
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 5,
+      "fattiness": 5,
+      "charLevel": 3,
+      "intensity": 6,
+      "complexity": 5,
+      "flavorNotes": ["savory", "creamy", "cheesy", "fresh"]
+    }
   },
   {
     "id": "fig-prosciutto-pizza-lunch",
@@ -102,7 +145,21 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 7,
+      "fattiness": 5,
+      "charLevel": 3,
+      "intensity": 7,
+      "complexity": 7,
+      "flavorNotes": ["sweet", "savory", "elegant", "sophisticated"]
+    }
   },
   {
     "id": "meatball-sausage-pizza-lunch",
@@ -130,7 +187,21 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 7,
+      "richness": 8,
+      "umami": 8,
+      "fattiness": 7,
+      "charLevel": 4,
+      "intensity": 8,
+      "complexity": 7,
+      "flavorNotes": ["meaty", "savory", "hearty", "bold"]
+    }
   },
   {
     "id": "chicken-pesto-sandwich",
@@ -154,7 +225,21 @@
       "dairy",
       "gluten",
       "nuts"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 6,
+      "fattiness": 6,
+      "herbaceousness": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "flavorNotes": ["herbaceous", "savory", "nutty", "fresh"]
+    }
   },
   {
     "id": "via-meatball-sandwich",
@@ -176,7 +261,20 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 7,
+      "richness": 8,
+      "umami": 8,
+      "fattiness": 7,
+      "intensity": 8,
+      "complexity": 6,
+      "flavorNotes": ["meaty", "savory", "cheesy", "hearty"]
+    }
   },
   {
     "id": "fried-eggplant-parmesan-sandwich",
@@ -198,7 +296,21 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 6,
+      "fattiness": 6,
+      "charLevel": 5,
+      "intensity": 7,
+      "complexity": 6,
+      "flavorNotes": ["savory", "cheesy", "comfort", "vegetarian"]
+    }
   },
   {
     "id": "caprese-blt",
@@ -221,7 +333,21 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 7,
+      "fattiness": 7,
+      "smokiness": 6,
+      "intensity": 7,
+      "complexity": 6,
+      "flavorNotes": ["smoky", "savory", "fresh", "tangy"]
+    }
   },
   {
     "id": "grilled-caesar-salad-lunch",
@@ -244,7 +370,20 @@
       "gluten",
       "fish"
     ],
-    "canBeMadeGlutenFree": true
+    "canBeMadeGlutenFree": true,
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 6,
+      "umami": 6,
+      "fattiness": 5,
+      "intensity": 6,
+      "complexity": 5,
+      "flavorNotes": ["savory", "tangy", "fresh", "classic"]
+    }
   },
   {
     "id": "burrata-caprese-salad-lunch",
@@ -265,7 +404,22 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 4,
+      "richness": 7,
+      "umami": 5,
+      "fattiness": 5,
+      "creaminess": 9,
+      "herbaceousness": 8,
+      "intensity": 6,
+      "complexity": 6,
+      "flavorNotes": ["fresh", "creamy", "herbaceous", "elegant"]
+    }
   },
   {
     "id": "grilled-salmon-salad-lunch",
@@ -288,7 +442,21 @@
       "fish",
       "dairy",
       "nuts"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 6,
+      "umami": 6,
+      "fattiness": 5,
+      "herbaceousness": 6,
+      "intensity": 6,
+      "complexity": 6,
+      "flavorNotes": ["fresh", "herbaceous", "rich", "elegant"]
+    }
   },
   {
     "id": "shrimp-bean-salad-lunch",
@@ -308,7 +476,20 @@
     ],
     "allergens": [
       "shellfish"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 4,
+      "richness": 4,
+      "umami": 5,
+      "fattiness": 3,
+      "intensity": 5,
+      "complexity": 5,
+      "flavorNotes": ["bright", "fresh", "light", "citrusy"]
+    }
   },
   {
     "id": "chicken-panzanella-lunch",
@@ -330,7 +511,21 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 5,
+      "umami": 5,
+      "fattiness": 4,
+      "herbaceousness": 5,
+      "intensity": 6,
+      "complexity": 7,
+      "flavorNotes": ["fresh", "tangy", "crisp", "varied"]
+    }
   },
   {
     "id": "steak-salad-lunch",
@@ -353,7 +548,21 @@
     "allergens": [
       "dairy",
       "nuts"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 8,
+      "umami": 8,
+      "fattiness": 7,
+      "charLevel": 6,
+      "intensity": 8,
+      "complexity": 7,
+      "flavorNotes": ["beefy", "bold", "earthy", "rich"]
+    }
   },
   {
     "id": "via-chopped-antipasto-salad-lunch",
@@ -375,7 +584,20 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 7,
+      "richness": 7,
+      "umami": 8,
+      "fattiness": 6,
+      "intensity": 8,
+      "complexity": 8,
+      "flavorNotes": ["savory", "meaty", "briny", "bold"]
+    }
   },
   {
     "id": "braised-short-rib-ragu-lunch",
@@ -385,6 +607,7 @@
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": [
@@ -398,7 +621,20 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 9,
+      "umami": 9,
+      "fattiness": 8,
+      "intensity": 9,
+      "complexity": 8,
+      "flavorNotes": ["rich", "meaty", "braised", "indulgent"]
+    }
   },
   {
     "id": "chicken-marsala-lunch",
@@ -408,6 +644,7 @@
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": [
@@ -421,7 +658,21 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 8,
+      "fattiness": 6,
+      "earthiness": 7,
+      "intensity": 7,
+      "complexity": 8,
+      "flavorNotes": ["earthy", "savory", "wine-rich", "elegant"]
+    }
   },
   {
     "id": "eggplant-parmesan-lunch",
@@ -446,7 +697,21 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 6,
+      "fattiness": 6,
+      "charLevel": 5,
+      "intensity": 7,
+      "complexity": 6,
+      "flavorNotes": ["savory", "cheesy", "comfort", "vegetarian"]
+    }
   },
   {
     "id": "shrimp-scampi-lunch",
@@ -471,7 +736,21 @@
       "shellfish",
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 6,
+      "umami": 5,
+      "fattiness": 5,
+      "herbaceousness": 6,
+      "intensity": 6,
+      "complexity": 6,
+      "flavorNotes": ["garlicky", "buttery", "bright", "fresh"]
+    }
   },
   {
     "id": "shrimp-risotto-lunch",
@@ -495,7 +774,21 @@
     "allergens": [
       "shellfish",
       "dairy"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 7,
+      "umami": 6,
+      "fattiness": 5,
+      "herbaceousness": 7,
+      "intensity": 7,
+      "complexity": 7,
+      "flavorNotes": ["savory", "fresh", "herbaceous", "creamy"]
+    }
   },
   {
     "id": "pappardelle-bolognese-lunch",
@@ -505,6 +798,7 @@
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": [
@@ -517,7 +811,20 @@
     "allergens": [
       "dairy",
       "gluten"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 8,
+      "umami": 8,
+      "fattiness": 7,
+      "intensity": 8,
+      "complexity": 7,
+      "flavorNotes": ["meaty", "rich", "hearty", "classic"]
+    }
   },
   {
     "id": "salmon-livornese-lunch",
@@ -540,7 +847,21 @@
     "allergens": [
       "fish",
       "dairy"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 6,
+      "umami": 6,
+      "fattiness": 5,
+      "herbaceousness": 5,
+      "intensity": 6,
+      "complexity": 6,
+      "flavorNotes": ["fresh", "briny", "Mediterranean", "elegant"]
+    }
   },
   {
     "id": "tuscan-herb-crumb-crusted-haddock-lunch",
@@ -559,7 +880,21 @@
     ],
     "allergens": [
       "fish"
-    ]
+    ],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 3,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 5,
+      "umami": 5,
+      "fattiness": 4,
+      "herbaceousness": 6,
+      "intensity": 5,
+      "complexity": 5,
+      "flavorNotes": ["mild", "flaky", "herbaceous", "light"]
+    }
   },
   {
     "id": "lunch-pasta-sauce",
@@ -570,7 +905,7 @@
     "vegetarian": true,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "nutFree": true,
+    "nutFree": false,
     "kids": false,
     "ingredients": [
       "pasta"
@@ -578,6 +913,89 @@
     "allergens": [
       "dairy",
       "gluten"
+    ],
+    "hasSauceSelection": true,
+    "sauceOptions": [
+      {
+        "name": "Alfredo",
+        "description": "Rich, creamy Parmesan sauce",
+        "allergens": ["dairy"],
+        "nutFree": true,
+        "flavorProfile": {
+          "sweetness": 2,
+          "acidity": 2,
+          "body": "full",
+          "spiciness": 0,
+          "saltiness": 6,
+          "richness": 9,
+          "umami": 6,
+          "fattiness": 9,
+          "creaminess": 10,
+          "intensity": 7,
+          "complexity": 5,
+          "flavorNotes": ["creamy", "buttery", "cheesy", "rich"]
+        }
+      },
+      {
+        "name": "Marinara",
+        "description": "Classic tomato basil sauce",
+        "allergens": [],
+        "nutFree": true,
+        "flavorProfile": {
+          "sweetness": 4,
+          "acidity": 7,
+          "body": "light",
+          "spiciness": 1,
+          "saltiness": 5,
+          "richness": 4,
+          "umami": 6,
+          "fattiness": 2,
+          "herbaceousness": 7,
+          "intensity": 5,
+          "complexity": 5,
+          "flavorNotes": ["tomato", "herbaceous", "bright", "classic"]
+        }
+      },
+      {
+        "name": "Pesto",
+        "description": "Fresh basil, pine nuts, Parmesan, garlic",
+        "allergens": ["dairy", "nuts"],
+        "nutFree": false,
+        "flavorProfile": {
+          "sweetness": 2,
+          "acidity": 3,
+          "body": "medium",
+          "spiciness": 0,
+          "saltiness": 6,
+          "richness": 7,
+          "umami": 6,
+          "fattiness": 7,
+          "herbaceousness": 10,
+          "intensity": 8,
+          "complexity": 7,
+          "flavorNotes": ["herbaceous", "nutty", "garlicky", "fresh"]
+        }
+      },
+      {
+        "name": "Vodka",
+        "description": "Creamy tomato sauce with a kick",
+        "allergens": ["dairy"],
+        "nutFree": true,
+        "flavorProfile": {
+          "sweetness": 3,
+          "acidity": 5,
+          "body": "medium",
+          "spiciness": 2,
+          "saltiness": 5,
+          "richness": 7,
+          "umami": 6,
+          "fattiness": 6,
+          "creaminess": 7,
+          "intensity": 6,
+          "complexity": 6,
+          "flavorNotes": ["creamy", "tomato", "balanced", "smooth"]
+        }
+      }
     ]
   }
 ]

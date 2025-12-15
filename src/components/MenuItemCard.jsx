@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { GiWheat, GiPeanut, GiCow } from "react-icons/gi";
 import { TbLeaf } from "react-icons/tb";
 import FlavorProfileDisplay from "./FlavorProfileDisplay.jsx";
@@ -11,6 +11,19 @@ import { usePairingData } from "../hooks/usePairingData.js";
 
 function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = false }) {
   
+  // State for sauce selection (for pasta & sauce items)
+  const [selectedSauce, setSelectedSauce] = useState(
+    item.hasSauceSelection && item.sauceOptions?.length > 0 ? item.sauceOptions[0] : null
+  );
+
+  // Create modified item with selected sauce's flavor profile for pairings
+  const itemForPairing = useMemo(() => {
+    if (item.hasSauceSelection && selectedSauce?.flavorProfile) {
+      return { ...item, flavorProfile: selectedSauce.flavorProfile };
+    }
+    return item;
+  }, [item, selectedSauce]);
+
   // Use custom hook for all pairing data calculations
   const {
     winePairings,
@@ -20,7 +33,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
     bourbonPairings,
     whiskeyPairings,
     dessertPairings
-  } = usePairingData(item, pairingPreferences);
+  } = usePairingData(itemForPairing, pairingPreferences);
 
   // Memoize tags array to avoid recreation on every render
   const tags = useMemo(() => {
@@ -84,6 +97,35 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
       </div>
       {item.description && (
         <p className="menu-item-description">{item.description}</p>
+      )}
+
+      {/* Sauce Selection for Pasta & Sauce items */}
+      {item.hasSauceSelection && item.sauceOptions && (
+        <div className="sauce-selection">
+          <div className="sauce-selection-label">
+            <strong>🍝 Select Your Sauce for Pairings:</strong>
+          </div>
+          <div className="sauce-options">
+            {item.sauceOptions.map((sauce) => (
+              <button
+                key={sauce.name}
+                className={`sauce-option-btn ${selectedSauce?.name === sauce.name ? 'selected' : ''}`}
+                onClick={() => setSelectedSauce(sauce)}
+              >
+                <span className="sauce-name">{sauce.name}</span>
+                <span className="sauce-desc">{sauce.description}</span>
+              </button>
+            ))}
+          </div>
+          {selectedSauce && (
+            <div className="selected-sauce-info">
+              <em>Showing pairings for: <strong>{selectedSauce.name}</strong> sauce</em>
+              {selectedSauce.allergens?.length > 0 && (
+                <span className="sauce-allergens"> (Contains: {selectedSauce.allergens.join(', ')})</span>
+              )}
+            </div>
+          )}
+        </div>
       )}
 
       {item.region && (item.category === "Italian Reds Bottles" || item.category === "Super Tuscan Bottles") && (

@@ -1166,7 +1166,6 @@
       "flavorNotes": [
         "meaty",
         "rich",
-        "savory",
         "comfort"
       ]
     }
@@ -1181,38 +1180,93 @@
     "vegetarian": true,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "nutFree": true,
+    "nutFree": false,
     "kids": false,
-    "ingredients": [
-      "pasta"
-    ],
-    "allergens": [
-      "dairy",
-      "gluten"
-    ],
-    "flavorProfile": {
-      "sweetness": 2,
-      "acidity": 4,
-      "body": "medium",
-      "spiciness": 0,
-      "saltiness": 5,
-      "richness": 6,
-      "umami": 4,
-      "bitterness": 0,
-      "fattiness": 4,
-      "creaminess": 5,
-      "intensity": 5,
-      "complexity": 5,
-      "flavorNotes": [
-        "versatile",
-        "classic",
-        "simple",
-        "customizable"
-      ],
-      "smokiness": 0,
-      "earthiness": 0,
-      "herbaceousness": 0
-    }
+    "ingredients": ["pasta"],
+    "allergens": ["dairy", "gluten"],
+    "hasSauceSelection": true,
+    "sauceOptions": [
+      {
+        "name": "Alfredo",
+        "description": "Rich, creamy Parmesan sauce",
+        "allergens": ["dairy"],
+        "nutFree": true,
+        "flavorProfile": {
+          "sweetness": 2,
+          "acidity": 2,
+          "body": "full",
+          "spiciness": 0,
+          "saltiness": 6,
+          "richness": 9,
+          "umami": 6,
+          "fattiness": 9,
+          "creaminess": 10,
+          "intensity": 7,
+          "complexity": 5,
+          "flavorNotes": ["creamy", "buttery", "cheesy", "rich"]
+        }
+      },
+      {
+        "name": "Marinara",
+        "description": "Classic tomato basil sauce",
+        "allergens": [],
+        "nutFree": true,
+        "flavorProfile": {
+          "sweetness": 4,
+          "acidity": 7,
+          "body": "light",
+          "spiciness": 1,
+          "saltiness": 5,
+          "richness": 4,
+          "umami": 6,
+          "fattiness": 2,
+          "herbaceousness": 7,
+          "intensity": 5,
+          "complexity": 5,
+          "flavorNotes": ["tomato", "herbaceous", "bright", "classic"]
+        }
+      },
+      {
+        "name": "Pesto",
+        "description": "Fresh basil, pine nuts, Parmesan, garlic",
+        "allergens": ["dairy", "nuts"],
+        "nutFree": false,
+        "flavorProfile": {
+          "sweetness": 2,
+          "acidity": 3,
+          "body": "medium",
+          "spiciness": 0,
+          "saltiness": 6,
+          "richness": 7,
+          "umami": 6,
+          "fattiness": 7,
+          "herbaceousness": 10,
+          "intensity": 8,
+          "complexity": 7,
+          "flavorNotes": ["herbaceous", "nutty", "garlicky", "fresh"]
+        }
+      },
+      {
+        "name": "Vodka",
+        "description": "Creamy tomato sauce with a kick",
+        "allergens": ["dairy"],
+        "nutFree": true,
+        "flavorProfile": {
+          "sweetness": 3,
+          "acidity": 5,
+          "body": "medium",
+          "spiciness": 2,
+          "saltiness": 5,
+          "richness": 7,
+          "umami": 6,
+          "fattiness": 6,
+          "creaminess": 7,
+          "intensity": 6,
+          "complexity": 6,
+          "flavorNotes": ["creamy", "tomato", "balanced", "smooth"]
+        }
+      }
+    ]
   },
   {
     "id": "seared-scallops-entree",

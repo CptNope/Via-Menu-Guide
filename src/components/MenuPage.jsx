@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useState, useEffect } from "react";
 import MenuItemCard from "./MenuItemCard";
 import FilterBar from "./FilterBar";
 import PairingControls from "./PairingControls";
@@ -21,6 +21,7 @@ const groupByCategory = (items) => {
 function MenuPage({ title, data }) {
   const isDrinksMenu = title === "Drinks";
   const [expandedCategories, setExpandedCategories] = useState({});
+  const [expandedEduCategories, setExpandedEduCategories] = useState({});
   const [pairingPreferences, setPairingPreferences] = useState(getDefaultPreferences());
   
   const [filters, setFilters] = useState({
@@ -176,8 +177,25 @@ function MenuPage({ title, data }) {
 
   const grouped = useMemo(() => groupByCategory(filtered), [filtered]);
 
+  useEffect(() => {
+    setExpandedCategories((prev) => {
+      const next = { ...prev };
+      Object.keys(grouped).forEach((cat) => {
+        if (next[cat] === undefined) next[cat] = true;
+      });
+      return next;
+    });
+  }, [grouped]);
+
   const toggleCategory = (category) => {
     setExpandedCategories((prev) => ({
+      ...prev,
+      [category]: !prev[category],
+    }));
+  };
+
+  const toggleEducationalInfo = (category) => {
+    setExpandedEduCategories((prev) => ({
       ...prev,
       [category]: !prev[category],
     }));
@@ -242,24 +260,32 @@ function MenuPage({ title, data }) {
       <div className="menu-layout">
         {Object.keys(grouped).map((cat) => {
           const eduInfo = isDrinksMenu ? getEducationalInfo(cat) : null;
-          const isExpanded = expandedCategories[cat];
+          const isCategoryExpanded = expandedCategories[cat];
+          const isEduExpanded = expandedEduCategories[cat];
           
           return (
             <section key={cat} className="menu-category">
               <div className="category-header">
                 <h2 className="menu-category-title">{cat}</h2>
+                <button
+                  className="edu-toggle-btn"
+                  onClick={() => toggleCategory(cat)}
+                  title={isCategoryExpanded ? "Hide category" : "Show category"}
+                >
+                  {isCategoryExpanded ? "−" : "+"}
+                </button>
                 {eduInfo && (
                   <button
                     className="edu-toggle-btn"
-                    onClick={() => toggleCategory(cat)}
-                    title={isExpanded ? "Hide educational info" : "Show educational info"}
+                    onClick={() => toggleEducationalInfo(cat)}
+                    title={isEduExpanded ? "Hide educational info" : "Show educational info"}
                   >
-                    {isExpanded ? "−" : "ℹ"}
+                    {isEduExpanded ? "−" : "ℹ"}
                   </button>
                 )}
               </div>
               
-              {eduInfo && isExpanded && (
+              {eduInfo && isEduExpanded && (
                 <div className="educational-content">
                   <div className="edu-section">
                     <h4>📚 Origins & History</h4>
@@ -276,35 +302,36 @@ function MenuPage({ title, data }) {
                 </div>
               )}
 
-              {/* Show category map for Italian wine bottles */}
-              {(cat === "Italian Reds Bottles" || cat === "Super Tuscan Bottles") && (
-                <CategoryWineMap wines={grouped[cat]} categoryName={cat} />
-              )}
+              {isCategoryExpanded && (
+                <>
+                  {(cat === "Italian Reds Bottles" || cat === "Super Tuscan Bottles") && (
+                    <CategoryWineMap wines={grouped[cat]} categoryName={cat} />
+                  )}
 
-              {/* Show international wine map for other bottle categories */}
-              {(cat === "Merlot & Malbec Bottles" || 
-                cat === "Pinot Noir & Interesting Reds Bottles" ||
-                cat === "Cabernet & Blends Bottles" ||
-                cat === "Sauvignon Blanc Bottles" ||
-                cat === "Chardonnay Bottles" ||
-                cat === "Interesting Whites Bottles" ||
-                cat === "Sparkling Bottles") && (
-                <InternationalWineMap wines={grouped[cat]} categoryName={cat} />
-              )}
+                  {(cat === "Merlot & Malbec Bottles" || 
+                    cat === "Pinot Noir & Interesting Reds Bottles" ||
+                    cat === "Cabernet & Blends Bottles" ||
+                    cat === "Sauvignon Blanc Bottles" ||
+                    cat === "Chardonnay Bottles" ||
+                    cat === "Interesting Whites Bottles" ||
+                    cat === "Sparkling Bottles") && (
+                    <InternationalWineMap wines={grouped[cat]} categoryName={cat} />
+                  )}
 
-              {/* Show spirits map for whiskey categories */}
-              {(cat === "Bourbon" || cat === "Rye" || cat === "Scotch") && (
-                <SpiritsMap spirits={grouped[cat]} categoryName={cat} />
+                  {(cat === "Bourbon" || cat === "Rye" || cat === "Scotch") && (
+                    <SpiritsMap spirits={grouped[cat]} categoryName={cat} />
+                  )}
+                  
+                  {grouped[cat].map((item) => (
+                    <MenuItemCard 
+                      key={item.id} 
+                      item={item} 
+                      pairingPreferences={pairingPreferences}
+                      isGlutenFilterActive={filters.glutenFree}
+                    />
+                  ))}
+                </>
               )}
-              
-              {grouped[cat].map((item) => (
-                <MenuItemCard 
-                  key={item.id} 
-                  item={item} 
-                  pairingPreferences={pairingPreferences}
-                  isGlutenFilterActive={filters.glutenFree}
-                />
-              ))}
             </section>
           );
         })}

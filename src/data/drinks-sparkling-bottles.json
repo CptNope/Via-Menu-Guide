@@ -41,7 +41,8 @@
         "sweet-sparkler"
       ]
     },
-    "website": "https://www.centorri.it/"
+    "website": "https://www.centorri.it/",
+    "region": "Italy"
   },
   {
     "id": "pasqua-prosecco-rose-bottle",
@@ -85,7 +86,8 @@
         "Prosecco-rosé"
       ]
     },
-    "website": "https://www.pasqua.it/"
+    "website": "https://www.pasqua.it/",
+    "region": "Italy"
   },
   {
     "id": "benvolio-prosecco-bottle",

@@ -176,7 +176,8 @@
         "smooth"
       ]
     },
-    "website": "https://www.cambriawines.com/"
+    "website": "https://www.cambriawines.com/",
+    "region": "California"
   },
   {
     "id": "rombauer-zinfandel-bottle",
@@ -266,7 +267,8 @@
         "Anderson-Valley"
       ]
     },
-    "website": "https://www.longmeadowranch.com/"
+    "website": "https://www.longmeadowranch.com/",
+    "region": "California"
   },
   {
     "id": "machete-petite-syrah-bottle",

@@ -40,7 +40,8 @@
         "pear",
         "vanilla",
         "butter"
-      ]
+      ],
+    "region": "California"
     }
   },
   {
@@ -76,7 +77,8 @@
         "butter",
         "toasty-oak",
         "creamy"
-      ]
+      ],
+    "region": "California"
     }
   }
 ]

@@ -42,7 +42,8 @@
         "sparkling",
         "sweet"
       ]
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "daou-cabernet-half",
@@ -87,7 +88,8 @@
         "spice",
         "bold"
       ]
-    }
+    },
+    "region": "Paso Robles"
   },
   {
     "id": "sonoma-cutrer-pinot-noir-half",
@@ -132,7 +134,8 @@
         "earthy",
         "silky"
       ]
-    }
+    },
+    "region": "California"
   },
   {
     "id": "sonoma-cutrer-chardonnay-half",
@@ -177,7 +180,8 @@
         "oak",
         "balanced"
       ]
-    }
+    },
+    "region": "California"
   },
   {
     "id": "la-crema-chardonnay-half",
@@ -221,7 +225,8 @@
         "vanilla",
         "balanced"
       ]
-    }
+    },
+    "region": "California"
   },
   {
     "id": "duckhorn-sauvignon-blanc-half",
@@ -265,7 +270,8 @@
         "herbal",
         "crisp"
       ]
-    }
+    },
+    "region": "California"
   },
   {
     "id": "alphonse-mellot-sancerre-half",
@@ -311,7 +317,8 @@
         "green-apple",
         "Sancerre"
       ]
-    }
+    },
+    "region": "Loire Valley"
   },
   {
     "id": "stags-leap-cabernet-half",
@@ -355,7 +362,8 @@
         "oak",
         "elegant"
       ]
-    }
+    },
+    "region": "Napa Valley"
   },
   {
     "id": "damilano-barolo-half",
@@ -402,7 +410,8 @@
         "Barolo",
         "king-of-wines"
       ]
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "bv-tapestry-half",
@@ -447,7 +456,8 @@
         "rich",
         "powerful"
       ]
-    }
+    },
+    "region": "Napa Valley"
   },
   {
     "id": "zenato-amarone-half",
@@ -493,7 +503,8 @@
         "spice",
         "powerful"
       ]
-    }
+    },
+    "region": "Veneto"
   },
   {
     "id": "mt-brave-cabernet-half",
@@ -538,7 +549,8 @@
         "structured",
         "mountain"
       ]
-    }
+    },
+    "region": "Napa Valley"
   },
   {
     "id": "kosta-browne-pinot-noir-half",
@@ -584,7 +596,8 @@
         "earthy",
         "silky"
       ]
-    }
+    },
+    "region": "California"
   },
   {
     "id": "chimney-rock-cabernet-half",
@@ -629,7 +642,8 @@
         "chocolate",
         "elegant"
       ]
-    }
+    },
+    "region": "Napa Valley"
   },
   {
     "id": "moutard-champagne-half",
@@ -674,6 +688,7 @@
         "elegant",
         "Champagne"
       ]
-    }
+    },
+    "region": "Champagne"
   }
 ]

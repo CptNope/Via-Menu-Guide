@@ -7,7 +7,7 @@
     "price": 13,
     "category": "Cognac",
     "website": "https://www.grand-marnier.com/",
-    "region": "France",
+    "region": "Cognac",
     "style": "Orange Liqueur",
     "body": "Medium",
     "profile": [
@@ -67,7 +67,7 @@
     "price": 14,
     "category": "Cognac",
     "website": "https://www.courvoisier.com/",
-    "region": "Cognac, France",
+    "region": "Cognac",
     "style": "VS Cognac",
     "body": "Medium",
     "profile": [
@@ -126,7 +126,7 @@
     "price": 14,
     "category": "Cognac",
     "website": "https://www.grand-marnier.com/",
-    "region": "France",
+    "region": "Cognac",
     "style": "Orange Liqueur",
     "body": "Medium",
     "profile": [
@@ -186,7 +186,7 @@
     "price": 16,
     "category": "Cognac",
     "website": "https://www.hennessy.com/",
-    "region": "Cognac, France",
+    "region": "Cognac",
     "style": "VS Cognac",
     "body": "Medium-Full",
     "profile": [
@@ -247,7 +247,7 @@
     "price": 19,
     "category": "Cognac",
     "website": "https://www.remymartin.com/",
-    "region": "Cognac, France",
+    "region": "Cognac",
     "style": "VSOP Cognac",
     "body": "Medium-Full",
     "profile": [

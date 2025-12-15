@@ -131,7 +131,8 @@
         "Duckhorn"
       ]
     },
-    "website": "https://www.duckhorn.com/"
+    "website": "https://www.duckhorn.com/",
+    "region": "Washington State"
   },
   {
     "id": "band-of-vinters-cabernet-bottle",
@@ -310,7 +311,8 @@
         "structured"
       ]
     },
-    "website": "https://www.mtpeak.com/"
+    "website": "https://www.mtpeak.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "knights-bridge-meritage-bottle",
@@ -355,7 +357,8 @@
         "Meritage"
       ]
     },
-    "website": "https://www.knightsbridgewinery.com/"
+    "website": "https://www.knightsbridgewinery.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "austin-hope-cabernet-bottle",
@@ -445,7 +448,8 @@
         "Sicilian"
       ]
     },
-    "website": "https://www.tascadalmerita.it/"
+    "website": "https://www.tascadalmerita.it/",
+    "region": "Sicily"
   },
   {
     "id": "mount-peak-sentinel-bottle",
@@ -489,7 +493,8 @@
         "aged"
       ]
     },
-    "website": "https://www.mtpeak.com/"
+    "website": "https://www.mtpeak.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "stonestreet-cabernet-bottle",
@@ -534,7 +539,7 @@
       ]
     },
     "website": "https://www.stonestreet.com/",
-    "region": "California"
+    "region": "Sonoma"
   },
   {
     "id": "duckhorn-cabernet-bottle",
@@ -758,7 +763,8 @@
         "Walla-Walla"
       ]
     },
-    "website": "https://www.doubleback.com/"
+    "website": "https://www.doubleback.com/",
+    "region": "Washington State"
   },
   {
     "id": "knights-bridge-cabernet-bottle",
@@ -802,7 +808,8 @@
         "boutique"
       ]
     },
-    "website": "https://www.knightsbridgewinery.com/"
+    "website": "https://www.knightsbridgewinery.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "revana-estate-cabernet-bottle",
@@ -892,7 +899,8 @@
         "96pts"
       ]
     },
-    "website": "https://www.petrolo.it/"
+    "website": "https://www.petrolo.it/",
+    "region": "Tuscany"
   },
   {
     "id": "caymus-special-selection-bottle",
@@ -982,7 +990,8 @@
         "Howell-Mountain"
       ]
     },
-    "website": "https://www.lajotavineyard.com/"
+    "website": "https://www.lajotavineyard.com/",
+    "region": "Napa Valley"
   },
   {
     "id": "quintessa-cabernet-bottle",

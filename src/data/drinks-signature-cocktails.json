@@ -42,7 +42,9 @@
         "oak",
         "refreshing"
       ]
-    }
+    },
+    "foodPairings": ["charcuterie", "bruschetta", "pizza", "calamari", "antipasto"],
+    "dessertPairings": ["fresh-fruit", "berry-tart", "lemon-sorbet"]
   },
   {
     "id": "casa-mopolitan",
@@ -90,7 +92,9 @@
         "tart",
         "refreshing"
       ]
-    }
+    },
+    "foodPairings": ["salads", "light-seafood", "caprese", "appetizers"],
+    "dessertPairings": ["cheesecake", "fruit-tart", "panna-cotta"]
   },
   {
     "id": "golden-paloma",
@@ -139,7 +143,9 @@
         "citrus",
         "bright"
       ]
-    }
+    },
+    "foodPairings": ["tacos", "ceviche", "grilled-fish", "shrimp", "spicy-appetizers"],
+    "dessertPairings": ["flan", "churros", "citrus-sorbet"]
   },
   {
     "id": "perfect-pear",
@@ -187,7 +193,9 @@
         "lemon",
         "elegant"
       ]
-    }
+    },
+    "foodPairings": ["cheese-plate", "pork-tenderloin", "autumn-salad", "roasted-chicken"],
+    "dessertPairings": ["apple-tart", "pear-crisp", "vanilla-gelato", "creme-brulee"]
   },
   {
     "id": "carnivale",
@@ -236,7 +244,9 @@
         "tropical",
         "bright"
       ]
-    }
+    },
+    "foodPairings": ["ceviche", "thai-dishes", "spicy-shrimp", "tropical-salad"],
+    "dessertPairings": ["coconut-cake", "mango-sorbet", "key-lime-pie", "tropical-fruit"]
   },
   {
     "id": "blueberry-bombshell",
@@ -285,7 +295,9 @@
         "prosecco",
         "fruity"
       ]
-    }
+    },
+    "foodPairings": ["brunch-dishes", "fruit-salad", "light-salads", "eggs-benedict"],
+    "dessertPairings": ["berry-tart", "lemon-cake", "fruit-sorbet", "panna-cotta"]
   },
   {
     "id": "mango-inferno",
@@ -334,7 +346,9 @@
         "spicy",
         "tropical"
       ]
-    }
+    },
+    "foodPairings": ["tacos", "wings", "nachos", "spicy-appetizers", "quesadillas"],
+    "dessertPairings": ["mango-sorbet", "churros", "tres-leches"]
   },
   {
     "id": "espresso-martini",
@@ -384,7 +398,9 @@
         "coffee",
         "rich"
       ]
-    }
+    },
+    "foodPairings": ["tiramisu", "chocolate-desserts", "cannoli"],
+    "dessertPairings": ["tiramisu", "chocolate-lava-cake", "affogato", "biscotti"]
   },
   {
     "id": "mi-casa-su-casa",
@@ -432,7 +448,9 @@
         "wine",
         "margarita"
       ]
-    }
+    },
+    "foodPairings": ["grilled-steak", "tacos", "enchiladas", "spicy-dishes"],
+    "dessertPairings": ["flan", "churros", "mexican-chocolate"]
   },
   {
     "id": "mind-over-matter",
@@ -481,7 +499,9 @@
         "pineapple",
         "bright"
       ]
-    }
+    },
+    "foodPairings": ["seafood", "salads", "light-appetizers", "citrus-dishes"],
+    "dessertPairings": ["orange-sorbet", "fruit-tart", "panna-cotta"]
   },
   {
     "id": "via-mai-tai",
@@ -532,7 +552,9 @@
         "tropical",
         "complex"
       ]
-    }
+    },
+    "foodPairings": ["hawaiian-dishes", "spicy-food", "grilled-pineapple", "asian-fusion"],
+    "dessertPairings": ["coconut-cake", "pineapple-upside-down", "tropical-fruit", "macadamia-cookies"]
   },
   {
     "id": "il-gentiluomo",
@@ -580,7 +602,9 @@
         "floral",
         "elegant"
       ]
-    }
+    },
+    "foodPairings": ["oysters", "seafood", "salads", "light-pasta", "caprese"],
+    "dessertPairings": ["lemon-tart", "elderflower-cake", "vanilla-gelato", "macarons"]
   },
   {
     "id": "plane-crash",
@@ -630,7 +654,9 @@
         "aperol",
         "complex"
       ]
-    }
+    },
+    "foodPairings": ["charcuterie", "grilled-meats", "italian-appetizers", "aged-cheese"],
+    "dessertPairings": ["dark-chocolate", "espresso-desserts", "bourbon-pecan-pie", "caramel-desserts"]
   },
   {
     "id": "raspberry-mojito",
@@ -678,6 +704,8 @@
         "rum",
         "refreshing"
       ]
-    }
+    },
+    "foodPairings": ["salads", "seafood", "light-dishes", "cuban-cuisine"],
+    "dessertPairings": ["berry-tart", "lime-sorbet", "fruit-salad", "key-lime-pie"]
   }
 ]

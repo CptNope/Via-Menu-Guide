@@ -42,7 +42,8 @@
         "velvety"
       ]
     },
-    "website": "https://www.paulhobbs.com/"
+    "website": "https://www.paulhobbs.com/",
+    "region": "Argentina"
   },
   {
     "id": "stags-leap-merlot",
@@ -86,6 +87,7 @@
         "elegant"
       ]
     },
-    "website": "https://www.stagsleap.com/"
+    "website": "https://www.stagsleap.com/",
+    "region": "Napa Valley"
   }
 ]

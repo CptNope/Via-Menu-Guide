@@ -36,7 +36,6 @@ import drinksSauvignonBlancBottles from "./data/drinks-sauvignon-blanc-bottles.j
 import drinksChardonnayBottles from "./data/drinks-chardonnay-bottles.json";
 import drinksInterestingWhitesBottles from "./data/drinks-interesting-whites-bottles.json";
 import drinksSparklingBottles from "./data/drinks-sparkling-bottles.json";
-import drinksHalfBottlesWine from "./data/drinks-half-bottles-wine.json";
 import drinksBourbon from "./data/drinks-bourbon.json";
 import drinksRye from "./data/drinks-rye.json";
 import drinksScotch from "./data/drinks-scotch.json";
@@ -76,7 +75,6 @@ const drinksData = [
   ...drinksInterestingWhitesBottles,
   ...drinksSparklingBottles,
   ...drinksHalfBottles,
-  ...drinksHalfBottlesWine,
   ...drinksBourbon,
   ...drinksRye,
   ...drinksScotch,

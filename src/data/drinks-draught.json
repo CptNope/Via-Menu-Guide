@@ -45,7 +45,8 @@
         "light-malt",
         "corn",
         "refreshing"
-      ]
+      ],
+    "region": "Italy"
     }
   },
   {
@@ -93,7 +94,8 @@
         "toasted-bread",
         "biscuit",
         "smooth"
-      ]
+      ],
+    "region": "Massachusetts"
     }
   },
   {
@@ -141,7 +143,8 @@
         "mango",
         "pine",
         "intense-hops"
-      ]
+      ],
+    "region": "Massachusetts"
     }
   },
   {
@@ -189,7 +192,8 @@
         "citrus",
         "resinous",
         "clean"
-      ]
+      ],
+    "region": "Massachusetts"
     }
   }
 ]

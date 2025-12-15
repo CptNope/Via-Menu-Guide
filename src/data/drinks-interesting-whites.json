@@ -40,7 +40,8 @@
         "green-apple",
         "mineral",
         "crisp"
-      ]
+      ],
+    "region": "Italy"
     }
   },
   {
@@ -83,7 +84,8 @@
         "apricot",
         "honey",
         "off-dry"
-      ]
+      ],
+    "region": "Germany"
     }
   },
   {
@@ -127,7 +129,8 @@
         "citrus",
         "stone-fruit",
         "crisp"
-      ]
+      ],
+    "region": "Piedmont"
     }
   },
   {
@@ -172,7 +175,8 @@
         "white-peach",
         "herbal",
         "mineral"
-      ]
+      ],
+    "region": "Tuscany"
     }
   },
   {
@@ -209,7 +213,8 @@
         "almond",
         "white-flowers",
         "rich"
-      ]
+      ],
+    "region": "Piedmont"
     }
   },
   {
@@ -246,7 +251,8 @@
         "white-peach",
         "mineral",
         "elegant"
-      ]
+      ],
+    "region": "Italy"
     }
   }
 ]

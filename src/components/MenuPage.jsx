@@ -333,19 +333,22 @@ function MenuPage({ title, data }) {
                     <CategoryWineMap wines={grouped[cat]} categoryName={cat} />
                   )}
 
-                  {/* International Wine Maps (bottles and by glass) */}
+                  {/* International Wine Maps (bottles, half bottles, and by glass) */}
                   {(cat === "Merlot & Malbec Bottles" || cat === "Merlot & Malbec" ||
                     cat === "Pinot Noir & Interesting Reds Bottles" || cat === "Organic Pinot Noir" ||
                     cat === "Cabernet & Blends Bottles" || cat === "Cabernet & Blends" ||
                     cat === "Sauvignon Blanc Bottles" || cat === "Sauvignon Blanc" ||
                     cat === "Chardonnay Bottles" || cat === "Chardonnay" ||
                     cat === "Interesting Whites Bottles" || cat === "Interesting Whites" ||
-                    cat === "Sparkling Bottles" || cat === "Sparkling") && (
+                    cat === "Sparkling Bottles" || cat === "Sparkling" ||
+                    cat === "Half Bottles") && (
                     <InternationalWineMap wines={grouped[cat]} categoryName={cat} />
                   )}
 
                   {/* Spirits Maps */}
-                  {(cat === "Bourbon" || cat === "Rye" || cat === "Scotch") && (
+                  {(cat === "Bourbon" || cat === "Rye" || cat === "Scotch" ||
+                    cat === "Cognac" || cat === "Grappa" || cat === "Port" ||
+                    cat === "Amaro & Digestivo") && (
                     <SpiritsMap spirits={grouped[cat]} categoryName={cat} />
                   )}
                   

@@ -7,6 +7,8 @@ import WinePairingDisplay from "./WinePairingDisplay.jsx";
 import FoodPairingDisplay from "./FoodPairingDisplay.jsx";
 import BeveragePairingDisplay from "./BeveragePairingDisplay.jsx";
 import ItalianWineMapInteractive from "./ItalianWineMapInteractive.jsx";
+import InternationalWineMapInteractive from "./InternationalWineMapInteractive.jsx";
+import SpiritsMapInteractive from "./SpiritsMapInteractive.jsx";
 import { usePairingData } from "../hooks/usePairingData.js";
 
 function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = false }) {
@@ -128,8 +130,56 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
         </div>
       )}
 
-      {item.region && (item.category === "Italian Reds Bottles" || item.category === "Super Tuscan Bottles") && (
+      {/* Italian Wine Maps (bottles and by glass) */}
+      {item.region && (
+        item.category === "Italian Reds Bottles" || 
+        item.category === "Super Tuscan Bottles" ||
+        item.category === "Italian Reds" ||
+        item.category === "Super Tuscan"
+      ) && (
         <ItalianWineMapInteractive wine={item} />
+      )}
+
+      {/* International Wine Maps (bottles, half bottles, and by glass) */}
+      {item.region && (
+        item.category === "Merlot & Malbec Bottles" ||
+        item.category === "Merlot & Malbec" ||
+        item.category === "Pinot Noir & Interesting Reds Bottles" ||
+        item.category === "Organic Pinot Noir" ||
+        item.category === "Cabernet & Blends Bottles" ||
+        item.category === "Cabernet & Blends" ||
+        item.category === "Sauvignon Blanc Bottles" ||
+        item.category === "Sauvignon Blanc" ||
+        item.category === "Chardonnay Bottles" ||
+        item.category === "Chardonnay" ||
+        item.category === "Interesting Whites Bottles" ||
+        item.category === "Interesting Whites" ||
+        item.category === "Sparkling Bottles" ||
+        item.category === "Sparkling" ||
+        item.category === "Half Bottles"
+      ) && (
+        <InternationalWineMapInteractive wine={item} />
+      )}
+
+      {/* Spirits Maps (bourbon, rye, scotch, cognac, grappa, port, amaro) */}
+      {item.region && (
+        item.category === "Bourbon" ||
+        item.category === "Rye" ||
+        item.category === "Scotch" ||
+        item.category === "Cognac" ||
+        item.category === "Grappa" ||
+        item.category === "Port" ||
+        item.category === "Amaro & Digestivo"
+      ) && (
+        <SpiritsMapInteractive spirit={item} />
+      )}
+
+      {/* Beer Maps (draught and bottles/cans) */}
+      {item.region && (
+        item.category === "Draught" ||
+        item.category === "Bottles & Cans"
+      ) && (
+        <InternationalWineMapInteractive wine={item} />
       )}
 
       {item.serverNotes && (
@@ -158,6 +208,22 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
       {item.garnish && (
         <div className="garnish-info">
           <strong>🍋 Garnish:</strong> {item.garnish}
+        </div>
+      )}
+
+      {/* Static Food Pairings for Cocktails & Mocktails */}
+      {item.foodPairings && item.foodPairings.length > 0 && (
+        <div className="cocktail-pairings">
+          <strong>🍽️ Food Pairings:</strong>{' '}
+          {item.foodPairings.map(p => p.replace(/-/g, ' ')).join(', ')}
+        </div>
+      )}
+
+      {/* Static Dessert Pairings for Cocktails & Mocktails */}
+      {item.dessertPairings && item.dessertPairings.length > 0 && (
+        <div className="cocktail-pairings">
+          <strong>🍰 Dessert Pairings:</strong>{' '}
+          {item.dessertPairings.map(p => p.replace(/-/g, ' ')).join(', ')}
         </div>
       )}
 

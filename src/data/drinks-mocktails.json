@@ -16,7 +16,37 @@
       "elderflower",
       "vanilla"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "🍐 ABOUT: Elegant non-alcoholic cocktail with pear purée, fresh lemon, Fever-Tree elderflower tonic & vanilla bean. Sophisticated & refreshing!\n\n🍹 PROFILE: Fruit-Forward & Floral | Sweet pear, bright lemon, delicate elderflower & warm vanilla | Light, effervescent | Beautiful presentation!\n\n🍽️ PAIRS WITH: Cheese plates, pork dishes, autumn salads, roasted chicken, light appetizers.\n\n🍰 DESSERT PAIRINGS: Apple tart, pear crisp, vanilla panna cotta, crème brûlée.\n\n💡 SERVING TIP: Perfect for guests who want sophistication without alcohol. Great for designated drivers, expecting mothers, or anyone preferring alcohol-free options!",
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 7,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 5,
+      "intensity": 5,
+      "complexity": 6,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "pear",
+        "elderflower",
+        "vanilla",
+        "lemon",
+        "floral"
+      ]
+    },
+    "foodPairings": ["cheese-plate", "pork-dishes", "autumn-salad", "roasted-chicken", "light-appetizers"],
+    "dessertPairings": ["apple-tart", "pear-crisp", "vanilla-panna-cotta", "creme-brulee"]
   },
   {
     "id": "toothless-mule",
@@ -35,7 +65,38 @@
       "rosemary",
       "ginger"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "🦷 ABOUT: Playful spin on Moscow Mule without the 'bite'! Apple cider, passionfruit purée, fresh rosemary & Fever-Tree ginger beer. Bold & refreshing!\n\n🍹 PROFILE: Spiced & Tropical | Crisp apple, exotic passionfruit, herbaceous rosemary & spicy ginger | Effervescent kick | Great ginger warmth!\n\n🍽️ PAIRS WITH: Pork chops, roasted chicken, autumn dishes, Asian cuisine, grilled vegetables.\n\n🍰 DESSERT PAIRINGS: Apple pie, ginger cookies, tropical fruit, caramel desserts.\n\n💡 SERVING TIP: The name is a fun nod to Moscow Mule! Perfect for guests who love ginger beer but want alcohol-free. Great year-round but especially popular in fall!",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 4,
+      "saltiness": 0,
+      "richness": 4,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 8,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 6,
+      "herbaceousness": 5,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "apple",
+        "passionfruit",
+        "ginger",
+        "rosemary",
+        "spicy"
+      ]
+    },
+    "foodPairings": ["pork-chops", "roasted-chicken", "autumn-dishes", "asian-cuisine", "grilled-vegetables"],
+    "dessertPairings": ["apple-pie", "ginger-cookies", "tropical-fruit", "caramel-desserts"]
   },
   {
     "id": "free-spritz",
@@ -55,6 +116,136 @@
       "ginger",
       "passionfruit"
     ],
-    "allergens": []
+    "allergens": [],
+    "serverNotes": "🍊 ABOUT: Aperol Spritz vibes without the alcohol! Blood orange, cranberry, lime, ginger beer, passionfruit & Fever-Tree non-alcoholic aperitif syrup. Italian aperitivo style!\n\n🍹 PROFILE: Bright & Bitter-Sweet | Blood orange citrus, tart cranberry, tropical passionfruit & subtle bitterness | Effervescent & complex | Beautiful sunset color!\n\n🍽️ PAIRS WITH: Italian appetizers, antipasto, bruschetta, salads, seafood, light pasta.\n\n🍰 DESSERT PAIRINGS: Orange sorbet, fruit tart, panna cotta, citrus cake.\n\n💡 SERVING TIP: Perfect for guests who love Aperol Spritz but want alcohol-free! Great aperitivo choice. The 'Free' name celebrates freedom from alcohol while keeping all the flavor!",
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 8,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 6,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "blood-orange",
+        "cranberry",
+        "passionfruit",
+        "bitter-sweet",
+        "refreshing"
+      ]
+    },
+    "foodPairings": ["italian-appetizers", "antipasto", "bruschetta", "salads", "seafood", "light-pasta"],
+    "dessertPairings": ["orange-sorbet", "fruit-tart", "panna-cotta", "citrus-cake"]
+  },
+  {
+    "id": "blueberry-bombshell-mocktail",
+    "name": "Blueberry Bombshell (Mocktail)",
+    "description": "Blueberry Purée, Lemon Sorbet, Pineapple Juice, Sparkling Water",
+    "garnish": "Fresh blueberries",
+    "price": 10,
+    "category": "Mocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "blueberry",
+      "lemon",
+      "pineapple",
+      "sparkling-water"
+    ],
+    "allergens": [],
+    "serverNotes": "💙 ABOUT: Non-alcoholic version of our popular Blueberry Bombshell! Blueberry purée, lemon sorbet, pineapple juice & sparkling water. Instagram-worthy & refreshing!\n\n🍹 PROFILE: Berry-Tropical Fusion | Sweet blueberry, tart lemon sorbet & tropical pineapple | Beautiful layered effect | Light, fun & fruity!\n\n🍽️ PAIRS WITH: Brunch dishes, fruit salads, light salads, eggs benedict, pancakes.\n\n🍰 DESSERT PAIRINGS: Berry tart, lemon cake, fruit sorbet, panna cotta, cheesecake.\n\n💡 SERVING TIP: The sorbet keeps it cold while creating visual appeal! Perfect for celebrations, kids' special occasions, or anyone wanting the cocktail experience without alcohol. Crowd-pleasing favorite!",
+    "flavorProfile": {
+      "sweetness": 7,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 6,
+      "fruitiness": 10,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 5,
+      "creaminess": 3,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "blueberry",
+        "pineapple",
+        "lemon",
+        "fruity",
+        "refreshing"
+      ]
+    },
+    "foodPairings": ["brunch-dishes", "fruit-salad", "light-salads", "eggs-benedict", "pancakes"],
+    "dessertPairings": ["berry-tart", "lemon-cake", "fruit-sorbet", "panna-cotta", "cheesecake"]
+  },
+  {
+    "id": "raspberry-mojito-mocktail",
+    "name": "Raspberry Mojito (Mocktail)",
+    "description": "Fresh Raspberries, Mint, Lime, Simple Syrup, Soda Water",
+    "garnish": "Fresh mint & raspberries",
+    "price": 10,
+    "category": "Mocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": true,
+    "ingredients": [
+      "raspberry",
+      "mint",
+      "lime",
+      "soda"
+    ],
+    "allergens": [],
+    "serverNotes": "🍓 ABOUT: Non-alcoholic version of our signature Raspberry Mojito! Fresh raspberries, muddled mint, lime & soda water. Classic mojito refreshment without the rum!\n\n🍹 PROFILE: Fruity & Herbaceous | Sweet raspberry, fresh mint, bright lime & effervescent bubbles | Crisp & cooling | Perfect summer refresher!\n\n🍽️ PAIRS WITH: Salads, seafood, light dishes, Cuban-inspired cuisine, grilled chicken.\n\n🍰 DESSERT PAIRINGS: Berry tart, lime sorbet, fruit salad, key lime pie, raspberry cheesecake.\n\n💡 SERVING TIP: Fresh mint muddled for authentic mojito character! Perfect for warm weather, celebrations, or guests who love classic cocktails without alcohol. Great for designated drivers & expecting mothers!",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 0,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 7,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 2,
+      "finish": 5,
+      "herbaceousness": 7,
+      "intensity": 6,
+      "complexity": 5,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "raspberry",
+        "mint",
+        "lime",
+        "refreshing",
+        "fruity"
+      ]
+    },
+    "foodPairings": ["salads", "seafood", "light-dishes", "cuban-cuisine", "grilled-chicken"],
+    "dessertPairings": ["berry-tart", "lime-sorbet", "fruit-salad", "key-lime-pie", "raspberry-cheesecake"]
   }
 ]

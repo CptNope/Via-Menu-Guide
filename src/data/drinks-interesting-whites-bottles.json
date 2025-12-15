@@ -42,7 +42,8 @@
         "everyday"
       ]
     },
-    "website": "https://www.batasiolo.com/"
+    "website": "https://www.batasiolo.com/",
+    "region": "Piedmont"
   },
   {
     "id": "sorbara-lambrusco-rose-bottle",
@@ -86,7 +87,8 @@
         "lightly-sparkling"
       ]
     },
-    "website": "https://www.cantinedisorbara.it/"
+    "website": "https://www.cantinedisorbara.it/",
+    "region": "Italy"
   },
   {
     "id": "elena-walch-gewurztraminer-bottle",
@@ -130,7 +132,8 @@
         "aromatic"
       ]
     },
-    "website": "https://www.elenawalch.com/"
+    "website": "https://www.elenawalch.com/",
+    "region": "Italy"
   },
   {
     "id": "la-fiera-pinot-grigio-bottle",
@@ -173,7 +176,8 @@
         "aperitif"
       ]
     },
-    "website": "https://www.lafiera.it/"
+    "website": "https://www.lafiera.it/",
+    "region": "Italy"
   },
   {
     "id": "loosen-riesling-bottle",
@@ -216,7 +220,8 @@
         "off-dry"
       ]
     },
-    "website": "https://www.drloosen.com/"
+    "website": "https://www.drloosen.com/",
+    "region": "Germany"
   },
   {
     "id": "trimbach-riesling-bottle",
@@ -306,7 +311,8 @@
         "volcanic"
       ]
     },
-    "website": "https://www.vinibenanti.it/"
+    "website": "https://www.vinibenanti.it/",
+    "region": "Sicily"
   },
   {
     "id": "gd-vajra-rosa-bella-bottle",
@@ -350,7 +356,8 @@
         "elegant-rosé"
       ]
     },
-    "website": "https://www.gdvajra.com/"
+    "website": "https://www.gdvajra.com/",
+    "region": "Piedmont"
   },
   {
     "id": "gianni-gagliardo-roero-arneis-bottle",
@@ -394,7 +401,8 @@
         "Arneis"
       ]
     },
-    "website": "https://www.gagliardowine.com/"
+    "website": "https://www.gagliardowine.com/",
+    "region": "Piedmont"
   },
   {
     "id": "guado-al-tasso-vermentino-bottle",
@@ -438,7 +446,8 @@
         "Antinori"
       ]
     },
-    "website": "https://www.antinori.it/"
+    "website": "https://www.antinori.it/",
+    "region": "Tuscany"
   },
   {
     "id": "santa-margherita-pinot-grigio-bottle",
@@ -481,6 +490,7 @@
         "benchmark"
       ]
     },
-    "website": "https://www.santamargherita.com/"
+    "website": "https://www.santamargherita.com/",
+    "region": "Italy"
   }
 ]

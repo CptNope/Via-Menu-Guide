@@ -45,7 +45,27 @@ const regionColors = {
   // Other
   'Canada': '#DC143C',
   'Ireland': '#228B22',
-  'Japan': '#B22222'
+  'Japan': '#B22222',
+  // Cognac
+  'Cognac': '#D4AF37',
+  'France': '#0055A4',
+  // Amaro & Italian Regions
+  'Sicily': '#FF6B35',
+  'Lombardy': '#C41E3A',
+  'Piedmont': '#8B0000',
+  'Veneto': '#B22222',
+  'Friuli': '#CD5C5C',
+  'Trentino': '#DC143C',
+  // US Amaro Regions
+  'Washington DC': '#3C3B6E',
+  'USA': '#B22234',
+  'Brooklyn, NY': '#FF6600',
+  'New York': '#1C3879',
+  'Florida': '#F4A460',
+  // Port
+  'Douro Valley': '#006847',
+  'Portugal': '#FF0000',
+  'Porto': '#003399'
 };
 
 const regionIcons = Object.fromEntries(
@@ -71,22 +91,133 @@ const regionCenters = {
   // Other
   'Canada': [43.7, -79.4],
   'Ireland': [53.3, -6.3],
-  'Japan': [34.7, 135.5]
+  'Japan': [34.7, 135.5],
+  // Cognac
+  'Cognac': [45.7, -0.33],
+  'France': [46.6, 2.0],
+  // Italian Amaro Regions
+  'Sicily': [37.5, 14.0],
+  'Lombardy': [45.47, 9.19],
+  'Piedmont': [44.7, 8.0],
+  'Veneto': [45.5, 11.5],
+  'Friuli': [46.07, 13.23],
+  'Trentino': [46.07, 11.12],
+  // US Amaro Regions
+  'Washington DC': [38.9, -77.0],
+  'USA': [39.8, -98.6],
+  'Brooklyn, NY': [40.65, -73.95],
+  'New York': [42.5, -76.0],
+  'Florida': [27.6, -81.5],
+  // Port
+  'Douro Valley': [41.15, -7.8],
+  'Portugal': [39.5, -8.0],
+  'Porto': [41.16, -8.63]
 };
 
 // Landmarks/distillery regions
 const regionLandmarks = {
   'Kentucky': [
     { name: 'Bardstown', coords: [37.8, -85.5], description: 'Bourbon Capital of the World', link: 'https://en.wikipedia.org/wiki/Bardstown,_Kentucky' },
-    { name: 'Louisville', coords: [38.25, -85.76], description: 'Kentucky Bourbon Trail start', link: 'https://en.wikipedia.org/wiki/Louisville,_Kentucky' }
+    { name: 'Louisville', coords: [38.25, -85.76], description: 'Kentucky Bourbon Trail start', link: 'https://en.wikipedia.org/wiki/Louisville,_Kentucky' },
+    { name: 'Frankfort', coords: [38.2, -84.87], description: 'Buffalo Trace Distillery', link: 'https://en.wikipedia.org/wiki/Frankfort,_Kentucky' }
   ],
+  'Tennessee': [
+    { name: 'Lynchburg', coords: [35.28, -86.37], description: 'Jack Daniel\'s home', link: 'https://en.wikipedia.org/wiki/Lynchburg,_Tennessee' },
+    { name: 'Shelbyville', coords: [35.48, -86.46], description: 'Uncle Nearest Distillery', link: 'https://en.wikipedia.org/wiki/Shelbyville,_Tennessee' }
+  ],
+  'Vermont': [
+    { name: 'Waterbury', coords: [44.34, -72.76], description: 'WhistlePig Farm', link: 'https://en.wikipedia.org/wiki/WhistlePig' },
+    { name: 'Warren', coords: [44.12, -72.86], description: 'Mad River Distillers', link: 'https://en.wikipedia.org/wiki/Warren,_Vermont' }
+  ],
+  'Utah': [
+    { name: 'Park City', coords: [40.65, -111.5], description: 'High West Distillery', link: 'https://en.wikipedia.org/wiki/High_West_Distillery' }
+  ],
+  'Massachusetts': [
+    { name: 'Everett', coords: [42.41, -71.05], description: 'Short Path Distillery', link: 'https://en.wikipedia.org/wiki/Everett,_Massachusetts' }
+  ],
+  // Scottish Whisky Regions - ALL 5 official regions
   'Speyside': [
-    { name: 'Dufftown', coords: [57.45, -3.12], description: 'Malt Whisky Capital', link: 'https://en.wikipedia.org/wiki/Dufftown' },
-    { name: 'Rothes', coords: [57.53, -3.20], description: 'Historic distillery town', link: 'https://en.wikipedia.org/wiki/Rothes' }
+    { name: 'Dufftown', coords: [57.45, -3.12], description: 'Malt Whisky Capital - Glenfiddich, Balvenie', link: 'https://en.wikipedia.org/wiki/Dufftown' },
+    { name: 'Rothes', coords: [57.53, -3.20], description: 'Glenrothes & Glen Grant', link: 'https://en.wikipedia.org/wiki/Rothes' },
+    { name: 'Craigellachie', coords: [57.45, -3.18], description: 'Macallan nearby', link: 'https://en.wikipedia.org/wiki/Craigellachie,_Moray' }
   ],
   'Islay': [
-    { name: 'Port Ellen', coords: [55.63, -6.19], description: 'Peated whisky center', link: 'https://en.wikipedia.org/wiki/Port_Ellen' },
-    { name: 'Bowmore', coords: [55.76, -6.29], description: 'Oldest Islay distillery', link: 'https://en.wikipedia.org/wiki/Bowmore_distillery' }
+    { name: 'Port Ellen', coords: [55.63, -6.19], description: 'Ardbeg, Lagavulin, Laphroaig', link: 'https://en.wikipedia.org/wiki/Port_Ellen' },
+    { name: 'Bowmore', coords: [55.76, -6.29], description: 'Oldest Islay distillery', link: 'https://en.wikipedia.org/wiki/Bowmore_distillery' },
+    { name: 'Bruichladdich', coords: [55.77, -6.36], description: 'Port Charlotte distillery', link: 'https://en.wikipedia.org/wiki/Bruichladdich_distillery' }
+  ],
+  'Highland': [
+    { name: 'Inverness', coords: [57.48, -4.22], description: 'Highland capital', link: 'https://en.wikipedia.org/wiki/Inverness' },
+    { name: 'Tain', coords: [57.81, -4.05], description: 'Glenmorangie home', link: 'https://en.wikipedia.org/wiki/Tain' },
+    { name: 'Oban', coords: [56.42, -5.47], description: 'West Highland gem', link: 'https://en.wikipedia.org/wiki/Oban_distillery' }
+  ],
+  'Lowland': [
+    { name: 'Edinburgh', coords: [55.95, -3.19], description: 'Scotland\'s capital', link: 'https://en.wikipedia.org/wiki/Edinburgh' },
+    { name: 'Glenkinchie', coords: [55.89, -2.89], description: 'Lowland single malt', link: 'https://en.wikipedia.org/wiki/Glenkinchie_distillery' },
+    { name: 'Auchentoshan', coords: [55.92, -4.44], description: 'Triple distilled', link: 'https://en.wikipedia.org/wiki/Auchentoshan_distillery' }
+  ],
+  'Campbeltown': [
+    { name: 'Campbeltown', coords: [55.43, -5.6], description: 'Historic whisky town - Springbank', link: 'https://en.wikipedia.org/wiki/Campbeltown' }
+  ],
+  'Scotland': [
+    { name: 'Edinburgh', coords: [55.95, -3.19], description: 'Scotland\'s capital', link: 'https://en.wikipedia.org/wiki/Edinburgh' },
+    { name: 'Glasgow', coords: [55.86, -4.25], description: 'Largest city', link: 'https://en.wikipedia.org/wiki/Glasgow' }
+  ],
+  'Canada': [
+    { name: 'Windsor', coords: [42.32, -83.04], description: 'Canadian Club home', link: 'https://en.wikipedia.org/wiki/Windsor,_Ontario' }
+  ],
+  // Cognac Region
+  'Cognac': [
+    { name: 'Cognac', coords: [45.7, -0.33], description: 'Heart of Cognac - Hennessy, Courvoisier', link: 'https://en.wikipedia.org/wiki/Cognac' },
+    { name: 'Jarnac', coords: [45.68, -0.17], description: 'Courvoisier & Delamain', link: 'https://en.wikipedia.org/wiki/Jarnac' },
+    { name: 'Segonzac', coords: [45.62, -0.22], description: 'Grande Champagne - premier cru', link: 'https://en.wikipedia.org/wiki/Segonzac,_Charente' }
+  ],
+  'France': [
+    { name: 'Cognac', coords: [45.7, -0.33], description: 'Cognac region', link: 'https://en.wikipedia.org/wiki/Cognac' }
+  ],
+  // Italian Amaro Regions
+  'Sicily': [
+    { name: 'Catania', coords: [37.51, 15.09], description: 'Mt. Etna amaro region', link: 'https://en.wikipedia.org/wiki/Catania' },
+    { name: 'Palermo', coords: [38.12, 13.36], description: 'Sicilian amaro tradition', link: 'https://en.wikipedia.org/wiki/Palermo' }
+  ],
+  'Italy': [
+    { name: 'Milan', coords: [45.47, 9.19], description: 'Campari & Fernet Branca home', link: 'https://en.wikipedia.org/wiki/Milan' },
+    { name: 'Bologna', coords: [44.49, 11.34], description: 'Amaro Montenegro home', link: 'https://en.wikipedia.org/wiki/Bologna' },
+    { name: 'Benevento', coords: [41.13, 14.78], description: 'Strega liqueur home', link: 'https://en.wikipedia.org/wiki/Benevento' }
+  ],
+  'Lombardy': [
+    { name: 'Milan', coords: [45.47, 9.19], description: 'Campari & amaro capital', link: 'https://en.wikipedia.org/wiki/Milan' },
+    { name: 'Bergamo', coords: [45.7, 9.67], description: 'Fernet Branca production', link: 'https://en.wikipedia.org/wiki/Bergamo' }
+  ],
+  'Friuli': [
+    { name: 'Udine', coords: [46.07, 13.23], description: 'Nonino grappa & amaro', link: 'https://en.wikipedia.org/wiki/Udine' }
+  ],
+  // US Amaro Regions
+  'Massachusetts': [
+    { name: 'Boston', coords: [42.36, -71.06], description: 'Bully Boy Distillers', link: 'https://en.wikipedia.org/wiki/Boston' }
+  ],
+  'Washington DC': [
+    { name: 'Washington DC', coords: [38.9, -77.0], description: 'Don Ciccio & Figli', link: 'https://en.wikipedia.org/wiki/Washington,_D.C.' }
+  ],
+  'Brooklyn, NY': [
+    { name: 'Red Hook', coords: [40.67, -74.01], description: 'Faccia Brutto craft amaro', link: 'https://en.wikipedia.org/wiki/Red_Hook,_Brooklyn' }
+  ],
+  'Florida': [
+    { name: 'Miami', coords: [25.76, -80.19], description: 'Perrine Key Lime Amaro', link: 'https://en.wikipedia.org/wiki/Miami' }
+  ],
+  'USA': [
+    { name: 'Craft Distilleries', coords: [39.8, -98.6], description: 'American craft amaro movement', link: 'https://en.wikipedia.org/wiki/Craft_distillery' }
+  ],
+  // Port Regions
+  'Douro Valley': [
+    { name: 'Pinhão', coords: [41.19, -7.54], description: 'Heart of Port country', link: 'https://en.wikipedia.org/wiki/Pinh%C3%A3o' },
+    { name: 'Peso da Régua', coords: [41.16, -7.79], description: 'Douro wine capital', link: 'https://en.wikipedia.org/wiki/Peso_da_R%C3%A9gua' }
+  ],
+  'Porto': [
+    { name: 'Vila Nova de Gaia', coords: [41.13, -8.62], description: 'Port wine cellars', link: 'https://en.wikipedia.org/wiki/Vila_Nova_de_Gaia' }
+  ],
+  'Portugal': [
+    { name: 'Porto', coords: [41.16, -8.63], description: 'Port wine capital', link: 'https://en.wikipedia.org/wiki/Porto' }
   ]
 };
 
@@ -117,12 +248,20 @@ function SpiritsMap({ spirits, categoryName }) {
     if (categoryName === 'Scotch') return [56.5, -4.0]; // Scotland
     if (categoryName === 'Bourbon') return [38.0, -85.5]; // Kentucky
     if (categoryName === 'Rye') return [42.0, -75.0]; // Northeast USA
+    if (categoryName === 'Cognac') return [45.7, -0.33]; // Cognac, France
+    if (categoryName === 'Grappa') return [45.5, 11.5]; // Veneto, Italy
+    if (categoryName === 'Port') return [41.15, -7.8]; // Douro, Portugal
+    if (categoryName === 'Amaro & Digestivo') return [42.5, 12.5]; // Italy
     return [40.0, -80.0]; // Default USA center
   };
 
   const getMapZoom = () => {
     if (categoryName === 'Scotch') return 6;
     if (categoryName === 'Bourbon') return 6;
+    if (categoryName === 'Cognac') return 9;
+    if (categoryName === 'Grappa') return 7;
+    if (categoryName === 'Port') return 8;
+    if (categoryName === 'Amaro & Digestivo') return 6;
     return 5;
   };
 

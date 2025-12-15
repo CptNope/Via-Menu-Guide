@@ -33,7 +33,8 @@
         "raspberry",
         "earthy",
         "silky"
-      ]
+      ],
+    "region": "Oregon"
     }
   },
   {
@@ -69,7 +70,8 @@
         "strawberry",
         "vanilla",
         "spice"
-      ]
+      ],
+    "region": "California"
     }
   }
 ]

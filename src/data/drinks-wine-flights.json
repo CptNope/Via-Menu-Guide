@@ -39,7 +39,9 @@
         "educational",
         "four-styles"
       ]
-    }
+    },
+    "foodPairings": ["shrimp-scampi", "fried-calamari", "tuna-tartare", "jumbo-shrimp-cocktail", "caesar-salad", "chicken-piccata", "pan-seared-octopus"],
+    "dessertPairings": ["lemon-tart", "fruit-sorbet", "panna-cotta", "fresh-berries"]
   },
   {
     "id": "tuscany-vs-usa-flight",
@@ -82,7 +84,9 @@
         "educational",
         "old-vs-new-world"
       ]
-    }
+    },
+    "foodPairings": ["chicken-parmesan", "eggplant-parmesan", "ragu-of-italian-meats", "three-meatballs", "veal-chop-parmesan", "braised-short-rib", "filet-mignon"],
+    "dessertPairings": ["tiramisu", "chocolate-lava-cake", "cannoli", "biscotti"]
   },
   {
     "id": "world-renown-winemakers-flight",
@@ -126,6 +130,8 @@
         "highly-rated",
         "world-class"
       ]
-    }
+    },
+    "foodPairings": ["lobster-stuffed-shells", "pan-seared-octopus", "veal-marsala", "filet-mignon", "osso-buco", "veal-chop-parmesan", "pan-roasted-salmon"],
+    "dessertPairings": ["tiramisu", "creme-brulee", "chocolate-desserts", "cheese-plate"]
   }
 ]

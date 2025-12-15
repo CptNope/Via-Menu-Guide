@@ -40,7 +40,8 @@
         "passion-fruit",
         "grass",
         "crisp"
-      ]
+      ],
+    "region": "New Zealand"
     }
   },
   {
@@ -76,7 +77,8 @@
         "melon",
         "oak",
         "rounded"
-      ]
+      ],
+    "region": "Napa Valley"
     }
   }
 ]

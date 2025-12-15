@@ -47,7 +47,8 @@
         "wheat",
         "orange-peel",
         "refreshing"
-      ]
+      ],
+    "region": "Maine"
     }
   },
   {
@@ -91,7 +92,8 @@
         "dry",
         "refreshing",
         "cider"
-      ]
+      ],
+    "region": "Massachusetts"
     }
   },
   {
@@ -140,7 +142,8 @@
         "crisp",
         "light-malt",
         "easy-drinking"
-      ]
+      ],
+    "region": "Massachusetts"
     }
   },
   {
@@ -188,7 +191,8 @@
         "pine",
         "grapefruit",
         "hoppy"
-      ]
+      ],
+    "region": "Massachusetts"
     }
   },
   {
@@ -234,7 +238,8 @@
         "vodka",
         "refreshing",
         "lightly-sweet"
-      ]
+      ],
+    "region": "Pennsylvania"
     }
   },
   {
@@ -283,7 +288,8 @@
         "toffee",
         "smooth",
         "balanced"
-      ]
+      ],
+    "region": "Vermont"
     }
   },
   {
@@ -331,7 +337,8 @@
         "tropical",
         "citrus",
         "clean"
-      ]
+      ],
+    "region": "Vermont"
     }
   },
   {
@@ -376,7 +383,8 @@
         "light",
         "refreshing",
         "vodka-soda"
-      ]
+      ],
+    "region": "California"
     }
   },
   {
@@ -421,7 +429,8 @@
         "light",
         "refreshing",
         "vodka-soda"
-      ]
+      ],
+    "region": "California"
     }
   },
   {
@@ -466,7 +475,8 @@
         "light",
         "refreshing",
         "vodka-soda"
-      ]
+      ],
+    "region": "California"
     }
   },
   {
@@ -507,7 +517,8 @@
         "bourbon",
         "caramel",
         "complex"
-      ]
+      ],
+    "region": "Maine"
     }
   }
 ]

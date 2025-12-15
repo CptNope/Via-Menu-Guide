@@ -450,6 +450,34 @@
   color: #4a2f1e;
 }
 
+/* Individual Wine Map Interactive (expandable) */
+.wine-map-interactive {
+  margin: 0.5rem 0;
+}
+
+.wine-map-header {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background: linear-gradient(135deg, #6b4a3b 0%, #8b5a4a 100%);
+  color: #f5e9da;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.wine-map-header:hover {
+  background: linear-gradient(135deg, #5a3a2b 0%, #7b4a3a 100%);
+  transform: translateY(-1px);
+}
+
+.wine-map-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 .wine-map-container {
   margin: 0.75rem 0;
   border: 2px solid #8b7355;
@@ -646,6 +674,22 @@
 
 .garnish-info strong {
   color: #2d6b2d;
+  font-weight: 600;
+}
+
+.cocktail-pairings {
+  font-size: 0.85rem;
+  color: #4a3828;
+  background: linear-gradient(135deg, #fff8f0 0%, #fef3e6 100%);
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 4px;
+  border-left: 3px solid #d4a574;
+  text-transform: capitalize;
+}
+
+.cocktail-pairings strong {
+  color: #8b5a2b;
   font-weight: 600;
 }
 

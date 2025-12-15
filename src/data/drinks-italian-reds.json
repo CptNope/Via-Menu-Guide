@@ -41,7 +41,8 @@
         "plum",
         "bright-fruit",
         "food-friendly"
-      ]
+      ],
+      "region": "Piedmont"
     }
   },
   {
@@ -86,7 +87,8 @@
         "herbs",
         "leather",
         "earthy"
-      ]
+      ],
+      "region": "Tuscany"
     }
   },
   {
@@ -131,7 +133,8 @@
         "tar",
         "red-fruit",
         "elegant"
-      ]
+      ],
+      "region": "Piedmont"
     }
   },
   {
@@ -176,7 +179,8 @@
         "raisin",
         "spice",
         "velvety"
-      ]
+      ],
+      "region": "Veneto"
     }
   },
   {
@@ -222,7 +226,8 @@
         "tobacco",
         "herbs",
         "elegant"
-      ]
+      ],
+      "region": "Tuscany"
     }
   }
 ]

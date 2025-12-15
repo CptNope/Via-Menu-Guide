@@ -90,7 +90,8 @@ const regionalLandmarks = {
   }
 };
 
-function MapView({ wine }) {
+function ItalianWineMapInteractive({ wine }) {
+  const [isExpanded, setIsExpanded] = useState(false);
   const [showLandmarks, setShowLandmarks] = useState(true);
   
   if (!wine || !wine.region) return null;
@@ -102,58 +103,72 @@ function MapView({ wine }) {
   const wineCoords = wine.coordinates || regionData.center;
 
   return (
-    <div className="wine-map-container">
-      <div className="map-controls">
-        <button 
-          className="map-toggle-btn"
-          onClick={() => setShowLandmarks(!showLandmarks)}
-        >
-          {showLandmarks ? '🏛️ Hide' : '🏛️ Show'} Landmarks
-        </button>
-        <span className="map-region-label">📍 {wine.region}, Italy</span>
-      </div>
-      
-      <MapContainer 
-        center={regionData.center} 
-        zoom={regionData.zoom} 
-        style={{ height: '300px', width: '100%', borderRadius: '8px' }}
-        scrollWheelZoom={false}
+    <div className="wine-map-interactive">
+      <div 
+        className="wine-map-header" 
+        onClick={() => setIsExpanded(!isExpanded)}
+        style={{ cursor: 'pointer' }}
       >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        
-        {/* Wine marker */}
-        <Marker position={wineCoords} icon={wineIcon}>
-          <Popup>
-            <div className="wine-popup">
-              <strong>{wine.name}</strong>
-              <p>{wine.description}</p>
-              {wine.winery && <p><em>Winery: {wine.winery}</em></p>}
-            </div>
-          </Popup>
-        </Marker>
+        <span className="wine-map-toggle">
+          🗺️ View {wine.region} Map {isExpanded ? '▼' : '▶'}
+        </span>
+      </div>
 
-        {/* Landmark markers */}
-        {showLandmarks && regionData.landmarks.map((landmark, idx) => (
-          <Marker key={idx} position={landmark.coords}>
-            <Popup>
-              <div className="landmark-popup">
-                <strong>{landmark.name}</strong>
-                <p>{landmark.description}</p>
-                {landmark.link && (
-                  <a href={landmark.link} target="_blank" rel="noopener noreferrer">
-                    Learn more →
-                  </a>
-                )}
-              </div>
-            </Popup>
-          </Marker>
-        ))}
-      </MapContainer>
+      {isExpanded && (
+        <div className="wine-map-container">
+          <div className="map-controls">
+            <button 
+              className="map-toggle-btn"
+              onClick={(e) => { e.stopPropagation(); setShowLandmarks(!showLandmarks); }}
+            >
+              {showLandmarks ? '🏛️ Hide' : '🏛️ Show'} Landmarks
+            </button>
+            <span className="map-region-label">📍 {wine.region}, Italy</span>
+          </div>
+          
+          <MapContainer 
+            center={regionData.center} 
+            zoom={regionData.zoom} 
+            style={{ height: '300px', width: '100%', borderRadius: '8px' }}
+            scrollWheelZoom={false}
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            
+            {/* Wine marker */}
+            <Marker position={wineCoords} icon={wineIcon}>
+              <Popup>
+                <div className="wine-popup">
+                  <strong>{wine.name}</strong>
+                  <p>{wine.description}</p>
+                  {wine.winery && <p><em>Winery: {wine.winery}</em></p>}
+                </div>
+              </Popup>
+            </Marker>
+
+            {/* Landmark markers */}
+            {showLandmarks && regionData.landmarks.map((landmark, idx) => (
+              <Marker key={idx} position={landmark.coords}>
+                <Popup>
+                  <div className="landmark-popup">
+                    <strong>{landmark.name}</strong>
+                    <p>{landmark.description}</p>
+                    {landmark.link && (
+                      <a href={landmark.link} target="_blank" rel="noopener noreferrer">
+                        Learn more →
+                      </a>
+                    )}
+                  </div>
+                </Popup>
+              </Marker>
+            ))}
+          </MapContainer>
+        </div>
+      )}
     </div>
   );
 }
 
-export default MapView;
+export default ItalianWineMapInteractive;

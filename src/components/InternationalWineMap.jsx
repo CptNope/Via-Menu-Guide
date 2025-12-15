@@ -127,8 +127,17 @@ const regionalLandmarks = {
     { name: 'Chablis', coords: [47.82, 3.8], description: 'Iconic Chardonnay region', link: 'https://en.wikipedia.org/wiki/Chablis_wine' }
   ],
   'Champagne': [
-    { name: 'Reims', coords: [49.2583, 4.0317], description: 'Champagne capital', link: 'https://en.wikipedia.org/wiki/Reims' },
-    { name: 'Épernay', coords: [49.0417, 3.9592], description: 'Avenue de Champagne', link: 'https://en.wikipedia.org/wiki/%C3%89pernay' }
+    { name: 'Reims', coords: [49.2583, 4.0317], description: 'Champagne capital - Veuve Clicquot, Taittinger', link: 'https://en.wikipedia.org/wiki/Reims' },
+    { name: 'Épernay', coords: [49.0417, 3.9592], description: 'Avenue de Champagne - Moët & Chandon, Dom Pérignon', link: 'https://en.wikipedia.org/wiki/%C3%89pernay' },
+    { name: 'Côte des Bar', coords: [48.15, 4.35], description: 'Southern Champagne - Moutard', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_des_Bar' },
+    { name: 'Montagne de Reims', coords: [49.15, 4.1], description: 'Pinot Noir heartland', link: 'https://en.wikipedia.org/wiki/Montagne_de_Reims' },
+    { name: 'Côte des Blancs', coords: [48.95, 3.95], description: 'Chardonnay paradise', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_des_Blancs' }
+  ],
+  // Italian Sparkling Regions
+  'Italy': [
+    { name: 'Conegliano', coords: [45.89, 12.30], description: 'Prosecco DOCG capital', link: 'https://en.wikipedia.org/wiki/Conegliano' },
+    { name: 'Valdobbiadene', coords: [45.9, 11.99], description: 'Premium Prosecco hills', link: 'https://en.wikipedia.org/wiki/Valdobbiadene' },
+    { name: 'Lombardy', coords: [45.47, 9.19], description: 'Moscato di Pavia region', link: 'https://en.wikipedia.org/wiki/Lombardy' }
   ],
   'Loire Valley': [
     { name: 'Sancerre', coords: [47.3333, 2.8333], description: 'Sauvignon Blanc home', link: 'https://en.wikipedia.org/wiki/Sancerre' },
@@ -197,9 +206,15 @@ function InternationalWineMap({ wines, categoryName }) {
     );
     if (allCalifornia) return { mapCenter: [37.5, -121.5], mapZoom: 6 };
     
-    // If only USA, zoom to USA
-    const allUSA = regions.every(r => 
+    // If West Coast USA (California + Oregon + Washington), zoom to West Coast
+    const allWestCoast = regions.every(r => 
       ['Napa Valley', 'Sonoma', 'California', 'Oregon', 'Washington State', 'Paso Robles'].includes(r)
+    );
+    if (allWestCoast) return { mapCenter: [40.5, -122.0], mapZoom: 5 };
+    
+    // If only USA (broader), zoom to USA
+    const allUSA = regions.every(r => 
+      ['Napa Valley', 'Sonoma', 'California', 'Oregon', 'Washington State', 'Paso Robles', 'New York', 'Virginia'].includes(r)
     );
     if (allUSA) return { mapCenter: [40.0, -100.0], mapZoom: 4 };
     
@@ -208,6 +223,18 @@ function InternationalWineMap({ wines, categoryName }) {
       ['Bordeaux', 'Burgundy', 'Champagne', 'Loire Valley', 'Rhone Valley', 'Alsace'].includes(r)
     );
     if (allFrance) return { mapCenter: [47.0, 2.5], mapZoom: 6 };
+    
+    // If Southern Hemisphere (Argentina, Chile, Australia, NZ, South Africa)
+    const allSouthern = regions.every(r => 
+      ['Argentina', 'Chile', 'Australia', 'New Zealand', 'South Africa'].includes(r)
+    );
+    if (allSouthern) return { mapCenter: [-30, 0], mapZoom: 2 };
+    
+    // If Americas mix (California/Napa + Argentina/Chile) - zoom to Americas
+    const allAmericas = regions.every(r => 
+      ['Napa Valley', 'Sonoma', 'California', 'Oregon', 'Washington State', 'Paso Robles', 'Argentina', 'Chile'].includes(r)
+    );
+    if (allAmericas) return { mapCenter: [5, -80], mapZoom: 3 };
     
     // Default world view
     return { mapCenter: [20, 0], mapZoom: 2 };

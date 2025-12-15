@@ -516,9 +516,10 @@
     "description": "Slowly roasted pork, meatball, beef, chicken, and sausage in marinara over mezzi rigatoni.",
     "price": 36.99,
     "category": "VIA Italian Classics",
-    "serverNotes": "Ultimate meat lover's dish. Five meats slow-roasted in marinara over GF mezzi rigatoni. Rich, hearty, indulgent. Pairs perfectly with bold Italian reds (Chianti Classico, Brunello, Amarone, Super Tuscans), or full-bodied reds. Great with craft beers. Signature dish.",
+    "serverNotes": "Ultimate meat lover's dish. Five meats slow-roasted in marinara over mezzi rigatoni. Rich, hearty, indulgent. Can be made gluten-free with GF penne substitution. Pairs perfectly with bold Italian reds (Chianti Classico, Brunello, Amarone, Super Tuscans), or full-bodied reds. Great with craft beers. Signature dish.",
     "vegetarian": false,
-    "glutenFree": true,
+    "glutenFree": false,
+    "canBeMadeGlutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": [
@@ -528,9 +529,11 @@
       "chicken",
       "sausage",
       "marinara-sauce",
-      "GF-mezzi-rigatoni"
+      "mezzi-rigatoni"
     ],
-    "allergens": [],
+    "allergens": [
+      "gluten"
+    ],
     "flavorProfile": {
       "sweetness": 3,
       "acidity": 5,

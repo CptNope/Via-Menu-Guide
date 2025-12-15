@@ -89,11 +89,20 @@ const regionalLandmarks = {
   'Napa Valley': [
     { name: 'Napa', coords: [38.2975, -122.2869], description: 'Napa Valley wine capital', link: 'https://en.wikipedia.org/wiki/Napa,_California' },
     { name: 'St. Helena', coords: [38.5052, -122.4703], description: 'Heart of Napa Valley', link: 'https://en.wikipedia.org/wiki/St._Helena,_California' },
-    { name: 'Yountville', coords: [38.4016, -122.3608], description: 'Culinary & wine destination', link: 'https://en.wikipedia.org/wiki/Yountville,_California' }
+    { name: 'Yountville', coords: [38.4016, -122.3608], description: 'Culinary & wine destination', link: 'https://en.wikipedia.org/wiki/Yountville,_California' },
+    { name: 'Knights Valley', coords: [38.6, -122.55], description: 'Premium Chardonnay AVA', link: 'https://en.wikipedia.org/wiki/Knights_Valley_AVA' }
   ],
   'Sonoma': [
     { name: 'Healdsburg', coords: [38.6102, -122.8695], description: 'Sonoma wine hub', link: 'https://en.wikipedia.org/wiki/Healdsburg,_California' },
-    { name: 'Sonoma Plaza', coords: [38.2919, -122.4580], description: 'Historic wine town', link: 'https://en.wikipedia.org/wiki/Sonoma,_California' }
+    { name: 'Sonoma Plaza', coords: [38.2919, -122.4580], description: 'Historic wine town', link: 'https://en.wikipedia.org/wiki/Sonoma,_California' },
+    { name: 'Fort Ross-Seaview', coords: [38.52, -123.24], description: 'Coastal Chardonnay & Pinot', link: 'https://en.wikipedia.org/wiki/Fort_Ross-Seaview_AVA' },
+    { name: 'Sonoma Coast', coords: [38.4, -122.9], description: 'Cool-climate excellence', link: 'https://en.wikipedia.org/wiki/Sonoma_Coast_AVA' }
+  ],
+  'California': [
+    { name: 'Carneros', coords: [38.25, -122.35], description: 'Cool Chardonnay & Pinot Noir', link: 'https://en.wikipedia.org/wiki/Los_Carneros_AVA' },
+    { name: 'Monterey', coords: [36.6, -121.9], description: 'Cool-climate Chardonnay', link: 'https://en.wikipedia.org/wiki/Monterey_AVA' },
+    { name: 'Santa Lucia Highlands', coords: [36.4, -121.4], description: 'Elevated Chardonnay terroir', link: 'https://en.wikipedia.org/wiki/Santa_Lucia_Highlands_AVA' },
+    { name: 'Russian River Valley', coords: [38.5, -122.9], description: 'Premium Chardonnay & Pinot', link: 'https://en.wikipedia.org/wiki/Russian_River_Valley_AVA' }
   ],
   'Paso Robles': [
     { name: 'Paso Robles', coords: [35.6266, -120.6907], description: 'Central Coast wine region', link: 'https://en.wikipedia.org/wiki/Paso_Robles,_California' }
@@ -102,26 +111,58 @@ const regionalLandmarks = {
     { name: 'Willamette Valley', coords: [45.2, -123.0], description: 'Pinot Noir paradise', link: 'https://en.wikipedia.org/wiki/Willamette_Valley_AVA' },
     { name: 'McMinnville', coords: [45.2104, -123.1987], description: 'Oregon wine country', link: 'https://en.wikipedia.org/wiki/McMinnville,_Oregon' }
   ],
+  'Washington State': [
+    { name: 'Walla Walla', coords: [46.07, -118.34], description: 'Premium wine region', link: 'https://en.wikipedia.org/wiki/Walla_Walla_Valley_AVA' },
+    { name: 'Columbia Valley', coords: [46.5, -119.5], description: 'Largest WA wine region', link: 'https://en.wikipedia.org/wiki/Columbia_Valley_AVA' }
+  ],
   'Bordeaux': [
     { name: 'Bordeaux', coords: [44.8378, -0.5792], description: 'World wine capital', link: 'https://en.wikipedia.org/wiki/Bordeaux' },
-    { name: 'Médoc', coords: [45.2, -0.8], description: 'Left Bank Cabernet', link: 'https://en.wikipedia.org/wiki/M%C3%A9doc' }
+    { name: 'Médoc', coords: [45.2, -0.8], description: 'Left Bank Cabernet', link: 'https://en.wikipedia.org/wiki/M%C3%A9doc' },
+    { name: 'Saint-Émilion', coords: [44.89, -0.15], description: 'Right Bank Merlot', link: 'https://en.wikipedia.org/wiki/Saint-%C3%89milion' }
   ],
   'Burgundy': [
     { name: 'Beaune', coords: [47.0253, 4.8395], description: 'Burgundy wine capital', link: 'https://en.wikipedia.org/wiki/Beaune' },
-    { name: 'Côte de Nuits', coords: [47.2, 4.95], description: 'Premier Pinot Noir', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_de_Nuits' }
+    { name: 'Côte de Nuits', coords: [47.2, 4.95], description: 'Premier Pinot Noir', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_de_Nuits' },
+    { name: 'Côte de Beaune', coords: [46.95, 4.85], description: 'Great white Burgundy', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_de_Beaune' },
+    { name: 'Chablis', coords: [47.82, 3.8], description: 'Iconic Chardonnay region', link: 'https://en.wikipedia.org/wiki/Chablis_wine' }
   ],
   'Champagne': [
     { name: 'Reims', coords: [49.2583, 4.0317], description: 'Champagne capital', link: 'https://en.wikipedia.org/wiki/Reims' },
     { name: 'Épernay', coords: [49.0417, 3.9592], description: 'Avenue de Champagne', link: 'https://en.wikipedia.org/wiki/%C3%89pernay' }
   ],
   'Loire Valley': [
-    { name: 'Sancerre', coords: [47.3333, 2.8333], description: 'Sauvignon Blanc home', link: 'https://en.wikipedia.org/wiki/Sancerre' }
+    { name: 'Sancerre', coords: [47.3333, 2.8333], description: 'Sauvignon Blanc home', link: 'https://en.wikipedia.org/wiki/Sancerre' },
+    { name: 'Pouilly-Fumé', coords: [47.28, 2.95], description: 'Flinty Sauvignon Blanc', link: 'https://en.wikipedia.org/wiki/Pouilly-Fum%C3%A9' }
+  ],
+  'Rhone Valley': [
+    { name: 'Châteauneuf-du-Pape', coords: [44.05, 4.83], description: 'Southern Rhône icon', link: 'https://en.wikipedia.org/wiki/Ch%C3%A2teauneuf-du-Pape' },
+    { name: 'Côte-Rôtie', coords: [45.5, 4.8], description: 'Northern Rhône Syrah', link: 'https://en.wikipedia.org/wiki/C%C3%B4te-R%C3%B4tie' }
   ],
   'Argentina': [
-    { name: 'Mendoza', coords: [-32.8895, -68.8458], description: 'Malbec capital', link: 'https://en.wikipedia.org/wiki/Mendoza,_Argentina' }
+    { name: 'Mendoza', coords: [-32.8895, -68.8458], description: 'Malbec capital', link: 'https://en.wikipedia.org/wiki/Mendoza,_Argentina' },
+    { name: 'Uco Valley', coords: [-33.8, -69.2], description: 'High-altitude wines', link: 'https://en.wikipedia.org/wiki/Uco_Valley' }
+  ],
+  'Chile': [
+    { name: 'Maipo Valley', coords: [-33.7, -70.6], description: 'Chile premier Cabernet', link: 'https://en.wikipedia.org/wiki/Maipo_Valley' },
+    { name: 'Colchagua', coords: [-34.5, -71.2], description: 'Red wine heartland', link: 'https://en.wikipedia.org/wiki/Colchagua_Valley' }
   ],
   'New Zealand': [
-    { name: 'Marlborough', coords: [-41.5, 173.8], description: 'Sauvignon Blanc region', link: 'https://en.wikipedia.org/wiki/Marlborough_Region' }
+    { name: 'Marlborough', coords: [-41.5, 173.8], description: 'Sauvignon Blanc region', link: 'https://en.wikipedia.org/wiki/Marlborough_Region' },
+    { name: 'Central Otago', coords: [-45.0, 169.2], description: 'Premium Pinot Noir', link: 'https://en.wikipedia.org/wiki/Central_Otago_wine_region' }
+  ],
+  'Australia': [
+    { name: 'Barossa Valley', coords: [-34.5, 138.9], description: 'Shiraz heartland', link: 'https://en.wikipedia.org/wiki/Barossa_Valley' },
+    { name: 'Margaret River', coords: [-33.95, 115.1], description: 'Premium Cabernet', link: 'https://en.wikipedia.org/wiki/Margaret_River_wine_region' }
+  ],
+  'South Africa': [
+    { name: 'Stellenbosch', coords: [-33.93, 18.86], description: 'SA wine capital', link: 'https://en.wikipedia.org/wiki/Stellenbosch' }
+  ],
+  'Spain': [
+    { name: 'Rioja', coords: [42.45, -2.45], description: 'Spanish red wine icon', link: 'https://en.wikipedia.org/wiki/Rioja_(wine)' },
+    { name: 'Ribera del Duero', coords: [41.6, -3.7], description: 'Tempranillo excellence', link: 'https://en.wikipedia.org/wiki/Ribera_del_Duero' }
+  ],
+  'Portugal': [
+    { name: 'Douro Valley', coords: [41.15, -7.8], description: 'Port wine home', link: 'https://en.wikipedia.org/wiki/Douro_DOC' }
   ]
 };
 

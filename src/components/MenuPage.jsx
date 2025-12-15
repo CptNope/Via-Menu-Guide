@@ -327,20 +327,24 @@ function MenuPage({ title, data }) {
 
               {isCategoryExpanded && (
                 <>
-                  {(cat === "Italian Reds Bottles" || cat === "Super Tuscan Bottles") && (
+                  {/* Italian Wine Maps (bottles and by glass) */}
+                  {(cat === "Italian Reds Bottles" || cat === "Super Tuscan Bottles" ||
+                    cat === "Italian Reds" || cat === "Super Tuscan") && (
                     <CategoryWineMap wines={grouped[cat]} categoryName={cat} />
                   )}
 
-                  {(cat === "Merlot & Malbec Bottles" || 
-                    cat === "Pinot Noir & Interesting Reds Bottles" ||
-                    cat === "Cabernet & Blends Bottles" ||
-                    cat === "Sauvignon Blanc Bottles" ||
-                    cat === "Chardonnay Bottles" ||
-                    cat === "Interesting Whites Bottles" ||
-                    cat === "Sparkling Bottles") && (
+                  {/* International Wine Maps (bottles and by glass) */}
+                  {(cat === "Merlot & Malbec Bottles" || cat === "Merlot & Malbec" ||
+                    cat === "Pinot Noir & Interesting Reds Bottles" || cat === "Organic Pinot Noir" ||
+                    cat === "Cabernet & Blends Bottles" || cat === "Cabernet & Blends" ||
+                    cat === "Sauvignon Blanc Bottles" || cat === "Sauvignon Blanc" ||
+                    cat === "Chardonnay Bottles" || cat === "Chardonnay" ||
+                    cat === "Interesting Whites Bottles" || cat === "Interesting Whites" ||
+                    cat === "Sparkling Bottles" || cat === "Sparkling") && (
                     <InternationalWineMap wines={grouped[cat]} categoryName={cat} />
                   )}
 
+                  {/* Spirits Maps */}
                   {(cat === "Bourbon" || cat === "Rye" || cat === "Scotch") && (
                     <SpiritsMap spirits={grouped[cat]} categoryName={cat} />
                   )}

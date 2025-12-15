@@ -254,6 +254,29 @@ function MenuPage({ title, data }) {
         preferences={pairingPreferences}
         onChange={setPairingPreferences}
       />
+
+      {/* Category Jump Buttons */}
+      {Object.keys(grouped).length > 1 && (
+        <div className="category-jump-nav">
+          <span className="jump-nav-label">Jump to:</span>
+          <div className="jump-buttons">
+            {Object.keys(grouped).map((cat) => (
+              <button
+                key={cat}
+                className="jump-btn"
+                onClick={() => {
+                  const element = document.getElementById(`category-${cat.replace(/[^a-zA-Z0-9]/g, '-')}`);
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }
+                }}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
       
       <FilterBar filters={filters} onChange={setFilters} showDrinkFilters={isDrinksMenu} />
 
@@ -264,7 +287,7 @@ function MenuPage({ title, data }) {
           const isEduExpanded = expandedEduCategories[cat];
           
           return (
-            <section key={cat} className="menu-category">
+            <section key={cat} className="menu-category" id={`category-${cat.replace(/[^a-zA-Z0-9]/g, '-')}`}>
               <div className="category-header">
                 <h2 className="menu-category-title">{cat}</h2>
                 <button

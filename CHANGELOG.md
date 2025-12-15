@@ -5,6 +5,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2024-12-15
+
+### Added
+- **Tip Tracker - Complete Overhaul**:
+  - Simplified data model: Tips on Check + Cash Walking (removed complex CC exchange fields)
+  - Partner tracking with autocomplete from previous entries
+  - Shift time tracking with automatic hourly rate calculations
+  - **Pops tracking**: Track food credits earned with optional reason field
+  - **Calendar View**: Monthly calendar grid showing daily tips with weekly totals
+    - Click any day to see full shift details with inline editing
+    - Edit/Delete buttons on each entry in calendar view
+    - Weekly summary column with shifts, hours, and hourly rate
+    - Monthly summary with averages and totals
+    - Swipe/touch friendly navigation between months
+  - **Bulk Edit Mode**: Quickly backfill multiple shifts at once
+    - Spreadsheet-style entry table
+    - Add 1, 5, or 10 rows at a time
+    - Copy date from previous row
+    - Real-time totals and validation
+  - View toggle between List and Calendar views
+- **Full Analytics**: Per-shift, weekly, monthly, and yearly breakdowns with hourly rates
+
+### Changed
+- Tip data structure simplified for easier entry
+- Import/Export updated to support all new fields
+- Calendar days converted to proper `<button>` elements for accessibility
+- Mobile touch targets increased to 44px minimum (Apple guidelines)
+
+### Fixed
+- Calendar now properly clickable and tab-selectable
+- Touch controls work correctly on mobile devices
+- Keyboard navigation (Tab, Enter, Space) works on calendar
+
+---
+
 ## [1.2.8] - 2024-12-15
 
 ### Added
@@ -68,6 +103,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 1.3.0 | 2024-12-15 | Tip tracker overhaul: calendar view, bulk edit, pops, inline editing |
 | 1.2.8 | 2024-12-15 | Complete whiskey, champagne, cognac, amaro & port maps with landmarks |
 | 1.2.7 | 2024-12-15 | Wine pairing fix, collapsible categories, GF corrections |
 | 1.2.6 | Previous | Wine maps, pairing system, educational guides |

@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from 'react';
 
 /**
- * Form component for adding/editing tip entries
+ * Tip entry form with partners and shift times for hourly tracking
  */
 function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
   const [formData, setFormData] = useState({
     date: new Date().toISOString().split('T')[0],
     startTime: '',
     endTime: '',
-    cashWalkedWith: '',
-    yourCreditTips: '',
+    tipsOnCheck: '',
+    cashWalking: '',
     partners: '',
-    ccTipsSent: '',
-    ccTipsReceived: '',
-    teamSize: '2',
+    pops: '',
+    popsReason: '',
     notes: ''
   });
 
@@ -24,12 +23,11 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
         date: editingTip.date,
         startTime: editingTip.startTime || '',
         endTime: editingTip.endTime || '',
-        cashWalkedWith: editingTip.cashWalkedWith || '',
-        yourCreditTips: editingTip.yourCreditTips || '',
+        tipsOnCheck: editingTip.tipsOnCheck || '',
+        cashWalking: editingTip.cashWalking || '',
         partners: editingTip.partners || '',
-        ccTipsSent: editingTip.ccTipsSent || '',
-        ccTipsReceived: editingTip.ccTipsReceived || '',
-        teamSize: editingTip.teamSize || '2',
+        pops: editingTip.pops || '',
+        popsReason: editingTip.popsReason || '',
         notes: editingTip.notes || ''
       });
     }
@@ -46,9 +44,8 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Validate at least one field is filled
-    if (!formData.cashWalkedWith && !formData.yourCreditTips && !formData.ccTipsSent && !formData.ccTipsReceived) {
-      alert('Please enter at least one value');
+    if (!formData.tipsOnCheck && !formData.cashWalking) {
+      alert('Please enter at least one amount');
       return;
     }
 
@@ -60,47 +57,34 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
         date: new Date().toISOString().split('T')[0],
         startTime: '',
         endTime: '',
-        cashWalkedWith: '',
-        yourCreditTips: '',
+        tipsOnCheck: '',
+        cashWalking: '',
         partners: '',
-        ccTipsSent: '',
-        ccTipsReceived: '',
-        teamSize: '2',
+        pops: '',
+        popsReason: '',
         notes: ''
       });
     }
   };
 
-  // Calculate shift duration in hours
+  // Calculate shift duration
   const calculateDuration = () => {
     if (!formData.startTime || !formData.endTime) return 0;
-    
     const start = new Date(`2000-01-01T${formData.startTime}`);
     let end = new Date(`2000-01-01T${formData.endTime}`);
-    
-    // Handle overnight shifts
-    if (end < start) {
-      end = new Date(`2000-01-02T${formData.endTime}`);
-    }
-    
-    const diffMs = end - start;
-    const hours = diffMs / (1000 * 60 * 60);
-    return hours;
+    if (end < start) end = new Date(`2000-01-02T${formData.endTime}`);
+    return (end - start) / (1000 * 60 * 60);
   };
 
-  const cashWalked = parseFloat(formData.cashWalkedWith) || 0;
-  const yourCC = parseFloat(formData.yourCreditTips) || 0;
-  const ccSent = parseFloat(formData.ccTipsSent) || 0;
-  const ccReceived = parseFloat(formData.ccTipsReceived) || 0;
-  
-  // Net Income = Cash you keep + CC tips received - CC tips sent
-  const netIncome = cashWalked + ccReceived - ccSent;
+  const tipsOnCheck = parseFloat(formData.tipsOnCheck) || 0;
+  const cashWalking = parseFloat(formData.cashWalking) || 0;
+  const totalTakeHome = tipsOnCheck + cashWalking;
   const duration = calculateDuration();
-  const hourlyRate = duration > 0 ? netIncome / duration : 0;
+  const hourlyRate = duration > 0 ? totalTakeHome / duration : 0;
 
   return (
     <form className="tip-entry-form" onSubmit={handleSubmit}>
-      <h3>{editingTip ? 'Edit Entry' : 'Add New Entry'}</h3>
+      <h3>{editingTip ? 'Edit Entry' : 'Add Shift'}</h3>
       
       <div className="form-row">
         <div className="form-group">
@@ -114,26 +98,8 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
             required
           />
         </div>
-
         <div className="form-group">
-          <label htmlFor="teamSize">Team Size</label>
-          <select
-            id="teamSize"
-            name="teamSize"
-            value={formData.teamSize}
-            onChange={handleChange}
-          >
-            <option value="1">Solo (1 person)</option>
-            <option value="2">2 people</option>
-            <option value="3">3 people</option>
-            <option value="4">4 people</option>
-          </select>
-        </div>
-      </div>
-
-      <div className="form-row">
-        <div className="form-group">
-          <label htmlFor="partners">Partner Names (optional)</label>
+          <label htmlFor="partners">Partner(s)</label>
           <input
             type="text"
             id="partners"
@@ -160,10 +126,8 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
             name="startTime"
             value={formData.startTime}
             onChange={handleChange}
-            placeholder="HH:MM"
           />
         </div>
-
         <div className="form-group">
           <label htmlFor="endTime">End Time</label>
           <input
@@ -172,137 +136,104 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
             name="endTime"
             value={formData.endTime}
             onChange={handleChange}
-            placeholder="HH:MM"
           />
         </div>
       </div>
 
       {duration > 0 && (
         <div className="form-calculation">
-          Shift Duration: <strong>{duration.toFixed(2)} hours</strong>
+          Shift: <strong>{duration.toFixed(1)} hours</strong>
         </div>
       )}
 
-      <div className="form-section">
-        <h4>💵 Your Tips</h4>
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="cashWalkedWith">
-              Cash You're Walking With ($)
-              <span className="field-hint">Final cash amount you keep</span>
-            </label>
-            <input
-              type="number"
-              id="cashWalkedWith"
-              name="cashWalkedWith"
-              value={formData.cashWalkedWith}
-              onChange={handleChange}
-              step="0.01"
-              min="0"
-              placeholder="0.00"
-            />
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="yourCreditTips">
-              Your Total CC Tips ($)
-              <span className="field-hint">Before splitting</span>
-            </label>
-            <input
-              type="number"
-              id="yourCreditTips"
-              name="yourCreditTips"
-              value={formData.yourCreditTips}
-              onChange={handleChange}
-              step="0.01"
-              min="0"
-              placeholder="0.00"
-            />
-          </div>
+      <div className="form-row">
+        <div className="form-group">
+          <label htmlFor="tipsOnCheck">💳 Tips on Check ($)</label>
+          <input
+            type="number"
+            id="tipsOnCheck"
+            name="tipsOnCheck"
+            value={formData.tipsOnCheck}
+            onChange={handleChange}
+            step="0.01"
+            min="0"
+            placeholder="0.00"
+            inputMode="decimal"
+          />
         </div>
-        {cashWalked > 0 && (
-          <div className="form-calculation">
-            Cash Walking With: <strong>${cashWalked.toFixed(2)}</strong>
-          </div>
-        )}
+        <div className="form-group">
+          <label htmlFor="cashWalking">💵 Cash Walking ($)</label>
+          <input
+            type="number"
+            id="cashWalking"
+            name="cashWalking"
+            value={formData.cashWalking}
+            onChange={handleChange}
+            step="0.01"
+            min="0"
+            placeholder="0.00"
+            inputMode="decimal"
+          />
+        </div>
       </div>
 
-      <div className="form-section">
-        <h4>🤝 CC Tips Exchange with Partners</h4>
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="ccTipsSent">
-              CC Tips You Sent Out ($)
-              <span className="field-hint">From YOUR CC tips to partners</span>
-            </label>
-            <input
-              type="number"
-              id="ccTipsSent"
-              name="ccTipsSent"
-              value={formData.ccTipsSent}
-              onChange={handleChange}
-              step="0.01"
-              min="0"
-              placeholder="0.00"
-            />
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="ccTipsReceived">
-              CC Tips You Received ($)
-              <span className="field-hint">From partners' CC tips to you</span>
-            </label>
-            <input
-              type="number"
-              id="ccTipsReceived"
-              name="ccTipsReceived"
-              value={formData.ccTipsReceived}
-              onChange={handleChange}
-              step="0.01"
-              min="0"
-              placeholder="0.00"
-            />
-          </div>
+      {totalTakeHome > 0 && (
+        <div className="form-total">
+          <span>Total:</span>
+          <strong>${totalTakeHome.toFixed(2)}</strong>
         </div>
-        {(ccSent > 0 || ccReceived > 0) && (
-          <div className="form-calculation">
-            Net CC Exchange: <strong className={(ccReceived - ccSent) >= 0 ? 'positive' : 'negative'}>
-              {(ccReceived - ccSent) >= 0 ? '+' : ''}${(ccReceived - ccSent).toFixed(2)}
-            </strong>
-          </div>
-        )}
+      )}
+
+      {hourlyRate > 0 && (
+        <div className="form-hourly">
+          <span>Hourly Rate:</span>
+          <strong>${hourlyRate.toFixed(2)}/hr</strong>
+        </div>
+      )}
+
+      <div className="form-row">
+        <div className="form-group">
+          <label htmlFor="pops">🍿 Pops Earned ($)</label>
+          <input
+            type="number"
+            id="pops"
+            name="pops"
+            value={formData.pops}
+            onChange={handleChange}
+            step="0.01"
+            min="0"
+            placeholder="0.00"
+            inputMode="decimal"
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="popsReason">Pops Reason</label>
+          <input
+            type="text"
+            id="popsReason"
+            name="popsReason"
+            value={formData.popsReason}
+            onChange={handleChange}
+            placeholder="e.g., Great upselling"
+          />
+        </div>
       </div>
 
       <div className="form-group">
         <label htmlFor="notes">Notes (optional)</label>
-        <textarea
+        <input
+          type="text"
           id="notes"
           name="notes"
           value={formData.notes}
           onChange={handleChange}
-          rows="3"
-          placeholder="Add any notes about this shift..."
+          placeholder="e.g., Busy Friday night"
         />
       </div>
 
-      {netIncome > 0 && (
-        <>
-          <div className="form-total">
-            <span>Net Income:</span>
-            <strong>${netIncome.toFixed(2)}</strong>
-          </div>
-          {hourlyRate > 0 && (
-            <div className="form-hourly">
-              <span>Hourly Rate:</span>
-              <strong>${hourlyRate.toFixed(2)}/hr</strong>
-            </div>
-          )}
-        </>
-      )}
-
       <div className="form-actions">
         <button type="submit" className="btn btn-primary">
-          {editingTip ? 'Update Entry' : 'Add Entry'}
+          {editingTip ? 'Update' : 'Save'}
         </button>
       </div>
     </form>

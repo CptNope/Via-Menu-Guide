@@ -177,3 +177,32 @@ export function clearAllTips() {
   localStorage.removeItem(TIP_STORAGE_KEY);
   return true;
 }
+
+/**
+ * Save multiple tips at once (for bulk import/edit)
+ * @param {Array} newTips - Array of tip entries to add
+ * @returns {Array} Updated tips array
+ */
+export function saveBulkTips(newTips) {
+  const tips = getAllTips();
+  const tipsWithIds = newTips.map(tip => ({
+    ...tip,
+    id: tip.id || Date.now().toString() + Math.random().toString(36).substr(2, 9),
+    createdAt: tip.createdAt || new Date().toISOString()
+  }));
+  const updatedTips = [...tips, ...tipsWithIds];
+  localStorage.setItem(TIP_STORAGE_KEY, JSON.stringify(updatedTips));
+  return updatedTips;
+}
+
+/**
+ * Delete multiple tips at once
+ * @param {Array} ids - Array of tip IDs to delete
+ * @returns {Array} Updated tips array
+ */
+export function deleteBulkTips(ids) {
+  const tips = getAllTips();
+  const filtered = tips.filter(tip => !ids.includes(tip.id));
+  localStorage.setItem(TIP_STORAGE_KEY, JSON.stringify(filtered));
+  return filtered;
+}

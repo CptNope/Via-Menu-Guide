@@ -75,8 +75,8 @@ const regionColors = {
 // Regional landmarks data with centers and zoom levels
 const regionalLandmarks = {
   'Kentucky': {
-    center: [38.0, -85.5],
-    zoom: 8,
+    center: [38.0, -84.5],
+    zoom: 6,
     country: 'USA',
     landmarks: [
       { name: 'Bardstown', coords: [37.8, -85.5], description: 'Bourbon Capital of the World', link: 'https://en.wikipedia.org/wiki/Bardstown,_Kentucky' },
@@ -87,7 +87,7 @@ const regionalLandmarks = {
   },
   'Tennessee': {
     center: [35.5, -86.0],
-    zoom: 8,
+    zoom: 7,
     country: 'USA',
     landmarks: [
       { name: 'Lynchburg', coords: [35.28, -86.37], description: 'Jack Daniel\'s home', link: 'https://en.wikipedia.org/wiki/Lynchburg,_Tennessee' },
@@ -96,7 +96,7 @@ const regionalLandmarks = {
   },
   'Indiana': {
     center: [39.8, -86.1],
-    zoom: 8,
+    zoom: 7,
     country: 'USA',
     landmarks: [
       { name: 'Lawrenceburg', coords: [39.09, -84.85], description: 'MGP Distillery - major rye producer', link: 'https://en.wikipedia.org/wiki/MGP_of_Indiana' }
@@ -104,7 +104,7 @@ const regionalLandmarks = {
   },
   'Vermont': {
     center: [44.0, -72.7],
-    zoom: 8,
+    zoom: 7,
     country: 'USA',
     landmarks: [
       { name: 'Waterbury', coords: [44.34, -72.76], description: 'WhistlePig Farm', link: 'https://en.wikipedia.org/wiki/WhistlePig' },
@@ -113,7 +113,7 @@ const regionalLandmarks = {
   },
   'Utah': {
     center: [40.76, -111.89],
-    zoom: 8,
+    zoom: 7,
     country: 'USA',
     landmarks: [
       { name: 'Park City', coords: [40.65, -111.5], description: 'High West Distillery - 7,000 ft elevation', link: 'https://en.wikipedia.org/wiki/High_West_Distillery' },
@@ -122,7 +122,7 @@ const regionalLandmarks = {
   },
   'Massachusetts': {
     center: [42.36, -71.06],
-    zoom: 8,
+    zoom: 7,
     country: 'USA',
     landmarks: [
       { name: 'Everett', coords: [42.41, -71.05], description: 'Short Path Distillery', link: 'https://en.wikipedia.org/wiki/Everett,_Massachusetts' },
@@ -149,7 +149,7 @@ const regionalLandmarks = {
   },
   'Speyside': {
     center: [57.5, -3.2],
-    zoom: 9,
+    zoom: 8,
     country: 'Scotland',
     landmarks: [
       { name: 'Dufftown', coords: [57.45, -3.12], description: 'Malt Whisky Capital - Glenfiddich, Balvenie', link: 'https://en.wikipedia.org/wiki/Dufftown' },
@@ -159,7 +159,7 @@ const regionalLandmarks = {
   },
   'Islay': {
     center: [55.75, -6.2],
-    zoom: 10,
+    zoom: 9,
     country: 'Scotland',
     landmarks: [
       { name: 'Port Ellen', coords: [55.63, -6.19], description: 'Ardbeg, Lagavulin, Laphroaig', link: 'https://en.wikipedia.org/wiki/Port_Ellen' },
@@ -179,7 +179,7 @@ const regionalLandmarks = {
   },
   'Lowland': {
     center: [55.5, -3.5],
-    zoom: 8,
+    zoom: 7,
     country: 'Scotland',
     landmarks: [
       { name: 'Edinburgh', coords: [55.95, -3.19], description: 'Scotland\'s capital', link: 'https://en.wikipedia.org/wiki/Edinburgh' },
@@ -188,7 +188,7 @@ const regionalLandmarks = {
   },
   'Campbeltown': {
     center: [55.4, -5.6],
-    zoom: 10,
+    zoom: 9,
     country: 'Scotland',
     landmarks: [
       { name: 'Campbeltown', coords: [55.43, -5.6], description: 'Historic whisky town - Springbank', link: 'https://en.wikipedia.org/wiki/Campbeltown' }
@@ -233,7 +233,7 @@ const regionalLandmarks = {
   // Cognac regions
   'Cognac': {
     center: [45.7, -0.33],
-    zoom: 9,
+    zoom: 8,
     country: 'France',
     landmarks: [
       { name: 'Cognac', coords: [45.7, -0.33], description: 'Heart of Cognac production', link: 'https://en.wikipedia.org/wiki/Cognac' },
@@ -243,7 +243,7 @@ const regionalLandmarks = {
   },
   'Grande Champagne': {
     center: [45.6, -0.2],
-    zoom: 10,
+    zoom: 8,
     country: 'France',
     landmarks: [
       { name: 'Segonzac', coords: [45.62, -0.22], description: 'Premier cru of Cognac', link: 'https://en.wikipedia.org/wiki/Grande_Champagne' },
@@ -262,7 +262,7 @@ const regionalLandmarks = {
   // Grappa & Amaro regions (Italy)
   'Veneto': {
     center: [45.5, 11.5],
-    zoom: 8,
+    zoom: 7,
     country: 'Italy',
     landmarks: [
       { name: 'Bassano del Grappa', coords: [45.77, 11.73], description: 'Grappa capital of Italy', link: 'https://en.wikipedia.org/wiki/Bassano_del_Grappa' },
@@ -272,7 +272,7 @@ const regionalLandmarks = {
   },
   'Piedmont': {
     center: [44.7, 8.0],
-    zoom: 8,
+    zoom: 7,
     country: 'Italy',
     landmarks: [
       { name: 'Alba', coords: [44.7, 8.04], description: 'Barolo & grappa', link: 'https://en.wikipedia.org/wiki/Alba,_Piedmont' },
@@ -282,7 +282,7 @@ const regionalLandmarks = {
   },
   'Trentino': {
     center: [46.07, 11.12],
-    zoom: 9,
+    zoom: 8,
     country: 'Italy',
     landmarks: [
       { name: 'Trento', coords: [46.07, 11.12], description: 'Alpine grappa region', link: 'https://en.wikipedia.org/wiki/Trento' },
@@ -291,7 +291,7 @@ const regionalLandmarks = {
   },
   'Friuli': {
     center: [46.07, 13.23],
-    zoom: 8,
+    zoom: 7,
     country: 'Italy',
     landmarks: [
       { name: 'Udine', coords: [46.07, 13.23], description: 'Friulian grappa', link: 'https://en.wikipedia.org/wiki/Udine' },
@@ -309,7 +309,7 @@ const regionalLandmarks = {
   },
   'Lombardy': {
     center: [45.47, 9.19],
-    zoom: 8,
+    zoom: 7,
     country: 'Italy',
     landmarks: [
       { name: 'Milano', coords: [45.47, 9.19], description: 'Amaro & aperitivo capital', link: 'https://en.wikipedia.org/wiki/Milan' },
@@ -329,7 +329,7 @@ const regionalLandmarks = {
   // Port regions (Portugal)
   'Douro Valley': {
     center: [41.15, -7.8],
-    zoom: 9,
+    zoom: 8,
     country: 'Portugal',
     landmarks: [
       { name: 'Pinhão', coords: [41.19, -7.54], description: 'Heart of Port country', link: 'https://en.wikipedia.org/wiki/Pinh%C3%A3o' },
@@ -339,7 +339,7 @@ const regionalLandmarks = {
   },
   'Porto': {
     center: [41.16, -8.63],
-    zoom: 10,
+    zoom: 8,
     country: 'Portugal',
     landmarks: [
       { name: 'Vila Nova de Gaia', coords: [41.13, -8.62], description: 'Port wine cellars', link: 'https://en.wikipedia.org/wiki/Vila_Nova_de_Gaia' },
@@ -358,7 +358,7 @@ const regionalLandmarks = {
   // US Amaro Regions
   'Washington DC': {
     center: [38.9, -77.0],
-    zoom: 10,
+    zoom: 8,
     country: 'USA',
     landmarks: [
       { name: 'Washington DC', coords: [38.9, -77.0], description: 'Don Ciccio & Figli', link: 'https://en.wikipedia.org/wiki/Washington,_D.C.' }
@@ -366,7 +366,7 @@ const regionalLandmarks = {
   },
   'Brooklyn, NY': {
     center: [40.65, -73.95],
-    zoom: 11,
+    zoom: 9,
     country: 'USA',
     landmarks: [
       { name: 'Red Hook', coords: [40.67, -74.01], description: 'Faccia Brutto craft amaro', link: 'https://en.wikipedia.org/wiki/Red_Hook,_Brooklyn' }

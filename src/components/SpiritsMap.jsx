@@ -256,13 +256,14 @@ function SpiritsMap({ spirits, categoryName }) {
   };
 
   const getMapZoom = () => {
-    if (categoryName === 'Scotch') return 6;
-    if (categoryName === 'Bourbon') return 6;
-    if (categoryName === 'Cognac') return 9;
-    if (categoryName === 'Grappa') return 7;
-    if (categoryName === 'Port') return 8;
-    if (categoryName === 'Amaro & Digestivo') return 6;
-    return 5;
+    if (categoryName === 'Scotch') return 5;      // Show all 5 Scottish regions
+    if (categoryName === 'Bourbon') return 5;     // Show KY, TN, and other states
+    if (categoryName === 'Rye') return 4;         // Wide spread: VT, MA, KY, UT, Canada
+    if (categoryName === 'Cognac') return 7;      // Cognac region is small
+    if (categoryName === 'Grappa') return 6;      // Northern Italy
+    if (categoryName === 'Port') return 7;        // Douro Valley to Porto
+    if (categoryName === 'Amaro & Digestivo') return 5; // All of Italy + some US
+    return 4;                                     // Default more zoomed out
   };
 
   if (!spirits || spirits.length === 0) return null;

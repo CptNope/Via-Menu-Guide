@@ -262,9 +262,9 @@ function TipTracker() {
             loadTips();
           }}
           onAddEntry={(date) => {
-            // Switch to list view and pre-fill the date for new entry
-            setViewMode('list');
+            // Show form with pre-filled date (stay on calendar)
             setEditingTip({ date });
+            setShowForm(true);
           }}
         />
       )}

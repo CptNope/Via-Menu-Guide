@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.1] - 2024-12-16
+
+### Added
+- **Tip Calendar Enhancements**:
+  - Click/tap any empty calendar day to add a new entry with date pre-filled
+  - Today's date highlighted with red border and dot indicator
+  - Smart time defaults: 11 = AM, all other hours default to PM
+- **Server Notes**: Added `serverNotes` field to all 24 lunch menu items with allergen info, GF availability, and serving tips
+
+### Fixed
+- **Calendar Mobile Responsiveness**: Calendar now fits properly on mobile screens instead of going off-screen
+- **Spirits Map Zoom Levels**: Adjusted zoom on all whiskey/spirits maps to show all landmarks (was zoomed in too far)
+
+---
+
 ## [1.3.0] - 2024-12-15
 
 ### Added

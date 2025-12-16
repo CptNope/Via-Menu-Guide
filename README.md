@@ -1,6 +1,6 @@
 # VIA Italian Table Menu PWA (CRA Starter)
 
-**Version 1.3.0** | [View Changelog](./CHANGELOG.md)
+**Version 1.3.1** | [View Changelog](./CHANGELOG.md)
 
 This is a **Create React App** starter for a VIA Italian Table interactive menu:
 

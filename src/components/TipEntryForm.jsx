@@ -33,12 +33,45 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
     }
   }, [editingTip]);
 
+  // Apply smart AM/PM defaults: 11 = AM, everything else = PM
+  const applyTimeDefault = (timeValue) => {
+    if (!timeValue) return timeValue;
+    
+    const [hours, minutes] = timeValue.split(':').map(Number);
+    
+    // If user entered a time between 1-10 (which would be 01:00-10:00 in 24hr)
+    // and it's likely they meant PM, convert it
+    // 11:xx stays as-is (11 AM), 12:xx stays as-is (12 PM)
+    // 1-10 converts to 13-22 (1 PM - 10 PM)
+    if (hours >= 1 && hours <= 10) {
+      // Convert to PM (add 12 hours)
+      const pmHour = hours + 12;
+      return `${String(pmHour).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+    }
+    
+    return timeValue;
+  };
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
       [name]: value
     }));
+  };
+
+  // Handle time blur to apply smart defaults
+  const handleTimeBlur = (e) => {
+    const { name, value } = e.target;
+    if (value && (name === 'startTime' || name === 'endTime')) {
+      const adjustedTime = applyTimeDefault(value);
+      if (adjustedTime !== value) {
+        setFormData(prev => ({
+          ...prev,
+          [name]: adjustedTime
+        }));
+      }
+    }
   };
 
   const handleSubmit = (e) => {
@@ -126,6 +159,7 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
             name="startTime"
             value={formData.startTime}
             onChange={handleChange}
+            onBlur={handleTimeBlur}
           />
         </div>
         <div className="form-group">
@@ -136,6 +170,7 @@ function TipEntryForm({ onSave, editingTip = null, partners = [] }) {
             name="endTime"
             value={formData.endTime}
             onChange={handleChange}
+            onBlur={handleTimeBlur}
           />
         </div>
       </div>

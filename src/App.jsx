@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import { FiShield, FiHome, FiShare2, FiDollarSign } from "react-icons/fi";
 import "./App.css";
+import ScrollToTop from "./components/ScrollToTop";
 import "leaflet/dist/leaflet.css";
 
 import appetizersData from "./data/appetizers.json";
@@ -275,6 +276,9 @@ function App() {
 
       {/* Update notification - shows when new version available */}
       <UpdateNotification workbox={workbox} />
+
+      {/* Scroll to top button */}
+      <ScrollToTop />
     </div>
   );
 }

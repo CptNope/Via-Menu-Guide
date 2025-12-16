@@ -891,6 +891,40 @@ button.calendar-day.selected {
   border-color: #2980b9;
 }
 
+button.calendar-day.is-today {
+  border-color: #e74c3c;
+  border-width: 2px;
+  position: relative;
+}
+
+button.calendar-day.is-today::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 8px;
+  height: 8px;
+  background: #e74c3c;
+  border-radius: 50%;
+}
+
+button.calendar-day.is-today.selected {
+  border-color: #c0392b;
+}
+
+button.calendar-day:not(.empty):not(.has-tips) {
+  cursor: pointer;
+}
+
+button.calendar-day:not(.empty):not(.has-tips):hover {
+  background: #ecf0f1;
+  border-color: #bdc3c7;
+}
+
+button.calendar-day:not(.empty):not(.has-tips):active {
+  background: #dfe6e9;
+}
+
 .calendar-day.selected .day-hours {
   color: rgba(255,255,255,0.8);
 }
@@ -1158,9 +1192,20 @@ button.calendar-day.selected {
 
 /* Calendar Mobile */
 @media (max-width: 768px) {
+  .tip-calendar {
+    margin: 0 -12px;
+    padding: 0 8px;
+  }
+  
+  .calendar-grid {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
   .calendar-day-headers,
   .calendar-week {
     grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
   }
   
   .week-total-header,
@@ -1168,21 +1213,27 @@ button.calendar-day.selected {
     display: none;
   }
   
-  .calendar-day {
-    min-height: 56px;
-    padding: 6px;
+  .day-header {
+    font-size: 10px;
+    padding: 6px 2px;
   }
   
-  .calendar-day.has-tips {
-    min-height: 56px;
+  button.calendar-day {
+    min-height: 48px;
+    padding: 4px;
+    min-width: 0;
+  }
+  
+  button.calendar-day.has-tips {
+    min-height: 48px;
   }
   
   .day-number {
-    font-size: 11px;
+    font-size: 10px;
   }
   
   .day-amount {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 700;
   }
   
@@ -1190,8 +1241,20 @@ button.calendar-day.selected {
     display: none;
   }
   
+  .calendar-header {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  
+  .calendar-header h2 {
+    font-size: 18px;
+  }
+  
   .month-nav {
     gap: 8px;
+    width: 100%;
+    justify-content: space-between;
   }
   
   .nav-btn {
@@ -1201,12 +1264,13 @@ button.calendar-day.selected {
   }
   
   .current-month {
-    font-size: 16px;
-    min-width: 140px;
+    font-size: 14px;
+    min-width: 120px;
   }
   
   .selected-day-details {
     padding: 12px;
+    margin: 12px 4px;
   }
   
   .day-tip-detail {
@@ -1217,6 +1281,44 @@ button.calendar-day.selected {
     width: 44px;
     height: 44px;
     font-size: 20px;
+  }
+  
+  .monthly-summary {
+    margin: 12px 4px;
+    padding: 12px;
+  }
+  
+  button.calendar-day.is-today::after {
+    width: 6px;
+    height: 6px;
+    top: 2px;
+    right: 2px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 380px) {
+  .calendar-day-headers,
+  .calendar-week {
+    gap: 1px;
+  }
+  
+  button.calendar-day {
+    min-height: 42px;
+    padding: 3px;
+  }
+  
+  .day-number {
+    font-size: 9px;
+  }
+  
+  .day-amount {
+    font-size: 10px;
+  }
+  
+  .current-month {
+    font-size: 13px;
+    min-width: 100px;
   }
 }
 

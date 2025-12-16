@@ -4,10 +4,14 @@ import { calculateShiftDuration } from '../utils/tipAnalytics';
 /**
  * Calendar view for tip tracking with weekly totals
  */
-function TipCalendar({ tips, selectedYear, onEditTip, onDeleteTip }) {
+function TipCalendar({ tips, selectedYear, onEditTip, onDeleteTip, onAddEntry }) {
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth());
   const [selectedDay, setSelectedDay] = useState(null);
   const [editingTip, setEditingTip] = useState(null);
+
+  // Get today's date string for highlighting
+  const today = new Date();
+  const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
 
   // Get tips for the selected year
   const yearTips = useMemo(() => {
@@ -143,10 +147,15 @@ function TipCalendar({ tips, selectedYear, onEditTip, onDeleteTip }) {
           <div key={weekIndex} className="calendar-week">
             {week.days.map((dayData, dayIndex) => {
               const hasTips = dayData && dayData.tips && dayData.tips.length > 0;
+              const isToday = dayData && dayData.date === todayStr;
               
               const handleDayClick = () => {
+                if (!dayData) return;
                 if (hasTips) {
                   setSelectedDay(dayData.date);
+                } else if (onAddEntry) {
+                  // Click on empty day to add new entry
+                  onAddEntry(dayData.date);
                 }
               };
               
@@ -154,10 +163,10 @@ function TipCalendar({ tips, selectedYear, onEditTip, onDeleteTip }) {
                 <button 
                   key={dayIndex} 
                   type="button"
-                  className={`calendar-day ${!dayData ? 'empty' : ''} ${hasTips ? 'has-tips' : ''} ${selectedDay === dayData?.date ? 'selected' : ''}`}
+                  className={`calendar-day ${!dayData ? 'empty' : ''} ${hasTips ? 'has-tips' : ''} ${selectedDay === dayData?.date ? 'selected' : ''} ${isToday ? 'is-today' : ''}`}
                   onClick={handleDayClick}
-                  disabled={!hasTips}
-                  aria-label={dayData ? `${dayData.day}, ${hasTips ? `$${dayData.total.toFixed(0)} earned` : 'no entries'}` : ''}
+                  disabled={!dayData}
+                  aria-label={dayData ? `${dayData.day}, ${hasTips ? `$${dayData.total.toFixed(0)} earned` : 'click to add entry'}` : ''}
                 >
                   {dayData && (
                     <>

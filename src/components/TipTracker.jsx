@@ -261,6 +261,11 @@ function TipTracker() {
             deleteTip(id);
             loadTips();
           }}
+          onAddEntry={(date) => {
+            // Switch to list view and pre-fill the date for new entry
+            setViewMode('list');
+            setEditingTip({ date });
+          }}
         />
       )}
 

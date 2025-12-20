@@ -6,11 +6,15 @@ This is a **Create React App** starter for a VIA Italian Table interactive menu:
 
 - Dinner, lunch, dessert, kids and drinks menus
 - Proposed allergen info + dietary flags
-- Wine pairing guide
+- Intelligent wine/food pairing system with flavor profile matching
+- Interactive wine and spirits maps (Italy, International, Whiskey regions)
+- Tip tracker for servers with calendar view and analytics
 - Basic admin panel (placeholder login) to edit sample dinner items
-- PWA enabled (offline-capable, installable)
+- PWA enabled (offline-capable, installable on all devices)
 
 > This is a starter / scaffold. Data is partial and meant to be extended.
+
+---
 
 ## Getting Started
 
@@ -33,39 +37,23 @@ The app will open at http://localhost:3000.
 - `npm start` – run dev server
 - `npm run build` – build for production
 - `npm test` – run tests (none defined yet)
-- `npm run eject` – CRA eject (irreversible)
+- `npm run deploy` – deploy to GitHub Pages
+- `npm run generate-icons` – generate all PWA icons from SVG sources
+- `npm version patch|minor|major` – bump version number
+
+---
 
 ## PWA / Offline & Auto-Updates
 
-The app uses **Workbox** for advanced PWA features with automatic update notifications.
+The app is a full **Progressive Web App** using **Workbox** for intelligent caching and automatic updates.
 
 ### Features
 
+- ✅ **Installable** on Android, iOS, and Desktop (Chrome/Edge)
 - ✅ **Offline-first caching** with intelligent cache strategies
 - ✅ **Automatic update detection** - checks every hour
 - ✅ **User-friendly update notifications** with one-click updates
 - ✅ **Version-based cache management** - old caches auto-cleared
-- ✅ **Different cache strategies** for different resource types
-
-### Quick Start
-
-**Deploy a new version:**
-
-```bash
-# 1. Update version in src/service-worker.js
-# 2. Build and deploy
-npm run build
-npm run deploy
-```
-
-Users will automatically see an update notification and can update with one click!
-
-### Implementation
-
-- **Service Worker**: `src/service-worker.js` (Workbox configuration)
-- **Registration**: `src/serviceWorkerRegistration.js` (with Workbox Window API)
-- **Update UI**: `src/components/UpdateNotification.jsx`
-- **Documentation**: See `PWA_UPDATE_GUIDE.md` for complete details
 
 ### Cache Strategies
 
@@ -76,7 +64,38 @@ Users will automatically see an update notification and can update with one clic
 | CSS/JS | Stale While Revalidate | 30 days | Instant load + background update |
 | Fonts | Cache First | 365 days | Never change, cache forever |
 
-For complete update and versioning guide, see **[PWA_UPDATE_GUIDE.md](./PWA_UPDATE_GUIDE.md)**.
+### Deploying Updates
+
+```bash
+npm version patch && npm run build && npm run deploy
+```
+
+Users automatically see an update notification and can update with one click.
+
+### Icon Generation
+
+Generate all 33 PWA icons from SVG sources:
+
+```bash
+npm run generate-icons
+```
+
+This creates standard icons (72-512px), maskable icons, Apple Touch icons, iOS splash screens, and favicon.
+
+### Installation
+
+- **Android**: Chrome shows install prompt automatically, or Menu → "Install app"
+- **iOS**: Safari → Share button → "Add to Home Screen"
+- **Desktop**: Click install icon in address bar, or Menu → "Install VIA Menu"
+
+### Implementation Files
+
+- `src/service-worker.js` – Workbox configuration with version management
+- `src/serviceWorkerRegistration.js` – Registration with Workbox Window API
+- `src/components/UpdateNotification.jsx` – Update notification UI
+- `public/icon-source.svg` – Master icon (1024x1024)
+- `public/icon-maskable-source.svg` – Android adaptive icon
+- `public/splash-source.svg` – iOS splash screen template
 
 ## Project Structure
 
@@ -330,12 +349,98 @@ graph TB
 7. **Intensity Matching**: Bold flavors shouldn't overpower delicate wines and vice versa
 8. **Complementary Flavors**: Matching or complementary flavor notes create harmony
 
+---
+
+## Interactive Maps
+
+The app features **interactive OpenStreetMaps** for wines and spirits:
+
+### Italian Wine Maps
+- **Categories**: Italian Reds (31 wines), Super Tuscans (10 wines)
+- Italy-focused view showing 6 Italian regions
+- Color-coded wine glass markers by region
+- Historic landmarks with Wikipedia links
+
+### International Wine Maps
+- **Categories**: Merlot & Malbec, Pinot Noir, Cabernet, Sauvignon Blanc, Chardonnay, Sparkling (60+ wines)
+- Smart zoom based on wine selection (California, USA, France, or world view)
+- Wine region landmarks (Napa, Bordeaux, Champagne, etc.)
+- Color-coded markers for 21+ wine regions
+
+### Spirits Maps
+- **Categories**: Bourbon, Rye, Scotch (30+ spirits)
+- USA: Kentucky, Tennessee, Vermont, Massachusetts, Utah, Canada
+- Scotland: Speyside, Islay, Highland, Lowland, Campbeltown
+- Distillery landmarks with links
+
+### Implementation
+- `src/components/ItalianWineMap.jsx` – Italian wine regions
+- `src/components/InternationalWineMap.jsx` – World wine regions
+- `src/components/SpiritsMap.jsx` / `SpiritsMapInteractive.jsx` – Whiskey regions
+
+---
+
+## Tip Tracker
+
+A comprehensive tool for servers to track earnings:
+
+### Features
+- **Daily tracking**: Cash tips, credit tips, partner exchanges
+- **Calendar view**: Monthly grid with daily tips and weekly totals
+- **Bulk edit mode**: Backfill multiple shifts at once
+- **Analytics**: Per-shift, weekly, monthly, and yearly breakdowns with hourly rates
+- **Pops tracking**: Track food credits earned
+- **Data management**: Export/import JSON, local storage persistence
+
+### Usage
+1. Navigate to **Tips** in menu
+2. Click **"+ Add Entry"**
+3. Fill in date, partner, cash/credit tips
+4. View analytics in calendar or list view
+
+### Implementation
+- `src/components/TipTracker.jsx` – Main component
+- Data stored in browser localStorage
+- Export creates `tips-[year].json` backup file
+
+---
+
+## Beverage Program
+
+All drinks have enhanced server notes with structured sections:
+
+### Format
+```
+🍷 ABOUT: [Winery story, region, awards]
+🍷 STYLE: [Wine style] | [Flavor profile] | [Body, tannins, acidity]
+🍽️ PAIRS WITH: [Food pairings - 3-5 items]
+💡 BY THE GLASS: [Why this wine is special, server tips]
+```
+
+### Coverage
+- **Wines by the Glass**: 27 wines with website links
+- **Half Bottles**: 14 wines with pronunciations
+- **Bourbon/Whiskey**: 16 spirits (Kentucky, Vermont, Utah, Tennessee)
+- **Scotch**: 10 whiskeys (Speyside, Islay, Highland, etc.)
+- **Rye**: 10 whiskeys
+- **After-Dinner**: 25 drinks (Cognac, Port, Amaro, Grappa)
+- **Cocktails**: 16 drinks with garnish display
+- **Beers**: ~15 drinks
+
+### Display Features
+- Server notes (red theme)
+- Website links (blue theme)
+- Garnish info (green theme)
+- Pronunciations for difficult names
+- Expandable flavor profiles
+
+---
+
 ## Extending
 
 - Flesh out all menu JSON files with full VIA menus.
 - Wire AdminPanel to edit **all** menu sections, ingredients and wines.
 - Persist JSON updates to a backend (Node, Firebase, etc.) instead of keeping them in-memory.
-- Replace placeholder icons in `public/` with real logo assets.
 - Add analytics tracking for update adoption and user engagement.
 - Implement background sync for offline admin actions.
 

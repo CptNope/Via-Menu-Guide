@@ -123,10 +123,71 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## Beverage Program Enhancements
+
+### Wines By The Glass (27 wines)
+Enhanced all wines with structured server notes and website links:
+- **Italian Reds** (5): Barbera, Chianti, Barolo, Ripasso, Brunello
+- **Pinot Noir** (2): Siduri, Cambria Julia's Vineyard
+- **Cabernet & Blends** (5): The Pessimist, Greenwing, Band of Vintners, Cakebread, Austin Hope
+- **Chardonnay** (2): La Crema, Rombauer
+- **Interesting Whites** (6): La Fiera, Loosen Riesling, G.D. Vajra, Guado Al Tasso, Roero Arneis, Santa Margherita
+- **Sauvignon Blanc** (2): Matua, Knights Bridge
+- **Sparkling** (5): Centorri Moscato, Benvolio Prosecco, Pasqua Rosé, Nicolas Feuillatte Brut & Rosé
+
+### Bourbon/Whiskey (16 spirits)
+Complete update with distillery stories and website links:
+- Eagle Rare, Four Roses, Jefferson's, Maker's Mark, Buffalo Trace, Elijah Craig
+- High West, WhistlePig Piggyback, Basil Hayden's, Knob Creek
+- Woodford Reserve Double Oaked, Uncle Nearest 1856, Blanton's
+- Angel's Envy, WhistlePig Snout to Tail, Angel's Envy Triple Oak
+
+### Scotch Whisky (10 spirits)
+Enhanced with regional context and distillery stories:
+- **Speyside** (4): Glenlivet 12, Glenfiddich 12, Balvenie Double Wood, Macallan 12
+- **Islay** (2): Port Charlotte (heavily peated), Lagavulin 16
+- **Highland** (1): Oban 14
+- **Blends** (2): Johnnie Walker Black, Johnnie Walker Blue
+- **Ultra-Premium** (1): Macallan 18
+
+### Rye Whiskey (10 spirits)
+Complete craft rye program with regional diversity:
+- **Entry-Level**: Pendleton 12, Sazerac, High West, Knob Creek
+- **Craft Ryes**: WhistlePig Piggyback, Mad River Revolution, Mad River Silver Oak, Short Path Concord
+- **Premium**: WhistlePig 10 Year, Boss Hog XI "The Juggernaut"
+
+### After-Dinner (25 drinks)
+Enhanced with origin stories and cultural context:
+- **Grappa** (1): Nonino Il Moscato
+- **Cognac** (5): Grand Marnier 100, Courvoisier VS, Grand Marnier, Hennessy VS, Rémy Martin VSOP
+- **Port** (5): Croft Reserve, Dow's 10 Year, Dow's LBV, Fonseca 20 Year, Quinta do Noval
+- **Amaro & Digestivo** (14): Dell'Etna, Montenegro, Campari, Galliano, Strega, Fernet Branca, Bully Boy, Don Ciccio, See The Elephant, Unico, Faccia Brutto, Perrine Key Lime, Foro, Nonino Quintessentia
+
+### Half Bottle Pronunciations
+Added phonetic pronunciations for difficult wine names:
+- Ceretto Vignaioli Moscato D'Asti: `cheh-REH-toh veen-yai-OH-lee mohs-KAH-toh DAHS-tee`
+- DAOU Cabernet: `DAH-oo`
+- Sonoma Cutrer: `soh-NOH-mah COO-trer`
+- Alphonse Mellot Sancerre: `al-FONS mel-LOH lah moo-see-AIR san-SAIR`
+- Damilano Barolo: `dah-mee-LAH-noh leh-CHEEN-kweh-VEEN-yeh bah-ROH-loh`
+- Zenato Amarone: `zeh-NAH-toh ah-mah-ROH-neh`
+- Kosta Browne: `KOH-stah BROWN`
+
+### Cocktail Garnish Display
+Added garnish field and green-themed display for all cocktails:
+- Barrel Aged Sangria → Cherry, lime, orange slice
+- Espresso Martini → 3 coffee beans
+- The Via Mai Tai → Amarena cherry
+- And 13 more cocktails with garnish info
+
+---
+
 ## Version History Summary
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 1.3.2 | 2024-12-16 | Security fixes (glob, js-yaml, node-forge) |
+| 1.3.1 | 2024-12-16 | Tip calendar enhancements, server notes for lunch items |
 | 1.3.0 | 2024-12-15 | Tip tracker overhaul: calendar view, bulk edit, pops, inline editing |
 | 1.2.8 | 2024-12-15 | Complete whiskey, champagne, cognac, amaro & port maps with landmarks |
 | 1.2.7 | 2024-12-15 | Wine pairing fix, collapsible categories, GF corrections |

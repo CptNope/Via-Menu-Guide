@@ -22,15 +22,19 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
-      - run: npm run build
+      - name: Build
+        run: |
+          set -o pipefail
+          npm run build 2>&1 | tee build-log.txt
       - uses: actions/upload-artifact@v4
         with:
           name: build
           path: build
           retention-days: 7
-      - name: Publish build to the build-preview branch
-        if: github.event_name == 'push'
+      - name: Publish build (or the failed build's log) to the build-preview branch
+        if: always() && github.event_name == 'push'
         run: |
+          mkdir -p build && cp build-log.txt build/ 2>/dev/null || true
           cd build
           git init -q -b build-preview
           git config user.name 'github-actions[bot]'

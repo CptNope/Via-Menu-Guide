@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Via-Menu-Guide/static/css/main.76e46c2e.css",
+    "main.css": "/Via-Menu-Guide/static/css/main.e5277b27.css",
     "main.js": "/Via-Menu-Guide/static/js/main.20144409.js",
     "static/css/368.7b228653.chunk.css": "/Via-Menu-Guide/static/css/368.7b228653.chunk.css",
     "static/js/368.5fba3582.chunk.js": "/Via-Menu-Guide/static/js/368.5fba3582.chunk.js",
@@ -17,7 +17,7 @@
     "static/js/776.b721b653.chunk.js": "/Via-Menu-Guide/static/js/776.b721b653.chunk.js",
     "service-worker.js": "/Via-Menu-Guide/service-worker.js",
     "index.html": "/Via-Menu-Guide/index.html",
-    "main.76e46c2e.css.map": "/Via-Menu-Guide/static/css/main.76e46c2e.css.map",
+    "main.e5277b27.css.map": "/Via-Menu-Guide/static/css/main.e5277b27.css.map",
     "main.20144409.js.map": "/Via-Menu-Guide/static/js/main.20144409.js.map",
     "368.7b228653.chunk.css.map": "/Via-Menu-Guide/static/css/368.7b228653.chunk.css.map",
     "368.5fba3582.chunk.js.map": "/Via-Menu-Guide/static/js/368.5fba3582.chunk.js.map",
@@ -34,7 +34,7 @@
     "776.b721b653.chunk.js.map": "/Via-Menu-Guide/static/js/776.b721b653.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76e46c2e.css",
+    "static/css/main.e5277b27.css",
     "static/js/main.20144409.js"
   ]
 }

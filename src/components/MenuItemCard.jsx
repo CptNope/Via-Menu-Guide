@@ -27,16 +27,8 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
   }, [item, selectedSauce]);
 
   // Use custom hook for all pairing data calculations
-  const {
-    winePairings,
-    foodPairings,
-    afterDinnerPairings,
-    beerPairings,
-    cocktailPairings,
-    bourbonPairings,
-    whiskeyPairings,
-    dessertPairings
-  } = usePairingData(itemForPairing, pairingPreferences);
+  // Which pairing buttons to show; scoring runs only when a panel is opened
+  const { available, compute } = usePairingData(itemForPairing, pairingPreferences);
 
   // Memoize tags array to avoid recreation on every render
   const tags = useMemo(() => {
@@ -217,14 +209,14 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
       )}
 
       {/* Hand-written pairing notes, only where the flavor engine has nothing to show */}
-      {!winePairings && item.foodPairings && item.foodPairings.length > 0 && (
+      {!available.winePairings && item.foodPairings && item.foodPairings.length > 0 && (
         <div className="cocktail-pairings">
           <strong>🍽️ Food Pairings:</strong>{' '}
           {item.foodPairings.map(p => p.replace(/-/g, ' ')).join(', ')}
         </div>
       )}
 
-      {!winePairings && item.dessertPairings && item.dessertPairings.length > 0 && (
+      {!available.winePairings && item.dessertPairings && item.dessertPairings.length > 0 && (
         <div className="cocktail-pairings">
           <strong>🍰 Dessert Pairings:</strong>{' '}
           {item.dessertPairings.map(p => p.replace(/-/g, ' ')).join(', ')}
@@ -242,78 +234,90 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
       )}
 
       {/* Wine Pairings for Food Items */}
-      {foodPairings && (
+      {available.foodPairings && (
         <PairingSection icon="🍷" label="Wine Pairings">
-          <WinePairingDisplay pairings={foodPairings} />
+          {() => <WinePairingDisplay pairings={compute.foodPairings()} />}
         </PairingSection>
       )}
 
       {/* Food Pairings for Wines (by glass/bottle) and After-Dinner Drinks */}
-      {winePairings && (
+      {available.winePairings && (
         <PairingSection icon="🍽️" label="Food Pairings">
-          <FoodPairingDisplay pairings={winePairings} />
+          {() => <FoodPairingDisplay pairings={compute.winePairings()} />}
         </PairingSection>
       )}
 
       {/* Beer Pairings for Appetizers & Pizzas */}
-      {beerPairings && (
+      {available.beerPairings && (
         <PairingSection icon="🍺" label="Beer Pairings" buttonClass="beer-btn">
-          <BeveragePairingDisplay 
-            pairings={beerPairings} 
-            title="🍺 Top Beer Pairings"
-          />
+          {() => (
+            <BeveragePairingDisplay
+              pairings={compute.beerPairings()}
+              title="🍺 Top Beer Pairings"
+            />
+          )}
         </PairingSection>
       )}
 
       {/* Cocktail & Mocktail Pairings for Appetizers, Pizzas & Mains */}
-      {cocktailPairings && (
+      {available.cocktailPairings && (
         <PairingSection icon="🍸" label="Cocktail Pairings" buttonClass="cocktail-btn">
-          <BeveragePairingDisplay
-            pairings={cocktailPairings}
-            title="🍸 Top Cocktail & Mocktail Pairings"
-          />
+          {() => (
+            <BeveragePairingDisplay
+              pairings={compute.cocktailPairings()}
+              title="🍸 Top Cocktail & Mocktail Pairings"
+            />
+          )}
         </PairingSection>
       )}
 
       {/* Bourbon/Whiskey Pairings for Appetizers & Pizzas */}
-      {bourbonPairings && (
+      {available.bourbonPairings && (
         <PairingSection icon="🥃" label="Bourbon & Whiskey Pairings" buttonClass="bourbon-btn">
-          <BeveragePairingDisplay 
-            pairings={bourbonPairings} 
-            title="🥃 Top Bourbon & Whiskey Pairings"
-          />
+          {() => (
+            <BeveragePairingDisplay
+              pairings={compute.bourbonPairings()}
+              title="🥃 Top Bourbon & Whiskey Pairings"
+            />
+          )}
         </PairingSection>
       )}
 
       {/* After-Dinner Drink Pairings for Desserts */}
-      {afterDinnerPairings && (
+      {available.afterDinnerPairings && (
         <PairingSection icon="☕" label="After-Dinner Drink Pairings" buttonClass="after-dinner-btn">
-          <BeveragePairingDisplay 
-            pairings={afterDinnerPairings} 
-            title="☕ Top After-Dinner Drink Pairings"
-          />
+          {() => (
+            <BeveragePairingDisplay
+              pairings={compute.afterDinnerPairings()}
+              title="☕ Top After-Dinner Drink Pairings"
+            />
+          )}
         </PairingSection>
       )}
 
       {/* Whiskey Pairings for Desserts & Beers */}
-      {whiskeyPairings && (
+      {available.whiskeyPairings && (
         <PairingSection icon="🥃" label="Whiskey Pairings" buttonClass="bourbon-btn">
-          <BeveragePairingDisplay 
-            pairings={whiskeyPairings} 
-            title="🥃 Top Whiskey Pairings"
-          />
+          {() => (
+            <BeveragePairingDisplay
+              pairings={compute.whiskeyPairings()}
+              title="🥃 Top Whiskey Pairings"
+            />
+          )}
         </PairingSection>
       )}
 
       {/* Dessert Pairings for After-Dinner Drinks & Whiskeys */}
-      {dessertPairings && (
+      {available.dessertPairings && (
         <PairingSection icon="🍰" label="Dessert Pairings">
-          <BeveragePairingDisplay 
-            pairings={dessertPairings} 
-            title="🍰 Top Dessert Pairings"
-            nameField="foodName"
-            priceField="foodPrice"
-          />
+          {() => (
+            <BeveragePairingDisplay
+              pairings={compute.dessertPairings()}
+              title="🍰 Top Dessert Pairings"
+              nameField="foodName"
+              priceField="foodPrice"
+            />
+          )}
         </PairingSection>
       )}
 

@@ -5,7 +5,9 @@ import React, { useState } from 'react';
  * @param {string} icon - Emoji icon for the pairing type
  * @param {string} label - Label text (e.g., "Wine Pairings")
  * @param {string} buttonClass - Additional CSS class for the button
- * @param {ReactNode} children - Pairing content to display
+ * @param {ReactNode|Function} children - Pairing content, or a function that
+ *   returns it (called only while the panel is open, so the work is skipped
+ *   until someone taps the button)
  */
 function PairingSection({ icon, label, buttonClass = '', children }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -22,7 +24,7 @@ function PairingSection({ icon, label, buttonClass = '', children }) {
 
       {isExpanded && (
         <div className="pairing-panel">
-          {children}
+          {typeof children === 'function' ? children() : children}
         </div>
       )}
     </>

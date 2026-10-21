@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.6] - 2026-10-21
+
+### Fixed
+- **Faster on phones.** Every card used to work out all of its wine, beer, cocktail and whiskey pairings as soon as the page opened, even though those panels start closed. On a phone that froze the page for up to a second on Dinner (three seconds on the old one-page drinks list) and made tabs slow to respond. Pairings are now worked out only when you open a pairing panel.
+
+---
+
 ## [1.5.5] - 2026-10-21
 
 ### Changed

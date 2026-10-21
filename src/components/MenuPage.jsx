@@ -1,11 +1,9 @@
-import React, { useMemo, useState, useEffect, useCallback } from "react";
+import React, { Suspense, useMemo, useState, useEffect, useCallback } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import MenuItemCard from "./MenuItemCard";
 import MenuNav, { anchorId } from "./MenuNav";
 import FilterSheet, { EMPTY_FILTERS, filterLabel } from "./FilterSheet";
-import CategoryWineMap from "./CategoryWineMap";
-import InternationalWineMap from "./InternationalWineMap";
-import SpiritsMap from "./SpiritsMap";
+import { CategoryWineMap, InternationalWineMap, SpiritsMap, preloadMaps } from "./lazyMaps";
 import { getDefaultPreferences } from "../utils/pairingPreferences";
 import {
   DRINK_SECTIONS, WINE_FORMATS, drinkSectionOf, wineFormatOf, drinkGroupOf, wineGroupRank,
@@ -157,6 +155,9 @@ function MenuPage({ title, data, showKidsFilter = false }) {
     return () => clearTimeout(t);
   }, [focusId, location.key, section, format]);
 
+  // Drinks pages show maps: fetch the map code once the page is on screen
+  useEffect(() => { if (isDrinksMenu) preloadMaps(); }, [isDrinksMenu]);
+
   const activeFilterKeys = Object.keys(filters).filter((k) => filters[k]);
   const filterCount = activeFilterKeys.length + (pairingIsCustom(pairingPreferences) ? 1 : 0);
 
@@ -240,9 +241,11 @@ function MenuPage({ title, data, showKidsFilter = false }) {
 
               {isOpen && (
                 <div id={bodyId}>
-                  {ITALIAN_MAP.includes(cat) && <CategoryWineMap wines={g.items} categoryName={cat} />}
-                  {INTERNATIONAL_MAP.includes(cat) && <InternationalWineMap wines={g.items} categoryName={cat} />}
-                  {SPIRITS_MAP.includes(cat) && <SpiritsMap spirits={g.items} categoryName={cat} />}
+                  <Suspense fallback={null}>
+                    {ITALIAN_MAP.includes(cat) && <CategoryWineMap wines={g.items} categoryName={cat} />}
+                    {INTERNATIONAL_MAP.includes(cat) && <InternationalWineMap wines={g.items} categoryName={cat} />}
+                    {SPIRITS_MAP.includes(cat) && <SpiritsMap spirits={g.items} categoryName={cat} />}
+                  </Suspense>
                   {g.items.map((item) => (
                     <MenuItemCard
                       key={item.id}

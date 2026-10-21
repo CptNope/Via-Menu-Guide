@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { Suspense, useMemo, useState } from "react";
 import { GiWheat, GiPeanut, GiCow } from "react-icons/gi";
 import { TbLeaf } from "react-icons/tb";
 import FlavorProfileDisplay from "./FlavorProfileDisplay.jsx";
@@ -6,9 +6,7 @@ import PairingSection from "./PairingSection.jsx";
 import WinePairingDisplay from "./WinePairingDisplay.jsx";
 import FoodPairingDisplay from "./FoodPairingDisplay.jsx";
 import BeveragePairingDisplay from "./BeveragePairingDisplay.jsx";
-import ItalianWineMapInteractive from "./ItalianWineMapInteractive.jsx";
-import InternationalWineMapInteractive from "./InternationalWineMapInteractive.jsx";
-import SpiritsMapInteractive from "./SpiritsMapInteractive.jsx";
+import { ItalianWineMapInteractive, InternationalWineMapInteractive, SpiritsMapInteractive } from "./lazyMaps";
 import { usePairingData } from "../hooks/usePairingData.js";
 
 function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = false }) {
@@ -133,7 +131,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
         item.category === "Italian Reds" ||
         item.category === "Super Tuscan"
       ) && (
-        <ItalianWineMapInteractive wine={item} />
+        <Suspense fallback={null}><ItalianWineMapInteractive wine={item} /></Suspense>
       )}
 
       {/* International Wine Maps (bottles, half bottles, and by glass) */}
@@ -154,7 +152,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
         item.category === "Sparkling" ||
         item.category === "Half Bottles"
       ) && (
-        <InternationalWineMapInteractive wine={item} />
+        <Suspense fallback={null}><InternationalWineMapInteractive wine={item} /></Suspense>
       )}
 
       {/* Spirits Maps (bourbon, rye, scotch, cognac, grappa, port, amaro) */}
@@ -167,7 +165,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
         item.category === "Port" ||
         item.category === "Amaro & Digestivo"
       ) && (
-        <SpiritsMapInteractive spirit={item} />
+        <Suspense fallback={null}><SpiritsMapInteractive spirit={item} /></Suspense>
       )}
 
       {/* Beer Maps (draught and bottles/cans) */}
@@ -176,7 +174,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
         item.category === "Bottles & Cans" ||
         item.category === "Non-Alcoholic Beer"
       ) && (
-        <InternationalWineMapInteractive wine={item} />
+        <Suspense fallback={null}><InternationalWineMapInteractive wine={item} /></Suspense>
       )}
 
       {item.serverNotes && (

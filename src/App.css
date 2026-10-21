@@ -1075,3 +1075,9 @@
   font-size: 0.85rem;
   color: #6b4a3b;
 }
+
+.page-loading {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #6b4a3b;
+}

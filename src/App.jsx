@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Suspense, lazy, useState } from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import { FiShield, FiHome, FiShare2, FiDollarSign } from "react-icons/fi";
 import "./App.css";
@@ -86,12 +86,14 @@ const drinksData = [
 ];
 
 import MenuPage from "./components/MenuPage";
-import SharePage from "./components/SharePage";
-import AdminLogin from "./components/AdminLogin";
-import AdminPanel from "./components/AdminPanel";
 import UpdateNotification from "./components/UpdateNotification";
-import TipTracker from "./components/TipTracker";
 import GlobalSearch from "./components/GlobalSearch";
+
+// Pages that aren't menus load on demand
+const TipTracker = lazy(() => import("./components/TipTracker"));
+const SharePage = lazy(() => import("./components/SharePage"));
+const AdminLogin = lazy(() => import("./components/AdminLogin"));
+const AdminPanel = lazy(() => import("./components/AdminPanel"));
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
@@ -178,6 +180,7 @@ function App() {
       </header>
 
       <main className="app-main">
+        <Suspense fallback={<p className="page-loading">Loading…</p>}>
         <Routes>
           <Route
             path="/"
@@ -268,6 +271,7 @@ function App() {
             }
           />
         </Routes>
+        </Suspense>
       </main>
 
       <footer className="app-footer">

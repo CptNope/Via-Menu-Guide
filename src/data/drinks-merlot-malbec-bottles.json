@@ -51,7 +51,7 @@
     "description": "Mendoza, Argentina, JS 93, 2024",
     "price": 47,
     "category": "Merlot & Malbec Bottles",
-    "serverNotes": "📖 ABOUT: (paulhobbs.com) Premium Mendoza Malbec from renowned winemaker Paul Hobbs. Rated 93 pts by James Suckling! Also available by the glass.\n\n🍷 STYLE: Full-bodied Malbec | Rich, concentrated dark fruit, chocolate & spice | Velvety texture | High-altitude balance.\n\n🍽️ PAIRS WITH: Ribeye, lamb, BBQ, Argentine steak.\n\n💡 BOTTLE SERVICE: High-quality Argentine Malbec from a legendary winemaker. Available by the glass too!",
+    "serverNotes": "📖 ABOUT: (vinacobos.com) Premium Mendoza Malbec from renowned winemaker Paul Hobbs. Rated 93 pts by James Suckling! Also available by the glass.\n\n🍷 STYLE: Full-bodied Malbec | Rich, concentrated dark fruit, chocolate & spice | Velvety texture | High-altitude balance.\n\n🍽️ PAIRS WITH: Ribeye, lamb, BBQ, Argentine steak.\n\n💡 BOTTLE SERVICE: High-quality Argentine Malbec from a legendary winemaker. Available by the glass too!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -87,7 +87,7 @@
         "concentrated"
       ]
     },
-    "website": "https://www.paulhobbs.com/",
+    "website": "https://www.vinacobos.com/",
     "region": "Argentina",
     "pronunciation": "feh-LEE-noh mahl-BECK"
   },

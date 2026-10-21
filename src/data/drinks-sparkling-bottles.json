@@ -6,7 +6,7 @@
     "description": "IGT Lombardy, IT, 2025",
     "price": 39,
     "category": "Sparkling Bottles",
-    "serverNotes": "📖 ABOUT: (centorri.it) Sweet Moscato di Pavia from Centorri in northern Italy. Lightly sparkling, low alcohol. Perfect dessert wine or aperitif!\n\n🥂 STYLE: Light-bodied Moscato | Sweet, fruity with peach & floral notes | Lightly sparkling (frizzante) | Low alcohol (5-7%) | Refreshing.\n\n🍽️ PAIRS WITH: Desserts, fruit tarts, pastries, brunch.\n\n💡 BOTTLE SERVICE: Sweet, fun, low alcohol! Perfect for dessert or celebration start!",
+    "serverNotes": "📖 ABOUT: Sweet Moscato di Pavia from Centorri in northern Italy. Lightly sparkling, low alcohol. Perfect dessert wine or aperitif!\n\n🥂 STYLE: Light-bodied Moscato | Sweet, fruity with peach & floral notes | Lightly sparkling (frizzante) | Low alcohol (5-7%) | Refreshing.\n\n🍽️ PAIRS WITH: Desserts, fruit tarts, pastries, brunch.\n\n💡 BOTTLE SERVICE: Sweet, fun, low alcohol! Perfect for dessert or celebration start!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -41,7 +41,6 @@
         "sweet-sparkler"
       ]
     },
-    "website": "https://www.centorri.it/",
     "region": "Italy"
   },
   {

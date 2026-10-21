@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.1] - 2026-10-21
+
+### Fixed
+- **Maps**: every wine, spirit and beer now has a region its map knows. Wines by the glass had no region and showed no map; glass Pinot Noir wasn't wired to a map; beer maps never appeared. Added Tuscany, Sicily, Alsace and Ireland to the item maps, the Italian regions and Germany to the international category map, and Italy to the spirits category map.
+- **Pronunciations**: added for 44 more wines and for Italian dish names on the food menus (Arancini, Osso Buco, Affogato ...); fixed a few stresses (Gagliardo, Vajra, Meritage, brut). Plain English names (Eagle Rare, Duckhorn) are left without one on purpose.
+- **Web links**: checked all 132 producer links. Fixed 16 that pointed to the wrong company (for example fernet.com is an insurer, stonestreet.com a finance firm) or had moved, replaced 10 dead domains with the producers' current sites where one could be confirmed, and removed 7 links with no confirmable official site. Fixed 7 Wikipedia landmark links on the maps.
+
+---
+
 ## [1.5.0] - 2026-10-21
 
 ### Changed

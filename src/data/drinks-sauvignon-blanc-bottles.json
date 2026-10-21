@@ -144,7 +144,7 @@
     "description": "Marlborough, 2025",
     "price": 57,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "🏆 ABOUT: (cloudybay.co.nz) Cloudy Bay - the wine that put Marlborough on the map! Iconic New Zealand Sauvignon Blanc. World-renowned quality!\n\n🍷 STYLE: Crisp Sauvignon Blanc | Intense passion fruit, citrus & herbs | Vibrant, complex | Marlborough benchmark.\n\n🍽️ PAIRS WITH: Seafood, sushi, oysters, fresh dishes.\n\n💡 BOTTLE SERVICE: Iconic New Zealand wine. The original Marlborough SB that started it all!",
+    "serverNotes": "🏆 ABOUT: (cloudybay.com) Cloudy Bay - the wine that put Marlborough on the map! Iconic New Zealand Sauvignon Blanc. World-renowned quality!\n\n🍷 STYLE: Crisp Sauvignon Blanc | Intense passion fruit, citrus & herbs | Vibrant, complex | Marlborough benchmark.\n\n🍽️ PAIRS WITH: Seafood, sushi, oysters, fresh dishes.\n\n💡 BOTTLE SERVICE: Iconic New Zealand wine. The original Marlborough SB that started it all!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -180,7 +180,7 @@
         "elegant"
       ]
     },
-    "website": "https://www.cloudybay.co.nz/",
+    "website": "https://www.cloudybay.com/",
     "region": "New Zealand"
   },
   {
@@ -190,7 +190,7 @@
     "description": "Sancerre, FR, 2023",
     "price": 70,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "📖 ABOUT: (flouret-sancerre.com) Sancerre from Flouret estate in Loire Valley. Terroir-focused, organic farming. Pure Loire expression!\n\n🍷 STYLE: Crisp Sancerre | Mineral, citrus & green apple | Bright acidity, clean finish | Organic quality | Terroir-driven.\n\n🍽️ PAIRS WITH: Oysters, seafood, goat cheese, fresh shellfish.\n\n💡 BOTTLE SERVICE: Organic Sancerre. Pure, terroir-focused Loire!",
+    "serverNotes": "📖 ABOUT: Sancerre from Flouret estate in Loire Valley. Terroir-focused, organic farming. Pure Loire expression!\n\n🍷 STYLE: Crisp Sancerre | Mineral, citrus & green apple | Bright acidity, clean finish | Organic quality | Terroir-driven.\n\n🍽️ PAIRS WITH: Oysters, seafood, goat cheese, fresh shellfish.\n\n💡 BOTTLE SERVICE: Organic Sancerre. Pure, terroir-focused Loire!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -226,7 +226,6 @@
         "Sancerre"
       ]
     },
-    "website": "https://www.flouret-sancerre.com/",
     "region": "Loire Valley"
   },
   {
@@ -236,7 +235,7 @@
     "description": "Sancerre, FR, 2022",
     "price": 80,
     "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "🏆 ABOUT: (crochet-sancerre.com) 'Exils' Sancerre from prestigious Francois Crochet. Premium cuvée from old vines. Serious collector's Sancerre!\n\n🍷 STYLE: Crisp Sancerre | Intense minerality, citrus & complexity | Old vine concentration | Premium Loire terroir | Age-worthy.\n\n🍽️ PAIRS WITH: Oysters, seafood, fine French cuisine.\n\n💡 BOTTLE SERVICE: Premium old-vine Sancerre. Collector-quality Loire!",
+    "serverNotes": "🏆 ABOUT: 'Exils' Sancerre from prestigious Francois Crochet. Premium cuvée from old vines. Serious collector's Sancerre!\n\n🍷 STYLE: Crisp Sancerre | Intense minerality, citrus & complexity | Old vine concentration | Premium Loire terroir | Age-worthy.\n\n🍽️ PAIRS WITH: Oysters, seafood, fine French cuisine.\n\n💡 BOTTLE SERVICE: Premium old-vine Sancerre. Collector-quality Loire!",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -272,7 +271,6 @@
         "elite-Sancerre"
       ]
     },
-    "website": "https://www.crochet-sancerre.com/",
     "region": "Loire Valley"
   }
 ]

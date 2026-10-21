@@ -1,372 +1,266 @@
-import React, { useMemo, useState, useEffect } from "react";
+import React, { useMemo, useState, useEffect, useCallback } from "react";
+import { useLocation, useSearchParams } from "react-router-dom";
 import MenuItemCard from "./MenuItemCard";
-import FilterBar from "./FilterBar";
-import PairingControls from "./PairingControls";
+import MenuNav, { anchorId } from "./MenuNav";
+import FilterSheet, { EMPTY_FILTERS, filterLabel } from "./FilterSheet";
 import CategoryWineMap from "./CategoryWineMap";
 import InternationalWineMap from "./InternationalWineMap";
 import SpiritsMap from "./SpiritsMap";
 import { getDefaultPreferences } from "../utils/pairingPreferences";
+import {
+  DRINK_SECTIONS, WINE_FORMATS, drinkSectionOf, wineFormatOf, drinkGroupOf, wineGroupRank,
+} from "../constants/drinkSections";
 import educationalGuide from "../data/drinksEducationalGuide.json";
 
-const groupByCategory = (items) => {
-  const map = {};
-  items.forEach((item) => {
-    const cat = item.category || "Other";
-    if (!map[cat]) map[cat] = [];
-    map[cat].push(item);
-  });
-  return map;
+const ITALIAN_MAP = ["Italian Reds Bottles", "Super Tuscan Bottles", "Italian Reds", "Super Tuscan"];
+const INTERNATIONAL_MAP = [
+  "Merlot & Malbec Bottles", "Merlot & Malbec", "Pinot Noir & Interesting Reds Bottles", "Pinot Noir",
+  "Cabernet & Blends Bottles", "Cabernet & Blends", "Sauvignon Blanc Bottles", "Sauvignon Blanc",
+  "Chardonnay Bottles", "Chardonnay", "Interesting Whites Bottles", "Interesting Whites",
+  "Sparkling Bottles", "Sparkling", "Half Bottles",
+];
+const SPIRITS_MAP = ["Bourbon", "Rye", "Scotch", "Cognac", "Grappa", "Port", "Amaro & Digestivo"];
+
+// Educational guide keys for each raw category
+const EDU_KEYS = {
+  "Bourbon": "Bourbon", "Rye": "Rye", "Scotch": "Scotch", "Grappa": "Grappa", "Cognac": "Cognac",
+  "Port": "Port", "Amaro & Digestivo": "Amaro & Digestivo", "Coffee Cocktails": "Coffee Cocktails",
+  "Italian Reds": "Italian Reds", "Italian Reds Bottles": "Italian Reds",
+  "Super Tuscan": "Super Tuscan", "Super Tuscan Bottles": "Super Tuscan",
+  "Sparkling": "Sparkling Bottles", "Sparkling Bottles": "Sparkling Bottles",
+  "Merlot & Malbec": "Merlot & Malbec", "Merlot & Malbec Bottles": "Merlot & Malbec",
+  "Pinot Noir": "Pinot Noir & Interesting Reds",
+  "Cabernet & Blends": "Cabernet & Blends", "Cabernet & Blends Bottles": "Cabernet & Blends",
+  "Sauvignon Blanc": "Sauvignon Blanc", "Sauvignon Blanc Bottles": "Sauvignon Blanc",
+  "Chardonnay": "Chardonnay", "Chardonnay Bottles": "Chardonnay",
+  "Interesting Whites": "Interesting Whites", "Interesting Whites Bottles": "Interesting Whites",
+  "Pinot Noir & Interesting Reds Bottles": "Pinot Noir & Interesting Reds",
+  "Signature Cocktails": "Via Signature Cocktails", "Mocktails": "Mocktails",
+  "Draught": "Draught Beers", "Bottles & Cans": "Bottles & Cans", "Non-Alcoholic Beer": "Non-Alcoholic Beer",
+};
+const eduFor = (rawCategory) => {
+  const key = EDU_KEYS[rawCategory];
+  return key ? educationalGuide.categories[key] : null;
 };
 
-function MenuPage({ title, data }) {
-  const isDrinksMenu = title === "Drinks";
-  const [expandedCategories, setExpandedCategories] = useState({});
-  const [expandedEduCategories, setExpandedEduCategories] = useState({});
-  const [pairingPreferences, setPairingPreferences] = useState(getDefaultPreferences());
-  
-  const [filters, setFilters] = useState({
-    vegetarian: false,
-    glutenFree: false,
-    nutFree: false,
-    dairyFree: false,
-    shellfishFree: false,
-    fishFree: false,
-    soyFree: false,
-    eggFree: false,
-    kids: false,
-    // Drink filters
-    winesByGlass: false,
-    halfBottles: false,
-    bottles: false,
-    // Bottle wine category filters
-    italianRedsBottles: false,
-    superTuscanBottles: false,
-    merlotMalbecBottles: false,
-    pinotNoirBottles: false,
-    cabernetBottles: false,
-    sauvignonBlancBottles: false,
-    chardonnayBottles: false,
-    interestingWhitesBottles: false,
-    sparklingBottles: false,
-    // Other drink filters
-    cocktails: false,
-    beers: false,
-    bourbon: false,
-    rye: false,
-    scotch: false,
-    grappa: false,
-    cognac: false,
-    port: false,
-    amaro: false,
-    coffeeCocktails: false,
-  });
+function passesFilters(item, f) {
+  if (f.vegetarian && !item.vegetarian) return false;
+  if (f.glutenFree && !(item.glutenFree || item.canBeMadeGlutenFree || item.glutenFreeAvailable)) return false;
+  if (f.nutFree && !item.nutFree) return false;
+  if (f.dairyFree && item.allergens?.includes("dairy")) return false;
+  if (f.shellfishFree && item.allergens?.includes("shellfish")) return false;
+  if (f.fishFree && item.allergens?.includes("fish")) return false;
+  if (f.soyFree && item.allergens?.includes("soy")) return false;
+  if (f.eggFree && item.allergens?.includes("eggs")) return false;
+  if (f.kids && !item.kids) return false;
+  return true;
+}
 
-  const filtered = useMemo(() => {
-    return data.filter((item) => {
-      // Drink category filters
-      if (isDrinksMenu) {
-        const wineByGlassCategories = [
-          "Italian Reds", "Super Tuscan", "Merlot & Malbec", "Organic Pinot Noir",
-          "Cabernet & Blends", "Sauvignon Blanc", "Chardonnay", "Interesting Whites", "Sparkling"
-        ];
-        const bottleCategories = [
-          "Italian Reds Bottles", "Super Tuscan Bottles", "Merlot & Malbec Bottles",
-          "Pinot Noir & Interesting Reds Bottles", "Cabernet & Blends Bottles",
-          "Sauvignon Blanc Bottles", "Chardonnay Bottles", "Interesting Whites Bottles",
-          "Sparkling Bottles", "Half Bottles - Wine"
-        ];
-        const cocktailCategories = ["Signature Cocktails", "Mocktails"];
-        const beerCategories = ["Draught", "Bottles & Cans", "Non-Alcoholic Beer"];
-        
-        const anyDrinkFilter = filters.winesByGlass || filters.halfBottles || filters.bottles || 
-                               filters.italianRedsBottles || filters.superTuscanBottles || filters.merlotMalbecBottles ||
-                               filters.pinotNoirBottles || filters.cabernetBottles || filters.sauvignonBlancBottles ||
-                               filters.chardonnayBottles || filters.interestingWhitesBottles || filters.sparklingBottles ||
-                               filters.cocktails || filters.beers || filters.bourbon || filters.rye || 
-                               filters.scotch || filters.grappa || filters.cognac || filters.port || 
-                               filters.amaro || filters.coffeeCocktails;
-        
-        if (anyDrinkFilter) {
-          let matchesDrinkFilter = false;
-          
-          if (filters.winesByGlass && wineByGlassCategories.includes(item.category)) {
-            matchesDrinkFilter = true;
-          }
-          if (filters.halfBottles && item.category === "Half Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.bottles && bottleCategories.includes(item.category)) {
-            matchesDrinkFilter = true;
-          }
-          // Individual bottle category filters
-          if (filters.italianRedsBottles && item.category === "Italian Reds Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.superTuscanBottles && item.category === "Super Tuscan Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.merlotMalbecBottles && item.category === "Merlot & Malbec Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.pinotNoirBottles && item.category === "Pinot Noir & Interesting Reds Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.cabernetBottles && item.category === "Cabernet & Blends Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.sauvignonBlancBottles && item.category === "Sauvignon Blanc Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.chardonnayBottles && item.category === "Chardonnay Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.interestingWhitesBottles && item.category === "Interesting Whites Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.sparklingBottles && item.category === "Sparkling Bottles") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.cocktails && cocktailCategories.includes(item.category)) {
-            matchesDrinkFilter = true;
-          }
-          if (filters.beers && beerCategories.includes(item.category)) {
-            matchesDrinkFilter = true;
-          }
-          if (filters.bourbon && item.category === "Bourbon") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.rye && item.category === "Rye") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.scotch && item.category === "Scotch") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.grappa && item.category === "Grappa") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.cognac && item.category === "Cognac") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.port && item.category === "Port") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.amaro && item.category === "Amaro & Digestivo") {
-            matchesDrinkFilter = true;
-          }
-          if (filters.coffeeCocktails && item.category === "Coffee Cocktails") {
-            matchesDrinkFilter = true;
-          }
-          
-          if (!matchesDrinkFilter) return false;
-        }
-      }
-      
-      // Dietary filters
-      if (filters.vegetarian && !item.vegetarian) return false;
-      if (filters.glutenFree && !(item.glutenFree || item.canBeMadeGlutenFree || item.glutenFreeAvailable)) return false;
-      if (filters.nutFree && !item.nutFree) return false;
-      if (filters.dairyFree && item.allergens?.includes("dairy")) return false;
-      if (filters.shellfishFree && item.allergens?.includes("shellfish")) return false;
-      if (filters.fishFree && item.allergens?.includes("fish")) return false;
-      if (filters.soyFree && item.allergens?.includes("soy")) return false;
-      if (filters.eggFree && item.allergens?.includes("eggs")) return false;
-      if (filters.kids && !item.kids) return false;
+function pairingIsCustom(p) {
+  const d = getDefaultPreferences();
+  return Object.keys(p.prefer || {}).length > 0 || Object.keys(p.exclude || {}).length > 0
+    || p.priceRange?.min !== d.priceRange.min || p.priceRange?.max !== d.priceRange.max || p.minScore !== d.minScore;
+}
+
+function MenuPage({ title, data, showKidsFilter = false }) {
+  const isDrinksMenu = title === "Drinks";
+  const location = useLocation();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [collapsed, setCollapsed] = useState({});
+  const [eduOpen, setEduOpen] = useState({});
+  const [pairingPreferences, setPairingPreferences] = useState(getDefaultPreferences());
+  const [filters, setFilters] = useState(EMPTY_FILTERS);
+  const [sheetOpen, setSheetOpen] = useState(false);
+
+  // Drinks: section and wine format live in the URL so Back and shared links keep them.
+  const section = isDrinksMenu && DRINK_SECTIONS.some((s) => s.id === searchParams.get("section"))
+    ? searchParams.get("section") : "wine";
+  const format = WINE_FORMATS.some((f) => f.id === searchParams.get("format"))
+    ? searchParams.get("format") : "glass";
+  const setNav = useCallback((next) => {
+    const params = new URLSearchParams(searchParams);
+    Object.entries(next).forEach(([k, v]) => params.set(k, v));
+    if (params.get("section") !== "wine") params.delete("format");
+    setSearchParams(params, { replace: true });
+    window.scrollTo({ top: 0 });
+  }, [searchParams, setSearchParams]);
+
+  const filtered = useMemo(() => data.filter((item) => passesFilters(item, filters)), [data, filters]);
+
+  // Items shown on screen: drinks are narrowed to the chosen section (and wine format).
+  const visible = useMemo(() => {
+    if (!isDrinksMenu) return filtered;
+    return filtered.filter((item) => {
+      if (drinkSectionOf(item.category) !== section) return false;
+      if (section === "wine") return wineFormatOf(item.category) === format;
       return true;
     });
-  }, [data, filters, isDrinksMenu]);
+  }, [filtered, isDrinksMenu, section, format]);
 
-  const grouped = useMemo(() => groupByCategory(filtered), [filtered]);
-
-  useEffect(() => {
-    setExpandedCategories((prev) => {
-      const next = { ...prev };
-      Object.keys(grouped).forEach((cat) => {
-        if (next[cat] === undefined) next[cat] = true;
-      });
-      return next;
+  // Group into headings, in menu order.
+  const groups = useMemo(() => {
+    const map = new Map();
+    visible.forEach((item) => {
+      const id = isDrinksMenu ? drinkGroupOf(item) : (item.category || "Other");
+      if (!map.has(id)) map.set(id, { id, label: id, rawCategory: item.category, items: [] });
+      map.get(id).items.push(item);
     });
-  }, [grouped]);
+    let list = [...map.values()];
+    if (isDrinksMenu && section === "wine") list.sort((a, b) => wineGroupRank(a.id) - wineGroupRank(b.id));
+    if (isDrinksMenu && section !== "wine") {
+      const order = DRINK_SECTIONS.find((s) => s.id === section)?.categories || [];
+      list.sort((a, b) => order.indexOf(a.rawCategory) - order.indexOf(b.rawCategory));
+    }
+    return list;
+  }, [visible, isDrinksMenu, section]);
 
-  const toggleCategory = (category) => {
-    setExpandedCategories((prev) => ({
-      ...prev,
-      [category]: !prev[category],
-    }));
-  };
+  const navGroups = useMemo(
+    () => groups.map((g) => ({ id: g.id, label: g.label, count: g.items.length })),
+    [groups],
+  );
 
-  const toggleEducationalInfo = (category) => {
-    setExpandedEduCategories((prev) => ({
-      ...prev,
-      [category]: !prev[category],
-    }));
-  };
+  const formatCounts = useMemo(() => {
+    if (!isDrinksMenu) return null;
+    const counts = {};
+    filtered.forEach((i) => { const f = wineFormatOf(i.category); if (f) counts[f] = (counts[f] || 0) + 1; });
+    return counts;
+  }, [filtered, isDrinksMenu]);
 
-  const getEducationalInfo = (category) => {
-    // Map category names to educational guide keys
-    const categoryMap = {
-      "Bourbon": "Bourbon",
-      "Rye": "Rye",
-      "Scotch": "Scotch",
-      "Grappa": "Grappa",
-      "Cognac": "Cognac",
-      "Port": "Port",
-      "Amaro & Digestivo": "Amaro & Digestivo",
-      "Coffee Cocktails": "Coffee Cocktails",
-      "Italian Reds": "Italian Reds",
-      "Italian Reds Bottles": "Italian Reds",
-      "Super Tuscan": "Super Tuscan",
-      "Super Tuscan Bottles": "Super Tuscan",
-      "Sparkling": "Sparkling Bottles",
-      "Sparkling Bottles": "Sparkling Bottles",
-      "Merlot & Malbec": "Merlot & Malbec",
-      "Merlot & Malbec Bottles": "Merlot & Malbec",
-      "Organic Pinot Noir": "Organic Pinot Noir",
-      "Cabernet & Blends": "Cabernet & Blends",
-      "Cabernet & Blends Bottles": "Cabernet & Blends",
-      "Sauvignon Blanc": "Sauvignon Blanc",
-      "Sauvignon Blanc Bottles": "Sauvignon Blanc",
-      "Chardonnay": "Chardonnay",
-      "Chardonnay Bottles": "Chardonnay",
-      "Interesting Whites": "Interesting Whites",
-      "Interesting Whites Bottles": "Interesting Whites",
-      "Pinot Noir & Interesting Reds Bottles": "Pinot Noir & Interesting Reds",
-      "Via Signature Cocktails": "Via Signature Cocktails",
-      "Mocktails": "Mocktails",
-      "Draught Beers": "Draught Beers",
-      "Bottles & Cans": "Bottles & Cans",
-      "Non-Alcoholic Beer": "Non-Alcoholic Beer",
-    };
-    
-    const guideKey = categoryMap[category];
-    return guideKey ? educationalGuide.categories[guideKey] : null;
-  };
+  // Search hands over an item id; open its section, format and heading, then scroll to it.
+  const focusId = location.state?.focusId;
+  useEffect(() => {
+    if (!focusId) return undefined;
+    const item = data.find((i) => i.id === focusId);
+    if (!item) return undefined;
+    if (!passesFilters(item, filters)) setFilters(EMPTY_FILTERS);
+    if (isDrinksMenu) {
+      const s = drinkSectionOf(item.category);
+      const f = wineFormatOf(item.category);
+      if (s !== section || (f && f !== format)) {
+        const params = new URLSearchParams(searchParams);
+        params.set("section", s);
+        if (f) params.set("format", f); else params.delete("format");
+        setSearchParams(params, { replace: true, state: location.state });
+        return undefined; // runs again once the section is showing
+      }
+    }
+    const group = isDrinksMenu ? drinkGroupOf(item) : item.category;
+    setCollapsed((c) => ({ ...c, [group]: false }));
+    const t = setTimeout(() => {
+      const el = document.getElementById(`menu-item-${item.id}`);
+      if (!el) return;
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.classList.add("highlight-flash");
+      setTimeout(() => el.classList.remove("highlight-flash"), 2000);
+    }, 120);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focusId, location.key, section, format]);
+
+  const activeFilterKeys = Object.keys(filters).filter((k) => filters[k]);
+  const filterCount = activeFilterKeys.length + (pairingIsCustom(pairingPreferences) ? 1 : 0);
 
   return (
     <div className="page">
       <div className="menu-header">
         <h1 className="menu-title">{title}</h1>
-        <p className="menu-subtitle">
-          Proposed allergen information and pairings &mdash; editable in admin.
-        </p>
       </div>
 
-      <PairingControls 
-        preferences={pairingPreferences}
-        onChange={setPairingPreferences}
+      <MenuNav
+        sections={isDrinksMenu ? DRINK_SECTIONS : null}
+        activeSection={section}
+        onSection={(id) => setNav({ section: id })}
+        formats={isDrinksMenu && section === "wine" ? WINE_FORMATS : null}
+        activeFormat={format}
+        onFormat={(id) => setNav({ section: "wine", format: id })}
+        formatCounts={formatCounts}
+        groups={navGroups}
+        onFiltersClick={() => setSheetOpen(true)}
+        filterCount={filterCount}
       />
 
-      {/* Category Jump Buttons */}
-      {Object.keys(grouped).length > 1 && (
-        <div className="category-jump-nav">
-          <span className="jump-nav-label">Jump to:</span>
-          <div className="jump-buttons">
-            {Object.keys(grouped).map((cat) => (
-              <button
-                key={cat}
-                className="jump-btn"
-                onClick={() => {
-                  const element = document.getElementById(`category-${cat.replace(/[^a-zA-Z0-9]/g, '-')}`);
-                  if (element) {
-                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                  }
-                }}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
+      {activeFilterKeys.length > 0 && (
+        <div className="active-filters" aria-label="Active filters">
+          {activeFilterKeys.map((k) => (
+            <button key={k} type="button" className="active-filter" onClick={() => setFilters({ ...filters, [k]: false })}
+              aria-label={`Remove filter: ${filterLabel(k)}`}>
+              {filterLabel(k)}
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" /></svg>
+            </button>
+          ))}
+          <button type="button" className="fs-link" onClick={() => setFilters(EMPTY_FILTERS)}>Clear all</button>
         </div>
       )}
-      
-      <FilterBar filters={filters} onChange={setFilters} showDrinkFilters={isDrinksMenu} />
+
+      <FilterSheet
+        open={sheetOpen}
+        onClose={() => setSheetOpen(false)}
+        filters={filters}
+        onChange={setFilters}
+        resultCount={visible.length}
+        showKidsFilter={showKidsFilter}
+        pairingPreferences={pairingPreferences}
+        onPairingChange={setPairingPreferences}
+      />
 
       <div className="menu-layout">
-        {Object.keys(grouped).map((cat) => {
-          const eduInfo = isDrinksMenu ? getEducationalInfo(cat) : null;
-          const isCategoryExpanded = expandedCategories[cat];
-          const isEduExpanded = expandedEduCategories[cat];
-          
+        {groups.map((g) => {
+          const cat = g.rawCategory;
+          const edu = isDrinksMenu ? eduFor(cat) : null;
+          const isOpen = !collapsed[g.id];
+          const isEduOpen = eduOpen[g.id];
+          const bodyId = `${anchorId(g.id)}-items`;
           return (
-            <section key={cat} className="menu-category" id={`category-${cat.replace(/[^a-zA-Z0-9]/g, '-')}`}>
+            <section key={g.id} className="menu-category" id={anchorId(g.id)} aria-labelledby={`${anchorId(g.id)}-h`}>
               <div className="category-header">
-                <h2 className="menu-category-title">{cat}</h2>
-                <button
-                  className="edu-toggle-btn"
-                  onClick={() => toggleCategory(cat)}
-                  title={isCategoryExpanded ? "Hide category" : "Show category"}
-                >
-                  {isCategoryExpanded ? "−" : "+"}
-                </button>
-                {eduInfo && (
-                  <button
-                    className="edu-toggle-btn"
-                    onClick={() => toggleEducationalInfo(cat)}
-                    title={isEduExpanded ? "Hide educational info" : "Show educational info"}
-                  >
-                    {isEduExpanded ? "−" : "ℹ"}
+                <h2 className="menu-category-title" id={`${anchorId(g.id)}-h`}>
+                  {g.label} <span className="category-count">{g.items.length}</span>
+                </h2>
+                {edu && (
+                  <button type="button" className="edu-toggle-btn" aria-expanded={!!isEduOpen}
+                    onClick={() => setEduOpen((p) => ({ ...p, [g.id]: !p[g.id] }))}
+                    aria-label={`About ${g.label}`} title={`About ${g.label}`}>
+                    {isEduOpen ? "−" : "ℹ"}
                   </button>
                 )}
+                <button type="button" className="edu-toggle-btn" aria-expanded={isOpen} aria-controls={bodyId}
+                  onClick={() => setCollapsed((p) => ({ ...p, [g.id]: isOpen }))}
+                  aria-label={isOpen ? `Hide ${g.label}` : `Show ${g.label}`}>
+                  {isOpen ? "−" : "+"}
+                </button>
               </div>
-              
-              {eduInfo && isEduExpanded && (
+
+              {edu && isEduOpen && (
                 <div className="educational-content">
-                  <div className="edu-section">
-                    <h4>📚 Origins & History</h4>
-                    <p>{eduInfo.origins}</p>
-                  </div>
-                  <div className="edu-section">
-                    <h4>📈 Current Trends</h4>
-                    <p>{eduInfo.trends}</p>
-                  </div>
-                  <div className="edu-section">
-                    <h4>💡 Expert Tips</h4>
-                    <p>{eduInfo.expertTips}</p>
-                  </div>
+                  <div className="edu-section"><h4>📚 Origins & History</h4><p>{edu.origins}</p></div>
+                  <div className="edu-section"><h4>📈 Current Trends</h4><p>{edu.trends}</p></div>
+                  <div className="edu-section"><h4>💡 Expert Tips</h4><p>{edu.expertTips}</p></div>
                 </div>
               )}
 
-              {isCategoryExpanded && (
-                <>
-                  {/* Italian Wine Maps (bottles and by glass) */}
-                  {(cat === "Italian Reds Bottles" || cat === "Super Tuscan Bottles" ||
-                    cat === "Italian Reds" || cat === "Super Tuscan") && (
-                    <CategoryWineMap wines={grouped[cat]} categoryName={cat} />
-                  )}
-
-                  {/* International Wine Maps (bottles, half bottles, and by glass) */}
-                  {(cat === "Merlot & Malbec Bottles" || cat === "Merlot & Malbec" ||
-                    cat === "Pinot Noir & Interesting Reds Bottles" || cat === "Organic Pinot Noir" ||
-                    cat === "Cabernet & Blends Bottles" || cat === "Cabernet & Blends" ||
-                    cat === "Sauvignon Blanc Bottles" || cat === "Sauvignon Blanc" ||
-                    cat === "Chardonnay Bottles" || cat === "Chardonnay" ||
-                    cat === "Interesting Whites Bottles" || cat === "Interesting Whites" ||
-                    cat === "Sparkling Bottles" || cat === "Sparkling" ||
-                    cat === "Half Bottles") && (
-                    <InternationalWineMap wines={grouped[cat]} categoryName={cat} />
-                  )}
-
-                  {/* Spirits Maps */}
-                  {(cat === "Bourbon" || cat === "Rye" || cat === "Scotch" ||
-                    cat === "Cognac" || cat === "Grappa" || cat === "Port" ||
-                    cat === "Amaro & Digestivo") && (
-                    <SpiritsMap spirits={grouped[cat]} categoryName={cat} />
-                  )}
-                  
-                  {grouped[cat].map((item) => (
-                    <MenuItemCard 
-                      key={item.id} 
-                      item={item} 
+              {isOpen && (
+                <div id={bodyId}>
+                  {ITALIAN_MAP.includes(cat) && <CategoryWineMap wines={g.items} categoryName={cat} />}
+                  {INTERNATIONAL_MAP.includes(cat) && <InternationalWineMap wines={g.items} categoryName={cat} />}
+                  {SPIRITS_MAP.includes(cat) && <SpiritsMap spirits={g.items} categoryName={cat} />}
+                  {g.items.map((item) => (
+                    <MenuItemCard
+                      key={item.id}
+                      item={item}
                       pairingPreferences={pairingPreferences}
                       isGlutenFilterActive={filters.glutenFree}
                     />
                   ))}
-                </>
+                </div>
               )}
             </section>
           );
         })}
-        {filtered.length === 0 && (
-          <p>No items match the selected filters yet.</p>
+        {visible.length === 0 && (
+          <div className="empty-state">
+            <p>Nothing here matches your filters.</p>
+            <button type="button" className="fs-link" onClick={() => setFilters(EMPTY_FILTERS)}>Clear filters</button>
+          </div>
         )}
       </div>
     </div>

@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - 2026-10-21
+
+### Changed
+- **Menu navigation**: a bar that stays at the top while you scroll, with a chip for every heading. Tap a chip to jump; the chip for the heading on screen lights up.
+- **Drinks are split into sections**: Wine, Cocktails, Beer, Whiskey and After dinner. Wine has its own By the glass / Bottles / Half bottles / Flights switch, and every format lists wines by style (Italian Reds, Super Tuscan, Cabernet & Blends ...), reds first. Half bottles are grouped Red and White. The chosen section is kept in the address, so Back works.
+- **Filters**: the wall of checkboxes is replaced by one Filters button. It opens a sheet with "Show only" (vegetarian, gluten-free) and "Leave out anything with" (nuts, dairy, shellfish, fish, eggs, soy), plus the pairing settings. Active filters show as removable chips under the bar, and the Filters button shows how many are on.
+- **Search** now opens the right drinks section and wine format before jumping to the item, and clears filters that would hide it.
+- **Header**: the page links sit in one swipeable row on phones.
+
+### Removed
+- The per-drink-type filter checkboxes (replaced by the section tabs) and the "Jump to" button block.
+
+### Not changed
+- Tip Tracker and its saved data.
+
+---
+
 ## [1.4.0] - 2026-10-21
 
 ### Changed

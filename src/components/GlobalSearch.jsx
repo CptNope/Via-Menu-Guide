@@ -98,21 +98,8 @@ function GlobalSearch({ menuData }) {
 
   // Handle item selection
   const handleSelectItem = (item) => {
-    // Navigate to the category page
-    navigate(item.route);
-    
-    // Scroll to the item after a brief delay
-    setTimeout(() => {
-      const element = document.getElementById(`menu-item-${item.id}`);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        // Briefly highlight the item
-        element.classList.add('highlight-flash');
-        setTimeout(() => {
-          element.classList.remove('highlight-flash');
-        }, 2000);
-      }
-    }, 100);
+    // The menu page opens the item's section, expands its heading, scrolls and highlights it
+    navigate(item.route, { state: { focusId: item.id, at: Date.now() } });
 
     // Close search and clear
     setQuery('');

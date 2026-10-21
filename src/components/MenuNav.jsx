@@ -57,7 +57,7 @@ function MenuNav({
     const row = chipRowRef.current;
     const chip = row?.querySelector('[aria-current="true"]');
     if (row && chip) {
-      const left = chip.offsetLeft - row.clientWidth / 2 + chip.offsetWidth / 2;
+      const left = chip.offsetLeft - row.offsetLeft - row.clientWidth / 2 + chip.offsetWidth / 2;
       row.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
     }
   }, [current]);
@@ -97,10 +97,11 @@ function MenuNav({
               type="button"
               role="radio"
               aria-checked={f.id === activeFormat}
+              aria-label={`${f.label}${formatCounts ? `, ${formatCounts[f.id] || 0}` : ""}`}
               className="menu-nav-format"
               onClick={() => onFormat(f.id)}
             >
-              {f.label}
+              {f.short || f.label}
               {formatCounts && <span className="count">{formatCounts[f.id] || 0}</span>}
             </button>
           ))}

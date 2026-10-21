@@ -19,10 +19,10 @@ const WINE_STYLES = [
 ];
 
 export const WINE_FORMATS = [
-  { id: "glass", label: "By the glass" },
-  { id: "bottle", label: "Bottles" },
-  { id: "half", label: "Half bottles" },
-  { id: "flight", label: "Flights" },
+  { id: "glass", label: "By the glass", short: "Glass" },
+  { id: "bottle", label: "Bottles", short: "Bottles" },
+  { id: "half", label: "Half bottles", short: "Half" },
+  { id: "flight", label: "Flights", short: "Flights" },
 ];
 
 export const DRINK_SECTIONS = [

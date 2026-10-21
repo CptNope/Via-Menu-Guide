@@ -154,7 +154,6 @@ function MenuPage({ title, data, showKidsFilter = false }) {
       setTimeout(() => el.classList.remove("highlight-flash"), 2000);
     }, 120);
     return () => clearTimeout(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [focusId, location.key, section, format]);
 
   const activeFilterKeys = Object.keys(filters).filter((k) => filters[k]);

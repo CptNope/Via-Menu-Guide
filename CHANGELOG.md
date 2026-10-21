@@ -17,6 +17,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Cocktails and beer**: autumn cocktail list (Falling for Spritz Flight, Caprese Martini, Pumpkin Margarita, Wimbledon and three Old Fashioneds), mocktails now $11 with two Bully Boy Intermezzo additions, Guinness and The Substance Ale on draught, Sun Cruiser in cans.
 - New dishes carry a note to confirm allergens with the kitchen; their allergen flags are based on the menu description.
 
+### Fixed
+- The "New Version Available" banner now appears when an update is waiting. Previously the update event fired before the banner was listening, so updates only applied after the app was fully closed and reopened.
+
 ### Not changed
 - Tip Tracker code and its saved data (`via-tip-tracker` in the browser) are untouched by this update.
 

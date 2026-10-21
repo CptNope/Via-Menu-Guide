@@ -26,6 +26,16 @@ function UpdateNotification({ workbox }) {
     workbox.addEventListener('waiting', handleWaiting);
     workbox.addEventListener('controlling', handleControlling);
 
+    // The 'waiting' event usually fires before this component receives the
+    // workbox, so also check for an update that is already waiting.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistration().then((registration) => {
+        if (registration && registration.waiting) {
+          setShowNotification(true);
+        }
+      });
+    }
+
     return () => {
       workbox.removeEventListener('waiting', handleWaiting);
       workbox.removeEventListener('controlling', handleControlling);

@@ -42,7 +42,8 @@
       ]
     },
     "website": "https://www.caymus.com/",
-    "region": "California"
+    "region": "California",
+    "pronunciation": "buh-NAN-zuh … KAY-mus"
   },
   {
     "id": "the-pessimist-cabernet-bottle",
@@ -87,7 +88,8 @@
       ]
     },
     "website": "https://www.daouvineyards.com/",
-    "region": "Paso Robles"
+    "region": "Paso Robles",
+    "pronunciation": "dow (rhymes with 'cow')"
   },
   {
     "id": "grand-enclos-du-chateau-de-cerons-bottle",
@@ -275,7 +277,7 @@
   {
     "id": "knights-bridge-meritage-bottle",
     "name": "Knight's Bridge Meritage",
-    "pronunciation": "knights bridge mair-ih-tidge",
+    "pronunciation": "knights bridge MAIR-ih-tij",
     "description": "Knight's Valley, 2018",
     "price": 67,
     "category": "Cabernet & Blends Bottles",
@@ -361,7 +363,8 @@
       ]
     },
     "website": "https://www.lacrema.com/",
-    "region": "Sonoma"
+    "region": "Sonoma",
+    "pronunciation": "lah KREM-ah"
   },
   {
     "id": "austin-hope-cabernet-bottle",
@@ -541,7 +544,8 @@
       ]
     },
     "website": "https://www.caymus.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "KAY-mus"
   },
   {
     "id": "doubleback-cabernet-bottle",
@@ -676,7 +680,8 @@
       ]
     },
     "website": "https://www.revanawinery.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "reh-VAH-nah"
   },
   {
     "id": "caymus-special-selection-bottle",
@@ -721,7 +726,8 @@
       ]
     },
     "website": "https://www.caymus.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "KAY-mus"
   },
   {
     "id": "quintessa-cabernet-bottle",
@@ -766,7 +772,8 @@
       ]
     },
     "website": "https://www.quintessa.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "kin-TESS-ah"
   },
   {
     "id": "chappellet-prichard-hill-bottle",
@@ -811,7 +818,8 @@
       ]
     },
     "website": "https://www.chappellet.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "shap-uh-LAY"
   },
   {
     "id": "joseph-phelps-insignia-bottle",
@@ -856,7 +864,8 @@
       ]
     },
     "website": "https://www.josephphelps.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "FELPS in-SIG-nee-uh"
   },
   {
     "id": "shafer-hillside-select-bottle",
@@ -901,6 +910,7 @@
       ]
     },
     "website": "https://www.shafervineyards.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "SHAY-fer"
   }
 ]

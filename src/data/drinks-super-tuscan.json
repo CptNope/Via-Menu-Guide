@@ -43,7 +43,8 @@
         "structured"
       ],
       "region": "Tuscany"
-    }
+    },
+    "region": "Tuscany"
   },
   {
     "id": "olillo-super-tuscan",
@@ -81,6 +82,7 @@
         "versatile"
       ],
       "region": "Tuscany"
-    }
+    },
+    "region": "Tuscany"
   }
 ]

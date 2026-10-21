@@ -10,8 +10,17 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["ladyfingers", "espresso", "mascarpone", "cocoa"],
-    "allergens": ["dairy", "gluten", "eggs"],
+    "ingredients": [
+      "ladyfingers",
+      "espresso",
+      "mascarpone",
+      "cocoa"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "eggs"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 2,
@@ -25,8 +34,14 @@
       "fattiness": 7,
       "intensity": 8,
       "complexity": 7,
-      "flavorNotes": ["coffee", "creamy", "rich", "classic"]
-    }
+      "flavorNotes": [
+        "coffee",
+        "creamy",
+        "rich",
+        "classic"
+      ]
+    },
+    "pronunciation": "tee-rah-mee-SOO"
   },
   {
     "id": "creme-brulee",
@@ -39,8 +54,17 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["cream", "pistachio", "sugar", "egg-yolks"],
-    "allergens": ["dairy", "eggs", "tree nuts"],
+    "ingredients": [
+      "cream",
+      "pistachio",
+      "sugar",
+      "egg-yolks"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "tree nuts"
+    ],
     "flavorProfile": {
       "sweetness": 7,
       "acidity": 1,
@@ -55,8 +79,14 @@
       "charLevel": 8,
       "intensity": 7,
       "complexity": 8,
-      "flavorNotes": ["nutty", "creamy", "caramel", "sophisticated"]
-    }
+      "flavorNotes": [
+        "nutty",
+        "creamy",
+        "caramel",
+        "sophisticated"
+      ]
+    },
+    "pronunciation": "krem broo-LAY"
   },
   {
     "id": "affogato",
@@ -69,8 +99,18 @@
     "glutenFree": false,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["gelato", "espresso", "cookie", "biscotti", "hazelnut"],
-    "allergens": ["dairy", "gluten", "nuts"],
+    "ingredients": [
+      "gelato",
+      "espresso",
+      "cookie",
+      "biscotti",
+      "hazelnut"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 2,
@@ -84,8 +124,14 @@
       "fattiness": 5,
       "intensity": 7,
       "complexity": 5,
-      "flavorNotes": ["coffee", "vanilla", "simple", "elegant"]
-    }
+      "flavorNotes": [
+        "coffee",
+        "vanilla",
+        "simple",
+        "elegant"
+      ]
+    },
+    "pronunciation": "ah-foh-GAH-toh"
   },
   {
     "id": "espresso-brownies",
@@ -98,8 +144,18 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["brownie", "espresso", "gelato", "whipped-cream", "chocolate-sauce"],
-    "allergens": ["dairy", "gluten", "eggs"],
+    "ingredients": [
+      "brownie",
+      "espresso",
+      "gelato",
+      "whipped-cream",
+      "chocolate-sauce"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "eggs"
+    ],
     "flavorProfile": {
       "sweetness": 8,
       "acidity": 1,
@@ -113,7 +169,12 @@
       "fattiness": 8,
       "intensity": 9,
       "complexity": 7,
-      "flavorNotes": ["chocolate", "coffee", "decadent", "indulgent"]
+      "flavorNotes": [
+        "chocolate",
+        "coffee",
+        "decadent",
+        "indulgent"
+      ]
     }
   },
   {
@@ -127,8 +188,16 @@
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["crepes", "pastry-cream", "berries"],
-    "allergens": ["dairy", "gluten", "eggs"],
+    "ingredients": [
+      "crepes",
+      "pastry-cream",
+      "berries"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "eggs"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 3,
@@ -142,7 +211,12 @@
       "fattiness": 5,
       "intensity": 5,
       "complexity": 8,
-      "flavorNotes": ["delicate", "fruity", "light", "elegant"]
+      "flavorNotes": [
+        "delicate",
+        "fruity",
+        "light",
+        "elegant"
+      ]
     }
   },
   {
@@ -156,8 +230,20 @@
     "glutenFree": false,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["mascarpone", "cream-cheese", "biscotti", "almonds", "berries", "lemon-curd"],
-    "allergens": ["dairy", "gluten", "eggs", "nuts"],
+    "ingredients": [
+      "mascarpone",
+      "cream-cheese",
+      "biscotti",
+      "almonds",
+      "berries",
+      "lemon-curd"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "eggs",
+      "nuts"
+    ],
     "flavorProfile": {
       "sweetness": 7,
       "acidity": 3,
@@ -171,8 +257,14 @@
       "fattiness": 7,
       "intensity": 7,
       "complexity": 8,
-      "flavorNotes": ["creamy", "bright", "balanced", "nutty"]
-    }
+      "flavorNotes": [
+        "creamy",
+        "bright",
+        "balanced",
+        "nutty"
+      ]
+    },
+    "pronunciation": "mas-kar-POH-nay"
   },
   {
     "id": "chocolate-torta",
@@ -185,8 +277,16 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["chocolate", "butter", "sugar", "eggs"],
-    "allergens": ["dairy", "eggs"],
+    "ingredients": [
+      "chocolate",
+      "butter",
+      "sugar",
+      "eggs"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs"
+    ],
     "flavorProfile": {
       "sweetness": 7,
       "acidity": 1,
@@ -200,8 +300,14 @@
       "fattiness": 8,
       "intensity": 10,
       "complexity": 6,
-      "flavorNotes": ["chocolate", "intense", "fudgy", "rich"]
-    }
+      "flavorNotes": [
+        "chocolate",
+        "intense",
+        "fudgy",
+        "rich"
+      ]
+    },
+    "pronunciation": "TOR-tah"
   },
   {
     "id": "cannoli",
@@ -214,8 +320,18 @@
     "glutenFree": false,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["cannoli-shells", "ricotta", "chocolate-chips", "pistachios"],
-    "allergens": ["dairy", "gluten", "eggs", "tree nuts"],
+    "ingredients": [
+      "cannoli-shells",
+      "ricotta",
+      "chocolate-chips",
+      "pistachios"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "eggs",
+      "tree nuts"
+    ],
     "flavorProfile": {
       "sweetness": 8,
       "acidity": 2,
@@ -229,8 +345,14 @@
       "fattiness": 6,
       "intensity": 7,
       "complexity": 5,
-      "flavorNotes": ["sweet", "creamy", "nutty", "traditional"]
-    }
+      "flavorNotes": [
+        "sweet",
+        "creamy",
+        "nutty",
+        "traditional"
+      ]
+    },
+    "pronunciation": "kah-NOH-lee"
   },
   {
     "id": "gelato-sorbetto-3-scoops",
@@ -244,8 +366,16 @@
     "nutFree": false,
     "kids": true,
     "excludeFromPairings": true,
-    "ingredients": ["gelato", "sorbetto"],
-    "allergens": ["dairy", "eggs", "peanuts", "tree nuts"],
+    "ingredients": [
+      "gelato",
+      "sorbetto"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "peanuts",
+      "tree nuts"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 2,
@@ -259,8 +389,14 @@
       "fattiness": 6,
       "intensity": 6,
       "complexity": 6,
-      "flavorNotes": ["creamy", "fruity", "nutty", "refreshing"]
-    }
+      "flavorNotes": [
+        "creamy",
+        "fruity",
+        "nutty",
+        "refreshing"
+      ]
+    },
+    "pronunciation": "jeh-LAH-tee … sor-BET-tee"
   },
   {
     "id": "cone-sampler-5",
@@ -274,8 +410,16 @@
     "nutFree": false,
     "kids": true,
     "excludeFromPairings": true,
-    "ingredients": ["gelato", "sorbetto", "cone"],
-    "allergens": ["dairy", "gluten", "nuts"],
+    "ingredients": [
+      "gelato",
+      "sorbetto",
+      "cone"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 2,
@@ -289,8 +433,14 @@
       "fattiness": 5,
       "intensity": 5,
       "complexity": 7,
-      "flavorNotes": ["creamy", "fruity", "varied", "playful"]
-    }
+      "flavorNotes": [
+        "creamy",
+        "fruity",
+        "varied",
+        "playful"
+      ]
+    },
+    "pronunciation": "mee-kel-an-jeh-LAH-toh"
   },
   {
     "id": "cone-sampler-10",
@@ -304,8 +454,16 @@
     "nutFree": false,
     "kids": true,
     "excludeFromPairings": true,
-    "ingredients": ["gelato", "sorbetto", "cone"],
-    "allergens": ["dairy", "gluten", "nuts"],
+    "ingredients": [
+      "gelato",
+      "sorbetto",
+      "cone"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 2,
@@ -319,7 +477,13 @@
       "fattiness": 5,
       "intensity": 5,
       "complexity": 7,
-      "flavorNotes": ["creamy", "fruity", "varied", "shareable"]
-    }
+      "flavorNotes": [
+        "creamy",
+        "fruity",
+        "varied",
+        "shareable"
+      ]
+    },
+    "pronunciation": "mee-kel-an-jeh-LAH-toh"
   }
 ]

@@ -47,9 +47,9 @@
         "wheat",
         "orange-peel",
         "refreshing"
-      ],
-      "region": "Maine"
-    }
+      ]
+    },
+    "region": "Maine"
   },
   {
     "id": "carlson-oak-hill-cider",
@@ -92,9 +92,9 @@
         "dry",
         "refreshing",
         "cider"
-      ],
-      "region": "Massachusetts"
-    }
+      ]
+    },
+    "region": "Massachusetts"
   },
   {
     "id": "wachusett-ipa-bottle",
@@ -142,9 +142,9 @@
         "crisp",
         "light-malt",
         "easy-drinking"
-      ],
-      "region": "Massachusetts"
-    }
+      ]
+    },
+    "region": "Massachusetts"
   },
   {
     "id": "behoppy-wormtown-ipa",
@@ -191,9 +191,9 @@
         "pine",
         "grapefruit",
         "hoppy"
-      ],
-      "region": "Massachusetts"
-    }
+      ]
+    },
+    "region": "Massachusetts"
   },
   {
     "id": "sun-cruiser-iced-tea-vodka",
@@ -238,9 +238,9 @@
         "vodka",
         "refreshing",
         "lightly-sweet"
-      ],
-      "region": "Pennsylvania"
-    }
+      ]
+    },
+    "region": "Massachusetts"
   },
   {
     "id": "fiddlehead-ipa-bottle",
@@ -287,9 +287,9 @@
         "tropical",
         "citrus",
         "clean"
-      ],
-      "region": "Vermont"
-    }
+      ]
+    },
+    "region": "Vermont"
   },
   {
     "id": "high-noon-pineapple",
@@ -333,9 +333,9 @@
         "light",
         "refreshing",
         "vodka-soda"
-      ],
-      "region": "California"
-    }
+      ]
+    },
+    "region": "California"
   },
   {
     "id": "high-noon-peach",
@@ -379,9 +379,9 @@
         "light",
         "refreshing",
         "vodka-soda"
-      ],
-      "region": "California"
-    }
+      ]
+    },
+    "region": "California"
   },
   {
     "id": "high-noon-watermelon",
@@ -425,9 +425,9 @@
         "light",
         "refreshing",
         "vodka-soda"
-      ],
-      "region": "California"
-    }
+      ]
+    },
+    "region": "California"
   },
   {
     "id": "allagash-curieux",
@@ -467,8 +467,8 @@
         "bourbon",
         "caramel",
         "complex"
-      ],
-      "region": "Maine"
-    }
+      ]
+    },
+    "region": "Maine"
   }
 ]

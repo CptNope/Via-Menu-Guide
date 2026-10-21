@@ -27,6 +27,7 @@ const createWhiskeyIcon = (color) => new L.Icon({
 });
 
 const regionColors = {
+  'Italy': '#009246',
   // USA Bourbon/Rye
   'Kentucky': '#B8860B',
   'Tennessee': '#CD853F',
@@ -73,6 +74,7 @@ const regionIcons = Object.fromEntries(
 );
 
 const regionCenters = {
+  'Italy': [42.8, 12.5],
   // USA
   'Kentucky': [38.0, -84.5],
   'Tennessee': [35.5, -86.0],
@@ -206,11 +208,11 @@ const regionLandmarks = {
     { name: 'Miami', coords: [25.76, -80.19], description: 'Perrine Key Lime Amaro', link: 'https://en.wikipedia.org/wiki/Miami' }
   ],
   'USA': [
-    { name: 'Craft Distilleries', coords: [39.8, -98.6], description: 'American craft amaro movement', link: 'https://en.wikipedia.org/wiki/Craft_distillery' }
+    { name: 'Craft Distilleries', coords: [39.8, -98.6], description: 'American craft amaro movement', link: 'https://en.wikipedia.org/wiki/Amaro_(liqueur)' }
   ],
   // Port Regions
   'Douro Valley': [
-    { name: 'Pinhão', coords: [41.19, -7.54], description: 'Heart of Port country', link: 'https://en.wikipedia.org/wiki/Pinh%C3%A3o' },
+    { name: 'Pinhão', coords: [41.19, -7.54], description: 'Heart of Port country', link: 'https://en.wikipedia.org/wiki/Pinh%C3%A3o_(Alij%C3%B3)' },
     { name: 'Peso da Régua', coords: [41.16, -7.79], description: 'Douro wine capital', link: 'https://en.wikipedia.org/wiki/Peso_da_R%C3%A9gua' }
   ],
   'Porto': [

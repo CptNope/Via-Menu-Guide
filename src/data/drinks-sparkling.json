@@ -34,7 +34,8 @@
         "sweet"
       ]
     },
-    "region": "Italy"
+    "region": "Italy",
+    "pronunciation": "chen-TOR-ee moh-SCAH-toh dee pah-VEE-ah"
   },
   {
     "id": "benvolio-prosecco",
@@ -123,7 +124,8 @@
         "refreshing"
       ]
     },
-    "region": "Italy"
+    "region": "Italy",
+    "pronunciation": "PAH-skwah proh-SEH-koh broot roh-ZAY"
   },
   {
     "id": "nicolas-feuillatte-brut",
@@ -168,7 +170,8 @@
         "elegant"
       ]
     },
-    "region": "Champagne"
+    "region": "Champagne",
+    "pronunciation": "nee-koh-LAH fuh-YAHT broot"
   },
   {
     "id": "nicolas-feuillatte-rose",
@@ -205,6 +208,7 @@
         "elegant"
       ]
     },
-    "region": "Champagne"
+    "region": "Champagne",
+    "pronunciation": "nee-koh-LAH fuh-YAHT broot roh-ZAY"
   }
 ]

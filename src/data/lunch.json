@@ -183,7 +183,8 @@
         "elegant",
         "sophisticated"
       ]
-    }
+    },
+    "pronunciation": "proh-SHOO-toh"
   },
   {
     "id": "meatball-sausage-pizza-lunch",
@@ -401,7 +402,8 @@
         "fresh",
         "tangy"
       ]
-    }
+    },
+    "pronunciation": "kah-PRAY-zay"
   },
   {
     "id": "grilled-caesar-salad-lunch",
@@ -485,7 +487,8 @@
         "herbaceous",
         "elegant"
       ]
-    }
+    },
+    "pronunciation": "boo-RAH-tah kah-PRAY-zay"
   },
   {
     "id": "beet-salad-lunch",
@@ -743,7 +746,8 @@
         "briny",
         "bold"
       ]
-    }
+    },
+    "pronunciation": "VEE-ah … ahn-tee-PAHS-toh"
   },
   {
     "id": "braised-short-rib-ragu-lunch",
@@ -786,7 +790,8 @@
         "braised",
         "indulgent"
       ]
-    }
+    },
+    "pronunciation": "rah-GOO"
   },
   {
     "id": "chicken-marsala-lunch",
@@ -830,7 +835,8 @@
         "wine-rich",
         "elegant"
       ]
-    }
+    },
+    "pronunciation": "mar-SAH-lah"
   },
   {
     "id": "shrimp-scampi-lunch",
@@ -875,7 +881,8 @@
         "bright",
         "fresh"
       ]
-    }
+    },
+    "pronunciation": "SKAHM-pee"
   },
   {
     "id": "eggplant-parmesan-lunch",
@@ -964,7 +971,8 @@
         "herbaceous",
         "creamy"
       ]
-    }
+    },
+    "pronunciation": "ree-ZOHT-toh"
   },
   {
     "id": "pappardelle-bolognese-lunch",
@@ -1006,7 +1014,8 @@
         "hearty",
         "classic"
       ]
-    }
+    },
+    "pronunciation": "pah-par-DELL-ay boh-loh-NYAY-zay"
   },
   {
     "id": "salmon-livornese-lunch",
@@ -1049,7 +1058,8 @@
         "Mediterranean",
         "elegant"
       ]
-    }
+    },
+    "pronunciation": "lee-vor-NAY-zay"
   },
   {
     "id": "tuscan-herb-crumb-crusted-haddock-lunch",

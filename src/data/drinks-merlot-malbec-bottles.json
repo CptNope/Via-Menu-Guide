@@ -42,7 +42,8 @@
       ]
     },
     "website": "https://www.domainebousquet.com/",
-    "region": "Argentina"
+    "region": "Argentina",
+    "pronunciation": "doh-MAIN boos-KAY mahl-BECK"
   },
   {
     "id": "felino-malbec-bottle",
@@ -87,7 +88,8 @@
       ]
     },
     "website": "https://www.paulhobbs.com/",
-    "region": "Argentina"
+    "region": "Argentina",
+    "pronunciation": "feh-LEE-noh mahl-BECK"
   },
   {
     "id": "duckhorn-merlot-bottle",
@@ -132,7 +134,8 @@
       ]
     },
     "website": "https://www.duckhorn.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "mer-LOH"
   },
   {
     "id": "red-schooner-malbec-bottle",
@@ -177,7 +180,8 @@
       ]
     },
     "website": "https://www.caymus.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "KAY-mus … mahl-BECK"
   },
   {
     "id": "grgich-merlot-bottle",
@@ -222,6 +226,7 @@
       ]
     },
     "website": "https://www.grgich.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "GUR-gitch mer-LOH"
   }
 ]

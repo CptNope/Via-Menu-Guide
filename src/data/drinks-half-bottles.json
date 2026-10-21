@@ -322,7 +322,8 @@
         "powerful"
       ]
     },
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "BV = Beaulieu Vineyard (BOWL-yoo)"
   },
   {
     "id": "zenato-amarone-half",
@@ -598,7 +599,8 @@
         "balanced"
       ]
     },
-    "region": "California"
+    "region": "California",
+    "pronunciation": "lah KREM-ah shar-doh-NAY"
   },
   {
     "id": "duckhorn-sauvignon-blanc-half",
@@ -643,7 +645,8 @@
         "crisp"
       ]
     },
-    "region": "California"
+    "region": "California",
+    "pronunciation": "SOH-veen-yohn BLAHNK"
   },
   {
     "id": "alphonse-mellot-sancerre-half",
@@ -734,7 +737,8 @@
       ]
     },
     "website": "https://www.santamargherita.com/",
-    "region": "Italy"
+    "region": "Italy",
+    "pronunciation": "SAHN-tah mar-geh-REE-tah PEE-noh GREE-jee-oh"
   },
   {
     "id": "cakebread-chardonnay-half",

@@ -42,7 +42,9 @@
         "butter"
       ],
       "region": "California"
-    }
+    },
+    "region": "California",
+    "pronunciation": "lah KREM-ah"
   },
   {
     "id": "rombauer-chardonnay",
@@ -79,6 +81,8 @@
         "creamy"
       ],
       "region": "California"
-    }
+    },
+    "region": "Napa Valley",
+    "pronunciation": "ROM-bow-er"
   }
 ]

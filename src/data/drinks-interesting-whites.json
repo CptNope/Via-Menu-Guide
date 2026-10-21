@@ -42,7 +42,8 @@
         "crisp"
       ],
       "region": "Italy"
-    }
+    },
+    "region": "Italy"
   },
   {
     "id": "loosen-riesling",
@@ -86,7 +87,9 @@
         "off-dry"
       ],
       "region": "Germany"
-    }
+    },
+    "region": "Germany",
+    "pronunciation": "LOH-zen REEZ-ling"
   },
   {
     "id": "guado-al-tasso-vermentino",
@@ -132,12 +135,13 @@
         "mineral"
       ],
       "region": "Tuscany"
-    }
+    },
+    "region": "Tuscany"
   },
   {
     "id": "gianni-gagliardo-roero",
     "name": "Gianni Gagliardo Roero Arneis",
-    "pronunciation": "jee-AHN-nee gahl-yar-DOH roh-AIR-oh ar-NAYS",
+    "pronunciation": "jee-AHN-nee gahl-YAR-doh roh-AIR-oh ar-NAYS",
     "description": "DOCG, Piemonte, 2022",
     "price": 14,
     "category": "Interesting Whites",
@@ -170,12 +174,13 @@
         "rich"
       ],
       "region": "Piedmont"
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "gd-vajra-rosa-bella",
     "name": "G.D. Vajra Rosabella Rosato",
-    "pronunciation": "vah-YRAH ROH-zah BEL-lah",
+    "pronunciation": "VAI-rah ROH-zah BEL-lah",
     "description": "Piemonte, 2025",
     "price": 14,
     "category": "Interesting Whites",
@@ -215,7 +220,8 @@
         "crisp"
       ],
       "region": "Piedmont"
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "terra-alpina-pinot-grigio",

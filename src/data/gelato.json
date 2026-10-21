@@ -10,8 +10,15 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": true,
-    "ingredients": ["milk", "cream", "sugar", "vanilla"],
-    "allergens": ["dairy"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "sugar",
+      "vanilla"
+    ],
+    "allergens": [
+      "dairy"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 1,
@@ -26,7 +33,12 @@
       "intensity": 5,
       "complexity": 4,
       "aromaticIntensity": 7,
-      "flavorNotes": ["vanilla", "creamy", "classic", "smooth"]
+      "flavorNotes": [
+        "vanilla",
+        "creamy",
+        "classic",
+        "smooth"
+      ]
     }
   },
   {
@@ -40,8 +52,19 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": true,
-    "ingredients": ["milk", "cream", "chocolate", "cocoa", "sugar", "egg-yolk"],
-    "allergens": ["dairy", "eggs", "peanuts"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "chocolate",
+      "cocoa",
+      "sugar",
+      "egg-yolk"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "peanuts"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 1,
@@ -55,7 +78,12 @@
       "fattiness": 6,
       "intensity": 8,
       "complexity": 5,
-      "flavorNotes": ["chocolate", "rich", "cocoa", "intense"]
+      "flavorNotes": [
+        "chocolate",
+        "rich",
+        "cocoa",
+        "intense"
+      ]
     }
   },
   {
@@ -69,8 +97,15 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": true,
-    "ingredients": ["milk", "cream", "strawberries", "sugar"],
-    "allergens": ["dairy"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "strawberries",
+      "sugar"
+    ],
+    "allergens": [
+      "dairy"
+    ],
     "flavorProfile": {
       "sweetness": 7,
       "acidity": 4,
@@ -85,7 +120,12 @@
       "intensity": 6,
       "complexity": 4,
       "aromaticIntensity": 6,
-      "flavorNotes": ["strawberry", "fruity", "bright", "refreshing"]
+      "flavorNotes": [
+        "strawberry",
+        "fruity",
+        "bright",
+        "refreshing"
+      ]
     }
   },
   {
@@ -99,8 +139,15 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": true,
-    "ingredients": ["milk", "cream", "peaches", "sugar"],
-    "allergens": ["dairy"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "peaches",
+      "sugar"
+    ],
+    "allergens": [
+      "dairy"
+    ],
     "flavorProfile": {
       "sweetness": 7,
       "acidity": 3,
@@ -115,7 +162,12 @@
       "intensity": 6,
       "complexity": 5,
       "aromaticIntensity": 8,
-      "flavorNotes": ["peach", "sweet", "aromatic", "summery"]
+      "flavorNotes": [
+        "peach",
+        "sweet",
+        "aromatic",
+        "summery"
+      ]
     }
   },
   {
@@ -129,8 +181,19 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": true,
-    "ingredients": ["milk", "cream", "pistachios", "sugar", "egg-yolk"],
-    "allergens": ["dairy", "eggs", "peanuts", "tree nuts"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "pistachios",
+      "sugar",
+      "egg-yolk"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "peanuts",
+      "tree nuts"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 1,
@@ -145,7 +208,12 @@
       "intensity": 7,
       "complexity": 7,
       "aromaticIntensity": 6,
-      "flavorNotes": ["pistachio", "nutty", "creamy", "elegant"]
+      "flavorNotes": [
+        "pistachio",
+        "nutty",
+        "creamy",
+        "elegant"
+      ]
     }
   },
   {
@@ -159,8 +227,15 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": true,
-    "ingredients": ["milk", "cream", "blackberries", "sugar"],
-    "allergens": ["dairy"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "blackberries",
+      "sugar"
+    ],
+    "allergens": [
+      "dairy"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 5,
@@ -175,7 +250,12 @@
       "intensity": 7,
       "complexity": 5,
       "aromaticIntensity": 5,
-      "flavorNotes": ["blackberry", "fruity", "bold", "vibrant"]
+      "flavorNotes": [
+        "blackberry",
+        "fruity",
+        "bold",
+        "vibrant"
+      ]
     }
   },
   {
@@ -189,8 +269,16 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": true,
-    "ingredients": ["milk", "cream", "coconut", "sugar"],
-    "allergens": ["dairy", "tree nuts"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "coconut",
+      "sugar"
+    ],
+    "allergens": [
+      "dairy",
+      "tree nuts"
+    ],
     "flavorProfile": {
       "sweetness": 6,
       "acidity": 1,
@@ -205,7 +293,12 @@
       "intensity": 6,
       "complexity": 5,
       "aromaticIntensity": 7,
-      "flavorNotes": ["coconut", "tropical", "creamy", "exotic"]
+      "flavorNotes": [
+        "coconut",
+        "tropical",
+        "creamy",
+        "exotic"
+      ]
     }
   },
   {
@@ -219,8 +312,16 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": true,
-    "ingredients": ["milk", "cream", "caramel", "sea-salt", "sugar"],
-    "allergens": ["dairy"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "caramel",
+      "sea-salt",
+      "sugar"
+    ],
+    "allergens": [
+      "dairy"
+    ],
     "flavorProfile": {
       "sweetness": 8,
       "acidity": 1,
@@ -235,7 +336,12 @@
       "charLevel": 7,
       "intensity": 8,
       "complexity": 7,
-      "flavorNotes": ["caramel", "salty", "sweet", "indulgent"]
+      "flavorNotes": [
+        "caramel",
+        "salty",
+        "sweet",
+        "indulgent"
+      ]
     }
   },
   {
@@ -249,8 +355,18 @@
     "glutenFree": true,
     "nutFree": false,
     "kids": true,
-    "ingredients": ["milk", "cream", "peanut-butter", "chocolate-chips", "sugar"],
-    "allergens": ["dairy", "peanuts", "tree nuts"],
+    "ingredients": [
+      "milk",
+      "cream",
+      "peanut-butter",
+      "chocolate-chips",
+      "sugar"
+    ],
+    "allergens": [
+      "dairy",
+      "peanuts",
+      "tree nuts"
+    ],
     "flavorProfile": {
       "sweetness": 7,
       "acidity": 1,
@@ -264,7 +380,12 @@
       "fattiness": 8,
       "intensity": 9,
       "complexity": 6,
-      "flavorNotes": ["peanut-butter", "chocolate", "rich", "decadent"]
+      "flavorNotes": [
+        "peanut-butter",
+        "chocolate",
+        "rich",
+        "decadent"
+      ]
     }
   },
   {
@@ -278,7 +399,11 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": true,
-    "ingredients": ["blood-oranges", "sugar", "water"],
+    "ingredients": [
+      "blood-oranges",
+      "sugar",
+      "water"
+    ],
     "allergens": [],
     "flavorProfile": {
       "sweetness": 6,
@@ -294,8 +419,14 @@
       "intensity": 7,
       "complexity": 4,
       "aromaticIntensity": 8,
-      "flavorNotes": ["blood-orange", "citrus", "bright", "refreshing"]
-    }
+      "flavorNotes": [
+        "blood-orange",
+        "citrus",
+        "bright",
+        "refreshing"
+      ]
+    },
+    "pronunciation": "sor-BET-toh"
   },
   {
     "id": "sorbetto-limoncello",
@@ -308,7 +439,12 @@
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
-    "ingredients": ["lemons", "limoncello", "sugar", "water"],
+    "ingredients": [
+      "lemons",
+      "limoncello",
+      "sugar",
+      "water"
+    ],
     "allergens": [],
     "flavorProfile": {
       "sweetness": 6,
@@ -325,7 +461,13 @@
       "complexity": 5,
       "aromaticIntensity": 9,
       "alcohol": 2,
-      "flavorNotes": ["lemon", "limoncello", "tangy", "refreshing"]
-    }
+      "flavorNotes": [
+        "lemon",
+        "limoncello",
+        "tangy",
+        "refreshing"
+      ]
+    },
+    "pronunciation": "lee-mohn-CHEL-loh sor-BET-toh"
   }
 ]

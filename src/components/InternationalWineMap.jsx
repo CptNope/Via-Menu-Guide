@@ -35,6 +35,11 @@ const regionColors = {
   'Loire Valley': '#E0C097',
   'Alsace': '#C04000',
   'Italy': '#DC143C',
+  'Tuscany': '#8B1A1A',
+  'Piedmont': '#8B0000',
+  'Veneto': '#B22222',
+  'Sicily': '#C04000',
+  'Germany': '#FFCC00',
   'Spain': '#AA151B',
   'Portugal': '#006847',
   // USA
@@ -66,6 +71,12 @@ const regionCenters = {
   'Alsace': [48.3, 7.5],
   // Italy
   'Italy': [42.8, 12.5],
+  'Tuscany': [43.4, 11.2],
+  'Piedmont': [44.7, 8.0],
+  'Veneto': [45.5, 11.0],
+  'Sicily': [37.6, 14.3],
+  // Germany
+  'Germany': [49.9, 7.0],
   // USA
   'Napa Valley': [38.5, -122.4],
   'Sonoma': [38.3, -122.6],
@@ -129,7 +140,7 @@ const regionalLandmarks = {
   'Champagne': [
     { name: 'Reims', coords: [49.2583, 4.0317], description: 'Champagne capital - Veuve Clicquot, Taittinger', link: 'https://en.wikipedia.org/wiki/Reims' },
     { name: 'Épernay', coords: [49.0417, 3.9592], description: 'Avenue de Champagne - Moët & Chandon, Dom Pérignon', link: 'https://en.wikipedia.org/wiki/%C3%89pernay' },
-    { name: 'Côte des Bar', coords: [48.15, 4.35], description: 'Southern Champagne - Moutard', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_des_Bar' },
+    { name: 'Côte des Bar', coords: [48.15, 4.35], description: 'Southern Champagne - Moutard', link: 'https://en.wikipedia.org/wiki/Aube' },
     { name: 'Montagne de Reims', coords: [49.15, 4.1], description: 'Pinot Noir heartland', link: 'https://en.wikipedia.org/wiki/Montagne_de_Reims' },
     { name: 'Côte des Blancs', coords: [48.95, 3.95], description: 'Chardonnay paradise', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_des_Blancs' }
   ],
@@ -153,7 +164,7 @@ const regionalLandmarks = {
   ],
   'Chile': [
     { name: 'Maipo Valley', coords: [-33.7, -70.6], description: 'Chile premier Cabernet', link: 'https://en.wikipedia.org/wiki/Maipo_Valley' },
-    { name: 'Colchagua', coords: [-34.5, -71.2], description: 'Red wine heartland', link: 'https://en.wikipedia.org/wiki/Colchagua_Valley' }
+    { name: 'Colchagua', coords: [-34.5, -71.2], description: 'Red wine heartland', link: 'https://en.wikipedia.org/wiki/Colchagua_Province' }
   ],
   'New Zealand': [
     { name: 'Marlborough', coords: [-41.5, 173.8], description: 'Sauvignon Blanc region', link: 'https://en.wikipedia.org/wiki/Marlborough_Region' },

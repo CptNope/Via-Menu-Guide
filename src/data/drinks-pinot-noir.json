@@ -35,7 +35,8 @@
         "silky"
       ],
       "region": "Oregon"
-    }
+    },
+    "region": "Oregon"
   },
   {
     "id": "cambria-julias-vineyard",
@@ -72,6 +73,8 @@
         "spice"
       ],
       "region": "California"
-    }
+    },
+    "region": "California",
+    "pronunciation": "KAM-bree-uh"
   }
 ]

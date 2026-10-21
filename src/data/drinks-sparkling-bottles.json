@@ -47,7 +47,7 @@
   {
     "id": "pasqua-prosecco-rose-bottle",
     "name": "Pasqua Prosecco Brut Rosé",
-    "pronunciation": "PAH-skwah proh-SEH-koh brroot roh-ZAY",
+    "pronunciation": "PAH-skwah proh-SEH-koh broot roh-ZAY",
     "description": "DOC, Veneto, 2024",
     "price": 46,
     "category": "Sparkling Bottles",
@@ -137,7 +137,7 @@
   {
     "id": "nicolas-feuillatte-brut-bottle",
     "name": "Nicolas Feuillatte Brut",
-    "pronunciation": "nee-koh-LAH fuh-YAHT brroot",
+    "pronunciation": "nee-koh-LAH fuh-YAHT broot",
     "description": "Champagne, France, WS 92, N.V.",
     "price": 72,
     "category": "Sparkling Bottles",
@@ -183,7 +183,7 @@
   {
     "id": "nicolas-feuillatte-rose-bottle",
     "name": "Nicolas Feuillatte Brut Rosé",
-    "pronunciation": "nee-koh-LAH fuh-YAHT brroot roh-ZAY",
+    "pronunciation": "nee-koh-LAH fuh-YAHT broot roh-ZAY",
     "description": "Champagne, France, WS 90, N.V.",
     "price": 84,
     "category": "Sparkling Bottles",
@@ -229,7 +229,7 @@
   {
     "id": "veuve-clicquot-bottle",
     "name": "Veuve Clicquot Ponsardin, Brut (Yellow Label)",
-    "pronunciation": "vurv klee-KOH pon-sar-DAN brroot",
+    "pronunciation": "vurv klee-KOH pon-sar-DAN broot",
     "description": "France, WS 90, NV",
     "price": 96,
     "category": "Sparkling Bottles",

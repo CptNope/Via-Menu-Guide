@@ -45,9 +45,9 @@
         "light-malt",
         "corn",
         "refreshing"
-      ],
-      "region": "Italy"
-    }
+      ]
+    },
+    "region": "Italy"
   },
   {
     "id": "guinness-draught",
@@ -93,9 +93,9 @@
         "coffee",
         "dark-chocolate",
         "creamy"
-      ],
-      "region": "Ireland"
-    }
+      ]
+    },
+    "region": "Ireland"
   },
   {
     "id": "jacks-abby-copper-legend",
@@ -142,9 +142,9 @@
         "toasted-bread",
         "biscuit",
         "smooth"
-      ],
-      "region": "Massachusetts"
-    }
+      ]
+    },
+    "region": "Massachusetts"
   },
   {
     "id": "substance-ale-draught",
@@ -190,8 +190,8 @@
         "pine",
         "tropical",
         "hoppy"
-      ],
-      "region": "Maine"
-    }
+      ]
+    },
+    "region": "Maine"
   }
 ]

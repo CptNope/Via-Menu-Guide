@@ -43,7 +43,8 @@
         "food-friendly"
       ],
       "region": "Piedmont"
-    }
+    },
+    "region": "Piedmont"
   },
   {
     "id": "banfi-chianti-superiore",
@@ -136,7 +137,8 @@
         "velvety"
       ],
       "region": "Veneto"
-    }
+    },
+    "region": "Veneto"
   },
   {
     "id": "caparzo-brunello",
@@ -183,12 +185,13 @@
         "elegant"
       ],
       "region": "Tuscany"
-    }
+    },
+    "region": "Tuscany"
   },
   {
     "id": "gd-vajra-barolo-albe",
     "name": "G.D. Vajra Barolo Albe",
-    "pronunciation": "vah-YRAH bah-ROH-loh AHL-bay",
+    "pronunciation": "VAI-rah bah-ROH-loh AHL-bay",
     "description": "DOCG, Piemonte, 2022",
     "price": 20,
     "category": "Italian Reds",
@@ -229,6 +232,7 @@
         "elegant"
       ],
       "region": "Piedmont"
-    }
+    },
+    "region": "Piedmont"
   }
 ]

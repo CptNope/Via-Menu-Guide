@@ -209,7 +209,7 @@ const regionalLandmarks = {
     country: 'Ireland',
     landmarks: [
       { name: 'Dublin', coords: [53.35, -6.26], description: 'Jameson & Teeling', link: 'https://en.wikipedia.org/wiki/Dublin' },
-      { name: 'Midleton', coords: [51.91, -8.17], description: 'Irish Distillers home', link: 'https://en.wikipedia.org/wiki/Midleton_Distillery' }
+      { name: 'Midleton', coords: [51.91, -8.17], description: 'Irish Distillers home', link: 'https://en.wikipedia.org/wiki/New_Midleton_Distillery' }
     ]
   },
   'Japan': {
@@ -332,7 +332,7 @@ const regionalLandmarks = {
     zoom: 8,
     country: 'Portugal',
     landmarks: [
-      { name: 'Pinhão', coords: [41.19, -7.54], description: 'Heart of Port country', link: 'https://en.wikipedia.org/wiki/Pinh%C3%A3o' },
+      { name: 'Pinhão', coords: [41.19, -7.54], description: 'Heart of Port country', link: 'https://en.wikipedia.org/wiki/Pinh%C3%A3o_(Alij%C3%B3)' },
       { name: 'Peso da Régua', coords: [41.16, -7.79], description: 'Douro wine capital', link: 'https://en.wikipedia.org/wiki/Peso_da_R%C3%A9gua' },
       { name: 'Lamego', coords: [41.1, -7.81], description: 'Historic wine town', link: 'https://en.wikipedia.org/wiki/Lamego' }
     ]
@@ -385,7 +385,7 @@ const regionalLandmarks = {
     zoom: 4,
     country: 'USA',
     landmarks: [
-      { name: 'Craft Distilleries', coords: [39.8, -98.6], description: 'American craft amaro movement', link: 'https://en.wikipedia.org/wiki/Craft_distillery' }
+      { name: 'Craft Distilleries', coords: [39.8, -98.6], description: 'American craft amaro movement', link: 'https://en.wikipedia.org/wiki/Amaro_(liqueur)' }
     ]
   }
 };

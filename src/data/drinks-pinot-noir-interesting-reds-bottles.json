@@ -42,7 +42,8 @@
       ]
     },
     "website": "https://www.siduri.com/",
-    "region": "Oregon"
+    "region": "Oregon",
+    "pronunciation": "sih-DOO-ree"
   },
   {
     "id": "la-crema-pinot-noir-bottle",
@@ -87,7 +88,8 @@
       ]
     },
     "website": "https://www.lacrema.com/",
-    "region": "Sonoma"
+    "region": "Sonoma",
+    "pronunciation": "lah KREM-ah PEE-noh nwahr"
   },
   {
     "id": "seghesio-zinfandel-bottle",
@@ -132,7 +134,8 @@
       ]
     },
     "website": "https://www.seghesio.com/",
-    "region": "Sonoma"
+    "region": "Sonoma",
+    "pronunciation": "seh-GAY-zee-oh ZIN-fun-dell"
   },
   {
     "id": "cambria-julias-vineyard-bottle",
@@ -177,7 +180,8 @@
       ]
     },
     "website": "https://www.cambriawines.com/",
-    "region": "California"
+    "region": "California",
+    "pronunciation": "KAM-bree-uh"
   },
   {
     "id": "rombauer-zinfandel-bottle",
@@ -222,7 +226,8 @@
       ]
     },
     "website": "https://www.rombauer.com/",
-    "region": "California"
+    "region": "California",
+    "pronunciation": "ROM-bow-er ZIN-fun-dell"
   },
   {
     "id": "machete-petite-syrah-bottle",
@@ -267,7 +272,8 @@
       ]
     },
     "website": "https://www.orinswift.com/",
-    "region": "California"
+    "region": "California",
+    "pronunciation": "muh-SHET-ee"
   },
   {
     "id": "aubert-pinot-noir-bottle",

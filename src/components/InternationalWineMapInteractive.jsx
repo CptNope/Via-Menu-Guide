@@ -53,6 +53,10 @@ const regionColors = {
   'Piedmont': '#8B0000',
   'Veneto': '#B22222',
   'Germany': '#FFCC00',
+  'Tuscany': '#8B1A1A',
+  'Sicily': '#C04000',
+  'Alsace': '#C04000',
+  'Ireland': '#169B62',
   // US Beer Regions
   'Massachusetts': '#1C2951',
   'Maine': '#003478',
@@ -91,7 +95,7 @@ const regionalLandmarks = {
     landmarks: [
       { name: 'Reims', coords: [49.2583, 4.0317], description: 'Champagne capital - Veuve Clicquot, Taittinger', link: 'https://en.wikipedia.org/wiki/Reims' },
       { name: 'Épernay', coords: [49.0417, 3.9592], description: 'Avenue de Champagne - Moët & Chandon, Dom Pérignon', link: 'https://en.wikipedia.org/wiki/%C3%89pernay' },
-      { name: 'Côte des Bar', coords: [48.15, 4.35], description: 'Southern Champagne - Moutard', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_des_Bar' },
+      { name: 'Côte des Bar', coords: [48.15, 4.35], description: 'Southern Champagne - Moutard', link: 'https://en.wikipedia.org/wiki/Aube' },
       { name: 'Montagne de Reims', coords: [49.15, 4.1], description: 'Pinot Noir heartland', link: 'https://en.wikipedia.org/wiki/Montagne_de_Reims' },
       { name: 'Côte des Blancs', coords: [48.95, 3.95], description: 'Chardonnay paradise', link: 'https://en.wikipedia.org/wiki/C%C3%B4te_des_Blancs' }
     ]
@@ -191,7 +195,7 @@ const regionalLandmarks = {
     country: 'Chile',
     landmarks: [
       { name: 'Maipo Valley', coords: [-33.7, -70.6], description: 'Chile premier Cabernet', link: 'https://en.wikipedia.org/wiki/Maipo_Valley' },
-      { name: 'Colchagua', coords: [-34.5, -71.2], description: 'Red wine heartland', link: 'https://en.wikipedia.org/wiki/Colchagua_Valley' },
+      { name: 'Colchagua', coords: [-34.5, -71.2], description: 'Red wine heartland', link: 'https://en.wikipedia.org/wiki/Colchagua_Province' },
       { name: 'Casablanca', coords: [-33.3, -71.4], description: 'Cool-climate whites', link: 'https://en.wikipedia.org/wiki/Casablanca_Valley' }
     ]
   },
@@ -232,7 +236,7 @@ const regionalLandmarks = {
     landmarks: [
       { name: 'Rioja', coords: [42.45, -2.45], description: 'Spanish red wine icon', link: 'https://en.wikipedia.org/wiki/Rioja_(wine)' },
       { name: 'Ribera del Duero', coords: [41.6, -3.7], description: 'Tempranillo excellence', link: 'https://en.wikipedia.org/wiki/Ribera_del_Duero' },
-      { name: 'Priorat', coords: [41.2, 0.75], description: 'Premium Garnacha', link: 'https://en.wikipedia.org/wiki/Priorat_(wine)' }
+      { name: 'Priorat', coords: [41.2, 0.75], description: 'Premium Garnacha', link: 'https://en.wikipedia.org/wiki/Priorat_DOQ' }
     ]
   },
   'Portugal': {
@@ -275,12 +279,52 @@ const regionalLandmarks = {
       { name: 'Milan', coords: [45.4642, 9.1900], description: 'Italian beer culture hub', link: 'https://en.wikipedia.org/wiki/Milan' }
     ]
   },
+  'Tuscany': {
+    center: [43.4, 11.2],
+    zoom: 8,
+    country: 'Italy',
+    landmarks: [
+      { name: 'Florence', coords: [43.7696, 11.2558], description: 'Capital of Tuscany', link: 'https://en.wikipedia.org/wiki/Florence' },
+      { name: 'Bolgheri', coords: [43.2333, 10.6167], description: 'Coastal Super Tuscan & Vermentino country', link: 'https://en.wikipedia.org/wiki/Bolgheri' },
+      { name: 'Chianti', coords: [43.47, 11.25], description: 'Chianti Classico hills', link: 'https://en.wikipedia.org/wiki/Chianti' },
+      { name: 'Montalcino', coords: [43.0586, 11.4893], description: 'Home of Brunello', link: 'https://en.wikipedia.org/wiki/Montalcino' }
+    ]
+  },
+  'Sicily': {
+    center: [37.6, 14.3],
+    zoom: 7,
+    country: 'Italy',
+    landmarks: [
+      { name: 'Mount Etna', coords: [37.751, 14.9934], description: 'Volcanic vineyards (Etna DOC)', link: 'https://en.wikipedia.org/wiki/Etna_DOC' },
+      { name: 'Catania', coords: [37.5079, 15.0830], description: 'Etna wine region base', link: 'https://en.wikipedia.org/wiki/Catania' },
+      { name: 'Palermo', coords: [38.1157, 13.3615], description: 'Capital of Sicily', link: 'https://en.wikipedia.org/wiki/Palermo' }
+    ]
+  },
+  'Alsace': {
+    center: [48.2, 7.4],
+    zoom: 8,
+    country: 'France',
+    landmarks: [
+      { name: 'Colmar', coords: [48.0794, 7.3585], description: 'Capital of Alsace wine', link: 'https://en.wikipedia.org/wiki/Colmar' },
+      { name: 'Ribeauvillé', coords: [48.195, 7.319], description: 'Home of Trimbach', link: 'https://en.wikipedia.org/wiki/Ribeauvill%C3%A9' },
+      { name: 'Strasbourg', coords: [48.5734, 7.7521], description: 'Regional capital', link: 'https://en.wikipedia.org/wiki/Strasbourg' }
+    ]
+  },
+  'Ireland': {
+    center: [53.35, -6.26],
+    zoom: 7,
+    country: 'Ireland',
+    landmarks: [
+      { name: 'St. James\'s Gate', coords: [53.3419, -6.2867], description: 'Guinness brewery, Dublin', link: 'https://en.wikipedia.org/wiki/St._James%27s_Gate_Brewery' },
+      { name: 'Dublin', coords: [53.3498, -6.2603], description: 'Capital of Ireland', link: 'https://en.wikipedia.org/wiki/Dublin' }
+    ]
+  },
   'Germany': {
     center: [50.0, 10.0],
     zoom: 6,
     country: 'Germany',
     landmarks: [
-      { name: 'Munich', coords: [48.1351, 11.5820], description: 'Oktoberfest & beer capital', link: 'https://en.wikipedia.org/wiki/Beer_in_Munich' },
+      { name: 'Munich', coords: [48.1351, 11.5820], description: 'Oktoberfest & beer capital', link: 'https://en.wikipedia.org/wiki/Munich' },
       { name: 'Mosel', coords: [49.8, 7.0], description: 'Riesling wine region', link: 'https://en.wikipedia.org/wiki/Mosel_(wine_region)' }
     ]
   },

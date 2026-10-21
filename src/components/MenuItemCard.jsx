@@ -145,7 +145,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
         item.category === "Merlot & Malbec Bottles" ||
         item.category === "Merlot & Malbec" ||
         item.category === "Pinot Noir & Interesting Reds Bottles" ||
-        item.category === "Organic Pinot Noir" ||
+        item.category === "Pinot Noir" ||
         item.category === "Cabernet & Blends Bottles" ||
         item.category === "Cabernet & Blends" ||
         item.category === "Sauvignon Blanc Bottles" ||

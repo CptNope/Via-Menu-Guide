@@ -42,7 +42,8 @@
       ]
     },
     "website": "https://www.lacrema.com/",
-    "region": "California"
+    "region": "California",
+    "pronunciation": "lah KREM-ah"
   },
   {
     "id": "knights-bridge-kb-chardonnay-bottle",
@@ -132,7 +133,8 @@
       ]
     },
     "website": "https://www.rombauer.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "ROM-bow-er"
   },
   {
     "id": "shafer-red-shoulder-ranch-bottle",
@@ -177,7 +179,8 @@
       ]
     },
     "website": "https://www.shafervineyards.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "pronunciation": "SHAY-fer"
   },
   {
     "id": "wayfarer-chardonnay-bottle",

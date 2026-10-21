@@ -359,7 +359,8 @@
         "creamy",
         "meaty"
       ]
-    }
+    },
+    "pronunciation": "boh-loh-NYAY-zay ah-rahn-CHEE-nee"
   },
   {
     "id": "prosciutto-wrapped-mozzarella",
@@ -401,7 +402,8 @@
         "salty",
         "elegant"
       ]
-    }
+    },
+    "pronunciation": "proh-SHOO-toh … mot-sah-RELL-ah"
   },
   {
     "id": "house-made-ricotta",
@@ -443,7 +445,8 @@
         "elegant"
       ]
     },
-    "canBeMadeGlutenFree": true
+    "canBeMadeGlutenFree": true,
+    "pronunciation": "ree-KOT-tah"
   },
   {
     "id": "pan-fried-fresh-mozzarella",
@@ -568,7 +571,8 @@
         "rich",
         "luxurious"
       ]
-    }
+    },
+    "pronunciation": "freet … par-mee-JAH-noh"
   },
   {
     "id": "garlic-cheese-bread",

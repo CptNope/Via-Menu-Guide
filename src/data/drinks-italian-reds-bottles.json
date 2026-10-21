@@ -49,7 +49,7 @@
   {
     "id": "gd-vajra-nebbiolo-bottle",
     "name": "G.D. Vajra Nebbiolo Clare J.C.",
-    "pronunciation": "vah-YRAH neb-bee-OH-loh",
+    "pronunciation": "VAI-rah neb-bee-OH-loh",
     "description": "DOC, Piemonte, 2025",
     "price": 38,
     "category": "Italian Reds Bottles",
@@ -191,7 +191,7 @@
   {
     "id": "gd-vajra-dolcetto-bottle",
     "name": "G.D. Vajra Dolcetto D'Alba",
-    "pronunciation": "vah-YRAH dol-CHET-toh DAHL-bah",
+    "pronunciation": "VAI-rah dol-CHET-toh DAHL-bah",
     "description": "DOC, Piemonte, 2024",
     "price": 42,
     "category": "Italian Reds Bottles",
@@ -672,7 +672,7 @@
   {
     "id": "gd-vajra-barolo-albe-bottle",
     "name": "G.D. Vajra Barolo Albe",
-    "pronunciation": "vah-YRAH bah-ROH-loh AHL-bay",
+    "pronunciation": "VAI-rah bah-ROH-loh AHL-bay",
     "description": "DOCG, Piemonte, 2022",
     "price": 75,
     "category": "Italian Reds Bottles",
@@ -758,12 +758,13 @@
       ]
     },
     "website": "https://www.altesinobrunello.it/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "pronunciation": "ahl-teh-SEE-noh broo-NEL-oh dee mon-tahl-CHEE-noh"
   },
   {
     "id": "gagliardo-barolo-bottle",
     "name": "Gagliardo Barolo",
-    "pronunciation": "gahl-yar-DOH bah-ROH-loh",
+    "pronunciation": "gahl-YAR-doh bah-ROH-loh",
     "description": "DOCG, Piemonte, 2020",
     "price": 100,
     "category": "Italian Reds Bottles",
@@ -860,7 +861,7 @@
   {
     "id": "gagliardo-fossati-barolo-bottle",
     "name": "Gagliardo \"Fossati\" Barolo",
-    "pronunciation": "gahl-yar-DOH foh-SAH-tee bah-ROH-loh",
+    "pronunciation": "gahl-YAR-doh foh-SAH-tee bah-ROH-loh",
     "description": "DOCG, Piemonte, JS 93, 2020",
     "price": 175,
     "category": "Italian Reds Bottles",

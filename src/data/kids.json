@@ -71,7 +71,8 @@
     "allergens": [
       "gluten",
       "dairy"
-    ]
+    ],
+    "pronunciation": "peet-ZET-teh"
   },
   {
     "id": "shrimp-scampi",
@@ -94,7 +95,8 @@
       "shellfish",
       "gluten",
       "dairy"
-    ]
+    ],
+    "pronunciation": "SKAHM-pee"
   },
   {
     "id": "chicken-tenders",

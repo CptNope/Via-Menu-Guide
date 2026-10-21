@@ -35,7 +35,8 @@
         "bold"
       ],
       "region": "Paso Robles"
-    }
+    },
+    "region": "Paso Robles"
   },
   {
     "id": "grand-enclos-du-chateau-de-cerons",
@@ -118,7 +119,8 @@
         "supple"
       ],
       "region": "Washington State"
-    }
+    },
+    "region": "Washington State"
   },
   {
     "id": "cakebread-mullan-road",
@@ -155,7 +157,8 @@
         "velvety"
       ],
       "region": "Washington State"
-    }
+    },
+    "region": "Washington State"
   },
   {
     "id": "robert-mondavi",
@@ -240,12 +243,13 @@
         "opulent"
       ],
       "region": "Paso Robles"
-    }
+    },
+    "region": "Paso Robles"
   },
   {
     "id": "knight-s-bridge-meritage",
     "name": "Knight's Bridge Meritage",
-    "pronunciation": "knights bridge mair-ih-tidge",
+    "pronunciation": "knights bridge MAIR-ih-tij",
     "description": "Knight's Valley, 2018",
     "price": 18,
     "category": "Cabernet & Blends",

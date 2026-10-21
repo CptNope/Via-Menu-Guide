@@ -86,7 +86,8 @@
       ]
     },
     "website": "https://www.lafiera.it/",
-    "region": "Italy"
+    "region": "Italy",
+    "pronunciation": "lah fee-AIR-ah pee-noh GREE-jee-oh"
   },
   {
     "id": "loosen-riesling-bottle",
@@ -130,7 +131,8 @@
       ]
     },
     "website": "https://www.drloosen.com/",
-    "region": "Germany"
+    "region": "Germany",
+    "pronunciation": "LOH-zen REEZ-ling"
   },
   {
     "id": "trimbach-riesling-bottle",
@@ -220,12 +222,13 @@
       ]
     },
     "website": "https://www.antinori.it/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "pronunciation": "GWAH-doh ahl TAH-soh / vair-men-TEE-noh"
   },
   {
     "id": "gd-vajra-rosa-bella-bottle",
     "name": "G.D. Vajra Rosabella Rosato",
-    "pronunciation": "vah-YRAH ROH-zah BEL-lah",
+    "pronunciation": "VAI-rah ROH-zah BEL-lah",
     "description": "Piemonte, 2025",
     "price": 51,
     "category": "Interesting Whites Bottles",
@@ -316,7 +319,7 @@
   {
     "id": "gianni-gagliardo-roero-arneis-bottle",
     "name": "Gianni Gagliardo Roero Arneis",
-    "pronunciation": "jee-AHN-nee gahl-yar-DOH roh-AIR-oh ar-NAYS",
+    "pronunciation": "jee-AHN-nee gahl-YAR-doh roh-AIR-oh ar-NAYS",
     "description": "DOCG, Piemonte, 2022",
     "price": 56,
     "category": "Interesting Whites Bottles",

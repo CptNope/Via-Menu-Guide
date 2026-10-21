@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import FitToPoints, { kmBetween } from './FitToPoints';
 import L from 'leaflet';
 
 // Fix for default marker icons in React-Leaflet
@@ -380,6 +381,9 @@ function InternationalWineMapInteractive({ wine }) {
 
   // Use wine's coordinates if available, otherwise use region center
   const wineCoords = wine.coordinates || regionData.center;
+  // Frame the wine with the landmarks around it (within 60 km)
+  const nearbyLandmarks = regionData.landmarks.filter(l => kmBetween(wineCoords, l.coords) <= 60);
+  const framePoints = [wineCoords, ...(showLandmarks ? nearbyLandmarks.map(l => l.coords) : [])];
   const wineIcon = createWineIcon(regionColors[wine.region] || '#8B0000');
 
   return (
@@ -403,7 +407,7 @@ function InternationalWineMapInteractive({ wine }) {
             >
               {showLandmarks ? '🏛️ Hide' : '🏛️ Show'} Landmarks
             </button>
-            <span className="map-region-label">📍 {wine.region}, {regionData.country}</span>
+            <span className="map-region-label">📍 {wine.location || `${wine.region}, ${regionData.country}`}</span>
           </div>
           
           <MapContainer 
@@ -416,6 +420,7 @@ function InternationalWineMapInteractive({ wine }) {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
+            <FitToPoints points={framePoints} maxZoom={11} singleZoom={10} />
             
             {/* Wine marker */}
             <Marker position={wineCoords} icon={wineIcon}>
@@ -423,7 +428,7 @@ function InternationalWineMapInteractive({ wine }) {
                 <div className="wine-popup">
                   <strong>{wine.name}</strong>
                   <p>{wine.description}</p>
-                  {wine.winery && <p><em>Winery: {wine.winery}</em></p>}
+                  {wine.location && <p>📍 {wine.location}</p>}
                 </div>
               </Popup>
             </Marker>

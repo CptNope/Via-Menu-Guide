@@ -44,7 +44,12 @@
       ],
       "region": "Tuscany"
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.0576,
+      11.4903
+    ],
+    "location": "Poggio San Polo, Montalcino"
   },
   {
     "id": "olillo-super-tuscan",
@@ -83,6 +88,11 @@
       ],
       "region": "Tuscany"
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.2753,
+      11.9851
+    ],
+    "location": "Baracchi, Cortona"
   }
 ]

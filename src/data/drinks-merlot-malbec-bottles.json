@@ -43,7 +43,12 @@
     },
     "website": "https://www.domainebousquet.com/",
     "region": "Argentina",
-    "pronunciation": "doh-MAIN boos-KAY mahl-BECK"
+    "pronunciation": "doh-MAIN boos-KAY mahl-BECK",
+    "coordinates": [
+      -33.3728,
+      -69.1476
+    ],
+    "location": "Domaine Bousquet, Tupungato (Uco Valley)"
   },
   {
     "id": "felino-malbec-bottle",
@@ -89,7 +94,12 @@
     },
     "website": "https://www.vinacobos.com/",
     "region": "Argentina",
-    "pronunciation": "feh-LEE-noh mahl-BECK"
+    "pronunciation": "feh-LEE-noh mahl-BECK",
+    "coordinates": [
+      -33.0779,
+      -68.8854
+    ],
+    "location": "Viña Cobos, Luján de Cuyo (Mendoza)"
   },
   {
     "id": "duckhorn-merlot-bottle",
@@ -135,7 +145,12 @@
     },
     "website": "https://www.duckhorn.com/",
     "region": "Napa Valley",
-    "pronunciation": "mer-LOH"
+    "pronunciation": "mer-LOH",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Duckhorn Vineyards, St. Helena, Napa"
   },
   {
     "id": "red-schooner-malbec-bottle",
@@ -181,7 +196,12 @@
     },
     "website": "https://www.caymus.com/",
     "region": "Napa Valley",
-    "pronunciation": "KAY-mus … mahl-BECK"
+    "pronunciation": "KAY-mus … mahl-BECK",
+    "coordinates": [
+      38.4573,
+      -122.4212
+    ],
+    "location": "Made at Caymus, Rutherford, Napa (Argentine grapes)"
   },
   {
     "id": "grgich-merlot-bottle",
@@ -227,6 +247,11 @@
     },
     "website": "https://www.grgich.com/",
     "region": "Napa Valley",
-    "pronunciation": "GUR-gitch mer-LOH"
+    "pronunciation": "GUR-gitch mer-LOH",
+    "coordinates": [
+      38.4573,
+      -122.4212
+    ],
+    "location": "Grgich Hills Estate, Rutherford, Napa"
   }
 ]

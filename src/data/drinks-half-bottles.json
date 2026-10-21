@@ -43,7 +43,12 @@
         "cocoa"
       ]
     },
-    "region": "California"
+    "region": "Napa Valley",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Joel Gott Wines, St. Helena (California grapes)"
   },
   {
     "id": "sonoma-cutrer-pinot-noir-half",
@@ -89,7 +94,12 @@
         "silky"
       ]
     },
-    "region": "California"
+    "region": "Sonoma",
+    "coordinates": [
+      38.5471,
+      -122.8164
+    ],
+    "location": "Sonoma-Cutrer, Windsor (Russian River Valley)"
   },
   {
     "id": "j-vineyards-pinot-noir-half",
@@ -136,7 +146,12 @@
         "baking-spice"
       ]
     },
-    "region": "California"
+    "region": "Sonoma",
+    "coordinates": [
+      38.6107,
+      -122.8701
+    ],
+    "location": "J Vineyards & Winery, Healdsburg (Russian River Valley)"
   },
   {
     "id": "castellare-chianti-classico-half",
@@ -182,7 +197,12 @@
         "herbs"
       ]
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.4692,
+      11.2873
+    ],
+    "location": "Castellare di Castellina, Castellina in Chianti"
   },
   {
     "id": "hess-allomi-cabernet-half",
@@ -228,7 +248,12 @@
         "vanilla"
       ]
     },
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "coordinates": [
+      38.6152,
+      -122.4278
+    ],
+    "location": "Allomi Vineyard, Pope Valley (Napa)"
   },
   {
     "id": "damilano-barolo-half",
@@ -276,7 +301,12 @@
         "king-of-wines"
       ]
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6147,
+      7.9394
+    ],
+    "location": "Damilano, Barolo"
   },
   {
     "id": "bv-tapestry-half",
@@ -323,7 +353,12 @@
       ]
     },
     "region": "Napa Valley",
-    "pronunciation": "BV = Beaulieu Vineyard (BOWL-yoo)"
+    "pronunciation": "BV = Beaulieu Vineyard (BOWL-yoo)",
+    "coordinates": [
+      38.4573,
+      -122.4212
+    ],
+    "location": "Beaulieu Vineyard, Rutherford, Napa"
   },
   {
     "id": "zenato-amarone-half",
@@ -370,7 +405,12 @@
         "powerful"
       ]
     },
-    "region": "Veneto"
+    "region": "Veneto",
+    "coordinates": [
+      45.4392,
+      10.6804
+    ],
+    "location": "Zenato, Peschiera del Garda (Valpolicella grapes)"
   },
   {
     "id": "mt-brave-cabernet-half",
@@ -416,7 +456,12 @@
         "mountain"
       ]
     },
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "coordinates": [
+      38.3794,
+      -122.4478
+    ],
+    "location": "Mt. Brave, Mount Veeder (Napa)"
   },
   {
     "id": "chimney-rock-cabernet-half",
@@ -462,7 +507,12 @@
         "elegant"
       ]
     },
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "coordinates": [
+      38.405,
+      -122.315
+    ],
+    "location": "Chimney Rock, Stags Leap District, Napa"
   },
   {
     "id": "sonoma-cutrer-chardonnay-half",
@@ -508,7 +558,12 @@
         "balanced"
       ]
     },
-    "region": "California"
+    "region": "Sonoma",
+    "coordinates": [
+      38.5471,
+      -122.8164
+    ],
+    "location": "Sonoma-Cutrer, Windsor (Russian River Valley)"
   },
   {
     "id": "ceretto-moscato-half",
@@ -554,7 +609,12 @@
         "sweet"
       ]
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6866,
+      8.0311
+    ],
+    "location": "Ceretto, Alba"
   },
   {
     "id": "la-crema-chardonnay-half",
@@ -599,8 +659,13 @@
         "balanced"
       ]
     },
-    "region": "California",
-    "pronunciation": "lah KREM-ah shar-doh-NAY"
+    "region": "Sonoma",
+    "pronunciation": "lah KREM-ah shar-doh-NAY",
+    "coordinates": [
+      38.5471,
+      -122.8164
+    ],
+    "location": "La Crema, Windsor (Sonoma Coast grapes)"
   },
   {
     "id": "duckhorn-sauvignon-blanc-half",
@@ -645,8 +710,13 @@
         "crisp"
       ]
     },
-    "region": "California",
-    "pronunciation": "SOH-veen-yohn BLAHNK"
+    "region": "Napa Valley",
+    "pronunciation": "SOH-veen-yohn BLAHNK",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Duckhorn Vineyards, St. Helena (North Coast grapes)"
   },
   {
     "id": "alphonse-mellot-sancerre-half",
@@ -693,7 +763,12 @@
         "Sancerre"
       ]
     },
-    "region": "Loire Valley"
+    "region": "Loire Valley",
+    "coordinates": [
+      47.3307,
+      2.839
+    ],
+    "location": "Alphonse Mellot, Sancerre"
   },
   {
     "id": "santa-margherita-pinot-grigio-half",
@@ -738,7 +813,12 @@
     },
     "website": "https://www.santamargherita.com/",
     "region": "Italy",
-    "pronunciation": "SAHN-tah mar-geh-REE-tah PEE-noh GREE-jee-oh"
+    "pronunciation": "SAHN-tah mar-geh-REE-tah PEE-noh GREE-jee-oh",
+    "coordinates": [
+      46.4985,
+      11.3547
+    ],
+    "location": "Alto Adige vineyards (Santa Margherita)"
   },
   {
     "id": "cakebread-chardonnay-half",
@@ -785,6 +865,11 @@
         "toast"
       ]
     },
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "coordinates": [
+      38.4573,
+      -122.4212
+    ],
+    "location": "Cakebread Cellars, Rutherford, Napa"
   }
 ]

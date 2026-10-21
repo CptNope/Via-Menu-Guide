@@ -42,7 +42,12 @@
       ],
       "region": "Italy"
     },
-    "region": "Italy"
+    "region": "Veneto",
+    "coordinates": [
+      45.8067,
+      12.2063
+    ],
+    "location": "Veneto (importer brand; growing area)"
   },
   {
     "id": "loosen-riesling",
@@ -88,7 +93,12 @@
       "region": "Germany"
     },
     "region": "Germany",
-    "pronunciation": "LOH-zen REEZ-ling"
+    "pronunciation": "LOH-zen REEZ-ling",
+    "coordinates": [
+      49.9157,
+      7.0708
+    ],
+    "location": "Dr. Loosen, Bernkastel-Kues (Mosel)"
   },
   {
     "id": "guado-al-tasso-vermentino",
@@ -135,7 +145,12 @@
       ],
       "region": "Tuscany"
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.234,
+      10.6179
+    ],
+    "location": "Guado al Tasso estate, Bolgheri"
   },
   {
     "id": "gianni-gagliardo-roero",
@@ -174,7 +189,12 @@
       ],
       "region": "Piedmont"
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.652,
+      7.9361
+    ],
+    "location": "Gianni Gagliardo, La Morra"
   },
   {
     "id": "gd-vajra-rosa-bella",
@@ -220,7 +240,12 @@
       ],
       "region": "Piedmont"
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6136,
+      7.9203
+    ],
+    "location": "G.D. Vajra, Vergne (Barolo)"
   },
   {
     "id": "terra-alpina-pinot-grigio",
@@ -266,6 +291,11 @@
         "alpine"
       ]
     },
-    "region": "Italy"
+    "region": "Italy",
+    "coordinates": [
+      46.2874,
+      11.2098
+    ],
+    "location": "Alois Lageder, Magrè (Alto Adige)"
   }
 ]

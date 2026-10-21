@@ -43,7 +43,12 @@
     },
     "website": "https://www.matua.co.nz/",
     "region": "New Zealand",
-    "pronunciation": "mah-TOO-ah"
+    "pronunciation": "mah-TOO-ah",
+    "coordinates": [
+      -41.5119,
+      173.9546
+    ],
+    "location": "Marlborough vineyards, New Zealand"
   },
   {
     "id": "jacques-dumont-bottle",
@@ -89,7 +94,12 @@
         "grassy"
       ]
     },
-    "region": "Loire Valley"
+    "region": "Loire Valley",
+    "coordinates": [
+      47.39,
+      0.6889
+    ],
+    "location": "Loire Valley (growing area)"
   },
   {
     "id": "saint-clair-bottle",
@@ -136,7 +146,12 @@
         "herbaceous"
       ]
     },
-    "region": "New Zealand"
+    "region": "New Zealand",
+    "coordinates": [
+      -41.5119,
+      173.9546
+    ],
+    "location": "Saint Clair, Blenheim (Marlborough)"
   },
   {
     "id": "cloudy-bay-sauvignon-blanc-bottle",
@@ -181,7 +196,12 @@
       ]
     },
     "website": "https://www.cloudybay.com/",
-    "region": "New Zealand"
+    "region": "New Zealand",
+    "coordinates": [
+      -41.472,
+      173.893
+    ],
+    "location": "Cloudy Bay, Rapaura (Marlborough)"
   },
   {
     "id": "flouret-sancerre-bottle",
@@ -226,7 +246,12 @@
         "Sancerre"
       ]
     },
-    "region": "Loire Valley"
+    "region": "Loire Valley",
+    "coordinates": [
+      47.3307,
+      2.839
+    ],
+    "location": "Sancerre"
   },
   {
     "id": "domaine-francois-crochet-exils-bottle",
@@ -271,6 +296,11 @@
         "elite-Sancerre"
       ]
     },
-    "region": "Loire Valley"
+    "region": "Loire Valley",
+    "coordinates": [
+      47.3099,
+      2.7931
+    ],
+    "location": "Domaine François Crochet, Bué (Sancerre)"
   }
 ]

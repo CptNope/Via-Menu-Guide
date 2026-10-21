@@ -43,7 +43,12 @@
       ]
     },
     "website": "https://www.sanpolomontalcino.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.0576,
+      11.4903
+    ],
+    "location": "Poggio San Polo, Montalcino"
   },
   {
     "id": "olillo-super-tuscan-bottle",
@@ -89,7 +94,12 @@
       ]
     },
     "website": "https://www.baracchiwinery.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.2753,
+      11.9851
+    ],
+    "location": "Baracchi, Cortona"
   },
   {
     "id": "ardito-baracchi-bottle",
@@ -135,7 +145,12 @@
       ]
     },
     "website": "https://www.baracchiwinery.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.2753,
+      11.9851
+    ],
+    "location": "Baracchi, Cortona"
   },
   {
     "id": "tenuta-san-guido-bottle",
@@ -181,7 +196,12 @@
       ]
     },
     "website": "https://www.tenutasanguido.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.234,
+      10.6179
+    ],
+    "location": "Tenuta San Guido, Bolgheri"
   },
   {
     "id": "gaja-ca-marcanda-magari-bottle",
@@ -227,7 +247,12 @@
       ]
     },
     "website": "https://gaja.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.1607,
+      10.611
+    ],
+    "location": "Ca'Marcanda, Castagneto Carducci (Bolgheri)"
   },
   {
     "id": "antinori-tignanello-bottle",
@@ -275,9 +300,10 @@
     "website": "https://www.antinori.it/",
     "region": "Tuscany",
     "coordinates": [
-      43.5808,
-      11.3147
-    ]
+      43.6344,
+      11.2336
+    ],
+    "location": "Tignanello estate, Chianti Classico"
   },
   {
     "id": "sassicaia-bolgheri-bottle",
@@ -325,9 +351,10 @@
     "website": "https://www.tenutasanguido.com/",
     "region": "Tuscany",
     "coordinates": [
-      43.2222,
-      10.5931
-    ]
+      43.234,
+      10.6179
+    ],
+    "location": "Tenuta San Guido, Bolgheri"
   },
   {
     "id": "antinori-solaia-bottle",
@@ -375,8 +402,9 @@
     "website": "https://www.antinori.it/",
     "region": "Tuscany",
     "coordinates": [
-      43.5808,
-      11.3147
-    ]
+      43.6344,
+      11.2336
+    ],
+    "location": "Tignanello estate (Solaia vineyard), Chianti Classico"
   }
 ]

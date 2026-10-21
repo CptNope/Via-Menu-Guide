@@ -34,7 +34,12 @@
       ]
     },
     "region": "Italy",
-    "pronunciation": "chen-TOR-ee moh-SCAH-toh dee pah-VEE-ah"
+    "pronunciation": "chen-TOR-ee moh-SCAH-toh dee pah-VEE-ah",
+    "coordinates": [
+      45.0143,
+      9.1233
+    ],
+    "location": "Oltrepò Pavese (Pavia), Lombardy"
   },
   {
     "id": "benvolio-prosecco",
@@ -79,7 +84,12 @@
         "crisp"
       ]
     },
-    "region": "Italy"
+    "region": "Italy",
+    "coordinates": [
+      45.9563,
+      12.6597
+    ],
+    "location": "Friuli Venezia Giulia (growing area)"
   },
   {
     "id": "pasqua-prosecco-rose",
@@ -124,7 +134,12 @@
       ]
     },
     "region": "Italy",
-    "pronunciation": "PAH-skwah proh-SEH-koh broot roh-ZAY"
+    "pronunciation": "PAH-skwah proh-SEH-koh broot roh-ZAY",
+    "coordinates": [
+      45.4425,
+      10.9857
+    ],
+    "location": "Pasqua, Verona"
   },
   {
     "id": "nicolas-feuillatte-brut",
@@ -170,7 +185,12 @@
       ]
     },
     "region": "Champagne",
-    "pronunciation": "nee-koh-LAH fuh-YAHT broot"
+    "pronunciation": "nee-koh-LAH fuh-YAHT broot",
+    "coordinates": [
+      49.0261,
+      4.0095
+    ],
+    "location": "Nicolas Feuillatte, Chouilly (Épernay)"
   },
   {
     "id": "nicolas-feuillatte-rose",
@@ -208,6 +228,11 @@
       ]
     },
     "region": "Champagne",
-    "pronunciation": "nee-koh-LAH fuh-YAHT broot roh-ZAY"
+    "pronunciation": "nee-koh-LAH fuh-YAHT broot roh-ZAY",
+    "coordinates": [
+      49.0261,
+      4.0095
+    ],
+    "location": "Nicolas Feuillatte, Chouilly (Épernay)"
   }
 ]

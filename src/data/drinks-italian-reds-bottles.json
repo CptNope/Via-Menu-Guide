@@ -44,7 +44,12 @@
         "versatile"
       ]
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.2753,
+      11.9851
+    ],
+    "location": "Baracchi, Cortona"
   },
   {
     "id": "gd-vajra-nebbiolo-bottle",
@@ -92,9 +97,10 @@
     },
     "region": "Piedmont",
     "coordinates": [
-      44.6333,
-      7.9167
-    ]
+      44.6136,
+      7.9203
+    ],
+    "location": "G.D. Vajra, Vergne (Barolo)"
   },
   {
     "id": "valentina-montepulciano-bottle",
@@ -139,7 +145,12 @@
         "versatile"
       ]
     },
-    "region": "Abruzzo"
+    "region": "Abruzzo",
+    "coordinates": [
+      42.3098,
+      13.958
+    ],
+    "location": "Abruzzo (Montepulciano d'Abruzzo DOC)"
   },
   {
     "id": "ascheri-langhe-barbera-bottle",
@@ -185,7 +196,12 @@
         "versatile"
       ]
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6977,
+      7.8543
+    ],
+    "location": "Matteo Ascheri, Bra"
   },
   {
     "id": "gd-vajra-dolcetto-bottle",
@@ -231,7 +247,12 @@
         "easy-drinking"
       ]
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6136,
+      7.9203
+    ],
+    "location": "G.D. Vajra, Vergne (Barolo)"
   },
   {
     "id": "rosina-barbera-bottle",
@@ -277,7 +298,12 @@
         "food-friendly"
       ]
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.791,
+      8.25
+    ],
+    "location": "Tenuta Garetto, Agliano Terme"
   },
   {
     "id": "banfi-chianti-superiore-bottle",
@@ -324,7 +350,12 @@
         "herbs"
       ]
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      42.9659,
+      11.428
+    ],
+    "location": "Castello Banfi, Montalcino"
   },
   {
     "id": "castello-banfi-rosso-bottle",
@@ -373,9 +404,10 @@
     },
     "region": "Tuscany",
     "coordinates": [
-      43.0578,
-      11.4889
-    ]
+      42.9659,
+      11.428
+    ],
+    "location": "Castello Banfi, Montalcino"
   },
   {
     "id": "bussola-valpolicella-bottle",
@@ -421,7 +453,12 @@
         "velvety"
       ]
     },
-    "region": "Veneto"
+    "region": "Veneto",
+    "coordinates": [
+      45.5395,
+      10.9522
+    ],
+    "location": "Tommaso Bussola, Negrar di Valpolicella"
   },
   {
     "id": "benanti-etna-rosso-bottle",
@@ -470,9 +507,10 @@
     },
     "region": "Sicily",
     "coordinates": [
-      37.751,
-      14.9934
-    ]
+      37.6102,
+      15.0968
+    ],
+    "location": "Benanti, Viagrande (Mount Etna)"
   },
   {
     "id": "antinori-chianti-riserva-bottle",
@@ -520,9 +558,10 @@
     },
     "region": "Tuscany",
     "coordinates": [
-      43.5808,
-      11.3147
-    ]
+      43.6162,
+      11.1901
+    ],
+    "location": "Antinori nel Chianti Classico, Bargino"
   },
   {
     "id": "carpineto-vino-nobile-bottle",
@@ -568,7 +607,12 @@
       ]
     },
     "website": "https://www.carpineto.com/",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.0945,
+      11.7827
+    ],
+    "location": "Carpineto, Montepulciano"
   },
   {
     "id": "caparzo-brunello-bottle",
@@ -617,9 +661,10 @@
     "website": "https://www.caparzo.com/",
     "region": "Tuscany",
     "coordinates": [
-      43.0578,
-      11.4889
-    ]
+      43.0857,
+      11.5486
+    ],
+    "location": "Caparzo, Montalcino"
   },
   {
     "id": "campogiovanni-brunello-bottle",
@@ -666,7 +711,12 @@
       ]
     },
     "website": "https://www.sanfelice.com/en",
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      42.994,
+      11.4605
+    ],
+    "location": "Campogiovanni (San Felice), Sant'Angelo in Colle"
   },
   {
     "id": "gd-vajra-barolo-albe-bottle",
@@ -712,7 +762,12 @@
       ]
     },
     "website": "https://www.gdvajra.it/",
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6136,
+      7.9203
+    ],
+    "location": "G.D. Vajra, Vergne (Barolo)"
   },
   {
     "id": "altesino-brunello-bottle",
@@ -758,7 +813,12 @@
     },
     "website": "https://www.altesino.it/",
     "region": "Tuscany",
-    "pronunciation": "ahl-teh-SEE-noh broo-NEL-oh dee mon-tahl-CHEE-noh"
+    "pronunciation": "ahl-teh-SEE-noh broo-NEL-oh dee mon-tahl-CHEE-noh",
+    "coordinates": [
+      43.0576,
+      11.4903
+    ],
+    "location": "Altesino, Montalcino"
   },
   {
     "id": "gagliardo-barolo-bottle",
@@ -805,7 +865,12 @@
       ]
     },
     "website": "https://www.gagliardo.it/",
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.652,
+      7.9361
+    ],
+    "location": "Gianni Gagliardo, La Morra"
   },
   {
     "id": "tommasi-amarone-bottle",
@@ -853,9 +918,10 @@
     "website": "https://www.tommasiwine.it/",
     "region": "Veneto",
     "coordinates": [
-      45.5303,
-      10.8756
-    ]
+      45.5032,
+      10.9187
+    ],
+    "location": "Tommasi, Pedemonte (Valpolicella)"
   },
   {
     "id": "gagliardo-fossati-barolo-bottle",
@@ -902,7 +968,12 @@
       ]
     },
     "website": "https://www.gagliardo.it/",
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.652,
+      7.9361
+    ],
+    "location": "Fossati vineyard, La Morra (Barolo)"
   },
   {
     "id": "bertani-amarone-classico-bottle",
@@ -950,9 +1021,10 @@
     "website": "https://www.bertani.net/",
     "region": "Veneto",
     "coordinates": [
-      45.5303,
-      10.8756
-    ]
+      45.4936,
+      10.9392
+    ],
+    "location": "Bertani, Villa Novare, Arbizzano (Valpolicella)"
   },
   {
     "id": "gaja-sperss-barolo-bottle",
@@ -998,6 +1070,11 @@
       ]
     },
     "website": "https://gaja.com/",
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.618,
+      7.9974
+    ],
+    "location": "Gaja Sperss vineyard, Serralunga d'Alba"
   }
 ]

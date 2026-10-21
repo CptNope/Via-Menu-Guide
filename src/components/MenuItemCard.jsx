@@ -101,6 +101,9 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
       {item.description && (
         <p className="menu-item-description">{item.description}</p>
       )}
+      {item.location && (
+        <p className="menu-item-location">📍 {item.location}</p>
+      )}
 
       {/* Sauce Selection for Pasta & Sauce items */}
       {item.hasSauceSelection && item.sauceOptions && (

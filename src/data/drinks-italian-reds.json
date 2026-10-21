@@ -44,7 +44,12 @@
       ],
       "region": "Piedmont"
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.791,
+      8.25
+    ],
+    "location": "Tenuta Garetto, Agliano Terme"
   },
   {
     "id": "banfi-chianti-superiore",
@@ -91,7 +96,12 @@
         "herbs"
       ]
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      42.9659,
+      11.428
+    ],
+    "location": "Castello Banfi, Montalcino"
   },
   {
     "id": "bussola-valpolicella",
@@ -138,7 +148,12 @@
       ],
       "region": "Veneto"
     },
-    "region": "Veneto"
+    "region": "Veneto",
+    "coordinates": [
+      45.5395,
+      10.9522
+    ],
+    "location": "Tommaso Bussola, Negrar di Valpolicella"
   },
   {
     "id": "caparzo-brunello",
@@ -186,7 +201,12 @@
       ],
       "region": "Tuscany"
     },
-    "region": "Tuscany"
+    "region": "Tuscany",
+    "coordinates": [
+      43.0857,
+      11.5486
+    ],
+    "location": "Caparzo, Montalcino"
   },
   {
     "id": "gd-vajra-barolo-albe",
@@ -233,6 +253,11 @@
       ],
       "region": "Piedmont"
     },
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6136,
+      7.9203
+    ],
+    "location": "G.D. Vajra, Vergne (Barolo)"
   }
 ]

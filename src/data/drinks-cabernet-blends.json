@@ -36,7 +36,12 @@
       ],
       "region": "Paso Robles"
     },
-    "region": "Paso Robles"
+    "region": "Paso Robles",
+    "coordinates": [
+      35.6455,
+      -120.8735
+    ],
+    "location": "DAOU Mountain, Adelaida District, Paso Robles"
   },
   {
     "id": "grand-enclos-du-chateau-de-cerons",
@@ -82,7 +87,12 @@
         "savory"
       ]
     },
-    "region": "Bordeaux"
+    "region": "Bordeaux",
+    "coordinates": [
+      44.6317,
+      -0.3349
+    ],
+    "location": "Cérons, Graves (Bordeaux)"
   },
   {
     "id": "greenwing-cabernet",
@@ -120,7 +130,12 @@
       ],
       "region": "Washington State"
     },
-    "region": "Washington State"
+    "region": "Washington State",
+    "coordinates": [
+      46.2068,
+      -119.7692
+    ],
+    "location": "Columbia Valley, WA (multi-vineyard blend)"
   },
   {
     "id": "cakebread-mullan-road",
@@ -158,7 +173,12 @@
       ],
       "region": "Washington State"
     },
-    "region": "Washington State"
+    "region": "Washington State",
+    "coordinates": [
+      46.0667,
+      -118.3393
+    ],
+    "location": "Mullan Road Cellars, Walla Walla, WA"
   },
   {
     "id": "robert-mondavi",
@@ -205,7 +225,12 @@
         "oak"
       ]
     },
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "coordinates": [
+      38.4389,
+      -122.4071
+    ],
+    "location": "Robert Mondavi Winery, Oakville, Napa"
   },
   {
     "id": "austin-hope-cabernet",
@@ -244,7 +269,12 @@
       ],
       "region": "Paso Robles"
     },
-    "region": "Paso Robles"
+    "region": "Paso Robles",
+    "coordinates": [
+      35.5605,
+      -120.7008
+    ],
+    "location": "Hope Family Wines, Templeton (Paso Robles)"
   },
   {
     "id": "knight-s-bridge-meritage",
@@ -290,6 +320,11 @@
       ]
     },
     "website": "https://www.knightsbridgewinery.com/",
-    "region": "Napa Valley"
+    "region": "Sonoma",
+    "coordinates": [
+      38.638,
+      -122.675
+    ],
+    "location": "Knights Bridge, Knights Valley (Sonoma County)"
   }
 ]

@@ -44,7 +44,12 @@
       "region": "New Zealand"
     },
     "region": "New Zealand",
-    "pronunciation": "mah-TOO-ah"
+    "pronunciation": "mah-TOO-ah",
+    "coordinates": [
+      -41.5119,
+      173.9546
+    ],
+    "location": "Marlborough vineyards, New Zealand"
   },
   {
     "id": "jacques-dumont",
@@ -90,6 +95,11 @@
         "grassy"
       ]
     },
-    "region": "Loire Valley"
+    "region": "Loire Valley",
+    "coordinates": [
+      47.39,
+      0.6889
+    ],
+    "location": "Loire Valley (growing area)"
   }
 ]

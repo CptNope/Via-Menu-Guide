@@ -44,7 +44,12 @@
       "region": "California"
     },
     "region": "California",
-    "pronunciation": "lah KREM-ah"
+    "pronunciation": "lah KREM-ah",
+    "coordinates": [
+      36.4269,
+      -121.3272
+    ],
+    "location": "Monterey County vineyards, CA"
   },
   {
     "id": "rombauer-chardonnay",
@@ -83,6 +88,11 @@
       "region": "California"
     },
     "region": "Napa Valley",
-    "pronunciation": "ROM-bow-er"
+    "pronunciation": "ROM-bow-er",
+    "coordinates": [
+      38.2417,
+      -122.3255
+    ],
+    "location": "Carneros vineyards (Rombauer, St. Helena)"
   }
 ]

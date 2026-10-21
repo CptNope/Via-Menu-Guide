@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.3] - 2026-10-21
+
+### Changed
+- **Every wine is mapped where it is made.** All 109 wines (146 entries across glass, bottle and half bottle) now have their own location: the winery town or named vineyard (Caymus and Quintessa in Rutherford, Shafer in the Stags Leap District, Chappellet on Pritchard Hill, Gaja Sperss in Serralunga d'Alba, Dom Pérignon in Hautvillers, Cloudy Bay in Rapaura ...). Before, most wines sat on one point per region, so every "California" wine was in the middle of the state. Multi-vineyard blends and wines whose producer location isn't certain are placed in their growing area and labeled that way.
+- Each wine card shows its location under the description, and map pins show it too.
+- Section maps zoom to fit their wines; a wine's own map frames the wine with nearby landmarks.
+- Knights Bridge, Wayfarer, Sonoma-Cutrer, J Vineyards and La Crema Chardonnay now use the Sonoma map (Knights Valley is in Sonoma County).
+
+---
+
 ## [1.5.2] - 2026-10-21
 
 ### Fixed

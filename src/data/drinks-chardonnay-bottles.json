@@ -43,7 +43,12 @@
     },
     "website": "https://www.lacrema.com/",
     "region": "California",
-    "pronunciation": "lah KREM-ah"
+    "pronunciation": "lah KREM-ah",
+    "coordinates": [
+      36.4269,
+      -121.3272
+    ],
+    "location": "Monterey County vineyards, CA"
   },
   {
     "id": "knights-bridge-kb-chardonnay-bottle",
@@ -88,7 +93,12 @@
       ]
     },
     "website": "https://www.knightsbridgewinery.com/",
-    "region": "Napa Valley"
+    "region": "Sonoma",
+    "coordinates": [
+      38.638,
+      -122.675
+    ],
+    "location": "Knights Bridge, Knights Valley (Sonoma County)"
   },
   {
     "id": "rombauer-chardonnay-carneros-bottle",
@@ -134,7 +144,12 @@
     },
     "website": "https://www.rombauer.com/",
     "region": "Napa Valley",
-    "pronunciation": "ROM-bow-er"
+    "pronunciation": "ROM-bow-er",
+    "coordinates": [
+      38.2417,
+      -122.3255
+    ],
+    "location": "Carneros vineyards (Rombauer, St. Helena)"
   },
   {
     "id": "shafer-red-shoulder-ranch-bottle",
@@ -180,7 +195,12 @@
     },
     "website": "https://www.shafervineyards.com/",
     "region": "Napa Valley",
-    "pronunciation": "SHAY-fer"
+    "pronunciation": "SHAY-fer",
+    "coordinates": [
+      38.2417,
+      -122.3255
+    ],
+    "location": "Red Shoulder Ranch, Carneros (Napa)"
   },
   {
     "id": "wayfarer-chardonnay-bottle",
@@ -225,7 +245,12 @@
       ]
     },
     "website": "https://www.wayfarervineyard.com/",
-    "region": "California"
+    "region": "Sonoma",
+    "coordinates": [
+      38.54,
+      -123.19
+    ],
+    "location": "Wayfarer Vineyard, Fort Ross-Seaview (Sonoma Coast)"
   },
   {
     "id": "aubert-uv-sl-bottle",
@@ -272,6 +297,11 @@
         "toasted-oak"
       ]
     },
-    "region": "Sonoma"
+    "region": "Sonoma",
+    "coordinates": [
+      38.5788,
+      -122.5797
+    ],
+    "location": "Aubert, Calistoga (Sonoma Coast vineyard)"
   }
 ]

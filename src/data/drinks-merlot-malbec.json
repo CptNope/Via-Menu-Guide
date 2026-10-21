@@ -43,7 +43,12 @@
       ]
     },
     "website": "https://www.vinacobos.com/",
-    "region": "Argentina"
+    "region": "Argentina",
+    "coordinates": [
+      -33.0779,
+      -68.8854
+    ],
+    "location": "Viña Cobos, Luján de Cuyo (Mendoza)"
   },
   {
     "id": "duckhorn-merlot",
@@ -89,6 +94,11 @@
     },
     "website": "https://www.duckhorn.com/",
     "region": "Napa Valley",
-    "pronunciation": "mer-LOH"
+    "pronunciation": "mer-LOH",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Duckhorn Vineyards, St. Helena, Napa"
   }
 ]

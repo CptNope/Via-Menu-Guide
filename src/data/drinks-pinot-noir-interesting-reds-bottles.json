@@ -43,7 +43,12 @@
     },
     "website": "https://www.siduri.com/",
     "region": "Oregon",
-    "pronunciation": "sih-DOO-ree"
+    "pronunciation": "sih-DOO-ree",
+    "coordinates": [
+      45.0433,
+      -122.7276
+    ],
+    "location": "Willamette Valley vineyards, OR"
   },
   {
     "id": "la-crema-pinot-noir-bottle",
@@ -89,7 +94,12 @@
     },
     "website": "https://www.lacrema.com/",
     "region": "Sonoma",
-    "pronunciation": "lah KREM-ah PEE-noh nwahr"
+    "pronunciation": "lah KREM-ah PEE-noh nwahr",
+    "coordinates": [
+      38.5471,
+      -122.8164
+    ],
+    "location": "La Crema, Windsor (Sonoma Coast grapes)"
   },
   {
     "id": "seghesio-zinfandel-bottle",
@@ -135,7 +145,12 @@
     },
     "website": "https://www.seghesio.com/",
     "region": "Sonoma",
-    "pronunciation": "seh-GAY-zee-oh ZIN-fun-dell"
+    "pronunciation": "seh-GAY-zee-oh ZIN-fun-dell",
+    "coordinates": [
+      38.6107,
+      -122.8701
+    ],
+    "location": "Seghesio Family Vineyards, Healdsburg"
   },
   {
     "id": "cambria-julias-vineyard-bottle",
@@ -181,7 +196,12 @@
     },
     "website": "https://www.cambriawines.com/",
     "region": "California",
-    "pronunciation": "KAM-bree-uh"
+    "pronunciation": "KAM-bree-uh",
+    "coordinates": [
+      34.9036,
+      -120.3326
+    ],
+    "location": "Julia's Vineyard, Santa Maria Bench"
   },
   {
     "id": "rombauer-zinfandel-bottle",
@@ -226,8 +246,13 @@
       ]
     },
     "website": "https://www.rombauer.com/",
-    "region": "California",
-    "pronunciation": "ROM-bow-er ZIN-fun-dell"
+    "region": "Napa Valley",
+    "pronunciation": "ROM-bow-er ZIN-fun-dell",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Rombauer Vineyards, St. Helena, Napa"
   },
   {
     "id": "machete-petite-syrah-bottle",
@@ -272,8 +297,13 @@
       ]
     },
     "website": "https://www.orinswift.com/",
-    "region": "California",
-    "pronunciation": "muh-SHET-ee"
+    "region": "Napa Valley",
+    "pronunciation": "muh-SHET-ee",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Orin Swift, St. Helena (California grapes)"
   },
   {
     "id": "aubert-pinot-noir-bottle",
@@ -320,7 +350,12 @@
         "spice"
       ]
     },
-    "region": "Sonoma"
+    "region": "Sonoma",
+    "coordinates": [
+      38.5788,
+      -122.5797
+    ],
+    "location": "Aubert, Calistoga (Sonoma Coast vineyards)"
   },
   {
     "id": "domaine-della-pinot-noir-bottle",
@@ -366,7 +401,12 @@
       ]
     },
     "website": "https://www.domainedella.com/",
-    "region": "Sonoma"
+    "region": "Sonoma",
+    "coordinates": [
+      38.4021,
+      -122.8242
+    ],
+    "location": "Sonoma Coast vineyards"
   },
   {
     "id": "wayfarer-pinot-noir-bottle",
@@ -411,6 +451,11 @@
       ]
     },
     "website": "https://www.wayfarervineyard.com/",
-    "region": "California"
+    "region": "Sonoma",
+    "coordinates": [
+      38.54,
+      -123.19
+    ],
+    "location": "Wayfarer Vineyard, Fort Ross-Seaview (Sonoma Coast)"
   }
 ]

@@ -1064,3 +1064,9 @@
     align-items: center;
   }
 }
+
+.menu-item-location {
+  margin: 0.15rem 0 0.35rem;
+  font-size: 0.85rem;
+  color: #6b4a3b;
+}

@@ -42,7 +42,12 @@
       ]
     },
     "website": "https://www.cantinadicarpiesorbara.it/en/",
-    "region": "Italy"
+    "region": "Italy",
+    "coordinates": [
+      44.7464,
+      11.0079
+    ],
+    "location": "Cantina di Carpi e Sorbara, Sorbara (Modena)"
   },
   {
     "id": "la-fiera-pinot-grigio-bottle",
@@ -85,8 +90,13 @@
         "aperitif"
       ]
     },
-    "region": "Italy",
-    "pronunciation": "lah fee-AIR-ah pee-noh GREE-jee-oh"
+    "region": "Veneto",
+    "pronunciation": "lah fee-AIR-ah pee-noh GREE-jee-oh",
+    "coordinates": [
+      45.8067,
+      12.2063
+    ],
+    "location": "Veneto (importer brand; growing area)"
   },
   {
     "id": "loosen-riesling-bottle",
@@ -131,7 +141,12 @@
     },
     "website": "https://drloosen.de/",
     "region": "Germany",
-    "pronunciation": "LOH-zen REEZ-ling"
+    "pronunciation": "LOH-zen REEZ-ling",
+    "coordinates": [
+      49.9157,
+      7.0708
+    ],
+    "location": "Dr. Loosen, Bernkastel-Kues (Mosel)"
   },
   {
     "id": "trimbach-riesling-bottle",
@@ -176,7 +191,12 @@
       ]
     },
     "website": "https://www.trimbach.fr/",
-    "region": "Alsace"
+    "region": "Alsace",
+    "coordinates": [
+      48.1925,
+      7.3249
+    ],
+    "location": "Maison Trimbach, Ribeauvillé (Alsace)"
   },
   {
     "id": "guado-al-tasso-vermentino-bottle",
@@ -222,7 +242,12 @@
     },
     "website": "https://www.antinori.it/",
     "region": "Tuscany",
-    "pronunciation": "GWAH-doh ahl TAH-soh / vair-men-TEE-noh"
+    "pronunciation": "GWAH-doh ahl TAH-soh / vair-men-TEE-noh",
+    "coordinates": [
+      43.234,
+      10.6179
+    ],
+    "location": "Guado al Tasso estate, Bolgheri"
   },
   {
     "id": "gd-vajra-rosa-bella-bottle",
@@ -267,7 +292,12 @@
       ]
     },
     "website": "https://www.gdvajra.it/",
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.6136,
+      7.9203
+    ],
+    "location": "G.D. Vajra, Vergne (Barolo)"
   },
   {
     "id": "benanti-etna-bianco-bottle",
@@ -313,7 +343,12 @@
       ]
     },
     "website": "https://www.benanti.it/",
-    "region": "Sicily"
+    "region": "Sicily",
+    "coordinates": [
+      37.6102,
+      15.0968
+    ],
+    "location": "Benanti, Viagrande (Mount Etna)"
   },
   {
     "id": "gianni-gagliardo-roero-arneis-bottle",
@@ -358,7 +393,12 @@
       ]
     },
     "website": "https://www.gagliardo.it/",
-    "region": "Piedmont"
+    "region": "Piedmont",
+    "coordinates": [
+      44.652,
+      7.9361
+    ],
+    "location": "Gianni Gagliardo, La Morra"
   },
   {
     "id": "terra-alpina-pinot-grigio-bottle",
@@ -404,6 +444,11 @@
         "alpine"
       ]
     },
-    "region": "Italy"
+    "region": "Italy",
+    "coordinates": [
+      46.2874,
+      11.2098
+    ],
+    "location": "Alois Lageder, Magrè (Alto Adige)"
   }
 ]

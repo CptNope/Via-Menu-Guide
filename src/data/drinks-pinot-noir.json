@@ -36,7 +36,12 @@
       ],
       "region": "Oregon"
     },
-    "region": "Oregon"
+    "region": "Oregon",
+    "coordinates": [
+      45.0433,
+      -122.7276
+    ],
+    "location": "Willamette Valley vineyards, OR"
   },
   {
     "id": "cambria-julias-vineyard",
@@ -75,6 +80,11 @@
       "region": "California"
     },
     "region": "California",
-    "pronunciation": "KAM-bree-uh"
+    "pronunciation": "KAM-bree-uh",
+    "coordinates": [
+      34.9036,
+      -120.3326
+    ],
+    "location": "Julia's Vineyard, Santa Maria Bench"
   }
 ]

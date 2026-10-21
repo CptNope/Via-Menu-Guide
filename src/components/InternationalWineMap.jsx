@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import FitToPoints from './FitToPoints';
 import L from 'leaflet';
 
 // Fix for default marker icons
@@ -304,6 +305,7 @@ function InternationalWineMap({ wines, categoryName }) {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
+            <FitToPoints points={wines.map(w => w.coordinates || (w.region ? regionCenters[w.region] : null))} maxZoom={11} />
             
             {/* Wine markers */}
             {wines.map((wine, idx) => {
@@ -320,7 +322,8 @@ function InternationalWineMap({ wines, categoryName }) {
                     <div className="wine-popup">
                       <strong>{wine.name}</strong>
                       <p>{wine.description}</p>
-                      <p><em>Region: {wine.region}</em></p>
+                      {wine.location && <p>📍 {wine.location}</p>}
+                  <p><em>Region: {wine.region}</em></p>
                       {wine.price && <p><strong>${wine.price}</strong></p>}
                     </div>
                   </Popup>

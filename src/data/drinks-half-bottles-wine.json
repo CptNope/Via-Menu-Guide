@@ -12,7 +12,12 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "coordinates": [
+      44.6866,
+      8.0311
+    ],
+    "location": "Ceretto, Alba"
   },
   {
     "id": "la-crema-chardonnay-sonoma-half",
@@ -27,7 +32,13 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "coordinates": [
+      38.5471,
+      -122.8164
+    ],
+    "location": "La Crema, Windsor (Sonoma Coast grapes)",
+    "region": "Sonoma"
   },
   {
     "id": "duckhorn-sauvignon-blanc-north-coast-half",
@@ -42,7 +53,13 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Duckhorn Vineyards, St. Helena (North Coast grapes)",
+    "region": "Napa Valley"
   },
   {
     "id": "alphonse-mellot-la-moussiere-half",
@@ -57,7 +74,12 @@
     "ingredients": [
       "white-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "coordinates": [
+      47.3307,
+      2.839
+    ],
+    "location": "Alphonse Mellot, Sancerre"
   },
   {
     "id": "stags-leap-cabernet-napa-half",
@@ -102,7 +124,12 @@
     "ingredients": [
       "red-wine"
     ],
-    "allergens": []
+    "allergens": [],
+    "coordinates": [
+      38.4573,
+      -122.4212
+    ],
+    "location": "Beaulieu Vineyard, Rutherford, Napa"
   },
   {
     "id": "moutard-pere-fils-champagne-half",

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import FitToPoints, { kmBetween } from './FitToPoints';
 import L from 'leaflet';
 
 // Fix for default marker icons in React-Leaflet
@@ -101,6 +102,9 @@ function ItalianWineMapInteractive({ wine }) {
 
   // Use wine's coordinates if available, otherwise use region center
   const wineCoords = wine.coordinates || regionData.center;
+  // Frame the wine with the landmarks around it (within 60 km)
+  const nearbyLandmarks = regionData.landmarks.filter(l => kmBetween(wineCoords, l.coords) <= 60);
+  const framePoints = [wineCoords, ...(showLandmarks ? nearbyLandmarks.map(l => l.coords) : [])];
 
   return (
     <div className="wine-map-interactive">
@@ -123,7 +127,7 @@ function ItalianWineMapInteractive({ wine }) {
             >
               {showLandmarks ? '🏛️ Hide' : '🏛️ Show'} Landmarks
             </button>
-            <span className="map-region-label">📍 {wine.region}, Italy</span>
+            <span className="map-region-label">📍 {wine.location || `${wine.region}, Italy`}</span>
           </div>
           
           <MapContainer 
@@ -136,6 +140,7 @@ function ItalianWineMapInteractive({ wine }) {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
+            <FitToPoints points={framePoints} maxZoom={11} singleZoom={10} />
             
             {/* Wine marker */}
             <Marker position={wineCoords} icon={wineIcon}>
@@ -143,7 +148,7 @@ function ItalianWineMapInteractive({ wine }) {
                 <div className="wine-popup">
                   <strong>{wine.name}</strong>
                   <p>{wine.description}</p>
-                  {wine.winery && <p><em>Winery: {wine.winery}</em></p>}
+                  {wine.location && <p>📍 {wine.location}</p>}
                 </div>
               </Popup>
             </Marker>

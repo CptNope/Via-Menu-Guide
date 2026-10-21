@@ -43,7 +43,12 @@
     },
     "website": "https://www.caymus.com/",
     "region": "California",
-    "pronunciation": "buh-NAN-zuh … KAY-mus"
+    "pronunciation": "buh-NAN-zuh … KAY-mus",
+    "coordinates": [
+      38.2247,
+      -122.1299
+    ],
+    "location": "Caymus-Suisun winery, Suisun Valley, CA"
   },
   {
     "id": "the-pessimist-cabernet-bottle",
@@ -89,7 +94,12 @@
     },
     "website": "https://www.daouvineyards.com/",
     "region": "Paso Robles",
-    "pronunciation": "dow (rhymes with 'cow')"
+    "pronunciation": "dow (rhymes with 'cow')",
+    "coordinates": [
+      35.6455,
+      -120.8735
+    ],
+    "location": "DAOU Mountain, Adelaida District, Paso Robles"
   },
   {
     "id": "grand-enclos-du-chateau-de-cerons-bottle",
@@ -135,7 +145,12 @@
         "savory"
       ]
     },
-    "region": "Bordeaux"
+    "region": "Bordeaux",
+    "coordinates": [
+      44.6317,
+      -0.3349
+    ],
+    "location": "Cérons, Graves (Bordeaux)"
   },
   {
     "id": "greenwing-cabernet-bottle",
@@ -180,7 +195,12 @@
       ]
     },
     "website": "https://www.duckhorn.com/",
-    "region": "Washington State"
+    "region": "Washington State",
+    "coordinates": [
+      46.2068,
+      -119.7692
+    ],
+    "location": "Columbia Valley, WA (multi-vineyard blend)"
   },
   {
     "id": "cakebread-mullan-road-bottle",
@@ -225,7 +245,12 @@
       ]
     },
     "website": "https://www.cakebread.com/",
-    "region": "Washington State"
+    "region": "Washington State",
+    "coordinates": [
+      46.0667,
+      -118.3393
+    ],
+    "location": "Mullan Road Cellars, Walla Walla, WA"
   },
   {
     "id": "robert-mondavi-bottle",
@@ -272,7 +297,12 @@
         "oak"
       ]
     },
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "coordinates": [
+      38.4389,
+      -122.4071
+    ],
+    "location": "Robert Mondavi Winery, Oakville, Napa"
   },
   {
     "id": "knights-bridge-meritage-bottle",
@@ -318,7 +348,12 @@
       ]
     },
     "website": "https://www.knightsbridgewinery.com/",
-    "region": "Napa Valley"
+    "region": "Sonoma",
+    "coordinates": [
+      38.638,
+      -122.675
+    ],
+    "location": "Knights Bridge, Knights Valley (Sonoma County)"
   },
   {
     "id": "la-crema-cabernet-bottle",
@@ -364,7 +399,12 @@
     },
     "website": "https://www.lacrema.com/",
     "region": "Sonoma",
-    "pronunciation": "lah KREM-ah"
+    "pronunciation": "lah KREM-ah",
+    "coordinates": [
+      38.5471,
+      -122.8164
+    ],
+    "location": "La Crema, Windsor (Sonoma County)"
   },
   {
     "id": "austin-hope-cabernet-bottle",
@@ -409,7 +449,12 @@
       ]
     },
     "website": "https://hopefamilywines.com/",
-    "region": "Paso Robles"
+    "region": "Paso Robles",
+    "coordinates": [
+      35.5605,
+      -120.7008
+    ],
+    "location": "Hope Family Wines, Templeton (Paso Robles)"
   },
   {
     "id": "duckhorn-cabernet-bottle",
@@ -454,7 +499,12 @@
       ]
     },
     "website": "https://www.duckhorn.com/",
-    "region": "Napa Valley"
+    "region": "Napa Valley",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Duckhorn Vineyards, St. Helena, Napa"
   },
   {
     "id": "stonestreet-estate-cabernet-bottle",
@@ -499,7 +549,12 @@
       ]
     },
     "website": "https://www.stonestreetwines.com/",
-    "region": "Sonoma"
+    "region": "Sonoma",
+    "coordinates": [
+      38.6712,
+      -122.8279
+    ],
+    "location": "Stonestreet Estate, Alexander Valley (Mayacamas slopes)"
   },
   {
     "id": "caymus-cabernet-bottle",
@@ -545,7 +600,12 @@
     },
     "website": "https://www.caymus.com/",
     "region": "Napa Valley",
-    "pronunciation": "KAY-mus"
+    "pronunciation": "KAY-mus",
+    "coordinates": [
+      38.4573,
+      -122.4212
+    ],
+    "location": "Caymus Vineyards, Rutherford, Napa"
   },
   {
     "id": "doubleback-cabernet-bottle",
@@ -590,7 +650,12 @@
       ]
     },
     "website": "https://www.doubleback.com/",
-    "region": "Washington State"
+    "region": "Washington State",
+    "coordinates": [
+      46.0667,
+      -118.3393
+    ],
+    "location": "Doubleback, Walla Walla, WA"
   },
   {
     "id": "knights-bridge-cabernet-bottle",
@@ -635,7 +700,12 @@
       ]
     },
     "website": "https://www.knightsbridgewinery.com/",
-    "region": "Napa Valley"
+    "region": "Sonoma",
+    "coordinates": [
+      38.638,
+      -122.675
+    ],
+    "location": "Knights Bridge, Knights Valley (Sonoma County)"
   },
   {
     "id": "revana-estate-cabernet-bottle",
@@ -681,7 +751,12 @@
     },
     "website": "https://www.revanawine.com/",
     "region": "Napa Valley",
-    "pronunciation": "reh-VAH-nah"
+    "pronunciation": "reh-VAH-nah",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Revana Estate, St. Helena, Napa"
   },
   {
     "id": "caymus-special-selection-bottle",
@@ -727,7 +802,12 @@
     },
     "website": "https://www.caymus.com/",
     "region": "Napa Valley",
-    "pronunciation": "KAY-mus"
+    "pronunciation": "KAY-mus",
+    "coordinates": [
+      38.4573,
+      -122.4212
+    ],
+    "location": "Caymus Vineyards, Rutherford, Napa"
   },
   {
     "id": "quintessa-cabernet-bottle",
@@ -773,7 +853,12 @@
     },
     "website": "https://www.quintessa.com/",
     "region": "Napa Valley",
-    "pronunciation": "kin-TESS-ah"
+    "pronunciation": "kin-TESS-ah",
+    "coordinates": [
+      38.4573,
+      -122.4212
+    ],
+    "location": "Quintessa Estate, Rutherford, Napa"
   },
   {
     "id": "chappellet-prichard-hill-bottle",
@@ -819,7 +904,12 @@
     },
     "website": "https://www.chappellet.com/",
     "region": "Napa Valley",
-    "pronunciation": "shap-uh-LAY"
+    "pronunciation": "shap-uh-LAY",
+    "coordinates": [
+      38.495,
+      -122.37
+    ],
+    "location": "Chappellet, Pritchard Hill (above St. Helena)"
   },
   {
     "id": "joseph-phelps-insignia-bottle",
@@ -865,7 +955,12 @@
     },
     "website": "https://www.josephphelps.com/",
     "region": "Napa Valley",
-    "pronunciation": "FELPS in-SIG-nee-uh"
+    "pronunciation": "FELPS in-SIG-nee-uh",
+    "coordinates": [
+      38.5052,
+      -122.47
+    ],
+    "location": "Joseph Phelps, Spring Valley, St. Helena"
   },
   {
     "id": "shafer-hillside-select-bottle",
@@ -911,6 +1006,11 @@
     },
     "website": "https://www.shafervineyards.com/",
     "region": "Napa Valley",
-    "pronunciation": "SHAY-fer"
+    "pronunciation": "SHAY-fer",
+    "coordinates": [
+      38.405,
+      -122.315
+    ],
+    "location": "Shafer Vineyards, Stags Leap District, Napa"
   }
 ]

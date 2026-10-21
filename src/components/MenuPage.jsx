@@ -9,6 +9,7 @@ import {
   DRINK_SECTIONS, WINE_FORMATS, drinkSectionOf, wineFormatOf, drinkGroupOf, wineGroupRank,
 } from "../constants/drinkSections";
 import educationalGuide from "../data/drinksEducationalGuide.json";
+import { scrollToSettled } from "../utils/scrollSettle";
 
 const ITALIAN_MAP = ["Italian Reds Bottles", "Super Tuscan Bottles", "Italian Reds", "Super Tuscan"];
 const INTERNATIONAL_MAP = [
@@ -169,7 +170,7 @@ function MenuPage({ title, data, showKidsFilter = false }) {
     const t = setTimeout(() => {
       const el = document.getElementById(`menu-item-${item.id}`);
       if (!el) return;
-      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      scrollToSettled(() => document.getElementById(`menu-item-${item.id}`), { center: true });
       el.classList.add("highlight-flash");
       setTimeout(() => el.classList.remove("highlight-flash"), 2000);
     }, 120);

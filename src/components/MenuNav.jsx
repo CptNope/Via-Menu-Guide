@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./MenuNav.css";
+import { scrollToSettled } from "../utils/scrollSettle";
 
 /**
  * Sticky navigation for a menu page.
@@ -73,7 +74,7 @@ function MenuNav({
     }
     if (!el) return;
     const offset = (barRef.current?.offsetHeight || 0) + 8;
-    window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - offset, behavior: "smooth" });
+    scrollToSettled(() => document.getElementById(anchorId(id)), { offset });
     setCurrent(id);
   };
 

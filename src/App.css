@@ -191,6 +191,11 @@
 .menu-item-card {
   padding: 0.75rem 0.5rem;
   border-bottom: 1px dashed #d0bca3;
+  /* Let the browser skip layout and paint for cards far off screen.
+     Big win on phones with long lists; 'auto' remembers each card's
+     real height once it has been shown. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 380px;
 }
 
 .menu-item-card.can-be-gf-active {

@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Filters**: the wall of checkboxes is replaced by one Filters button. It opens a sheet with "Show only" (vegetarian, gluten-free) and "Leave out anything with" (nuts, dairy, shellfish, fish, eggs, soy), plus the pairing settings. Active filters show as removable chips under the bar, and the Filters button shows how many are on.
 - **Search** now opens the right drinks section and wine format before jumping to the item, and clears filters that would hide it.
 - **Header**: the page links sit in one swipeable row on phones.
+- On desktops the heading chips wrap onto a second line instead of scrolling sideways, so every heading (Seafood, $25 Entrées, Pasta ...) can be clicked with a mouse.
 
 ### Removed
 - The per-drink-type filter checkboxes (replaced by the section tabs) and the "Jump to" button block.

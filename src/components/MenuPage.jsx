@@ -70,6 +70,10 @@ function MenuPage({ title, data, showKidsFilter = false }) {
   const [pairingPreferences, setPairingPreferences] = useState(getDefaultPreferences());
   const [filters, setFilters] = useState(EMPTY_FILTERS);
   const [sheetOpen, setSheetOpen] = useState(false);
+  // Long lists render the first screenful at once and the rest right after,
+  // so a tap on a tab responds immediately on slower phones.
+  const FIRST_PAINT_CARDS = 14;
+  const [renderAll, setRenderAll] = useState(false);
 
   // Drinks: section and wine format live in the URL so Back and shared links keep them.
   const section = isDrinksMenu && DRINK_SECTIONS.some((s) => s.id === searchParams.get("section"))
@@ -113,6 +117,22 @@ function MenuPage({ title, data, showKidsFilter = false }) {
     return list;
   }, [visible, isDrinksMenu, section]);
 
+  // Reset to a first screenful whenever the list changes, then fill in the rest
+  useEffect(() => {
+    setRenderAll(false);
+    const t = setTimeout(() => setRenderAll(true), 60);
+    return () => clearTimeout(t);
+  }, [visible]);
+
+  // Cards to render per heading on this pass
+  const renderCounts = useMemo(() => {
+    const counts = {};
+    let left = renderAll ? Infinity : FIRST_PAINT_CARDS;
+    groups.forEach((g) => { counts[g.id] = Math.max(0, Math.min(g.items.length, left)); left -= counts[g.id]; });
+    return counts;
+    // eslint-disable-next-line
+  }, [groups, renderAll]);
+
   const navGroups = useMemo(
     () => groups.map((g) => ({ id: g.id, label: g.label, count: g.items.length })),
     [groups],
@@ -144,6 +164,7 @@ function MenuPage({ title, data, showKidsFilter = false }) {
       }
     }
     const group = isDrinksMenu ? drinkGroupOf(item) : item.category;
+    setRenderAll(true);
     setCollapsed((c) => ({ ...c, [group]: false }));
     const t = setTimeout(() => {
       const el = document.getElementById(`menu-item-${item.id}`);
@@ -178,6 +199,8 @@ function MenuPage({ title, data, showKidsFilter = false }) {
         groups={navGroups}
         onFiltersClick={() => setSheetOpen(true)}
         filterCount={filterCount}
+        renderKey={renderAll}
+        onNeedAll={() => setRenderAll(true)}
       />
 
       {activeFilterKeys.length > 0 && (
@@ -246,7 +269,7 @@ function MenuPage({ title, data, showKidsFilter = false }) {
                     {INTERNATIONAL_MAP.includes(cat) && <InternationalWineMap wines={g.items} categoryName={cat} />}
                     {SPIRITS_MAP.includes(cat) && <SpiritsMap spirits={g.items} categoryName={cat} />}
                   </Suspense>
-                  {g.items.map((item) => (
+                  {g.items.slice(0, renderCounts[g.id]).map((item) => (
                     <MenuItemCard
                       key={item.id}
                       item={item}

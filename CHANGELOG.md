@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - **Faster on phones.** Every card used to work out all of its wine, beer, cocktail and whiskey pairings as soon as the page opened, even though those panels start closed. On a phone that froze the page for up to a second on Dinner (three seconds on the old one-page drinks list) and made tabs slow to respond. Pairings are now worked out only when you open a pairing panel.
+- Cards far off screen skip layout until you scroll near them.
+- Long lists show the first screenful at once and fill in the rest a moment later, so tabs respond right away.
+- The map code and the Tips, Share and Admin pages load on demand instead of with every page; the app's main code is about a quarter smaller.
 
 ---
 

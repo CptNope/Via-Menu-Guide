@@ -13,7 +13,7 @@ export const anchorId = (group) => `category-${group.replace(/[^a-zA-Z0-9]/g, "-
 function MenuNav({
   sections, activeSection, onSection,
   formats, activeFormat, onFormat, formatCounts,
-  groups, onFiltersClick, filterCount,
+  groups, onFiltersClick, filterCount, renderKey, onNeedAll,
 }) {
   const barRef = useRef(null);
   const chipRowRef = useRef(null);
@@ -50,7 +50,7 @@ function MenuNav({
       window.removeEventListener("scroll", update);
       window.removeEventListener("resize", update);
     };
-  }, [groups]);
+  }, [groups, renderKey]);
 
   // Keep the active chip visible in its row without moving the page.
   useEffect(() => {
@@ -62,13 +62,21 @@ function MenuNav({
     }
   }, [current]);
 
-  const jumpTo = (id) => {
+  const jumpTo = (id, retried = false) => {
     const el = document.getElementById(anchorId(id));
+    const section = el && el.querySelector('[id^="menu-item-"]');
+    // Headings further down may not have their cards yet; render everything first
+    if ((!el || !section) && !retried && onNeedAll) {
+      onNeedAll();
+      setTimeout(() => jumpTo(id, true), 80);
+      return;
+    }
     if (!el) return;
     const offset = (barRef.current?.offsetHeight || 0) + 8;
     window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - offset, behavior: "smooth" });
     setCurrent(id);
   };
+
 
   return (
     <nav className="menu-nav" ref={barRef} aria-label="Menu sections">

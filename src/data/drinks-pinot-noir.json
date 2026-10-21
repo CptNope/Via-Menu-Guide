@@ -3,7 +3,7 @@
     "id": "siduri-pinot-noir",
     "name": "Siduri",
     "pronunciation": "sih-DOO-ree",
-    "description": "Willamette Valley, 2023",
+    "description": "Willamette Valley, 2024",
     "price": 12,
     "category": "Pinot Noir",
     "website": "https://www.siduri.com/",
@@ -34,7 +34,7 @@
         "earthy",
         "silky"
       ],
-    "region": "Oregon"
+      "region": "Oregon"
     }
   },
   {
@@ -71,7 +71,7 @@
         "vanilla",
         "spice"
       ],
-    "region": "California"
+      "region": "California"
     }
   }
 ]

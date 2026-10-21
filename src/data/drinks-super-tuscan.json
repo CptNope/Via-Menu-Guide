@@ -3,7 +3,7 @@
     "id": "rubio-super-tuscan",
     "name": "Rubio by San Polo",
     "pronunciation": "ROO-bee-oh / san POH-loh",
-    "description": "IGT, Montalcino, JS 91, 2022",
+    "description": "IGT, Montalcino, JS 91, 2023",
     "price": 14,
     "category": "Super Tuscan",
     "website": "https://www.sanpolomontalcino.com/",
@@ -42,7 +42,7 @@
         "oak",
         "structured"
       ],
-    "region": "Tuscany"
+      "region": "Tuscany"
     }
   },
   {
@@ -80,7 +80,7 @@
         "soft-tannins",
         "versatile"
       ],
-    "region": "Tuscany"
+      "region": "Tuscany"
     }
   }
 ]

@@ -4,7 +4,7 @@
     "name": "\"The Pessimist\" by Daou",
     "pronunciation": "dow (rhymes with 'cow')",
     "description": "Paso Robles, JD 92, 2023",
-    "price": 12,
+    "price": 13,
     "category": "Cabernet & Blends",
     "website": "https://www.daouvineyards.com/",
     "serverNotes": "🍇 ABOUT: Bold Paso Robles Cabernet blend from DAOU. Highly rated JD 92 pts! Cult favorite 'The Pessimist' - great value premium Cab.\n\n🍷 STYLE: Full-bodied Cabernet Blend | Dark fruit, chocolate & spice | Well-structured, smooth tannins | Crowd-pleasing Paso style.\n\n🍽️ PAIRS WITH: Steaks, lamb, hearty pasta, BBQ, bold dishes.\n\n💡 BY THE GLASS: Bold California Cab at an amazing price point. Perfect for steak night!",
@@ -34,8 +34,54 @@
         "spice",
         "bold"
       ],
-    "region": "Paso Robles"
+      "region": "Paso Robles"
     }
+  },
+  {
+    "id": "grand-enclos-du-chateau-de-cerons",
+    "name": "Grand Enclos du Château de Cérons",
+    "pronunciation": "grahn ahn-KLOH doo shah-TOH duh say-ROHN",
+    "description": "Bordeaux, 2019",
+    "price": 13,
+    "category": "Cabernet & Blends",
+    "serverNotes": "📖 ABOUT: Red Bordeaux from the Graves, on the Left Bank south of the city. A classic Cabernet Sauvignon and Merlot blend with some bottle age.\n\n🍷 STYLE: Medium to full-bodied Bordeaux blend | Blackcurrant, cedar, graphite & dried herbs | Firm, polished tannins | Savory Old World finish\n\n🍽️ PAIRS WITH: Filet mignon, surf & turf, veal chop, short rib, aged cheeses.\n\n💡 BY THE GLASS: Pour it for guests who want this style without committing to a bottle.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 6,
+      "body": "medium-full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 5,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 5,
+      "minerality": 6,
+      "finish": 7,
+      "earthiness": 6,
+      "herbaceousness": 5,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 6,
+      "flavorNotes": [
+        "blackcurrant",
+        "cedar",
+        "graphite",
+        "savory"
+      ]
+    },
+    "region": "Bordeaux"
   },
   {
     "id": "greenwing-cabernet",
@@ -71,44 +117,7 @@
         "spice",
         "supple"
       ],
-    "region": "Washington State"
-    }
-  },
-  {
-    "id": "band-of-vintners",
-    "name": "Band of Vintners Cabernet",
-    "description": "Napa, RP 92, 2022",
-    "price": 15,
-    "category": "Cabernet & Blends",
-    "website": "https://www.bandofvintners.com/",
-    "serverNotes": "📖 ABOUT: Full-bodied Napa Cabernet from Band of Vintners. Robert Parker 92 pts! True Napa Valley expression.\n\n🍷 STYLE: Structured Napa Cab | Rich blackberry, cassis & oak | Structured tannins, long finish | Premium Napa quality.\n\n🍽️ PAIRS WITH: Prime cuts, lamb, ribeye, strong cheese, special occasion dishes.\n\n💡 BY THE GLASS: Authentic Napa Cab by the glass - rare opportunity for premium wine!",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "red-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 1,
-      "acidity": 5,
-      "body": "full",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 8,
-      "umami": 6,
-      "bitterness": 2,
-      "tannin": 8,
-      "alcohol": 7,
-      "carbonation": 0,
-      "flavorNotes": [
-        "blackberry",
-        "cassis",
-        "oak",
-        "structured"
-      ],
-    "region": "Napa Valley"
+      "region": "Washington State"
     }
   },
   {
@@ -145,13 +154,60 @@
         "spice",
         "velvety"
       ],
-    "region": "Washington State"
+      "region": "Washington State"
     }
+  },
+  {
+    "id": "robert-mondavi",
+    "name": "Robert Mondavi",
+    "pronunciation": "ROB-ert mon-DAH-vee",
+    "description": "Napa, 2022, JS 92",
+    "price": 16,
+    "category": "Cabernet & Blends",
+    "website": "https://www.robertmondaviwinery.com/",
+    "serverNotes": "📖 ABOUT: Napa Valley Cabernet Sauvignon from Robert Mondavi Winery in Oakville, one of the founding names of modern Napa.\n\n🍷 STYLE: Full-bodied Napa Cabernet | Black cherry, cassis, mocha & toasted oak | Ripe, rounded tannins | Long, polished finish\n\n🍽️ PAIRS WITH: Filet mignon, surf & turf, short rib, veal chop, Italian Meat & Cheese Board.\n\n💡 BY THE GLASS: Pour it for guests who want this style without committing to a bottle.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 6,
+      "minerality": 3,
+      "finish": 7,
+      "earthiness": 4,
+      "herbaceousness": 3,
+      "intensity": 8,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "black-cherry",
+        "cassis",
+        "mocha",
+        "oak"
+      ]
+    },
+    "region": "Napa Valley"
   },
   {
     "id": "austin-hope-cabernet",
     "name": "Austin Hope Cabernet",
-    "description": "Paso Robles, 2022",
+    "description": "Paso Robles, 2024",
     "price": 17,
     "category": "Cabernet & Blends",
     "website": "https://www.austinhopewinery.com/",
@@ -183,7 +239,53 @@
         "chocolate",
         "opulent"
       ],
-    "region": "Paso Robles"
+      "region": "Paso Robles"
     }
+  },
+  {
+    "id": "knight-s-bridge-meritage",
+    "name": "Knight's Bridge Meritage",
+    "pronunciation": "knights bridge mair-ih-tidge",
+    "description": "Knight's Valley, 2018",
+    "price": 18,
+    "category": "Cabernet & Blends",
+    "serverNotes": "📖 ABOUT: (knightsbridgewinery.com) Meritage blend from Knights Bridge in Napa. Bordeaux-style blend with Napa power. Premium quality!\n\n🍷 STYLE: Full-bodied Meritage | Dark fruit, chocolate & spice | Structured, complex | Bordeaux meets Napa.\n\n🍽️ PAIRS WITH: Prime cuts, lamb, aged cheese.\n\n💡 BY THE GLASS: Napa Meritage from quality producer. Bordeaux-style excellence!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 5,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 4,
+      "bitterness": 2,
+      "tannin": 7,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 6,
+      "minerality": 5,
+      "finish": 8,
+      "earthiness": 6,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "Bordeaux-blend",
+        "balanced",
+        "age-worthy",
+        "Meritage"
+      ]
+    },
+    "website": "https://www.knightsbridgewinery.com/",
+    "region": "Napa Valley"
   }
 ]

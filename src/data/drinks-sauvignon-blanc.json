@@ -2,7 +2,7 @@
   {
     "id": "matua-sauvignon-blanc",
     "name": "Matua",
-    "description": "Marlborough, NZ, 2024",
+    "description": "Marlborough, NZ, 2025",
     "price": 12,
     "category": "Sauvignon Blanc",
     "website": "https://www.matua.co.nz/",
@@ -41,17 +41,17 @@
         "grass",
         "crisp"
       ],
-    "region": "New Zealand"
+      "region": "New Zealand"
     }
   },
   {
-    "id": "knights-bridge-sauvignon",
-    "name": "Knights Bridge \"Pont de Chevalier\"",
-    "description": "Knights Valley, 2023",
-    "price": 16,
+    "id": "jacques-dumont",
+    "name": "Jacques Dumont",
+    "pronunciation": "ZHAHK doo-MOHN",
+    "description": "Loire, FR, WE 90, 2024",
+    "price": 15,
     "category": "Sauvignon Blanc",
-    "website": "https://www.knightsbridgewinery.com/",
-    "serverNotes": "🍇 ABOUT: California Sauvignon Blanc from Knights Bridge, Knights Valley. Elegant, food-friendly - premium domestic option!\n\n🍷 STYLE: Rounded Sauvignon Blanc | Citrus, melon & subtle oak | More rounded than NZ style, balanced acidity | California sophistication.\n\n🍽️ PAIRS WITH: Seafood, chicken, creamy pasta, lighter dishes.\n\n💡 BY THE GLASS: California take on Sauv Blanc - elegant with subtle oak. Different from typical grassy style!",
+    "serverNotes": "📖 ABOUT: Loire Valley Sauvignon Blanc from France, rated 90 by Wine Enthusiast. Old World, mineral style.\n\n🍷 STYLE: Crisp Loire Sauvignon Blanc | Citrus, gooseberry, cut grass & flint | Bright acidity, no oak | Clean, chalky finish\n\n🍽️ PAIRS WITH: Shrimp cocktail, fried calamari, goat cheese, salads, grilled salmon, haddock.\n\n💡 BY THE GLASS: Pour it for guests who want this style without committing to a bottle.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -62,23 +62,32 @@
     "allergens": [],
     "flavorProfile": {
       "sweetness": 1,
-      "acidity": 7,
-      "body": "medium",
+      "acidity": 8,
+      "body": "light",
       "spiciness": 0,
       "saltiness": 0,
-      "richness": 4,
-      "umami": 1,
+      "richness": 3,
+      "umami": 2,
       "bitterness": 1,
       "tannin": 0,
-      "alcohol": 6,
+      "alcohol": 5,
       "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 8,
+      "finish": 6,
+      "earthiness": 3,
+      "herbaceousness": 7,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 7,
       "flavorNotes": [
         "citrus",
-        "melon",
-        "oak",
-        "rounded"
-      ],
-    "region": "Napa Valley"
-    }
+        "gooseberry",
+        "flint",
+        "grassy"
+      ]
+    },
+    "region": "Loire Valley"
   }
 ]

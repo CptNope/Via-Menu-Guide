@@ -2,8 +2,8 @@
   {
     "id": "la-crema-chardonnay-monterey-bottle",
     "name": "La Crema",
-    "description": "Monterey, 2023",
-    "price": 48,
+    "description": "Monterey, 2024",
+    "price": 43,
     "category": "Chardonnay Bottles",
     "serverNotes": "📖 ABOUT: (lacrema.com) Sonoma Coast Chardonnay from La Crema. Known for quality California Chardonnay since 1979. Balanced, approachable style. Also available by the glass!\n\n🍷 STYLE: Medium-bodied Chardonnay | Apple, pear & vanilla | Balanced oak, food-friendly | Classic California elegance.\n\n🍽️ PAIRS WITH: Lobster, scallops, chicken, cream sauces, seafood.\n\n💡 BOTTLE SERVICE: Versatile Chardonnay for diverse menus. Available by the glass too!",
     "vegetarian": true,
@@ -92,8 +92,8 @@
   {
     "id": "rombauer-chardonnay-carneros-bottle",
     "name": "Rombauer",
-    "description": "Carneros, 2023",
-    "price": 68,
+    "description": "Carneros, 2024",
+    "price": 63,
     "category": "Chardonnay Bottles",
     "serverNotes": "🏆 ABOUT: (rombauer.com) Iconic Carneros Chardonnay from Rombauer Vineyards. Rich, buttery California style. One of America's most beloved Chardonnays!\n\n🍷 STYLE: Full-bodied Chardonnay | Rich butter, vanilla & tropical fruit | Creamy texture | Classic Carneros character | Rombauer signature.\n\n🍽️ PAIRS WITH: Lobster, crab, roasted chicken, cream sauces.\n\n💡 BOTTLE SERVICE: Iconic California Chardonnay. Consistently one of America's favorites!",
     "vegetarian": true,
@@ -137,7 +137,7 @@
   {
     "id": "shafer-red-shoulder-ranch-bottle",
     "name": "Shafer \"Red Shoulder Ranch\"",
-    "description": "Napa, 2022",
+    "description": "Napa, 2024",
     "price": 85,
     "category": "Chardonnay Bottles",
     "serverNotes": "🏆 ABOUT: (shafervineyards.com) 'Red Shoulder Ranch' Chardonnay from Shafer's Carneros vineyard. Cool-climate elegance from legendary Napa producer. Highly acclaimed!\n\n🍷 STYLE: Full-bodied Chardonnay | Ripe apple, citrus & oak | Complex, balanced | Carneros cool-climate | Age-worthy quality.\n\n🍽️ PAIRS WITH: Lobster, scallops, roasted chicken, fine cuisine.\n\n💡 BOTTLE SERVICE: Premium Carneros Chardonnay from legendary Shafer. Collector quality!",
@@ -177,51 +177,6 @@
       ]
     },
     "website": "https://www.shafervineyards.com/",
-    "region": "Napa Valley"
-  },
-  {
-    "id": "knights-bridge-west-block-bottle",
-    "name": "Knights Bridge West Block",
-    "description": "Knights Valley, 2021",
-    "price": 90,
-    "category": "Chardonnay Bottles",
-    "serverNotes": "🏆 ABOUT: (knightsbridgewinery.com) West Block Estate Chardonnay from Knights Bridge's premier vineyard. Single-block quality. Top-tier Napa Chardonnay!\n\n🍷 STYLE: Full-bodied Chardonnay | Concentrated citrus, apple & minerality | Complex, elegant | Single-block terroir | Premium quality.\n\n🍽️ PAIRS WITH: Lobster, fine seafood, roasted chicken, special occasions.\n\n💡 BOTTLE SERVICE: Single-block estate Chardonnay. Premium Knights Valley terroir!",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "white-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 2,
-      "acidity": 6,
-      "body": "full",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 8,
-      "umami": 2,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 7,
-      "carbonation": 0,
-      "fruitiness": 7,
-      "oakiness": 7,
-      "minerality": 6,
-      "finish": 9,
-      "creaminess": 7,
-      "intensity": 9,
-      "complexity": 9,
-      "aromaticIntensity": 9,
-      "flavorNotes": [
-        "stone-fruit",
-        "complex",
-        "single-vineyard",
-        "limited"
-      ]
-    },
-    "website": "https://www.knightsbridgewinery.com/",
     "region": "Napa Valley"
   },
   {
@@ -268,5 +223,52 @@
     },
     "website": "https://www.pahlmeyer.com/",
     "region": "California"
+  },
+  {
+    "id": "aubert-uv-sl-bottle",
+    "name": "Aubert \"UV-SL\"",
+    "pronunciation": "OH-bear",
+    "description": "Sonoma Coast, V 97, 2023",
+    "price": 100,
+    "category": "Chardonnay Bottles",
+    "website": "https://www.aubertwines.com/",
+    "serverNotes": "📖 ABOUT: Single-vineyard Sonoma Coast Chardonnay from Aubert, rated 97 by Vinous. A cult California white.\n\n🍷 STYLE: Rich but precise Chardonnay | Lemon curd, yellow apple, hazelnut & toasted oak | Creamy texture with bright acidity | Very long finish\n\n🍽️ PAIRS WITH: Lobster risotto, seared sea scallops, lobster stuffed shells, chicken piccata, Alfredo.\n\n💡 BOTTLE SERVICE: A strong bottle to suggest for the table; check the vintage on the list when presenting.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 8,
+      "umami": 3,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 7,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 6,
+      "minerality": 5,
+      "finish": 9,
+      "earthiness": 2,
+      "herbaceousness": 2,
+      "intensity": 8,
+      "complexity": 9,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "lemon-curd",
+        "yellow-apple",
+        "hazelnut",
+        "toasted-oak"
+      ]
+    },
+    "region": "Sonoma"
   }
 ]

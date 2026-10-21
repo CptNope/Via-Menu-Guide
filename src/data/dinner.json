@@ -1,15 +1,104 @@
 [
   {
+    "id": "via-chopped-antipasto-salad",
+    "name": "VIA Chopped Antipasto Salad",
+    "description": "Diced salami, ham, chicken, provolone, feta, red peppers, black olives, celery, capers, tomato, red onion, Dijon vinaigrette.",
+    "serverNotes": "Naturally GF. Triple protein - salami, ham, chicken. Two cheeses - provolone and feta. Italian antipasto flavors. Briny olives and capers. Very hearty salad.",
+    "price": 18.99,
+    "category": "Appetizers",
+    "vegetarian": false,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "salami",
+      "ham",
+      "chicken",
+      "provolone",
+      "feta",
+      "olives"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 1,
+      "saltiness": 7,
+      "richness": 7,
+      "umami": 8,
+      "fattiness": 6,
+      "intensity": 8,
+      "complexity": 8,
+      "flavorNotes": [
+        "savory",
+        "meaty",
+        "briny",
+        "bold"
+      ]
+    }
+  },
+  {
+    "id": "pepperoni-pizza",
+    "name": "Pepperoni",
+    "description": "Diavolo sauce, mozzarella, asiago, hot honey.",
+    "price": 18.99,
+    "category": "Grilled Pizzas",
+    "serverNotes": "Classic pepperoni with spicy diavolo sauce, mozzarella, asiago, hot honey drizzle. Sweet-spicy kick. Pairs great with Italian reds (Chianti, Montepulciano, Primitivo), off-dry Riesling for spice, or IPAs. Crowd-pleasing favorite.",
+    "vegetarian": false,
+    "glutenFree": false,
+    "glutenFreeAvailable": true,
+    "glutenFreeUpcharge": 4,
+    "glutenFreeCrust": "cauliflower-parmesan",
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "pizza-dough",
+      "pepperoni",
+      "diavolo-sauce",
+      "mozzarella",
+      "asiago",
+      "hot-honey"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 5,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 6,
+      "bitterness": 0,
+      "fattiness": 7,
+      "creaminess": 5,
+      "charLevel": 5,
+      "intensity": 7,
+      "complexity": 6,
+      "flavorNotes": [
+        "spicy",
+        "sweet",
+        "classic",
+        "crowd-pleaser"
+      ]
+    }
+  },
+  {
     "id": "heirloom-tomato-margherita",
     "name": "Heirloom Tomato Margherita",
     "description": "Fresh mozzarella cheese, garlic oil, micro basil.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "serverNotes": "Classic Italian Margherita with fresh heirloom tomatoes, mozzarella, garlic oil, basil. Simple, fresh flavors. Pairs beautifully with Italian reds (Chianti, Sangiovese, Barbera), Italian whites (Pinot Grigio, Vermentino), or Prosecco. Perfect with Peroni or light lagers.",
     "vegetarian": true,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -50,13 +139,13 @@
     "id": "meatball-sausage-pizza",
     "name": "Meatball & Sausage",
     "description": "Peppadew peppers, marinated tomatoes, fresh ricotta, Parmesan cheese and parsley oil.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "serverNotes": "Hearty meat pizza with meatballs, sausage, peppadew peppers, ricotta, Parmesan. Bold, satisfying flavors. Pairs excellently with Italian reds (Chianti, Primitivo, Nero d'Avola), or medium-bodied reds like Merlot. Great with Italian beers or IPAs.",
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -100,13 +189,13 @@
     "id": "chicken-caesar-salad-pizza",
     "name": "Chicken Caesar Salad",
     "description": "Tomato, mozzarella, provolone.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "serverNotes": "Unique pizza topped with Caesar salad, chicken, tomato, mozzarella, provolone. Light, fresh, satisfying. Pairs well with Italian whites (Pinot Grigio, Soave), light reds, or Prosecco. Crisp lagers and wheat beers complement nicely.",
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -150,13 +239,13 @@
     "id": "fig-prosciutto-pizza",
     "name": "Fig & Prosciutto",
     "description": "Eggplant, asiago, arugula, aged balsamic.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "serverNotes": "Sophisticated pizza with sweet figs, prosciutto, eggplant, asiago, arugula, balsamic. Sweet-savory balance. Pairs wonderfully with Italian reds (Chianti Classico, Barbera d'Asti), rosé, or sparkling wines. Elegant choice for wine lovers.",
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -197,58 +286,10 @@
     }
   },
   {
-    "id": "pepperoni-pizza",
-    "name": "Pepperoni",
-    "description": "Diavolo sauce, mozzarella, asiago, hot honey.",
-    "price": 17.99,
-    "category": "Grilled Pizzas",
-    "serverNotes": "Classic pepperoni with spicy diavolo sauce, mozzarella, asiago, hot honey drizzle. Sweet-spicy kick. Pairs great with Italian reds (Chianti, Montepulciano, Primitivo), off-dry Riesling for spice, or IPAs. Crowd-pleasing favorite.",
-    "vegetarian": false,
-    "glutenFree": false,
-    "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
-    "glutenFreeCrust": "cauliflower-parmesan",
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "pizza-dough",
-      "pepperoni",
-      "diavolo-sauce",
-      "mozzarella",
-      "asiago",
-      "hot-honey"
-    ],
-    "allergens": [
-      "dairy",
-      "gluten"
-    ],
-    "flavorProfile": {
-      "sweetness": 4,
-      "acidity": 5,
-      "body": "medium",
-      "spiciness": 5,
-      "saltiness": 6,
-      "richness": 6,
-      "umami": 6,
-      "bitterness": 0,
-      "fattiness": 7,
-      "creaminess": 5,
-      "charLevel": 5,
-      "intensity": 7,
-      "complexity": 6,
-      "flavorNotes": [
-        "spicy",
-        "sweet",
-        "classic",
-        "crowd-pleaser"
-      ]
-    }
-  },
-  {
     "id": "insalata-mista",
     "name": "Insalata Mista",
     "description": "Mixed greens, cucumber, tomato, house vinaigrette.",
-    "price": 8.99,
+    "price": 7.99,
     "category": "Salads",
     "serverNotes": "Light mixed green salad with cucumber, tomato, house vinaigrette. Fresh, simple, refreshing. Perfect starter or side. Pairs well with Italian whites (Pinot Grigio, Vermentino), Sauvignon Blanc, or light rosé. Great palate cleanser.",
     "vegetarian": true,
@@ -285,7 +326,7 @@
   },
   {
     "id": "grilled-caesar",
-    "name": "Grilled Caesar",
+    "name": "Grilled Caesar Salad",
     "description": "With seasoned Tuscan bread croutons. Can be made GF without croutons.",
     "price": 12.99,
     "category": "Salads",
@@ -332,7 +373,7 @@
     "id": "burrata-caprese-salad",
     "name": "Burrata Caprese Salad",
     "description": "Fresh burrata mozzarella, heirloom tomato, basil, herb oil, and balsamic reduction.",
-    "price": 15.99,
+    "price": 14.99,
     "category": "Salads",
     "serverNotes": "Premium Caprese with creamy burrata, heirloom tomatoes, basil, balsamic. Fresh, elegant Italian classic. Pairs beautifully with Italian whites (Vermentino, Soave, Pinot Grigio), Prosecco, or light Italian reds. Perfect with rosé.",
     "vegetarian": true,
@@ -368,6 +409,144 @@
         "creamy",
         "herbaceous",
         "elegant"
+      ]
+    }
+  },
+  {
+    "id": "beet-salad",
+    "name": "Beet Salad",
+    "description": "Mixed greens, blood orange, pistachio, labneh.",
+    "price": 14.99,
+    "category": "Salads",
+    "serverNotes": "Mixed greens with beets, blood orange, pistachios and labneh (strained yogurt). Earthy, bright, a little tangy. Contains pistachios (tree nuts). On the GF menu as is. One of the $7 salad upgrades with dinner. Pairs with Sauvignon Blanc, Rosato, Pinot Noir or Prosecco. NEW ITEM: allergens are based on the menu description; confirm with the kitchen for any allergy.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": false,
+    "kids": false,
+    "ingredients": [
+      "beets",
+      "mixed-greens",
+      "blood-orange",
+      "pistachio",
+      "labneh"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 3,
+      "richness": 4,
+      "umami": 3,
+      "bitterness": 1,
+      "fattiness": 3,
+      "creaminess": 4,
+      "herbaceousness": 4,
+      "charLevel": 0,
+      "intensity": 5,
+      "complexity": 6,
+      "flavorNotes": [
+        "earthy",
+        "citrus",
+        "nutty",
+        "tangy"
+      ]
+    }
+  },
+  {
+    "id": "chicken-sausage-lasagne",
+    "name": "Chicken & Sausage Lasagne",
+    "description": "Roasted chicken thighs, Italian sausage, creamy Romano mornay sauce.",
+    "price": 29.99,
+    "category": "VIA Italian Classics",
+    "serverNotes": "Layered lasagne with roasted chicken thighs and Italian sausage in a creamy Romano mornay (cheese) sauce. Rich comfort dish. Pairs with Chianti, Barbera, Montepulciano, or a fuller Chardonnay. NEW ITEM: allergens are based on the menu description; confirm with the kitchen for any allergy.",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "lasagna-noodles",
+      "chicken",
+      "italian-sausage",
+      "romano",
+      "cream"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "eggs"
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 1,
+      "saltiness": 6,
+      "richness": 9,
+      "umami": 8,
+      "bitterness": 0,
+      "fattiness": 8,
+      "creaminess": 8,
+      "herbaceousness": 2,
+      "charLevel": 2,
+      "intensity": 8,
+      "complexity": 7,
+      "flavorNotes": [
+        "creamy",
+        "cheesy",
+        "savory",
+        "rich"
+      ]
+    }
+  },
+  {
+    "id": "veal-marsala",
+    "name": "Veal Marsala",
+    "description": "Pan seared scaloppine of veal, prosciutto, mushrooms, and peas with spaghetti and feta cheese.",
+    "price": 34.99,
+    "category": "VIA Italian Classics",
+    "serverNotes": "Classic veal scaloppine with Marsala wine sauce, prosciutto, mushrooms, peas, spaghetti, feta. Elegant, refined. Can be made gluten-free with GF penne substitution. Pairs beautifully with Italian reds (Barolo, Barbaresco, Chianti Classico), or full-bodied whites like Chardonnay. Premium Italian classic.",
+    "vegetarian": false,
+    "glutenFree": false,
+    "canBeMadeGlutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "veal",
+      "prosciutto",
+      "mushrooms",
+      "peas",
+      "spaghetti",
+      "feta"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 4,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 8,
+      "bitterness": 0,
+      "fattiness": 6,
+      "creaminess": 5,
+      "earthiness": 7,
+      "smokiness": 1,
+      "intensity": 7,
+      "complexity": 8,
+      "flavorNotes": [
+        "earthy",
+        "savory",
+        "elegant",
+        "refined"
       ]
     }
   },
@@ -559,7 +738,7 @@
     "id": "three-meatballs",
     "name": "Three Meatballs",
     "description": "On spaghetti marinara, with ricotta salata and micro basil.",
-    "price": 29.99,
+    "price": 31.99,
     "category": "VIA Italian Classics",
     "serverNotes": "Classic Italian comfort food. House-made meatballs, spaghetti, marinara, ricotta salata, basil. Simple, traditional, satisfying. Can be made gluten-free with GF meatballs and GF penne substitution. Pairs wonderfully with Italian reds (Chianti, Sangiovese, Montepulciano, Barbera), or Italian whites. Perfect with Peroni. Traditional favorite.",
     "vegetarian": false,
@@ -598,53 +777,6 @@
         "meaty",
         "comfort",
         "traditional"
-      ]
-    }
-  },
-  {
-    "id": "veal-marsala",
-    "name": "Veal Marsala",
-    "description": "Pan seared scaloppine of veal, prosciutto, mushrooms, and peas with spaghetti and feta cheese.",
-    "price": 34.99,
-    "category": "VIA Italian Classics",
-    "serverNotes": "Classic veal scaloppine with Marsala wine sauce, prosciutto, mushrooms, peas, spaghetti, feta. Elegant, refined. Can be made gluten-free with GF penne substitution. Pairs beautifully with Italian reds (Barolo, Barbaresco, Chianti Classico), or full-bodied whites like Chardonnay. Premium Italian classic.",
-    "vegetarian": false,
-    "glutenFree": false,
-    "canBeMadeGlutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "veal",
-      "prosciutto",
-      "mushrooms",
-      "peas",
-      "spaghetti",
-      "feta"
-    ],
-    "allergens": [
-      "dairy",
-      "gluten"
-    ],
-    "flavorProfile": {
-      "sweetness": 2,
-      "acidity": 4,
-      "body": "medium",
-      "spiciness": 0,
-      "saltiness": 6,
-      "richness": 7,
-      "umami": 8,
-      "bitterness": 0,
-      "fattiness": 6,
-      "creaminess": 5,
-      "earthiness": 7,
-      "smokiness": 1,
-      "intensity": 7,
-      "complexity": 8,
-      "flavorNotes": [
-        "earthy",
-        "savory",
-        "elegant",
-        "refined"
       ]
     }
   },
@@ -738,19 +870,21 @@
   {
     "id": "berkshire-pork-osso-buco",
     "name": "Berkshire Pork Osso Buco",
-    "description": "Braised for hours until fall-off-the-bone tender, served with garlic-herb and taleggio polenta, with a mushroom demi-glace.",
+    "description": "Creamy saffron mashed potatoes, mushroom demi-glace.",
     "price": 35.99,
     "category": "Beef, Pork & Veal",
-    "serverNotes": "Braised Berkshire pork shank, fall-off-bone tender, creamy taleggio polenta, mushroom demi. Rich, comforting, sophisticated. Pairs beautifully with Italian reds (Barolo, Barbaresco, Brunello), or bold reds like Zinfandel. Slow-cooked perfection.",
+    "serverNotes": "Braised Berkshire pork shank, fall-off-the-bone tender, over creamy saffron mashed potatoes with mushroom demi-glace. Rich, comforting. Pairs beautifully with Italian reds (Barolo, Brunello, Valpolicella Ripasso) or bold reds like Zinfandel.",
     "vegetarian": false,
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": [
-      "pork",
-      "polenta",
-      "mushrooms",
-      "taleggio"
+      "pork-shank",
+      "potatoes",
+      "saffron",
+      "cream",
+      "butter",
+      "mushroom-demi-glace"
     ],
     "allergens": [
       "dairy"
@@ -780,21 +914,28 @@
   {
     "id": "berkshire-pork-chop",
     "name": "Berkshire Pork Chop",
-    "description": "One pound, grilled chop, guanciale and sweet potato hash, apple butter, pomegranate seeds.",
-    "price": 37.99,
+    "description": "One pound, grilled chop, fig and grape agrodolce, cacio e pepe orzo, roasted Thumbelina carrots.",
+    "price": 39.99,
     "category": "Beef, Pork & Veal",
-    "serverNotes": "Premium 1 lb Berkshire pork chop with guanciale-sweet potato hash, apple butter, pomegranate. Sweet-savory balance, impressive presentation. Pairs wonderfully with Pinot Noir, Italian reds (Barbera, Dolcetto), off-dry Riesling, or rosé. Show-stopping entrée.",
+    "serverNotes": "One-pound grilled Berkshire chop with a sweet-sour fig and grape agrodolce, cacio e pepe orzo (pecorino and black pepper) and roasted Thumbelina carrots. GF menu: swap the orzo for roasted garlic Parmesan mashed potatoes. Pairs wonderfully with Pinot Noir, Barbera or Dolcetto, Zinfandel, or off-dry Riesling.",
     "vegetarian": false,
-    "glutenFree": true,
+    "glutenFree": false,
     "nutFree": true,
     "kids": false,
     "ingredients": [
       "pork",
-      "guanciale",
-      "sweet-potato",
-      "apple-butter"
+      "fig",
+      "grape",
+      "agrodolce",
+      "orzo",
+      "pecorino",
+      "black-pepper",
+      "carrots"
     ],
-    "allergens": [],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
     "flavorProfile": {
       "sweetness": 5,
       "acidity": 3,
@@ -815,13 +956,14 @@
         "rich",
         "impressive"
       ]
-    }
+    },
+    "canBeMadeGlutenFree": true
   },
   {
     "id": "grilled-veal-chop",
     "name": "Grilled Veal Chop",
     "description": "One pound, grain-fed bone-in veal chop served over wild mushroom risotto, topped with a Gorgonzola dolce compound butter.",
-    "price": 41.99,
+    "price": 43.99,
     "category": "Beef, Pork & Veal",
     "serverNotes": "Premium 1 lb veal chop with wild mushroom risotto, gorgonzola dolce butter. Tender, elegant, indulgent. Pairs beautifully with Italian reds (Barolo, Barbaresco, Amarone), or full-bodied Chardonnay. Premium veal experience for special occasions.",
     "vegetarian": false,
@@ -864,7 +1006,7 @@
     "id": "veal-chop-parmesan",
     "name": "Veal Chop Parmesan",
     "description": "One pound, grain-fed bone-in veal chop pounded thin and lightly breaded, topped with marinara, mozzarella, provolone and Parmesan. Served with sautéed broccoli rabe.",
-    "price": 41.99,
+    "price": 43.99,
     "category": "Beef, Pork & Veal",
     "serverNotes": "Premium veal chop parmesan - 1 lb GF breaded cutlet with marinara, melted cheeses, broccoli rabe. Classic elevated. Impressive presentation. Pairs perfectly with Italian reds (Chianti Classico, Brunello, Super Tuscans), or bold reds. Show-stopping Italian favorite.",
     "vegetarian": false,
@@ -947,55 +1089,56 @@
     }
   },
   {
-    "id": "mushroom-fiori",
-    "name": "Mushroom Fiori",
-    "description": "Fiori pasta tossed in a herbed wild mushroom cream sauce, smoked honey, porcini mushroom powder and Parmesan cheese. Can substitute GF pasta.",
+    "id": "french-onion-pasta",
+    "name": "French Onion Pasta",
+    "description": "Creamy caramelized onion and Gruyère sauce, mezzi rigatoni, crispy shallots.",
     "price": 29.99,
     "category": "House Pastas",
-    "serverNotes": "Elegant vegetarian pasta with wild mushrooms, cream, smoked honey, porcini powder, Parmesan. Earthy, rich, sophisticated. Pairs beautifully with Italian reds (Barolo, Barbaresco, Chianti), full-bodied whites like Chardonnay, or Pinot Noir. Mushroom lover's dream.",
-    "vegetarian": true,
+    "serverNotes": "French onion soup as a pasta: mezzi rigatoni in a creamy caramelized onion and Gruyère sauce, topped with crispy shallots. Sweet-savory and rich. GF menu: gluten-free pasta. Ask the kitchen whether the sauce uses meat stock before calling it vegetarian. Pairs with Chardonnay, Pinot Noir or Dolcetto. NEW ITEM: allergens are based on the menu description; confirm with the kitchen for any allergy.",
+    "vegetarian": false,
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
     "ingredients": [
-      "fiori-pasta",
-      "mushrooms",
+      "mezzi-rigatoni",
+      "onions",
+      "gruyere",
       "cream",
-      "honey",
-      "parmesan"
+      "shallots"
     ],
     "allergens": [
-      "dairy",
-      "gluten"
+      "gluten",
+      "dairy"
     ],
     "flavorProfile": {
-      "sweetness": 3,
-      "acidity": 3,
+      "sweetness": 5,
+      "acidity": 2,
       "body": "full",
       "spiciness": 0,
-      "saltiness": 5,
-      "richness": 8,
-      "umami": 9,
+      "saltiness": 6,
+      "richness": 9,
+      "umami": 8,
       "bitterness": 0,
-      "fattiness": 5,
-      "creaminess": 8,
-      "earthiness": 9,
-      "smokiness": 2,
+      "fattiness": 7,
+      "creaminess": 9,
+      "herbaceousness": 2,
+      "charLevel": 3,
       "intensity": 8,
-      "complexity": 8,
+      "complexity": 7,
       "flavorNotes": [
-        "earthy",
-        "mushroom",
+        "caramelized-onion",
+        "cheesy",
         "creamy",
-        "rich"
+        "savory"
       ]
-    }
+    },
+    "canBeMadeGlutenFree": true
   },
   {
     "id": "mezzi-rigatoni-roasted-chicken",
     "name": "Mezzi Rigatoni with Roasted Chicken",
     "description": "Pulled roasted chicken, wild mushrooms, peas, shallots, tomato, and crispy prosciutto in a pesto cream sauce. Can substitute GF pasta.",
-    "price": 34.99,
+    "price": 35.99,
     "category": "House Pastas",
     "serverNotes": "Hearty pasta with roasted chicken, wild mushrooms, peas, prosciutto, pesto cream. Rich, satisfying, complex flavors. Contains nuts (pesto). Pairs excellently with Italian whites (Vermentino, Gavi), Italian reds (Chianti, Barbera), or Chardonnay. Crowd-pleasing favorite.",
     "vegetarian": false,
@@ -1088,7 +1231,7 @@
     "id": "seafood-fra-diavolo",
     "name": "Seafood Fra Diavolo",
     "description": "Sautéed shrimp, scallops, and lobster tossed with orecchiette pasta in a spicy red sauce. Can substitute GF pasta.",
-    "price": 35.99,
+    "price": 36.99,
     "category": "House Pastas",
     "serverNotes": "Spicy seafood pasta with shrimp, scallops, lobster in spicy red sauce, orecchiette. Bold, luxurious, heat. Pairs excellently with Italian whites (Pinot Grigio, Vermentino), Italian rosé, or off-dry Riesling for spice. Also great with Prosecco or light reds.",
     "vegetarian": false,
@@ -1131,7 +1274,7 @@
     "id": "pappardelle-bolognese",
     "name": "Pappardelle Bolognese",
     "description": "A rich meat sauce of beef, pork, sausage, and a touch of tomato and cream. Can substitute GF pasta.",
-    "price": 29.99,
+    "price": 32.99,
     "category": "House Pastas",
     "serverNotes": "Traditional Italian meat sauce with beef, pork, sausage, tomato, cream over wide pappardelle. Rich, hearty, comforting. Pairs perfectly with Italian reds (Chianti, Sangiovese, Barbera, Montepulciano), or medium-bodied reds. Classic Italian comfort food.",
     "vegetarian": false,
@@ -1173,7 +1316,7 @@
   {
     "id": "pasta-and-sauce",
     "name": "Pasta & Sauce",
-    "description": "Choice of Pasta: Mezzi Rigatoni, Pappardelle, Fiori, Spaghetti, Cheese Ravioli, Orecchiette, Gluten-Free Penne. Choice of Sauce: Alfredo, Marinara, Pesto, Vodka.",
+    "description": "Choice of Pasta: Mezzi Rigatoni, Pappardelle, Spaghetti, Cheese Ravioli, Orecchiette, Gluten-Free Penne. Choice of Sauce: Alfredo, Marinara, Pesto, Vodka.",
     "price": 24.99,
     "category": "House Pastas",
     "serverNotes": "Build your own pasta! Choose pasta shape and sauce (Alfredo, Marinara, Pesto, Vodka). Customizable, versatile. Gluten-free available. Pairs with Italian whites or reds depending on sauce choice. Great for simple, classic pasta cravings or picky eaters.",
@@ -1182,14 +1325,21 @@
     "glutenFreeAvailable": true,
     "nutFree": false,
     "kids": false,
-    "ingredients": ["pasta"],
-    "allergens": ["dairy", "gluten"],
+    "ingredients": [
+      "pasta"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
     "hasSauceSelection": true,
     "sauceOptions": [
       {
         "name": "Alfredo",
         "description": "Rich, creamy Parmesan sauce",
-        "allergens": ["dairy"],
+        "allergens": [
+          "dairy"
+        ],
         "nutFree": true,
         "flavorProfile": {
           "sweetness": 2,
@@ -1203,7 +1353,12 @@
           "creaminess": 10,
           "intensity": 7,
           "complexity": 5,
-          "flavorNotes": ["creamy", "buttery", "cheesy", "rich"]
+          "flavorNotes": [
+            "creamy",
+            "buttery",
+            "cheesy",
+            "rich"
+          ]
         }
       },
       {
@@ -1223,13 +1378,21 @@
           "herbaceousness": 7,
           "intensity": 5,
           "complexity": 5,
-          "flavorNotes": ["tomato", "herbaceous", "bright", "classic"]
+          "flavorNotes": [
+            "tomato",
+            "herbaceous",
+            "bright",
+            "classic"
+          ]
         }
       },
       {
         "name": "Pesto",
         "description": "Fresh basil, pine nuts, Parmesan, garlic",
-        "allergens": ["dairy", "nuts"],
+        "allergens": [
+          "dairy",
+          "nuts"
+        ],
         "nutFree": false,
         "flavorProfile": {
           "sweetness": 2,
@@ -1243,13 +1406,20 @@
           "herbaceousness": 10,
           "intensity": 8,
           "complexity": 7,
-          "flavorNotes": ["herbaceous", "nutty", "garlicky", "fresh"]
+          "flavorNotes": [
+            "herbaceous",
+            "nutty",
+            "garlicky",
+            "fresh"
+          ]
         }
       },
       {
         "name": "Vodka",
         "description": "Creamy tomato sauce with a kick",
-        "allergens": ["dairy"],
+        "allergens": [
+          "dairy"
+        ],
         "nutFree": true,
         "flavorProfile": {
           "sweetness": 3,
@@ -1263,100 +1433,102 @@
           "creaminess": 7,
           "intensity": 6,
           "complexity": 6,
-          "flavorNotes": ["creamy", "tomato", "balanced", "smooth"]
+          "flavorNotes": [
+            "creamy",
+            "tomato",
+            "balanced",
+            "smooth"
+          ]
         }
       }
     ]
   },
   {
     "id": "seared-scallops-entree",
-    "name": "Seared Scallops",
-    "description": "Fresh all natural seared sea scallops with a hot honey glaze, served with a corn, caramelized onion, bacon, and mascarpone risotto.",
+    "name": "Seared Sea Scallops",
+    "description": "Sweet potato and ginger purée, mulled wine gastrique.",
     "price": 39.99,
     "category": "Seafood",
-    "serverNotes": "Premium seared scallops with hot honey glaze, sweet corn-bacon risotto. Sweet-savory, elegant. Pairs beautifully with Chardonnay, Italian whites (Vermentino, Gavi), Champagne, or off-dry Riesling. Also great with rosé. Show-stopping seafood dish.",
+    "serverNotes": "Seared sea scallops over a sweet potato and ginger purée with a mulled wine gastrique (sweet-tart reduction with warm spices). On the GF menu as is. Ask the kitchen whether the purée is finished with butter for dairy allergies. Pairs beautifully with Chardonnay, Champagne, off-dry Riesling or Pinot Noir.",
     "vegetarian": false,
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": [
       "scallops",
-      "hot-honey",
-      "corn",
-      "onion",
-      "bacon",
-      "risotto",
-      "mascarpone"
+      "sweet-potato",
+      "ginger",
+      "red-wine",
+      "spices"
     ],
     "allergens": [
-      "shellfish",
-      "dairy"
+      "shellfish"
     ],
     "flavorProfile": {
-      "sweetness": 6,
-      "acidity": 3,
-      "body": "full",
+      "sweetness": 5,
+      "acidity": 5,
+      "body": "medium",
       "spiciness": 1,
-      "saltiness": 6,
-      "richness": 8,
-      "umami": 8,
+      "saltiness": 4,
+      "richness": 6,
+      "umami": 6,
       "bitterness": 0,
-      "fattiness": 6,
-      "creaminess": 8,
-      "charLevel": 5,
-      "smokiness": 3,
-      "intensity": 8,
-      "complexity": 8,
+      "fattiness": 4,
+      "creaminess": 5,
+      "herbaceousness": 2,
+      "charLevel": 3,
+      "intensity": 6,
+      "complexity": 7,
       "flavorNotes": [
-        "sweet-savory",
-        "seafood",
-        "elegant",
-        "rich"
+        "sweet",
+        "warm-spice",
+        "seared",
+        "elegant"
       ]
     }
   },
   {
     "id": "north-atlantic-salmon",
-    "name": "North Atlantic Salmon",
-    "description": "Fresh, grilled salmon, honeynut squash farro, cider-mascarpone cream, candied pumpkin seed.",
-    "price": 34.99,
+    "name": "Grilled Salmon",
+    "description": "Sautéed carrots, artichoke hearts, asparagus, and leeks, carrot-top salsa verde.",
+    "price": 35.99,
     "category": "Seafood",
-    "serverNotes": "Fresh grilled salmon with honeynut squash farro, cider-mascarpone cream, candied pumpkin seeds. Seasonal, balanced flavors. Pairs excellently with Chardonnay, Pinot Noir, Italian whites (Pinot Grigio, Vermentino), or rosé. Healthy, flavorful choice.",
+    "serverNotes": "Grilled salmon with sautéed carrots, artichoke hearts, asparagus and leeks, finished with a carrot-top salsa verde. Bright, herbal and light. Pairs excellently with Pinot Noir, Sauvignon Blanc, Vermentino, or rosé.",
     "vegetarian": false,
-    "glutenFree": false,
-    "nutFree": false,
+    "glutenFree": true,
+    "nutFree": true,
     "kids": false,
     "ingredients": [
       "salmon",
-      "squash",
-      "farro",
-      "mascarpone",
-      "pumpkin-seeds"
+      "carrots",
+      "artichoke-hearts",
+      "asparagus",
+      "leeks",
+      "salsa-verde"
     ],
     "allergens": [
-      "fish",
-      "dairy",
-      "nuts"
+      "fish"
     ],
     "flavorProfile": {
-      "sweetness": 4,
-      "acidity": 4,
+      "sweetness": 2,
+      "acidity": 6,
       "body": "medium",
       "spiciness": 0,
       "saltiness": 4,
-      "richness": 7,
-      "umami": 6,
-      "bitterness": 0,
-      "fattiness": 7,
-      "creaminess": 6,
+      "richness": 5,
+      "umami": 5,
+      "bitterness": 1,
+      "fattiness": 5,
+      "creaminess": 1,
+      "herbaceousness": 7,
       "charLevel": 4,
-      "intensity": 7,
-      "complexity": 7,
+      "intensity": 5,
+      "complexity": 6,
       "flavorNotes": [
-        "balanced",
-        "seasonal",
-        "nutty",
-        "fresh"
+        "herbaceous",
+        "fresh",
+        "grilled",
+        "bright"
       ]
     }
   },
@@ -1411,7 +1583,7 @@
     "id": "tuscan-herb-crumb-crusted-haddock",
     "name": "Tuscan Herb & Crumb Crusted Haddock",
     "description": "Baked, served with roasted potatoes and asparagus.",
-    "price": 34.99,
+    "price": 35.99,
     "category": "Seafood",
     "serverNotes": "Baked haddock with Tuscan herb crust, roasted potatoes, asparagus. Light, flaky, herby. Simple preparation highlights fresh fish. Pairs wonderfully with Italian whites (Pinot Grigio, Vermentino, Soave), Sauvignon Blanc, or Chardonnay. Classic, approachable seafood.",
     "vegetarian": false,
@@ -1453,7 +1625,7 @@
     "id": "lobster-stuffed-shells",
     "name": "Lobster Stuffed Shells",
     "description": "A mixture of lobster meat, lump crab, and shrimp with ricotta and mozzarella stuffed inside pasta shells then baked in a creamy lobster marinara sauce.",
-    "price": 34.99,
+    "price": 35.99,
     "category": "Seafood",
     "serverNotes": "Indulgent stuffed shells with lobster, crab, shrimp, cheeses in creamy lobster marinara. Rich, decadent seafood pasta. Pairs perfectly with Italian whites (Pinot Grigio, Vermentino), Chardonnay, or Prosecco. Comfort food meets luxury seafood.",
     "vegetarian": false,
@@ -1492,6 +1664,145 @@
         "seafood",
         "creamy",
         "indulgent"
+      ]
+    }
+  },
+  {
+    "id": "mushroom-fiori",
+    "name": "Mushroom Fiori",
+    "description": "Herbed wild mushroom cream sauce, smoked honey, porcini mushroom powder, Parmesan cheese.",
+    "price": 25,
+    "category": "$25 Entrées",
+    "serverNotes": "Fiori pasta in a herbed wild mushroom cream sauce with smoked honey, porcini powder and Parmesan. Vegetarian. GF menu: gluten-free pasta. $25 entrées do not come with a first course; no substitutions or splitting; not available for takeout. Pairs beautifully with Barolo, Chianti, Pinot Noir or Chardonnay.",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "fiori-pasta",
+      "mushrooms",
+      "cream",
+      "honey",
+      "parmesan"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 3,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 8,
+      "umami": 9,
+      "bitterness": 0,
+      "fattiness": 5,
+      "creaminess": 8,
+      "earthiness": 9,
+      "smokiness": 2,
+      "intensity": 8,
+      "complexity": 8,
+      "flavorNotes": [
+        "earthy",
+        "mushroom",
+        "creamy",
+        "rich"
+      ]
+    },
+    "canBeMadeGlutenFree": true
+  },
+  {
+    "id": "pork-milanese",
+    "name": "Pork Milanese",
+    "description": "Thinly pounded pork loin, breaded, and fried with arugula, Parmesan, red onion, lemon vinaigrette.",
+    "price": 25,
+    "category": "$25 Entrées",
+    "serverNotes": "Thin, crispy breaded pork loin topped with an arugula, Parmesan and red onion salad in lemon vinaigrette. $25 entrées do not come with a first course; no substitutions or splitting; not available for takeout. Pairs with Barbera, Pinot Grigio, Prosecco or a crisp lager. NEW ITEM: allergens are based on the menu description; confirm with the kitchen for any allergy.",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "pork-loin",
+      "breadcrumbs",
+      "eggs",
+      "arugula",
+      "parmesan",
+      "red-onion",
+      "lemon"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "eggs"
+    ],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 6,
+      "umami": 5,
+      "bitterness": 2,
+      "fattiness": 6,
+      "creaminess": 1,
+      "herbaceousness": 4,
+      "charLevel": 3,
+      "intensity": 6,
+      "complexity": 5,
+      "flavorNotes": [
+        "crispy",
+        "peppery",
+        "lemony",
+        "fresh"
+      ]
+    }
+  },
+  {
+    "id": "gnocchi-sausage-arrabbiata",
+    "name": "Gnocchi & Sausage Arrabbiata",
+    "description": "Housemade spicy marinara.",
+    "price": 25,
+    "category": "$25 Entrées",
+    "serverNotes": "Gnocchi and Italian sausage in VIA's housemade spicy marinara (arrabbiata means 'angry', for the chili heat). $25 entrées do not come with a first course; no substitutions or splitting; not available for takeout. Pairs with Chianti, Montepulciano d'Abruzzo, Zinfandel or an IPA. NEW ITEM: allergens are based on the menu description; confirm with the kitchen for any allergy.",
+    "vegetarian": false,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "gnocchi",
+      "italian-sausage",
+      "marinara-sauce",
+      "chili"
+    ],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "eggs"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 6,
+      "body": "medium-full",
+      "spiciness": 6,
+      "saltiness": 6,
+      "richness": 6,
+      "umami": 7,
+      "bitterness": 0,
+      "fattiness": 6,
+      "creaminess": 2,
+      "herbaceousness": 3,
+      "charLevel": 0,
+      "intensity": 7,
+      "complexity": 5,
+      "flavorNotes": [
+        "spicy",
+        "tomato",
+        "savory",
+        "hearty"
       ]
     }
   }

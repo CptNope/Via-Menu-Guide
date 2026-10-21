@@ -1,10 +1,116 @@
 [
   {
+    "id": "intermezzo-sunset-spritz",
+    "name": "Intermezzo \"Sunset Spritz\" by Bully Boy",
+    "description": "Inspired by the classic Spritz, citrus and spice notes including yuzu, grapefruit, cinnamon & clove",
+    "garnish": "",
+    "price": 11,
+    "category": "Mocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "non-alcoholic-aperitif",
+      "yuzu",
+      "grapefruit",
+      "cinnamon",
+      "clove"
+    ],
+    "allergens": [],
+    "serverNotes": "🌅 ABOUT: Non-alcoholic spritz from Bully Boy (Boston, MA), inspired by the classic Spritz.\n\n🍹 PROFILE: Bittersweet & bright | Yuzu and grapefruit with warm cinnamon and clove | Bubbly\n\n🍽️ PAIRS WITH: Appetizers, antipasto, salads, pizza.\n\n💡 SERVING TIP: Zero-proof pick for spritz lovers; local producer.",
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 7,
+      "body": "light",
+      "spiciness": 1,
+      "saltiness": 0,
+      "richness": 2,
+      "umami": 0,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 8,
+      "fruitiness": 8,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 5,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "yuzu",
+        "grapefruit",
+        "cinnamon",
+        "clove",
+        "bittersweet"
+      ]
+    },
+    "foodPairings": [
+      "italian-meat-cheese-board",
+      "fried-calamari",
+      "burrata-caprese-salad",
+      "pizza"
+    ],
+    "dessertPairings": []
+  },
+  {
+    "id": "intermezzo-alpine-highball",
+    "name": "Intermezzo \"Alpine Highball\" by Bully Boy",
+    "description": "Inspired by the Alpine Amaro of Northern Italy, bitter, sweet & herbal notes",
+    "garnish": "",
+    "price": 11,
+    "category": "Mocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "non-alcoholic-amaro",
+      "herbs",
+      "soda"
+    ],
+    "allergens": [],
+    "serverNotes": "⛰️ ABOUT: Non-alcoholic highball from Bully Boy (Boston, MA), inspired by the Alpine amari of northern Italy.\n\n🍹 PROFILE: Bitter, sweet & herbal | Alpine herbs, gentle bitterness, refreshing fizz\n\n🍽️ PAIRS WITH: Pork Belly, meatballs, charcuterie, richer dishes.\n\n💡 SERVING TIP: For amaro fans who are not drinking alcohol.",
+    "flavorProfile": {
+      "sweetness": 4,
+      "acidity": 4,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 6,
+      "tannin": 0,
+      "alcohol": 0,
+      "carbonation": 7,
+      "fruitiness": 4,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 6,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "alpine-herbs",
+        "bitter",
+        "sweet",
+        "refreshing"
+      ]
+    },
+    "foodPairings": [
+      "roasted-pork-belly",
+      "crispy-pork-meatballs",
+      "italian-meat-cheese-board"
+    ],
+    "dessertPairings": []
+  },
+  {
     "id": "pear-blossom",
     "name": "Pear Blossom",
-    "description": "Pear Purée, Lemon Juice, Fever-Tree Elderflower Tonic & Vanilla Bean",
+    "description": "Pear purée, lemon juice, Fever-Tree Elderflower Tonic & vanilla bean",
     "garnish": "Lemon twist",
-    "price": 10,
+    "price": 11,
     "category": "Mocktails",
     "vegetarian": true,
     "glutenFree": true,
@@ -45,15 +151,26 @@
         "floral"
       ]
     },
-    "foodPairings": ["cheese-plate", "pork-dishes", "autumn-salad", "roasted-chicken", "light-appetizers"],
-    "dessertPairings": ["apple-tart", "pear-crisp", "vanilla-panna-cotta", "creme-brulee"]
+    "foodPairings": [
+      "cheese-plate",
+      "pork-dishes",
+      "autumn-salad",
+      "roasted-chicken",
+      "light-appetizers"
+    ],
+    "dessertPairings": [
+      "apple-tart",
+      "pear-crisp",
+      "vanilla-panna-cotta",
+      "creme-brulee"
+    ]
   },
   {
     "id": "toothless-mule",
     "name": "Toothless Mule",
-    "description": "Apple Cider, Passionfruit Purée, Rosemary, Fever-Tree Ginger Beer",
+    "description": "Apple cider, passionfruit purée, rosemary, Fever-Tree Ginger Beer",
     "garnish": "Lime twist",
-    "price": 10,
+    "price": 11,
     "category": "Mocktails",
     "vegetarian": true,
     "glutenFree": true,
@@ -95,29 +212,41 @@
         "spicy"
       ]
     },
-    "foodPairings": ["pork-chops", "roasted-chicken", "autumn-dishes", "asian-cuisine", "grilled-vegetables"],
-    "dessertPairings": ["apple-pie", "ginger-cookies", "tropical-fruit", "caramel-desserts"]
+    "foodPairings": [
+      "pork-chops",
+      "roasted-chicken",
+      "autumn-dishes",
+      "asian-cuisine",
+      "grilled-vegetables"
+    ],
+    "dessertPairings": [
+      "apple-pie",
+      "ginger-cookies",
+      "tropical-fruit",
+      "caramel-desserts"
+    ]
   },
   {
     "id": "free-spritz",
     "name": "Free Spritz",
-    "description": "Blood Orange Juice, Cranberry Purée, Lime Juice, Ginger Beer, Passionfruit Purée, Fever-Tree Chilled Aperitif Non-Alcoholic Syrup",
+    "description": "Blood Orange, Cranberry Purée, Lime, Sage, Fever-Tree Sparkling Grapefruit and Giffard Apéritif Non-Alcoholic Syrup",
     "garnish": "Orange twist",
-    "price": 10,
+    "price": 11,
     "category": "Mocktails",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": [
-      "orange",
+      "blood-orange",
       "cranberry",
       "lime",
-      "ginger",
-      "passionfruit"
+      "sage",
+      "grapefruit-soda",
+      "non-alcoholic-aperitif-syrup"
     ],
     "allergens": [],
-    "serverNotes": "🍊 ABOUT: Aperol Spritz vibes without the alcohol! Blood orange, cranberry, lime, ginger beer, passionfruit & Fever-Tree non-alcoholic aperitif syrup. Italian aperitivo style!\n\n🍹 PROFILE: Bright & Bitter-Sweet | Blood orange citrus, tart cranberry, tropical passionfruit & subtle bitterness | Effervescent & complex | Beautiful sunset color!\n\n🍽️ PAIRS WITH: Italian appetizers, antipasto, bruschetta, salads, seafood, light pasta.\n\n🍰 DESSERT PAIRINGS: Orange sorbet, fruit tart, panna cotta, citrus cake.\n\n💡 SERVING TIP: Perfect for guests who love Aperol Spritz but want alcohol-free! Great aperitivo choice. The 'Free' name celebrates freedom from alcohol while keeping all the flavor!",
+    "serverNotes": "🍊 ABOUT: Aperol Spritz vibes without the alcohol! Blood orange, cranberry purée, lime and sage, topped with Fever-Tree Sparkling Grapefruit and Giffard's non-alcoholic apéritif syrup.\n\n🍹 PROFILE: Bright & bitter-sweet | Blood orange, tart cranberry, grapefruit and a herbal hint of sage | Effervescent | Sunset color\n\n🍽️ PAIRS WITH: Italian appetizers, antipasto, salads, seafood, light pasta.\n\n🍰 DESSERT PAIRINGS: Sorbetto, fruit tart, panna cotta, citrus cake.\n\n💡 SERVING TIP: For guests who love an Aperol Spritz but want it alcohol-free.",
     "flavorProfile": {
       "sweetness": 4,
       "acidity": 7,
@@ -145,15 +274,27 @@
         "refreshing"
       ]
     },
-    "foodPairings": ["italian-appetizers", "antipasto", "bruschetta", "salads", "seafood", "light-pasta"],
-    "dessertPairings": ["orange-sorbet", "fruit-tart", "panna-cotta", "citrus-cake"]
+    "foodPairings": [
+      "italian-appetizers",
+      "antipasto",
+      "bruschetta",
+      "salads",
+      "seafood",
+      "light-pasta"
+    ],
+    "dessertPairings": [
+      "orange-sorbet",
+      "fruit-tart",
+      "panna-cotta",
+      "citrus-cake"
+    ]
   },
   {
     "id": "blueberry-bombshell-mocktail",
     "name": "Blueberry Bombshell (Mocktail)",
     "description": "Blueberry Purée, Lemon Sorbet, Pineapple Juice, Sparkling Water",
     "garnish": "Fresh blueberries",
-    "price": 10,
+    "price": 11,
     "category": "Mocktails",
     "vegetarian": true,
     "glutenFree": true,
@@ -195,15 +336,27 @@
         "refreshing"
       ]
     },
-    "foodPairings": ["brunch-dishes", "fruit-salad", "light-salads", "eggs-benedict", "pancakes"],
-    "dessertPairings": ["berry-tart", "lemon-cake", "fruit-sorbet", "panna-cotta", "cheesecake"]
+    "foodPairings": [
+      "brunch-dishes",
+      "fruit-salad",
+      "light-salads",
+      "eggs-benedict",
+      "pancakes"
+    ],
+    "dessertPairings": [
+      "berry-tart",
+      "lemon-cake",
+      "fruit-sorbet",
+      "panna-cotta",
+      "cheesecake"
+    ]
   },
   {
     "id": "raspberry-mojito-mocktail",
     "name": "Raspberry Mojito (Mocktail)",
     "description": "Fresh Raspberries, Mint, Lime, Simple Syrup, Soda Water",
     "garnish": "Fresh mint & raspberries",
-    "price": 10,
+    "price": 11,
     "category": "Mocktails",
     "vegetarian": true,
     "glutenFree": true,
@@ -245,7 +398,19 @@
         "fruity"
       ]
     },
-    "foodPairings": ["salads", "seafood", "light-dishes", "cuban-cuisine", "grilled-chicken"],
-    "dessertPairings": ["berry-tart", "lime-sorbet", "fruit-salad", "key-lime-pie", "raspberry-cheesecake"]
+    "foodPairings": [
+      "salads",
+      "seafood",
+      "light-dishes",
+      "cuban-cuisine",
+      "grilled-chicken"
+    ],
+    "dessertPairings": [
+      "berry-tart",
+      "lime-sorbet",
+      "fruit-salad",
+      "key-lime-pie",
+      "raspberry-cheesecake"
+    ]
   }
 ]

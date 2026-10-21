@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2026-10-21
+
+### Changed
+- **Menus synced to viaitaliantable.com (October 2026)**: dinner, lunch, kids and the drink menu dated 10.12.26.
+  - Prices updated across appetizers, pizzas ($18.99, GF crust +$4), salads, classics, steaks and chops, pastas, seafood, sandwiches and kids.
+  - Dishes reworked to match the current menu: Berkshire Pork Chop, Pork Osso Buco, Seared Sea Scallops, Grilled Salmon, Roasted Pork Belly, Meat & Cheese Board, Steak Salad.
+  - New: Grilled Octopus, Beet Salad (lunch and dinner), Chicken & Sausage Lasagne, French Onion Pasta, Chicken & Kale Salad, VIA Chopped Antipasto on the dinner appetizers, and a **$25 Entrées** section (Mushroom Fiori, Pork Milanese, Gnocchi & Sausage Arrabbiata).
+  - Removed (no longer on the menu): Clams Casino, P.L.T. & Mozzarella, Tuna Tartare, Pan Seared Octopus & Sausage, Chicken Panzanella, Kids Spaghetti & Meatball, Fiori as a pasta choice.
+- **Wine list**: new vintages, prices and ratings for wines by the glass, bottles and half bottles; 13 new wines with tasting notes and pairing profiles; wines that left the list removed.
+- **Cocktails and beer**: autumn cocktail list (Falling for Spritz Flight, Caprese Martini, Pumpkin Margarita, Wimbledon and three Old Fashioneds), mocktails now $11 with two Bully Boy Intermezzo additions, Guinness and The Substance Ale on draught, Sun Cruiser in cans.
+- New dishes carry a note to confirm allergens with the kitchen; their allergen flags are based on the menu description.
+
+### Not changed
+- Tip Tracker code and its saved data (`via-tip-tracker` in the browser) are untouched by this update.
+
+---
+
 ## [1.3.2] - 2024-12-16
 
 ### Security

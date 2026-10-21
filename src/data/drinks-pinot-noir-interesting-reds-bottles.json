@@ -1,5 +1,50 @@
 [
   {
+    "id": "siduri-pinot-noir-bottle",
+    "name": "Siduri",
+    "description": "Willamette Valley, 2024",
+    "price": 43,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "serverNotes": "📖 ABOUT: (siduri.com) Russian River Pinot Noir from Siduri, specialists in single-vineyard Pinots. Elegant California style with finesse and balance.\n\n🍷 STYLE: Medium-bodied Pinot Noir | Cherry, earth & spice | Silky texture | Russian River elegance.\n\n🍽️ PAIRS WITH: Salmon, duck, mushroom dishes, roasted chicken.\n\n💡 BOTTLE SERVICE: Pinot Noir specialist. Quality Russian River expression!",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 2,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 5,
+      "bitterness": 1,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 3,
+      "minerality": 4,
+      "finish": 7,
+      "earthiness": 6,
+      "intensity": 6,
+      "complexity": 7,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "red-cherry",
+        "raspberry",
+        "earthy",
+        "silky"
+      ]
+    },
+    "website": "https://www.siduri.com/",
+    "region": "Oregon"
+  },
+  {
     "id": "la-crema-pinot-noir-bottle",
     "name": "La Crema Pinot Noir",
     "description": "Sonoma Coast, 2023",
@@ -47,7 +92,7 @@
   {
     "id": "seghesio-zinfandel-bottle",
     "name": "Seghesio Zinfandel",
-    "description": "Sonoma, 2023",
+    "description": "Sonoma, 2024",
     "price": 45,
     "category": "Pinot Noir & Interesting Reds Bottles",
     "serverNotes": "📖 ABOUT: (seghesio.com) Bold Sonoma Zinfandel from historic Seghesio family (est. 1895). California's Zinfandel specialists with 125+ years of expertise!\n\n🍷 STYLE: Full-bodied Zinfandel | Ripe dark fruit, spice & pepper | Bold, jammy | Classic California Zin | Warm, powerful.\n\n🍽️ PAIRS WITH: BBQ, grilled meats, burgers, pizza, spicy dishes.\n\n💡 BOTTLE SERVICE: Old-vine Zinfandel from legendary producer. Bold California classic!",
@@ -90,55 +135,10 @@
     "region": "Sonoma"
   },
   {
-    "id": "siduri-pinot-noir-bottle",
-    "name": "Siduri",
-    "description": "Willamette Valley, 2023",
-    "price": 48,
-    "category": "Pinot Noir & Interesting Reds Bottles",
-    "serverNotes": "📖 ABOUT: (siduri.com) Russian River Pinot Noir from Siduri, specialists in single-vineyard Pinots. Elegant California style with finesse and balance.\n\n🍷 STYLE: Medium-bodied Pinot Noir | Cherry, earth & spice | Silky texture | Russian River elegance.\n\n🍽️ PAIRS WITH: Salmon, duck, mushroom dishes, roasted chicken.\n\n💡 BOTTLE SERVICE: Pinot Noir specialist. Quality Russian River expression!",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "red-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 2,
-      "acidity": 7,
-      "body": "medium",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 5,
-      "umami": 5,
-      "bitterness": 1,
-      "tannin": 4,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 7,
-      "oakiness": 3,
-      "minerality": 4,
-      "finish": 7,
-      "earthiness": 6,
-      "intensity": 6,
-      "complexity": 7,
-      "aromaticIntensity": 7,
-      "flavorNotes": [
-        "red-cherry",
-        "raspberry",
-        "earthy",
-        "silky"
-      ]
-    },
-    "website": "https://www.siduri.com/",
-    "region": "Oregon"
-  },
-  {
     "id": "cambria-julias-vineyard-bottle",
     "name": "Cambria \"Julia's Vineyard\"",
     "description": "Pinot Noir, Santa Maria, 2023",
-    "price": 52,
+    "price": 47,
     "category": "Pinot Noir & Interesting Reds Bottles",
     "serverNotes": "📖 ABOUT: (cambriawines.com) 'Julia's Vineyard' Pinot Noir from estate vineyard in Santa Maria Valley. Named after owner's mother. Elegant cool-climate Pinot!\n\n🍷 STYLE: Medium-bodied Pinot Noir | Cherry, strawberry & earth | Bright acidity | Santa Maria elegance.\n\n🍽️ PAIRS WITH: Salmon, duck, pork, lighter red meats.\n\n💡 BOTTLE SERVICE: Single-vineyard Pinot from quality estate. Cool-climate character!",
     "vegetarian": true,
@@ -225,52 +225,6 @@
     "region": "California"
   },
   {
-    "id": "long-meadow-ranch-pinot-noir-bottle",
-    "name": "Long Meadow Ranch, Pinot Noir",
-    "pronunciation": "long MEH-doh ranch",
-    "description": "Anderson Valley, JS 94, 2019",
-    "price": 79,
-    "category": "Pinot Noir & Interesting Reds Bottles",
-    "serverNotes": "📖 ABOUT: (longmeadowranch.com) Elegant Pinot Noir from Long Meadow Ranch, organic Napa estate. Sustainable farming with estate fruit. Eco-conscious quality!\n\n🍷 STYLE: Medium-bodied Pinot Noir | Cherry, earth & spice | Balanced, refined | Organic Napa Pinot.\n\n🍽️ PAIRS WITH: Salmon, duck, pork, mushroom dishes.\n\n💡 BOTTLE SERVICE: Organic Napa Pinot. Sustainable quality!",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "red-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 1,
-      "acidity": 7,
-      "body": "medium",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 6,
-      "umami": 4,
-      "bitterness": 1,
-      "tannin": 5,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 8,
-      "oakiness": 4,
-      "minerality": 5,
-      "finish": 8,
-      "earthiness": 6,
-      "intensity": 7,
-      "complexity": 8,
-      "aromaticIntensity": 8,
-      "flavorNotes": [
-        "cherry",
-        "earthy",
-        "elegant",
-        "Anderson-Valley"
-      ]
-    },
-    "website": "https://www.longmeadowranch.com/",
-    "region": "California"
-  },
-  {
     "id": "machete-petite-syrah-bottle",
     "name": "\"Machete\" by Orin Swift",
     "description": "California, 2022",
@@ -314,6 +268,53 @@
     },
     "website": "https://www.orinswift.com/",
     "region": "California"
+  },
+  {
+    "id": "aubert-pinot-noir-bottle",
+    "name": "Aubert Pinot Noir",
+    "pronunciation": "OH-bear PEE-noh nwahr",
+    "description": "Sonoma Coast, 2024",
+    "price": 100,
+    "category": "Pinot Noir & Interesting Reds Bottles",
+    "website": "https://www.aubertwines.com/",
+    "serverNotes": "📖 ABOUT: Small-production Sonoma Coast Pinot Noir from Aubert, one of California's most sought-after cult producers.\n\n🍷 STYLE: Medium-bodied, silky Pinot Noir | Black cherry, raspberry, forest floor & spice | Fine tannins, bright acidity | Long, layered finish\n\n🍽️ PAIRS WITH: Grilled salmon, lobster risotto, pork chop, mushroom dishes, roasted chicken pasta.\n\n💡 BOTTLE SERVICE: A strong bottle to suggest for the table; check the vintage on the list when presenting.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "red-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 7,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 6,
+      "umami": 5,
+      "bitterness": 1,
+      "tannin": 4,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 8,
+      "oakiness": 4,
+      "minerality": 4,
+      "finish": 8,
+      "earthiness": 6,
+      "herbaceousness": 3,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "black-cherry",
+        "raspberry",
+        "forest-floor",
+        "spice"
+      ]
+    },
+    "region": "Sonoma"
   },
   {
     "id": "domaine-della-pinot-noir-bottle",

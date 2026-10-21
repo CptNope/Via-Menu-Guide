@@ -2,10 +2,10 @@
   {
     "id": "world-wide-whites-flight",
     "name": "World Wide Whites Flight",
-    "description": "La Fiera Pinot Grigio, 2024 | Loosen Riesling, Germany, 2023 | Matua, Marlborough, NZ, 2024 | La Crema Chardonnay, Monterey, 2023",
+    "description": "La Fiera Pinot Grigio, 2025 | Loosen Riesling, Germany, 2025 | Matua, Marlborough, NZ, 2025 | La Crema Chardonnay, Monterey, 2024",
     "price": 15,
     "category": "Wine Flights",
-    "serverNotes": "World tour of white wines perfect for pairing with seafood and lighter dishes. Pinot Grigio pairs beautifully with Shrimp Scampi or Fried Calamari. Riesling complements Tuna Tartare or spicy dishes. Sauvignon Blanc matches Jumbo Shrimp Cocktail or Caesar Salad. Chardonnay pairs with Chicken Piccata or Pan Seared Octopus. Progressive flight from light to full-bodied whites - perfect for sharing across appetizers and seafood entrées. Great for exploring different white wine styles with food.",
+    "serverNotes": "World tour of white wines, light to full: Italian Pinot Grigio, German Riesling, New Zealand Sauvignon Blanc and California Chardonnay. Pinot Grigio pairs beautifully with Shrimp Scampi or Fried Calamari. Riesling complements spicier dishes like Roasted Pork Belly. Sauvignon Blanc matches Jumbo Shrimp Cocktail or the Grilled Caesar. Chardonnay pairs with Chicken Piccata or Grilled Octopus. Great for exploring white wine styles across appetizers and seafood.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -40,16 +40,29 @@
         "four-styles"
       ]
     },
-    "foodPairings": ["shrimp-scampi", "fried-calamari", "tuna-tartare", "jumbo-shrimp-cocktail", "caesar-salad", "chicken-piccata", "pan-seared-octopus"],
-    "dessertPairings": ["lemon-tart", "fruit-sorbet", "panna-cotta", "fresh-berries"]
+    "foodPairings": [
+      "shrimp-scampi",
+      "fried-calamari",
+      "roasted-pork-belly",
+      "jumbo-shrimp-cocktail",
+      "grilled-caesar-salad",
+      "chicken-piccata",
+      "grilled-octopus"
+    ],
+    "dessertPairings": [
+      "lemon-tart",
+      "fruit-sorbet",
+      "panna-cotta",
+      "fresh-berries"
+    ]
   },
   {
-    "id": "tuscany-vs-usa-flight",
-    "name": "Tuscany vs. U.S.A Flight",
-    "description": "San Felice Chianti Classico, DOCG, Tuscany, 2022 | Rubio by San Polo, IGT, Montalcino, JS 91, 2022 | Greenwing Cabernet by Duckhorn, Columbia Valley, 2023 | \"The Pessimist\" by Daou, 2023",
+    "id": "old-world-vs-new-world-flight",
+    "name": "Old World vs. New World Flight",
+    "description": "Grand Enclos du Château de Cérons, Bordeaux, 2019 | Rubio by San Polo, IGT, Montalcino, JS 91, 2023 | Greenwing Cabernet by Duckhorn, Columbia Valley, 2023 | \"The Pessimist\" by Daou, 2023",
     "price": 15,
     "category": "Wine Flights",
-    "serverNotes": "Italian and American red wine flight perfect for pairing with our Italian classics. Chianti pairs beautifully with Chicken Parmesan, Eggplant Parmesan, or pasta with red sauce. Rubio Super Tuscan (JS 91) matches Ragu of Italian Meats or Three Meatballs. Washington Cabernet complements our steaks and Veal Chop Parmesan. The Pessimist pairs with Braised Short Rib or bold meat dishes. Perfect progression for Italian dinner - start lighter with pasta, finish with hearty meats. Great for comparing Old World Italian elegance to New World American power.",
+    "serverNotes": "Old World against New World reds, side by side: Bordeaux and a Montalcino Super Tuscan, then Washington and Paso Robles Cabernet. Grand Enclos (Bordeaux) shows savory cedar and graphite; Rubio by San Polo (JS 91) brings Tuscan cherry and herbs; Greenwing by Duckhorn is ripe, polished Washington fruit; The Pessimist by Daou is bold Paso Robles power. Taste left to right, lighter to bigger. Great with Chicken or Eggplant Parmesan and Ragu of Italian Meats for the Old World pours, and steaks, Veal Chop Parmesan or Short Rib for the New World ones.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -85,16 +98,29 @@
         "old-vs-new-world"
       ]
     },
-    "foodPairings": ["chicken-parmesan", "eggplant-parmesan", "ragu-of-italian-meats", "three-meatballs", "veal-chop-parmesan", "braised-short-rib", "filet-mignon"],
-    "dessertPairings": ["tiramisu", "chocolate-lava-cake", "cannoli", "biscotti"]
+    "foodPairings": [
+      "chicken-parmesan",
+      "eggplant-parmesan",
+      "ragu-of-italian-meats",
+      "three-meatballs",
+      "veal-chop-parmesan",
+      "braised-short-rib",
+      "filet-mignon"
+    ],
+    "dessertPairings": [
+      "tiramisu",
+      "chocolate-lava-cake",
+      "cannoli",
+      "biscotti"
+    ]
   },
   {
     "id": "world-renown-winemakers-flight",
     "name": "World Renowned Winemakers Flight",
-    "description": "Guado Al Tasso, Vermentino, Tuscany, 2024 | Cakebread \"Mullan Road\", Washington, 2022 | Caparzo Brunello di Montalcino, DOCG, JS 94, 2018 | Rombauer, Chardonnay, Carneros, 2023",
+    "description": "Guado Al Tasso, Vermentino, Tuscany, 2025 | Cakebread \"Mullan Road\" Washington, 2022 | Caparzo Brunello di Montalcino, DOCG, 2021 | Rombauer Chardonnay, Carneros, 2024",
     "price": 18,
     "category": "Wine Flights",
-    "serverNotes": "Premium wine flight for special occasions - pairs with our finest dishes. Vermentino complements Lobster Stuffed Shells or Pan Seared Octopus & Sausage. Red blend pairs with Veal Marsala or Filet Mignon. Brunello matches our premium steaks, Osso Buco, or Veal Chop Parmesan. Rombauer Chardonnay pairs with Pan Roasted Salmon or rich seafood dishes. World-class wines from legendary producers for an elevated dining experience. Perfect for anniversaries, celebrations, or wine enthusiasts wanting the best pairings with our signature dishes.",
+    "serverNotes": "Premium wine flight for special occasions - pairs with our finest dishes. Vermentino complements Lobster Stuffed Shells or Grilled Octopus. Red blend pairs with Veal Marsala or Filet Mignon. Brunello matches our premium steaks, Osso Buco, or Veal Chop Parmesan. Rombauer Chardonnay pairs with Pan Roasted Salmon or rich seafood dishes. World-class wines from legendary producers for an elevated dining experience. Perfect for anniversaries, celebrations, or wine enthusiasts wanting the best pairings with our signature dishes.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -131,7 +157,20 @@
         "world-class"
       ]
     },
-    "foodPairings": ["lobster-stuffed-shells", "pan-seared-octopus", "veal-marsala", "filet-mignon", "osso-buco", "veal-chop-parmesan", "pan-roasted-salmon"],
-    "dessertPairings": ["tiramisu", "creme-brulee", "chocolate-desserts", "cheese-plate"]
+    "foodPairings": [
+      "lobster-stuffed-shells",
+      "grilled-octopus",
+      "veal-marsala",
+      "filet-mignon",
+      "osso-buco",
+      "veal-chop-parmesan",
+      "pan-roasted-salmon"
+    ],
+    "dessertPairings": [
+      "tiramisu",
+      "creme-brulee",
+      "chocolate-desserts",
+      "cheese-plate"
+    ]
   }
 ]

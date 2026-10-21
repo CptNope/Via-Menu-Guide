@@ -1,26 +1,5 @@
 [
   {
-    "id": "kids-spaghetti-meatball",
-    "name": "Kids Spaghetti & Meatball",
-    "description": "Spaghetti with tomato sauce and one meatball.",
-    "price": 9.5,
-    "category": "Kids",
-    "vegetarian": false,
-    "glutenFree": false,
-    "canBeMadeGlutenFree": true,
-    "nutFree": true,
-    "kids": true,
-    "ingredients": [
-      "spaghetti",
-      "tomato-sauce",
-      "beef",
-      "breadcrumbs"
-    ],
-    "allergens": [
-      "gluten"
-    ]
-  },
-  {
     "id": "kids-salad",
     "name": "Kid's Salad",
     "description": "Iceberg lettuce, tomato, cucumber, vinaigrette dressing",
@@ -41,7 +20,7 @@
     "id": "steak-frites",
     "name": "Steak Frites",
     "description": "Sirloin steak and plain frites",
-    "price": 12.99,
+    "price": 18.99,
     "category": "Kids",
     "vegetarian": false,
     "glutenFree": true,
@@ -57,7 +36,7 @@
     "id": "mac-and-cheese",
     "name": "Mac & Cheese",
     "description": "Classic macaroni and cheese.",
-    "price": 5.99,
+    "price": 6.99,
     "category": "Kids",
     "vegetarian": true,
     "glutenFree": false,
@@ -97,7 +76,7 @@
   {
     "id": "shrimp-scampi",
     "name": "Shrimp Scampi",
-    "description": "Pan seared shrimp in a garlic butter sauce served over mezzi rigatoni.",
+    "description": "Pan seared shrimp in a lemon butter sauce served over mezzi rigatoni.",
     "price": 8.99,
     "category": "Kids",
     "vegetarian": false,
@@ -160,8 +139,8 @@
   {
     "id": "three-mini-meatballs-spaghetti",
     "name": "Three Mini Meatballs & Spaghetti",
-    "description": "Topped with parmesan cheese.",
-    "price": 6.99,
+    "description": "Topped with Parmesan cheese.",
+    "price": 8.99,
     "category": "Kids",
     "vegetarian": false,
     "glutenFree": false,
@@ -183,8 +162,8 @@
   {
     "id": "plain-pasta-choice",
     "name": "Plain Pasta of Your Choice",
-    "description": "Pasta: Mezzi Rigatoni • Cheese Tortellini • Pappardelle • Fiore • Spaghetti • Cheese Ravioli • Orecchiette • Gluten-Free Penne with your choice of marinara sauce, butter, alfredo or pesto",
-    "price": 5.99,
+    "description": "Pasta: Mezzi Rigatoni • Pappardelle • Spaghetti • Cheese Ravioli • Orecchiette • Gluten-Free Penne. Sauce: Marinara, Butter, Alfredo or Pesto",
+    "price": 6.99,
     "category": "Kids",
     "vegetarian": true,
     "glutenFree": false,
@@ -218,7 +197,7 @@
   {
     "id": "soft-drinks",
     "name": "Soft Drinks",
-    "description": "Pepsi, Diet Pepsi, 7-UP, Ginger Ale, Root Beer, Pink Lemonade, Apple Juice",
+    "description": "Pepsi, Diet Pepsi, Starry, Ginger Ale, Root Beer, Pink Lemonade, Apple Juice",
     "price": 3.25,
     "category": "Kids Beverages",
     "vegetarian": true,

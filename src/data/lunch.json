@@ -4,12 +4,12 @@
     "name": "Pepperoni",
     "description": "Diavolo sauce, mozzarella, asiago, hot honey. Can be made GF with cauliflower-parm crust (+$4).",
     "serverNotes": "Spicy diavolo base with hot honey drizzle - warn guests about heat level. GF crust is cauliflower-parmesan (+$4). Popular lunch choice. Hot honey adds sweet-spicy finish.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -37,7 +37,12 @@
       "charLevel": 4,
       "intensity": 7,
       "complexity": 6,
-      "flavorNotes": ["spicy", "savory", "cheesy", "meaty"]
+      "flavorNotes": [
+        "spicy",
+        "savory",
+        "cheesy",
+        "meaty"
+      ]
     }
   },
   {
@@ -45,12 +50,12 @@
     "name": "Heirloom Tomato Margherita",
     "description": "Fresh mozzarella cheese, garlic oil, micro basil. Can be made GF with cauliflower-parm crust (+$4).",
     "serverNotes": "Classic vegetarian option. Fresh mozzarella, not shredded. Heirloom tomatoes vary by season. GF crust available (+$4). Light, fresh, not heavy. Great for lighter appetite.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "vegetarian": true,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -77,7 +82,12 @@
       "charLevel": 4,
       "intensity": 5,
       "complexity": 5,
-      "flavorNotes": ["fresh", "herbaceous", "simple", "classic"]
+      "flavorNotes": [
+        "fresh",
+        "herbaceous",
+        "simple",
+        "classic"
+      ]
     }
   },
   {
@@ -85,12 +95,12 @@
     "name": "Chicken Caesar Salad",
     "description": "Tomato, mozzarella, provolone. Can be made GF with cauliflower-parm crust (+$4).",
     "serverNotes": "Caesar dressing contains anchovies (fish allergen). Two cheeses - mozz and provolone. GF crust available (+$4). Salad-meets-pizza concept - topped with fresh greens after baking.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -120,7 +130,12 @@
       "charLevel": 3,
       "intensity": 6,
       "complexity": 5,
-      "flavorNotes": ["savory", "creamy", "cheesy", "fresh"]
+      "flavorNotes": [
+        "savory",
+        "creamy",
+        "cheesy",
+        "fresh"
+      ]
     }
   },
   {
@@ -128,12 +143,12 @@
     "name": "Fig & Prosciutto",
     "description": "Eggplant, asiago, arugula, aged balsamic. Can be made GF with cauliflower-parm crust (+$4).",
     "serverNotes": "Sweet-savory combo - fig jam base with salty prosciutto. Arugula added fresh after baking. Aged balsamic drizzle. Sophisticated flavor profile. GF crust available (+$4). Popular with adventurous eaters.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -162,7 +177,12 @@
       "charLevel": 3,
       "intensity": 7,
       "complexity": 7,
-      "flavorNotes": ["sweet", "savory", "elegant", "sophisticated"]
+      "flavorNotes": [
+        "sweet",
+        "savory",
+        "elegant",
+        "sophisticated"
+      ]
     }
   },
   {
@@ -170,12 +190,12 @@
     "name": "Meatball & Sausage",
     "description": "Peppadew peppers, marinated tomatoes, fresh ricotta, Parmesan cheese and parsley oil. Can be made GF with cauliflower-parm crust (+$4).",
     "serverNotes": "Hearty meat lovers pizza. House-made meatballs and Italian sausage. Peppadew peppers are sweet, not spicy. Fresh ricotta dollops. Very filling. GF crust available (+$4).",
-    "price": 17.99,
+    "price": 18.99,
     "category": "Grilled Pizzas",
     "vegetarian": false,
     "glutenFree": false,
     "glutenFreeAvailable": true,
-    "glutenFreeUpcharge": 2,
+    "glutenFreeUpcharge": 4,
     "glutenFreeCrust": "cauliflower-parmesan",
     "nutFree": true,
     "kids": false,
@@ -205,7 +225,12 @@
       "charLevel": 4,
       "intensity": 8,
       "complexity": 7,
-      "flavorNotes": ["meaty", "savory", "hearty", "bold"]
+      "flavorNotes": [
+        "meaty",
+        "savory",
+        "hearty",
+        "bold"
+      ]
     }
   },
   {
@@ -213,7 +238,7 @@
     "name": "Chicken Pesto Sandwich",
     "description": "Grilled chicken breast, crisp prosciutto, pepperonata, arugula, provolone, and pesto aioli.",
     "serverNotes": "Contains pine nuts in pesto (tree nut allergen). Pepperonata is roasted peppers. Crispy prosciutto adds saltiness. Served on Tuscan bread. Popular lunch sandwich.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": false,
     "glutenFree": false,
@@ -244,7 +269,12 @@
       "herbaceousness": 7,
       "intensity": 7,
       "complexity": 7,
-      "flavorNotes": ["herbaceous", "savory", "nutty", "fresh"]
+      "flavorNotes": [
+        "herbaceous",
+        "savory",
+        "nutty",
+        "fresh"
+      ]
     }
   },
   {
@@ -280,12 +310,17 @@
       "fattiness": 7,
       "intensity": 8,
       "complexity": 6,
-      "flavorNotes": ["meaty", "savory", "cheesy", "hearty"]
+      "flavorNotes": [
+        "meaty",
+        "savory",
+        "cheesy",
+        "hearty"
+      ]
     }
   },
   {
     "id": "fried-eggplant-parmesan-sandwich",
-    "name": "Fried Eggplant Parmesan Sandwich",
+    "name": "Eggplant Parmesan Sandwich",
     "description": "Crispy fried eggplant with mozzarella, provolone, and marinara.",
     "serverNotes": "Vegetarian option. Hand-breaded crispy eggplant. Two cheeses melted on top. Great meatless alternative to meatball sub. Served on Tuscan bread.",
     "price": 16.99,
@@ -317,7 +352,12 @@
       "charLevel": 5,
       "intensity": 7,
       "complexity": 6,
-      "flavorNotes": ["savory", "cheesy", "comfort", "vegetarian"]
+      "flavorNotes": [
+        "savory",
+        "cheesy",
+        "comfort",
+        "vegetarian"
+      ]
     }
   },
   {
@@ -325,7 +365,7 @@
     "name": "Caprese BLT",
     "description": "Thick cut applewood smoked bacon, fresh mozzarella, vine ripe tomatoes, arugula, sundried tomato aioli, and aged balsamic.",
     "serverNotes": "Italian twist on classic BLT. Thick-cut applewood bacon, fresh mozz (not shredded). Sundried tomato aioli and balsamic add depth. Arugula instead of lettuce for peppery bite.",
-    "price": 16.99,
+    "price": 17.99,
     "category": "VIA Signature Sandwiches",
     "vegetarian": false,
     "glutenFree": false,
@@ -355,7 +395,12 @@
       "smokiness": 6,
       "intensity": 7,
       "complexity": 6,
-      "flavorNotes": ["smoky", "savory", "fresh", "tangy"]
+      "flavorNotes": [
+        "smoky",
+        "savory",
+        "fresh",
+        "tangy"
+      ]
     }
   },
   {
@@ -363,7 +408,7 @@
     "name": "Grilled Caesar Salad",
     "description": "Tuscan bread croutons. Can be made GF without croutons.",
     "serverNotes": "Caesar dressing contains anchovies (fish allergen). Romaine is grilled for char flavor. GF by removing croutons. Light starter salad option.",
-    "price": 11.99,
+    "price": 12.99,
     "category": "Salads",
     "vegetarian": false,
     "glutenFree": false,
@@ -392,7 +437,12 @@
       "fattiness": 5,
       "intensity": 6,
       "complexity": 5,
-      "flavorNotes": ["savory", "tangy", "fresh", "classic"]
+      "flavorNotes": [
+        "savory",
+        "tangy",
+        "fresh",
+        "classic"
+      ]
     }
   },
   {
@@ -429,7 +479,57 @@
       "herbaceousness": 8,
       "intensity": 6,
       "complexity": 6,
-      "flavorNotes": ["fresh", "creamy", "herbaceous", "elegant"]
+      "flavorNotes": [
+        "fresh",
+        "creamy",
+        "herbaceous",
+        "elegant"
+      ]
+    }
+  },
+  {
+    "id": "beet-salad-lunch",
+    "name": "Beet Salad",
+    "description": "Mixed greens, blood orange, pistachio, labneh.",
+    "price": 14.99,
+    "category": "Salads",
+    "serverNotes": "Mixed greens with beets, blood orange, pistachios and labneh (strained yogurt). Earthy, bright, a little tangy. Contains pistachios (tree nuts). On the GF menu as is. Pairs with Sauvignon Blanc, Rosato, Pinot Noir or Prosecco. NEW ITEM: allergens are based on the menu description; confirm with the kitchen for any allergy.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": false,
+    "kids": false,
+    "ingredients": [
+      "beets",
+      "mixed-greens",
+      "blood-orange",
+      "pistachio",
+      "labneh"
+    ],
+    "allergens": [
+      "dairy",
+      "nuts"
+    ],
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 3,
+      "richness": 4,
+      "umami": 3,
+      "bitterness": 1,
+      "fattiness": 3,
+      "creaminess": 4,
+      "herbaceousness": 4,
+      "charLevel": 0,
+      "intensity": 5,
+      "complexity": 6,
+      "flavorNotes": [
+        "earthy",
+        "citrus",
+        "nutty",
+        "tangy"
+      ]
     }
   },
   {
@@ -437,7 +537,7 @@
     "name": "Grilled Salmon Salad",
     "description": "Grilled North Atlantic salmon, baby arugula, mozzarella, grape tomatoes, pesto vinaigrette, balsamic reduction.",
     "serverNotes": "Naturally GF. Contains nuts in pesto vinaigrette. North Atlantic salmon - fresh, not farm-raised. Peppery arugula base. Substantial protein salad.",
-    "price": 21.99,
+    "price": 22.99,
     "category": "Salads",
     "vegetarian": false,
     "glutenFree": true,
@@ -467,7 +567,12 @@
       "herbaceousness": 6,
       "intensity": 6,
       "complexity": 6,
-      "flavorNotes": ["fresh", "herbaceous", "rich", "elegant"]
+      "flavorNotes": [
+        "fresh",
+        "herbaceous",
+        "rich",
+        "elegant"
+      ]
     }
   },
   {
@@ -501,60 +606,75 @@
       "fattiness": 3,
       "intensity": 5,
       "complexity": 5,
-      "flavorNotes": ["bright", "fresh", "light", "citrusy"]
+      "flavorNotes": [
+        "bright",
+        "fresh",
+        "light",
+        "citrusy"
+      ]
     }
   },
   {
-    "id": "chicken-panzanella-lunch",
-    "name": "Chicken Panzanella",
-    "description": "Grilled chicken breast, buttery croutons, mixed greens, radicchio, shaved Brussels sprouts, apples, pickled red onions, grilled lemon vinaigrette.",
-    "serverNotes": "Panzanella = Italian bread salad. Buttery croutons soak up dressing. Complex flavors - bitter radicchio, sweet apple, tangy pickled onion. Very satisfying.",
+    "id": "chicken-kale-salad-lunch",
+    "name": "Chicken & Kale Salad",
+    "description": "Cabbage, carrots, pickled onion, spiced pecans, walnut vinaigrette.",
     "price": 17.99,
     "category": "Salads",
+    "serverNotes": "Chicken over kale with cabbage, carrots and pickled onion, spiced pecans and a walnut vinaigrette. Crunchy and bright. Contains tree nuts (pecans, walnuts). On the GF menu as is. NEW ITEM: allergens are based on the menu description; confirm with the kitchen for any allergy.",
     "vegetarian": false,
-    "glutenFree": false,
-    "nutFree": true,
+    "glutenFree": true,
+    "nutFree": false,
     "kids": false,
     "ingredients": [
       "chicken",
-      "mixed-greens",
-      "brussels-sprouts",
-      "apples",
-      "onions"
+      "kale",
+      "cabbage",
+      "carrots",
+      "pickled-onion",
+      "pecans",
+      "walnut-vinaigrette"
     ],
     "allergens": [
-      "dairy",
-      "gluten"
+      "nuts"
     ],
     "flavorProfile": {
       "sweetness": 3,
-      "acidity": 5,
+      "acidity": 6,
       "body": "medium",
-      "spiciness": 0,
-      "saltiness": 5,
+      "spiciness": 1,
+      "saltiness": 4,
       "richness": 5,
       "umami": 5,
+      "bitterness": 2,
       "fattiness": 4,
+      "creaminess": 1,
       "herbaceousness": 5,
-      "intensity": 6,
-      "complexity": 7,
-      "flavorNotes": ["fresh", "tangy", "crisp", "varied"]
+      "charLevel": 2,
+      "intensity": 5,
+      "complexity": 6,
+      "flavorNotes": [
+        "crunchy",
+        "nutty",
+        "tangy",
+        "fresh"
+      ]
     }
   },
   {
     "id": "steak-salad-lunch",
     "name": "Steak Salad",
-    "description": "Grilled New York sirloin, mixed greens, radicchio, shaved Brussels sprouts, toasted baguette, grilled red onion, blue cheese crumbles, beets, balsamic vinaigrette.",
-    "serverNotes": "Premium salad - NY sirloin grilled to temp. Contains tree nuts (pecans) and blue cheese. GF without baguette. Earthy beets pair with tangy blue cheese. Very substantial.",
-    "price": 23.99,
+    "description": "Grilled New York sirloin, mixed greens, radicchio, shaved Brussels sprouts, toasted spicy pecans, blue cheese crumbles, beets, balsamic vinaigrette.",
+    "serverNotes": "Premium salad - NY sirloin grilled to temp. Contains tree nuts (toasted spicy pecans) and blue cheese. On the GF menu as is. Earthy beets pair with tangy blue cheese. Very substantial.",
+    "price": 25.99,
     "category": "Salads",
     "vegetarian": false,
     "glutenFree": true,
     "nutFree": false,
     "kids": false,
     "ingredients": [
-      "steak",
+      "sirloin",
       "mixed-greens",
+      "radicchio",
       "brussels-sprouts",
       "pecans",
       "blue-cheese",
@@ -576,7 +696,12 @@
       "charLevel": 6,
       "intensity": 8,
       "complexity": 7,
-      "flavorNotes": ["beefy", "bold", "earthy", "rich"]
+      "flavorNotes": [
+        "beefy",
+        "bold",
+        "earthy",
+        "rich"
+      ]
     }
   },
   {
@@ -612,7 +737,12 @@
       "fattiness": 6,
       "intensity": 8,
       "complexity": 8,
-      "flavorNotes": ["savory", "meaty", "briny", "bold"]
+      "flavorNotes": [
+        "savory",
+        "meaty",
+        "briny",
+        "bold"
+      ]
     }
   },
   {
@@ -620,7 +750,7 @@
     "name": "Braised Short Rib Ragu",
     "description": "On cheese ravioli. Can substitute GF pasta.",
     "serverNotes": "Premium lunch item. Slow-braised short rib - falls apart tender. Served over cheese ravioli. GF pasta available. Rich, indulgent, comfort food at its best.",
-    "price": 23.99,
+    "price": 25.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
@@ -650,7 +780,12 @@
       "fattiness": 8,
       "intensity": 9,
       "complexity": 8,
-      "flavorNotes": ["rich", "meaty", "braised", "indulgent"]
+      "flavorNotes": [
+        "rich",
+        "meaty",
+        "braised",
+        "indulgent"
+      ]
     }
   },
   {
@@ -689,47 +824,12 @@
       "earthiness": 7,
       "intensity": 7,
       "complexity": 8,
-      "flavorNotes": ["earthy", "savory", "wine-rich", "elegant"]
-    }
-  },
-  {
-    "id": "eggplant-parmesan-lunch",
-    "name": "Eggplant Parmesan",
-    "description": "Crisp hand-breaded Italian eggplant with mozzarella, provolone, and Parmesan, served with spaghetti marinara.",
-    "serverNotes": "Vegetarian classic. Hand-breaded, not pre-made. THREE cheeses - mozz, provolone, parm. Served with side of spaghetti marinara. GF pasta available.",
-    "price": 17.99,
-    "category": "VIA Lunch Classics",
-    "vegetarian": true,
-    "glutenFree": false,
-    "canBeMadeGlutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "eggplant",
-      "breadcrumbs",
-      "mozzarella",
-      "provolone",
-      "parmesan",
-      "spaghetti",
-      "marinara-sauce"
-    ],
-    "allergens": [
-      "dairy",
-      "gluten"
-    ],
-    "flavorProfile": {
-      "sweetness": 3,
-      "acidity": 6,
-      "body": "full",
-      "spiciness": 0,
-      "saltiness": 6,
-      "richness": 7,
-      "umami": 6,
-      "fattiness": 6,
-      "charLevel": 5,
-      "intensity": 7,
-      "complexity": 6,
-      "flavorNotes": ["savory", "cheesy", "comfort", "vegetarian"]
+      "flavorNotes": [
+        "earthy",
+        "savory",
+        "wine-rich",
+        "elegant"
+      ]
     }
   },
   {
@@ -769,7 +869,57 @@
       "herbaceousness": 6,
       "intensity": 6,
       "complexity": 6,
-      "flavorNotes": ["garlicky", "buttery", "bright", "fresh"]
+      "flavorNotes": [
+        "garlicky",
+        "buttery",
+        "bright",
+        "fresh"
+      ]
+    }
+  },
+  {
+    "id": "eggplant-parmesan-lunch",
+    "name": "Eggplant Parmesan",
+    "description": "Crisp hand-breaded Italian eggplant with mozzarella, provolone, and Parmesan, served with spaghetti marinara.",
+    "serverNotes": "Vegetarian classic. Hand-breaded, not pre-made. THREE cheeses - mozz, provolone, parm. Served with side of spaghetti marinara. GF pasta available.",
+    "price": 17.99,
+    "category": "VIA Lunch Classics",
+    "vegetarian": true,
+    "glutenFree": false,
+    "canBeMadeGlutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "eggplant",
+      "breadcrumbs",
+      "mozzarella",
+      "provolone",
+      "parmesan",
+      "spaghetti",
+      "marinara-sauce"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 6,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 6,
+      "richness": 7,
+      "umami": 6,
+      "fattiness": 6,
+      "charLevel": 5,
+      "intensity": 7,
+      "complexity": 6,
+      "flavorNotes": [
+        "savory",
+        "cheesy",
+        "comfort",
+        "vegetarian"
+      ]
     }
   },
   {
@@ -808,7 +958,12 @@
       "herbaceousness": 7,
       "intensity": 7,
       "complexity": 7,
-      "flavorNotes": ["savory", "fresh", "herbaceous", "creamy"]
+      "flavorNotes": [
+        "savory",
+        "fresh",
+        "herbaceous",
+        "creamy"
+      ]
     }
   },
   {
@@ -816,7 +971,7 @@
     "name": "Pappardelle Bolognese",
     "description": "A rich meat sauce of beef, pork, sausage, a touch of tomato paste and cream. Can substitute GF pasta.",
     "serverNotes": "Triple meat bolognese - beef, pork, sausage. Pappardelle = wide ribbon pasta. Touch of cream makes it rich. GF pasta available. Hearty comfort food.",
-    "price": 17.99,
+    "price": 18.99,
     "category": "VIA Lunch Classics",
     "vegetarian": false,
     "glutenFree": false,
@@ -845,7 +1000,12 @@
       "fattiness": 7,
       "intensity": 8,
       "complexity": 7,
-      "flavorNotes": ["meaty", "rich", "hearty", "classic"]
+      "flavorNotes": [
+        "meaty",
+        "rich",
+        "hearty",
+        "classic"
+      ]
     }
   },
   {
@@ -883,7 +1043,12 @@
       "herbaceousness": 5,
       "intensity": 6,
       "complexity": 6,
-      "flavorNotes": ["fresh", "briny", "Mediterranean", "elegant"]
+      "flavorNotes": [
+        "fresh",
+        "briny",
+        "Mediterranean",
+        "elegant"
+      ]
     }
   },
   {
@@ -917,13 +1082,18 @@
       "herbaceousness": 6,
       "intensity": 5,
       "complexity": 5,
-      "flavorNotes": ["mild", "flaky", "herbaceous", "light"]
+      "flavorNotes": [
+        "mild",
+        "flaky",
+        "herbaceous",
+        "light"
+      ]
     }
   },
   {
     "id": "lunch-pasta-sauce",
     "name": "Lunch Pasta & Sauce",
-    "description": "Choice of Pasta: Mezzi Rigatoni, Pappardelle, Fiori, Spaghetti, Cheese Ravioli, Orecchiette, Gluten-Free Penne. Choice of Sauce: Alfredo, Marinara, Pesto, Vodka.",
+    "description": "Choice of Pasta: Mezzi Rigatoni, Pappardelle, Spaghetti, Cheese Ravioli, Orecchiette, Gluten-Free Penne. Choice of Sauce: Alfredo, Marinara, Pesto, Vodka.",
     "serverNotes": "Build-your-own pasta. GF penne available. Pesto has pine nuts (tree nut). Marinara is vegan. Vodka sauce has slight kick. Ravioli is cheese-filled. Good for picky eaters.",
     "price": 15.99,
     "category": "VIA Lunch Classics",
@@ -944,7 +1114,9 @@
       {
         "name": "Alfredo",
         "description": "Rich, creamy Parmesan sauce",
-        "allergens": ["dairy"],
+        "allergens": [
+          "dairy"
+        ],
         "nutFree": true,
         "flavorProfile": {
           "sweetness": 2,
@@ -958,7 +1130,12 @@
           "creaminess": 10,
           "intensity": 7,
           "complexity": 5,
-          "flavorNotes": ["creamy", "buttery", "cheesy", "rich"]
+          "flavorNotes": [
+            "creamy",
+            "buttery",
+            "cheesy",
+            "rich"
+          ]
         }
       },
       {
@@ -978,13 +1155,21 @@
           "herbaceousness": 7,
           "intensity": 5,
           "complexity": 5,
-          "flavorNotes": ["tomato", "herbaceous", "bright", "classic"]
+          "flavorNotes": [
+            "tomato",
+            "herbaceous",
+            "bright",
+            "classic"
+          ]
         }
       },
       {
         "name": "Pesto",
         "description": "Fresh basil, pine nuts, Parmesan, garlic",
-        "allergens": ["dairy", "nuts"],
+        "allergens": [
+          "dairy",
+          "nuts"
+        ],
         "nutFree": false,
         "flavorProfile": {
           "sweetness": 2,
@@ -998,13 +1183,20 @@
           "herbaceousness": 10,
           "intensity": 8,
           "complexity": 7,
-          "flavorNotes": ["herbaceous", "nutty", "garlicky", "fresh"]
+          "flavorNotes": [
+            "herbaceous",
+            "nutty",
+            "garlicky",
+            "fresh"
+          ]
         }
       },
       {
         "name": "Vodka",
         "description": "Creamy tomato sauce with a kick",
-        "allergens": ["dairy"],
+        "allergens": [
+          "dairy"
+        ],
         "nutFree": true,
         "flavorProfile": {
           "sweetness": 3,
@@ -1018,7 +1210,12 @@
           "creaminess": 7,
           "intensity": 6,
           "complexity": 6,
-          "flavorNotes": ["creamy", "tomato", "balanced", "smooth"]
+          "flavorNotes": [
+            "creamy",
+            "tomato",
+            "balanced",
+            "smooth"
+          ]
         }
       }
     ]

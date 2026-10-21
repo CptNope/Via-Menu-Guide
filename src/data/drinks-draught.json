@@ -46,12 +46,60 @@
         "corn",
         "refreshing"
       ],
-    "region": "Italy"
+      "region": "Italy"
+    }
+  },
+  {
+    "id": "guinness-draught",
+    "name": "Guinness",
+    "description": "20 oz., 4.1% ABV",
+    "price": 9,
+    "category": "Draught",
+    "serverNotes": "📖 ABOUT: The classic Irish dry stout from St. James's Gate, Dublin, poured as a 20 oz. imperial pint.\n\n🍺 STYLE: Dry stout | 4.1% ABV | Roasted barley, coffee and dark chocolate | Creamy nitrogen head, lighter body than it looks\n\n🍽️ PAIRS WITH: Short Rib, Ragu of Italian Meats, burgers and steak, chocolate desserts.\n\n💡 SERVING TIP: Let it settle before topping off; the two-part pour is part of the experience.",
+    "vegetarian": true,
+    "glutenFree": false,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "barley",
+      "water",
+      "hops",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 2,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 3,
+      "carbonation": 3,
+      "fruitiness": 1,
+      "oakiness": 0,
+      "minerality": 3,
+      "finish": 5,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 5,
+      "flavorNotes": [
+        "roasted",
+        "coffee",
+        "dark-chocolate",
+        "creamy"
+      ],
+      "region": "Ireland"
     }
   },
   {
     "id": "jacks-abby-copper-legend",
-    "name": "Jack's Abby Copper Legend, Oktoberfest Lager",
+    "name": "Copper Legend, Octoberfest",
     "description": "Framingham, MA, 5.7% ABV",
     "price": 10,
     "category": "Draught",
@@ -95,72 +143,23 @@
         "biscuit",
         "smooth"
       ],
-    "region": "Massachusetts"
+      "region": "Massachusetts"
     }
   },
   {
-    "id": "pulp-daddy-ipa-draught",
-    "name": "\"Pulp Daddy\" Imperial IPA by Greater Good",
-    "description": "Worcester, MA, 13 oz., 8% ABV",
+    "id": "substance-ale-draught",
+    "name": "The Substance Ale",
+    "description": "Portland, ME, 5.2% ABV",
     "price": 10,
     "category": "Draught",
-    "website": "https://greatergoodimperial.com/",
-    "serverNotes": "🍺 ABOUT: Bold Imperial IPA (Double IPA) from Greater Good Brewing in Worcester, MA. Local brewery supporting the community!\n\n🍊 STYLE: Hazy Imperial IPA | 8% ABV, 80+ IBU | Intense hop character with citrus, mango, pineapple & tropical fruit | Generously dry-hopped for maximum aroma | Full body with warming alcohol.\n\n🍽️ PAIRS WITH: Spicy buffalo wings, jalapeño burgers, Korean BBQ, aged cheddar, spicy Thai, IPA cheddar soup. Strong flavors that stand up to the hops!\n\n💡 SERVING TIP: 13 oz pour (not a full pint due to higher ABV). Serve cold (40-45°F). For serious IPA lovers—this is hop heaven!",
+    "serverNotes": "📖 ABOUT: Bissell Brothers' flagship hoppy ale from Portland, Maine.\n\n🍺 STYLE: Hazy, hop-forward ale | 5.2% ABV | Citrus, pine and tropical fruit over a soft malt base | Smooth, sessionable\n\n🍽️ PAIRS WITH: Pizza, Roasted Pork Belly, fried calamari, sandwiches.\n\n💡 SERVING TIP: For IPA fans who want something easier-drinking.",
     "vegetarian": true,
     "glutenFree": false,
     "nutFree": true,
     "kids": false,
     "ingredients": [
       "barley",
-      "hops",
-      "yeast"
-    ],
-    "allergens": [
-      "gluten"
-    ],
-    "flavorProfile": {
-      "sweetness": 4,
-      "acidity": 2,
-      "body": "full",
-      "spiciness": 2,
-      "saltiness": 0,
-      "richness": 7,
-      "umami": 0,
-      "bitterness": 9,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 5,
-      "fruitiness": 9,
-      "oakiness": 0,
-      "minerality": 3,
-      "finish": 7,
-      "intensity": 9,
-      "complexity": 7,
-      "aromaticIntensity": 10,
-      "flavorNotes": [
-        "citrus",
-        "tropical-fruit",
-        "mango",
-        "pine",
-        "intense-hops"
-      ],
-    "region": "Massachusetts"
-    }
-  },
-  {
-    "id": "lunch-car-ipa-draught",
-    "name": "\"Lunch Car\" by Double Down",
-    "description": "West Coast IPA, Worcester, MA, 6.5% ABV",
-    "price": 10,
-    "category": "Draught",
-    "website": "https://www.doubledownbrewing.com/",
-    "serverNotes": "🌅 📖 ABOUT: Classic West Coast IPA from Double Down Brewing in Worcester, MA. Named after Worcester's famous lunch car diner culture. Local craft supporting the community!\n\n🍊 STYLE: West Coast IPA | 6.5% ABV, 65 IBU | Assertive pine resin, ruby red grapefruit & citrus zest | Crisp, clean, dry finish | Clear appearance (not hazy) | Lighter body lets hop character shine.\n\n🍽️ PAIRS WITH: Bacon cheeseburgers, crispy fried chicken, pepperoni pizza, buffalo wings. The bitterness cuts through fat beautifully!\n\n💡 SERVING TIP: Serve cold (40-45°F) in an IPA glass. Traditional IPA for fans who want clarity and bite. West Coast pride in Central Mass!",
-    "vegetarian": true,
-    "glutenFree": false,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "barley",
+      "water",
       "hops",
       "yeast"
     ],
@@ -169,31 +168,30 @@
     ],
     "flavorProfile": {
       "sweetness": 3,
-      "acidity": 3,
+      "acidity": 2,
       "body": "medium",
-      "spiciness": 1,
+      "spiciness": 0,
       "saltiness": 0,
-      "richness": 5,
+      "richness": 4,
       "umami": 0,
-      "bitterness": 8,
+      "bitterness": 5,
       "tannin": 0,
-      "alcohol": 5,
+      "alcohol": 4,
       "carbonation": 6,
-      "fruitiness": 8,
+      "fruitiness": 7,
       "oakiness": 0,
-      "minerality": 4,
-      "finish": 7,
-      "intensity": 8,
-      "complexity": 7,
-      "aromaticIntensity": 9,
+      "minerality": 3,
+      "finish": 5,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 5,
       "flavorNotes": [
-        "pine",
-        "grapefruit",
         "citrus",
-        "resinous",
-        "clean"
+        "pine",
+        "tropical",
+        "hoppy"
       ],
-    "region": "Massachusetts"
+      "region": "Maine"
     }
   }
 ]

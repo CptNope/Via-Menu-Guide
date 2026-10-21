@@ -1,10 +1,188 @@
 [
   {
+    "id": "falling-for-spritz-flight",
+    "name": "Falling for Spritz Flight",
+    "description": "A sampling of four different spritzes just in time for autumn: Aperol, Elderflower, Pumpkin & Pomegranate.",
+    "garnish": "Varies by spritz",
+    "price": 18,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "aperol",
+      "elderflower-liqueur",
+      "pumpkin",
+      "pomegranate",
+      "prosecco",
+      "soda"
+    ],
+    "allergens": [],
+    "serverNotes": "🍂 ABOUT: Seasonal flight of four spritzes: Aperol, Elderflower, Pumpkin and Pomegranate. Lets guests taste four aperitivo styles at once.\n\n🍹 PROFILE: Light & bubbly | Bitter orange, floral elderflower, warm pumpkin spice and tart pomegranate | Low to moderate alcohol\n\n🍽️ PAIRS WITH: Appetizers and sharing plates: calamari, arancini, Italian Meat & Cheese Board, pizza.\n\n💡 SERVING TIP: Suggest tasting Aperol first and Pumpkin last. Fun for two to share before dinner.",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 6,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 0,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 4,
+      "carbonation": 8,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 5,
+      "intensity": 6,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "bitter-orange",
+        "floral",
+        "autumn-spice",
+        "pomegranate",
+        "bubbly"
+      ]
+    },
+    "foodPairings": [
+      "italian-meat-cheese-board",
+      "fried-calamari",
+      "bolognese-arancini",
+      "pizza"
+    ],
+    "dessertPairings": [
+      "cannoli",
+      "affogato"
+    ]
+  },
+  {
+    "id": "caprese-martini",
+    "name": "The Caprese Martini",
+    "description": "Gray Whale Gin, basil, tomato, olive brine, cracked black pepper, mozzarella & balsamic pearls.",
+    "garnish": "Mozzarella & balsamic pearls",
+    "price": 16,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "gin",
+      "basil",
+      "tomato",
+      "olive-brine",
+      "black-pepper",
+      "mozzarella",
+      "balsamic"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "serverNotes": "🍅 ABOUT: A savory martini built like a caprese salad: Gray Whale Gin, basil, tomato, olive brine and cracked black pepper, garnished with mozzarella and balsamic pearls.\n\n🍸 PROFILE: Savory & spirit-forward | Fresh basil, ripe tomato, briny olive and pepper | Dry, not sweet\n\n🍽️ PAIRS WITH: Burrata Caprese, Heirloom Tomato Margherita, Prosciutto Wrapped Mozzarella, antipasto.\n\n💡 SERVING TIP: For dirty-martini fans. Note the mozzarella garnish (dairy) for allergy questions.",
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 5,
+      "body": "medium",
+      "spiciness": 0,
+      "saltiness": 5,
+      "richness": 4,
+      "umami": 6,
+      "bitterness": 2,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 3,
+      "oakiness": 0,
+      "minerality": 1,
+      "finish": 6,
+      "intensity": 7,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "savory",
+        "basil",
+        "tomato",
+        "briny",
+        "pepper"
+      ]
+    },
+    "foodPairings": [
+      "burrata-caprese-salad",
+      "heirloom-tomato-margherita",
+      "prosciutto-wrapped-mozzarella",
+      "italian-meat-cheese-board"
+    ],
+    "dessertPairings": []
+  },
+  {
+    "id": "pumpkin-margarita",
+    "name": "Pumpkin Margarita",
+    "description": "Reposado, St. George Spiced Pear, pumpkin spice liqueur, agave, lime, orange, cinnamon rim.",
+    "garnish": "Cinnamon rim",
+    "price": 14,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "tequila",
+      "spiced-pear-liqueur",
+      "pumpkin-spice-liqueur",
+      "agave",
+      "lime",
+      "orange",
+      "cinnamon"
+    ],
+    "allergens": [],
+    "serverNotes": "🎃 ABOUT: Autumn margarita: reposado tequila, St. George Spiced Pear, pumpkin spice liqueur, agave, lime and orange with a cinnamon rim.\n\n🍹 PROFILE: Warm-spiced & citrusy | Pumpkin pie spice, ripe pear, bright lime | Medium sweetness\n\n🍽️ PAIRS WITH: Roasted Pork Belly, Crispy Pork Meatballs, Berkshire Pork Chop, pizza.\n\n💡 SERVING TIP: A seasonal crowd-pleaser for margarita drinkers.",
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 6,
+      "body": "medium",
+      "spiciness": 3,
+      "saltiness": 0,
+      "richness": 5,
+      "umami": 0,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 6,
+      "carbonation": 0,
+      "fruitiness": 6,
+      "oakiness": 2,
+      "minerality": 1,
+      "finish": 6,
+      "intensity": 7,
+      "complexity": 7,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "pumpkin-spice",
+        "pear",
+        "lime",
+        "cinnamon",
+        "agave"
+      ]
+    },
+    "foodPairings": [
+      "roasted-pork-belly",
+      "crispy-pork-meatballs",
+      "berkshire-pork-chop",
+      "pepperoni-pizza"
+    ],
+    "dessertPairings": [
+      "mascarpone-cheesecake",
+      "espresso-brownie-sundae"
+    ]
+  },
+  {
     "id": "barrel-aged-sangria",
     "name": "Barrel Aged Sangria",
-    "description": "Enjoy Red or White 1/2 Carafe...19, Full Carafe...38",
+    "description": "Enjoy Red or White. 1/2 Carafe 19, Full Carafe 38",
     "garnish": "Cherry, lime, orange slice",
-    "price": 14,
+    "price": 19,
     "category": "Signature Cocktails",
     "vegetarian": true,
     "glutenFree": true,
@@ -43,217 +221,82 @@
         "refreshing"
       ]
     },
-    "foodPairings": ["charcuterie", "bruschetta", "pizza", "calamari", "antipasto"],
-    "dessertPairings": ["fresh-fruit", "berry-tart", "lemon-sorbet"]
+    "foodPairings": [
+      "charcuterie",
+      "bruschetta",
+      "pizza",
+      "calamari",
+      "antipasto"
+    ],
+    "dessertPairings": [
+      "fresh-fruit",
+      "berry-tart",
+      "lemon-sorbet"
+    ]
   },
   {
-    "id": "casa-mopolitan",
-    "name": "Casa-Mopolitan",
-    "description": "Tito's Vodka, Triple Sec, Cranberry, Fresh Lime",
-    "garnish": "Lemon twist",
+    "id": "wimbledon",
+    "name": "Wimbledon",
+    "description": "Vodka, lemon, basil, strawberry, soda water.",
+    "garnish": "Strawberry & basil",
     "price": 14,
     "category": "Signature Cocktails",
-    "website": "https://www.titosvodka.com/",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
     "kids": false,
     "ingredients": [
       "vodka",
-      "triple-sec",
-      "cranberry",
-      "lime"
+      "lemon",
+      "basil",
+      "strawberry",
+      "soda-water"
     ],
     "allergens": [],
-    "serverNotes": "💖 CHARITY COCKTAIL: [Tito's Handmade Vodka](https://www.titosvodka.com/) is donating $1 per cocktail up to $10K (Nov 1, 2025-Jan 31, 2026) to [CASA Project Worcester County](https://casaprojectworcester.org/). Every order helps kids in foster care!\n\n🍸 PROFILE: Classic Cosmopolitan | Tito's vodka, triple sec, cranberry & fresh lime | Bright, tart & refreshing | Garnished with lemon twist | The name cleverly combines CASA with cosmopolitan!\n\n🍽️ PAIRS WITH: Appetizers, salads, light Italian fare, celebration meals.\n\n💡 SERVING TIP: Serve chilled in martini glass. Mention the charity—it's a feel-good order! Perfect for guests who love classics with a purpose.",
+    "serverNotes": "🍓 ABOUT: Light, refreshing vodka highball with lemon, basil, strawberry and soda water.\n\n🍹 PROFILE: Bright & fruity | Fresh strawberry, herbal basil, tart lemon | Bubbly and easy-drinking\n\n🍽️ PAIRS WITH: Salads, Burrata Caprese, shrimp, lighter lunch dishes.\n\n💡 SERVING TIP: Good pick for guests who want something light and not too sweet.",
     "flavorProfile": {
-      "sweetness": 4,
+      "sweetness": 5,
       "acidity": 7,
       "body": "light",
       "spiciness": 0,
       "saltiness": 0,
       "richness": 3,
       "umami": 0,
-      "bitterness": 1,
+      "bitterness": 0,
       "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 0,
+      "alcohol": 5,
+      "carbonation": 6,
       "fruitiness": 8,
       "oakiness": 0,
-      "minerality": 2,
+      "minerality": 1,
       "finish": 5,
-      "intensity": 6,
+      "intensity": 5,
       "complexity": 5,
       "aromaticIntensity": 7,
       "flavorNotes": [
-        "cranberry",
-        "lime",
-        "citrus",
-        "tart",
+        "strawberry",
+        "basil",
+        "lemon",
         "refreshing"
       ]
     },
-    "foodPairings": ["salads", "light-seafood", "caprese", "appetizers"],
-    "dessertPairings": ["cheesecake", "fruit-tart", "panna-cotta"]
-  },
-  {
-    "id": "golden-paloma",
-    "name": "Golden Paloma",
-    "description": "Mi Campo Blanco, Lime, Cinnamon Maple Syrup, Grapefruit",
-    "garnish": "Lime",
-    "price": 14,
-    "category": "Signature Cocktails",
-    "website": "https://www.micampotequila.com/",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "tequila",
-      "lime",
-      "grapefruit",
-      "cinnamon",
-      "maple"
+    "foodPairings": [
+      "burrata-caprese-salad",
+      "beet-salad",
+      "shrimp-scampi",
+      "jumbo-shrimp-cocktail"
     ],
-    "allergens": [],
-    "serverNotes": "🌅 📖 ABOUT: Elevated Paloma featuring [Mi Campo Blanco](https://www.micampotequila.com/) tequila (100% Blue Weber agave). Craft tequila from Jalisco, Mexico!\n\n🍸 PROFILE: Paloma Reimagined | Mi Campo Blanco, fresh lime, house-made cinnamon maple syrup & grapefruit | Bright citrus with warm spice notes | Beautiful golden color | The cinnamon maple adds autumn complexity!\n\n🍽️ PAIRS WITH: Mexican dishes, seafood, tacos, spicy appetizers, fish dishes.\n\n💡 SERVING TIP: Serve in rocks glass over ice. Perfect for tequila lovers seeking beyond margaritas! Great year-round, especially fall/winter. Popular brunch & happy hour choice!",
-    "flavorProfile": {
-      "sweetness": 5,
-      "acidity": 7,
-      "body": "light",
-      "spiciness": 2,
-      "saltiness": 0,
-      "richness": 4,
-      "umami": 0,
-      "bitterness": 4,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 7,
-      "oakiness": 0,
-      "minerality": 3,
-      "finish": 6,
-      "intensity": 6,
-      "complexity": 7,
-      "aromaticIntensity": 8,
-      "flavorNotes": [
-        "grapefruit",
-        "cinnamon",
-        "maple",
-        "citrus",
-        "bright"
-      ]
-    },
-    "foodPairings": ["tacos", "ceviche", "grilled-fish", "shrimp", "spicy-appetizers"],
-    "dessertPairings": ["flan", "churros", "citrus-sorbet"]
-  },
-  {
-    "id": "perfect-pear",
-    "name": "Perfect Pear",
-    "description": "House Vodka by Tree House, Spiced Pear Liqueur, Vanilla, Lemon",
-    "garnish": "Lemon twist",
-    "price": 14,
-    "category": "Signature Cocktails",
-    "website": "https://treehousebrewing.com/",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "vodka",
-      "pear",
-      "vanilla",
-      "lemon"
-    ],
-    "allergens": [],
-    "serverNotes": "🍐 📖 ABOUT: Elegant autumnal cocktail featuring [Tree House Vodka](https://treehousebrewing.com/) from Massachusetts. Known for their world-class IPA, now crafting premium spirits!\n\n🍸 PROFILE: Fruit-Forward & Sophisticated | Tree House vodka, spiced pear liqueur, vanilla & fresh lemon | Smooth with warm baking spices | Lemon twist garnish | Vanilla adds creamy sweetness!\n\n🍽️ PAIRS WITH: Cheese plates, pork dishes, autumn salads, desserts.\n\n💡 SERVING TIP: Serve chilled in coupe glass. Perfect for guests who enjoy unique fruit cocktails with depth! Great fall/winter choice but enjoyed year-round. Beautiful presentation!",
-    "flavorProfile": {
-      "sweetness": 6,
-      "acidity": 6,
-      "body": "medium",
-      "spiciness": 2,
-      "saltiness": 0,
-      "richness": 5,
-      "umami": 0,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 8,
-      "oakiness": 0,
-      "minerality": 2,
-      "finish": 6,
-      "intensity": 6,
-      "complexity": 7,
-      "aromaticIntensity": 8,
-      "flavorNotes": [
-        "pear",
-        "vanilla",
-        "spice",
-        "lemon",
-        "elegant"
-      ]
-    },
-    "foodPairings": ["cheese-plate", "pork-tenderloin", "autumn-salad", "roasted-chicken"],
-    "dessertPairings": ["apple-tart", "pear-crisp", "vanilla-gelato", "creme-brulee"]
-  },
-  {
-    "id": "carnivale",
-    "name": "Carnivale",
-    "description": "Drumshanbo Brazilian Pineapple Gin, Yuzu, Lime, Cane Sugar, brûléed lime",
-    "garnish": "Brûléed lime",
-    "price": 14,
-    "category": "Signature Cocktails",
-    "website": "https://www.drumshanbo.com/",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "gin",
-      "pineapple",
-      "yuzu",
-      "lime",
-      "sugar"
-    ],
-    "allergens": [],
-    "serverNotes": "🎉 📖 ABOUT: Brazilian-inspired cocktail featuring [Drumshanbo Gunpowder Gin](https://www.drumshanbo.com/) with pineapple. Irish gin infused with tropical botanicals from Brazil!\n\n🍸 PROFILE: Tropical & Festive | Drumshanbo pineapple gin, exotic yuzu (Japanese citrus), fresh lime & cane sugar | Brûléed lime garnish creates stunning presentation | Yuzu = lemon meets mandarin!\n\n🍽️ PAIRS WITH: Spicy dishes, ceviche, Thai food, tropical desserts.\n\n💡 SERVING TIP: Serve in rocks glass with brûléed lime. Perfect for adventurous guests who love tropical with sophistication! Great celebration cocktail or warm weather choice. The name captures carnival spirit!",
-    "flavorProfile": {
-      "sweetness": 5,
-      "acidity": 8,
-      "body": "light",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 4,
-      "umami": 0,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 9,
-      "oakiness": 0,
-      "minerality": 3,
-      "finish": 6,
-      "intensity": 7,
-      "complexity": 7,
-      "aromaticIntensity": 9,
-      "flavorNotes": [
-        "pineapple",
-        "yuzu",
-        "citrus",
-        "tropical",
-        "bright"
-      ]
-    },
-    "foodPairings": ["ceviche", "thai-dishes", "spicy-shrimp", "tropical-salad"],
-    "dessertPairings": ["coconut-cake", "mango-sorbet", "key-lime-pie", "tropical-fruit"]
+    "dessertPairings": [
+      "cheesecake",
+      "gelato"
+    ]
   },
   {
     "id": "blueberry-bombshell",
     "name": "Blueberry Bombshell",
-    "description": "Blueberry Vodka, Lemon Sorbet, Pineapple, Prosecco Float",
+    "description": "Blueberry Vodka, Lemon Sorbet, Pineapple, Prosecco Float *Also available as a Mocktail $11*",
     "garnish": "None",
-    "price": 14,
+    "price": 15,
     "category": "Signature Cocktails",
     "vegetarian": true,
     "glutenFree": true,
@@ -296,8 +339,18 @@
         "fruity"
       ]
     },
-    "foodPairings": ["brunch-dishes", "fruit-salad", "light-salads", "eggs-benedict"],
-    "dessertPairings": ["berry-tart", "lemon-cake", "fruit-sorbet", "panna-cotta"]
+    "foodPairings": [
+      "brunch-dishes",
+      "fruit-salad",
+      "light-salads",
+      "eggs-benedict"
+    ],
+    "dessertPairings": [
+      "berry-tart",
+      "lemon-cake",
+      "fruit-sorbet",
+      "panna-cotta"
+    ]
   },
   {
     "id": "mango-inferno",
@@ -347,15 +400,25 @@
         "tropical"
       ]
     },
-    "foodPairings": ["tacos", "wings", "nachos", "spicy-appetizers", "quesadillas"],
-    "dessertPairings": ["mango-sorbet", "churros", "tres-leches"]
+    "foodPairings": [
+      "tacos",
+      "wings",
+      "nachos",
+      "spicy-appetizers",
+      "quesadillas"
+    ],
+    "dessertPairings": [
+      "mango-sorbet",
+      "churros",
+      "tres-leches"
+    ]
   },
   {
     "id": "espresso-martini",
     "name": "Espresso Martini",
     "description": "Vanilla Vodka, Bepi Tossolini Espresso Liqueur, House-Brewed Espresso, Splash of Cream",
     "garnish": "3 coffee beans",
-    "price": 14,
+    "price": 15,
     "category": "Signature Cocktails",
     "website": "https://www.bepitossolini.it/",
     "vegetarian": true,
@@ -399,8 +462,17 @@
         "rich"
       ]
     },
-    "foodPairings": ["tiramisu", "chocolate-desserts", "cannoli"],
-    "dessertPairings": ["tiramisu", "chocolate-lava-cake", "affogato", "biscotti"]
+    "foodPairings": [
+      "tiramisu",
+      "chocolate-desserts",
+      "cannoli"
+    ],
+    "dessertPairings": [
+      "tiramisu",
+      "chocolate-lava-cake",
+      "affogato",
+      "biscotti"
+    ]
   },
   {
     "id": "mi-casa-su-casa",
@@ -449,66 +521,24 @@
         "margarita"
       ]
     },
-    "foodPairings": ["grilled-steak", "tacos", "enchiladas", "spicy-dishes"],
-    "dessertPairings": ["flan", "churros", "mexican-chocolate"]
-  },
-  {
-    "id": "mind-over-matter",
-    "name": "Mind Over Matter",
-    "description": "House Vodka by Tree House, Plantation Pineapple Rum, Aperol, Blood Orange Sorbet, Lemon, Lime, and Pineapple Juices",
-    "garnish": "Orange twist",
-    "price": 14,
-    "category": "Signature Cocktails",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "vodka",
-      "rum",
-      "aperol",
-      "orange",
-      "lemon",
-      "lime"
+    "foodPairings": [
+      "grilled-steak",
+      "tacos",
+      "enchiladas",
+      "spicy-dishes"
     ],
-    "allergens": [],
-    "serverNotes": "Vibrant signature cocktail with Tree House vodka, Plantation pineapple rum, Aperol, blood orange sorbet, lemon, and lime. Bright, refreshing, and beautifully layered. The blood orange sorbet creates stunning color while keeping it cold. Aperol adds Italian bitter-orange character. Multiple citrus creates complexity. Perfect for guests who love bright, refreshing cocktails with sophistication. Great warm weather choice or aperitif. Also available as a Mocktail for $10. Pairs wonderfully with seafood, salads, light appetizers, and citrus dishes. The name suggests mental triumph. Popular choice for those seeking something unique and photogenic.",
-    "flavorProfile": {
-      "sweetness": 5,
-      "acidity": 8,
-      "body": "medium",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 4,
-      "umami": 0,
-      "bitterness": 3,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 9,
-      "oakiness": 0,
-      "minerality": 3,
-      "finish": 6,
-      "intensity": 7,
-      "complexity": 8,
-      "aromaticIntensity": 9,
-      "flavorNotes": [
-        "citrus",
-        "blood-orange",
-        "aperol",
-        "pineapple",
-        "bright"
-      ]
-    },
-    "foodPairings": ["seafood", "salads", "light-appetizers", "citrus-dishes"],
-    "dessertPairings": ["orange-sorbet", "fruit-tart", "panna-cotta"]
+    "dessertPairings": [
+      "flan",
+      "churros",
+      "mexican-chocolate"
+    ]
   },
   {
     "id": "via-mai-tai",
-    "name": "The Via Mai Tai",
+    "name": "The VIA Mai Tai",
     "description": "Privateer Rum, Gosling's Dark Rum, Amaretto, Orgeat Syrup, Fresh Lime, Pineapple Juice and Amarena Cherry *ALLERGY: This drink recipe contains Almonds*",
     "garnish": "Amarena cherry",
-    "price": 14,
+    "price": 15,
     "category": "Signature Cocktails",
     "vegetarian": true,
     "glutenFree": true,
@@ -553,65 +583,25 @@
         "complex"
       ]
     },
-    "foodPairings": ["hawaiian-dishes", "spicy-food", "grilled-pineapple", "asian-fusion"],
-    "dessertPairings": ["coconut-cake", "pineapple-upside-down", "tropical-fruit", "macadamia-cookies"]
-  },
-  {
-    "id": "il-gentiluomo",
-    "name": "Il Gentiluomo (The Gentleman)",
-    "description": "BroVo London Dry Gin, Elderflower Liqueur, Prosecco, Lemon",
-    "garnish": "Lemon twist",
-    "price": 14,
-    "category": "Signature Cocktails",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "gin",
-      "elderflower",
-      "prosecco",
-      "lemon"
+    "foodPairings": [
+      "hawaiian-dishes",
+      "spicy-food",
+      "grilled-pineapple",
+      "asian-fusion"
     ],
-    "allergens": [],
-    "serverNotes": "Elegant Italian-inspired signature cocktail with BroVo London Dry gin, elderflower liqueur, Prosecco, and fresh lemon. Light, floral, and sophisticated. The name means 'The Gentleman' in Italian—refined and classy. Elderflower adds delicate floral sweetness. Prosecco brings bubbles and elegance. Refreshing and approachable yet complex. Perfect for guests who appreciate light, botanical cocktails. Great aperitif or celebration choice. Pairs wonderfully with seafood, salads, light appetizers, and Italian dishes. Beautiful presentation. Popular choice for those seeking something elegant and not too strong.",
-    "flavorProfile": {
-      "sweetness": 4,
-      "acidity": 6,
-      "body": "light",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 3,
-      "umami": 0,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 8,
-      "fruitiness": 5,
-      "oakiness": 0,
-      "minerality": 4,
-      "finish": 6,
-      "herbaceousness": 4,
-      "intensity": 5,
-      "complexity": 6,
-      "aromaticIntensity": 8,
-      "flavorNotes": [
-        "elderflower",
-        "gin",
-        "prosecco",
-        "floral",
-        "elegant"
-      ]
-    },
-    "foodPairings": ["oysters", "seafood", "salads", "light-pasta", "caprese"],
-    "dessertPairings": ["lemon-tart", "elderflower-cake", "vanilla-gelato", "macarons"]
+    "dessertPairings": [
+      "coconut-cake",
+      "pineapple-upside-down",
+      "tropical-fruit",
+      "macadamia-cookies"
+    ]
   },
   {
     "id": "plane-crash",
     "name": "Plane Crash",
     "description": "Jefferson's Small Batch Bourbon Infused with Smoked Honey, Aperol, Amaro dell'Etna and Fresh Lemon",
     "garnish": "Lemon twist",
-    "price": 14,
+    "price": 15,
     "category": "Signature Cocktails",
     "vegetarian": true,
     "glutenFree": true,
@@ -655,13 +645,23 @@
         "complex"
       ]
     },
-    "foodPairings": ["charcuterie", "grilled-meats", "italian-appetizers", "aged-cheese"],
-    "dessertPairings": ["dark-chocolate", "espresso-desserts", "bourbon-pecan-pie", "caramel-desserts"]
+    "foodPairings": [
+      "charcuterie",
+      "grilled-meats",
+      "italian-appetizers",
+      "aged-cheese"
+    ],
+    "dessertPairings": [
+      "dark-chocolate",
+      "espresso-desserts",
+      "bourbon-pecan-pie",
+      "caramel-desserts"
+    ]
   },
   {
     "id": "raspberry-mojito",
     "name": "Raspberry Mojito",
-    "description": "Our classic made with Privateer Rum from Ipswich, MA",
+    "description": "Our classic made with Privateer Rum from Ipswich, MA *Also available as a Mocktail $11*",
     "garnish": "None",
     "price": 14,
     "category": "Signature Cocktails",
@@ -705,7 +705,192 @@
         "refreshing"
       ]
     },
-    "foodPairings": ["salads", "seafood", "light-dishes", "cuban-cuisine"],
-    "dessertPairings": ["berry-tart", "lime-sorbet", "fruit-salad", "key-lime-pie"]
+    "foodPairings": [
+      "salads",
+      "seafood",
+      "light-dishes",
+      "cuban-cuisine"
+    ],
+    "dessertPairings": [
+      "berry-tart",
+      "lime-sorbet",
+      "fruit-salad",
+      "key-lime-pie"
+    ]
+  },
+  {
+    "id": "banana-bread-old-fashioned",
+    "name": "Banana Bread Old Fashioned",
+    "description": "Sazerac, house made banana brown sugar syrup, black walnut & Angostura bitters.",
+    "garnish": "Orange peel",
+    "price": 15,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": false,
+    "kids": false,
+    "ingredients": [
+      "rye-whiskey",
+      "banana-brown-sugar-syrup",
+      "black-walnut-bitters",
+      "angostura-bitters"
+    ],
+    "allergens": [
+      "tree nuts"
+    ],
+    "serverNotes": "🍌 ABOUT: Sazerac Rye stirred with house made banana brown sugar syrup, black walnut and Angostura bitters.\n\n🥃 PROFILE: Rich & spirit-forward | Caramelized banana, brown sugar, toasted walnut and rye spice\n\n🍽️ PAIRS WITH: Short Rib, Berkshire Pork Chop, Filet Mignon, desserts.\n\n💡 SERVING TIP: Black walnut bitters are a nut flavoring; mention it for nut-allergy questions.",
+    "flavorProfile": {
+      "sweetness": 5,
+      "acidity": 1,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 4,
+      "oakiness": 6,
+      "minerality": 1,
+      "finish": 8,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "banana",
+        "brown-sugar",
+        "walnut",
+        "spice",
+        "rye"
+      ]
+    },
+    "foodPairings": [
+      "short-rib",
+      "berkshire-pork-chop",
+      "filet-mignon"
+    ],
+    "dessertPairings": [
+      "espresso-brownie-sundae",
+      "tiramisu",
+      "crepe-cake"
+    ]
+  },
+  {
+    "id": "campfire-old-fashioned",
+    "name": "Campfire Old Fashioned",
+    "description": "Mad River Maple Bourbon, demerara, chocolate & black walnut bitters, toasted marshmallow.",
+    "garnish": "Toasted marshmallow",
+    "price": 15,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": false,
+    "kids": false,
+    "ingredients": [
+      "maple-bourbon",
+      "demerara",
+      "chocolate-bitters",
+      "black-walnut-bitters",
+      "marshmallow"
+    ],
+    "allergens": [
+      "tree nuts"
+    ],
+    "serverNotes": "🔥 ABOUT: Mad River Maple Bourbon with demerara, chocolate and black walnut bitters, finished with a toasted marshmallow.\n\n🥃 PROFILE: S'mores in a glass | Maple, cocoa, toasted sugar and oak\n\n🍽️ PAIRS WITH: Filet Mignon, Surf & Turf, Short Rib, chocolate desserts.\n\n💡 SERVING TIP: Black walnut bitters are a nut flavoring; mention it for nut-allergy questions.",
+    "flavorProfile": {
+      "sweetness": 6,
+      "acidity": 1,
+      "body": "full",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 4,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 3,
+      "oakiness": 7,
+      "minerality": 1,
+      "finish": 8,
+      "intensity": 8,
+      "complexity": 8,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "maple",
+        "chocolate",
+        "toasted-marshmallow",
+        "oak",
+        "smoke"
+      ]
+    },
+    "foodPairings": [
+      "filet-mignon",
+      "surf-and-turf",
+      "short-rib"
+    ],
+    "dessertPairings": [
+      "chocolate-torta",
+      "espresso-brownie-sundae"
+    ]
+  },
+  {
+    "id": "anejo-old-fashioned",
+    "name": "Añejo Old Fashioned",
+    "description": "Alma De Jaguar Añejo, agave, rye, orange & chocolate mole bitters, smoke.",
+    "garnish": "Orange peel, smoke",
+    "price": 19,
+    "category": "Signature Cocktails",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "anejo-tequila",
+      "agave",
+      "rye-whiskey",
+      "orange-bitters",
+      "chocolate-mole-bitters"
+    ],
+    "allergens": [],
+    "serverNotes": "🥃 ABOUT: Alma De Jaguar Añejo tequila with agave, a touch of rye, orange and chocolate mole bitters, finished with smoke.\n\n🥃 PROFILE: Smoky & spirit-forward | Aged agave, oak, orange peel and cocoa-chili spice\n\n🍽️ PAIRS WITH: Filet Mignon, Grilled Veal Chop, Short Rib, Berkshire Pork Chop.\n\n💡 SERVING TIP: The premium Old Fashioned on the list. Great for whiskey drinkers curious about aged tequila.",
+    "flavorProfile": {
+      "sweetness": 3,
+      "acidity": 1,
+      "body": "full",
+      "spiciness": 2,
+      "saltiness": 0,
+      "richness": 7,
+      "umami": 0,
+      "bitterness": 5,
+      "tannin": 0,
+      "alcohol": 8,
+      "carbonation": 0,
+      "fruitiness": 3,
+      "oakiness": 7,
+      "minerality": 1,
+      "finish": 8,
+      "intensity": 8,
+      "complexity": 9,
+      "aromaticIntensity": 9,
+      "flavorNotes": [
+        "agave",
+        "oak",
+        "orange",
+        "mole",
+        "smoke"
+      ]
+    },
+    "foodPairings": [
+      "filet-mignon",
+      "grilled-veal-chop",
+      "short-rib",
+      "berkshire-pork-chop"
+    ],
+    "dessertPairings": [
+      "chocolate-torta"
+    ]
   }
 ]

@@ -11,7 +11,10 @@
     "glutenFree": true,
     "nutFree": true,
     "vegan": true,
-    "ingredients": ["rice-flour", "corn-flour"],
+    "ingredients": [
+      "rice-flour",
+      "corn-flour"
+    ],
     "allergens": []
   },
   {
@@ -26,8 +29,13 @@
     "glutenFree": false,
     "nutFree": true,
     "vegan": true,
-    "ingredients": ["durum-wheat", "semolina"],
-    "allergens": ["gluten"]
+    "ingredients": [
+      "durum-wheat",
+      "semolina"
+    ],
+    "allergens": [
+      "gluten"
+    ]
   },
   {
     "id": "pasta-spaghetti",
@@ -41,24 +49,13 @@
     "glutenFree": false,
     "nutFree": true,
     "vegan": true,
-    "ingredients": ["durum-wheat", "semolina"],
-    "allergens": ["gluten"]
-  },
-  {
-    "id": "pasta-fiori",
-    "name": "Fiori",
-    "pronunciation": "fee-OH-ree",
-    "description": "Flower-shaped pasta that catches sauces in its delicate petals.",
-    "price": 0,
-    "category": "Pasta",
-    "pastaType": "dry",
-    "serverNotes": "Beautiful flower-shaped dry pasta. No eggs. Delicate appearance, excellent for cream sauces, pesto. Adds visual appeal to dishes. Great conversation piece.",
-    "vegetarian": true,
-    "glutenFree": false,
-    "nutFree": true,
-    "vegan": true,
-    "ingredients": ["durum-wheat", "semolina"],
-    "allergens": ["gluten"]
+    "ingredients": [
+      "durum-wheat",
+      "semolina"
+    ],
+    "allergens": [
+      "gluten"
+    ]
   },
   {
     "id": "pasta-orecchiette",
@@ -73,8 +70,13 @@
     "glutenFree": false,
     "nutFree": true,
     "vegan": true,
-    "ingredients": ["durum-wheat", "semolina"],
-    "allergens": ["gluten"]
+    "ingredients": [
+      "durum-wheat",
+      "semolina"
+    ],
+    "allergens": [
+      "gluten"
+    ]
   },
   {
     "id": "pasta-pappardelle",
@@ -89,8 +91,15 @@
     "glutenFree": false,
     "nutFree": true,
     "vegan": false,
-    "ingredients": ["flour", "eggs", "semolina"],
-    "allergens": ["gluten", "eggs"]
+    "ingredients": [
+      "flour",
+      "eggs",
+      "semolina"
+    ],
+    "allergens": [
+      "gluten",
+      "eggs"
+    ]
   },
   {
     "id": "pasta-cheese-ravioli",
@@ -105,7 +114,17 @@
     "glutenFree": false,
     "nutFree": true,
     "vegan": false,
-    "ingredients": ["flour", "eggs", "ricotta", "parmesan", "semolina"],
-    "allergens": ["gluten", "eggs", "dairy"]
+    "ingredients": [
+      "flour",
+      "eggs",
+      "ricotta",
+      "parmesan",
+      "semolina"
+    ],
+    "allergens": [
+      "gluten",
+      "eggs",
+      "dairy"
+    ]
   }
 ]

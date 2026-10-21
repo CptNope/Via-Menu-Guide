@@ -25,5 +25,5 @@ export const APPETIZER_PIZZA_CATEGORIES = ['Appetizers', 'Grilled Pizzas'];
 
 export const MAIN_COURSE_CATEGORIES = [
   'Salads', 'VIA Italian Classics', 'Beef, Pork & Veal', 
-  'House Pastas', 'Seafood', 'VIA Signature Sandwiches', 'VIA Lunch Classics'
+  'House Pastas', 'Seafood', '$25 Entrées', 'VIA Signature Sandwiches', 'VIA Lunch Classics'
 ];

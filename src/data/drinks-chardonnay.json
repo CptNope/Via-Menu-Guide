@@ -2,7 +2,7 @@
   {
     "id": "la-crema-chardonnay",
     "name": "La Crema",
-    "description": "Monterey, 2023",
+    "description": "Monterey, 2024",
     "price": 12,
     "category": "Chardonnay",
     "website": "https://www.lacrema.com/",
@@ -41,13 +41,13 @@
         "vanilla",
         "butter"
       ],
-    "region": "California"
+      "region": "California"
     }
   },
   {
     "id": "rombauer-chardonnay",
     "name": "Rombauer",
-    "description": "Carneros, 2023",
+    "description": "Carneros, 2024",
     "price": 17,
     "category": "Chardonnay",
     "website": "https://www.rombauer.com/",
@@ -78,7 +78,7 @@
         "toasty-oak",
         "creamy"
       ],
-    "region": "California"
+      "region": "California"
     }
   }
 ]

@@ -1,54 +1,9 @@
 [
   {
-    "id": "les-deux-tours-sauvignon-blanc-bottle",
-    "name": "\"Les Deux Tours\" by LaDoucette",
-    "description": "Loire, FR, 2023",
-    "price": 42,
-    "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "📖 ABOUT: (ladoucette.fr) 'Les Deux Tours' Sancerre from prestigious Baron de Ladoucette. Classic Loire Valley Sauvignon Blanc. Elegant French quality!\n\n🍷 STYLE: Crisp Sancerre | Flinty minerality, citrus & green apple | Bright acidity | Classic Loire character | Food-friendly elegance.\n\n🍽️ PAIRS WITH: Oysters, seafood, goat cheese, fresh shellfish.\n\n💡 BOTTLE SERVICE: Authentic Sancerre from prestigious producer. Classic French terroir!",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "white-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 1,
-      "acidity": 8,
-      "body": "light",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 3,
-      "umami": 2,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 7,
-      "oakiness": 1,
-      "minerality": 8,
-      "finish": 6,
-      "herbaceousness": 7,
-      "intensity": 6,
-      "complexity": 6,
-      "aromaticIntensity": 7,
-      "flavorNotes": [
-        "citrus",
-        "green-apple",
-        "mineral",
-        "crisp"
-      ]
-    },
-    "website": "https://www.ladoucette.fr/",
-    "region": "Loire Valley"
-  },
-  {
     "id": "matua-sauvignon-blanc-bottle",
     "name": "Matua",
-    "description": "Marlborough, NZ, 2024",
-    "price": 48,
+    "description": "Marlborough, NZ, 2025",
+    "price": 43,
     "category": "Sauvignon Blanc Bottles",
     "serverNotes": "📖 ABOUT: (matua.co.nz) Marlborough Sauvignon Blanc from Matua in New Zealand. Classic Kiwi SB - crisp, vibrant, tropical. Great value!\n\n🍷 STYLE: Crisp Sauvignon Blanc | Passion fruit, grapefruit & herbs | Bright acidity | Classic New Zealand character.\n\n🍽️ PAIRS WITH: Seafood, salads, goat cheese, fresh dishes.\n\n💡 BOTTLE SERVICE: Classic New Zealand SB. Vibrant, tropical style!",
     "vegetarian": true,
@@ -90,9 +45,102 @@
     "region": "New Zealand"
   },
   {
+    "id": "jacques-dumont-bottle",
+    "name": "Jacques Dumont",
+    "pronunciation": "ZHAHK doo-MOHN",
+    "description": "Loire, FR, WE 90, 2024",
+    "price": 55,
+    "category": "Sauvignon Blanc Bottles",
+    "serverNotes": "📖 ABOUT: Loire Valley Sauvignon Blanc from France, rated 90 by Wine Enthusiast. Old World, mineral style.\n\n🍷 STYLE: Crisp Loire Sauvignon Blanc | Citrus, gooseberry, cut grass & flint | Bright acidity, no oak | Clean, chalky finish\n\n🍽️ PAIRS WITH: Shrimp cocktail, fried calamari, goat cheese, salads, grilled salmon, haddock.\n\n💡 BOTTLE SERVICE: A strong bottle to suggest for the table; check the vintage on the list when presenting.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 2,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "fruitiness": 7,
+      "oakiness": 0,
+      "minerality": 8,
+      "finish": 6,
+      "earthiness": 3,
+      "herbaceousness": 7,
+      "intensity": 6,
+      "complexity": 6,
+      "aromaticIntensity": 7,
+      "flavorNotes": [
+        "citrus",
+        "gooseberry",
+        "flint",
+        "grassy"
+      ]
+    },
+    "region": "Loire Valley"
+  },
+  {
+    "id": "saint-clair-bottle",
+    "name": "Saint Clair",
+    "pronunciation": "saynt CLAIR",
+    "description": "Marlborough, 2025",
+    "price": 56,
+    "category": "Sauvignon Blanc Bottles",
+    "website": "https://www.saintclair.co.nz/",
+    "serverNotes": "📖 ABOUT: Family-owned Marlborough Sauvignon Blanc from Saint Clair in New Zealand.\n\n🍷 STYLE: Vibrant Marlborough Sauvignon Blanc | Passionfruit, grapefruit, lime & fresh herbs | Zesty acidity | Clean, juicy finish\n\n🍽️ PAIRS WITH: Shrimp cocktail, Grilled Caesar, beet salad, goat cheese, seafood, salmon.\n\n💡 BOTTLE SERVICE: A strong bottle to suggest for the table; check the vintage on the list when presenting.",
+    "vegetarian": true,
+    "glutenFree": true,
+    "nutFree": true,
+    "kids": false,
+    "ingredients": [
+      "white-wine"
+    ],
+    "allergens": [],
+    "flavorProfile": {
+      "sweetness": 1,
+      "acidity": 8,
+      "body": "light",
+      "spiciness": 0,
+      "saltiness": 0,
+      "richness": 3,
+      "umami": 1,
+      "bitterness": 1,
+      "tannin": 0,
+      "alcohol": 5,
+      "carbonation": 0,
+      "fruitiness": 9,
+      "oakiness": 0,
+      "minerality": 5,
+      "finish": 6,
+      "earthiness": 1,
+      "herbaceousness": 7,
+      "intensity": 7,
+      "complexity": 6,
+      "aromaticIntensity": 8,
+      "flavorNotes": [
+        "passionfruit",
+        "grapefruit",
+        "lime",
+        "herbaceous"
+      ]
+    },
+    "region": "New Zealand"
+  },
+  {
     "id": "cloudy-bay-sauvignon-blanc-bottle",
     "name": "Cloudy Bay",
-    "description": "Marlborough, 2024",
+    "description": "Marlborough, 2025",
     "price": 57,
     "category": "Sauvignon Blanc Bottles",
     "serverNotes": "🏆 ABOUT: (cloudybay.co.nz) Cloudy Bay - the wine that put Marlborough on the map! Iconic New Zealand Sauvignon Blanc. World-renowned quality!\n\n🍷 STYLE: Crisp Sauvignon Blanc | Intense passion fruit, citrus & herbs | Vibrant, complex | Marlborough benchmark.\n\n🍽️ PAIRS WITH: Seafood, sushi, oysters, fresh dishes.\n\n💡 BOTTLE SERVICE: Iconic New Zealand wine. The original Marlborough SB that started it all!",
@@ -133,51 +181,6 @@
     },
     "website": "https://www.cloudybay.co.nz/",
     "region": "New Zealand"
-  },
-  {
-    "id": "hubert-brochard-sancerre-bottle",
-    "name": "Hubert Brochard",
-    "description": "Sancerre, FR, 2023",
-    "price": 62,
-    "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "📖 ABOUT: (hubertbrochard.com) Sancerre from Hubert Brochard in Loire Valley. Family estate, traditional methods. Authentic French Sancerre!\n\n🍷 STYLE: Crisp Sancerre | Flinty minerality, citrus & white flowers | Pure, elegant | Classic Loire terroir.\n\n🍽️ PAIRS WITH: Oysters, seafood, goat cheese, French cuisine.\n\n💡 BOTTLE SERVICE: Family estate Sancerre. Traditional Loire quality!",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "white-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 0,
-      "acidity": 9,
-      "body": "light",
-      "spiciness": 0,
-      "saltiness": 1,
-      "richness": 3,
-      "umami": 3,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 7,
-      "oakiness": 1,
-      "minerality": 9,
-      "finish": 8,
-      "herbaceousness": 6,
-      "intensity": 7,
-      "complexity": 8,
-      "aromaticIntensity": 8,
-      "flavorNotes": [
-        "citrus",
-        "flint",
-        "mineral",
-        "Sancerre"
-      ]
-    },
-    "website": "https://www.hubertbrochard.com/",
-    "region": "Loire Valley"
   },
   {
     "id": "flouret-sancerre-bottle",
@@ -270,49 +273,5 @@
     },
     "website": "https://www.crochet-sancerre.com/",
     "region": "Loire Valley"
-  },
-  {
-    "id": "knights-bridge-pont-de-chevalier-bottle",
-    "name": "Knights Bridge \"Pont de Chevalier\"",
-    "description": "Knights Valley, 2023",
-    "price": 64,
-    "category": "Sauvignon Blanc Bottles",
-    "serverNotes": "📖 ABOUT: (knightsbridgewinery.com) 'Pont de Chevalier' Sauvignon Blanc from Knights Bridge in Napa. California expression of Loire style. Elegant, food-friendly!\n\n🍷 STYLE: Crisp Sauvignon Blanc | Citrus, melon & herbs | Bright acidity | Napa elegance with Loire influence.\n\n🍽️ PAIRS WITH: Seafood, salads, goat cheese, fresh dishes.\n\n💡 BOTTLE SERVICE: Napa SB with French elegance. California-Loire fusion!",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "white-wine"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 1,
-      "acidity": 7,
-      "body": "light",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 4,
-      "umami": 2,
-      "bitterness": 1,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 0,
-      "fruitiness": 8,
-      "oakiness": 2,
-      "minerality": 5,
-      "finish": 7,
-      "herbaceousness": 6,
-      "intensity": 7,
-      "complexity": 7,
-      "aromaticIntensity": 7,
-      "flavorNotes": [
-        "grapefruit",
-        "melon",
-        "fresh",
-        "Bordeaux-style"
-      ]
-    },
-    "website": "https://www.knightsbridgewinery.com/"
   }
 ]

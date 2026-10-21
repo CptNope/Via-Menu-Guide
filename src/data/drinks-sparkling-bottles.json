@@ -3,8 +3,8 @@
     "id": "centorri-moscato-pavia-bottle",
     "name": "Centorri Moscato di Pavia",
     "pronunciation": "chen-TOR-ee moh-SCAH-toh dee pah-VEE-ah",
-    "description": "IGT Lombardy, IT, 2023",
-    "price": 44,
+    "description": "IGT Lombardy, IT, 2025",
+    "price": 39,
     "category": "Sparkling Bottles",
     "serverNotes": "📖 ABOUT: (centorri.it) Sweet Moscato di Pavia from Centorri in northern Italy. Lightly sparkling, low alcohol. Perfect dessert wine or aperitif!\n\n🥂 STYLE: Light-bodied Moscato | Sweet, fruity with peach & floral notes | Lightly sparkling (frizzante) | Low alcohol (5-7%) | Refreshing.\n\n🍽️ PAIRS WITH: Desserts, fruit tarts, pastries, brunch.\n\n💡 BOTTLE SERVICE: Sweet, fun, low alcohol! Perfect for dessert or celebration start!",
     "vegetarian": true,
@@ -133,52 +133,6 @@
     },
     "website": "https://www.pasqua.it/",
     "region": "Italy"
-  },
-  {
-    "id": "taittinger-prestige-brut-bottle",
-    "name": "Taittinger Prestige Brut",
-    "pronunciation": "TAY-tin-jur press-TEEJ brroot",
-    "description": "Champagne, France, N.V.",
-    "price": 65,
-    "category": "Sparkling Bottles",
-    "serverNotes": "🥂 ABOUT: (taittinger.com) Prestige Brut from historic Taittinger in Champagne. Family-owned Grande Marque since 1734. Classic French Champagne!\n\n🥂 STYLE: Medium-bodied Champagne | Brioche, citrus & fine bubbles | Elegant, balanced | Classic Champagne character.\n\n🍽️ PAIRS WITH: Oysters, caviar, seafood, celebrations.\n\n💡 BOTTLE SERVICE: Historic Champagne house. Grande Marque quality!",
-    "vegetarian": true,
-    "glutenFree": true,
-    "nutFree": true,
-    "kids": false,
-    "ingredients": [
-      "champagne"
-    ],
-    "allergens": [],
-    "flavorProfile": {
-      "sweetness": 1,
-      "acidity": 7,
-      "body": "light",
-      "spiciness": 0,
-      "saltiness": 0,
-      "richness": 4,
-      "umami": 2,
-      "bitterness": 0,
-      "tannin": 0,
-      "alcohol": 6,
-      "carbonation": 7,
-      "fruitiness": 6,
-      "oakiness": 2,
-      "minerality": 5,
-      "finish": 7,
-      "creaminess": 5,
-      "intensity": 7,
-      "complexity": 7,
-      "aromaticIntensity": 7,
-      "flavorNotes": [
-        "apple",
-        "brioche",
-        "elegant",
-        "Champagne"
-      ]
-    },
-    "website": "https://www.taittinger.com/",
-    "region": "Champagne"
   },
   {
     "id": "nicolas-feuillatte-brut-bottle",

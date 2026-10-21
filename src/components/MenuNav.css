@@ -190,3 +190,17 @@
   .menu-nav-tab { padding: 0 0.25rem; font-size: 0.8rem; }
   .menu-nav-format .count { display: none; }
 }
+
+/* Desktops (mouse) and wide screens: wrap the chips instead of a hidden
+   sideways scroll, so every heading is visible and clickable. */
+@media (min-width: 700px), (hover: hover) and (pointer: fine) {
+  .menu-nav-row { align-items: flex-start; }
+  .menu-nav-chips {
+    flex-wrap: wrap;
+    overflow: visible;
+    -webkit-mask-image: none;
+    mask-image: none;
+    padding-right: 0;
+    row-gap: 0.25rem;
+  }
+}

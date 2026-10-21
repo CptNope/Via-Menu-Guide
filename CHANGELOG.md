@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.7] - 2026-10-21
+
+### Fixed
+- **Pages were wider than the screen on phones** (since 1.5.0): the header's page links were changed to one swipeable row, but the narrow-screen header still used a wrapping layout, which sized itself to that whole row and widened every page to about 640px. Phones then showed the page zoomed out or scrolled sideways. The header now fits the screen and its links scroll inside it, and the app can no longer grow wider than the screen.
+
+---
+
 ## [1.5.6] - 2026-10-21
 
 ### Fixed

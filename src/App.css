@@ -1056,23 +1056,20 @@
     padding-bottom: 0.4rem;
   }
 
-  /* One swipeable row of pages instead of two wrapped rows */
+  /* Page links wrap onto extra rows when they don't fit, so every link is
+     always visible (no sideways scrolling) */
   .nav {
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    flex-wrap: wrap;
     min-width: 0;
-    max-width: calc(100% + 2.5rem);
-    margin: 0 -1.25rem;
-    padding: 0 1.25rem 0.2rem;
-    gap: 0.25rem;
-    scrollbar-width: none;
+    margin-left: 0;
+    gap: 0.25rem 0.35rem;
   }
-  .nav::-webkit-scrollbar { display: none; }
   .nav-link {
     flex: 0 0 auto;
     min-height: 40px;
     display: inline-flex;
     align-items: center;
+    padding: 0.35rem 0.6rem;
   }
 }
 

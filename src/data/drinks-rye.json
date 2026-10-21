@@ -6,7 +6,7 @@
     "price": 11,
     "category": "Rye",
     "website": "https://www.pendletonwhisky.com/",
-    "region": "Canada",
+    "region": "Oregon",
     "style": "Canadian Rye",
     "body": "Medium",
     "profile": [
@@ -56,7 +56,12 @@
         "spice",
         "smooth"
       ]
-    }
+    },
+    "coordinates": [
+      45.7054,
+      -121.5215
+    ],
+    "location": "Hood River Distillers, Hood River, OR (Canadian whisky, bottled in Oregon)"
   },
   {
     "id": "sazerac-rye",
@@ -116,7 +121,12 @@
         "bold"
       ]
     },
-    "pronunciation": "SAZ-er-ak"
+    "pronunciation": "SAZ-er-ak",
+    "coordinates": [
+      38.2009,
+      -84.8733
+    ],
+    "location": "Buffalo Trace Distillery, Frankfort, KY"
   },
   {
     "id": "high-west-rye",
@@ -175,7 +185,12 @@
         "pepper",
         "bold"
       ]
-    }
+    },
+    "coordinates": [
+      40.8118,
+      -111.4073
+    ],
+    "location": "High West Distillery, Wanship (Park City), UT"
   },
   {
     "id": "knob-creek-small-batch-rye",
@@ -234,7 +249,12 @@
         "char",
         "robust"
       ]
-    }
+    },
+    "coordinates": [
+      37.9298,
+      -85.6527
+    ],
+    "location": "James B. Beam Distilling Co., Clermont, KY"
   },
   {
     "id": "whistlepig-piggyback-rye",
@@ -294,7 +314,12 @@
         "pepper",
         "bold"
       ]
-    }
+    },
+    "coordinates": [
+      43.8937,
+      -73.3162
+    ],
+    "location": "WhistlePig Farm, Shoreham, VT"
   },
   {
     "id": "mad-river-revolution-rye",
@@ -352,7 +377,12 @@
         "pepper",
         "craft"
       ]
-    }
+    },
+    "coordinates": [
+      44.1139,
+      -72.8555
+    ],
+    "location": "Mad River Distillers, Warren, VT"
   },
   {
     "id": "mad-river-silver-oak-rye",
@@ -409,7 +439,12 @@
         "vanilla",
         "innovative"
       ]
-    }
+    },
+    "coordinates": [
+      44.1139,
+      -72.8555
+    ],
+    "location": "Mad River Distillers, Warren, VT"
   },
   {
     "id": "short-path-concord-rye",
@@ -467,7 +502,12 @@
         "pepper",
         "craft"
       ]
-    }
+    },
+    "coordinates": [
+      42.4086,
+      -71.0542
+    ],
+    "location": "Short Path Distillery, Everett, MA"
   },
   {
     "id": "whistlepig-10-year-rye",
@@ -526,7 +566,12 @@
         "oak",
         "complex"
       ]
-    }
+    },
+    "coordinates": [
+      43.8937,
+      -73.3162
+    ],
+    "location": "WhistlePig Farm, Shoreham, VT"
   },
   {
     "id": "whistlepig-boss-hog-xi-rye",
@@ -584,6 +629,11 @@
         "oak",
         "extraordinary"
       ]
-    }
+    },
+    "coordinates": [
+      43.8937,
+      -73.3162
+    ],
+    "location": "WhistlePig Farm, Shoreham, VT"
   }
 ]

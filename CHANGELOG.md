@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.4] - 2026-10-21
+
+### Changed
+- **Every spirit is mapped at its distillery or producer**: all 61 whiskeys, cognacs, grappa, ports and amari. Examples: Buffalo Trace, Eagle Rare, Blanton's and Sazerac at Buffalo Trace in Frankfort; Maker's Mark in Loretto; Knob Creek and Basil Hayden's at Clermont; WhistlePig in Shoreham, VT; Lagavulin and Port Charlotte on Islay; Macallan at Craigellachie; Hennessy in Cognac, Courvoisier in Jarnac; the ports at their Vila Nova de Gaia lodges and Quinta do Noval in Pinhão; Nonino in Percoto; Strega in Benevento. Blended Scotch and brands without a published town are labeled that way.
+- Spirit cards, map pins and map headers show the location; spirit maps zoom to fit their pins.
+
+### Fixed
+- See the Elephant Amaro is made in Agropoli, Italy (it was listed as American).
+- Perrine Key Lime Amaro is made by Tree House Distillery in Massachusetts (it was listed as a Florida amaro).
+- Pendleton 12 Year is placed at Hood River Distillers in Oregon, where it's bottled (Canadian whisky).
+
+---
+
 ## [1.5.3] - 2026-10-21
 
 ### Changed

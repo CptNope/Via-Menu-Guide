@@ -58,7 +58,12 @@
         "bittersweet",
         "refreshing"
       ]
-    }
+    },
+    "coordinates": [
+      37.689,
+      15.1427
+    ],
+    "location": "Distilleria Fratelli Russo, Santa Venerina (Mount Etna)"
   },
   {
     "id": "amaro-montenegro",
@@ -120,7 +125,12 @@
         "smooth",
         "balanced"
       ]
-    }
+    },
+    "coordinates": [
+      44.4716,
+      11.4049
+    ],
+    "location": "Montenegro, San Lazzaro di Savena (Bologna)"
   },
   {
     "id": "bully-boy-amaro",
@@ -180,7 +190,12 @@
         "bold",
         "distinctive"
       ]
-    }
+    },
+    "coordinates": [
+      42.3289,
+      -71.0851
+    ],
+    "location": "Bully Boy Distillers, Roxbury (Boston), MA"
   },
   {
     "id": "don-ciccio-donna-rasa-amaro",
@@ -239,7 +254,12 @@
         "bittersweet",
         "unique"
       ]
-    }
+    },
+    "coordinates": [
+      38.9107,
+      -76.9923
+    ],
+    "location": "Don Ciccio & Figli, Washington, DC"
   },
   {
     "id": "campari",
@@ -249,7 +269,7 @@
     "price": 9,
     "category": "Amaro & Digestivo",
     "website": "https://www.campari.com/",
-    "region": "Italy",
+    "region": "Lombardy",
     "style": "Bitter Aperitif",
     "body": "Medium",
     "profile": [
@@ -297,7 +317,12 @@
         "bitter",
         "iconic"
       ]
-    }
+    },
+    "coordinates": [
+      45.5348,
+      9.2372
+    ],
+    "location": "Campari, Sesto San Giovanni (Milan)"
   },
   {
     "id": "galliano",
@@ -357,7 +382,12 @@
         "sweet",
         "aromatic"
       ]
-    }
+    },
+    "coordinates": [
+      42.7902,
+      10.3402
+    ],
+    "location": "Galliano, created in Livorno, Tuscany (1896)"
   },
   {
     "id": "strega",
@@ -416,7 +446,12 @@
         "herbal",
         "mysterious"
       ]
-    }
+    },
+    "coordinates": [
+      41.2476,
+      14.7057
+    ],
+    "location": "Strega Alberti, Benevento (Campania)"
   },
   {
     "id": "fernet-branca",
@@ -426,7 +461,7 @@
     "price": 9,
     "category": "Amaro & Digestivo",
     "website": "https://www.fernetbranca.com/",
-    "region": "Italy",
+    "region": "Lombardy",
     "style": "Fernet",
     "body": "Full",
     "profile": [
@@ -476,16 +511,21 @@
         "intense",
         "bitter"
       ]
-    }
+    },
+    "coordinates": [
+      45.4642,
+      9.1896
+    ],
+    "location": "Fratelli Branca, Milan"
   },
   {
     "id": "see-the-elephant-amaro",
     "name": "See The Elephant Amaro",
-    "description": "USA",
+    "description": "Agropoli, Campania, Italy",
     "price": 11,
     "category": "Amaro & Digestivo",
     "website": "https://www.elephantamaro.com/",
-    "region": "USA",
+    "region": "Italy",
     "style": "American Craft Amaro",
     "body": "Medium",
     "profile": [
@@ -498,7 +538,7 @@
       "Neat",
       "Cocktails"
     ],
-    "serverNotes": "🐘 📖 ABOUT: American craft amaro. 56 proof. 'See The Elephant' = 19th century expression for gaining worldly experience! New World masters Old World!\n\n🥃 PROFILE: Balanced & Innovative | Complex herbs, citrus & warming spice | Respects Italian tradition with American creativity | Small-batch, carefully sourced botanicals.\n\n🍽️ PAIRS WITH: Aged cheese, Italian charcuterie, dark chocolate, roasted nuts.\n\n💡 SERVING: Perfect for Amaro Sours or digestif! Neat or over ice. Supporting American craft innovation!",
+    "serverNotes": "🐘 📖 ABOUT: Italian amaro made in Agropoli, on the Campania coast south of Salerno. 'Seeing the elephant' is a 19th-century expression for gaining worldly experience.\n\n🥃 PROFILE: Balanced & herbal | Bitter herbs, citrus & warming spice | Approachable bitterness.\n\n🍽️ PAIRS WITH: Aged cheese, Italian charcuterie, dark chocolate, roasted nuts.\n\n💡 SERVING: Neat or over ice as a digestivo, or in an Amaro Sour.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -527,7 +567,12 @@
         "craft",
         "complex"
       ]
-    }
+    },
+    "coordinates": [
+      40.3469,
+      14.9966
+    ],
+    "location": "Agropoli, Campania, Italy"
   },
   {
     "id": "unico-amaro-siciliano",
@@ -577,7 +622,12 @@
         "mediterranean",
         "aromatic"
       ]
-    }
+    },
+    "coordinates": [
+      38.1112,
+      13.3524
+    ],
+    "location": "Palermo, Sicily"
   },
   {
     "id": "faccia-brutto-amaro",
@@ -629,7 +679,12 @@
         "bold",
         "artisanal"
       ]
-    }
+    },
+    "coordinates": [
+      40.6526,
+      -73.9497
+    ],
+    "location": "Faccia Brutto Spirits, Brooklyn, NY"
   },
   {
     "id": "foro-originale-amaro",
@@ -639,7 +694,7 @@
     "price": 12,
     "category": "Amaro & Digestivo",
     "website": "https://www.foroamaro.com/",
-    "region": "Italy",
+    "region": "Piedmont",
     "style": "Herbal Amaro",
     "body": "Medium",
     "profile": [
@@ -688,7 +743,12 @@
         "bittersweet",
         "balanced"
       ]
-    }
+    },
+    "coordinates": [
+      45.0678,
+      7.6825
+    ],
+    "location": "Piedmont (producer town not published)"
   },
   {
     "id": "nonino-quintessentia-amaro",
@@ -698,7 +758,7 @@
     "price": 12,
     "category": "Amaro & Digestivo",
     "website": "https://www.grappanonino.it/",
-    "region": "Italy",
+    "region": "Friuli",
     "style": "Grappa-Based Amaro",
     "body": "Medium",
     "profile": [
@@ -749,15 +809,20 @@
         "refined",
         "elegant"
       ]
-    }
+    },
+    "coordinates": [
+      45.9744,
+      13.3223
+    ],
+    "location": "Nonino Distillery, Percoto (Friuli)"
   },
   {
     "id": "perrine-key-lime-amaro",
     "name": "Perrine Key Lime Amaro",
-    "description": "Florida",
+    "description": "Tree House Distillery, Massachusetts",
     "price": 12,
     "category": "Amaro & Digestivo",
-    "region": "Florida",
+    "region": "Massachusetts",
     "style": "Citrus Amaro",
     "body": "Light-Medium",
     "profile": [
@@ -770,7 +835,7 @@
       "Neat",
       "Cocktails"
     ],
-    "serverNotes": "📖 ABOUT: Unique American amaro featuring Florida Key limes! 60 proof. From Perrine, Miami neighborhood known for Key limes! Italian tradition meets Miami beaches!\n\n🥃 PROFILE: Bright & Refreshing | Real Florida Key limes creating tart tropical character | Herbs & bitter citrus | Nothing like traditional Italian amaros | Reimagines what amaro can be!\n\n🍽️ PAIRS WITH: Ceviche, Key lime pie, coconut desserts, Florida stone crab.\n\n💡 SERVING: Perfect for tropical cocktails, tiki drinks, or after spicy food! Chilled or over crushed ice. Florida sunshine!",
+    "serverNotes": "📖 ABOUT: Key lime amaro from Tree House Distillery in Massachusetts (the Tree House Brewing family). Made on a house-distilled spirit infused with roots, herbs, botanicals and Key limes; unfiltered and bottled by hand. 25% ABV (50 proof).\n\n🥃 PROFILE: Bright & bittersweet | Tart Key lime, herbal bitterness, light body | Green in the glass.\n\n🍽️ PAIRS WITH: Seafood, fried calamari, salads, citrus desserts.\n\n💡 SERVING: The producer suggests it in a Spritz or a Negroni; also good chilled after a meal. Local to Massachusetts, a fun talking point for guests.",
     "vegetarian": true,
     "glutenFree": true,
     "nutFree": true,
@@ -807,6 +872,11 @@
         "refreshing",
         "tropical"
       ]
-    }
+    },
+    "coordinates": [
+      42.1341,
+      -71.9698
+    ],
+    "location": "Tree House Distillery, Charlton, MA"
   }
 ]

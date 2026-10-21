@@ -57,7 +57,12 @@
         "honey",
         "smooth"
       ]
-    }
+    },
+    "coordinates": [
+      57.352,
+      -3.3381
+    ],
+    "location": "The Glenlivet Distillery, Ballindalloch (Speyside)"
   },
   {
     "id": "port-charlotte-scotch",
@@ -115,7 +120,12 @@
         "citrus",
         "intense"
       ]
-    }
+    },
+    "coordinates": [
+      55.766,
+      -6.361
+    ],
+    "location": "Bruichladdich Distillery, Islay"
   },
   {
     "id": "glenfiddich-12-year-scotch",
@@ -175,7 +185,12 @@
         "fresh",
         "classic"
       ]
-    }
+    },
+    "coordinates": [
+      57.4449,
+      -3.1283
+    ],
+    "location": "Glenfiddich Distillery, Dufftown (Speyside)"
   },
   {
     "id": "balvenie-double-wood-scotch",
@@ -234,7 +249,12 @@
         "spice",
         "elegant"
       ]
-    }
+    },
+    "coordinates": [
+      57.4449,
+      -3.1283
+    ],
+    "location": "The Balvenie Distillery, Dufftown (Speyside)"
   },
   {
     "id": "johnnie-walker-black-scotch",
@@ -293,7 +313,12 @@
         "spice",
         "complex"
       ]
-    }
+    },
+    "coordinates": [
+      55.9533,
+      -3.1884
+    ],
+    "location": "Blended Scotch — Johnnie Walker Princes Street, Edinburgh"
   },
   {
     "id": "lagavulin-16-year-scotch",
@@ -352,7 +377,12 @@
         "dried fruit",
         "powerful"
       ]
-    }
+    },
+    "coordinates": [
+      55.6355,
+      -6.1265
+    ],
+    "location": "Lagavulin Distillery, Islay"
   },
   {
     "id": "macallan-12-year-scotch",
@@ -411,7 +441,12 @@
         "oak",
         "luxurious"
       ]
-    }
+    },
+    "coordinates": [
+      57.4898,
+      -3.188
+    ],
+    "location": "The Macallan Estate, Craigellachie (Speyside)"
   },
   {
     "id": "oban-14-year-scotch",
@@ -470,7 +505,12 @@
         "honey",
         "maritime"
       ]
-    }
+    },
+    "coordinates": [
+      56.412,
+      -5.4724
+    ],
+    "location": "Oban Distillery, Oban (West Highlands)"
   },
   {
     "id": "johnnie-walker-blue-scotch",
@@ -528,7 +568,12 @@
         "vanilla",
         "exceptional"
       ]
-    }
+    },
+    "coordinates": [
+      55.9533,
+      -3.1884
+    ],
+    "location": "Blended Scotch — Johnnie Walker Princes Street, Edinburgh"
   },
   {
     "id": "macallan-18-year-scotch",
@@ -586,6 +631,11 @@
         "fig",
         "extraordinary"
       ]
-    }
+    },
+    "coordinates": [
+      57.4898,
+      -3.188
+    ],
+    "location": "The Macallan Estate, Craigellachie (Speyside)"
   }
 ]

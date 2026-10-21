@@ -7,7 +7,7 @@
     "price": 13,
     "category": "Grappa",
     "website": "https://www.grappanonino.it/",
-    "region": "Italy",
+    "region": "Friuli",
     "style": "Single Varietal Grappa",
     "body": "Light-Medium",
     "profile": [
@@ -55,6 +55,11 @@
         "aromatic",
         "elegant"
       ]
-    }
+    },
+    "coordinates": [
+      45.9744,
+      13.3223
+    ],
+    "location": "Nonino Distillery, Percoto (Friuli)"
   }
 ]

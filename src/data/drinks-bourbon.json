@@ -48,7 +48,12 @@
         "honey",
         "smooth"
       ]
-    }
+    },
+    "coordinates": [
+      38.2009,
+      -84.8733
+    ],
+    "location": "Buffalo Trace Distillery, Frankfort, KY"
   },
   {
     "id": "four-roses-small-batch-bourbon",
@@ -99,7 +104,12 @@
         "oak",
         "balanced"
       ]
-    }
+    },
+    "coordinates": [
+      38.0371,
+      -84.8963
+    ],
+    "location": "Four Roses Distillery, Lawrenceburg, KY"
   },
   {
     "id": "jeffersons-small-batch-bourbon",
@@ -150,7 +160,12 @@
         "citrus",
         "elegant"
       ]
-    }
+    },
+    "coordinates": [
+      38.3235,
+      -85.4726
+    ],
+    "location": "Jefferson's, Kentucky Artisan Distillery, Crestwood, KY"
   },
   {
     "id": "makers-mark-bourbon",
@@ -201,7 +216,12 @@
         "sweet",
         "smooth"
       ]
-    }
+    },
+    "coordinates": [
+      37.6353,
+      -85.4008
+    ],
+    "location": "Maker's Mark Distillery, Loretto, KY"
   },
   {
     "id": "buffalo-trace-bourbon",
@@ -252,7 +272,12 @@
         "oak",
         "balanced"
       ]
-    }
+    },
+    "coordinates": [
+      38.2009,
+      -84.8733
+    ],
+    "location": "Buffalo Trace Distillery, Frankfort, KY"
   },
   {
     "id": "elijah-craig-bourbon",
@@ -303,7 +328,12 @@
         "spice",
         "rich"
       ]
-    }
+    },
+    "coordinates": [
+      37.8092,
+      -85.4669
+    ],
+    "location": "Heaven Hill, Bardstown, KY"
   },
   {
     "id": "high-west-bourbon",
@@ -354,7 +384,12 @@
         "mint",
         "unique"
       ]
-    }
+    },
+    "coordinates": [
+      40.8118,
+      -111.4073
+    ],
+    "location": "High West Distillery, Wanship (Park City), UT"
   },
   {
     "id": "whistlepig-piggyback-bourbon",
@@ -406,7 +441,12 @@
         "pepper",
         "bold"
       ]
-    }
+    },
+    "coordinates": [
+      43.8937,
+      -73.3162
+    ],
+    "location": "WhistlePig Farm, Shoreham, VT"
   },
   {
     "id": "basil-haydens-bourbon",
@@ -457,7 +497,12 @@
         "honey",
         "elegant"
       ]
-    }
+    },
+    "coordinates": [
+      37.9298,
+      -85.6527
+    ],
+    "location": "James B. Beam Distilling Co., Clermont, KY"
   },
   {
     "id": "knob-creek-bourbon",
@@ -508,7 +553,12 @@
         "nuts",
         "bold"
       ]
-    }
+    },
+    "coordinates": [
+      37.9298,
+      -85.6527
+    ],
+    "location": "James B. Beam Distilling Co., Clermont, KY"
   },
   {
     "id": "woodford-reserve-double-oaked-bourbon",
@@ -558,7 +608,12 @@
         "toasted oak",
         "complex"
       ]
-    }
+    },
+    "coordinates": [
+      38.0526,
+      -84.7299
+    ],
+    "location": "Woodford Reserve Distillery, Versailles, KY"
   },
   {
     "id": "uncle-nearest-1856-bourbon",
@@ -609,7 +664,12 @@
         "maple",
         "smooth"
       ]
-    }
+    },
+    "coordinates": [
+      35.4834,
+      -86.4603
+    ],
+    "location": "Nearest Green Distillery, Shelbyville, TN"
   },
   {
     "id": "blantons-bourbon",
@@ -660,7 +720,12 @@
         "leather",
         "complex"
       ]
-    }
+    },
+    "coordinates": [
+      38.2009,
+      -84.8733
+    ],
+    "location": "Buffalo Trace Distillery, Frankfort, KY"
   },
   {
     "id": "angels-envy-bourbon",
@@ -710,7 +775,12 @@
         "berry",
         "smooth"
       ]
-    }
+    },
+    "coordinates": [
+      38.2542,
+      -85.7594
+    ],
+    "location": "Angel's Envy Distillery, Louisville, KY"
   },
   {
     "id": "whistlepig-snout-to-tail-bourbon",
@@ -761,7 +831,12 @@
         "oak",
         "complex"
       ]
-    }
+    },
+    "coordinates": [
+      43.8937,
+      -73.3162
+    ],
+    "location": "WhistlePig Farm, Shoreham, VT"
   },
   {
     "id": "angels-envy-triple-oak-bourbon",
@@ -810,6 +885,11 @@
         "toast",
         "luxurious"
       ]
-    }
+    },
+    "coordinates": [
+      38.2542,
+      -85.7594
+    ],
+    "location": "Angel's Envy Distillery, Louisville, KY"
   }
 ]

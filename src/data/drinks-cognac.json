@@ -57,7 +57,12 @@
         "spice",
         "bold"
       ]
-    }
+    },
+    "coordinates": [
+      45.6731,
+      -0.221
+    ],
+    "location": "Château de Bourg-Charente (Cognac)"
   },
   {
     "id": "courvoisier-cognac",
@@ -116,7 +121,12 @@
         "caramel",
         "smooth"
       ]
-    }
+    },
+    "coordinates": [
+      45.6791,
+      -0.1741
+    ],
+    "location": "Courvoisier, Jarnac (Cognac)"
   },
   {
     "id": "grand-marnier-cognac",
@@ -176,7 +186,12 @@
         "spice",
         "luxurious"
       ]
-    }
+    },
+    "coordinates": [
+      45.6731,
+      -0.221
+    ],
+    "location": "Château de Bourg-Charente (Cognac)"
   },
   {
     "id": "hennessy-cognac",
@@ -237,7 +252,12 @@
         "bold",
         "iconic"
       ]
-    }
+    },
+    "coordinates": [
+      45.6932,
+      -0.325
+    ],
+    "location": "Hennessy, Cognac"
   },
   {
     "id": "remy-vsop-cognac",
@@ -296,6 +316,11 @@
         "complex",
         "elegant"
       ]
-    }
+    },
+    "coordinates": [
+      45.6932,
+      -0.325
+    ],
+    "location": "Rémy Martin, Cognac"
   }
 ]

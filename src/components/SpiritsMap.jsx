@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import FitToPoints from './FitToPoints';
 import L from 'leaflet';
 
 // Fix for default marker icons
@@ -321,6 +322,7 @@ function SpiritsMap({ spirits, categoryName }) {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
+            <FitToPoints points={spirits.map(sp => sp.coordinates || (sp.region ? regionCenters[sp.region] : null))} maxZoom={11} />
             
             {/* Spirit markers */}
             {spirits.map((spirit, idx) => {
@@ -337,6 +339,7 @@ function SpiritsMap({ spirits, categoryName }) {
                     <div className="wine-popup">
                       <strong>{spirit.name}</strong>
                       <p>{spirit.description}</p>
+                      {spirit.location && <p>📍 {spirit.location}</p>}
                       <p><em>{spirit.region} • {spirit.style}</em></p>
                       {spirit.price && <p><strong>${spirit.price}</strong></p>}
                     </div>

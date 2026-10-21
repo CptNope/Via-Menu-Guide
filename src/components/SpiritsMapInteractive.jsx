@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import FitToPoints, { kmBetween } from './FitToPoints';
 import L from 'leaflet';
 
 // Fix for default marker icons in React-Leaflet
@@ -401,6 +402,9 @@ function SpiritsMapInteractive({ spirit }) {
 
   // Use spirit's coordinates if available, otherwise use region center
   const spiritCoords = spirit.coordinates || regionData.center;
+  // Frame the distillery with the landmarks around it (within 60 km)
+  const nearbyLandmarks = regionData.landmarks.filter(l => kmBetween(spiritCoords, l.coords) <= 60);
+  const framePoints = [spiritCoords, ...(showLandmarks ? nearbyLandmarks.map(l => l.coords) : [])];
   const spiritIcon = createWhiskeyIcon(regionColors[spirit.region] || '#B8860B');
 
   return (
@@ -424,7 +428,7 @@ function SpiritsMapInteractive({ spirit }) {
             >
               {showLandmarks ? '🏛️ Hide' : '🏛️ Show'} Landmarks
             </button>
-            <span className="map-region-label">📍 {spirit.region}, {regionData.country}</span>
+            <span className="map-region-label">📍 {spirit.location || `${spirit.region}, ${regionData.country}`}</span>
           </div>
           
           <MapContainer 
@@ -437,6 +441,7 @@ function SpiritsMapInteractive({ spirit }) {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
+            <FitToPoints points={framePoints} maxZoom={11} singleZoom={10} />
             
             {/* Spirit marker */}
             <Marker position={spiritCoords} icon={spiritIcon}>
@@ -444,7 +449,7 @@ function SpiritsMapInteractive({ spirit }) {
                 <div className="wine-popup">
                   <strong>{spirit.name}</strong>
                   <p>{spirit.description}</p>
-                  {spirit.distillery && <p><em>Distillery: {spirit.distillery}</em></p>}
+                  {spirit.location && <p>📍 {spirit.location}</p>}
                 </div>
               </Popup>
             </Marker>

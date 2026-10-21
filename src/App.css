@@ -668,6 +668,16 @@
   color: white;
 }
 
+.pairing-toggle-btn.cocktail-btn {
+  background: #fdf7f8;
+  border-color: #c9737f;
+}
+
+.pairing-toggle-btn.cocktail-btn:hover {
+  background: #a3384b;
+  color: white;
+}
+
 .pairing-toggle-btn.after-dinner-btn {
   background: #f8f6f3;
   border-color: #8b7766;

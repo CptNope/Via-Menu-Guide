@@ -3,15 +3,17 @@
  */
 
 export const WINE_CATEGORIES = [
-  'Italian Reds', 'Super Tuscan', 'Merlot & Malbec', 'Pinot Noir & Interesting Reds', 
+  'Italian Reds', 'Super Tuscan', 'Merlot & Malbec', 'Pinot Noir', 'Pinot Noir & Interesting Reds', 
   'Organic Pinot Noir', 'Cabernet & Blends', 'Sauvignon Blanc', 'Chardonnay', 
   'Interesting Whites', 'Sparkling',
   'Italian Reds Bottles', 'Super Tuscan Bottles', 'Merlot & Malbec Bottles', 
   'Pinot Noir & Interesting Reds Bottles', 'Cabernet & Blends Bottles',
   'Sauvignon Blanc Bottles', 'Chardonnay Bottles', 'Interesting Whites Bottles',
   'Sparkling Bottles',
-  'Half Bottles', 'Half Bottles - Wine'
+  'Half Bottles', 'Half Bottles - Wine', 'Wine Flights'
 ];
+
+export const COCKTAIL_CATEGORIES = ['Signature Cocktails', 'Mocktails'];
 
 export const BEER_CATEGORIES = ['Draught', 'Bottles & Cans', 'Non-Alcoholic Beer', 'Beer'];
 

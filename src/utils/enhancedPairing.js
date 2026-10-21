@@ -6,6 +6,7 @@
  * - For wine bottles: Best food pairings across all menu categories
  */
 
+import { wineFormatOf } from '../constants/drinkSections.js';
 import { findPairings, findFoodPairings } from './pairingAlgorithm.js';
 import { applyPairingPreferences } from './pairingPreferences.js';
 
@@ -21,53 +22,12 @@ export function getFoodPairingRecommendations(foodItem, allDrinks, preferences =
     return null;
   }
 
-  // Separate wines by the glass and bottles
-  // Wines by the glass are typically lower priced (under $20) and don't have "Bottles" or "Half" in category
-  // Explicitly exclude beer and cocktail categories
-  const winesByGlass = allDrinks.filter(drink => 
-    drink.flavorProfile && 
-    drink.price < 20 &&
-    !drink.category?.includes('Bottles') &&
-    !drink.category?.includes('Half') &&
-    (drink.category?.includes('Red') || 
-     drink.category?.includes('White') || 
-     drink.category?.includes('Rosé') ||
-     drink.category?.includes('Rose') ||
-     drink.category?.includes('Sparkling')) &&
-    // Exclude beers and cocktails
-    drink.category !== 'Draught' &&
-    drink.category !== 'Bottles & Cans' &&
-    drink.category !== 'Non-Alcoholic Beer' &&
-    drink.category !== 'Beer' &&
-    !drink.category?.includes('Cocktails')
-  );
-  
-  // Half bottles - separate category
-  const halfBottles = allDrinks.filter(drink => 
-    drink.flavorProfile &&
-    drink.category?.includes('Half') &&
-    // Exclude beers, cocktails, and other non-wine drinks
-    drink.category !== 'Bottles & Cans' &&
-    drink.category !== 'Draught' &&
-    drink.category !== 'Non-Alcoholic Beer' &&
-    drink.category !== 'Beer' &&
-    !drink.category?.includes('Cocktails')
-  );
-  
-  // Full bottles - marked with "Bottles" in category (but NOT "Half") or have higher prices
-  // Explicitly exclude beer categories and half bottles
-  const bottles = allDrinks.filter(drink => 
-    drink.flavorProfile &&
-    !drink.category?.includes('Half') &&  // Exclude half bottles
-    (drink.category?.includes('Bottles') || 
-     drink.price >= 30) &&
-    // Exclude beers, cocktails, and other non-wine drinks
-    drink.category !== 'Bottles & Cans' &&
-    drink.category !== 'Draught' &&
-    drink.category !== 'Non-Alcoholic Beer' &&
-    drink.category !== 'Beer' &&
-    !drink.category?.includes('Cocktails')
-  );
+  // Split the wine list by format. Only wine categories count, so beer,
+  // cocktails and spirits never appear as wine suggestions.
+  const wines = allDrinks.filter(drink => drink.flavorProfile && wineFormatOf(drink.category || ''));
+  const winesByGlass = wines.filter(drink => wineFormatOf(drink.category) === 'glass');
+  const halfBottles = wines.filter(drink => wineFormatOf(drink.category) === 'half');
+  const bottles = wines.filter(drink => wineFormatOf(drink.category) === 'bottle');
 
   // Find best wine by the glass
   let glassPairings = findPairings(foodItem, winesByGlass, 20);
@@ -147,8 +107,8 @@ export function getWinePairingRecommendations(wineBottle, allFoods) {
     return null;
   }
 
-  // Find all food pairings
-  const allPairings = findFoodPairings(wineBottle, allFoods, 20);
+  // Score every dish so each course has a candidate
+  const allPairings = findFoodPairings(wineBottle, allFoods, allFoods.length);
 
   // Group by food category
   const categorized = {};
@@ -160,12 +120,15 @@ export function getWinePairingRecommendations(wineBottle, allFoods) {
     categorized[category].push(pairing);
   });
 
-  // Get top overall matches
-  const topMatches = allPairings.slice(0, 5);
+  // Top matches are savory dishes; desserts show in the by-course list and
+  // in the dessert pairings for after-dinner drinks
+  const DESSERT_COURSES = ['Desserts', 'Gelato', 'Sorbetto'];
+  const topMatches = allPairings.filter(p => !DESSERT_COURSES.includes(p.foodCategory)).slice(0, 5);
 
   // Get best match from each major category
-  const categories = ['Appetizers', 'House Pastas', 'Seafood', 'VIA Italian Classics', 
-                      'Beef, Pork & Veal', 'Grilled Pizzas', 'Salads', 'Desserts', 'Gelato', 'Sorbetto'];
+  const categories = ['Appetizers', 'Grilled Pizzas', 'Salads', 'VIA Italian Classics', 'House Pastas',
+                      'Beef, Pork & Veal', 'Seafood', '$25 Entrées', 'VIA Signature Sandwiches',
+                      'VIA Lunch Classics', 'Desserts', 'Gelato', 'Sorbetto'];
   
   const bestByCategory = {};
   categories.forEach(cat => {

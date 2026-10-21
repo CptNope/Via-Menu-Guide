@@ -8,7 +8,8 @@ import {
   AFTER_DINNER_CATEGORIES,
   DESSERT_CATEGORIES,
   APPETIZER_PIZZA_CATEGORIES,
-  MAIN_COURSE_CATEGORIES
+  MAIN_COURSE_CATEGORIES,
+  COCKTAIL_CATEGORIES
 } from '../constants/pairingCategories.js';
 import drinksDraught from "../data/drinks-draught.json";
 import drinksBottlesCans from "../data/drinks-bottles-cans.json";
@@ -45,6 +46,7 @@ import drinksMocktails from "../data/drinks-mocktails.json";
 import drinksCoffeeCocktails from "../data/drinks-coffee-cocktails.json";
 import appetizers from '../data/appetizers.json';
 import dinnerData from '../data/dinner.json';
+import lunchData from '../data/lunch.json';
 import dessertData from '../data/dessert.json';
 import gelatoData from '../data/gelato.json';
 
@@ -93,13 +95,21 @@ const FILTERED_WHISKEYS = drinks.filter(drink =>
   drink.flavorProfile && WHISKEY_CATEGORIES.includes(drink.category)
 );
 
+const FILTERED_COCKTAILS = drinks.filter(drink =>
+  drink.flavorProfile && COCKTAIL_CATEGORIES.includes(drink.category)
+);
+
 const FILTERED_AFTER_DINNER = drinks.filter(drink => 
   AFTER_DINNER_CATEGORIES.includes(drink.category)
 );
 
 // Pre-combine and filter food data
 const ALL_DESSERTS = [...dessertData, ...gelatoData];
-const ALL_FOOD_ITEMS = [...appetizers, ...dinnerData, ...ALL_DESSERTS].filter(food => 
+// Lunch-only dishes (sandwiches, lunch classics) join the dinner menu; dishes on
+// both menus are listed once, using the dinner version.
+const DINNER_NAMES = new Set(dinnerData.map(d => d.name));
+const LUNCH_ONLY = lunchData.filter(l => !DINNER_NAMES.has(l.name) && l.id !== 'lunch-pasta-sauce');
+const ALL_FOOD_ITEMS = [...appetizers, ...dinnerData, ...LUNCH_ONLY, ...ALL_DESSERTS].filter(food => 
   food.category !== 'Pasta' && 
   !food.id?.includes('scoops') && 
   !food.id?.includes('sampler') &&
@@ -127,7 +137,8 @@ export function usePairingData(item, pairingPreferences = null) {
       WINE_CATEGORIES.includes(item.category) ||
       BEER_CATEGORIES.includes(item.category) ||
       WHISKEY_CATEGORIES.includes(item.category) ||
-      AFTER_DINNER_CATEGORIES.includes(item.category)
+      AFTER_DINNER_CATEGORIES.includes(item.category) ||
+      COCKTAIL_CATEGORIES.includes(item.category)
     ),
     isDessert: DESSERT_CATEGORIES.includes(item.category),
     isAppetizerOrPizza: APPETIZER_PIZZA_CATEGORIES.includes(item.category),
@@ -169,6 +180,15 @@ export function usePairingData(item, pairingPreferences = null) {
       : null;
   }, [categoryFlags.isAppetizerOrPizza, categoryFlags.isMainCourse, item]);
 
+  // Cocktail and mocktail pairings for appetizers, pizzas and mains
+  const cocktailPairings = useMemo(() => {
+    if (!(categoryFlags.isAppetizerOrPizza || categoryFlags.isMainCourse) || !item.flavorProfile || FILTERED_COCKTAILS.length === 0) return null;
+    const topCocktailMatches = findPairings(item, FILTERED_COCKTAILS, 6);
+    return topCocktailMatches && topCocktailMatches.length > 0
+      ? { recommendations: { topMatches: topCocktailMatches } }
+      : null;
+  }, [categoryFlags.isAppetizerOrPizza, categoryFlags.isMainCourse, item]);
+
   // Memoize bourbon/whiskey pairings
   const bourbonPairings = useMemo(() => {
     if (!(categoryFlags.isAppetizerOrPizza || categoryFlags.isMainCourse) || !item.flavorProfile || FILTERED_WHISKEYS.length === 0) return null;
@@ -202,6 +222,7 @@ export function usePairingData(item, pairingPreferences = null) {
     foodPairings,
     afterDinnerPairings,
     beerPairings,
+    cocktailPairings,
     bourbonPairings,
     whiskeyPairings,
     dessertPairings

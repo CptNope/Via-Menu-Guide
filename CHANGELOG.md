@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.2] - 2026-10-21
+
+### Fixed
+- **Cocktail and mocktail pairings use the flavor engine.** Cocktails, mocktails and wine flights now get a "Food Pairings" dropdown with VIA dishes ranked by flavor profile, plus a best match for each course. Before, cocktails were treated as food (their dropdown suggested wines) and showed a hand-typed list of generic foods that aren't on the menu.
+- **Cocktail Pairings on dishes**: appetizers, pizzas, salads and mains have a new "Cocktail Pairings" dropdown next to beer and whiskey.
+- **Wine by the glass suggestions** now consider every glass pour. Before, only Italian Reds, Interesting Whites and Sparkling could be suggested, because of a category-name check; Super Tuscan, Cabernet, Pinot Noir, Sauvignon Blanc and Chardonnay pours were never picked. Bottle suggestions now only ever include wine.
+- **Glass Pinot Noir** cards show food pairings instead of being treated as a dish.
+- **Lunch dishes** (sandwiches, lunch classics) are now included when a drink suggests food, alongside the new $25 Entrées.
+- A drink's top food pairings are savory dishes; desserts appear in the by-course list.
+
+---
+
 ## [1.5.1] - 2026-10-21
 
 ### Fixed

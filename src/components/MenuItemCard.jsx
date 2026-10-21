@@ -32,6 +32,7 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
     foodPairings,
     afterDinnerPairings,
     beerPairings,
+    cocktailPairings,
     bourbonPairings,
     whiskeyPairings,
     dessertPairings
@@ -211,16 +212,15 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
         </div>
       )}
 
-      {/* Static Food Pairings for Cocktails & Mocktails */}
-      {item.foodPairings && item.foodPairings.length > 0 && (
+      {/* Hand-written pairing notes, only where the flavor engine has nothing to show */}
+      {!winePairings && item.foodPairings && item.foodPairings.length > 0 && (
         <div className="cocktail-pairings">
           <strong>🍽️ Food Pairings:</strong>{' '}
           {item.foodPairings.map(p => p.replace(/-/g, ' ')).join(', ')}
         </div>
       )}
 
-      {/* Static Dessert Pairings for Cocktails & Mocktails */}
-      {item.dessertPairings && item.dessertPairings.length > 0 && (
+      {!winePairings && item.dessertPairings && item.dessertPairings.length > 0 && (
         <div className="cocktail-pairings">
           <strong>🍰 Dessert Pairings:</strong>{' '}
           {item.dessertPairings.map(p => p.replace(/-/g, ' ')).join(', ')}
@@ -257,6 +257,16 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
           <BeveragePairingDisplay 
             pairings={beerPairings} 
             title="🍺 Top Beer Pairings"
+          />
+        </PairingSection>
+      )}
+
+      {/* Cocktail & Mocktail Pairings for Appetizers, Pizzas & Mains */}
+      {cocktailPairings && (
+        <PairingSection icon="🍸" label="Cocktail Pairings" buttonClass="cocktail-btn">
+          <BeveragePairingDisplay
+            pairings={cocktailPairings}
+            title="🍸 Top Cocktail & Mocktail Pairings"
           />
         </PairingSection>
       )}

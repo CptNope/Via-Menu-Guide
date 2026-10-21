@@ -10,6 +10,9 @@ on:
       - gh-pages
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,3 +28,12 @@ jobs:
           name: build
           path: build
           retention-days: 7
+      - name: Publish build to the build-preview branch
+        if: github.event_name == 'push'
+        run: |
+          cd build
+          git init -q -b build-preview
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A && git commit -q -m "Build of ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" build-preview

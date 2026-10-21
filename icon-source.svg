@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#5a2a27"/>
+  
+  <!-- VIA Text -->
+  <text x="512" y="440" font-family="Georgia, serif" font-size="280" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="20">VIA</text>
+  
+  <!-- Italian Table Text -->
+  <text x="512" y="550" font-family="Georgia, serif" font-size="60" fill="#e8d5c4" text-anchor="middle" letter-spacing="8">ITALIAN TABLE</text>
+  
+  <!-- Decorative Line Above -->
+  <line x1="312" y1="220" x2="712" y2="220" stroke="#e8d5c4" stroke-width="3"/>
+  
+  <!-- Decorative Line Below -->
+  <line x1="312" y1="620" x2="712" y2="620" stroke="#e8d5c4" stroke-width="3"/>
+  
+  <!-- Wine Glass Icon (Left) -->
+  <path d="M 280 650 L 300 750 L 295 750 L 295 800 L 340 800 L 340 750 L 335 750 L 355 650 Z M 285 650 L 280 680 L 360 680 L 355 650 Z" fill="#e8d5c4"/>
+  
+  <!-- Fork Icon (Right) -->
+  <path d="M 670 650 L 670 750 L 680 750 L 680 800 L 690 800 L 690 750 L 700 750 L 700 650 Z M 670 650 L 670 710 L 680 710 L 680 650 Z M 690 650 L 690 710 L 700 710 L 700 650 Z" fill="#e8d5c4"/>
+</svg>

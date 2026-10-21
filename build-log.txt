@@ -1,0 +1,50 @@
+
+> via-menu-pwa@1.5.8 build
+> react-scripts build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Creating an optimized production build...
+Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Compiled successfully.
+
+File sizes after gzip:
+
+  180.57 kB  build/static/js/main.20144409.js
+  45.08 kB   build/static/js/776.b721b653.chunk.js
+  13.86 kB   build/static/css/main.e5277b27.css
+  7.83 kB    build/static/js/368.5fba3582.chunk.js
+  5.97 kB    build/static/js/994.3a6afaa0.chunk.js
+  4.94 kB    build/static/js/783.b703df78.chunk.js
+  4.77 kB    build/static/js/376.01f0cdac.chunk.js
+  4.56 kB    build/static/js/847.f79854aa.chunk.js
+  3.72 kB    build/static/css/368.7b228653.chunk.css
+  3.05 kB    build/static/js/500.056b42ec.chunk.js
+  2.67 kB    build/static/js/118.d50bc327.chunk.js
+  1.63 kB    build/static/js/869.0dce5039.chunk.js
+  771 B      build/static/js/618.130089f9.chunk.js
+  668 B      build/static/css/618.4372bd50.chunk.css
+  550 B      build/static/js/583.33643261.chunk.js
+
+The project was built assuming it is hosted at /Via-Menu-Guide/.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+

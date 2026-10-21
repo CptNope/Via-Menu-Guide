@@ -41,6 +41,12 @@ const regionColors = {
   'Veneto': '#B22222',
   'Sicily': '#C04000',
   'Germany': '#FFCC00',
+  'Ireland': '#169B62',
+  'Netherlands': '#AE1C28',
+  'Massachusetts': '#1C2951',
+  'Maine': '#003478',
+  'Vermont': '#046A38',
+  'Connecticut': '#0D2C6C',
   'Spain': '#AA151B',
   'Portugal': '#006847',
   // USA
@@ -260,11 +266,11 @@ function InternationalWineMap({ wines, categoryName }) {
         <div className="map-header-content">
           <div>
             <h3 className="map-title">
-              🌍 {categoryName} - World Map
+              🌍 {categoryName} - {['Draught', 'Bottles & Cans', 'Non-Alcoholic Beer'].includes(categoryName) ? 'Brewery' : 'World'} Map
               <span className="map-toggle-icon">{isExpanded ? '▼' : '▶'}</span>
             </h3>
             <p className="map-subtitle">
-              {wines.length} wines across {regions.length} {regions.length === 1 ? 'region' : 'regions'}
+              {wines.length} {['Draught', 'Bottles & Cans', 'Non-Alcoholic Beer'].includes(categoryName) ? 'drinks' : 'wines'} across {regions.length} {regions.length === 1 ? 'region' : 'regions'}
               {!isExpanded && ' • Click to expand map'}
             </p>
           </div>

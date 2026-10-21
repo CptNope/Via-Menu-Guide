@@ -49,7 +49,12 @@
         "refreshing"
       ]
     },
-    "region": "Maine"
+    "region": "Maine",
+    "location": "Allagash Brewing, Portland, ME",
+    "coordinates": [
+      43.6574,
+      -70.2587
+    ]
   },
   {
     "id": "carlson-oak-hill-cider",
@@ -94,7 +99,12 @@
         "cider"
       ]
     },
-    "region": "Massachusetts"
+    "region": "Massachusetts",
+    "location": "Carlson Orchards, Harvard, MA",
+    "coordinates": [
+      42.4887,
+      -71.5537
+    ]
   },
   {
     "id": "wachusett-ipa-bottle",
@@ -144,7 +154,12 @@
         "easy-drinking"
       ]
     },
-    "region": "Massachusetts"
+    "region": "Massachusetts",
+    "location": "Wachusett Brewing, Westminster, MA",
+    "coordinates": [
+      42.5449,
+      -71.9108
+    ]
   },
   {
     "id": "behoppy-wormtown-ipa",
@@ -193,7 +208,12 @@
         "hoppy"
       ]
     },
-    "region": "Massachusetts"
+    "region": "Massachusetts",
+    "location": "Wormtown Brewery, Worcester, MA",
+    "coordinates": [
+      42.2626,
+      -71.8019
+    ]
   },
   {
     "id": "sun-cruiser-iced-tea-vodka",
@@ -240,7 +260,12 @@
         "lightly-sweet"
       ]
     },
-    "region": "Massachusetts"
+    "region": "Massachusetts",
+    "location": "Boston Beer Company, Boston, MA",
+    "coordinates": [
+      42.3116,
+      -71.1144
+    ]
   },
   {
     "id": "fiddlehead-ipa-bottle",
@@ -289,7 +314,12 @@
         "clean"
       ]
     },
-    "region": "Vermont"
+    "region": "Vermont",
+    "location": "Fiddlehead Brewing, Shelburne, VT",
+    "coordinates": [
+      44.3785,
+      -73.2285
+    ]
   },
   {
     "id": "high-noon-pineapple",
@@ -335,7 +365,12 @@
         "vodka-soda"
       ]
     },
-    "region": "California"
+    "region": "California",
+    "location": "E. & J. Gallo, Modesto, CA",
+    "coordinates": [
+      37.6393,
+      -120.9969
+    ]
   },
   {
     "id": "high-noon-peach",
@@ -381,7 +416,12 @@
         "vodka-soda"
       ]
     },
-    "region": "California"
+    "region": "California",
+    "location": "E. & J. Gallo, Modesto, CA",
+    "coordinates": [
+      37.6393,
+      -120.9969
+    ]
   },
   {
     "id": "high-noon-watermelon",
@@ -427,7 +467,12 @@
         "vodka-soda"
       ]
     },
-    "region": "California"
+    "region": "California",
+    "location": "E. & J. Gallo, Modesto, CA",
+    "coordinates": [
+      37.6393,
+      -120.9969
+    ]
   },
   {
     "id": "allagash-curieux",
@@ -469,6 +514,11 @@
         "complex"
       ]
     },
-    "region": "Maine"
+    "region": "Maine",
+    "location": "Allagash Brewing, Portland, ME",
+    "coordinates": [
+      43.6574,
+      -70.2587
+    ]
   }
 ]

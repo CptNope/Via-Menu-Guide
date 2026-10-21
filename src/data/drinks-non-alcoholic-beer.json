@@ -38,7 +38,13 @@
         "refreshing",
         "authentic"
       ]
-    }
+    },
+    "location": "Birra Peroni, Rome",
+    "coordinates": [
+      41.8933,
+      12.4829
+    ],
+    "region": "Italy"
   },
   {
     "id": "heineken-zero-bottle",
@@ -79,7 +85,13 @@
         "balanced",
         "premium"
       ]
-    }
+    },
+    "location": "Heineken, Zoeterwoude brewery, Netherlands",
+    "coordinates": [
+      52.1139,
+      4.5052
+    ],
+    "region": "Netherlands"
   },
   {
     "id": "sam-adams-just-the-haze",
@@ -120,7 +132,13 @@
         "hoppy",
         "craft"
       ]
-    }
+    },
+    "location": "Samuel Adams Boston Brewery, Jamaica Plain, MA",
+    "coordinates": [
+      42.3116,
+      -71.1144
+    ],
+    "region": "Massachusetts"
   },
   {
     "id": "athletic-run-wild-ipa",
@@ -161,6 +179,12 @@
         "bold-hops",
         "award-winning"
       ]
-    }
+    },
+    "location": "Athletic Brewing, Milford, CT",
+    "coordinates": [
+      41.2222,
+      -73.0571
+    ],
+    "region": "Connecticut"
   }
 ]

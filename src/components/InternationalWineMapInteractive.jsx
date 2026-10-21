@@ -58,6 +58,8 @@ const regionColors = {
   'Sicily': '#C04000',
   'Alsace': '#C04000',
   'Ireland': '#169B62',
+  'Netherlands': '#AE1C28',
+  'Connecticut': '#0D2C6C',
   // US Beer Regions
   'Massachusetts': '#1C2951',
   'Maine': '#003478',
@@ -309,6 +311,24 @@ const regionalLandmarks = {
       { name: 'Colmar', coords: [48.0794, 7.3585], description: 'Capital of Alsace wine', link: 'https://en.wikipedia.org/wiki/Colmar' },
       { name: 'Ribeauvillé', coords: [48.195, 7.319], description: 'Home of Trimbach', link: 'https://en.wikipedia.org/wiki/Ribeauvill%C3%A9' },
       { name: 'Strasbourg', coords: [48.5734, 7.7521], description: 'Regional capital', link: 'https://en.wikipedia.org/wiki/Strasbourg' }
+    ]
+  },
+  'Netherlands': {
+    center: [52.13, 4.5],
+    zoom: 9,
+    country: 'Netherlands',
+    landmarks: [
+      { name: 'Amsterdam', coords: [52.3676, 4.9041], description: 'Heineken founded here, 1864', link: 'https://en.wikipedia.org/wiki/Heineken' },
+      { name: 'Leiden', coords: [52.1601, 4.4970], description: 'City next to the Zoeterwoude brewery', link: 'https://en.wikipedia.org/wiki/Leiden' }
+    ]
+  },
+  'Connecticut': {
+    center: [41.22, -73.06],
+    zoom: 9,
+    country: 'USA',
+    landmarks: [
+      { name: 'Milford', coords: [41.2222, -73.0571], description: 'Athletic Brewing home brewery', link: 'https://en.wikipedia.org/wiki/Milford,_Connecticut' },
+      { name: 'New Haven', coords: [41.3083, -72.9279], description: 'Nearby city', link: 'https://en.wikipedia.org/wiki/New_Haven,_Connecticut' }
     ]
   },
   'Ireland': {

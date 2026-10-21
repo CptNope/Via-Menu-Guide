@@ -47,7 +47,12 @@
         "refreshing"
       ]
     },
-    "region": "Italy"
+    "region": "Italy",
+    "location": "Birra Peroni, Rome",
+    "coordinates": [
+      41.8933,
+      12.4829
+    ]
   },
   {
     "id": "guinness-draught",
@@ -95,7 +100,12 @@
         "creamy"
       ]
     },
-    "region": "Ireland"
+    "region": "Ireland",
+    "location": "Guinness, St. James's Gate Brewery, Dublin",
+    "coordinates": [
+      53.3433,
+      -6.2867
+    ]
   },
   {
     "id": "jacks-abby-copper-legend",
@@ -144,7 +154,12 @@
         "smooth"
       ]
     },
-    "region": "Massachusetts"
+    "region": "Massachusetts",
+    "location": "Jack's Abby Craft Lagers, Framingham, MA",
+    "coordinates": [
+      42.2773,
+      -71.4166
+    ]
   },
   {
     "id": "substance-ale-draught",
@@ -192,6 +207,11 @@
         "hoppy"
       ]
     },
-    "region": "Maine"
+    "region": "Maine",
+    "location": "Bissell Brothers, Portland, ME",
+    "coordinates": [
+      43.6574,
+      -70.2587
+    ]
   }
 ]

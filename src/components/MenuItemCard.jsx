@@ -181,7 +181,8 @@ function MenuItemCard({ item, pairingPreferences = null, isGlutenFilterActive = 
       {/* Beer Maps (draught and bottles/cans) */}
       {item.region && (
         item.category === "Draught" ||
-        item.category === "Bottles & Cans"
+        item.category === "Bottles & Cans" ||
+        item.category === "Non-Alcoholic Beer"
       ) && (
         <InternationalWineMapInteractive wine={item} />
       )}

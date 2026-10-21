@@ -18,6 +18,7 @@ const INTERNATIONAL_MAP = [
   "Cabernet & Blends Bottles", "Cabernet & Blends", "Sauvignon Blanc Bottles", "Sauvignon Blanc",
   "Chardonnay Bottles", "Chardonnay", "Interesting Whites Bottles", "Interesting Whites",
   "Sparkling Bottles", "Sparkling", "Half Bottles",
+  "Draught", "Bottles & Cans", "Non-Alcoholic Beer",
 ];
 const SPIRITS_MAP = ["Bourbon", "Rye", "Scotch", "Cognac", "Grappa", "Port", "Amaro & Digestivo"];
 

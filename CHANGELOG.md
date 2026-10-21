@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Glass Pinot Noir** cards show food pairings instead of being treated as a dish.
 - **Lunch dishes** (sandwiches, lunch classics) are now included when a drink suggests food, alongside the new $25 Entrées.
 - A drink's top food pairings are savory dishes; desserts appear in the by-course list.
+- Pairing explanations name the right drink ("medium-bodied cocktail", "Beer's bubbles cut through the richness") instead of always saying wine.
 
 ---
 

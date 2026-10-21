@@ -270,16 +270,35 @@ function scoreFlavorHarmony(foodProfile, drinkProfile) {
 }
 
 /**
+ * What to call the drink in an explanation ("medium-bodied cocktail", "Beer's bubbles ...")
+ */
+function drinkNoun(drink) {
+  const c = drink.category || '';
+  if (c === 'Mocktails') return 'mocktail';
+  if (c.includes('Cocktails')) return c === 'Coffee Cocktails' ? 'coffee drink' : 'cocktail';
+  if (['Draught', 'Bottles & Cans', 'Non-Alcoholic Beer', 'Beer'].includes(c)) return 'beer';
+  if (['Bourbon', 'Rye', 'Scotch'].includes(c)) return 'whiskey';
+  if (c === 'Port') return 'port';
+  if (c === 'Amaro & Digestivo') return 'amaro';
+  if (c === 'Cognac') return 'cognac';
+  if (c === 'Grappa') return 'grappa';
+  if (c === 'Wine Flights') return 'flight';
+  return 'wine';
+}
+
+/**
  * Generate human-readable explanation for the pairing
  */
 function generateExplanation(foodItem, drink, scoreBreakdown) {
   const reasons = [];
+  const noun = drinkNoun(drink);
+  const Noun = noun.charAt(0).toUpperCase() + noun.slice(1);
   const fp = foodItem.flavorProfile;
   const dp = drink.flavorProfile;
   
   // Body matching
   if (scoreBreakdown.bodyMatch >= 90) {
-    reasons.push(`Perfect body match - ${fp.body}-bodied food with ${dp.body}-bodied wine`);
+    reasons.push(`Perfect body match - ${fp.body}-bodied food with ${dp.body}-bodied ${noun}`);
   }
   
   // Acidity
@@ -290,7 +309,7 @@ function generateExplanation(foodItem, drink, scoreBreakdown) {
   // Richness
   if (fp.richness >= 7 && (dp.acidity >= 6 || dp.tannin >= 6 || dp.carbonation >= 6)) {
     const cutter = dp.carbonation >= 6 ? 'bubbles' : (dp.tannin >= 6 ? 'tannins' : 'acidity');
-    reasons.push(`Wine's ${cutter} cuts through the richness beautifully`);
+    reasons.push(`${Noun}'s ${cutter} cuts through the richness beautifully`);
   }
   
   // Spice
